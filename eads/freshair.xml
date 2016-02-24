@@ -29,7 +29,8 @@
         <item>Original encoding fro Word 6.0 file in EAD beta by Bill Landis</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -40,10 +41,9 @@
   <archdesc level="recordgrp" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf">Fresh Air Camp (University of Michigan)</corpname>
+        <corpname source="lcnaf" ref="/agents/corporate_entities/4740">Fresh Air Camp (University of Michigan)</corpname>
       </origination>
-      <unittitle encodinganalog="245">Fresh Air Camp (University of Michigan) Records <unitdate type="inclusive" encodinganalog="245$f" normal="1922/1979">1922-1979</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1967/1972">1967-1972</unitdate></unittitle>
-      <unitid label="Call No." encodinganalog="099" type="call number">9675 Aa 2</unitid>
+      <unittitle encodinganalog="245">Fresh Air Camp (University of Michigan) Records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1922/1979">1922-1979</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1967/1972">1967-1972</unitdate><unitid label="Call No." encodinganalog="099" type="call number">9675 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <abstract>Youth camp founded in 1921 by member of University of Michigan Student Christian Association to provide outdoor experience for underprivileged youths, management assumed by University of Michigan Institute for Human Adjustment in 1944 and later by the School of Education when emphasis changed to serving physically handicapped children. Records document management of the camp including reports on camp activities and research conducted at the camp.</abstract>
       <physdesc altrender="whole">
@@ -91,25 +91,24 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82013421">Reimann, Lewis Charles.</persname>
-        <persname source="lcnaf" encodinganalog="600">Evans, Thomas.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no00081132">Trippe, Matthew J.</persname>
-        <persname source="lcnaf" encodinganalog="600">Elliot, Raymond.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Fresh Air Camp (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82098946">University of Michigan. School of Education.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86071802">University of Michigan. Institute for Human Adjustment.</corpname>
-        <subject source="lcsh" encodinganalog="650">Camps for mentally handicapped children--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Camps--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">School camps--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Mentally handicapped children--Education--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Outdoor education--Michigan.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82013421" ref="/agents/people/8557">Reimann, Lewis Charles.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1787">Evans, Thomas.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no00081132" ref="/agents/people/8074">Trippe, Matthew J.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/794">Elliot, Raymond.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4740">Fresh Air Camp (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82098946" ref="/agents/corporate_entities/3312">University of Michigan. School of Education.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86071802" ref="/agents/corporate_entities/2828">University of Michigan. Institute for Human Adjustment.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7877">Camps for mentally handicapped children--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7357">Camps--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7878">School camps--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7879">Mentally handicapped children--Education--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7880">Outdoor education--Michigan.</subject>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Administrative File <unitdate type="inclusive" normal="1922/1977">1922-1977</unitdate></unittitle>
-          <physdesc altrender="whole">
+          <unittitle>Administrative File</unittitle><unitdate type="inclusive" normal="1922/1977">1922-1977</unitdate><physdesc altrender="whole">
             <extent altrender="materialtype spaceoccupied">1.1 linear feet</extent>
           </physdesc>
         </did>
@@ -118,15 +117,13 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container label="Box [590630349812536340786]" type="box">1</container>
-            <unittitle>Consultant Evaluations <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
-          </did>
+            <container label="Box [044929414368873809]" type="box">1</container>
+            <unittitle>Consultant Evaluations</unittitle><unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Box [590630349812536340786]" type="box">1</container>
-            <unittitle><genreform>Correspondence</genreform>, <unitdate type="inclusive" normal="1945/1971">1945-1971</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container label="Box [044929414368873809]" type="box">1</container>
+            <unittitle><genreform>Correspondence</genreform></unittitle><unitdate type="inclusive" normal="1945/1971">1945-1971</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -140,34 +137,29 @@
           </did>
           <c03 level="file">
             <did>
-              <container label="Box [590630349812536340786]" type="box">1</container>
-              <unittitle>Annual Reports <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></unittitle>
-            </did>
+              <container label="Box [044929414368873809]" type="box">1</container>
+              <unittitle>Annual Reports</unittitle><unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container label="Box [590630349812536340786]" type="box">1</container>
-              <unittitle><genreform>Director's Reports</genreform>, <unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate></unittitle>
-            </did>
+              <container label="Box [044929414368873809]" type="box">1</container>
+              <unittitle><genreform>Director's Reports</genreform></unittitle><unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container label="Box [590630349812536340786]" type="box">1</container>
-              <unittitle>Grant Proposal <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-            </did>
+              <container label="Box [044929414368873809]" type="box">1</container>
+              <unittitle>Grant Proposal</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container label="Box [590630349812536340786]" type="box">1</container>
-              <unittitle>Research Studies <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-            </did>
+              <container label="Box [044929414368873809]" type="box">1</container>
+              <unittitle>Research Studies</unittitle><unitdate type="inclusive" normal="1972">1972</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Box [590630349812536340786]" type="box">1</container>
-            <unittitle>Executive Committee <unitdate type="inclusive" normal="1929/1960">1929-1960</unitdate></unittitle>
-          </did>
+            <container label="Box [044929414368873809]" type="box">1</container>
+            <unittitle>Executive Committee</unittitle><unitdate type="inclusive" normal="1929/1960">1929-1960</unitdate></did>
           <odd>
             <p>scattered</p>
           </odd>
@@ -180,46 +172,39 @@
           </did>
           <c03 level="file">
             <did>
-              <container label="Box [590630349812536340786]" type="box">1</container>
-              <unittitle>Camp Inventory <unitdate type="inclusive" normal="1969/1972">1969-1972</unitdate></unittitle>
-            </did>
+              <container label="Box [044929414368873809]" type="box">1</container>
+              <unittitle>Camp Inventory</unittitle><unitdate type="inclusive" normal="1969/1972">1969-1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container label="Box [590630349812536340786]" type="box">1</container>
-              <unittitle><subject>Commodity Foods</subject>, <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-            </did>
+              <container label="Box [044929414368873809]" type="box">1</container>
+              <unittitle><subject>Commodity Foods</subject></unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container label="Box [590630349812536340786]" type="box">1</container>
-              <unittitle>Imprest Cash Fund <unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate></unittitle>
-            </did>
+              <container label="Box [044929414368873809]" type="box">1</container>
+              <unittitle>Imprest Cash Fund</unittitle><unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container label="Box [590630349812536340786]" type="box">1</container>
-              <unittitle>Land Purchase <unitdate type="inclusive" normal="1924">1924</unitdate></unittitle>
-            </did>
+              <container label="Box [044929414368873809]" type="box">1</container>
+              <unittitle>Land Purchase</unittitle><unitdate type="inclusive" normal="1924">1924</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container label="Box [590630349812536340786]" type="box">1</container>
-              <unittitle>Milk Program <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></unittitle>
-            </did>
+              <container label="Box [044929414368873809]" type="box">1</container>
+              <unittitle>Milk Program</unittitle><unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Box [590630349812536340786]" type="box">1</container>
-            <unittitle><subject>History</subject>, <unitdate type="inclusive" normal="1937">1937</unitdate>, <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-          </did>
+            <container label="Box [044929414368873809]" type="box">1</container>
+            <unittitle><subject>History</subject></unittitle><unitdate type="inclusive" normal="1937">1937</unitdate><unitdate type="inclusive" normal="1963">1963</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Box [590630349812536340786]" type="box">1</container>
-            <unittitle><subject>Physical Plant</subject>, <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-          </did>
+            <container label="Box [044929414368873809]" type="box">1</container>
+            <unittitle><subject>Physical Plant</subject></unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -227,36 +212,31 @@
           </did>
           <c03 level="file">
             <did>
-              <container label="Box [590630349812536340786]" type="box">1</container>
-              <unittitle>Academic Materials <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-            </did>
+              <container label="Box [044929414368873809]" type="box">1</container>
+              <unittitle>Academic Materials</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container label="Box [590630349812536340786]" type="box">1</container>
-              <unittitle>Camper Report Guidelines <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-            </did>
+              <container label="Box [044929414368873809]" type="box">1</container>
+              <unittitle>Camper Report Guidelines</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container label="Box [590630349812536340786]" type="box">1</container>
-              <unittitle>Counselor Applications <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container label="Box [044929414368873809]" type="box">1</container>
+              <unittitle>Counselor Applications</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container label="Box [590630349812536340786]" type="box">1</container>
-              <unittitle>Personnel Lists <unitdate type="inclusive" normal="1924/1951">1924-1951</unitdate>, <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <container label="Box [044929414368873809]" type="box">1</container>
+              <unittitle>Personnel Lists</unittitle><unitdate type="inclusive" normal="1924/1951">1924-1951</unitdate><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container label="Box [590630349812536340786]" type="box">1</container>
-              <unittitle>Senior Staff Meeting Notes <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <container label="Box [044929414368873809]" type="box">1</container>
+              <unittitle>Senior Staff Meeting Notes</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -265,19 +245,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container label="Box [590630349812536340786]" type="box">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1935">1935</unitdate>
-              </unittitle>
-            </did>
+              <container label="Box [044929414368873809]" type="box">1</container>
+              <unitdate type="inclusive" normal="1935">1935</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container label="Box [590630349812536340786]" type="box">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1968/1977">1968-1977</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container label="Box [044929414368873809]" type="box">1</container>
+              <unitdate type="inclusive" normal="1968/1977">1968-1977</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">5 folders</extent>
               </physdesc>
             </did>
@@ -289,22 +263,19 @@
           </did>
           <c03 level="file">
             <did>
-              <container label="Box [575049046803480973668]" type="box">2</container>
-              <unittitle>Camp Ledger <unitdate type="inclusive" normal="1922/1932">1922-1932</unitdate></unittitle>
-            </did>
+              <container label="Box [228120455459905691367897]" type="box">2</container>
+              <unittitle>Camp Ledger</unittitle><unitdate type="inclusive" normal="1922/1932">1922-1932</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container label="Box [575049046803480973668]" type="box">2</container>
-              <unittitle>Medical Record <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
-            </did>
+              <container label="Box [228120455459905691367897]" type="box">2</container>
+              <unittitle>Medical Record</unittitle><unitdate type="inclusive" normal="1979">1979</unitdate></did>
           </c03>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Activities <unitdate type="inclusive" normal="1965/1971">1965-1971</unitdate></unittitle>
-          <physdesc altrender="whole">
+          <unittitle>Activities</unittitle><unitdate type="inclusive" normal="1965/1971">1965-1971</unitdate><physdesc altrender="whole">
             <extent altrender="materialtype spaceoccupied">0.3 linear feet</extent>
           </physdesc>
         </did>
@@ -313,87 +284,73 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container label="Box [575049046803480973668]" type="box">2</container>
-            <unittitle>General <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></unittitle>
-          </did>
+            <container label="Box [228120455459905691367897]" type="box">2</container>
+            <unittitle>General</unittitle><unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Box [575049046803480973668]" type="box">2</container>
-            <unittitle>Camp Craft <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-          </did>
+            <container label="Box [228120455459905691367897]" type="box">2</container>
+            <unittitle>Camp Craft</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Box [575049046803480973668]" type="box">2</container>
-            <unittitle>Education Program <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-          </did>
+            <container label="Box [228120455459905691367897]" type="box">2</container>
+            <unittitle>Education Program</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Box [575049046803480973668]" type="box">2</container>
-            <unittitle><subject>Expressive Arts</subject>, <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-          </did>
+            <container label="Box [228120455459905691367897]" type="box">2</container>
+            <unittitle><subject>Expressive Arts</subject></unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Box [575049046803480973668]" type="box">2</container>
-            <unittitle><genreform>Filmstrips</genreform>, <unitdate type="inclusive" normal="1965/1969">1965-1969</unitdate></unittitle>
-          </did>
+            <container label="Box [228120455459905691367897]" type="box">2</container>
+            <unittitle><genreform>Filmstrips</genreform></unittitle><unitdate type="inclusive" normal="1965/1969">1965-1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Box [575049046803480973668]" type="box">2</container>
-            <unittitle><subject>Hobby Shop</subject>, <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></unittitle>
-          </did>
+            <container label="Box [228120455459905691367897]" type="box">2</container>
+            <unittitle><subject>Hobby Shop</subject></unittitle><unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Box [575049046803480973668]" type="box">2</container>
-            <unittitle><genreform>Movies</genreform>, <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-          </did>
+            <container label="Box [228120455459905691367897]" type="box">2</container>
+            <unittitle><genreform>Movies</genreform></unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Box [575049046803480973668]" type="box">2</container>
-            <unittitle><subject>Nature</subject>, <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></unittitle>
-          </did>
+            <container label="Box [228120455459905691367897]" type="box">2</container>
+            <unittitle><subject>Nature</subject></unittitle><unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Box [575049046803480973668]" type="box">2</container>
-            <unittitle><genreform>Newspapers</genreform>, <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></unittitle>
-          </did>
+            <container label="Box [228120455459905691367897]" type="box">2</container>
+            <unittitle><genreform>Newspapers</genreform></unittitle><unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Box [575049046803480973668]" type="box">2</container>
-            <unittitle>Programs <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-          </did>
+            <container label="Box [228120455459905691367897]" type="box">2</container>
+            <unittitle>Programs</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Box [575049046803480973668]" type="box">2</container>
-            <unittitle><subject>Science</subject>, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container label="Box [228120455459905691367897]" type="box">2</container>
+            <unittitle><subject>Science</subject></unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Box [575049046803480973668]" type="box">2</container>
-            <unittitle><genreform>Stories</genreform>, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container label="Box [228120455459905691367897]" type="box">2</container>
+            <unittitle><genreform>Stories</genreform></unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Box [575049046803480973668]" type="box">2</container>
-            <unittitle><subject>Waterfront</subject>, <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></unittitle>
-          </did>
+            <container label="Box [228120455459905691367897]" type="box">2</container>
+            <unittitle><subject>Waterfront</subject></unittitle><unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Reports <unitdate type="inclusive" normal="1927/1971">1927-1971</unitdate></unittitle>
-          <physdesc altrender="whole">
+          <unittitle>Reports</unittitle><unitdate type="inclusive" normal="1927/1971">1927-1971</unitdate><physdesc altrender="whole">
             <extent altrender="materialtype spaceoccupied">0.3 linear feet</extent>
           </physdesc>
         </did>
@@ -402,24 +359,21 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container label="Box [575049046803480973668]" type="box">2</container>
-            <unittitle>Annual Reports <unitdate type="inclusive" normal="1927/1971">1927-1971</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container label="Box [228120455459905691367897]" type="box">2</container>
+            <unittitle>Annual Reports</unittitle><unitdate type="inclusive" normal="1927/1971">1927-1971</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">7 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Box [575049046803480973668]" type="box">2</container>
-            <unittitle>Education Program <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-          </did>
+            <container label="Box [228120455459905691367897]" type="box">2</container>
+            <unittitle>Education Program</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle><genreform normal="Visual materials">Visual Materials</genreform>, <unitdate type="inclusive" normal="1969/1979">circa 1969-1970s</unitdate></unittitle>
-          <physdesc altrender="whole">
+          <unittitle><genreform normal="Visual materials">Visual Materials</genreform></unittitle><unitdate type="inclusive" normal="1969/1979">circa 1969-1970s</unitdate><physdesc altrender="whole">
             <extent altrender="materialtype spaceoccupied">0.3 linear feet</extent>
           </physdesc>
         </did>
@@ -434,7 +388,7 @@
           </did>
           <c03 level="file">
             <did>
-              <container label="Box [575049046803480973668]" type="box">2</container>
+              <container label="Box [228120455459905691367897]" type="box">2</container>
               <unittitle>
                 <subject>Grounds</subject>
               </unittitle>
@@ -442,7 +396,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container label="Box [575049046803480973668]" type="box">2</container>
+              <container label="Box [228120455459905691367897]" type="box">2</container>
               <unittitle>Groups</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
@@ -451,7 +405,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container label="Box [575049046803480973668]" type="box">2</container>
+              <container label="Box [228120455459905691367897]" type="box">2</container>
               <unittitle>Individuals</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">6 folders</extent>
@@ -461,7 +415,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container label="Box [575049046803480973668]" type="box">2</container>
+            <container label="Box [228120455459905691367897]" type="box">2</container>
             <unittitle>
               <genreform normal="Photographs">Negatives</genreform>
             </unittitle>
@@ -472,9 +426,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container label="Box [575049046803480973668]" type="box">2</container>
-            <unittitle>Camp Tamarack <genreform normal="Photographs">Slide</genreform> and Tape Program, <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-            <physdesc>
+            <container label="Box [228120455459905691367897]" type="box">2</container>
+            <unittitle>Camp Tamarack <genreform normal="Photographs">Slide</genreform> and Tape Program</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate><physdesc>
               <physfacet>5 inch; 3 3/4 ips; reel-to-reel-tape</physfacet>
             </physdesc>
           </did>

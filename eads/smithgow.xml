@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,10 +43,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Smith, Gordon W.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/6930">Smith, Gordon W.</persname>
       </origination>
-      <unittitle encodinganalog="245">Gordon W. Smith diary <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1919">1918-1919</unitdate></unittitle>
-      <abstract>Member of Co. D, 339th U.S. Infantry who served in the Allied intervention in Russia, 1918-1920, the "Polar Bear Expedition." Collection includes daily account of his activities as a member of the expeditionary force; also includes maps, clippings, and roster of Co. D, 339th Infantry, United States Army.</abstract>
+      <unittitle encodinganalog="245">Gordon W. Smith diary</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1918/1919">1918-1919</unitdate><abstract>Member of Co. D, 339th U.S. Infantry who served in the Allied intervention in Russia, 1918-1920, the "Polar Bear Expedition." Collection includes daily account of his activities as a member of the expeditionary force; also includes maps, clippings, and roster of Co. D, 339th Infantry, United States Army.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">89279 AA</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -79,14 +79,14 @@
       </p>
       <controlaccess>
         <head>Subjects</head>
-        <persname source="lcnaf" encodinganalog="600">Smith, Gordon W.</persname>
-        <geogname source="lcsh" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
-        <subject source="local" encodinganalog="690">Polar Bear Expedition.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6930">Smith, Gordon W.</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/879">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5715">World War, 1914-1918.</subject>
+        <subject source="local" encodinganalog="690" ref="/subjects/3516">Polar Bear Expedition.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Diaries.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3145">Diaries.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -96,11 +96,8 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [374169480804844266]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1918/1919">1918-1919</unitdate>
-            </unittitle>
-          </did>
+            <container type="folder" label="Folder [2500870345857502636]">1</container>
+            <unitdate type="inclusive" normal="1918/1919">1918-1919</unitdate></did>
         </c02>
       </c01>
     </dsc>

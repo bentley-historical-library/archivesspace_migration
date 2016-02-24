@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,10 +43,9 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Jones, Lawrence W. (Lawrence William)</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/4969">Jones, Lawrence W. (Lawrence William)</persname>
       </origination>
-      <unittitle encodinganalog="245">Lawrence W. Jones papers <unitdate type="inclusive" encodinganalog="245$f" normal="1952/2006">1952-2006</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1984/1989">1984-1989</unitdate></unittitle>
-      <abstract>University of Michigan physicist, involved in effort to have Superconducting Super Collider located in Michigan. Papers include documentation of the state of Michigan's proposal for the SSC and some material related to his teaching and professional activities.</abstract>
+      <unittitle encodinganalog="245">Lawrence W. Jones papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1952/2006">1952-2006</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1984/1989">1984-1989</unitdate><abstract>University of Michigan physicist, involved in effort to have Superconducting Super Collider located in Michigan. Papers include documentation of the state of Michigan's proposal for the SSC and some material related to his teaching and professional activities.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">02138 Aa 2 Ac</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <repository>
@@ -96,18 +96,18 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no91022935">Jones, Lawrence W. (Lawrence William), 1925-</persname>
-        <subject source="lcsh" encodinganalog="650">Particle accelerators--Location--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Superconducting super collider--Location--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Physics.</subject>
-        <subject source="lcsh" encodinganalog="650">Cosmic rays--Research.</subject>
-        <subject source="lcsh" encodinganalog="650">Nuclear physics.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Research.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Physics.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2008083180">Midwestern Universities Research Association.</corpname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n88026008">Stockbridge (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Dundee (Mich.)</geogname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no91022935" ref="/agents/people/7438">Jones, Lawrence W. (Lawrence William), 1925-</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8498">Particle accelerators--Location--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8499">Superconducting super collider--Location--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6883">Physics.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8500">Cosmic rays--Research.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7035">Nuclear physics.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Research.<term type="topical">Research.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/272">University of Michigan. Dept. of Physics.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2008083180" ref="/agents/corporate_entities/543">Midwestern Universities Research Association.</corpname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n88026008" ref="/subjects/1791">Stockbridge (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1073">Dundee (Mich.)</geogname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -120,9 +120,8 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [91892751452907128159367]">1</container>
-            <unittitle>Air Activation <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [08763499144016255]">1</container>
+            <unittitle>Air Activation</unittitle><unitdate type="inclusive" normal="1987">1987</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -130,34 +129,29 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3532114584984735627]">5</container>
-              <unittitle>"Dr. Jones," <unitdate>undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [4725976373241885783499586]">5</container>
+              <unittitle>"Dr. Jones,"</unittitle><unitdate>undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3532114584984735627]">5</container>
-              <unittitle>"Jackson, Sen. Smith, Jones, Sinclair, Shively," <unitdate type="inclusive" normal="1988-04-23">April 23, 1988</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [4725976373241885783499586]">5</container>
+              <unittitle>"Jackson, Sen. Smith, Jones, Sinclair, Shively,"</unittitle><unitdate type="inclusive" normal="1988-04-23">April 23, 1988</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3532114584984735627]">5</container>
-              <unittitle>"Larry Jones on J. P. McCarthy's 'Focus,'" <unitdate type="inclusive" normal="1988-02-02">February 2, 1988</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [4725976373241885783499586]">5</container>
+              <unittitle>"Larry Jones on J. P. McCarthy's 'Focus,'"</unittitle><unitdate type="inclusive" normal="1988-02-02">February 2, 1988</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3532114584984735627]">5</container>
-              <unittitle>"SSC-2 parts," <unitdate>undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [4725976373241885783499586]">5</container>
+              <unittitle>"SSC-2 parts,"</unittitle><unitdate>undated</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [91892751452907128159367]">1</container>
-            <unittitle>Cartoon, signed by Gov. James Blanchard <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [08763499144016255]">1</container>
+            <unittitle>Cartoon, signed by Gov. James Blanchard</unittitle><unitdate type="inclusive" normal="1988">1988</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -165,41 +159,29 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [91892751452907128159367]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1983/1984">1983-1984</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [08763499144016255]">1</container>
+              <unitdate type="inclusive" normal="1983/1984">1983-1984</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [91892751452907128159367]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1985/1986">1985-1986</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [08763499144016255]">1</container>
+              <unitdate type="inclusive" normal="1985/1986">1985-1986</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [91892751452907128159367]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1987">1987</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [08763499144016255]">1</container>
+              <unitdate type="inclusive" normal="1987">1987</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [91892751452907128159367]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [08763499144016255]">1</container>
+              <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -207,105 +189,88 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [91892751452907128159367]">1</container>
-            <unittitle>Committee on Institutional Cooperation (CIC) <unitdate type="inclusive" normal="1984/1986">1984-1986</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [08763499144016255]">1</container>
+            <unittitle>Committee on Institutional Cooperation (CIC)</unittitle><unitdate type="inclusive" normal="1984/1986">1984-1986</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [91892751452907128159367]">1</container>
-            <unittitle>Contacts <unitdate type="inclusive" normal="1984/1988">1984-1988</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [08763499144016255]">1</container>
+            <unittitle>Contacts</unittitle><unitdate type="inclusive" normal="1984/1988">1984-1988</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [91892751452907128159367]">1</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1983/1989">1983-1989</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [08763499144016255]">1</container>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1983/1989">1983-1989</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [91892751452907128159367]">1</container>
-            <unittitle>"House Concurrent Resolution No. 1: A Concurrent Resolution Honoring the Superconducting Super Collider Commission and Staff," <unitdate type="inclusive" normal="1989-01-11">January 11, 1989</unitdate> (located in outsize folder)</unittitle>
-          </did>
+            <container type="box" label="Box [08763499144016255]">1</container>
+            <unittitle>"House Concurrent Resolution No. 1: A Concurrent Resolution Honoring the Superconducting Super Collider Commission and Staff," (located in outsize folder)</unittitle><unitdate type="inclusive" normal="1989-01-11">January 11, 1989</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [91892751452907128159367]">1</container>
-            <unittitle><title render="italic">Information on Site Selection Process for DOE's Super Collider</title>, <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [08763499144016255]">1</container>
+            <unittitle><title render="italic">Information on Site Selection Process for DOE's Super Collider</title></unittitle><unitdate type="inclusive" normal="1989">1989</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [91892751452907128159367]">1</container>
-            <unittitle>Invitation for Site Proposals <unitdate type="inclusive" normal="1985/1988">1985-1988</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [08763499144016255]">1</container>
+            <unittitle>Invitation for Site Proposals</unittitle><unitdate type="inclusive" normal="1985/1988">1985-1988</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [91892751452907128159367]">1</container>
-            <unittitle>Jacobi-Brock <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [08763499144016255]">1</container>
+            <unittitle>Jacobi-Brock</unittitle><unitdate type="inclusive" normal="1988">1988</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [91892751452907128159367]">1</container>
-            <unittitle>Maps <unitdate>undated</unitdate> (some located in outsize folder)</unittitle>
-          </did>
+            <container type="box" label="Box [08763499144016255]">1</container>
+            <unittitle>Maps (some located in outsize folder)</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [91892751452907128159367]">1</container>
-            <unittitle>"Material Prepared for the State of Michigan Senate Energy Committee," <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [08763499144016255]">1</container>
+            <unittitle>"Material Prepared for the State of Michigan Senate Energy Committee,"</unittitle><unitdate type="inclusive" normal="1987">1987</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Oversize Folder [65397564891472129314]">1</container>
-            <unittitle>Michigan Superconducting Super Collider Commission Appointment Certificate <unitdate type="inclusive" normal="1989-06-23">June 23, 1989</unitdate> (located in outsize folder)</unittitle>
-          </did>
+            <container type="folder" label="Oversize Folder [342175445104791101188]">1</container>
+            <unittitle>Michigan Superconducting Super Collider Commission Appointment Certificate (located in outsize folder)</unittitle><unitdate type="inclusive" normal="1989-06-23">June 23, 1989</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [91892751452907128159367]">1</container>
-            <unittitle>"Michigan Superconducting Super Collider Health and Environmental Safety Issues-Questions and Answers," <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [08763499144016255]">1</container>
+            <unittitle>"Michigan Superconducting Super Collider Health and Environmental Safety Issues-Questions and Answers,"</unittitle><unitdate type="inclusive" normal="1988">1988</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [91892751452907128159367]">1</container>
-            <unittitle>Physics <unitdate type="inclusive" normal="1983/1987">1983-1987</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [08763499144016255]">1</container>
+            <unittitle>Physics</unittitle><unitdate type="inclusive" normal="1983/1987">1983-1987</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [91892751452907128159367]">1</container>
-            <unittitle>Politics <unitdate type="inclusive" normal="1991/1994">1991-1994</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [08763499144016255]">1</container>
+            <unittitle>Politics</unittitle><unitdate type="inclusive" normal="1991/1994">1991-1994</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Oversize Folder [65397564891472129314]">1</container>
-            <unittitle>Poster <unitdate>undated</unitdate> (located in outsize folder)</unittitle>
-          </did>
+            <container type="folder" label="Oversize Folder [342175445104791101188]">1</container>
+            <unittitle>Poster (located in outsize folder)</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [91892751452907128159367]">1</container>
-            <unittitle>"Preliminary Report on Ground Motion Measurements for Michigan Superconducting Super Collider," <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [08763499144016255]">1</container>
+            <unittitle>"Preliminary Report on Ground Motion Measurements for Michigan Superconducting Super Collider,"</unittitle><unitdate type="inclusive" normal="1987">1987</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [91892751452907128159367]">1</container>
-            <unittitle>"Proceedings of the Meetings on the Superconducting Super Collider Between Representatives of Industry and High Energy Physics," <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [08763499144016255]">1</container>
+            <unittitle>"Proceedings of the Meetings on the Superconducting Super Collider Between Representatives of Industry and High Energy Physics,"</unittitle><unitdate type="inclusive" normal="1985">1985</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [91892751452907128159367]">1</container>
-            <unittitle>Proposal and Budget <unitdate type="inclusive" normal="1984/1992">1984-1992</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [08763499144016255]">1</container>
+            <unittitle>Proposal and Budget</unittitle><unitdate type="inclusive" normal="1984/1992">1984-1992</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -313,56 +278,44 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [91892751452907128159367]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1985/1986">1985-1986</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [08763499144016255]">1</container>
+              <unitdate type="inclusive" normal="1985/1986">1985-1986</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [91892751452907128159367]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [08763499144016255]">1</container>
+              <unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [91892751452907128159367]">1</container>
-            <unittitle><title render="italic">Report of the 1990 HEPAP Subpanel on Superconducting Super Collider Cost Estimate Oversight</title>, <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [08763499144016255]">1</container>
+            <unittitle><title render="italic">Report of the 1990 HEPAP Subpanel on Superconducting Super Collider Cost Estimate Oversight</title></unittitle><unitdate type="inclusive" normal="1990">1990</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [91892751452907128159367]">1</container>
-            <unittitle>"Scope of Services to Prepare Two Site Proposals to Locate the Superconducting Super Collider in the State of Michigan," <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [08763499144016255]">1</container>
+            <unittitle>"Scope of Services to Prepare Two Site Proposals to Locate the Superconducting Super Collider in the State of Michigan,"</unittitle><unitdate type="inclusive" normal="1987">1987</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6454202043009735670]">2</container>
-            <unittitle>"Site Evaluation-Superconducting Super Collider Indiana/Michigan/Ohio," <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [8555344495801391835201]">2</container>
+            <unittitle>"Site Evaluation-Superconducting Super Collider Indiana/Michigan/Ohio,"</unittitle><unitdate type="inclusive" normal="1985">1985</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6454202043009735670]">2</container>
-            <unittitle>"Site-Specific Conceptual Design Executive Summary," <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [8555344495801391835201]">2</container>
+            <unittitle>"Site-Specific Conceptual Design Executive Summary,"</unittitle><unitdate type="inclusive" normal="1990">1990</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6454202043009735670]">2</container>
-            <unittitle>Sites <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [8555344495801391835201]">2</container>
+            <unittitle>Sites</unittitle><unitdate type="inclusive" normal="1987">1987</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6454202043009735670]">2</container>
-            <unittitle>"Siting the Superconducting Super Collider in Michigan," <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [8555344495801391835201]">2</container>
+            <unittitle>"Siting the Superconducting Super Collider in Michigan,"</unittitle><unitdate type="inclusive" normal="1989">1989</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -372,7 +325,7 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6454202043009735670]">2</container>
+              <container type="box" label="Box [8555344495801391835201]">2</container>
               <unittitle>Site Proposal</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">9 volumes</extent>
@@ -388,7 +341,7 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6454202043009735670]">2</container>
+              <container type="box" label="Box [8555344495801391835201]">2</container>
               <unittitle>Site Proposal</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">9 volumes</extent>
@@ -397,12 +350,11 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [95587010490452018]">3</container>
-              <unittitle>Supplements Submitted <unitdate type="inclusive" normal="1988-03-15">March 15, 1988</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [407786403747822548]">3</container>
+              <unittitle>Supplements Submitted</unittitle><unitdate type="inclusive" normal="1988-03-15">March 15, 1988</unitdate></did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [95587010490452018]">3</container>
+                <container type="box" label="Box [407786403747822548]">3</container>
                 <unittitle>
                   <title render="italic">Supplementary Data-Maps</title>
                 </unittitle>
@@ -410,7 +362,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [95587010490452018]">3</container>
+                <container type="box" label="Box [407786403747822548]">3</container>
                 <unittitle>
                   <title render="italic">ISP Appendix D</title>
                 </unittitle>
@@ -418,7 +370,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [95587010490452018]">3</container>
+                <container type="box" label="Box [407786403747822548]">3</container>
                 <unittitle>
                   <title render="italic">Attachment 1-General Supplementary Data</title>
                 </unittitle>
@@ -426,7 +378,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [95587010490452018]">3</container>
+                <container type="box" label="Box [407786403747822548]">3</container>
                 <unittitle>
                   <title render="italic">Attachment 2-Site Specific Supplementary Data</title>
                 </unittitle>
@@ -434,7 +386,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [95587010490452018]">3</container>
+                <container type="box" label="Box [407786403747822548]">3</container>
                 <unittitle>
                   <title render="italic">Attachment 3-Utility Data</title>
                 </unittitle>
@@ -443,11 +395,10 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Supplements Submitted <unitdate type="inclusive" normal="1988-03-31">March 31, 1988</unitdate></unittitle>
-            </did>
+              <unittitle>Supplements Submitted</unittitle><unitdate type="inclusive" normal="1988-03-31">March 31, 1988</unitdate></did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [95587010490452018]">3</container>
+                <container type="box" label="Box [407786403747822548]">3</container>
                 <unittitle>
                   <title render="italic">Enclosures 1 and 2-Supplementary Data for BQL Sites</title>
                 </unittitle>
@@ -455,7 +406,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [95587010490452018]">3</container>
+                <container type="box" label="Box [407786403747822548]">3</container>
                 <unittitle>
                   <title render="italic">Enclosure 3-Supplementary Data for BQL Sites</title>
                 </unittitle>
@@ -465,39 +416,33 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [95587010490452018]">3</container>
-            <unittitle>"Southeast Michigan Superconducting Super Collider Feasibility Study and Preliminary Site Evaluation (Draft)," <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [407786403747822548]">3</container>
+            <unittitle>"Southeast Michigan Superconducting Super Collider Feasibility Study and Preliminary Site Evaluation (Draft),"</unittitle><unitdate type="inclusive" normal="1986">1986</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [95587010490452018]">3</container>
-            <unittitle>Speaking Engagements and History <unitdate type="inclusive" normal="1985/1992">1985-1992</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [407786403747822548]">3</container>
+            <unittitle>Speaking Engagements and History</unittitle><unitdate type="inclusive" normal="1985/1992">1985-1992</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [95587010490452018]">3</container>
-            <unittitle>Stockbridge Site Visit <unitdate type="inclusive" normal="1988-05-31/1988-06-03">May 31-June 3, 1988</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [407786403747822548]">3</container>
+            <unittitle>Stockbridge Site Visit</unittitle><unitdate type="inclusive" normal="1988-05-31/1988-06-03">May 31-June 3, 1988</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [95587010490452018]">3</container>
-            <unittitle>Superconducting Super Collider Briefing Materials <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [407786403747822548]">3</container>
+            <unittitle>Superconducting Super Collider Briefing Materials</unittitle><unitdate type="inclusive" normal="1986">1986</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [95587010490452018]">3</container>
-            <unittitle>"Superconducting Super Collider Needs Assessment Survey of Physicists," <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [407786403747822548]">3</container>
+            <unittitle>"Superconducting Super Collider Needs Assessment Survey of Physicists,"</unittitle><unitdate type="inclusive" normal="1988">1988</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [95587010490452018]">3</container>
-            <unittitle>Videotape Scripts <unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [407786403747822548]">3</container>
+            <unittitle>Videotape Scripts</unittitle><unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -505,39 +450,34 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3532114584984735627]">5</container>
-              <unittitle>"Legislative Forum," <unitdate type="inclusive" normal="1987-07-30">July 30, 1987</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [4725976373241885783499586]">5</container>
+              <unittitle>"Legislative Forum,"</unittitle><unitdate type="inclusive" normal="1987-07-30">July 30, 1987</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3532114584984735627]">5</container>
-              <unittitle><title render="italic">Stockbridge: On Target</title>, <unitdate>undated</unitdate></unittitle>
-              <physdesc>
+              <container type="box" label="Box [4725976373241885783499586]">5</container>
+              <unittitle><title render="italic">Stockbridge: On Target</title></unittitle><unitdate>undated</unitdate><physdesc>
                 <physfacet>13 minutes</physfacet>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3532114584984735627]">5</container>
-              <unittitle><title render="italic">Stockbridge: On Target</title>, <unitdate>undated</unitdate></unittitle>
-              <physdesc>
+              <container type="box" label="Box [4725976373241885783499586]">5</container>
+              <unittitle><title render="italic">Stockbridge: On Target</title></unittitle><unitdate>undated</unitdate><physdesc>
                 <physfacet>8 minutes</physfacet>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3532114584984735627]">5</container>
-              <unittitle>"SSC and HEP," <unitdate>undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [4725976373241885783499586]">5</container>
+              <unittitle>"SSC and HEP,"</unittitle><unitdate>undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3532114584984735627]">5</container>
-              <unittitle>"SSC Overflight," <unitdate>undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [4725976373241885783499586]">5</container>
+              <unittitle>"SSC Overflight,"</unittitle><unitdate>undated</unitdate></did>
           </c03>
         </c02>
       </c01>
@@ -550,9 +490,8 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83755610484732875525]">4</container>
-            <unittitle>Alumni <unitdate type="inclusive" normal="1983/1986">1983-1986</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9665487144725747110408]">4</container>
+            <unittitle>Alumni</unittitle><unitdate type="inclusive" normal="1983/1986">1983-1986</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -560,21 +499,18 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3532114584984735627]">5</container>
-              <unittitle>"'Focus' J.P. Hydrogen," <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [4725976373241885783499586]">5</container>
+              <unittitle>"'Focus' J.P. Hydrogen,"</unittitle><unitdate type="inclusive" normal="1973">1973</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3532114584984735627]">5</container>
-              <unittitle>"History of Physics Roundtable," <unitdate type="inclusive" normal="1985-05">May 1985</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [4725976373241885783499586]">5</container>
+              <unittitle>"History of Physics Roundtable,"</unittitle><unitdate type="inclusive" normal="1985-05">May 1985</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3532114584984735627]">5</container>
-              <unittitle>"Remarks by Martin Perl on the Occasion of the Retirement Dinner of Prof. Lawrence Jones," <unitdate type="inclusive" normal="1998-04-25">April 25, 1998</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [4725976373241885783499586]">5</container>
+              <unittitle>"Remarks by Martin Perl on the Occasion of the Retirement Dinner of Prof. Lawrence Jones,"</unittitle><unitdate type="inclusive" normal="1998-04-25">April 25, 1998</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -583,45 +519,38 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [83755610484732875525]">4</container>
-              <unittitle>Proposal Correspondence <unitdate type="inclusive" normal="1966/1969">1966-1969</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9665487144725747110408]">4</container>
+              <unittitle>Proposal Correspondence</unittitle><unitdate type="inclusive" normal="1966/1969">1966-1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [83755610484732875525]">4</container>
-              <unittitle>Proposal <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9665487144725747110408]">4</container>
+              <unittitle>Proposal</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [83755610484732875525]">4</container>
-              <unittitle>Appendix <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9665487144725747110408]">4</container>
+              <unittitle>Appendix</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [83755610484732875525]">4</container>
-              <unittitle>Correspondence and Proposal <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9665487144725747110408]">4</container>
+              <unittitle>Correspondence and Proposal</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [83755610484732875525]">4</container>
-              <unittitle>Correspondence and Proposal <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9665487144725747110408]">4</container>
+              <unittitle>Correspondence and Proposal</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [83755610484732875525]">4</container>
-              <unittitle>"The History, Highlights, and Outcome of the Michigan-Wisconsin Echo Lake Cosmic Ray Program, 1965-1972," <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9665487144725747110408]">4</container>
+              <unittitle>"The History, Highlights, and Outcome of the Michigan-Wisconsin Echo Lake Cosmic Ray Program, 1965-1972,"</unittitle><unitdate type="inclusive" normal="1973">1973</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [83755610484732875525]">4</container>
-              <unittitle>Proposal <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9665487144725747110408]">4</container>
+              <unittitle>Proposal</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -630,94 +559,79 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [83755610484732875525]">4</container>
-              <unittitle>Concepts in 20th Century Physics (College Honors 252-001) <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9665487144725747110408]">4</container>
+              <unittitle>Concepts in 20th Century Physics (College Honors 252-001)</unittitle><unitdate type="inclusive" normal="1997">1997</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [83755610484732875525]">4</container>
-              <unittitle>Elementary Particles (Physics 468) <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9665487144725747110408]">4</container>
+              <unittitle>Elementary Particles (Physics 468)</unittitle><unitdate type="inclusive" normal="1992">1992</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [83755610484732875525]">4</container>
-              <unittitle>Energy and Environment (Physics 250) <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9665487144725747110408]">4</container>
+              <unittitle>Energy and Environment (Physics 250)</unittitle><unitdate type="inclusive" normal="1989">1989</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [83755610484732875525]">4</container>
-              <unittitle>Intermediate Optics (Physics 402) <unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9665487144725747110408]">4</container>
+              <unittitle>Intermediate Optics (Physics 402)</unittitle><unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [83755610484732875525]">4</container>
-              <unittitle>Intermediate Thermodynamics (Physics 406) <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9665487144725747110408]">4</container>
+              <unittitle>Intermediate Thermodynamics (Physics 406)</unittitle><unitdate type="inclusive" normal="1979">1979</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [83755610484732875525]">4</container>
-              <unittitle>Introduction to Mechanics, Waves and Thermodynamics-Honors (Physics 160) <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9665487144725747110408]">4</container>
+              <unittitle>Introduction to Mechanics, Waves and Thermodynamics-Honors (Physics 160)</unittitle><unitdate type="inclusive" normal="1994">1994</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [83755610484732875525]">4</container>
-              <unittitle>Introduction to Physics (Physics 103 and 104) <unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9665487144725747110408]">4</container>
+              <unittitle>Introduction to Physics (Physics 103 and 104)</unittitle><unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [83755610484732875525]">4</container>
-              <unittitle>Introductory Physics with Calculus (Physics 242) <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9665487144725747110408]">4</container>
+              <unittitle>Introductory Physics with Calculus (Physics 242)</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [83755610484732875525]">4</container>
-              <unittitle>Non-Calculus Elementary Physics (Physics 126) <unitdate type="inclusive" normal="1980/1981">1980-1981</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9665487144725747110408]">4</container>
+              <unittitle>Non-Calculus Elementary Physics (Physics 126)</unittitle><unitdate type="inclusive" normal="1980/1981">1980-1981</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [83755610484732875525]">4</container>
-              <unittitle>Particle Beams, Accelerators and Detectors (Physics 458) <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9665487144725747110408]">4</container>
+              <unittitle>Particle Beams, Accelerators and Detectors (Physics 458)</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [83755610484732875525]">4</container>
-              <unittitle>Physics of Music (Physics 288/489) <unitdate type="inclusive" normal="1991/1996">1991-1996</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9665487144725747110408]">4</container>
+              <unittitle>Physics of Music (Physics 288/489)</unittitle><unitdate type="inclusive" normal="1991/1996">1991-1996</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [83755610484732875525]">4</container>
-              <unittitle>Radioactivity (Physics 303) <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9665487144725747110408]">4</container>
+              <unittitle>Radioactivity (Physics 303)</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83755610484732875525]">4</container>
-            <unittitle>Curriculum Vitae <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9665487144725747110408]">4</container>
+            <unittitle>Curriculum Vitae</unittitle><unitdate type="inclusive" normal="2001">2001</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83755610484732875525]">4</container>
-            <unittitle>Department of Physics Correspondence <unitdate type="inclusive" normal="1982/1996">1982-1996</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9665487144725747110408]">4</container>
+            <unittitle>Department of Physics Correspondence</unittitle><unitdate type="inclusive" normal="1982/1996">1982-1996</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83755610484732875525]">4</container>
-            <unittitle>"Final Report-Cyclotron Laboratory," <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9665487144725747110408]">4</container>
+            <unittitle>"Final Report-Cyclotron Laboratory,"</unittitle><unitdate type="inclusive" normal="1983">1983</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -725,18 +639,16 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [83755610484732875525]">4</container>
-              <unittitle>General <unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [9665487144725747110408]">4</container>
+              <unittitle>General</unittitle><unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [83755610484732875525]">4</container>
-              <unittitle>Michigan Working Group <unitdate type="inclusive" normal="1954/1955">1954-1955</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9665487144725747110408]">4</container>
+              <unittitle>Michigan Working Group</unittitle><unitdate type="inclusive" normal="1954/1955">1954-1955</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -745,15 +657,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [83755610484732875525]">4</container>
-              <unittitle>General <unitdate type="inclusive" normal="1953/1955">1953-1955</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9665487144725747110408]">4</container>
+              <unittitle>General</unittitle><unitdate type="inclusive" normal="1953/1955">1953-1955</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [83755610484732875525]">4</container>
-              <unittitle>Notes <unitdate type="inclusive" normal="1953/1956">1953-1956</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [9665487144725747110408]">4</container>
+              <unittitle>Notes</unittitle><unitdate type="inclusive" normal="1953/1956">1953-1956</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -761,15 +671,13 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3532114584984735627]">5</container>
-            <unittitle>Miscellaneous Clippings <unitdate type="inclusive" normal="1957/1983">1957-1983</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [4725976373241885783499586]">5</container>
+            <unittitle>Miscellaneous Clippings</unittitle><unitdate type="inclusive" normal="1957/1983">1957-1983</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3532114584984735627]">5</container>
-            <unittitle>Professional Correspondence <unitdate type="inclusive" normal="1970/1998">1970-1998</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [4725976373241885783499586]">5</container>
+            <unittitle>Professional Correspondence</unittitle><unitdate type="inclusive" normal="1970/1998">1970-1998</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -777,46 +685,39 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3532114584984735627]">5</container>
-              <unittitle>General <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [4725976373241885783499586]">5</container>
+              <unittitle>General</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3532114584984735627]">5</container>
-              <unittitle>Clippings <unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [4725976373241885783499586]">5</container>
+              <unittitle>Clippings</unittitle><unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3532114584984735627]">5</container>
-              <unittitle>Maps <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [4725976373241885783499586]">5</container>
+              <unittitle>Maps</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3532114584984735627]">5</container>
-              <unittitle>Report of the National Academy of Sciences' Site Evaluation Committee <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [4725976373241885783499586]">5</container>
+              <unittitle>Report of the National Academy of Sciences' Site Evaluation Committee</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3532114584984735627]">5</container>
-              <unittitle>Report on Soil Investigation of Michigan Site No. 1 for the Proposed AEC Accelerator-Northfield Township <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [4725976373241885783499586]">5</container>
+              <unittitle>Report on Soil Investigation of Michigan Site No. 1 for the Proposed AEC Accelerator-Northfield Township</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3532114584984735627]">5</container>
-            <unittitle>Terwilliger, Kent <unitdate type="inclusive" normal="1952/1989">1952-1989</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [4725976373241885783499586]">5</container>
+            <unittitle>Terwilliger, Kent</unittitle><unitdate type="inclusive" normal="1952/1989">1952-1989</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3532114584984735627]">5</container>
-            <unittitle>Universities Research Association (URA)-Annual Meeting of the Council of Presidents <unitdate type="inclusive" normal="1988/1998">1988-1998</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [4725976373241885783499586]">5</container>
+            <unittitle>Universities Research Association (URA)-Annual Meeting of the Council of Presidents</unittitle><unitdate type="inclusive" normal="1988/1998">1988-1998</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -824,15 +725,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3532114584984735627]">5</container>
-              <unittitle>"Physics at Michigan," <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [4725976373241885783499586]">5</container>
+              <unittitle>"Physics at Michigan,"</unittitle><unitdate type="inclusive" normal="1985">1985</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3532114584984735627]">5</container>
-              <unittitle>William L. Williams Memorial <unitdate type="inclusive" normal="1986/1988">1986-1988</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [4725976373241885783499586]">5</container>
+              <unittitle>William L. Williams Memorial</unittitle><unitdate type="inclusive" normal="1986/1988">1986-1988</unitdate></did>
           </c03>
         </c02>
       </c01>
@@ -850,235 +749,148 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2602312641782430490]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1952">1952</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [876764905446823757]">6</container>
+              <unitdate type="inclusive" normal="1952">1952</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2602312641782430490]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1953/1956">1953-1956</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [876764905446823757]">6</container>
+              <unitdate type="inclusive" normal="1953/1956">1953-1956</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2602312641782430490]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1958/1961">1958-1961</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [876764905446823757]">6</container>
+              <unitdate type="inclusive" normal="1958/1961">1958-1961</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2602312641782430490]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1960/1962">1960-1962</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [876764905446823757]">6</container>
+              <unitdate type="inclusive" normal="1960/1962">1960-1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2602312641782430490]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1961-08/1963-12">August 1961-December 1963</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [876764905446823757]">6</container>
+              <unitdate type="inclusive" normal="1961-08/1963-12">August 1961-December 1963</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2602312641782430490]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1965-01/1965-07">January 1965-July 1965</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [876764905446823757]">6</container>
+              <unitdate type="inclusive" normal="1965-01/1965-07">January 1965-July 1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2602312641782430490]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1965-07/1965-12">July 1965-December 1965</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [876764905446823757]">6</container>
+              <unitdate type="inclusive" normal="1965-07/1965-12">July 1965-December 1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2602312641782430490]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1965-12/1966-06">December 1965-June 1966</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [876764905446823757]">6</container>
+              <unitdate type="inclusive" normal="1965-12/1966-06">December 1965-June 1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6295744708230189512]">7</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1966-07/1966-12">July 1966-December 1966</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [6182227347250812104256]">7</container>
+              <unitdate type="inclusive" normal="1966-07/1966-12">July 1966-December 1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6295744708230189512]">7</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1967-01/1967-12">January 1967-December 1967</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [6182227347250812104256]">7</container>
+              <unitdate type="inclusive" normal="1967-01/1967-12">January 1967-December 1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6295744708230189512]">7</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1968">1968</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [6182227347250812104256]">7</container>
+              <unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6295744708230189512]">7</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1969">1969</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [6182227347250812104256]">7</container>
+              <unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6295744708230189512]">7</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [6182227347250812104256]">7</container>
+              <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6295744708230189512]">7</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1972">1972</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [6182227347250812104256]">7</container>
+              <unitdate type="inclusive" normal="1972">1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6295744708230189512]">7</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1972">1972</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [6182227347250812104256]">7</container>
+              <unitdate type="inclusive" normal="1972">1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6295744708230189512]">7</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1973">1973</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [6182227347250812104256]">7</container>
+              <unitdate type="inclusive" normal="1973">1973</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6295744708230189512]">7</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1974">1974</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [6182227347250812104256]">7</container>
+              <unitdate type="inclusive" normal="1974">1974</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [34504383934575246106]">8</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1976/1978">1976-1978</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [24348826477878216]">8</container>
+              <unitdate type="inclusive" normal="1976/1978">1976-1978</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [34504383934575246106]">8</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1978/1980">1978-1980</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [24348826477878216]">8</container>
+              <unitdate type="inclusive" normal="1978/1980">1978-1980</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [34504383934575246106]">8</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1981/1982">1981-1982</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [24348826477878216]">8</container>
+              <unitdate type="inclusive" normal="1981/1982">1981-1982</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [34504383934575246106]">8</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1986/1988">1986-1988</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [24348826477878216]">8</container>
+              <unitdate type="inclusive" normal="1986/1988">1986-1988</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [34504383934575246106]">8</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [24348826477878216]">8</container>
+              <unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [34504383934575246106]">8</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [24348826477878216]">8</container>
+              <unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [34504383934575246106]">8</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1993">1993</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [24348826477878216]">8</container>
+              <unitdate type="inclusive" normal="1993">1993</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [01212174854297289506]">9</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1996/1998">1996-1998</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [499893574619791696259594]">9</container>
+              <unitdate type="inclusive" normal="1996/1998">1996-1998</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [01212174854297289506]">9</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1999/2000">1999-2000</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [499893574619791696259594]">9</container>
+              <unitdate type="inclusive" normal="1999/2000">1999-2000</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [01212174854297289506]">9</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="2001/2002">2001-2002</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [499893574619791696259594]">9</container>
+              <unitdate type="inclusive" normal="2001/2002">2001-2002</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [01212174854297289506]">9</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="2003/2004">2003-2004</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [499893574619791696259594]">9</container>
+              <unitdate type="inclusive" normal="2003/2004">2003-2004</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [01212174854297289506]">9</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="2005/2006">2005-2006</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [499893574619791696259594]">9</container>
+              <unitdate type="inclusive" normal="2005/2006">2005-2006</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -1087,33 +899,28 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [01212174854297289506]">9</container>
-              <unittitle>Cosmic Rays Project <unitdate type="inclusive" normal="1963/1966">1963-1966</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [499893574619791696259594]">9</container>
+              <unittitle>Cosmic Rays Project</unittitle><unitdate type="inclusive" normal="1963/1966">1963-1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [01212174854297289506]">9</container>
-              <unittitle>Cosmic Rays Project, May 1965-Dec <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [499893574619791696259594]">9</container>
+              <unittitle>Cosmic Rays Project, May 1965-Dec</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [01212174854297289506]">9</container>
-              <unittitle>Cosmic Rays Project <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [499893574619791696259594]">9</container>
+              <unittitle>Cosmic Rays Project</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [01212174854297289506]">9</container>
-              <unittitle>NSF Elementary Particles Project <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [499893574619791696259594]">9</container>
+              <unittitle>NSF Elementary Particles Project</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [01212174854297289506]">9</container>
-              <unittitle>Echo Lake Project <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [499893574619791696259594]">9</container>
+              <unittitle>Echo Lake Project</unittitle><unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></did>
           </c03>
         </c02>
       </c01>
@@ -1126,18 +933,16 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [019156417442502255]">10</container>
-            <unittitle>Research log, Large-angle scattering project, Sep <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [8474874498419285]">10</container>
+            <unittitle>Research log, Large-angle scattering project, Sep</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
           <odd>
             <p>(thesis work of subsequent Nobel laureate Samuel C.C. Ting)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [019156417442502255]">10</container>
-            <unittitle>Research log, Small-angle scattering project, Richard Y. Y. Lu <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [8474874498419285]">10</container>
+            <unittitle>Research log, Small-angle scattering project, Richard Y. Y. Lu</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -1149,36 +954,31 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [092249386425841]">11</container>
-            <unittitle>CERN symposium in honor of Jones' retirement <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0654753146596228373414670]">11</container>
+            <unittitle>CERN symposium in honor of Jones' retirement</unittitle><unitdate type="inclusive" normal="1998">1998</unitdate></did>
           <odd>
             <p>(poster and participant list located in outsize folder)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [092249386425841]">11</container>
-            <unittitle>Detector for DO Area <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0654753146596228373414670]">11</container>
+            <unittitle>Detector for DO Area</unittitle><unitdate type="inclusive" normal="1981">1981</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [092249386425841]">11</container>
-            <unittitle>Detector for DO Area <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0654753146596228373414670]">11</container>
+            <unittitle>Detector for DO Area</unittitle><unitdate type="inclusive" normal="1982">1982</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [092249386425841]">11</container>
-            <unittitle>Detector for DO Area <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0654753146596228373414670]">11</container>
+            <unittitle>Detector for DO Area</unittitle><unitdate type="inclusive" normal="1983">1983</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [092249386425841]">11</container>
-            <unittitle>DPF Collider Workshop <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0654753146596228373414670]">11</container>
+            <unittitle>DPF Collider Workshop</unittitle><unitdate type="inclusive" normal="1983">1983</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1186,70 +986,61 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [092249386425841]">11</container>
+              <container type="box" label="Box [0654753146596228373414670]">11</container>
               <unittitle>Fermilab politics</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [092249386425841]">11</container>
-              <unittitle>Fermilab Proposals <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [0654753146596228373414670]">11</container>
+              <unittitle>Fermilab Proposals</unittitle><unitdate type="inclusive" normal="1983">1983</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [092249386425841]">11</container>
-              <unittitle>FNAL (Fermi National Accelerator Laboratory) Physics <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [0654753146596228373414670]">11</container>
+              <unittitle>FNAL (Fermi National Accelerator Laboratory) Physics</unittitle><unitdate type="inclusive" normal="1978">1978</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [092249386425841]">11</container>
-              <unittitle>FNAL Summary <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [0654753146596228373414670]">11</container>
+              <unittitle>FNAL Summary</unittitle><unitdate type="inclusive" normal="1994">1994</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [092249386425841]">11</container>
-            <unittitle>Future Physics <unitdate type="inclusive" normal="1980">1980</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0654753146596228373414670]">11</container>
+            <unittitle>Future Physics</unittitle><unitdate type="inclusive" normal="1980">1980</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [092249386425841]">11</container>
+            <container type="box" label="Box [0654753146596228373414670]">11</container>
             <unittitle>G.K. O'Neill</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [092249386425841]">11</container>
-            <unittitle>Grants, etc. <unitdate type="inclusive" normal="1954/1963">1954-1963</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0654753146596228373414670]">11</container>
+            <unittitle>Grants, etc.</unittitle><unitdate type="inclusive" normal="1954/1963">1954-1963</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [092249386425841]">11</container>
-            <unittitle>MURA Tech Notes <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0654753146596228373414670]">11</container>
+            <unittitle>MURA Tech Notes</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [092249386425841]">11</container>
-            <unittitle>MURA Tech Notes <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0654753146596228373414670]">11</container>
+            <unittitle>MURA Tech Notes</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [092249386425841]">11</container>
-            <unittitle>Office of Energy Research minutes <unitdate type="inclusive" normal="1979/1985">1979-1985</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0654753146596228373414670]">11</container>
+            <unittitle>Office of Energy Research minutes</unittitle><unitdate type="inclusive" normal="1979/1985">1979-1985</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [092249386425841]">11</container>
-            <unittitle>Office of Naval Research (ONR) <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0654753146596228373414670]">11</container>
+            <unittitle>Office of Naval Research (ONR)</unittitle><unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1257,129 +1048,116 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [092249386425841]">11</container>
-              <unittitle>SSC Accelerator Workshop <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [0654753146596228373414670]">11</container>
+              <unittitle>SSC Accelerator Workshop</unittitle><unitdate type="inclusive" normal="1983">1983</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [092249386425841]">11</container>
-              <unittitle>SSC Consulting <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [0654753146596228373414670]">11</container>
+              <unittitle>SSC Consulting</unittitle><unitdate type="inclusive" normal="1985">1985</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [092249386425841]">11</container>
-              <unittitle>SSC DOE <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [0654753146596228373414670]">11</container>
+              <unittitle>SSC DOE</unittitle><unitdate type="inclusive" normal="1984">1984</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [092249386425841]">11</container>
+              <container type="box" label="Box [0654753146596228373414670]">11</container>
               <unittitle>SSC Geometry, Tipped Ring</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [092249386425841]">11</container>
+              <container type="box" label="Box [0654753146596228373414670]">11</container>
               <unittitle>SSC Radiation</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [092249386425841]">11</container>
-              <unittitle>SSC Safety Review (PSAR), DOE <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [0654753146596228373414670]">11</container>
+              <unittitle>SSC Safety Review (PSAR), DOE</unittitle><unitdate type="inclusive" normal="1987">1987</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [092249386425841]">11</container>
+              <container type="box" label="Box [0654753146596228373414670]">11</container>
               <unittitle>SSC Superconducting Toroids</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [092249386425841]">11</container>
-            <unittitle>Trilling Committee <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0654753146596228373414670]">11</container>
+            <unittitle>Trilling Committee</unittitle><unitdate type="inclusive" normal="1981">1981</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7075744349485421706557]">12</container>
+            <container type="box" label="Box [37282884991899606802]">12</container>
             <unittitle>University of Michigan</unittitle>
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7075744349485421706557]">12</container>
-              <unittitle>Academic Affairs <unitdate type="inclusive" normal="1978/1979">1978-1979</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [37282884991899606802]">12</container>
+              <unittitle>Academic Affairs</unittitle><unitdate type="inclusive" normal="1978/1979">1978-1979</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7075744349485421706557]">12</container>
+              <container type="box" label="Box [37282884991899606802]">12</container>
               <unittitle>College Priorities Report Rebuttals</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7075744349485421706557]">12</container>
-              <unittitle>Cosmic Ray Project Proposal to National Science Foundation (NSF) <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [37282884991899606802]">12</container>
+              <unittitle>Cosmic Ray Project Proposal to National Science Foundation (NSF)</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7075744349485421706557]">12</container>
+              <container type="box" label="Box [37282884991899606802]">12</container>
               <unittitle>College Priorities Committee (CPC) Correspondence</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7075744349485421706557]">12</container>
-              <unittitle>LSA correspondence <unitdate type="inclusive" normal="1972/1977">1972-1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [37282884991899606802]">12</container>
+              <unittitle>LSA correspondence</unittitle><unitdate type="inclusive" normal="1972/1977">1972-1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7075744349485421706557]">12</container>
+              <container type="box" label="Box [37282884991899606802]">12</container>
               <unittitle>LSA Natural Sciences Program Evaluations</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7075744349485421706557]">12</container>
-              <unittitle>LSA Program Evaluations Committee <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [37282884991899606802]">12</container>
+              <unittitle>LSA Program Evaluations Committee</unittitle><unitdate type="inclusive" normal="1975">1975</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7075744349485421706557]">12</container>
-              <unittitle>Office of the Vice President for Research (OVPR), Rackham Deanship search <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [37282884991899606802]">12</container>
+              <unittitle>Office of the Vice President for Research (OVPR), Rackham Deanship search</unittitle><unitdate type="inclusive" normal="1984">1984</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7075744349485421706557]">12</container>
+              <container type="box" label="Box [37282884991899606802]">12</container>
               <unittitle>Overhead</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7075744349485421706557]">12</container>
-              <unittitle>Peter Steiner Correspondence <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [37282884991899606802]">12</container>
+              <unittitle>Peter Steiner Correspondence</unittitle><unitdate type="inclusive" normal="1982">1982</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7075744349485421706557]">12</container>
-              <unittitle>Senate Assembly Academic Affairs Advisory Committee (AAAC) Research incentives <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [37282884991899606802]">12</container>
+              <unittitle>Senate Assembly Academic Affairs Advisory Committee (AAAC) Research incentives</unittitle><unitdate type="inclusive" normal="1979">1979</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7075744349485421706557]">12</container>
-              <unittitle>University calendar <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [37282884991899606802]">12</container>
+              <unittitle>University calendar</unittitle><unitdate type="inclusive" normal="1978">1978</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -1388,76 +1166,68 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7075744349485421706557]">12</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1982/1987">1982-1987</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [37282884991899606802]">12</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1982/1987">1982-1987</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7075744349485421706557]">12</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1988/1998">1988-1998</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [37282884991899606802]">12</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1988/1998">1988-1998</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7075744349485421706557]">12</container>
+              <container type="box" label="Box [37282884991899606802]">12</container>
               <unittitle>Memberships, Schedules</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7075744349485421706557]">12</container>
-              <unittitle>Minutes <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [37282884991899606802]">12</container>
+              <unittitle>Minutes</unittitle><unitdate type="inclusive" normal="1981">1981</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7075744349485421706557]">12</container>
+              <container type="box" label="Box [37282884991899606802]">12</container>
               <unittitle>President search</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7075744349485421706557]">12</container>
-              <unittitle>Records <unitdate type="inclusive" normal="1980/1986">1980-1986</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [37282884991899606802]">12</container>
+              <unittitle>Records</unittitle><unitdate type="inclusive" normal="1980/1986">1980-1986</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7075744349485421706557]">12</container>
-              <unittitle>Records <unitdate type="inclusive" normal="1988/1998">1988-1998</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [37282884991899606802]">12</container>
+              <unittitle>Records</unittitle><unitdate type="inclusive" normal="1988/1998">1988-1998</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7075744349485421706557]">12</container>
-              <unittitle>SSC Business <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [37282884991899606802]">12</container>
+              <unittitle>SSC Business</unittitle><unitdate type="inclusive" normal="1987">1987</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7075744349485421706557]">12</container>
+              <container type="box" label="Box [37282884991899606802]">12</container>
               <unittitle>Visiting Committee Review</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7075744349485421706557]">12</container>
-            <unittitle>Westfield College (UK) and Sabbatical <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [37282884991899606802]">12</container>
+            <unittitle>Westfield College (UK) and Sabbatical</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7075744349485421706557]">12</container>
+            <container type="box" label="Box [37282884991899606802]">12</container>
             <unittitle>W.J. Schafer Association</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7075744349485421706557]">12</container>
-            <unittitle>Woods Hole <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [37282884991899606802]">12</container>
+            <unittitle>Woods Hole</unittitle><unitdate type="inclusive" normal="1983">1983</unitdate></did>
         </c02>
       </c01>
     </dsc>

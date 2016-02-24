@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,10 +35,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Michigan Wolverine Student Cooperative (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/5099">Michigan Wolverine Student Cooperative (University of Michigan)</corpname>
       </origination>
-      <unittitle encodinganalog="245">Michigan Wolverine Student Cooperative (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1932/1943">1932-1943</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">87246 Bimu F54 2 F54 Outsize</unitid>
+      <unittitle encodinganalog="245">Michigan Wolverine Student Cooperative (University of Michigan) records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1932/1943">1932-1943</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">87246 Bimu F54 2 F54 Outsize</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Records, 1932-1943, of the Michigan Cooperative Boarding House of the University of Michigan, a cooperative eating club for students that was reorganized in 1937 as the Michigan Wolverine Student Cooperative. Include minutes, reports, correspondence, financial records and print materials.</abstract>
       <physdesc altrender="part">
@@ -80,10 +80,10 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Cooperative societies--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Social life and customs--1931-1940.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Social life and customs--1941-1950.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Wolverine Student Cooperative (University of Michigan)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5669">Cooperative societies--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Social life and customs--1931-1940.<term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1931-1940.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Social life and customs--1941-1950.<term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1941-1950.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5099">Michigan Wolverine Student Cooperative (University of Michigan)</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -93,40 +93,36 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3816160445287436416]">1</container>
-            <unittitle>Minutes <unitdate type="inclusive" normal="1932/1934">1932-1934</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [12958384426625418763484]">1</container>
+            <unittitle>Minutes</unittitle><unitdate type="inclusive" normal="1932/1934">1932-1934</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3816160445287436416]">1</container>
+            <container type="box" label="Box [12958384426625418763484]">1</container>
             <unittitle>Constitution</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3816160445287436416]">1</container>
-            <unittitle>Newsletters <unitdate type="inclusive" normal="1932/1933">1932-1933</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [12958384426625418763484]">1</container>
+            <unittitle>Newsletters</unittitle><unitdate type="inclusive" normal="1932/1933">1932-1933</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3816160445287436416]">1</container>
-            <unittitle>Audit <unitdate type="inclusive" normal="1934">1934</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [12958384426625418763484]">1</container>
+            <unittitle>Audit</unittitle><unitdate type="inclusive" normal="1934">1934</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3816160445287436416]">1</container>
-            <unittitle>Historical Sketch <unitdate type="inclusive" normal="1936">1936</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [12958384426625418763484]">1</container>
+            <unittitle>Historical Sketch</unittitle><unitdate type="inclusive" normal="1936">1936</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3816160445287436416]">1</container>
+            <container type="box" label="Box [12958384426625418763484]">1</container>
             <unittitle>Miscellaneous</unittitle>
           </did>
         </c02>
@@ -137,70 +133,64 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3816160445287436416]">1</container>
-            <unittitle>Minutes <unitdate type="inclusive" normal="1937/1940">1937-1940</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [12958384426625418763484]">1</container>
+            <unittitle>Minutes</unittitle><unitdate type="inclusive" normal="1937/1940">1937-1940</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3816160445287436416]">1</container>
-            <unittitle>Newsletter <unitdate type="inclusive" normal="1938/1939">1938-1939</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [12958384426625418763484]">1</container>
+            <unittitle>Newsletter</unittitle><unitdate type="inclusive" normal="1938/1939">1938-1939</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3816160445287436416]">1</container>
+            <container type="box" label="Box [12958384426625418763484]">1</container>
             <unittitle>Constitution and Bylaws</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3816160445287436416]">1</container>
-            <unittitle>Papers <unitdate type="inclusive" normal="1937/1944">1937-1944</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [12958384426625418763484]">1</container>
+            <unittitle>Papers</unittitle><unitdate type="inclusive" normal="1937/1944">1937-1944</unitdate><unitdate type="inclusive">undated</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">6 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3816160445287436416]">1</container>
+            <container type="box" label="Box [12958384426625418763484]">1</container>
             <unittitle>Manual of the Accounting System</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3816160445287436416]">1</container>
-            <unittitle>Financial Reports <unitdate type="inclusive" normal="1937/1942">1937-1942</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [12958384426625418763484]">1</container>
+            <unittitle>Financial Reports</unittitle><unitdate type="inclusive" normal="1937/1942">1937-1942</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">6 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3816160445287436416]">1</container>
-            <unittitle>Summary Payroll Sheets <unitdate type="inclusive" normal="1940/1942">1940-1942</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [12958384426625418763484]">1</container>
+            <unittitle>Summary Payroll Sheets</unittitle><unitdate type="inclusive" normal="1940/1942">1940-1942</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3816160445287436416]">1</container>
+            <container type="box" label="Box [12958384426625418763484]">1</container>
             <unittitle>Notes Payable to Sponsors</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3816160445287436416]">1</container>
-            <unittitle>Cash Recapitulation <unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [12958384426625418763484]">1</container>
+            <unittitle>Cash Recapitulation</unittitle><unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3816160445287436416]">1</container>
+            <container type="box" label="Box [12958384426625418763484]">1</container>
             <unittitle>Miscellaneous Financial Reports</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
@@ -209,9 +199,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [066987475622356775269]">2</container>
-            <unittitle>Financial Ledgers <unitdate type="inclusive" normal="1938/1943">1938-1943</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [1974966840242221412824]">2</container>
+            <unittitle>Financial Ledgers</unittitle><unitdate type="inclusive" normal="1938/1943">1938-1943</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">6 volumes</extent>
             </physdesc>
           </did>
@@ -223,7 +212,7 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [066987475622356775269]">2</container>
+            <container type="box" label="Box [1974966840242221412824]">2</container>
             <unittitle>Tree of Knowledge</unittitle>
             <physdesc>
               <physfacet>Outsize Print</physfacet>

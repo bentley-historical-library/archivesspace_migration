@@ -32,7 +32,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -43,10 +44,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Green, Harold C., 1889-1976.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/3178">Green, Harold C., 1889-1976.</persname>
       </origination>
-      <unittitle encodinganalog="245">Harold C. Green diary <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1919">1918-1919</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">07148 Aa 1</unitid>
+      <unittitle encodinganalog="245">Harold C. Green diary</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1918/1919">1918-1919</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">07148 Aa 1</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Harold Green was a Mount Clemens, Michigan, optometrist who served with the U.S. Army 339th Medical Detachment during the American intervention at Archangel, Russia. This collection contains a typescript copy of his diary, containing generally brief entries describing his actions in Russia.</abstract>
       <physdesc altrender="whole">
@@ -86,14 +86,14 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Green, Harold C., 1889-1976.</persname>
-        <geogname source="lcsh" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
-        <subject source="local" encodinganalog="690">Polar Bear Expedition.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3178">Green, Harold C., 1889-1976.</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/879">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5715">World War, 1914-1918.</subject>
+        <subject source="local" encodinganalog="690" ref="/subjects/3516">Polar Bear Expedition.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Diaries.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3145">Diaries.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -103,9 +103,9 @@
         </did>
         <c02 level="item">
           <did>
-            <container type="folder" label="Folder [87948435299453380]">1</container>
+            <container type="folder" label="Folder [077765745720143910068]">1</container>
             <unittitle>Diary and photographs</unittitle>
-            <dao href="greenhc0001" show="new" actuate="onRequest">
+            <dao href="greenhc0001" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/9294">
               <daodesc>
                 <p>[view items]</p>
               </daodesc>

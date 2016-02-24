@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Flack, Robert Bruce.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/4536">Flack, Robert Bruce.</persname>
       </origination>
-      <unittitle encodinganalog="245">Robert Bruce Flack papers <unitdate type="inclusive" encodinganalog="245$f" normal="1950/1951" certainty="approximate">circa 1950-1951</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2013164 Aa3</unitid>
+      <unittitle encodinganalog="245">Robert Bruce Flack papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1950/1951" certainty="approximate">circa 1950-1951</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2013164 Aa3</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Member of the U.S. Polar Bear Expedition in Archangel, Russia; collection includes digitized photographs from Decoration Day ceremonies at White Chapel Cemetery in Troy, Mich. and notes from Flack's copy of <title render="italic">The History of the American Expedition Fighting the Bolsheviki.</title></abstract>
       <physdesc altrender="whole">
@@ -86,14 +86,14 @@
       </p>
       <controlaccess>
         <head>Subjects</head>
-        <persname source="lcnaf" encodinganalog="600">Flack, Robert Bruce.</persname>
-        <subject source="lcsh" encodinganalog="650">Memorial Day.</subject>
-        <subject source="lcsh" encodinganalog="650">Soldiers--American--Russia (Federation)</subject>
-        <geogname source="lcsh" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Infantry, 339th. Machine Gun Company.</corpname>
-        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <subject source="local" encodinganalog="690">Polar Bear Expedition.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4536">Flack, Robert Bruce.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7779">Memorial Day.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6132">Soldiers--American--Russia (Federation)</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/879">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4337">United States. Army. Infantry, 339th. Machine Gun Company.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5715">World War, 1914-1918.</subject>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <subject source="local" encodinganalog="690" ref="/subjects/3516">Polar Bear Expedition.</subject>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -104,8 +104,7 @@
         <c02 level="file">
           <did>
             <physloc>Online</physloc>
-            <unittitle>Decoration Day Events in White Chapel Cemetery (Troy, Mich.) <unitdate type="inclusive" normal="1950/1951" certainty="approximate">circa 1950-1951</unitdate></unittitle>
-            <dao href="flack0001" show="replace" actuate="onRequest">
+            <unittitle>Decoration Day Events in White Chapel Cemetery (Troy, Mich.)</unittitle><unitdate type="inclusive" normal="1950/1951" certainty="approximate">circa 1950-1951</unitdate><dao href="flack0001" show="replace" actuate="onRequest" ref="/repositories/2/digital_objects/8953">
               <daodesc>
                 <p>[view items]</p>
               </daodesc>
@@ -120,8 +119,7 @@
         <c02 level="file">
           <did>
             <physloc>Online</physloc>
-            <unittitle>Notes made in <title render="italic">The History of the American Expedition Fighting the Bolsheviki</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
-            <dao href="flack0002" show="replace" actuate="onRequest">
+            <unittitle>Notes made in <title render="italic">The History of the American Expedition Fighting the Bolsheviki</title></unittitle><unitdate type="inclusive">undated</unitdate><dao href="flack0002" show="replace" actuate="onRequest" ref="/repositories/2/digital_objects/8954">
               <daodesc>
                 <p>[view items]</p>
               </daodesc>

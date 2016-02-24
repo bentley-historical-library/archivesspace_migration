@@ -24,7 +24,8 @@
         <item>Original encoding from Word 10.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library<lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100"> Romulo, Carlos P. (Carlos Peña), 1899-1985 </persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/57"> Romulo, Carlos P. (Carlos Peña), 1899-1985 </persname>
       </origination>
-      <unittitle encodinganalog="245"> Carlos P. Romulo sound recording <unitdate type="inclusive" encodinganalog="245$f"> May 7, 1957 </unitdate> </unittitle>
-      <physdesc altrender="whole">
+      <unittitle encodinganalog="245">Carlos P. Romulo sound recording</unittitle><unitdate type="inclusive" encodinganalog="245$f"> May 7, 1957 </unitdate><physdesc altrender="whole">
         <extent altrender="materialtype spaceoccupied">1.25 GB</extent>
       </physdesc>
       <physdesc altrender="whole">
@@ -93,12 +93,12 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Romulo, Carlos P. (Carlos Peña), 1899-1985.</persname>
-        <geogname source="lcsh" encodinganalog="651">Philippines--Foreign relations.</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/57">Romulo, Carlos P. (Carlos Peña), 1899-1985.</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2759">Philippines--Foreign relations.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Sound recordings.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3137">Sound recordings.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -111,8 +111,7 @@
         </accessrestrict>
         <c02 level="otherlevel" otherlevel="item-main">
           <did>
-            <unittitle>Address to the Detroit School of Government, <unitdate type="inclusive">1957 May 07</unitdate></unittitle>
-            <physdesc>
+            <unittitle>Address to the Detroit School of Government</unittitle><unitdate type="inclusive">1957 May 07</unitdate><physdesc>
               <physfacet>Audio Reel-to-Reel, 7 inch, 7 ½ ips</physfacet>
             </physdesc>
           </did>
@@ -124,7 +123,7 @@
               <physdesc>
                 <physfacet>mp3 file</physfacet>
               </physdesc>
-              <dao href="9580-SR-1-1" show="new" actuate="onRequest">
+              <dao href="9580-SR-1-1" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15312">
                 <daodesc>
                   <p>[access item]</p>
                 </daodesc>

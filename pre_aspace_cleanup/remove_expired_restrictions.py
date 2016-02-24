@@ -5,8 +5,9 @@ from os.path import join
 from datetime import datetime
 
 def remove_expired_restrictions(ead_dir):
+    filenames = [filename for filename in os.listdir(ead_dir) if filename.endswith('.xml')]
     now = datetime.now().strftime("%Y-%m-%d")
-    for filename in os.listdir(ead_dir):
+    for filename in filenames:
         print "Removing expired restrictions in {0}".format(filename)
         tree = etree.parse(join(ead_dir,filename))
         accessrestricts = tree.xpath('//accessrestrict')

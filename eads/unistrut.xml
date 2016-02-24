@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Unistrut Corporation (Wayne, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/5148">Unistrut Corporation (Wayne, Mich.)</corpname>
       </origination>
-      <unittitle encodinganalog="245">Unistrut Corporation (Wayne, Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1922/1990">1922-1990</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1929/1966">1929-1966</unitdate></unittitle>
-      <abstract>Company established by Charles Attwood who was inventor and developer of a system of precast metal frame construction that came to be known as the Unistrut system. The company was originally known as Deceleco. The record group includes background and historical information about Unistrut; job files containing records pertaining to the planning and execution of Deceleco's contracts, 1929-1932; product literature and catalogs, 1927-1981; publications resulting from research into the Unistrut system of construction; and photographs.</abstract>
+      <unittitle encodinganalog="245">Unistrut Corporation (Wayne, Mich.) records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1922/1990">1922-1990</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1929/1966">1929-1966</unitdate><abstract>Company established by Charles Attwood who was inventor and developer of a system of precast metal frame construction that came to be known as the Unistrut system. The company was originally known as Deceleco. The record group includes background and historical information about Unistrut; job files containing records pertaining to the planning and execution of Deceleco's contracts, 1929-1932; product literature and catalogs, 1927-1981; publications resulting from research into the Unistrut system of construction; and photographs.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">0076 Bb 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -85,60 +85,57 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Architecture.</subject>
-        <persname source="lcnaf" encodinganalog="700">Attwood, Charles.</persname>
-        <subject source="lcsh" encodinganalog="650">Building, Iron and steel.</subject>
-        <subject source="lcsh" encodinganalog="650">Construction industry--Michigan--Wayne.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Deceleco Corporation.</corpname>
-        <subject source="lcsh" encodinganalog="650">Framing (Building)</subject>
-        <corpname source="lcnaf" encodinganalog="610">Unistrut Corporation (Wayne, Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5837">Architecture.</subject>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/7779">Attwood, Charles.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10505">Building, Iron and steel.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10506">Construction industry--Michigan--Wayne.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4099">Deceleco Corporation.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10507">Framing (Building)</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5148">Unistrut Corporation (Wayne, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <subject source="lctgm" encodinganalog="650">Architecture.</subject>
-        <subject source="lctgm" encodinganalog="650">Building construction.</subject>
-        <subject source="lctgm" encodinganalog="650">Building systems.</subject>
-        <subject source="lctgm" encodinganalog="650">Construction industry.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Deceleco Corporation.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Unistrut Corporation (Wayne, Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3867">Architecture.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5498">Building construction.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5499">Building systems.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3689">Construction industry.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4099">Deceleco Corporation.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5148">Unistrut Corporation (Wayne, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Attwood, Charles.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/7779">Attwood, Charles.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Background Materials <unitdate type="inclusive" normal="1922/1966">1922-1966</unitdate></unittitle>
-        </did>
+          <unittitle>Background Materials</unittitle><unitdate type="inclusive" normal="1922/1966">1922-1966</unitdate></did>
         <scopecontent>
           <p>The Background Materials series (.25 linear feet) includes information pertaining to the history of the Deceleco and Unistrut companies. It incorporates a company history, correspondence and information about some of the materials and suppliers that Deceleco used. The folder entitled "Company History" contains a brief but valuable overview of how the company developed since its establishment in 1924. This series spans the dates 1922-1966.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [964058209472484027737675]">1</container>
+            <container type="box" label="Box [3102335678428577246403]">1</container>
             <unittitle>Company History</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [964058209472484027737675]">1</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1925/1931">1925-1931</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [3102335678428577246403]">1</container>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1925/1931">1925-1931</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [964058209472484027737675]">1</container>
-            <unittitle>Miscellaneous <unitdate type="inclusive" normal="1926/1931">1926-1931</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3102335678428577246403]">1</container>
+            <unittitle>Miscellaneous</unittitle><unitdate type="inclusive" normal="1926/1931">1926-1931</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -146,28 +143,24 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [964058209472484027737675]">1</container>
-              <unittitle>Deceleco Weekly Bulletin <unitdate type="inclusive" normal="1929">1929</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3102335678428577246403]">1</container>
+              <unittitle>Deceleco Weekly Bulletin</unittitle><unitdate type="inclusive" normal="1929">1929</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [964058209472484027737675]">1</container>
-              <unittitle>Unistrut Top Ten Superheroes <unitdate type="inclusive" normal="1980">1980</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3102335678428577246403]">1</container>
+              <unittitle>Unistrut Top Ten Superheroes</unittitle><unitdate type="inclusive" normal="1980">1980</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [964058209472484027737675]">1</container>
-            <unittitle>Patents <unitdate type="inclusive" normal="1927/1931">1927-1931</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3102335678428577246403]">1</container>
+            <unittitle>Patents</unittitle><unitdate type="inclusive" normal="1927/1931">1927-1931</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [964058209472484027737675]">1</container>
-            <unittitle>Product Research and Suppliers <unitdate type="inclusive" normal="1922/1962">1922-1962</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [3102335678428577246403]">1</container>
+            <unittitle>Product Research and Suppliers</unittitle><unitdate type="inclusive" normal="1922/1962">1922-1962</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
@@ -175,208 +168,179 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Job Files <unitdate type="inclusive" normal="1929/1932">1929-1932</unitdate></unittitle>
-        </did>
+          <unittitle>Job Files</unittitle><unitdate type="inclusive" normal="1929/1932">1929-1932</unitdate></did>
         <scopecontent>
           <p>The Job Files series (.75 linear feet) includes records pertaining to the planning and execution of Deceleco's contracts. The records span the years 1929-1932. They are organized by the name of the job and include plans, cost estimates for materials, correspondence with the customers and contractors, and other miscellaneous information. These files are valuable illustrations of the type of work performed by Deceleco and the processes involved in accomplishing it.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [964058209472484027737675]">1</container>
-            <unittitle>Ambler Asbestos Shingle and Sheathing Company <unitdate type="inclusive" normal="1930">1930</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3102335678428577246403]">1</container>
+            <unittitle>Ambler Asbestos Shingle and Sheathing Company</unittitle><unitdate type="inclusive" normal="1930">1930</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [964058209472484027737675]">1</container>
-            <unittitle>American Gas and Electric Company <unitdate type="inclusive" normal="1930">1930</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3102335678428577246403]">1</container>
+            <unittitle>American Gas and Electric Company</unittitle><unitdate type="inclusive" normal="1930">1930</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [964058209472484027737675]">1</container>
-            <unittitle>Bangor Hydro-Electric Company <unitdate type="inclusive" normal="1931">1931</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3102335678428577246403]">1</container>
+            <unittitle>Bangor Hydro-Electric Company</unittitle><unitdate type="inclusive" normal="1931">1931</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [964058209472484027737675]">1</container>
-            <unittitle>Board of Water and Electric Light Commission <unitdate type="inclusive" normal="1929">1929</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3102335678428577246403]">1</container>
+            <unittitle>Board of Water and Electric Light Commission</unittitle><unitdate type="inclusive" normal="1929">1929</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [964058209472484027737675]">1</container>
-            <unittitle>Buick Motor Company <unitdate type="inclusive" normal="1931">1931</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3102335678428577246403]">1</container>
+            <unittitle>Buick Motor Company</unittitle><unitdate type="inclusive" normal="1931">1931</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [964058209472484027737675]">1</container>
-            <unittitle>Carnegie Steel Company <unitdate type="inclusive" normal="1929/1930">1929-1930</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3102335678428577246403]">1</container>
+            <unittitle>Carnegie Steel Company</unittitle><unitdate type="inclusive" normal="1929/1930">1929-1930</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [964058209472484027737675]">1</container>
-            <unittitle>Central Main Power Company <unitdate type="inclusive" normal="1930">1930</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3102335678428577246403]">1</container>
+            <unittitle>Central Main Power Company</unittitle><unitdate type="inclusive" normal="1930">1930</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [964058209472484027737675]">1</container>
-            <unittitle>City of Hamilton, OH <unitdate type="inclusive" normal="1929/1931">1929-1931</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [3102335678428577246403]">1</container>
+            <unittitle>City of Hamilton, OH</unittitle><unitdate type="inclusive" normal="1929/1931">1929-1931</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [964058209472484027737675]">1</container>
-            <unittitle>Commonwealth Edison Company <unitdate type="inclusive" normal="1930/1931">1930-1931</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [3102335678428577246403]">1</container>
+            <unittitle>Commonwealth Edison Company</unittitle><unitdate type="inclusive" normal="1930/1931">1930-1931</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [964058209472484027737675]">1</container>
-            <unittitle>Detroit Water Board <unitdate type="inclusive" normal="1927/1932">1927-1932</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [3102335678428577246403]">1</container>
+            <unittitle>Detroit Water Board</unittitle><unitdate type="inclusive" normal="1927/1932">1927-1932</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [964058209472484027737675]">1</container>
-            <unittitle>Detroit Windsor Tunnel <unitdate type="inclusive" normal="1929/1930">1929-1930</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3102335678428577246403]">1</container>
+            <unittitle>Detroit Windsor Tunnel</unittitle><unitdate type="inclusive" normal="1929/1930">1929-1930</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [964058209472484027737675]">1</container>
-            <unittitle>General Electric Company <unitdate type="inclusive" normal="1926/1931">1926-1931</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [3102335678428577246403]">1</container>
+            <unittitle>General Electric Company</unittitle><unitdate type="inclusive" normal="1926/1931">1926-1931</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [964058209472484027737675]">1</container>
-            <unittitle>Hatzel and Buehler <unitdate type="inclusive" normal="1931">1931</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3102335678428577246403]">1</container>
+            <unittitle>Hatzel and Buehler</unittitle><unitdate type="inclusive" normal="1931">1931</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [964058209472484027737675]">1</container>
-            <unittitle>Holzer Sheet Metal Works <unitdate type="inclusive" normal="1931">1931</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3102335678428577246403]">1</container>
+            <unittitle>Holzer Sheet Metal Works</unittitle><unitdate type="inclusive" normal="1931">1931</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [964058209472484027737675]">1</container>
-            <unittitle>Inland Steel Company <unitdate type="inclusive" normal="1929/1930">1929-1930</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3102335678428577246403]">1</container>
+            <unittitle>Inland Steel Company</unittitle><unitdate type="inclusive" normal="1929/1930">1929-1930</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [964058209472484027737675]">1</container>
-            <unittitle>Jersey Central Power and Light <unitdate type="inclusive" normal="1929/1931">1929-1931</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [3102335678428577246403]">1</container>
+            <unittitle>Jersey Central Power and Light</unittitle><unitdate type="inclusive" normal="1929/1931">1929-1931</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [964058209472484027737675]">1</container>
-            <unittitle>Monogehola West Penn Public Service Company <unitdate type="inclusive" normal="1930">1930</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3102335678428577246403]">1</container>
+            <unittitle>Monogehola West Penn Public Service Company</unittitle><unitdate type="inclusive" normal="1930">1930</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [964058209472484027737675]">1</container>
-            <unittitle>National Tube Company <unitdate type="inclusive" normal="1930">1930</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3102335678428577246403]">1</container>
+            <unittitle>National Tube Company</unittitle><unitdate type="inclusive" normal="1930">1930</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [964058209472484027737675]">1</container>
-            <unittitle>New Jersey Power Company <unitdate type="inclusive" normal="1929/1930">1929-1930</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3102335678428577246403]">1</container>
+            <unittitle>New Jersey Power Company</unittitle><unitdate type="inclusive" normal="1929/1930">1929-1930</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [964058209472484027737675]">1</container>
-            <unittitle>Northern States Power Company <unitdate type="inclusive" normal="1930/1931">1930-1931</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3102335678428577246403]">1</container>
+            <unittitle>Northern States Power Company</unittitle><unitdate type="inclusive" normal="1930/1931">1930-1931</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [964058209472484027737675]">1</container>
-            <unittitle>Oklahoma Gas and Electric Company <unitdate type="inclusive" normal="1929/1930">1929-1930</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [3102335678428577246403]">1</container>
+            <unittitle>Oklahoma Gas and Electric Company</unittitle><unitdate type="inclusive" normal="1929/1930">1929-1930</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [964058209472484027737675]">1</container>
-            <unittitle>Pennsylvania Electric Company <unitdate type="inclusive" normal="1929/1930">1929-1930</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [3102335678428577246403]">1</container>
+            <unittitle>Pennsylvania Electric Company</unittitle><unitdate type="inclusive" normal="1929/1930">1929-1930</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [964058209472484027737675]">1</container>
-            <unittitle>Pennsylvania Railroad Building <unitdate type="inclusive" normal="1930">1930</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3102335678428577246403]">1</container>
+            <unittitle>Pennsylvania Railroad Building</unittitle><unitdate type="inclusive" normal="1930">1930</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [964058209472484027737675]">1</container>
-            <unittitle>Pennsylvania Railroad Company <unitdate type="inclusive" normal="1929/1930">1929-1930</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3102335678428577246403]">1</container>
+            <unittitle>Pennsylvania Railroad Company</unittitle><unitdate type="inclusive" normal="1929/1930">1929-1930</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [964058209472484027737675]">1</container>
-            <unittitle>Pubic Lighting Commission, City of Detroit <unitdate type="inclusive" normal="1929/1931">1929-1931</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [3102335678428577246403]">1</container>
+            <unittitle>Pubic Lighting Commission, City of Detroit</unittitle><unitdate type="inclusive" normal="1929/1931">1929-1931</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">7 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [964058209472484027737675]">1</container>
+            <container type="box" label="Box [3102335678428577246403]">1</container>
             <unittitle>Public Service Company of Colorado</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [964058209472484027737675]">1</container>
-            <unittitle>Vacuum Oil Company <unitdate type="inclusive" normal="1929/1930">1929-1930</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3102335678428577246403]">1</container>
+            <unittitle>Vacuum Oil Company</unittitle><unitdate type="inclusive" normal="1929/1930">1929-1930</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [964058209472484027737675]">1</container>
-            <unittitle>Vanadium Corporation of America <unitdate type="inclusive" normal="1930/1931">1930-1931</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3102335678428577246403]">1</container>
+            <unittitle>Vanadium Corporation of America</unittitle><unitdate type="inclusive" normal="1930/1931">1930-1931</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [964058209472484027737675]">1</container>
-            <unittitle>Westinghouse Electric and Manufacturing Company <unitdate type="inclusive" normal="1929/1930">1929-1930</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [3102335678428577246403]">1</container>
+            <unittitle>Westinghouse Electric and Manufacturing Company</unittitle><unitdate type="inclusive" normal="1929/1930">1929-1930</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -384,8 +348,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Product Literature and Catalogs <unitdate type="inclusive" normal="1927/1981">1927-1981</unitdate></unittitle>
-        </did>
+          <unittitle>Product Literature and Catalogs</unittitle><unitdate type="inclusive" normal="1927/1981">1927-1981</unitdate></did>
         <scopecontent>
           <p>Spanning the years 1927-1981, the Product Literature and Catalogs series (.5 linear feet) offers information about the companies' products. Catalogs illustrate the variety of products produced by Deceleco and Unistrut. Both the catalogs and the product literature offer information about the construction systems devised by Charles Attwood. The broad span of years covered by this series illustrates how the products developed over time.</p>
         </scopecontent>
@@ -395,27 +358,24 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [964058209472484027737675]">1</container>
-              <unittitle>Cell Structure Construction <unitdate type="inclusive" normal="1941">1941</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3102335678428577246403]">1</container>
+              <unittitle>Cell Structure Construction</unittitle><unitdate type="inclusive" normal="1941">1941</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [964058209472484027737675]">1</container>
-              <unittitle>Cell Structures Catalog 1 <unitdate type="inclusive" normal="1927">1927</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3102335678428577246403]">1</container>
+              <unittitle>Cell Structures Catalog 1</unittitle><unitdate type="inclusive" normal="1927">1927</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [964058209472484027737675]">1</container>
+              <container type="box" label="Box [3102335678428577246403]">1</container>
               <unittitle>Cell Structures Catalog 2</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [964058209472484027737675]">1</container>
-              <unittitle>The Unistrut <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3102335678428577246403]">1</container>
+              <unittitle>The Unistrut</unittitle><unitdate type="inclusive" normal="1940">1940</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -424,201 +384,170 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [58647884617919496839]">2</container>
-              <unittitle>Catalog 3 <unitdate type="inclusive" normal="1942">1942</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [796352778438486416]">2</container>
+              <unittitle>Catalog 3</unittitle><unitdate type="inclusive" normal="1942">1942</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [58647884617919496839]">2</container>
-              <unittitle>Catalog 3 P-1000 Series <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [796352778438486416]">2</container>
+              <unittitle>Catalog 3 P-1000 Series</unittitle><unitdate type="inclusive" normal="1956">1956</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [58647884617919496839]">2</container>
-              <unittitle>Catalog 3A P-1000 Series Supplement <unitdate type="inclusive" normal="1949">1949</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [796352778438486416]">2</container>
+              <unittitle>Catalog 3A P-1000 Series Supplement</unittitle><unitdate type="inclusive" normal="1949">1949</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [58647884617919496839]">2</container>
-              <unittitle>Catalog 4 P-2000/4000/6000/7000 Series <unitdate type="inclusive" normal="1949/1957">1949-1957</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [796352778438486416]">2</container>
+              <unittitle>Catalog 4 P-2000/4000/6000/7000 Series</unittitle><unitdate type="inclusive" normal="1949/1957">1949-1957</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [58647884617919496839]">2</container>
-              <unittitle>Catalog 5 <unitdate type="inclusive" normal="1958/1975">1958-1975</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [796352778438486416]">2</container>
+              <unittitle>Catalog 5</unittitle><unitdate type="inclusive" normal="1958/1975">1958-1975</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [58647884617919496839]">2</container>
-              <unittitle>Catalog 6 <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [796352778438486416]">2</container>
+              <unittitle>Catalog 6</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [58647884617919496839]">2</container>
-              <unittitle>Catalog 700 <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [796352778438486416]">2</container>
+              <unittitle>Catalog 700</unittitle><unitdate type="inclusive" normal="1956">1956</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [58647884617919496839]">2</container>
-              <unittitle>Catalog 8 <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [796352778438486416]">2</container>
+              <unittitle>Catalog 8</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [58647884617919496839]">2</container>
-              <unittitle>Catalog 9A <unitdate type="inclusive" normal="1980">1980</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [796352778438486416]">2</container>
+              <unittitle>Catalog 9A</unittitle><unitdate type="inclusive" normal="1980">1980</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [58647884617919496839]">2</container>
-              <unittitle>Catalog 10A <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [796352778438486416]">2</container>
+              <unittitle>Catalog 10A</unittitle><unitdate type="inclusive" normal="1981">1981</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [58647884617919496839]">2</container>
-              <unittitle>Color Line System <unitdate type="inclusive" normal="1958/1978">1958-1978</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [796352778438486416]">2</container>
+              <unittitle>Color Line System</unittitle><unitdate type="inclusive" normal="1958/1978">1958-1978</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [58647884617919496839]">2</container>
-              <unittitle>Fluorescent Fixture Suspension <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [796352778438486416]">2</container>
+              <unittitle>Fluorescent Fixture Suspension</unittitle><unitdate type="inclusive" normal="1955">1955</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [58647884617919496839]">2</container>
-              <unittitle>General Bulletin <unitdate type="inclusive" normal="1943">1943</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [796352778438486416]">2</container>
+              <unittitle>General Bulletin</unittitle><unitdate type="inclusive" normal="1943">1943</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [58647884617919496839]">2</container>
-              <unittitle>Kurlok Tray Systems <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [796352778438486416]">2</container>
+              <unittitle>Kurlok Tray Systems</unittitle><unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [58647884617919496839]">2</container>
-              <unittitle>Met-L Flooring Systems <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [796352778438486416]">2</container>
+              <unittitle>Met-L Flooring Systems</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [58647884617919496839]">2</container>
-              <unittitle>Metal Framing <unitdate type="inclusive" normal="1958/1964">1958-1964</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [796352778438486416]">2</container>
+              <unittitle>Metal Framing</unittitle><unitdate type="inclusive" normal="1958/1964">1958-1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [58647884617919496839]">2</container>
-              <unittitle>Miscellaneous <unitdate type="inclusive" normal="1961/1975">1961-1975</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [796352778438486416]">2</container>
+              <unittitle>Miscellaneous</unittitle><unitdate type="inclusive" normal="1961/1975">1961-1975</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [58647884617919496839]">2</container>
-              <unittitle>Partitions <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [796352778438486416]">2</container>
+              <unittitle>Partitions</unittitle><unitdate type="inclusive" normal="1955">1955</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [58647884617919496839]">2</container>
-              <unittitle>Perfo Strut <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [796352778438486416]">2</container>
+              <unittitle>Perfo Strut</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [58647884617919496839]">2</container>
-              <unittitle>Price Schedules <unitdate type="inclusive" normal="1950/1966">1950-1966</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [796352778438486416]">2</container>
+              <unittitle>Price Schedules</unittitle><unitdate type="inclusive" normal="1950/1966">1950-1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [58647884617919496839]">2</container>
-              <unittitle>Space Frame System <unitdate type="inclusive" normal="1959/1976">1959-1976</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [796352778438486416]">2</container>
+              <unittitle>Space Frame System</unittitle><unitdate type="inclusive" normal="1959/1976">1959-1976</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [58647884617919496839]">2</container>
-              <unittitle>System of Construction <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [796352778438486416]">2</container>
+              <unittitle>System of Construction</unittitle><unitdate type="inclusive" normal="1957">1957</unitdate></did>
           </c03>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Research and Publications <unitdate type="inclusive" normal="1956/1990">1956-1990</unitdate></unittitle>
-        </did>
+          <unittitle>Research and Publications</unittitle><unitdate type="inclusive" normal="1956/1990">1956-1990</unitdate></did>
         <scopecontent>
           <p>The Research and Publications series (.5 linear feet) is comprised of publications primarily resulting from research into the Unistrut system of construction. It spans the years from 1956-1990. Unistrut cooperated with the College of Architecture and Design at the University of Michigan to test various aspects of the company's space frame system and construction system. These publications include technical data and specifications. This series also includes a few reports on the Shah Alam Stadium. Unistrut undertook the building of this stadium which seats 81,000 people in Malaysia in the 1990s. In 1995, the structure incorporated the longest free-standing arch in the world.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [58647884617919496839]">2</container>
-            <unittitle>Miscellaneous <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [796352778438486416]">2</container>
+            <unittitle>Miscellaneous</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [58647884617919496839]">2</container>
-            <unittitle>Report on Unistrut Space Frame System <unitdate type="inclusive" normal="1955/1975">1955-1975</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [796352778438486416]">2</container>
+            <unittitle>Report on Unistrut Space Frame System</unittitle><unitdate type="inclusive" normal="1955/1975">1955-1975</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [58647884617919496839]">2</container>
-            <unittitle><title render="italic">Research News</title>, <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [796352778438486416]">2</container>
+            <unittitle><title render="italic">Research News</title></unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [58647884617919496839]">2</container>
-            <unittitle>Shah Alam Sports Complex <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [796352778438486416]">2</container>
+            <unittitle>Shah Alam Sports Complex</unittitle><unitdate type="inclusive" normal="1990">1990</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [58647884617919496839]">2</container>
-            <unittitle>Shah Alam Stadium <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [796352778438486416]">2</container>
+            <unittitle>Shah Alam Stadium</unittitle><unitdate type="inclusive" normal="1995">1995</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [58647884617919496839]">2</container>
-            <unittitle><title render="italic">Structural Analysis of Unistrut Space Frame Roofs</title>, <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [796352778438486416]">2</container>
+            <unittitle><title render="italic">Structural Analysis of Unistrut Space Frame Roofs</title></unittitle><unitdate type="inclusive" normal="1959">1959</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [58647884617919496839]">2</container>
-            <unittitle><title render="italic">Unistrut School Construction</title>, <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [796352778438486416]">2</container>
+            <unittitle><title render="italic">Unistrut School Construction</title></unittitle><unitdate type="inclusive" normal="1958">1958</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [58647884617919496839]">2</container>
-            <unittitle><title render="italic">Unistrut System of Construction</title>, <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [796352778438486416]">2</container>
+            <unittitle><title render="italic">Unistrut System of Construction</title></unittitle><unitdate type="inclusive" normal="1956">1956</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -632,49 +561,49 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4643961584009342328898]">3</container>
+            <container type="box" label="Box [1138384048974248]">3</container>
             <unittitle>Charles Attwood</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4643961584009342328898]">3</container>
+            <container type="box" label="Box [1138384048974248]">3</container>
             <unittitle>Celebrations and Meetings</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4643961584009342328898]">3</container>
+            <container type="box" label="Box [1138384048974248]">3</container>
             <unittitle>Components</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4643961584009342328898]">3</container>
+            <container type="box" label="Box [1138384048974248]">3</container>
             <unittitle>Deceleco</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4643961584009342328898]">3</container>
+            <container type="box" label="Box [1138384048974248]">3</container>
             <unittitle>Miscellaneous</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4643961584009342328898]">3</container>
+            <container type="box" label="Box [1138384048974248]">3</container>
             <unittitle>Shah Alam Sports Complex</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4643961584009342328898]">3</container>
+            <container type="box" label="Box [1138384048974248]">3</container>
             <unittitle>Space Frame Tests</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4643961584009342328898]">3</container>
+            <container type="box" label="Box [1138384048974248]">3</container>
             <unittitle>Structures</unittitle>
           </did>
         </c02>

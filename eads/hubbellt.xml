@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,10 +47,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Hubbell, Theodore H.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/5949">Hubbell, Theodore H.</persname>
       </origination>
-      <unittitle encodinganalog="245">Theodore H. Hubbell papers <unitdate type="inclusive" encodinganalog="245$f" normal="1833/1988">1833-1988</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1852/1970">1852-1970</unitdate></unittitle>
-      <abstract>Professor of entomology at the University of Michigan. Personal and professional papers of Hubbell and his wife Grace Griffin Hubbell; also collected genealogical and family papers relating to the Hubbell and Hussey families (Grace Griffin Hubbell's mother was Lenora Hussey Griffin); Hussey family series includes papers of John Milton and Mary C. Hussey and their children and relate to John M. Hussey's Civil War service, Ohio agriculture and Grange activities and family life and customs; Hubbell family series includes papers of Clarence W. and Winifred Waters Hubbell relating in part to his work as engineer in the Philippines, 1907-1913; and collected Hubbell family photos and albums, including views of Benzonia, Michigan family farm and relating to C. W. Hubbell's service as engineer in the Philippine Islands, 1909-1911; also personal photograph series, including various residences of Hubbell, his scientific field trips to Tennessee, Florida, and the Philippines, and postcard views of Michigan communities.</abstract>
+      <unittitle encodinganalog="245">Theodore H. Hubbell papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1833/1988">1833-1988</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1852/1970">1852-1970</unitdate><abstract>Professor of entomology at the University of Michigan. Personal and professional papers of Hubbell and his wife Grace Griffin Hubbell; also collected genealogical and family papers relating to the Hubbell and Hussey families (Grace Griffin Hubbell's mother was Lenora Hussey Griffin); Hussey family series includes papers of John Milton and Mary C. Hussey and their children and relate to John M. Hussey's Civil War service, Ohio agriculture and Grange activities and family life and customs; Hubbell family series includes papers of Clarence W. and Winifred Waters Hubbell relating in part to his work as engineer in the Philippines, 1907-1913; and collected Hubbell family photos and albums, including views of Benzonia, Michigan family farm and relating to C. W. Hubbell's service as engineer in the Philippine Islands, 1909-1911; also personal photograph series, including various residences of Hubbell, his scientific field trips to Tennessee, Florida, and the Philippines, and postcard views of Michigan communities.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">90180 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -88,93 +88,90 @@
     <controlaccess>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Agriculture--United States.</subject>
-        <subject source="lcsh" encodinganalog="650">Entomology.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no00039433">Hubbell, Theodore Huntington, 1897-1989.</persname>
-        <famname source="lcnaf" encodinganalog="600">Hubbell family.</famname>
-        <famname source="lcnaf" encodinganalog="600">Hussey family.</famname>
-        <geogname source="lcsh" encodinganalog="651">Ohio.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Ohio--Social life and customs.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50082367">National Grange.</corpname>
-        <geogname source="lcsh" encodinganalog="651">Philippines--History--1898-1946.</geogname>
-        <geogname source="lcsh" encodinganalog="651">United States--History--Civil War, 1861-1865.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Zoology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79115934">University of Michigan. Museum of Zoology.</corpname>
-        <subject source="lcsh" encodinganalog="650">Women--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7092">Agriculture--United States.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8344">Entomology.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no00039433" ref="/agents/people/7798">Hubbell, Theodore Huntington, 1897-1989.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/97">Hubbell family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/366">Hussey family.</famname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1574">Ohio.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2100">Ohio--Social life and customs.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50082367" ref="/agents/corporate_entities/4650">National Grange.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/940">Philippines--History--1898-1946.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/905">United States--History--Civil War, 1861-1865.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1909">University of Michigan. Dept. of Zoology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79115934" ref="/agents/corporate_entities/5373">University of Michigan. Museum of Zoology.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5746">Women--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <genreform source="gmgpc" encodinganalog="655">Albums.</genreform>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n88013212">Benzonia (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Beulah (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Dwellings.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83069938">Fort Sill (Okla.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82137791">Frankfort (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no00039433">Hubbell, Theodore Huntington, 1897-1989.</persname>
-        <geogname source="lcsh" encodinganalog="651">Milford (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">University Museums Building (University of Michigan)</corpname>
-        <geogname source="lcsh" encodinganalog="651">Philippines--History--1898-1946.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">University Hall (University of Michigan)</corpname>
-        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3458">Albums.</genreform>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n88013212" ref="/subjects/2101">Benzonia (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1038">Beulah (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3995">Dwellings.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83069938" ref="/subjects/2102">Fort Sill (Okla.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82137791" ref="/subjects/1090">Frankfort (Mich.)</geogname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no00039433" ref="/agents/people/7798">Hubbell, Theodore Huntington, 1897-1989.</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1972">Milford (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2991">University Museums Building (University of Michigan)</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/940">Philippines--History--1898-1946.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5643">University Hall (University of Michigan)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5715">World War, 1914-1918.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Hubbell, Clarence, 1870-1950.</persname>
-        <persname source="lcnaf" encodinganalog="700">Hubbell, Grace Griffin.</persname>
-        <persname source="lcnaf" encodinganalog="700">Hubbell, Winifred.</persname>
-        <persname source="lcnaf" encodinganalog="700">Hussey, John Milton.</persname>
-        <persname source="lcnaf" encodinganalog="700">Hussey, Mary C.</persname>
-        <persname source="lcnaf" encodinganalog="700">Hussey, Roland F.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008189002">Hussey, William Joseph, 1862-1926.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no00039450">Rogers, J. Speed (James Speed), 1892-1955</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2007120169">Steere, Joseph Beal, 1842-1940.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/3970">Hubbell, Clarence, 1870-1950.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/7857">Hubbell, Grace Griffin.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/8752">Hubbell, Winifred.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/1297">Hussey, John Milton.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/3589">Hussey, Mary C.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/7288">Hussey, Roland F.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008189002" ref="/agents/people/512">Hussey, William Joseph, 1862-1926.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no00039450" ref="/agents/people/5740">Rogers, J. Speed (James Speed), 1892-1955</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2007120169" ref="/agents/people/8133">Steere, Joseph Beal, 1842-1940.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="gmgpc" encodinganalog="655">Postcards.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3476">Postcards.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Genealogy <unitdate type="inclusive" normal="1880/1978" certainty="approximate">1880s-1978</unitdate></unittitle>
-        </did>
+          <unittitle>Genealogy</unittitle><unitdate type="inclusive" normal="1880/1978" certainty="approximate">1880s-1978</unitdate></did>
         <scopecontent>
           <p>The Genealogy (1880s-1978) series consists of fourteen folders arranged by the family to which they refer. These materials have been collected by at least three persons, William J. Hussey, Lenora Hussey Griffin, and Grace Griffin Hubbell, so there is some overlap in the notes on and description of the various families. The documentation of the Hussey and Hubbell families is especially detailed for the mid-nineteenth century; this is largely a by-product of the amount of primary source materials kept by the families.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <unittitle>Hubbell family <unitdate type="inclusive" normal="1970/1989" certainty="approximate">1970-1980s</unitdate></unittitle>
-          </did>
+            <unittitle>Hubbell family</unittitle><unitdate type="inclusive" normal="1970/1989" certainty="approximate">1970-1980s</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [57501814728376552172]">1</container>
+              <container type="box" label="Box [153985424209589069347]">1</container>
               <unittitle>"The Hubbell family in America"</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [57501814728376552172]">1</container>
+              <container type="box" label="Box [153985424209589069347]">1</container>
               <unittitle>Forebears/other families</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [57501814728376552172]">1</container>
+              <container type="box" label="Box [153985424209589069347]">1</container>
               <unittitle>Family tree</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [57501814728376552172]">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1971/1978">1971-1978</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [153985424209589069347]">1</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1971/1978">1971-1978</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [57501814728376552172]">1</container>
+              <container type="box" label="Box [153985424209589069347]">1</container>
               <unittitle>Notes</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -184,31 +181,26 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Hussey family <unitdate type="inclusive" normal="1880/1964" certainty="approximate">1880s-1964</unitdate></unittitle>
-          </did>
+            <unittitle>Hussey family</unittitle><unitdate type="inclusive" normal="1880/1964" certainty="approximate">1880s-1964</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [57501814728376552172]">1</container>
-              <unittitle>"A branch of the Hussey family in America," <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [153985424209589069347]">1</container>
+              <unittitle>"A branch of the Hussey family in America,"</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [57501814728376552172]">1</container>
-              <unittitle>Hannah Ann Hussey biography <unitdate type="inclusive" normal="1905/1906">1905-1906</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [153985424209589069347]">1</container>
+              <unittitle>Hannah Ann Hussey biography</unittitle><unitdate type="inclusive" normal="1905/1906">1905-1906</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [57501814728376552172]">1</container>
-              <unittitle>Notes (by William J. Hussey) <unitdate type="inclusive" normal="1910/1925">1910-1925</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [153985424209589069347]">1</container>
+              <unittitle>Notes (by William J. Hussey)</unittitle><unitdate type="inclusive" normal="1910/1925">1910-1925</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [57501814728376552172]">1</container>
-              <unittitle>Notes/Correspondence <unitdate type="inclusive" normal="1880/1959" certainty="approximate">1880s-1950s</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [153985424209589069347]">1</container>
+              <unittitle>Notes/Correspondence</unittitle><unitdate type="inclusive" normal="1880/1959" certainty="approximate">1880s-1950s</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
               </physdesc>
             </did>
@@ -216,26 +208,22 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Severn family <unitdate type="inclusive" normal="1960/1979" certainty="approximate">1960s-1970s</unitdate></unittitle>
-          </did>
+            <unittitle>Severn family</unittitle><unitdate type="inclusive" normal="1960/1979" certainty="approximate">1960s-1970s</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [57501814728376552172]">1</container>
-              <unittitle>Notes (by Lenora H. Griffin) <unitdate type="inclusive" normal="1960/1969" certainty="approximate">1960s</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [153985424209589069347]">1</container>
+              <unittitle>Notes (by Lenora H. Griffin)</unittitle><unitdate type="inclusive" normal="1960/1969" certainty="approximate">1960s</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [57501814728376552172]">1</container>
-              <unittitle>Notes (by Grace G. Hubbell) <unitdate type="inclusive" normal="1970/1979" certainty="approximate">1970s</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [153985424209589069347]">1</container>
+              <unittitle>Notes (by Grace G. Hubbell)</unittitle><unitdate type="inclusive" normal="1970/1979" certainty="approximate">1970s</unitdate></did>
           </c03>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Hussey Family <unitdate type="inclusive" normal="1833/1965">1833-1965</unitdate> (<unitdate normal="1852/1930" type="bulk">primarily 1852-1930</unitdate>)</unittitle>
-        </did>
+          <unittitle>Hussey Family ()</unittitle><unitdate type="inclusive" normal="1833/1965">1833-1965</unitdate><unitdate normal="1852/1930" type="bulk">primarily 1852-1930</unitdate></did>
         <scopecontent>
           <p>The Hussey Family (1833-1965) series, which runs eighteen linear inches, is arranged according to the familial generation of creation for the materials and mainly consists of correspondence and financial materials. The John Milton and Mary C. Hussey subseries is arranged alphabetically according to type of material. This subseries is the result of substantial rearrangement of the materials. The letters between John Milton and Mary C. Hussey reveal much about his confidence in her ability to manage the farm while he was in the service during the Civil War. The originals of John's correspondence are held by the Clements Library. Their correspondence with their children illuminates a typical late nineteenth-century occupational mobility pattern as the children leave the landed gentry for professional positions.</p>
           <p>The family life and customs of this particular family are further revealed in the Children of John M. and Mary C. Hubbell subseries. This subseries has also been altered in the course of processing and is now arranged alphabetically by name of child. The bulk of materials in this subseries was created by Lenora Hussey Griffin; that more of her papers remain extant is likely due to her remarkable longevity and to the fact that her daughter, Grace Griffin Hubbell, carefully saved them. There are also William J. Hussey materials in this subseries; these should be viewed as complementary to the Hussey Family collection housed at the Bentley Library.</p>
@@ -246,96 +234,79 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [57501814728376552172]">1</container>
-              <unittitle>Student notebooks <unitdate type="inclusive" normal="1819">1819</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [153985424209589069347]">1</container>
+              <unittitle>Student notebooks</unittitle><unitdate type="inclusive" normal="1819">1819</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>John Milton and Mary C. Hussey <unitdate type="inclusive" normal="1833/1947">1833-1947</unitdate></unittitle>
-          </did>
+            <unittitle>John Milton and Mary C. Hussey</unittitle><unitdate type="inclusive" normal="1833/1947">1833-1947</unitdate></did>
           <c03 level="file">
             <did>
-              <unittitle>Correspondence (with each other) <unitdate type="inclusive" normal="1852/1891">1852-1891</unitdate></unittitle>
-            </did>
+              <unittitle>Correspondence (with each other)</unittitle><unitdate type="inclusive" normal="1852/1891">1852-1891</unitdate></did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [57501814728376552172]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1852/1853">1852-1853</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [153985424209589069347]">1</container>
+                <unitdate type="inclusive" normal="1852/1853">1852-1853</unitdate></did>
               <odd>
                 <p>Originals and typescripts</p>
               </odd>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [57501814728376552172]">1</container>
-                <unittitle>John to Mary <unitdate type="inclusive" normal="1864">1864</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [153985424209589069347]">1</container>
+                <unittitle>John to Mary</unittitle><unitdate type="inclusive" normal="1864">1864</unitdate></did>
               <odd>
                 <p>originals and typescripts</p>
               </odd>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [57501814728376552172]">1</container>
-                <unittitle>Mary to John <unitdate type="inclusive" normal="1864">1864</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [153985424209589069347]">1</container>
+                <unittitle>Mary to John</unittitle><unitdate type="inclusive" normal="1864">1864</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [57501814728376552172]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1891">1891</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [153985424209589069347]">1</container>
+                <unitdate type="inclusive" normal="1891">1891</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [57501814728376552172]">1</container>
-              <unittitle>Correspondence (extended family) <unitdate type="inclusive" normal="1847/1917">1847-1917</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [153985424209589069347]">1</container>
+              <unittitle>Correspondence (extended family)</unittitle><unitdate type="inclusive" normal="1847/1917">1847-1917</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">4 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Correspondence with Children <unitdate type="inclusive" normal="1875/1918">1875-1918</unitdate></unittitle>
-            </did>
+              <unittitle>Correspondence with Children</unittitle><unitdate type="inclusive" normal="1875/1918">1875-1918</unitdate></did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [57501814728376552172]">1</container>
-                <unittitle>Alice Hussey (Rose) <unitdate type="inclusive" normal="1884/1894">1884-1894</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [153985424209589069347]">1</container>
+                <unittitle>Alice Hussey (Rose)</unittitle><unitdate type="inclusive" normal="1884/1894">1884-1894</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [57501814728376552172]">1</container>
-                <unittitle>Arthur W. (and Lillian) Hussey <unitdate type="inclusive" normal="1875/1914">1875-1914</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [153985424209589069347]">1</container>
+                <unittitle>Arthur W. (and Lillian) Hussey</unittitle><unitdate type="inclusive" normal="1875/1914">1875-1914</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">3 folders</extent>
                 </physdesc>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [57501814728376552172]">1</container>
-                <unittitle>Edgar P. (and Flora) Hussey <unitdate type="inclusive" normal="1875/1893">1875-1893</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [153985424209589069347]">1</container>
+                <unittitle>Edgar P. (and Flora) Hussey</unittitle><unitdate type="inclusive" normal="1875/1893">1875-1893</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [57501814728376552172]">1</container>
-                <unittitle>Lenora Hussey (Griffin) <unitdate type="inclusive" normal="1889/1917">1889-1917</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [153985424209589069347]">1</container>
+                <unittitle>Lenora Hussey (Griffin)</unittitle><unitdate type="inclusive" normal="1889/1917">1889-1917</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
@@ -345,9 +316,8 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [57501814728376552172]">1</container>
-                <unittitle>William J. (and Ethel F. and Mary R.) Hussey <unitdate type="inclusive" normal="1880/1918">1880-1918</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [153985424209589069347]">1</container>
+                <unittitle>William J. (and Ethel F. and Mary R.) Hussey</unittitle><unitdate type="inclusive" normal="1880/1918">1880-1918</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
@@ -355,29 +325,24 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Financial/Legal <unitdate type="inclusive" normal="1833/1947">1833-1947</unitdate></unittitle>
-            </did>
+              <unittitle>Financial/Legal</unittitle><unitdate type="inclusive" normal="1833/1947">1833-1947</unitdate></did>
             <c04 level="file">
               <did>
-                <unittitle>Account books <unitdate type="inclusive" normal="1853/1913">1853-1913</unitdate></unittitle>
-              </did>
+                <unittitle>Account books</unittitle><unitdate type="inclusive" normal="1853/1913">1853-1913</unitdate></did>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [57501814728376552172]">1</container>
-                  <unittitle>Farm accounts <unitdate type="inclusive" normal="1853/1876">1853-1876</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [153985424209589069347]">1</container>
+                  <unittitle>Farm accounts</unittitle><unitdate type="inclusive" normal="1853/1876">1853-1876</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [57501814728376552172]">1</container>
-                  <unittitle>Threshing <unitdate type="inclusive" normal="1857/1858">1857-1858</unitdate> (and miscellaneous)</unittitle>
-                </did>
+                  <container type="box" label="Box [153985424209589069347]">1</container>
+                  <unittitle>Threshing (and miscellaneous)</unittitle><unitdate type="inclusive" normal="1857/1858">1857-1858</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [57501814728376552172]">1</container>
-                  <unittitle>Household <unitdate type="inclusive" normal="1903/1913">1903-1913</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [153985424209589069347]">1</container>
+                  <unittitle>Household</unittitle><unitdate type="inclusive" normal="1903/1913">1903-1913</unitdate></did>
                 <odd>
                   <p>(includes genealogy)</p>
                 </odd>
@@ -385,134 +350,113 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [57501814728376552172]">1</container>
-                <unittitle>Correspondence and advertising <unitdate type="inclusive" normal="1855/1893">1855-1893</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [153985424209589069347]">1</container>
+                <unittitle>Correspondence and advertising</unittitle><unitdate type="inclusive" normal="1855/1893">1855-1893</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>Hussey farm <unitdate type="inclusive" normal="1833/1947">1833-1947</unitdate></unittitle>
-              </did>
+                <unittitle>Hussey farm</unittitle><unitdate type="inclusive" normal="1833/1947">1833-1947</unitdate></did>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [6056178134873265750]">2</container>
-                  <unittitle>Architect's plan <unitdate type="inclusive" normal="1860" certainty="approximate">circa 1860</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [419754842098203316580]">2</container>
+                  <unittitle>Architect's plan</unittitle><unitdate type="inclusive" normal="1860" certainty="approximate">circa 1860</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [6056178134873265750]">2</container>
-                  <unittitle>Deeds <unitdate type="inclusive" normal="1833/1936">1833-1936</unitdate></unittitle>
-                  <physdesc altrender="whole">
+                  <container type="box" label="Box [419754842098203316580]">2</container>
+                  <unittitle>Deeds</unittitle><unitdate type="inclusive" normal="1833/1936">1833-1936</unitdate><physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">2 folders</extent>
                   </physdesc>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [6056178134873265750]">2</container>
-                  <unittitle>Estate (J.M. Hussey) appraisal <unitdate type="inclusive" normal="1914/1915">1914-1915</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [419754842098203316580]">2</container>
+                  <unittitle>Estate (J.M. Hussey) appraisal</unittitle><unitdate type="inclusive" normal="1914/1915">1914-1915</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [6056178134873265750]">2</container>
-                  <unittitle>Estate auction <unitdate type="inclusive" normal="1947" certainty="approximate">circa 1947</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [419754842098203316580]">2</container>
+                  <unittitle>Estate auction</unittitle><unitdate type="inclusive" normal="1947" certainty="approximate">circa 1947</unitdate></did>
               </c05>
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>Grange materials <unitdate type="inclusive" normal="1861/1889" certainty="approximate">1861-1880s</unitdate></unittitle>
-              </did>
+                <unittitle>Grange materials</unittitle><unitdate type="inclusive" normal="1861/1889" certainty="approximate">1861-1880s</unitdate></did>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [6056178134873265750]">2</container>
-                  <unittitle>Mercer Co. (OH) <unitdate type="inclusive" normal="1861/1889" certainty="approximate">1861-1880s</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [419754842098203316580]">2</container>
+                  <unittitle>Mercer Co. (OH)</unittitle><unitdate type="inclusive" normal="1861/1889" certainty="approximate">1861-1880s</unitdate></did>
                 <odd>
                   <p>(includes The Scythe, 1877)</p>
                 </odd>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [6056178134873265750]">2</container>
-                  <unittitle>Account books (Mercer Co.) <unitdate type="inclusive" normal="1872/1876">1872-1876</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [419754842098203316580]">2</container>
+                  <unittitle>Account books (Mercer Co.)</unittitle><unitdate type="inclusive" normal="1872/1876">1872-1876</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [6056178134873265750]">2</container>
-                  <unittitle>Constitutions (Hocking and Hancock, OH) <unitdate type="inclusive" normal="1870/1879" certainty="approximate">1870s</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [419754842098203316580]">2</container>
+                  <unittitle>Constitutions (Hocking and Hancock, OH)</unittitle><unitdate type="inclusive" normal="1870/1879" certainty="approximate">1870s</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [6056178134873265750]">2</container>
-                  <unittitle>Articles of Incorporation (St. Mary's, OH) <unitdate type="inclusive" normal="1875">1875</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [419754842098203316580]">2</container>
+                  <unittitle>Articles of Incorporation (St. Mary's, OH)</unittitle><unitdate type="inclusive" normal="1875">1875</unitdate></did>
               </c05>
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>Justice of the Peace (J.M. Hussey) <unitdate type="inclusive" normal="1865/1872">1865-1872</unitdate></unittitle>
-              </did>
+                <unittitle>Justice of the Peace (J.M. Hussey)</unittitle><unitdate type="inclusive" normal="1865/1872">1865-1872</unitdate></did>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [6056178134873265750]">2</container>
-                  <unittitle>Articles of Agreement <unitdate type="inclusive" normal="1865/1872">1865-1872</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [419754842098203316580]">2</container>
+                  <unittitle>Articles of Agreement</unittitle><unitdate type="inclusive" normal="1865/1872">1865-1872</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
-                  <unittitle>Estate Executor <unitdate type="inclusive" normal="1865/1870">1865-1870</unitdate></unittitle>
-                </did>
+                  <unittitle>Estate Executor</unittitle><unitdate type="inclusive" normal="1865/1870">1865-1870</unitdate></did>
                 <c06 level="file">
                   <did>
-                    <container type="box" label="Box [6056178134873265750]">2</container>
-                    <unittitle>John Parrot <unitdate type="inclusive" normal="1865">1865</unitdate></unittitle>
-                  </did>
+                    <container type="box" label="Box [419754842098203316580]">2</container>
+                    <unittitle>John Parrot</unittitle><unitdate type="inclusive" normal="1865">1865</unitdate></did>
                 </c06>
                 <c06 level="file">
                   <did>
-                    <container type="box" label="Box [6056178134873265750]">2</container>
-                    <unittitle>William Hussey <unitdate type="inclusive" normal="1865">1865</unitdate></unittitle>
-                    <physdesc altrender="whole">
+                    <container type="box" label="Box [419754842098203316580]">2</container>
+                    <unittitle>William Hussey</unittitle><unitdate type="inclusive" normal="1865">1865</unitdate><physdesc altrender="whole">
                       <extent altrender="materialtype spaceoccupied">2 folders</extent>
                     </physdesc>
                   </did>
                 </c06>
                 <c06 level="file">
                   <did>
-                    <container type="box" label="Box [6056178134873265750]">2</container>
-                    <unittitle>David Holmes <unitdate type="inclusive" normal="1868/1869">1868-1869</unitdate></unittitle>
-                  </did>
+                    <container type="box" label="Box [419754842098203316580]">2</container>
+                    <unittitle>David Holmes</unittitle><unitdate type="inclusive" normal="1868/1869">1868-1869</unitdate></did>
                 </c06>
                 <c06 level="file">
                   <did>
-                    <container type="box" label="Box [6056178134873265750]">2</container>
-                    <unittitle>Miscellaneous <unitdate type="inclusive" normal="1865/1870">1865-1870</unitdate></unittitle>
-                  </did>
+                    <container type="box" label="Box [419754842098203316580]">2</container>
+                    <unittitle>Miscellaneous</unittitle><unitdate type="inclusive" normal="1865/1870">1865-1870</unitdate></did>
                 </c06>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [6056178134873265750]">2</container>
-                  <unittitle>Marriage Licenses <unitdate type="inclusive" normal="1868/1869">1868-1869</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [419754842098203316580]">2</container>
+                  <unittitle>Marriage Licenses</unittitle><unitdate type="inclusive" normal="1868/1869">1868-1869</unitdate></did>
               </c05>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6056178134873265750]">2</container>
-                <unittitle>Receipts <unitdate type="inclusive" normal="1845/1880">1845-1880</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [419754842098203316580]">2</container>
+                <unittitle>Receipts</unittitle><unitdate type="inclusive" normal="1845/1880">1845-1880</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6056178134873265750]">2</container>
-                <unittitle>Tax receipts <unitdate type="inclusive" normal="1851/1908">1851-1908</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [419754842098203316580]">2</container>
+                <unittitle>Tax receipts</unittitle><unitdate type="inclusive" normal="1851/1908">1851-1908</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
@@ -523,33 +467,28 @@
               </did>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [6056178134873265750]">2</container>
-                  <unittitle>Widow's pension <unitdate type="inclusive" normal="1914">1914</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [419754842098203316580]">2</container>
+                  <unittitle>Widow's pension</unittitle><unitdate type="inclusive" normal="1914">1914</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [6056178134873265750]">2</container>
-                  <unittitle>Will <unitdate type="inclusive" normal="1918">1918</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [419754842098203316580]">2</container>
+                  <unittitle>Will</unittitle><unitdate type="inclusive" normal="1918">1918</unitdate></did>
               </c05>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Personal <unitdate type="inclusive" normal="1847/1899" certainty="approximate">1847-1890s</unitdate></unittitle>
-            </did>
+              <unittitle>Personal</unittitle><unitdate type="inclusive" normal="1847/1899" certainty="approximate">1847-1890s</unitdate></did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6056178134873265750]">2</container>
-                <unittitle>Civil War materials (regimental listing, itinerary, memos, discharge) <unitdate type="inclusive" normal="1864">1864</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [419754842098203316580]">2</container>
+                <unittitle>Civil War materials (regimental listing, itinerary, memos, discharge)</unittitle><unitdate type="inclusive" normal="1864">1864</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6056178134873265750]">2</container>
-                <unittitle>Diaries <unitdate type="inclusive" normal="1847/1863">1847-1863</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [419754842098203316580]">2</container>
+                <unittitle>Diaries</unittitle><unitdate type="inclusive" normal="1847/1863">1847-1863</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">5 folders</extent>
                 </physdesc>
               </did>
@@ -559,272 +498,228 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6056178134873265750]">2</container>
-                <unittitle>Franklin Literary and Theological Society (Mendon, OH) minutes <unitdate type="inclusive" normal="1867/1868">1867-1868</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [419754842098203316580]">2</container>
+                <unittitle>Franklin Literary and Theological Society (Mendon, OH) minutes</unittitle><unitdate type="inclusive" normal="1867/1868">1867-1868</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6056178134873265750]">2</container>
-                <unittitle>New Light Christian Church <unitdate type="inclusive" normal="1866">1866</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [419754842098203316580]">2</container>
+                <unittitle>New Light Christian Church</unittitle><unitdate type="inclusive" normal="1866">1866</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6056178134873265750]">2</container>
-                <unittitle>Poetry/Reflections <unitdate type="inclusive" normal="1853/1870">1853-1870</unitdate> (some typescripts)</unittitle>
-              </did>
+                <container type="box" label="Box [419754842098203316580]">2</container>
+                <unittitle>Poetry/Reflections (some typescripts)</unittitle><unitdate type="inclusive" normal="1853/1870">1853-1870</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6056178134873265750]">2</container>
-                <unittitle>Recipes <unitdate type="inclusive" normal="1860/1869" certainty="approximate">circa 1860s</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [419754842098203316580]">2</container>
+                <unittitle>Recipes</unittitle><unitdate type="inclusive" normal="1860/1869" certainty="approximate">circa 1860s</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6056178134873265750]">2</container>
-                <unittitle>Teaching notes <unitdate type="inclusive" normal="1851/1862">1851-1862</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [419754842098203316580]">2</container>
+                <unittitle>Teaching notes</unittitle><unitdate type="inclusive" normal="1851/1862">1851-1862</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>Temperance <unitdate type="inclusive" normal="1859/1869">1859-1869</unitdate></unittitle>
-              </did>
+                <unittitle>Temperance</unittitle><unitdate type="inclusive" normal="1859/1869">1859-1869</unitdate></did>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [6056178134873265750]">2</container>
-                  <unittitle>Broad Oak Resolution <unitdate type="inclusive" normal="1859">1859</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [419754842098203316580]">2</container>
+                  <unittitle>Broad Oak Resolution</unittitle><unitdate type="inclusive" normal="1859">1859</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [6056178134873265750]">2</container>
-                  <unittitle>Union Township (Mercer Co.) Pledge <unitdate type="inclusive" normal="1869">1869</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [419754842098203316580]">2</container>
+                  <unittitle>Union Township (Mercer Co.) Pledge</unittitle><unitdate type="inclusive" normal="1869">1869</unitdate></did>
               </c05>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6056178134873265750]">2</container>
-                <unittitle>Miscellaneous <unitdate type="inclusive" normal="1853/1899" certainty="approximate">1853-1890s</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [419754842098203316580]">2</container>
+                <unittitle>Miscellaneous</unittitle><unitdate type="inclusive" normal="1853/1899" certainty="approximate">1853-1890s</unitdate></did>
             </c04>
           </c03>
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>John Milton and Mary C. Hussey's Children <unitdate type="inclusive" normal="1875/1965">1875-1965</unitdate></unittitle>
-          </did>
+            <unittitle>John Milton and Mary C. Hussey's Children</unittitle><unitdate type="inclusive" normal="1875/1965">1875-1965</unitdate></did>
           <c03 level="file">
             <did>
-              <unittitle>Alice Hussey (Rose) <unitdate type="inclusive" normal="1878/1906">1878-1906</unitdate></unittitle>
-            </did>
+              <unittitle>Alice Hussey (Rose)</unittitle><unitdate type="inclusive" normal="1878/1906">1878-1906</unitdate></did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6056178134873265750]">2</container>
-                <unittitle>Correspondence <unitdate type="inclusive" normal="1878/1906">1878-1906</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [419754842098203316580]">2</container>
+                <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1878/1906">1878-1906</unitdate></did>
               <odd>
                 <p>(includes description of her fatal illness, 1906)</p>
               </odd>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6056178134873265750]">2</container>
-                <unittitle>Correspondence to Lenora Hussey (Griffin) <unitdate type="inclusive" normal="1884/1903">1884-1903</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [419754842098203316580]">2</container>
+                <unittitle>Correspondence to Lenora Hussey (Griffin)</unittitle><unitdate type="inclusive" normal="1884/1903">1884-1903</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Arthur W. (and Lillian) Hussey <unitdate type="inclusive" normal="1877/1947">1877-1947</unitdate></unittitle>
-            </did>
+              <unittitle>Arthur W. (and Lillian) Hussey</unittitle><unitdate type="inclusive" normal="1877/1947">1877-1947</unitdate></did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6056178134873265750]">2</container>
-                <unittitle>Correspondence to Edgar P. Hussey <unitdate type="inclusive" normal="1877/1888">1877-1888</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [419754842098203316580]">2</container>
+                <unittitle>Correspondence to Edgar P. Hussey</unittitle><unitdate type="inclusive" normal="1877/1888">1877-1888</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6056178134873265750]">2</container>
-                <unittitle>Correspondence to Lenora Hussey (Griffin) <unitdate type="inclusive" normal="1906/1947">1906-1947</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [419754842098203316580]">2</container>
+                <unittitle>Correspondence to Lenora Hussey (Griffin)</unittitle><unitdate type="inclusive" normal="1906/1947">1906-1947</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6056178134873265750]">2</container>
-                <unittitle>Correspondence to William J. Hussey <unitdate type="inclusive" normal="1906">1906</unitdate>, <unitdate type="inclusive" normal="1918">1918</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [419754842098203316580]">2</container>
+                <unittitle>Correspondence to William J. Hussey</unittitle><unitdate type="inclusive" normal="1906">1906</unitdate><unitdate type="inclusive" normal="1918">1918</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Edgar P. (and Flora) Hussey <unitdate type="inclusive" normal="1875/1940">1875-1940</unitdate></unittitle>
-            </did>
+              <unittitle>Edgar P. (and Flora) Hussey</unittitle><unitdate type="inclusive" normal="1875/1940">1875-1940</unitdate></did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6056178134873265750]">2</container>
-                <unittitle>Correspondence <unitdate type="inclusive" normal="1875/1886">1875-1886</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [419754842098203316580]">2</container>
+                <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1875/1886">1875-1886</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6056178134873265750]">2</container>
-                <unittitle>Correspondence to Lenora Hussey (Griffin) <unitdate type="inclusive" normal="1926/1940">1926-1940</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [419754842098203316580]">2</container>
+                <unittitle>Correspondence to Lenora Hussey (Griffin)</unittitle><unitdate type="inclusive" normal="1926/1940">1926-1940</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Lenora Hussey (Griffin) <unitdate type="inclusive" normal="1879/1965">1879-1965</unitdate></unittitle>
-            </did>
+              <unittitle>Lenora Hussey (Griffin)</unittitle><unitdate type="inclusive" normal="1879/1965">1879-1965</unitdate></did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6056178134873265750]">2</container>
-                <unittitle>Correspondence <unitdate type="inclusive" normal="1912/1965">1912-1965</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [419754842098203316580]">2</container>
+                <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1912/1965">1912-1965</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6056178134873265750]">2</container>
-                <unittitle>Correspondence from George Griffin <unitdate type="inclusive" normal="1909/1918">1909-1918</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [419754842098203316580]">2</container>
+                <unittitle>Correspondence from George Griffin</unittitle><unitdate type="inclusive" normal="1909/1918">1909-1918</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6056178134873265750]">2</container>
-                <unittitle>Correspondence with Jane Griffin <unitdate type="inclusive" normal="1917/1947">1917-1947</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [419754842098203316580]">2</container>
+                <unittitle>Correspondence with Jane Griffin</unittitle><unitdate type="inclusive" normal="1917/1947">1917-1947</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6056178134873265750]">2</container>
-                <unittitle>Correspondence with Mary Griffin (Newton) <unitdate type="inclusive" normal="1916/1928">1916-1928</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [419754842098203316580]">2</container>
+                <unittitle>Correspondence with Mary Griffin (Newton)</unittitle><unitdate type="inclusive" normal="1916/1928">1916-1928</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6056178134873265750]">2</container>
-                <unittitle>Correspondence to Arthur W. Hussey <unitdate type="inclusive" normal="1879">1879</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [419754842098203316580]">2</container>
+                <unittitle>Correspondence to Arthur W. Hussey</unittitle><unitdate type="inclusive" normal="1879">1879</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6056178134873265750]">2</container>
-                <unittitle>Correspondence to William J. Hussey <unitdate type="inclusive" normal="1895/1896">1895-1896</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [419754842098203316580]">2</container>
+                <unittitle>Correspondence to William J. Hussey</unittitle><unitdate type="inclusive" normal="1895/1896">1895-1896</unitdate></did>
               <odd>
                 <p>(includes Stanford letters)</p>
               </odd>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6056178134873265750]">2</container>
-                <unittitle>Diary <unitdate type="inclusive" normal="1938/1961">1938-1961</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [419754842098203316580]">2</container>
+                <unittitle>Diary</unittitle><unitdate type="inclusive" normal="1938/1961">1938-1961</unitdate></did>
               <odd>
                 <p>(includes Grace Griffin Hubbell diary, 1956-1961)</p>
               </odd>
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>Financial <unitdate type="inclusive" normal="1892/1946">1892-1946</unitdate></unittitle>
-              </did>
+                <unittitle>Financial</unittitle><unitdate type="inclusive" normal="1892/1946">1892-1946</unitdate></did>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [6056178134873265750]">2</container>
-                  <unittitle>Deeds to West St. property <unitdate type="inclusive" normal="1892/1897">1892-1897</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [419754842098203316580]">2</container>
+                  <unittitle>Deeds to West St. property</unittitle><unitdate type="inclusive" normal="1892/1897">1892-1897</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [6056178134873265750]">2</container>
-                  <unittitle>Ledger of receipts <unitdate type="inclusive" normal="1935/1946">1935-1946</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [419754842098203316580]">2</container>
+                  <unittitle>Ledger of receipts</unittitle><unitdate type="inclusive" normal="1935/1946">1935-1946</unitdate></did>
               </c05>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6056178134873265750]">2</container>
-                <unittitle>Lesson books <unitdate>undated</unitdate>, <unitdate type="inclusive" normal="1895" certainty="approximate">circa 1895</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [419754842098203316580]">2</container>
+                <unittitle>Lesson books</unittitle><unitdate>undated</unitdate><unitdate type="inclusive" normal="1895" certainty="approximate">circa 1895</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6056178134873265750]">2</container>
-                <unittitle>Miscellaneous writings <unitdate type="inclusive" normal="1890/1899" certainty="approximate">1890s</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [419754842098203316580]">2</container>
+                <unittitle>Miscellaneous writings</unittitle><unitdate type="inclusive" normal="1890/1899" certainty="approximate">1890s</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>William J. Hussey <unitdate type="inclusive" normal="1883/1931">1883-1931</unitdate></unittitle>
-            </did>
+              <unittitle>William J. Hussey</unittitle><unitdate type="inclusive" normal="1883/1931">1883-1931</unitdate></did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6056178134873265750]">2</container>
-                <unittitle>Correspondence to Alice Hussey (Rose) <unitdate type="inclusive" normal="1883/1889">1883-1889</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [419754842098203316580]">2</container>
+                <unittitle>Correspondence to Alice Hussey (Rose)</unittitle><unitdate type="inclusive" normal="1883/1889">1883-1889</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6056178134873265750]">2</container>
-                <unittitle>Correspondence to Arthur W. Hussey <unitdate type="inclusive" normal="1893">1893</unitdate>, <unitdate type="inclusive" normal="1914">1914</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [419754842098203316580]">2</container>
+                <unittitle>Correspondence to Arthur W. Hussey</unittitle><unitdate type="inclusive" normal="1893">1893</unitdate><unitdate type="inclusive" normal="1914">1914</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6056178134873265750]">2</container>
-                <unittitle>Correspondence to Edgar P. Hussey <unitdate type="inclusive" normal="1912/1913">1912-1913</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [419754842098203316580]">2</container>
+                <unittitle>Correspondence to Edgar P. Hussey</unittitle><unitdate type="inclusive" normal="1912/1913">1912-1913</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6056178134873265750]">2</container>
-                <unittitle>Correspondence to Ethel Fountain Hussey <unitdate type="inclusive" normal="1912">1912</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [419754842098203316580]">2</container>
+                <unittitle>Correspondence to Ethel Fountain Hussey</unittitle><unitdate type="inclusive" normal="1912">1912</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6056178134873265750]">2</container>
-                <unittitle>Correspondence to Lenora Hussey (Griffin) <unitdate type="inclusive" normal="1895/1928">1895-1928</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [419754842098203316580]">2</container>
+                <unittitle>Correspondence to Lenora Hussey (Griffin)</unittitle><unitdate type="inclusive" normal="1895/1928">1895-1928</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>Financial <unitdate type="inclusive" normal="1919/1931">1919-1931</unitdate></unittitle>
-              </did>
+                <unittitle>Financial</unittitle><unitdate type="inclusive" normal="1919/1931">1919-1931</unitdate></did>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [6056178134873265750]">2</container>
-                  <unittitle>Estate of William J. Hussey <unitdate type="inclusive" normal="1919/1931">1919-1931</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [419754842098203316580]">2</container>
+                  <unittitle>Estate of William J. Hussey</unittitle><unitdate type="inclusive" normal="1919/1931">1919-1931</unitdate></did>
               </c05>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6056178134873265750]">2</container>
-                <unittitle>Personal (including biography, photograph and UM Oracle, 1893) <unitdate type="inclusive" normal="1893/1926">1893-1926</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [419754842098203316580]">2</container>
+                <unittitle>Personal (including biography, photograph and UM Oracle, 1893)</unittitle><unitdate type="inclusive" normal="1893/1926">1893-1926</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6056178134873265750]">2</container>
-                <unittitle>Teaching <unitdate type="inclusive" normal="1884/1885">1884-1885</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [419754842098203316580]">2</container>
+                <unittitle>Teaching</unittitle><unitdate type="inclusive" normal="1884/1885">1884-1885</unitdate></did>
             </c04>
           </c03>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Hubbell Family <unitdate type="inclusive" normal="1860/1964" certainty="approximate">1860s-1964</unitdate></unittitle>
-        </did>
+          <unittitle>Hubbell Family</unittitle><unitdate type="inclusive" normal="1860/1964" certainty="approximate">1860s-1964</unitdate></did>
         <scopecontent>
           <p>Theodore Hubbell likewise took pains to preserve the materials in the Hubbell Family (1860s-1964) series. This series runs eight linear inches and consists primarily of the papers of Clarence W. and Winifred Waters Hubbell and family photographs. These materials should also be used in conjunction with another Bentley Library collection, the Hubbell Family papers, with which there is considerable overlap. The strengths of this series reside in its documentation of Winifred Hubbell's writings and the photographs. The albums of family photographs will be of special interest to genealogists and researchers doing family history. During processing some photographs were removed from their physical proximity with this series and placed in the Personal series as it appeared that Theodore Hubbell created or collected those images.</p>
         </scopecontent>
@@ -834,26 +729,22 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4282725764373610527089]">3</container>
-              <unittitle>Notebook (transcriptions) <unitdate>undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [879274407062709]">3</container>
+              <unittitle>Notebook (transcriptions)</unittitle><unitdate>undated</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Clarence W. Hubbell <unitdate type="inclusive" normal="1900/1955">1900-1955</unitdate></unittitle>
-          </did>
+            <unittitle>Clarence W. Hubbell</unittitle><unitdate type="inclusive" normal="1900/1955">1900-1955</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4282725764373610527089]">3</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1911/1914">1911-1914</unitdate> (and death certificate, 1955)</unittitle>
-            </did>
+              <container type="box" label="Box [879274407062709]">3</container>
+              <unittitle>Correspondence (and death certificate, 1955)</unittitle><unitdate type="inclusive" normal="1911/1914">1911-1914</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4282725764373610527089]">3</container>
-              <unittitle>Correspondence with Winifred W. Hubbell <unitdate type="inclusive" normal="1912/1914">1912-1914</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [879274407062709]">3</container>
+              <unittitle>Correspondence with Winifred W. Hubbell</unittitle><unitdate type="inclusive" normal="1912/1914">1912-1914</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -864,218 +755,186 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [4282725764373610527089]">3</container>
-                <unittitle>Account book <unitdate type="inclusive" normal="1900/1906">1900-1906</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [879274407062709]">3</container>
+                <unittitle>Account book</unittitle><unitdate type="inclusive" normal="1900/1906">1900-1906</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4282725764373610527089]">3</container>
-              <unittitle>Writings <unitdate type="inclusive" normal="1932/1934" certainty="approximate">circa 1932-1934</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [879274407062709]">3</container>
+              <unittitle>Writings</unittitle><unitdate type="inclusive" normal="1932/1934" certainty="approximate">circa 1932-1934</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Winifred W. Hubbell <unitdate type="inclusive" normal="1910/1950" certainty="approximate">circa 1910s-1950</unitdate></unittitle>
-          </did>
+            <unittitle>Winifred W. Hubbell</unittitle><unitdate type="inclusive" normal="1910/1950" certainty="approximate">circa 1910s-1950</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4282725764373610527089]">3</container>
-              <unittitle>Poetry/prose <unitdate type="inclusive" normal="1910/1949" certainty="approximate">1910s-1940s</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [879274407062709]">3</container>
+              <unittitle>Poetry/prose</unittitle><unitdate type="inclusive" normal="1910/1949" certainty="approximate">1910s-1940s</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4282725764373610527089]">3</container>
-              <unittitle>Reminiscence ("Our Adventure in the Philippines") <unitdate type="inclusive" normal="1950" certainty="approximate">circa 1950</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [879274407062709]">3</container>
+              <unittitle>Reminiscence ("Our Adventure in the Philippines")</unittitle><unitdate type="inclusive" normal="1950" certainty="approximate">circa 1950</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4282725764373610527089]">3</container>
-            <unittitle>Miscellaneous poetry (Mildred Hubbell and F.B. Waters) <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [879274407062709]">3</container>
+            <unittitle>Miscellaneous poetry (Mildred Hubbell and F.B. Waters)</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle><genreform normal="Photographs">Photographs</genreform>, <unitdate type="inclusive" normal="1860/1964" certainty="approximate">1860s-1964</unitdate></unittitle>
-          </did>
+            <unittitle><genreform normal="Photographs">Photographs</genreform></unittitle><unitdate type="inclusive" normal="1860/1964" certainty="approximate">1860s-1964</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4282725764373610527089]">3</container>
-              <unittitle>Album (Waters, Bliss, Hubbell) <unitdate type="inclusive" normal="1860/1879" certainty="approximate">1860s-1870s</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [879274407062709]">3</container>
+              <unittitle>Album (Waters, Bliss, Hubbell)</unittitle><unitdate type="inclusive" normal="1860/1879" certainty="approximate">1860s-1870s</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4282725764373610527089]">3</container>
-              <unittitle>Album (Hubbell?) <unitdate type="inclusive" normal="1920/1929" certainty="approximate">circa 1920s</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [879274407062709]">3</container>
+              <unittitle>Album (Hubbell?)</unittitle><unitdate type="inclusive" normal="1920/1929" certainty="approximate">circa 1920s</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4282725764373610527089]">3</container>
-              <unittitle>Hubbell family (Clarence, John S., and Roger) <unitdate type="inclusive" normal="1893/1919" certainty="approximate">1893-1910s</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [879274407062709]">3</container>
+              <unittitle>Hubbell family (Clarence, John S., and Roger)</unittitle><unitdate type="inclusive" normal="1893/1919" certainty="approximate">1893-1910s</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4282725764373610527089]">3</container>
-              <unittitle>Theodore H. Hubbell <unitdate type="inclusive" normal="1898/1929" certainty="approximate">1898-1920s</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [879274407062709]">3</container>
+              <unittitle>Theodore H. Hubbell</unittitle><unitdate type="inclusive" normal="1898/1929" certainty="approximate">1898-1920s</unitdate></did>
             <odd>
               <p>(includes photograph of UM Les Voyageurs, 1917)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4282725764373610527089]">3</container>
+              <container type="box" label="Box [879274407062709]">3</container>
               <unittitle>Grace Griffin Hubbell</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4282725764373610527089]">3</container>
+              <container type="box" label="Box [879274407062709]">3</container>
               <unittitle>Griffin-Hussey families</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4282725764373610527089]">3</container>
-              <unittitle>Winifred W. Hubbell <unitdate type="inclusive" normal="1950" certainty="approximate">circa 1950</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [879274407062709]">3</container>
+              <unittitle>Winifred W. Hubbell</unittitle><unitdate type="inclusive" normal="1950" certainty="approximate">circa 1950</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4282725764373610527089]">3</container>
-              <unittitle>Waters family <unitdate type="inclusive" normal="1890/1899" certainty="approximate">circa 1890s</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [879274407062709]">3</container>
+              <unittitle>Waters family</unittitle><unitdate type="inclusive" normal="1890/1899" certainty="approximate">circa 1890s</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4282725764373610527089]">3</container>
-              <unittitle>Willard O. Waters <unitdate type="inclusive" normal="1880/1955" certainty="approximate">1880s-1955</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [879274407062709]">3</container>
+              <unittitle>Willard O. Waters</unittitle><unitdate type="inclusive" normal="1880/1955" certainty="approximate">1880s-1955</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4282725764373610527089]">3</container>
-              <unittitle>Various families (Case, Huntington, Newcomb) <unitdate type="inclusive" normal="1890/1964" certainty="approximate">circa 1890-1964</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [879274407062709]">3</container>
+              <unittitle>Various families (Case, Huntington, Newcomb)</unittitle><unitdate type="inclusive" normal="1890/1964" certainty="approximate">circa 1890-1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4282725764373610527089]">3</container>
-              <unittitle>Benzonia (MI) farm views <unitdate type="inclusive" normal="1880/1942" certainty="approximate">1880s-1942</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [879274407062709]">3</container>
+              <unittitle>Benzonia (MI) farm views</unittitle><unitdate type="inclusive" normal="1880/1942" certainty="approximate">1880s-1942</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4282725764373610527089]">3</container>
-              <unittitle>Philippine Islands (C.W. Hubbell) <unitdate type="inclusive" normal="1909/1911">1909-1911</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [879274407062709]">3</container>
+              <unittitle>Philippine Islands (C.W. Hubbell)</unittitle><unitdate type="inclusive" normal="1909/1911">1909-1911</unitdate></did>
           </c03>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Personal <unitdate type="inclusive" normal="1907/1988">1907-1988</unitdate></unittitle>
-        </did>
+          <unittitle>Personal</unittitle><unitdate type="inclusive" normal="1907/1988">1907-1988</unitdate></did>
         <scopecontent>
           <p>The Personal (1907-1988) series comprises sixteen linear inches of materials and is closely linked to the first three series; it is arranged alphabetically by type of material and consists of correspondence, Grace Griffin Hubbell materials, photographs, and other visual materials. As with the previous series, these materials have been moved in the course of processing, so researchers should avail themselves of cross-references in the folder listing. Grace Griffin Hubbell's correspondence with her mother, Lenora Hussey Griffin, is quite frank and reveals two fine intellects. Grace's reminiscences and notes on her chemotherapy after her cancer diagnosis are compelling.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4282725764373610527089]">3</container>
-            <unittitle>Correspondence (general) <unitdate type="inclusive" normal="1967/1988">1967-1988</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [879274407062709]">3</container>
+            <unittitle>Correspondence (general)</unittitle><unitdate type="inclusive" normal="1967/1988">1967-1988</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">6 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Correspondence (topical) <unitdate type="inclusive" normal="1907/1983">1907-1983</unitdate></unittitle>
-          </did>
+            <unittitle>Correspondence (topical)</unittitle><unitdate type="inclusive" normal="1907/1983">1907-1983</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4282725764373610527089]">3</container>
-              <unittitle>Clements Library (re Hussey books) <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [879274407062709]">3</container>
+              <unittitle>Clements Library (re Hussey books)</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4282725764373610527089]">3</container>
-              <unittitle>Griffin family (excluding Lenora Hussey Griffin) <unitdate type="inclusive" normal="1907/1973">1907-1973</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [879274407062709]">3</container>
+              <unittitle>Griffin family (excluding Lenora Hussey Griffin)</unittitle><unitdate type="inclusive" normal="1907/1973">1907-1973</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4282725764373610527089]">3</container>
-              <unittitle>Hussey family <unitdate type="inclusive" normal="1927/1983">1927-1983</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [879274407062709]">3</container>
+              <unittitle>Hussey family</unittitle><unitdate type="inclusive" normal="1927/1983">1927-1983</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4282725764373610527089]">3</container>
-              <unittitle>re Military Service <unitdate type="inclusive" normal="1942">1942</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [879274407062709]">3</container>
+              <unittitle>Re Military Service</unittitle><unitdate type="inclusive" normal="1942">1942</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4282725764373610527089]">3</container>
-              <unittitle>Trip around the world <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [879274407062709]">3</container>
+              <unittitle>Trip around the world</unittitle><unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4282725764373610527089]">3</container>
-              <unittitle>Trip to Burma and China <unitdate type="inclusive" normal="1980">1980</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [879274407062709]">3</container>
+              <unittitle>Trip to Burma and China</unittitle><unitdate type="inclusive" normal="1980">1980</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Grace Griffin Hubbell <unitdate type="inclusive" normal="1916/1982">1916-1982</unitdate></unittitle>
-          </did>
+            <unittitle>Grace Griffin Hubbell</unittitle><unitdate type="inclusive" normal="1916/1982">1916-1982</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [354397403844692999]">4</container>
-              <unittitle>Correspondence with Lenora Hussey Griffin <unitdate type="inclusive" normal="1916/1970">1916-1970</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [3096809418975762834206189]">4</container>
+              <unittitle>Correspondence with Lenora Hussey Griffin</unittitle><unitdate type="inclusive" normal="1916/1970">1916-1970</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">8 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [354397403844692999]">4</container>
-              <unittitle>Diary (fragment) <unitdate type="inclusive" normal="1925/1926">1925-1926</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3096809418975762834206189]">4</container>
+              <unittitle>Diary (fragment)</unittitle><unitdate type="inclusive" normal="1925/1926">1925-1926</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [354397403844692999]">4</container>
-              <unittitle>Publications <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3096809418975762834206189]">4</container>
+              <unittitle>Publications</unittitle><unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [354397403844692999]">4</container>
-              <unittitle>Record of Chemotherapy <unitdate type="inclusive" normal="1981/1982">1981-1982</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3096809418975762834206189]">4</container>
+              <unittitle>Record of Chemotherapy</unittitle><unitdate type="inclusive" normal="1981/1982">1981-1982</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [354397403844692999]">4</container>
-              <unittitle>Thoughts and mementos <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3096809418975762834206189]">4</container>
+              <unittitle>Thoughts and mementos</unittitle><unitdate type="inclusive" normal="1981">1981</unitdate></did>
           </c03>
         </c02>
       </c01>
@@ -1088,140 +947,117 @@
         </scopecontent>
         <c02 level="subseries">
           <did>
-            <unittitle><genreform normal="Photographs">Photographs</genreform>, <unitdate type="inclusive" normal="1919/1971">1919-1971</unitdate></unittitle>
-          </did>
+            <unittitle><genreform normal="Photographs">Photographs</genreform></unittitle><unitdate type="inclusive" normal="1919/1971">1919-1971</unitdate></did>
           <c03 level="file">
             <did>
-              <unittitle>Homes/Dwellings <unitdate type="inclusive" normal="1920/1971" certainty="approximate">1920s-1971</unitdate></unittitle>
-            </did>
+              <unittitle>Homes/Dwellings</unittitle><unitdate type="inclusive" normal="1920/1971" certainty="approximate">1920s-1971</unitdate></did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [354397403844692999]">4</container>
-                <unittitle>Pi Beta Phi House <unitdate type="inclusive" normal="1927" certainty="approximate">circa 1927</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [3096809418975762834206189]">4</container>
+                <unittitle>Pi Beta Phi House</unittitle><unitdate type="inclusive" normal="1927" certainty="approximate">circa 1927</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [354397403844692999]">4</container>
-                <unittitle>Hussey farm (Mendon, OH) <unitdate type="inclusive" normal="1920/1939" certainty="approximate">1920s-1930s</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [3096809418975762834206189]">4</container>
+                <unittitle>Hussey farm (Mendon, OH)</unittitle><unitdate type="inclusive" normal="1920/1939" certainty="approximate">1920s-1930s</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [354397403844692999]">4</container>
-                <unittitle>Hubbell farm/Hillhollow (Milford, MI) <unitdate type="inclusive" normal="1930/1948" certainty="approximate">1930s-1948</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [3096809418975762834206189]">4</container>
+                <unittitle>Hubbell farm/Hillhollow (Milford, MI)</unittitle><unitdate type="inclusive" normal="1930/1948" certainty="approximate">1930s-1948</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [354397403844692999]">4</container>
-                <unittitle>Hibiscus Park (Gainesville, FL) <unitdate type="inclusive" normal="1928/1929">1928-1929</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [3096809418975762834206189]">4</container>
+                <unittitle>Hibiscus Park (Gainesville, FL)</unittitle><unitdate type="inclusive" normal="1928/1929">1928-1929</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [354397403844692999]">4</container>
-                <unittitle>Cochlough Hill (Gainesville, FL) <unitdate type="inclusive" normal="1940/1946">1940-1946</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [3096809418975762834206189]">4</container>
+                <unittitle>Cochlough Hill (Gainesville, FL)</unittitle><unitdate type="inclusive" normal="1940/1946">1940-1946</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [354397403844692999]">4</container>
-                <unittitle>Bishop house/2505 Geddes (Ann Arbor, MI) <unitdate type="inclusive" normal="1948/1959" certainty="approximate">1948-1950s</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [3096809418975762834206189]">4</container>
+                <unittitle>Bishop house/2505 Geddes (Ann Arbor, MI)</unittitle><unitdate type="inclusive" normal="1948/1959" certainty="approximate">1948-1950s</unitdate></did>
               <odd>
                 <p>(includes canoeing on Huron)</p>
               </odd>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [354397403844692999]">4</container>
-                <unittitle>940 Rock Creek Drive (Ann Arbor, MI) <unitdate type="inclusive">undated</unitdate>, <unitdate normal="1971">1971</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [3096809418975762834206189]">4</container>
+                <unittitle>940 Rock Creek Drive (Ann Arbor, MI)</unittitle><unitdate type="inclusive">undated</unitdate><unitdate normal="1971">1971</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Trips <unitdate type="inclusive" normal="1919/1960">1919-1960</unitdate></unittitle>
-            </did>
+              <unittitle>Trips</unittitle><unitdate type="inclusive" normal="1919/1960">1919-1960</unitdate></did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [354397403844692999]">4</container>
-                <unittitle>Field Work (TN and FL) <unitdate type="inclusive" normal="1919/1927">1919-1927</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [3096809418975762834206189]">4</container>
+                <unittitle>Field Work (TN and FL)</unittitle><unitdate type="inclusive" normal="1919/1927">1919-1927</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [354397403844692999]">4</container>
-                <unittitle>Philippine Islands <unitdate type="inclusive" normal="1945">1945</unitdate>, <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [3096809418975762834206189]">4</container>
+                <unittitle>Philippine Islands</unittitle><unitdate type="inclusive" normal="1945">1945</unitdate><unitdate type="inclusive" normal="1960">1960</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [354397403844692999]">4</container>
-              <unittitle>University of Michigan Museums Building construction <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3096809418975762834206189]">4</container>
+              <unittitle>University of Michigan Museums Building construction</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [354397403844692999]">4</container>
-              <unittitle>Lantern Slide of University Hall (UM) <unitdate type="inclusive" normal="1880/1889" certainty="approximate">1880s</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3096809418975762834206189]">4</container>
+              <unittitle>Lantern Slide of University Hall (UM)</unittitle><unitdate type="inclusive" normal="1880/1889" certainty="approximate">1880s</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [354397403844692999]">4</container>
-              <unittitle>Negatives of Hubbell family <unitdate type="inclusive" normal="1930/1970" certainty="approximate">1930s-1970</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3096809418975762834206189]">4</container>
+              <unittitle>Negatives of Hubbell family</unittitle><unitdate type="inclusive" normal="1930/1970" certainty="approximate">1930s-1970</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Post Cards <unitdate type="inclusive" normal="1890/1949" certainty="approximate">circa 1890s-1940s</unitdate></unittitle>
-          </did>
+            <unittitle>Post Cards</unittitle><unitdate type="inclusive" normal="1890/1949" certainty="approximate">circa 1890s-1940s</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [354397403844692999]">4</container>
-              <unittitle>Ann Arbor, MI (UM) <unitdate type="inclusive" normal="1890/1949" certainty="approximate">1890s-1940s</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3096809418975762834206189]">4</container>
+              <unittitle>Ann Arbor, MI (UM)</unittitle><unitdate type="inclusive" normal="1890/1949" certainty="approximate">1890s-1940s</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [354397403844692999]">4</container>
-              <unittitle>Benzonia, MI <unitdate type="inclusive" normal="1890/1920" certainty="approximate">1890s-1920</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3096809418975762834206189]">4</container>
+              <unittitle>Benzonia, MI</unittitle><unitdate type="inclusive" normal="1890/1920" certainty="approximate">1890s-1920</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [354397403844692999]">4</container>
-              <unittitle>Beulah, MI <unitdate type="inclusive" normal="1890/1920" certainty="approximate">1890s-1920</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3096809418975762834206189]">4</container>
+              <unittitle>Beulah, MI</unittitle><unitdate type="inclusive" normal="1890/1920" certainty="approximate">1890s-1920</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [354397403844692999]">4</container>
-              <unittitle>Frankfort, MI <unitdate type="inclusive" normal="1890/1939" certainty="approximate">1890s-1939</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3096809418975762834206189]">4</container>
+              <unittitle>Frankfort, MI</unittitle><unitdate type="inclusive" normal="1890/1939" certainty="approximate">1890s-1939</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [354397403844692999]">4</container>
-              <unittitle>Michigan (general) <unitdate type="inclusive" normal="1900/1915">1900-1915</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3096809418975762834206189]">4</container>
+              <unittitle>Michigan (general)</unittitle><unitdate type="inclusive" normal="1900/1915">1900-1915</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [354397403844692999]">4</container>
-              <unittitle>Fort Sill, OK (WW I training) <unitdate type="inclusive" normal="1918">1918</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3096809418975762834206189]">4</container>
+              <unittitle>Fort Sill, OK (WW I training)</unittitle><unitdate type="inclusive" normal="1918">1918</unitdate></did>
           </c03>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Professional <unitdate type="inclusive" normal="1890/1988">1890-1988</unitdate> (primarily 1930s-1960s)</unittitle>
-        </did>
+          <unittitle>Professional (primarily 1930s-1960s)</unittitle><unitdate type="inclusive" normal="1890/1988">1890-1988</unitdate></did>
         <scopecontent>
           <p>The Professional series (1890-1988, primarily 1930s-1960s) makes up the last half of the collection and runs four and one-third linear feet. The bulk of this series consists of correspondence which runs to more than three linear feet and is arranged alphabetically by correspondent. Also included in the series are Hubbell's vitae and letters of appointment and Hubbell's efforts to establish the field of biological systematics and other professional writing.</p>
         </scopecontent>
@@ -1231,730 +1067,609 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [354397403844692999]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1916/1969" certainty="approximate">1916-1960s</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [3096809418975762834206189]">4</container>
+              <unitdate type="inclusive" normal="1916/1969" certainty="approximate">1916-1960s</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1890/1988">1890-1988</unitdate></unittitle>
-          </did>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1890/1988">1890-1988</unitdate></did>
           <scopecontent>
             <p>The Correspondence subseries includes materials of Hubbell, J. Speed Rogers, and Alexander G. Ruthven as they managed the University of Michigan Museum of Zoology. It naturally includes letters from prominent University of Michigan zoologists, Cantrall, Dice, Gaige, Hussey, and Van Tyne, but it also contains correspondence with amateur entomologists who collected for the museum. Further correspondence of this type evidently has been retained by the Museum of Zoology to facilitate control over their collections. Among the materials in this subseries, the following are of special note: the letters with Roland F. Hussey which are both professional and intimately personal in nature; the J. Speed Rogers materials which detail the concurrent development of his and Hubbell's careers; and the correspondence regarding the Joseph B. Steere expeditions reflects Hubbell's profound interest in nailing down the details of Steere's itinerary.</p>
           </scopecontent>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [354397403844692999]">4</container>
-              <unittitle>A <unitdate type="inclusive" normal="1955/1988">1955-1988</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3096809418975762834206189]">4</container>
+              <unittitle>A</unittitle><unitdate type="inclusive" normal="1955/1988">1955-1988</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [354397403844692999]">4</container>
-              <unittitle>Allee, W.C. <unitdate type="inclusive" normal="1950/1953">1950-1953</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3096809418975762834206189]">4</container>
+              <unittitle>Allee, W.C.</unittitle><unitdate type="inclusive" normal="1950/1953">1950-1953</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [354397403844692999]">4</container>
-              <unittitle>Association for Tropical Biology <unitdate type="inclusive" normal="1964/1966">1964-1966</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3096809418975762834206189]">4</container>
+              <unittitle>Association for Tropical Biology</unittitle><unitdate type="inclusive" normal="1964/1966">1964-1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [354397403844692999]">4</container>
-              <unittitle>B <unitdate type="inclusive" normal="1919/1981">1919-1981</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3096809418975762834206189]">4</container>
+              <unittitle>B</unittitle><unitdate type="inclusive" normal="1919/1981">1919-1981</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [354397403844692999]">4</container>
-              <unittitle>Bates, Marston <unitdate type="inclusive" normal="1940/1974">1940-1974</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3096809418975762834206189]">4</container>
+              <unittitle>Bates, Marston</unittitle><unitdate type="inclusive" normal="1940/1974">1940-1974</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [354397403844692999]">4</container>
-              <unittitle>Bellamy, Ralph <unitdate type="inclusive" normal="1938/1958">1938-1958</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3096809418975762834206189]">4</container>
+              <unittitle>Bellamy, Ralph</unittitle><unitdate type="inclusive" normal="1938/1958">1938-1958</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [354397403844692999]">4</container>
-              <unittitle>Berner, Lewis <unitdate type="inclusive" normal="1941/1961">1941-1961</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3096809418975762834206189]">4</container>
+              <unittitle>Berner, Lewis</unittitle><unitdate type="inclusive" normal="1941/1961">1941-1961</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [354397403844692999]">4</container>
-              <unittitle>Brodknob, Pierce <unitdate type="inclusive" normal="1947/1978">1947-1978</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3096809418975762834206189]">4</container>
+              <unittitle>Brodknob, Pierce</unittitle><unitdate type="inclusive" normal="1947/1978">1947-1978</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [354397403844692999]">4</container>
-              <unittitle>Brown, Patricia <unitdate type="inclusive" normal="1986">1986</unitdate> (re Helen Gaige)</unittitle>
-            </did>
+              <container type="box" label="Box [3096809418975762834206189]">4</container>
+              <unittitle>Brown, Patricia (re Helen Gaige)</unittitle><unitdate type="inclusive" normal="1986">1986</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [354397403844692999]">4</container>
-              <unittitle>Burt, William H. <unitdate type="inclusive" normal="1946/1983">1946-1983</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3096809418975762834206189]">4</container>
+              <unittitle>Burt, William H.</unittitle><unitdate type="inclusive" normal="1946/1983">1946-1983</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [354397403844692999]">4</container>
-              <unittitle>Byers, George W. <unitdate type="inclusive" normal="1948/1967">1948-1967</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3096809418975762834206189]">4</container>
+              <unittitle>Byers, George W.</unittitle><unitdate type="inclusive" normal="1948/1967">1948-1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [354397403844692999]">4</container>
-              <unittitle>C <unitdate type="inclusive" normal="1922/1976">1922-1976</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3096809418975762834206189]">4</container>
+              <unittitle>C</unittitle><unitdate type="inclusive" normal="1922/1976">1922-1976</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [354397403844692999]">4</container>
-              <unittitle>Cabriles, J. Maldonado <unitdate type="inclusive" normal="1938/1954">1938-1954</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3096809418975762834206189]">4</container>
+              <unittitle>Cabriles, J. Maldonado</unittitle><unitdate type="inclusive" normal="1938/1954">1938-1954</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [354397403844692999]">4</container>
-              <unittitle>Cantrall, Irving <unitdate type="inclusive" normal="1939/1969">1939-1969</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3096809418975762834206189]">4</container>
+              <unittitle>Cantrall, Irving</unittitle><unitdate type="inclusive" normal="1939/1969">1939-1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [354397403844692999]">4</container>
-              <unittitle>Carr, Archie and Marjorie <unitdate type="inclusive" normal="1939/1983">1939-1983</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3096809418975762834206189]">4</container>
+              <unittitle>Carr, Archie and Marjorie</unittitle><unitdate type="inclusive" normal="1939/1983">1939-1983</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [354397403844692999]">4</container>
-              <unittitle>Case, Ermine Cowles <unitdate type="inclusive" normal="1934/1963">1934-1963</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3096809418975762834206189]">4</container>
+              <unittitle>Case, Ermine Cowles</unittitle><unitdate type="inclusive" normal="1934/1963">1934-1963</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [354397403844692999]">4</container>
-              <unittitle>D <unitdate type="inclusive" normal="1946/1983">1946-1983</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3096809418975762834206189]">4</container>
+              <unittitle>D</unittitle><unitdate type="inclusive" normal="1946/1983">1946-1983</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [354397403844692999]">4</container>
-              <unittitle>Dice, Lee R. <unitdate type="inclusive" normal="1946/1948">1946-1948</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3096809418975762834206189]">4</container>
+              <unittitle>Dice, Lee R.</unittitle><unitdate type="inclusive" normal="1946/1948">1946-1948</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [354397403844692999]">4</container>
-              <unittitle>Dickinson, J.C. <unitdate type="inclusive" normal="1947/1959">1947-1959</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3096809418975762834206189]">4</container>
+              <unittitle>Dickinson, J.C.</unittitle><unitdate type="inclusive" normal="1947/1959">1947-1959</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [354397403844692999]">4</container>
-              <unittitle>Dillon, Lawrence <unitdate type="inclusive" normal="1947/1951">1947-1951</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3096809418975762834206189]">4</container>
+              <unittitle>Dillon, Lawrence</unittitle><unitdate type="inclusive" normal="1947/1951">1947-1951</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [34788485548445853657539]">5</container>
-              <unittitle>Dowling, Herndon <unitdate type="inclusive" normal="1947/1951">1947-1951</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [64927046423379942]">5</container>
+              <unittitle>Dowling, Herndon</unittitle><unitdate type="inclusive" normal="1947/1951">1947-1951</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [34788485548445853657539]">5</container>
-              <unittitle>Drake, Carl J. <unitdate type="inclusive" normal="1934/1953">1934-1953</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [64927046423379942]">5</container>
+              <unittitle>Drake, Carl J.</unittitle><unitdate type="inclusive" normal="1934/1953">1934-1953</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [34788485548445853657539]">5</container>
-              <unittitle>Dreisbock, R.R. <unitdate type="inclusive" normal="1941/1963">1941-1963</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [64927046423379942]">5</container>
+              <unittitle>Dreisbock, R.R.</unittitle><unitdate type="inclusive" normal="1941/1963">1941-1963</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [34788485548445853657539]">5</container>
-              <unittitle>E <unitdate type="inclusive" normal="1939/1957">1939-1957</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [64927046423379942]">5</container>
+              <unittitle>E</unittitle><unitdate type="inclusive" normal="1939/1957">1939-1957</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [34788485548445853657539]">5</container>
-              <unittitle>Ellis, Robert J. <unitdate type="inclusive" normal="1951/1956">1951-1956</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [64927046423379942]">5</container>
+              <unittitle>Ellis, Robert J.</unittitle><unitdate type="inclusive" normal="1951/1956">1951-1956</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [34788485548445853657539]">5</container>
-              <unittitle>Entomological Society of America <unitdate type="inclusive" normal="1955/1971">1955-1971</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [64927046423379942]">5</container>
+              <unittitle>Entomological Society of America</unittitle><unitdate type="inclusive" normal="1955/1971">1955-1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [34788485548445853657539]">5</container>
-              <unittitle>F <unitdate type="inclusive" normal="1940/1985">1940-1985</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [64927046423379942]">5</container>
+              <unittitle>F</unittitle><unitdate type="inclusive" normal="1940/1985">1940-1985</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [34788485548445853657539]">5</container>
-              <unittitle>Fargo, William G. <unitdate type="inclusive" normal="1941/1957">1941-1957</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [64927046423379942]">5</container>
+              <unittitle>Fargo, William G.</unittitle><unitdate type="inclusive" normal="1941/1957">1941-1957</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [34788485548445853657539]">5</container>
-              <unittitle>Fender, K.M. <unitdate type="inclusive" normal="1948/1953">1948-1953</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [64927046423379942]">5</container>
+              <unittitle>Fender, K.M.</unittitle><unitdate type="inclusive" normal="1948/1953">1948-1953</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [34788485548445853657539]">5</container>
-              <unittitle>Foote, Ben <unitdate type="inclusive" normal="1949/1955">1949-1955</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [64927046423379942]">5</container>
+              <unittitle>Foote, Ben</unittitle><unitdate type="inclusive" normal="1949/1955">1949-1955</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [34788485548445853657539]">5</container>
-              <unittitle>Friauf, James J. <unitdate type="inclusive" normal="1938/1955">1938-1955</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [64927046423379942]">5</container>
+              <unittitle>Friauf, James J.</unittitle><unitdate type="inclusive" normal="1938/1955">1938-1955</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [34788485548445853657539]">5</container>
-              <unittitle>Fulton, B.B. <unitdate type="inclusive" normal="1947/1957">1947-1957</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [64927046423379942]">5</container>
+              <unittitle>Fulton, B.B.</unittitle><unitdate type="inclusive" normal="1947/1957">1947-1957</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [34788485548445853657539]">5</container>
-              <unittitle>G <unitdate type="inclusive" normal="1943/1957">1943-1957</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [64927046423379942]">5</container>
+              <unittitle>G</unittitle><unitdate type="inclusive" normal="1943/1957">1943-1957</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [34788485548445853657539]">5</container>
-              <unittitle>Gaige, Frederick and Helen <unitdate type="inclusive" normal="1915/1969">1915-1969</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [64927046423379942]">5</container>
+              <unittitle>Gaige, Frederick and Helen</unittitle><unitdate type="inclusive" normal="1915/1969">1915-1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [34788485548445853657539]">5</container>
-              <unittitle>Gloyd, Howard K. <unitdate type="inclusive" normal="1936/1965">1936-1965</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [64927046423379942]">5</container>
+              <unittitle>Gloyd, Howard K.</unittitle><unitdate type="inclusive" normal="1936/1965">1936-1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [34788485548445853657539]">5</container>
-              <unittitle>Goin, Coleman and Olive <unitdate type="inclusive" normal="1947/1962">1947-1962</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [64927046423379942]">5</container>
+              <unittitle>Goin, Coleman and Olive</unittitle><unitdate type="inclusive" normal="1947/1962">1947-1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [34788485548445853657539]">5</container>
-              <unittitle>Grahmam, Samuel A. <unitdate type="inclusive" normal="1951/1955">1951-1955</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [64927046423379942]">5</container>
+              <unittitle>Grahmam, Samuel A.</unittitle><unitdate type="inclusive" normal="1951/1955">1951-1955</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [34788485548445853657539]">5</container>
-              <unittitle>Green, J.W. <unitdate type="inclusive" normal="1948/1951">1948-1951</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [64927046423379942]">5</container>
+              <unittitle>Green, J.W.</unittitle><unitdate type="inclusive" normal="1948/1951">1948-1951</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [34788485548445853657539]">5</container>
-              <unittitle>Guppy, Richard <unitdate type="inclusive" normal="1949/1955">1949-1955</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [64927046423379942]">5</container>
+              <unittitle>Guppy, Richard</unittitle><unitdate type="inclusive" normal="1949/1955">1949-1955</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [34788485548445853657539]">5</container>
-              <unittitle>Gurney, Ashley B. <unitdate type="inclusive" normal="1935/1955">1935-1955</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [64927046423379942]">5</container>
+              <unittitle>Gurney, Ashley B.</unittitle><unitdate type="inclusive" normal="1935/1955">1935-1955</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [34788485548445853657539]">5</container>
-              <unittitle>H <unitdate type="inclusive" normal="1941/1957">1941-1957</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [64927046423379942]">5</container>
+              <unittitle>H</unittitle><unitdate type="inclusive" normal="1941/1957">1941-1957</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [34788485548445853657539]">5</container>
-              <unittitle>Hamilton, Rodgers B. <unitdate type="inclusive" normal="1948/1950">1948-1950</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [64927046423379942]">5</container>
+              <unittitle>Hamilton, Rodgers B.</unittitle><unitdate type="inclusive" normal="1948/1950">1948-1950</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [34788485548445853657539]">5</container>
-              <unittitle>Hebard, Morgan <unitdate type="inclusive" normal="1934/1941">1934-1941</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [64927046423379942]">5</container>
+              <unittitle>Hebard, Morgan</unittitle><unitdate type="inclusive" normal="1934/1941">1934-1941</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [34788485548445853657539]">5</container>
-              <unittitle>Hobbs, Horton H. <unitdate type="inclusive" normal="1946/1962">1946-1962</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [64927046423379942]">5</container>
+              <unittitle>Hobbs, Horton H.</unittitle><unitdate type="inclusive" normal="1946/1962">1946-1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [34788485548445853657539]">5</container>
-              <unittitle>Howden, Henry F. <unitdate type="inclusive" normal="1952/1962">1952-1962</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [64927046423379942]">5</container>
+              <unittitle>Howden, Henry F.</unittitle><unitdate type="inclusive" normal="1952/1962">1952-1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [34788485548445853657539]">5</container>
-              <unittitle>Hubbs, Carl L. <unitdate type="inclusive" normal="1934/1957">1934-1957</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [64927046423379942]">5</container>
+              <unittitle>Hubbs, Carl L.</unittitle><unitdate type="inclusive" normal="1934/1957">1934-1957</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [34788485548445853657539]">5</container>
-              <unittitle>Hungerford, H.B. <unitdate type="inclusive" normal="1939/1956">1939-1956</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [64927046423379942]">5</container>
+              <unittitle>Hungerford, H.B.</unittitle><unitdate type="inclusive" normal="1939/1956">1939-1956</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [34788485548445853657539]">5</container>
-              <unittitle>Hussey, Roland F. <unitdate type="inclusive" normal="1919/1964">1919-1964</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [64927046423379942]">5</container>
+              <unittitle>Hussey, Roland F.</unittitle><unitdate type="inclusive" normal="1919/1964">1919-1964</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [34788485548445853657539]">5</container>
-              <unittitle>Hynes, Dennis <unitdate type="inclusive" normal="1953/1959">1953-1959</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [64927046423379942]">5</container>
+              <unittitle>Hynes, Dennis</unittitle><unitdate type="inclusive" normal="1953/1959">1953-1959</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [34788485548445853657539]">5</container>
-              <unittitle>I <unitdate type="inclusive" normal="1947/1956">1947-1956</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [64927046423379942]">5</container>
+              <unittitle>I</unittitle><unitdate type="inclusive" normal="1947/1956">1947-1956</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [34788485548445853657539]">5</container>
-              <unittitle>J <unitdate type="inclusive" normal="1939/1956">1939-1956</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [64927046423379942]">5</container>
+              <unittitle>J</unittitle><unitdate type="inclusive" normal="1939/1956">1939-1956</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [34788485548445853657539]">5</container>
-              <unittitle>James, Maurice T. <unitdate type="inclusive" normal="1934/1956">1934-1956</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [64927046423379942]">5</container>
+              <unittitle>James, Maurice T.</unittitle><unitdate type="inclusive" normal="1934/1956">1934-1956</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94080431416509183228]">6</container>
-              <unittitle>K <unitdate type="inclusive" normal="1946/1956">1946-1956</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8775724315859751575]">6</container>
+              <unittitle>K</unittitle><unitdate type="inclusive" normal="1946/1956">1946-1956</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94080431416509183228]">6</container>
-              <unittitle>Kannowski, Paul B. <unitdate type="inclusive" normal="1953/1960">1953-1960</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8775724315859751575]">6</container>
+              <unittitle>Kannowski, Paul B.</unittitle><unitdate type="inclusive" normal="1953/1960">1953-1960</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94080431416509183228]">6</container>
-              <unittitle>Kimball, Charles B. <unitdate type="inclusive" normal="1957/1959">1957-1959</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8775724315859751575]">6</container>
+              <unittitle>Kimball, Charles B.</unittitle><unitdate type="inclusive" normal="1957/1959">1957-1959</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94080431416509183228]">6</container>
-              <unittitle>Klots, Alexander B. <unitdate type="inclusive" normal="1956/1960">1956-1960</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8775724315859751575]">6</container>
+              <unittitle>Klots, Alexander B.</unittitle><unitdate type="inclusive" normal="1956/1960">1956-1960</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94080431416509183228]">6</container>
-              <unittitle>Knull, James N. <unitdate type="inclusive" normal="1943/1951">1943-1951</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8775724315859751575]">6</container>
+              <unittitle>Knull, James N.</unittitle><unitdate type="inclusive" normal="1943/1951">1943-1951</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94080431416509183228]">6</container>
-              <unittitle>L <unitdate type="inclusive" normal="1940/1964">1940-1964</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8775724315859751575]">6</container>
+              <unittitle>L</unittitle><unitdate type="inclusive" normal="1940/1964">1940-1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94080431416509183228]">6</container>
-              <unittitle>Laessle, Albert <unitdate type="inclusive" normal="1947/1964">1947-1964</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8775724315859751575]">6</container>
+              <unittitle>Laessle, Albert</unittitle><unitdate type="inclusive" normal="1947/1964">1947-1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94080431416509183228]">6</container>
-              <unittitle>M-Mc (Mac) <unitdate type="inclusive" normal="1947/1957">1947-1957</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8775724315859751575]">6</container>
+              <unittitle>M-Mc (Mac)</unittitle><unitdate type="inclusive" normal="1947/1957">1947-1957</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94080431416509183228]">6</container>
-              <unittitle>Me-Mz <unitdate type="inclusive" normal="1934/1957">1934-1957</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8775724315859751575]">6</container>
+              <unittitle>Me-Mz</unittitle><unitdate type="inclusive" normal="1934/1957">1934-1957</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94080431416509183228]">6</container>
-              <unittitle>Man and the Biological World <unitdate type="inclusive" normal="1949">1949</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8775724315859751575]">6</container>
+              <unittitle>Man and the Biological World</unittitle><unitdate type="inclusive" normal="1949">1949</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94080431416509183228]">6</container>
-              <unittitle>Mayr, Ernst <unitdate type="inclusive" normal="1946/1956">1946-1956</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8775724315859751575]">6</container>
+              <unittitle>Mayr, Ernst</unittitle><unitdate type="inclusive" normal="1946/1956">1946-1956</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94080431416509183228]">6</container>
-              <unittitle>McMath, Robert <unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8775724315859751575]">6</container>
+              <unittitle>McMath, Robert</unittitle><unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94080431416509183228]">6</container>
-              <unittitle>Michener, Charles D. <unitdate type="inclusive" normal="1949/1956">1949-1956</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8775724315859751575]">6</container>
+              <unittitle>Michener, Charles D.</unittitle><unitdate type="inclusive" normal="1949/1956">1949-1956</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94080431416509183228]">6</container>
-              <unittitle>Montgomery, B. Elwood <unitdate type="inclusive" normal="1936/1962">1936-1962</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8775724315859751575]">6</container>
+              <unittitle>Montgomery, B. Elwood</unittitle><unitdate type="inclusive" normal="1936/1962">1936-1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94080431416509183228]">6</container>
-              <unittitle>Moore, Sherman <unitdate type="inclusive" normal="1947/1957">1947-1957</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8775724315859751575]">6</container>
+              <unittitle>Moore, Sherman</unittitle><unitdate type="inclusive" normal="1947/1957">1947-1957</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94080431416509183228]">6</container>
-              <unittitle>Muesebeck, C.F.W. <unitdate type="inclusive" normal="1936/1950">1936-1950</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8775724315859751575]">6</container>
+              <unittitle>Muesebeck, C.F.W.</unittitle><unitdate type="inclusive" normal="1936/1950">1936-1950</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94080431416509183228]">6</container>
-              <unittitle>N <unitdate type="inclusive" normal="1938/1956">1938-1956</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8775724315859751575]">6</container>
+              <unittitle>N</unittitle><unitdate type="inclusive" normal="1938/1956">1938-1956</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94080431416509183228]">6</container>
-              <unittitle>O <unitdate type="inclusive" normal="1947/1965">1947-1965</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8775724315859751575]">6</container>
+              <unittitle>O</unittitle><unitdate type="inclusive" normal="1947/1965">1947-1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94080431416509183228]">6</container>
-              <unittitle>Olson, Ada <unitdate type="inclusive" normal="1946/1980">1946-1980</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8775724315859751575]">6</container>
+              <unittitle>Olson, Ada</unittitle><unitdate type="inclusive" normal="1946/1980">1946-1980</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94080431416509183228]">6</container>
-              <unittitle>P <unitdate type="inclusive" normal="1940/1964">1940-1964</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8775724315859751575]">6</container>
+              <unittitle>P</unittitle><unitdate type="inclusive" normal="1940/1964">1940-1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94080431416509183228]">6</container>
-              <unittitle>Peters, James A. <unitdate type="inclusive" normal="1953/1957">1953-1957</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8775724315859751575]">6</container>
+              <unittitle>Peters, James A.</unittitle><unitdate type="inclusive" normal="1953/1957">1953-1957</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94080431416509183228]">6</container>
-              <unittitle>Philip, Cornelius B. <unitdate type="inclusive" normal="1939/1955">1939-1955</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8775724315859751575]">6</container>
+              <unittitle>Philip, Cornelius B.</unittitle><unitdate type="inclusive" normal="1939/1955">1939-1955</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94080431416509183228]">6</container>
-              <unittitle>Princis, K. <unitdate type="inclusive" normal="1938/1946">1938-1946</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8775724315859751575]">6</container>
+              <unittitle>Princis, K.</unittitle><unitdate type="inclusive" normal="1938/1946">1938-1946</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94080431416509183228]">6</container>
-              <unittitle>Q <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8775724315859751575]">6</container>
+              <unittitle>Q</unittitle><unitdate type="inclusive" normal="1956">1956</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94080431416509183228]">6</container>
-              <unittitle>R <unitdate type="inclusive" normal="1942/1961">1942-1961</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8775724315859751575]">6</container>
+              <unittitle>R</unittitle><unitdate type="inclusive" normal="1942/1961">1942-1961</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94080431416509183228]">6</container>
-              <unittitle>Ramstadt, Henry <unitdate type="inclusive" normal="1905/1907">1905-1907</unitdate> (with Alexander G. Ruthven)</unittitle>
-            </did>
+              <container type="box" label="Box [8775724315859751575]">6</container>
+              <unittitle>Ramstadt, Henry (with Alexander G. Ruthven)</unittitle><unitdate type="inclusive" normal="1905/1907">1905-1907</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94080431416509183228]">6</container>
-              <unittitle>Rawson, George W. <unitdate type="inclusive" normal="1948/1951">1948-1951</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8775724315859751575]">6</container>
+              <unittitle>Rawson, George W.</unittitle><unitdate type="inclusive" normal="1948/1951">1948-1951</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94080431416509183228]">6</container>
-              <unittitle>Ray, Eugene <unitdate type="inclusive" normal="1945/1957">1945-1957</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8775724315859751575]">6</container>
+              <unittitle>Ray, Eugene</unittitle><unitdate type="inclusive" normal="1945/1957">1945-1957</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94080431416509183228]">6</container>
-              <unittitle>Rehn, James A.G. <unitdate type="inclusive" normal="1907/1954">1907-1954</unitdate> (with Alexander G. Ruthven)</unittitle>
-            </did>
+              <container type="box" label="Box [8775724315859751575]">6</container>
+              <unittitle>Rehn, James A.G. (with Alexander G. Ruthven)</unittitle><unitdate type="inclusive" normal="1907/1954">1907-1954</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94080431416509183228]">6</container>
-              <unittitle>Rogers, J. Speed <unitdate type="inclusive" normal="1922/1955">1922-1955</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [8775724315859751575]">6</container>
+              <unittitle>Rogers, J. Speed</unittitle><unitdate type="inclusive" normal="1922/1955">1922-1955</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94080431416509183228]">6</container>
-              <unittitle>Ross, Herbert H. <unitdate type="inclusive" normal="1939/1957">1939-1957</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8775724315859751575]">6</container>
+              <unittitle>Ross, Herbert H.</unittitle><unitdate type="inclusive" normal="1939/1957">1939-1957</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94080431416509183228]">6</container>
-              <unittitle>Ruthven,Alexander G. <unitdate type="inclusive" normal="1947/1959">1947-1959</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8775724315859751575]">6</container>
+              <unittitle>Ruthven,Alexander G.</unittitle><unitdate type="inclusive" normal="1947/1959">1947-1959</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94080431416509183228]">6</container>
-              <unittitle>S-Sl <unitdate type="inclusive" normal="1890/1966">1890-1966</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8775724315859751575]">6</container>
+              <unittitle>S-Sl</unittitle><unitdate type="inclusive" normal="1890/1966">1890-1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94080431416509183228]">6</container>
-              <unittitle>Sm-Sz <unitdate type="inclusive" normal="1936/1983">1936-1983</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8775724315859751575]">6</container>
+              <unittitle>Sm-Sz</unittitle><unitdate type="inclusive" normal="1936/1983">1936-1983</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94080431416509183228]">6</container>
-              <unittitle>Sabrosky, Curtis W. <unitdate type="inclusive" normal="1938/1969">1938-1969</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8775724315859751575]">6</container>
+              <unittitle>Sabrosky, Curtis W.</unittitle><unitdate type="inclusive" normal="1938/1969">1938-1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94080431416509183228]">6</container>
-              <unittitle>Sanderson, Milton W. <unitdate type="inclusive" normal="1944/1961">1944-1961</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8775724315859751575]">6</container>
+              <unittitle>Sanderson, Milton W.</unittitle><unitdate type="inclusive" normal="1944/1961">1944-1961</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94080431416509183228]">6</container>
-              <unittitle>Schmidt, Erich <unitdate type="inclusive" normal="1947/1952">1947-1952</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8775724315859751575]">6</container>
+              <unittitle>Schmidt, Erich</unittitle><unitdate type="inclusive" normal="1947/1952">1947-1952</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94080431416509183228]">6</container>
-              <unittitle>Sherman, Harley B. <unitdate type="inclusive" normal="1934/1976">1934-1976</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8775724315859751575]">6</container>
+              <unittitle>Sherman, Harley B.</unittitle><unitdate type="inclusive" normal="1934/1976">1934-1976</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94080431416509183228]">6</container>
-              <unittitle>Slifer, Eleanor H. <unitdate type="inclusive" normal="1938/1958">1938-1958</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8775724315859751575]">6</container>
+              <unittitle>Slifer, Eleanor H.</unittitle><unitdate type="inclusive" normal="1938/1958">1938-1958</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94080431416509183228]">6</container>
-              <unittitle>re Steere, Joseph B. <unitdate type="inclusive" normal="1890/1964">1890-1964</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8775724315859751575]">6</container>
+              <unittitle>Re Steere, Joseph B.</unittitle><unitdate type="inclusive" normal="1890/1964">1890-1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94080431416509183228]">6</container>
-              <unittitle>Stehr, William C. <unitdate type="inclusive" normal="1936/1957">1936-1957</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8775724315859751575]">6</container>
+              <unittitle>Stehr, William C.</unittitle><unitdate type="inclusive" normal="1936/1957">1936-1957</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94080431416509183228]">6</container>
-              <unittitle>Steyskal, George <unitdate type="inclusive" normal="1940/1962">1940-1962</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8775724315859751575]">6</container>
+              <unittitle>Steyskal, George</unittitle><unitdate type="inclusive" normal="1940/1962">1940-1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94080431416509183228]">6</container>
-              <unittitle>Stuart, Lawrence C. <unitdate type="inclusive" normal="1947/1983">1947-1983</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8775724315859751575]">6</container>
+              <unittitle>Stuart, Lawrence C.</unittitle><unitdate type="inclusive" normal="1947/1983">1947-1983</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [277992339481062468902]">7</container>
-              <unittitle>T <unitdate type="inclusive" normal="1947/1964">1947-1964</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [94179090348677256144]">7</container>
+              <unittitle>T</unittitle><unitdate type="inclusive" normal="1947/1964">1947-1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [277992339481062468902]">7</container>
-              <unittitle>Townes, Henry K. <unitdate type="inclusive" normal="1955/1964">1955-1964</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [94179090348677256144]">7</container>
+              <unittitle>Townes, Henry K.</unittitle><unitdate type="inclusive" normal="1955/1964">1955-1964</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [277992339481062468902]">7</container>
-              <unittitle>U <unitdate type="inclusive" normal="1923/1957">1923-1957</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [94179090348677256144]">7</container>
+              <unittitle>U</unittitle><unitdate type="inclusive" normal="1923/1957">1923-1957</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [277992339481062468902]">7</container>
-              <unittitle>University of Michigan <unitdate type="inclusive" normal="1919/1959">1919-1959</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [94179090348677256144]">7</container>
+              <unittitle>University of Michigan</unittitle><unitdate type="inclusive" normal="1919/1959">1919-1959</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [277992339481062468902]">7</container>
-              <unittitle>V <unitdate type="inclusive" normal="1943/1968">1943-1968</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [94179090348677256144]">7</container>
+              <unittitle>V</unittitle><unitdate type="inclusive" normal="1943/1968">1943-1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [277992339481062468902]">7</container>
-              <unittitle>Van Tyne, Josselyn <unitdate type="inclusive" normal="1936/1957">1936-1957</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [94179090348677256144]">7</container>
+              <unittitle>Van Tyne, Josselyn</unittitle><unitdate type="inclusive" normal="1936/1957">1936-1957</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [277992339481062468902]">7</container>
-              <unittitle>W <unitdate type="inclusive" normal="1942/1980">1942-1980</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [94179090348677256144]">7</container>
+              <unittitle>W</unittitle><unitdate type="inclusive" normal="1942/1980">1942-1980</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [277992339481062468902]">7</container>
-              <unittitle>Wagner, Helmuth O. <unitdate type="inclusive" normal="1947/1985">1947-1985</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [94179090348677256144]">7</container>
+              <unittitle>Wagner, Helmuth O.</unittitle><unitdate type="inclusive" normal="1947/1985">1947-1985</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [277992339481062468902]">7</container>
-              <unittitle>Walker, E.M. <unitdate type="inclusive" normal="1936/1957">1936-1957</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [94179090348677256144]">7</container>
+              <unittitle>Walker, E.M.</unittitle><unitdate type="inclusive" normal="1936/1957">1936-1957</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [277992339481062468902]">7</container>
-              <unittitle>Wallace, H.K. <unitdate type="inclusive" normal="1945/1965">1945-1965</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [94179090348677256144]">7</container>
+              <unittitle>Wallace, H.K.</unittitle><unitdate type="inclusive" normal="1945/1965">1945-1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [277992339481062468902]">7</container>
-              <unittitle>Wallace, Herbert S. <unitdate type="inclusive" normal="1941/1956">1941-1956</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [94179090348677256144]">7</container>
+              <unittitle>Wallace, Herbert S.</unittitle><unitdate type="inclusive" normal="1941/1956">1941-1956</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [277992339481062468902]">7</container>
-              <unittitle>Watson, J.R. <unitdate type="inclusive" normal="1923/1932">1923-1932</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [94179090348677256144]">7</container>
+              <unittitle>Watson, J.R.</unittitle><unitdate type="inclusive" normal="1923/1932">1923-1932</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [277992339481062468902]">7</container>
-              <unittitle>Weems, Howard V. <unitdate type="inclusive" normal="1949/1962">1949-1962</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [94179090348677256144]">7</container>
+              <unittitle>Weems, Howard V.</unittitle><unitdate type="inclusive" normal="1949/1962">1949-1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [277992339481062468902]">7</container>
-              <unittitle>Young, Frank N. <unitdate type="inclusive" normal="1941/1958">1941-1958</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [94179090348677256144]">7</container>
+              <unittitle>Young, Frank N.</unittitle><unitdate type="inclusive" normal="1941/1958">1941-1958</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [277992339481062468902]">7</container>
-              <unittitle>Z <unitdate type="inclusive" normal="1943/1959">1943-1959</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [94179090348677256144]">7</container>
+              <unittitle>Z</unittitle><unitdate type="inclusive" normal="1943/1959">1943-1959</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Projects <unitdate type="inclusive" normal="1946/1972">1946-1972</unitdate></unittitle>
-          </did>
+            <unittitle>Projects</unittitle><unitdate type="inclusive" normal="1946/1972">1946-1972</unitdate></did>
           <scopecontent>
             <p>The Projects subseries consists of materials related to Hubbell's efforts to establish the field of biological systematics. These materials are arranged chronologically by project and are strongest in documenting his career during the 1960s when systematics became the buzz-word in zoology.</p>
           </scopecontent>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [277992339481062468902]">7</container>
-              <unittitle>Historical Biogeography <unitdate type="inclusive" normal="1946/1948">1946-1948</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [94179090348677256144]">7</container>
+              <unittitle>Historical Biogeography</unittitle><unitdate type="inclusive" normal="1946/1948">1946-1948</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [277992339481062468902]">7</container>
-              <unittitle>Huron Mountain (MI) <unitdate type="inclusive" normal="1956/1961">1956-1961</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [94179090348677256144]">7</container>
+              <unittitle>Huron Mountain (MI)</unittitle><unitdate type="inclusive" normal="1956/1961">1956-1961</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>International Biological Program <unitdate type="inclusive" normal="1966/1972">1966-1972</unitdate></unittitle>
-            </did>
+              <unittitle>International Biological Program</unittitle><unitdate type="inclusive" normal="1966/1972">1966-1972</unitdate></did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [277992339481062468902]">7</container>
-                <unittitle>Correspondence <unitdate type="inclusive" normal="1966/1972">1966-1972</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [94179090348677256144]">7</container>
+                <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1966/1972">1966-1972</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [277992339481062468902]">7</container>
-                <unittitle>Hawaii Territorial Biology <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [94179090348677256144]">7</container>
+                <unittitle>Hawaii Territorial Biology</unittitle><unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [277992339481062468902]">7</container>
-                <unittitle>Systematic Biology <unitdate type="inclusive" normal="1964/1969">1964-1969</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [94179090348677256144]">7</container>
+                <unittitle>Systematic Biology</unittitle><unitdate type="inclusive" normal="1964/1969">1964-1969</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">3 folders</extent>
                 </physdesc>
               </did>
@@ -1962,124 +1677,105 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [277992339481062468902]">7</container>
-              <unittitle>Michigan Committee on Tropical Studies <unitdate type="inclusive" normal="1957/1962">1957-1962</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [94179090348677256144]">7</container>
+              <unittitle>Michigan Committee on Tropical Studies</unittitle><unitdate type="inclusive" normal="1957/1962">1957-1962</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [277992339481062468902]">7</container>
-              <unittitle>Museum Survey Committee (Systematic Collections) <unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [94179090348677256144]">7</container>
+              <unittitle>Museum Survey Committee (Systematic Collections)</unittitle><unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6040715449987496470721]">8</container>
-              <unittitle>North Carolina Highlands <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [4430457794873872007477]">8</container>
+              <unittitle>North Carolina Highlands</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Organization for Tropical Studies <unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate></unittitle>
-            </did>
+              <unittitle>Organization for Tropical Studies</unittitle><unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate></did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6040715449987496470721]">8</container>
-                <unittitle>Correspondence <unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [4430457794873872007477]">8</container>
+                <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6040715449987496470721]">8</container>
-                <unittitle>Newsletters <unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [4430457794873872007477]">8</container>
+                <unittitle>Newsletters</unittitle><unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6040715449987496470721]">8</container>
-                <unittitle>Reports <unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [4430457794873872007477]">8</container>
+                <unittitle>Reports</unittitle><unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6040715449987496470721]">8</container>
-              <unittitle>Pacific Science Congress <unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [4430457794873872007477]">8</container>
+              <unittitle>Pacific Science Congress</unittitle><unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Writings <unitdate type="inclusive" normal="1911/1984">1911-1984</unitdate></unittitle>
-          </did>
+            <unittitle>Writings</unittitle><unitdate type="inclusive" normal="1911/1984">1911-1984</unitdate></did>
           <scopecontent>
             <p>The last subseries is a thin sampling of Hubbell's writings arranged chronologically. These range from highly specialized pieces on Florida fauna in the 1930s to a highly speculative piece on the "Unfinished Business and Beckoning Problems" in insect behavioral ecology penned in 1984. Of special interest is "An Introspective View of Taxonomy" in which Hubbell assesses his place in the field of entomology</p>
           </scopecontent>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6040715449987496470721]">8</container>
-              <unittitle>Notebooks (Philippines, Washington, and Ann Arbor) <unitdate type="inclusive" normal="1911/1916">1911-1916</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [4430457794873872007477]">8</container>
+              <unittitle>Notebooks (Philippines, Washington, and Ann Arbor)</unittitle><unitdate type="inclusive" normal="1911/1916">1911-1916</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6040715449987496470721]">8</container>
-              <unittitle>Geology of Florida <unitdate type="inclusive" normal="1927" certainty="approximate">circa 1927</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [4430457794873872007477]">8</container>
+              <unittitle>Geology of Florida</unittitle><unitdate type="inclusive" normal="1927" certainty="approximate">circa 1927</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6040715449987496470721]">8</container>
-              <unittitle>"A new Shrub-Inhabiting Species of Schisto-cerca from Central Florida," <unitdate type="inclusive" normal="1928">1928</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [4430457794873872007477]">8</container>
+              <unittitle>"A new Shrub-Inhabiting Species of Schisto-cerca from Central Florida,"</unittitle><unitdate type="inclusive" normal="1928">1928</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6040715449987496470721]">8</container>
-              <unittitle>"Devil's Millhopper" <unitdate type="inclusive" normal="1928" certainty="approximate">circa 1928</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [4430457794873872007477]">8</container>
+              <unittitle>"Devil's Millhopper"</unittitle><unitdate type="inclusive" normal="1928" certainty="approximate">circa 1928</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6040715449987496470721]">8</container>
-              <unittitle>"Utopias," <unitdate type="inclusive" normal="1935-03">March 1935</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [4430457794873872007477]">8</container>
+              <unittitle>"Utopias,"</unittitle><unitdate type="inclusive" normal="1935-03">March 1935</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6040715449987496470721]">8</container>
-              <unittitle>"Myxobacteria" <unitdate type="inclusive" normal="1935" certainty="approximate">circa 1935</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [4430457794873872007477]">8</container>
+              <unittitle>"Myxobacteria"</unittitle><unitdate type="inclusive" normal="1935" certainty="approximate">circa 1935</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6040715449987496470721]">8</container>
-              <unittitle>Miscellaneous notes <unitdate type="inclusive" normal="1930/1960" certainty="approximate">1930s-1960</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [4430457794873872007477]">8</container>
+              <unittitle>Miscellaneous notes</unittitle><unitdate type="inclusive" normal="1930/1960" certainty="approximate">1930s-1960</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6040715449987496470721]">8</container>
-              <unittitle>UM Museum of Zoology Annual Reports <unitdate type="inclusive" normal="1946/1956">1946-1956</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [4430457794873872007477]">8</container>
+              <unittitle>UM Museum of Zoology Annual Reports</unittitle><unitdate type="inclusive" normal="1946/1956">1946-1956</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6040715449987496470721]">8</container>
-              <unittitle>"An Introspective view of Taxonomy or What Have I Been Doing all these Years?," <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [4430457794873872007477]">8</container>
+              <unittitle>"An Introspective view of Taxonomy or What Have I Been Doing all these Years?,"</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6040715449987496470721]">8</container>
-              <unittitle>"Unfinished Business and Beckoning Problems (in Insect Behavioral Ecology)," <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [4430457794873872007477]">8</container>
+              <unittitle>"Unfinished Business and Beckoning Problems (in Insect Behavioral Ecology),"</unittitle><unitdate type="inclusive" normal="1984">1984</unitdate></did>
           </c03>
         </c02>
       </c01>

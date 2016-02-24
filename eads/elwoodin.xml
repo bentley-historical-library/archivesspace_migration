@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Elwood, Isaac Newton, 1843-1887.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/4272">Elwood, Isaac Newton, 1843-1887.</persname>
       </origination>
-      <unittitle encodinganalog="245">Isaac Newton Elwood papers <unitdate type="inclusive" encodinganalog="245$f" normal="1866/1885">1866-1885</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851258 Aa 2</unitid>
+      <unittitle encodinganalog="245">Isaac Newton Elwood papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1866/1885">1866-1885</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851258 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Methodist Episcopal clergyman; sermons.</abstract>
       <physdesc altrender="whole">
@@ -78,22 +78,22 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Clergy--Michigan.</subject>
-        <geogname source="lcsh" encodinganalog="651">Fenton (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Marquette (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80021644">Methodist Episcopal Church--Michigan.</corpname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85189118">Morenci (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83030021">Port Huron (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Sunday schools--Michigan--Morenci.</subject>
-        <geogname source="lcsh" encodinganalog="651">Saginaw (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81057079">Sumner, Charles, 1811-1874.</persname>
-        <subject source="lcsh" encodinganalog="650">Temperance--Michigan.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80006284">Ypsilanti (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219" ref="/subjects/856">Ann Arbor (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5685">Clergy--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1018">Fenton (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/993">Marquette (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80021644" ref="/agents/corporate_entities/1935">Methodist Episcopal Church--Michigan.<term type="geographic">Michigan.</term></corpname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85189118" ref="/subjects/1161">Morenci (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83030021" ref="/subjects/1202">Port Huron (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7414">Sunday schools--Michigan--Morenci.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1213">Saginaw (Mich.)</geogname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81057079" ref="/agents/people/257">Sumner, Charles, 1811-1874.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6213">Temperance--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80006284" ref="/subjects/995">Ypsilanti (Mich.)</geogname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Sermons.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3185">Sermons.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -105,110 +105,96 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2300138488388272262]">1</container>
-            <unittitle>Marquette <unitdate type="inclusive" normal="1867/1869">1867-1869</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [2955453646882984392810]">1</container>
+            <unittitle>Marquette</unittitle><unitdate type="inclusive" normal="1867/1869">1867-1869</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">12 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2300138488388272262]">1</container>
-            <unittitle>Saginaw ? <unitdate type="inclusive" normal="1871">1871</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [2955453646882984392810]">1</container>
+            <unittitle>Saginaw ?</unittitle><unitdate type="inclusive" normal="1871">1871</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">1 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2300138488388272262]">1</container>
-            <unittitle>Morenci <unitdate type="inclusive" normal="1873/1874">1873-1874</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [2955453646882984392810]">1</container>
+            <unittitle>Morenci</unittitle><unitdate type="inclusive" normal="1873/1874">1873-1874</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">6 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2300138488388272262]">1</container>
-            <unittitle>Ann Arbor <unitdate type="inclusive" normal="1875/1876">1875-1876</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [2955453646882984392810]">1</container>
+            <unittitle>Ann Arbor</unittitle><unitdate type="inclusive" normal="1875/1876">1875-1876</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">8 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2300138488388272262]">1</container>
-            <unittitle>Fenton <unitdate type="inclusive" normal="1876">1876</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [2955453646882984392810]">1</container>
+            <unittitle>Fenton</unittitle><unitdate type="inclusive" normal="1876">1876</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2300138488388272262]">1</container>
-            <unittitle>Port Huron <unitdate type="inclusive" normal="1876">1876</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [2955453646882984392810]">1</container>
+            <unittitle>Port Huron</unittitle><unitdate type="inclusive" normal="1876">1876</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2300138488388272262]">1</container>
-            <unittitle>Ypsilanti <unitdate type="inclusive" normal="1881/1883">1881-1883</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [2955453646882984392810]">1</container>
+            <unittitle>Ypsilanti</unittitle><unitdate type="inclusive" normal="1881/1883">1881-1883</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">15 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2891238049928162764088]">2</container>
-            <unittitle>Ypsilanti <unitdate type="inclusive" normal="1883/1884">1883-1884</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [3943546881180195]">2</container>
+            <unittitle>Ypsilanti</unittitle><unitdate type="inclusive" normal="1883/1884">1883-1884</unitdate><unitdate type="inclusive">undated</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">16 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2891238049928162764088]">2</container>
-            <unittitle>
-              <unitdate type="inclusive">Undated</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [3943546881180195]">2</container>
+            <unitdate type="inclusive">Undated</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">29 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [571396306042691278761]">3</container>
-            <unittitle>
-              <unitdate type="inclusive">Undated</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [37608894470249045258]">3</container>
+            <unitdate type="inclusive">Undated</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">18 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [571396306042691278761]">3</container>
+            <container type="box" label="Box [37608894470249045258]">3</container>
             <unittitle>Funeral sermon</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [571396306042691278761]">3</container>
+            <container type="box" label="Box [37608894470249045258]">3</container>
             <unittitle>Intemperance sermons</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [571396306042691278761]">3</container>
+            <container type="box" label="Box [37608894470249045258]">3</container>
             <unittitle>Thanksgiving Day sermon</unittitle>
           </did>
         </c02>
@@ -219,13 +205,12 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [571396306042691278761]">3</container>
-            <unittitle>Essay "Charles Sumner," <unitdate type="inclusive" normal="1866">1866</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [37608894470249045258]">3</container>
+            <unittitle>Essay "Charles Sumner,"</unittitle><unitdate type="inclusive" normal="1866">1866</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [571396306042691278761]">3</container>
+            <container type="box" label="Box [37608894470249045258]">3</container>
             <unittitle>History of Sunday School at Morenci</unittitle>
           </did>
         </c02>

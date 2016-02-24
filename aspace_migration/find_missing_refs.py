@@ -26,6 +26,7 @@ def find_missing_refs(ead_dir):
                 missing_refs['classification'] = []
             if filename not in missing_refs['classification']:
                 missing_refs['classification'].append(filename)
+    return missing_refs
 
 def main():
     project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

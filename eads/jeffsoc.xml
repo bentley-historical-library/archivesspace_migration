@@ -24,7 +24,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Jeffersonian Society (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/4086">Jeffersonian Society (University of Michigan)</corpname>
       </origination>
-      <unittitle encodinganalog="245">Jeffersonian Society (University of Michigan) records books <unitdate type="inclusive" encodinganalog="245$f" normal="1864/1915">1864-1915</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">87211 Bimu M6 2</unitid>
+      <unittitle encodinganalog="245">Jeffersonian Society (University of Michigan) records books</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1864/1915">1864-1915</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">87211 Bimu M6 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Student debating society of the University of Michigan Law School; records include Minutes, and secretary’s book containing lists of members and fellows in addition to constitutions and by-laws</abstract>
       <physdesc altrender="whole">
@@ -79,10 +79,10 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Debates and debating--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Law.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Societies, etc.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Jeffersonian Society (University of Michigan)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8292">Debates and debating--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1404">University of Michigan. Dept. of Law.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Societies, etc.<term type="topical">Students</term><term type="topical">Societies, etc.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4086">Jeffersonian Society (University of Michigan)</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -96,43 +96,29 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [019808466844366580253164]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1866/1872">1866-1872</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [45871141280652879]">1</container>
+              <unitdate type="inclusive" normal="1866/1872">1866-1872</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [019808466844366580253164]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1866">1866</unitdate>
-                <unitdate type="inclusive" normal="1872/1880">1872-1880</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [45871141280652879]">1</container>
+              <unitdate type="inclusive" normal="1866">1866</unitdate><unitdate type="inclusive" normal="1872/1880">1872-1880</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [019808466844366580253164]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1881/1890">1881-1890</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [45871141280652879]">1</container>
+              <unitdate type="inclusive" normal="1881/1890">1881-1890</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [019808466844366580253164]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1891/1915">1891-1915</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [45871141280652879]">1</container>
+              <unitdate type="inclusive" normal="1891/1915">1891-1915</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [019808466844366580253164]">1</container>
-            <unittitle>Corresponding secretary's book <unitdate type="inclusive" normal="1864/1901">1864-1901</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [45871141280652879]">1</container>
+            <unittitle>Corresponding secretary's book</unittitle><unitdate type="inclusive" normal="1864/1901">1864-1901</unitdate></did>
           <odd>
             <p>(includes lists of members, constitution and by-laws, and minutes 1898-1901)</p>
           </odd>

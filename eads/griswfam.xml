@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Griswold family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/92">Griswold family.</famname>
       </origination>
-      <unittitle encodinganalog="245">Griswold family papers [microform] <unitdate type="inclusive" encodinganalog="245$f" normal="1837/1915">1837-1915</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851377 Aa 2</unitid>
+      <unittitle encodinganalog="245">Griswold family papers [microform]</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1837/1915">1837-1915</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851377 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Vermontville, Michigan, family. Civil War correspondence and diaries of Joseph B. Griswold, musician in the Second Michigan Cavalry, and later Assistant Surgeon in the Fourth Michigan Infantry; also material concerning the land transactions of Roger W. Griswold; and miscellaneous clippings, photograph, correspondence, and printed material.</abstract>
       <physdesc altrender="part">
@@ -84,29 +84,29 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <famname source="lcnaf" encodinganalog="600">Griswold family.</famname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2009095185">Military Order of the Loyal Legion of the United States. Michigan Commandery.</corpname>
-        <subject source="lcsh" encodinganalog="650">Musicians--Michigan--Vermontville.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2006066700">United States. Army. Michigan Cavalry Regiment, 2nd (1861-1865)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2004083973">United States. Army. Michigan Infantry Regiment, 4th (1864-1866)</corpname>
-        <geogname source="lcsh" encodinganalog="651">United States--History--Civil War, 1861-1865.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Vermontville (Mich.)</geogname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/92">Griswold family.</famname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2009095185" ref="/agents/corporate_entities/2901">Military Order of the Loyal Legion of the United States. Michigan Commandery.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8075">Musicians--Michigan--Vermontville.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2006066700" ref="/agents/corporate_entities/802">United States. Army. Michigan Cavalry Regiment, 2nd (1861-1865)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2004083973" ref="/agents/corporate_entities/2236">United States. Army. Michigan Infantry Regiment, 4th (1864-1866)</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/905">United States--History--Civil War, 1861-1865.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1243">Vermontville (Mich.)</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n84076025">Grand Army of the Republic--Michigan.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Griswold, Joseph Bascom, 1842-1915.</persname>
-        <subject source="lctgm" encodinganalog="650">Veterans--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n84076025" ref="/agents/corporate_entities/787">Grand Army of the Republic--Michigan.<term type="geographic">Michigan.</term></corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/8000">Griswold, Joseph Bascom, 1842-1915.</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3767">Veterans--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Griswold, Joseph Bascom, 1842-1915.</persname>
-        <persname source="lcnaf" encodinganalog="700">Griswold, Roger W., 1812-1886.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/8000">Griswold, Joseph Bascom, 1842-1915.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/3907">Griswold, Roger W., 1812-1886.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Diaries.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3145">Diaries.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -116,123 +116,107 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [7304246773509595]">1</container>
-            <unittitle>Papers <unitdate type="inclusive" normal="1863/1915">1863-1915</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="reel" label="Roll [586811832149721475169]">1</container>
+            <unittitle>Papers</unittitle><unitdate type="inclusive" normal="1863/1915">1863-1915</unitdate><unitdate type="inclusive">undated</unitdate></did>
           <odd>
             <p>(include biographical material on Roger W. Griswold and Joseph B. Griswold,)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [7304246773509595]">1</container>
-            <unittitle>Papers <unitdate type="inclusive" normal="1837/1878">1837-1878</unitdate></unittitle>
-          </did>
+            <container type="reel" label="Roll [586811832149721475169]">1</container>
+            <unittitle>Papers</unittitle><unitdate type="inclusive" normal="1837/1878">1837-1878</unitdate></did>
           <odd>
             <p>(include indentures and deeds for land transactions of Roger W. Griswold)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [7304246773509595]">1</container>
-            <unittitle>Papers <unitdate type="inclusive" normal="1855/1886">1855-1886</unitdate></unittitle>
-          </did>
+            <container type="reel" label="Roll [586811832149721475169]">1</container>
+            <unittitle>Papers</unittitle><unitdate type="inclusive" normal="1855/1886">1855-1886</unitdate></did>
           <odd>
             <p>(include business records and tax receipts of Roger W. Griswold)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [7304246773509595]">1</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1855/1858">1855-1858</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="reel" label="Roll [586811832149721475169]">1</container>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1855/1858">1855-1858</unitdate><unitdate type="inclusive">undated</unitdate></did>
           <odd>
             <p>(include letters from Abigail Griswold (Mrs. Roger W. Griswold) to her daughter Hattie attending the Female College in Lansing)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [7304246773509595]">1</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1862/1866">1862-1866</unitdate></unittitle>
-          </did>
+            <container type="reel" label="Roll [586811832149721475169]">1</container>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1862/1866">1862-1866</unitdate></did>
           <odd>
             <p>(include letters from Dr. Joseph B. Griswold to his sister, Hattie Griswold Bacon, concerning his service in the Civil War)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [7304246773509595]">1</container>
-            <unittitle><genreform normal="Diaries">Diaries</genreform> of Dr. Joseph B. Griswold concerning his service in the Civil War, <unitdate type="inclusive" normal="1861/1862">1861-1862</unitdate>, <unitdate type="inclusive" normal="1865">1865</unitdate></unittitle>
-          </did>
+            <container type="reel" label="Roll [586811832149721475169]">1</container>
+            <unittitle><genreform normal="Diaries">Diaries</genreform> of Dr. Joseph B. Griswold concerning his service in the Civil War</unittitle><unitdate type="inclusive" normal="1861/1862">1861-1862</unitdate><unitdate type="inclusive" normal="1865">1865</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [7304246773509595]">1</container>
-            <unittitle>Papers concerning the service of Dr. Joseph Griswold in the Civil War <unitdate type="inclusive" normal="1861/1866">1861-1866</unitdate></unittitle>
-          </did>
+            <container type="reel" label="Roll [586811832149721475169]">1</container>
+            <unittitle>Papers concerning the service of Dr. Joseph Griswold in the Civil War</unittitle><unitdate type="inclusive" normal="1861/1866">1861-1866</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [7304246773509595]">1</container>
-            <unittitle>Booklet entitled "The Soldier's Pocket Book" put out by the Presbyterian Board of Education <unitdate type="inclusive" normal="1861">1861</unitdate></unittitle>
-          </did>
+            <container type="reel" label="Roll [586811832149721475169]">1</container>
+            <unittitle>Booklet entitled "The Soldier's Pocket Book" put out by the Presbyterian Board of Education</unittitle><unitdate type="inclusive" normal="1861">1861</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [7304246773509595]">1</container>
-            <unittitle>Papers concerning the membership of Dr. Joseph B. Griswold in military organizations (i.e. G.A.R.) <unitdate type="inclusive" normal="1885/1914">1885-1914</unitdate></unittitle>
-          </did>
+            <container type="reel" label="Roll [586811832149721475169]">1</container>
+            <unittitle>Papers concerning the membership of Dr. Joseph B. Griswold in military organizations (i.e. G.A.R.)</unittitle><unitdate type="inclusive" normal="1885/1914">1885-1914</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [7304246773509595]">1</container>
-            <unittitle>Papers include appointments and commissions of Dr. Joseph B. Griswold <unitdate type="inclusive" normal="1882/1911">1882-1911</unitdate></unittitle>
-          </did>
+            <container type="reel" label="Roll [586811832149721475169]">1</container>
+            <unittitle>Papers include appointments and commissions of Dr. Joseph B. Griswold</unittitle><unitdate type="inclusive" normal="1882/1911">1882-1911</unitdate></did>
           <odd>
             <p>(signed by Michigan governors)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [7304246773509595]">1</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1894/1895">1894-1895</unitdate></unittitle>
-          </did>
+            <container type="reel" label="Roll [586811832149721475169]">1</container>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1894/1895">1894-1895</unitdate></did>
           <odd>
             <p>(include letters of Dr. Joseph B. Griswold and William McKinley and Benjamin Harrison)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [7304246773509595]">1</container>
-            <unittitle>Campaign material <unitdate type="inclusive" normal="1896">1896</unitdate></unittitle>
-          </did>
+            <container type="reel" label="Roll [586811832149721475169]">1</container>
+            <unittitle>Campaign material</unittitle><unitdate type="inclusive" normal="1896">1896</unitdate></did>
           <odd>
             <p>(include songs by Joseph B. Griswold; also pamphlet published by the Sound Money League)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [7304246773509595]">1</container>
-            <unittitle>Booklets, "Songs of the Ohio Commandery" and "War Songs" <unitdate type="inclusive" normal="1885">1885</unitdate>, <unitdate type="inclusive" normal="1890">1890</unitdate></unittitle>
-          </did>
+            <container type="reel" label="Roll [586811832149721475169]">1</container>
+            <unittitle>Booklets, "Songs of the Ohio Commandery" and "War Songs"</unittitle><unitdate type="inclusive" normal="1885">1885</unitdate><unitdate type="inclusive" normal="1890">1890</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [7304246773509595]">1</container>
-            <unittitle>Book of remembrance belonging to Mrs. Joseph B. Griswold <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="reel" label="Roll [586811832149721475169]">1</container>
+            <unittitle>Book of remembrance belonging to Mrs. Joseph B. Griswold</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [7304246773509595]">1</container>
-            <unittitle>Printed materials <unitdate type="inclusive" normal="1876/1914">1876-1914</unitdate></unittitle>
-          </did>
+            <container type="reel" label="Roll [586811832149721475169]">1</container>
+            <unittitle>Printed materials</unittitle><unitdate type="inclusive" normal="1876/1914">1876-1914</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [7304246773509595]">1</container>
-            <unittitle><genreform normal="Photographs">Photograph</genreform> of the Past Department Commanders of the G.A.R of Michigan, <unitdate type="inclusive" normal="1907">1907</unitdate></unittitle>
-          </did>
+            <container type="reel" label="Roll [586811832149721475169]">1</container>
+            <unittitle><genreform normal="Photographs">Photograph</genreform> of the Past Department Commanders of the G.A.R of Michigan</unittitle><unitdate type="inclusive" normal="1907">1907</unitdate></did>
         </c02>
       </c01>
     </dsc>

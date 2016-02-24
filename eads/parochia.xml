@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Council About Parochiaid.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/2539">Council About Parochiaid.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Council About Parochiaid records <unitdate type="inclusive" encodinganalog="245$f" normal="1970/1978">1970-1978</unitdate></unittitle>
-      <abstract>Michigan organization formed to oppose public aid to non-public schools and students, variously known as CAP, and the Council Against Parochiaid. Minutes of meetings, correspondence, and other materials relating to their support of Proposal C in the Michigan election of 1970, and their opposition to Proposal H (the Voucher Plan) in the election of 1978.</abstract>
+      <unittitle encodinganalog="245">Council About Parochiaid records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1970/1978">1970-1978</unitdate><abstract>Michigan organization formed to oppose public aid to non-public schools and students, variously known as CAP, and the Council Against Parochiaid. Minutes of meetings, correspondence, and other materials relating to their support of Proposal C in the Michigan election of 1970, and their opposition to Proposal H (the Voucher Plan) in the election of 1978.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">85511 Bh 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -80,13 +80,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Church schools--Michigan--Finance.</subject>
-        <subject source="lcsh" encodinganalog="650">Education--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1970.</subject>
-        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1978.</subject>
-        <subject source="local" encodinganalog="690">Parochiaid.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Council About Parochiaid.</corpname>
-        <subject source="lcsh" encodinganalog="650">Government aid to private schools--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7100">Church schools--Michigan--Finance.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5734">Education--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7199">Elections--Michigan--1970.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5801">Elections--Michigan--1978.</subject>
+        <subject source="local" encodinganalog="690" ref="/subjects/3527">Parochiaid.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2539">Council About Parochiaid.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7102">Government aid to private schools--Michigan.</subject>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -99,55 +99,40 @@
         </odd>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1634016418257748379]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1970">1970</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [0017619947474746885]">1</container>
+            <unitdate type="inclusive" normal="1970">1970</unitdate></did>
           <odd>
             <p>(folder 1)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1634016418257748379]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1971">1971</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [0017619947474746885]">1</container>
+            <unitdate type="inclusive" normal="1971">1971</unitdate></did>
           <odd>
             <p>(folder 2)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1634016418257748379]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1972">1972</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [0017619947474746885]">1</container>
+            <unitdate type="inclusive" normal="1972">1972</unitdate></did>
           <odd>
             <p>(folder 3)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1634016418257748379]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1977">1977</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [0017619947474746885]">1</container>
+            <unitdate type="inclusive" normal="1977">1977</unitdate></did>
           <odd>
             <p>(folder 4)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1634016418257748379]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1978">1978</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [0017619947474746885]">1</container>
+            <unitdate type="inclusive" normal="1978">1978</unitdate></did>
           <odd>
             <p>(folder 5)</p>
           </odd>
@@ -159,66 +144,48 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1634016418257748379]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1970">1970</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [0017619947474746885]">1</container>
+            <unitdate type="inclusive" normal="1970">1970</unitdate></did>
           <odd>
             <p>(folder 6)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1634016418257748379]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1972">1972</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [0017619947474746885]">1</container>
+            <unitdate type="inclusive" normal="1972">1972</unitdate></did>
           <odd>
             <p>(folder 7)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1634016418257748379]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1973">1973</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [0017619947474746885]">1</container>
+            <unitdate type="inclusive" normal="1973">1973</unitdate></did>
           <odd>
             <p>(folder 8)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1634016418257748379]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1977">1977</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [0017619947474746885]">1</container>
+            <unitdate type="inclusive" normal="1977">1977</unitdate></did>
           <odd>
             <p>(folder 9)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1634016418257748379]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1978-01/1978-06">January-June 1978</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [0017619947474746885]">1</container>
+            <unitdate type="inclusive" normal="1978-01/1978-06">January-June 1978</unitdate></did>
           <odd>
             <p>(folder 10)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1634016418257748379]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1978-07/1978-12">July-December 1978</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [0017619947474746885]">1</container>
+            <unitdate type="inclusive" normal="1978-07/1978-12">July-December 1978</unitdate></did>
           <odd>
             <p>(folder 11)</p>
           </odd>
@@ -226,11 +193,10 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Proposal "C" (Anti-parochiaid) Yes Campaign <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-        </did>
+          <unittitle>Proposal "C" (Anti-parochiaid) Yes Campaign</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1634016418257748379]">1</container>
+            <container type="box" label="Box [0017619947474746885]">1</container>
             <unittitle>Lists</unittitle>
           </did>
           <odd>
@@ -242,7 +208,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1634016418257748379]">1</container>
+            <container type="box" label="Box [0017619947474746885]">1</container>
             <unittitle>Bulletins</unittitle>
           </did>
           <odd>
@@ -251,7 +217,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1634016418257748379]">1</container>
+            <container type="box" label="Box [0017619947474746885]">1</container>
             <unittitle>News Releases</unittitle>
           </did>
           <odd>
@@ -260,7 +226,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1634016418257748379]">1</container>
+            <container type="box" label="Box [0017619947474746885]">1</container>
             <unittitle>Campaign material; include blank initiative petition, handouts, flyers, fact sheets, time table, and related material</unittitle>
           </did>
           <odd>
@@ -269,7 +235,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1634016418257748379]">1</container>
+            <container type="box" label="Box [0017619947474746885]">1</container>
             <unittitle>Legal material</unittitle>
           </did>
           <odd>
@@ -278,7 +244,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1634016418257748379]">1</container>
+            <container type="box" label="Box [0017619947474746885]">1</container>
             <unittitle>Printed materials (news clippings and reprints)</unittitle>
           </did>
           <odd>
@@ -288,11 +254,10 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Proposal "H" (Voucher Plan) No Campaign <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
-        </did>
+          <unittitle>Proposal "H" (Voucher Plan) No Campaign</unittitle><unitdate type="inclusive" normal="1978">1978</unitdate></did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1634016418257748379]">1</container>
+            <container type="box" label="Box [0017619947474746885]">1</container>
             <unittitle>Lists</unittitle>
           </did>
           <odd>
@@ -304,7 +269,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1634016418257748379]">1</container>
+            <container type="box" label="Box [0017619947474746885]">1</container>
             <unittitle>Charts: Organization and Campaign Designs, and Information Tasks-Timeline</unittitle>
           </did>
           <odd>
@@ -313,7 +278,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1634016418257748379]">1</container>
+            <container type="box" label="Box [0017619947474746885]">1</container>
             <unittitle>News Releases</unittitle>
           </did>
           <odd>
@@ -322,7 +287,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1634016418257748379]">1</container>
+            <container type="box" label="Box [0017619947474746885]">1</container>
             <unittitle>Financial Statements</unittitle>
           </did>
           <odd>
@@ -331,7 +296,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1634016418257748379]">1</container>
+            <container type="box" label="Box [0017619947474746885]">1</container>
             <unittitle>Mailings (newsletters and related materials)</unittitle>
           </did>
           <odd>
@@ -340,7 +305,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1634016418257748379]">1</container>
+            <container type="box" label="Box [0017619947474746885]">1</container>
             <unittitle>CAP-78 Local Coalitions</unittitle>
           </did>
           <odd>
@@ -349,9 +314,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1634016418257748379]">1</container>
-            <unittitle>CAP Regional Workshops <unitdate type="inclusive" normal="1978-05-12">May 12, 1978</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0017619947474746885]">1</container>
+            <unittitle>CAP Regional Workshops</unittitle><unitdate type="inclusive" normal="1978-05-12">May 12, 1978</unitdate></did>
           <odd>
             <p>(schedules, resource teams, lists)</p>
           </odd>
@@ -361,7 +325,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1634016418257748379]">1</container>
+            <container type="box" label="Box [0017619947474746885]">1</container>
             <unittitle>Campaign material; include handouts, flyers, pamphlets, radio spots, newspaper ads, bumper sticker, and Michigan Association of School Board's position papers</unittitle>
           </did>
           <odd>
@@ -370,7 +334,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1634016418257748379]">1</container>
+            <container type="box" label="Box [0017619947474746885]">1</container>
             <unittitle>Poll results</unittitle>
           </did>
           <odd>
@@ -379,7 +343,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1634016418257748379]">1</container>
+            <container type="box" label="Box [0017619947474746885]">1</container>
             <unittitle>Legal material (complaint for mandamus)</unittitle>
           </did>
           <odd>
@@ -388,7 +352,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1634016418257748379]">1</container>
+            <container type="box" label="Box [0017619947474746885]">1</container>
             <unittitle>Legal material</unittitle>
           </did>
           <odd>
@@ -400,7 +364,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1634016418257748379]">1</container>
+            <container type="box" label="Box [0017619947474746885]">1</container>
             <unittitle>Legal Developments Affecting Education</unittitle>
           </did>
           <odd>
@@ -409,7 +373,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1634016418257748379]">1</container>
+            <container type="box" label="Box [0017619947474746885]">1</container>
             <unittitle>United We Can material; including platform, mailings, handouts, newsletter and related material</unittitle>
           </did>
           <odd>
@@ -418,7 +382,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1634016418257748379]">1</container>
+            <container type="box" label="Box [0017619947474746885]">1</container>
             <unittitle>Pro-parochiaid material; including newsclippings, blank Initiative Petition, CSF Board of Directors list, CSF Newsletters, press release reprints, and booklet</unittitle>
           </did>
           <odd>
@@ -427,7 +391,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1634016418257748379]">1</container>
+            <container type="box" label="Box [0017619947474746885]">1</container>
             <unittitle>Miscellaneous</unittitle>
           </did>
           <odd>
@@ -436,7 +400,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1634016418257748379]">1</container>
+            <container type="box" label="Box [0017619947474746885]">1</container>
             <unittitle>Miscellaneous Voucher Plans (other states)</unittitle>
           </did>
           <odd>
@@ -445,7 +409,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1634016418257748379]">1</container>
+            <container type="box" label="Box [0017619947474746885]">1</container>
             <unittitle>Miscellaneous newsletters</unittitle>
           </did>
           <odd>
@@ -459,16 +423,15 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1634016418257748379]">1</container>
-            <unittitle>Church and State <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0017619947474746885]">1</container>
+            <unittitle>Church and State</unittitle><unitdate type="inclusive" normal="1978">1978</unitdate></did>
           <odd>
             <p>(folder 35)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1634016418257748379]">1</container>
+            <container type="box" label="Box [0017619947474746885]">1</container>
             <unittitle>Reprints</unittitle>
           </did>
           <odd>
@@ -477,7 +440,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1634016418257748379]">1</container>
+            <container type="box" label="Box [0017619947474746885]">1</container>
             <unittitle>News clippings</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 folders</extent>
@@ -489,7 +452,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1634016418257748379]">1</container>
+            <container type="box" label="Box [0017619947474746885]">1</container>
             <unittitle>UPI Releases</unittitle>
           </did>
           <odd>

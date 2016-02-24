@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,10 +35,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Crawford, Richard (1935- )</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/2729">Crawford, Richard (1935- )</persname>
       </origination>
-      <unittitle encodinganalog="245">Richard Crawford (1935- )papers <unitdate type="inclusive" encodinganalog="245$f" normal="1893/1915">1893-1915</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="1949/2001">1949-2001</unitdate></unittitle>
-      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">89164 Aa 2</unitid>
+      <unittitle encodinganalog="245">Richard Crawford (1935- )papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1893/1915">1893-1915</unitdate><unitdate type="inclusive" encodinganalog="245$f" normal="1949/2001">1949-2001</unitdate><unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">89164 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Professor at University of Michigan School of Music, papers largely related to the Music School's Honors Program and Crawford's teaching career.</abstract>
       <physdesc altrender="whole">
@@ -75,26 +75,26 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Music--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan Jazz Band.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Bands.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82063886">University of Michigan. School of Music.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no92016853">Moore, Earl Vincent, 1890-1987.</persname>
-        <persname source="lcnaf" encodinganalog="600">Howland, William.</persname>
-        <subject source="lcsh" encodinganalog="650">Musicians--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Music--Michigan--Detroit.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5709">Music--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3045">University of Michigan Jazz Band.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Bands.<term type="topical">Bands.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82063886" ref="/agents/corporate_entities/1001">University of Michigan. School of Music.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no92016853" ref="/agents/people/3609">Moore, Earl Vincent, 1890-1987.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5142">Howland, William.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5710">Musicians--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7050">Music--Michigan--Detroit.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <subject source="lctgm" encodinganalog="650">Amphitheaters.</subject>
-        <subject source="lctgm" encodinganalog="650">Concerts.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan Jazz Band.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Bands.</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4111">Amphitheaters.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3609">Concerts.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3045">University of Michigan Jazz Band.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Bands.<term type="topical">Bands.</term></corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -107,9 +107,8 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [18687585480936493029]">1</container>
-            <unittitle>Faculty Meeting Minutes <unitdate type="inclusive" normal="1982/1988">1982-1988</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [837824104066889730]">1</container>
+            <unittitle>Faculty Meeting Minutes</unittitle><unitdate type="inclusive" normal="1982/1988">1982-1988</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -121,92 +120,65 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [18687585480936493029]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1958/1961">1958-1961</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [837824104066889730]">1</container>
+                <unitdate type="inclusive" normal="1958/1961">1958-1961</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [18687585480936493029]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [837824104066889730]">1</container>
+                <unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [18687585480936493029]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [837824104066889730]">1</container>
+                <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [18687585480936493029]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [837824104066889730]">1</container>
+                <unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [18687585480936493029]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [837824104066889730]">1</container>
+                <unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [18687585480936493029]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [837824104066889730]">1</container>
+                <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [18687585480936493029]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [837824104066889730]">1</container>
+                <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [18687585480936493029]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [837824104066889730]">1</container>
+                <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [18687585480936493029]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [837824104066889730]">1</container>
+                <unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [18687585480936493029]">1</container>
+              <container type="box" label="Box [837824104066889730]">1</container>
               <unittitle>Forms</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [18687585480936493029]">1</container>
+              <container type="box" label="Box [837824104066889730]">1</container>
               <unittitle>Recitals</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [18687585480936493029]">1</container>
+              <container type="box" label="Box [837824104066889730]">1</container>
               <unittitle>Seminar Papers, Music at Michigan</unittitle>
             </did>
           </c03>
@@ -217,30 +189,26 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [18687585480936493029]">1</container>
-              <unittitle>Bicentennial Committee <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [837824104066889730]">1</container>
+              <unittitle>Bicentennial Committee</unittitle><unitdate type="inclusive" normal="1974">1974</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [18687585480936493029]">1</container>
-              <unittitle>Honors Assembly <unitdate type="inclusive" normal="1962/1967">1962-1967</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [837824104066889730]">1</container>
+              <unittitle>Honors Assembly</unittitle><unitdate type="inclusive" normal="1962/1967">1962-1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [18687585480936493029]">1</container>
-              <unittitle>Jazz Band Tour <unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [837824104066889730]">1</container>
+              <unittitle>Jazz Band Tour</unittitle><unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">4 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [18687585480936493029]">1</container>
-              <unittitle>Music Literature Course Change <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [837824104066889730]">1</container>
+              <unittitle>Music Literature Course Change</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
           </c03>
         </c02>
       </c01>
@@ -258,79 +226,70 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [18687585480936493029]">1</container>
+              <container type="box" label="Box [837824104066889730]">1</container>
               <unittitle>Course 42</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [18687585480936493029]">1</container>
+              <container type="box" label="Box [837824104066889730]">1</container>
               <unittitle>Course 121</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [18687585480936493029]">1</container>
-              <unittitle>Course 125 <unitdate type="inclusive" normal="1959/1961">1959-1961</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [837824104066889730]">1</container>
+              <unittitle>Course 125</unittitle><unitdate type="inclusive" normal="1959/1961">1959-1961</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [18687585480936493029]">1</container>
-              <unittitle>Course 129 <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [837824104066889730]">1</container>
+              <unittitle>Course 129</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [18687585480936493029]">1</container>
-              <unittitle>Course 131 <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [837824104066889730]">1</container>
+              <unittitle>Course 131</unittitle><unitdate type="inclusive" normal="1985">1985</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [18687585480936493029]">1</container>
-              <unittitle>Courses 139-140 <unitdate type="inclusive" normal="1962/1964">1962-1964</unitdate>, <unitdate type="inclusive" normal="1990/1995">1990-1995</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [837824104066889730]">1</container>
+              <unittitle>Courses 139-140</unittitle><unitdate type="inclusive" normal="1962/1964">1962-1964</unitdate><unitdate type="inclusive" normal="1990/1995">1990-1995</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [18687585480936493029]">1</container>
-              <unittitle>Course 177 <unitdate type="inclusive" normal="1960/1962">1960-1962</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [837824104066889730]">1</container>
+              <unittitle>Course 177</unittitle><unitdate type="inclusive" normal="1960/1962">1960-1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [18687585480936493029]">1</container>
+              <container type="box" label="Box [837824104066889730]">1</container>
               <unittitle>Course 178</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [18687585480936493029]">1</container>
-              <unittitle>Course 239 <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [837824104066889730]">1</container>
+              <unittitle>Course 239</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [18687585480936493029]">1</container>
-              <unittitle>Course 240 <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [837824104066889730]">1</container>
+              <unittitle>Course 240</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [18687585480936493029]">1</container>
-              <unittitle>Course 241 <unitdate type="inclusive" normal="1949">1949</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [837824104066889730]">1</container>
+              <unittitle>Course 241</unittitle><unitdate type="inclusive" normal="1949">1949</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [471914443588718116285]">2</container>
-              <unittitle>Course 295-296 <unitdate type="inclusive" normal="1965/1969">1965-1969</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [30506984502720755]">2</container>
+              <unittitle>Course 295-296</unittitle><unitdate type="inclusive" normal="1965/1969">1965-1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [471914443588718116285]">2</container>
+              <container type="box" label="Box [30506984502720755]">2</container>
               <unittitle>Course 343</unittitle>
             </did>
           </c03>
@@ -340,32 +299,24 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [471914443588718116285]">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1961/1963">1961-1963</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [30506984502720755]">2</container>
+                <unitdate type="inclusive" normal="1961/1963">1961-1963</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [471914443588718116285]">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1964/1968">1964-1968</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [30506984502720755]">2</container>
+                <unitdate type="inclusive" normal="1964/1968">1964-1968</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [471914443588718116285]">2</container>
-              <unittitle>Course 412 <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [30506984502720755]">2</container>
+              <unittitle>Course 412</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [471914443588718116285]">2</container>
-              <unittitle>Course 442 <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [30506984502720755]">2</container>
+              <unittitle>Course 442</unittitle><unitdate type="inclusive" normal="1988">1988</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -376,9 +327,8 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [471914443588718116285]">2</container>
-                <unittitle>Course Outlines and Exams <unitdate type="inclusive" normal="1961">1961</unitdate>, <unitdate type="inclusive" normal="1966/1971">1966-1971</unitdate>, <unitdate type="inclusive" normal="1978/1992">1978-1992</unitdate>, <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [30506984502720755]">2</container>
+                <unittitle>Course Outlines and Exams</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate><unitdate type="inclusive" normal="1966/1971">1966-1971</unitdate><unitdate type="inclusive" normal="1978/1992">1978-1992</unitdate><unitdate type="inclusive" normal="2001">2001</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -386,150 +336,138 @@
               </did>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [471914443588718116285]">2</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1988">1988</unitdate>
-                  </unittitle>
-                </did>
+                  <container type="box" label="Box [30506984502720755]">2</container>
+                  <unitdate type="inclusive" normal="1988">1988</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [471914443588718116285]">2</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1990">1990</unitdate>
-                  </unittitle>
-                </did>
+                  <container type="box" label="Box [30506984502720755]">2</container>
+                  <unitdate type="inclusive" normal="1990">1990</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [471914443588718116285]">2</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1996">1996</unitdate>
-                  </unittitle>
-                </did>
+                  <container type="box" label="Box [30506984502720755]">2</container>
+                  <unitdate type="inclusive" normal="1996">1996</unitdate></did>
               </c05>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [471914443588718116285]">2</container>
-                <unittitle>General <unitdate type="inclusive" normal="1961/1970">1961-1970</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [30506984502720755]">2</container>
+                <unittitle>General</unittitle><unitdate type="inclusive" normal="1961/1970">1961-1970</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>Lecture Materials, ca. <unitdate type="inclusive" normal="1988/2001">1988-2001</unitdate></unittitle>
-              </did>
+                <unittitle>Lecture Materials, ca.</unittitle><unitdate type="inclusive" normal="1988/2001">1988-2001</unitdate></did>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [471914443588718116285]">2</container>
-                  <unittitle><unitdate type="inclusive" normal="1940/1949" certainty="approximate">1940s</unitdate> and 1950s-Generalizations</unittitle>
-                </did>
+                  <container type="box" label="Box [30506984502720755]">2</container>
+                  <unittitle>And 1950s-Generalizations</unittitle><unitdate type="inclusive" normal="1940/1949" certainty="approximate">1940s</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [471914443588718116285]">2</container>
+                  <container type="box" label="Box [30506984502720755]">2</container>
                   <unittitle>20th Century Music-Overview</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [471914443588718116285]">2</container>
+                  <container type="box" label="Box [30506984502720755]">2</container>
                   <unittitle>Advent of the Professional Musician in America</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [471914443588718116285]">2</container>
+                  <container type="box" label="Box [30506984502720755]">2</container>
                   <unittitle>American Music and Its Two Written Traditions</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [471914443588718116285]">2</container>
+                  <container type="box" label="Box [30506984502720755]">2</container>
                   <unittitle>American Music and the Common Man</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [471914443588718116285]">2</container>
+                  <container type="box" label="Box [30506984502720755]">2</container>
                   <unittitle>Bands and Band Music</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [471914443588718116285]">2</container>
+                  <container type="box" label="Box [30506984502720755]">2</container>
                   <unittitle>Billings (William) of Boston</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [471914443588718116285]">2</container>
+                  <container type="box" label="Box [30506984502720755]">2</container>
                   <unittitle>Blues</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [471914443588718116285]">2</container>
+                  <container type="box" label="Box [30506984502720755]">2</container>
                   <unittitle>Composers and Their Audiences</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [471914443588718116285]">2</container>
+                  <container type="box" label="Box [30506984502720755]">2</container>
                   <unittitle>Copland, Aaron</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [471914443588718116285]">2</container>
+                  <container type="box" label="Box [30506984502720755]">2</container>
                   <unittitle>Cosmopolitan and Provincial: The Historiography of American Music</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [471914443588718116285]">2</container>
+                  <container type="box" label="Box [30506984502720755]">2</container>
                   <unittitle>Course Introduction</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [471914443588718116285]">2</container>
+                  <container type="box" label="Box [30506984502720755]">2</container>
                   <unittitle>Duke Ellington and His Orchestra</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [471914443588718116285]">2</container>
+                  <container type="box" label="Box [30506984502720755]">2</container>
                   <unittitle>Economies of Music</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [471914443588718116285]">2</container>
+                  <container type="box" label="Box [30506984502720755]">2</container>
                   <unittitle>Final Lecture</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [471914443588718116285]">2</container>
+                  <container type="box" label="Box [30506984502720755]">2</container>
                   <unittitle>Foster, Stephen</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [471914443588718116285]">2</container>
+                  <container type="box" label="Box [30506984502720755]">2</container>
                   <unittitle>Gershwin, George</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [471914443588718116285]">2</container>
+                  <container type="box" label="Box [30506984502720755]">2</container>
                   <unittitle>Heinrich and Gottschalk</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [471914443588718116285]">2</container>
+                  <container type="box" label="Box [30506984502720755]">2</container>
                   <unittitle>
                     <title render="italic">I Got Rhythm</title>
                   </unittitle>
@@ -537,7 +475,7 @@
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [471914443588718116285]">2</container>
+                  <container type="box" label="Box [30506984502720755]">2</container>
                   <unittitle>Ives' Music</unittitle>
                   <physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -546,13 +484,13 @@
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [471914443588718116285]">2</container>
+                  <container type="box" label="Box [30506984502720755]">2</container>
                   <unittitle>Jazz Age and the Avant-Garde</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [471914443588718116285]">2</container>
+                  <container type="box" label="Box [30506984502720755]">2</container>
                   <unittitle>Jazz Misc.</unittitle>
                   <physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -561,79 +499,79 @@
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [471914443588718116285]">2</container>
+                  <container type="box" label="Box [30506984502720755]">2</container>
                   <unittitle>Mason, Lowell</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [471914443588718116285]">2</container>
+                  <container type="box" label="Box [30506984502720755]">2</container>
                   <unittitle>Music from the Other Side of the Tracks</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [471914443588718116285]">2</container>
+                  <container type="box" label="Box [30506984502720755]">2</container>
                   <unittitle>Pluralism in American Music After World War II</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [471914443588718116285]">2</container>
+                  <container type="box" label="Box [30506984502720755]">2</container>
                   <unittitle>Post-Modern Era</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [471914443588718116285]">2</container>
+                  <container type="box" label="Box [30506984502720755]">2</container>
                   <unittitle>Ragtime</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [471914443588718116285]">2</container>
+                  <container type="box" label="Box [30506984502720755]">2</container>
                   <unittitle>Root (G.F.) and American Vocal Music</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [471914443588718116285]">2</container>
+                  <container type="box" label="Box [30506984502720755]">2</container>
                   <unittitle>Sacred Harp, The</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [471914443588718116285]">2</container>
+                  <container type="box" label="Box [30506984502720755]">2</container>
                   <unittitle>Secular Music in Early America</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [471914443588718116285]">2</container>
+                  <container type="box" label="Box [30506984502720755]">2</container>
                   <unittitle>Sheet Music and the Categories</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [471914443588718116285]">2</container>
+                  <container type="box" label="Box [30506984502720755]">2</container>
                   <unittitle>Singers and Songs</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [471914443588718116285]">2</container>
+                  <container type="box" label="Box [30506984502720755]">2</container>
                   <unittitle>Songs of Tin Pan Alley and Broadway</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [471914443588718116285]">2</container>
+                  <container type="box" label="Box [30506984502720755]">2</container>
                   <unittitle>Sousa and MacDowell</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [471914443588718116285]">2</container>
+                  <container type="box" label="Box [30506984502720755]">2</container>
                   <unittitle>"Taste" and Home Music-Making</unittitle>
                 </did>
               </c05>
@@ -646,13 +584,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>Afro-American</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>American</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">8 folders</extent>
@@ -661,7 +599,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>Ars Nova</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -670,79 +608,79 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>Bach, Brandenburg Concertos</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>Baroque Opera</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>Boston Academics</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>Cage, John</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>Cooke, The Language of Music</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>Counter-reformation</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>Couperin</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>Electronic Music</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>English 470</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>Fidelio</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>French Opera</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>Gottschalk</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>Gregorian Chant</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">4 folders</extent>
@@ -751,127 +689,127 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>Handel</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>Haydn</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>Haydn &amp; Mozart</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>Ives, Charles</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>Hymnody</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>Law, Andrew</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>Liturgical Music</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>Lutheran Music</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>Lyon, Urania</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>Lyricism &amp; Italianism in the Elizabethan Madrigal</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>Mass Ordinary</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>Medieval Music</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>Middle Ages, Secular Music</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>Monteverdi</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>Mozart</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>Organ</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>Post-Gregorian Developments in Chants</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>Pre-Baroque Instrumental Music</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>Pre-Christian Music</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>Pre-Gregorian Music</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>Renaissance</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
@@ -880,49 +818,49 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>Romantic Viewpoints in the Arts</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>Romanticism</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>Sachs, Primitive and Medieval Music</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>Scarlatti, D.</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>Schoenberg</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>Swan</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>Thomas, Theodore</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>Tuning</unittitle>
             </did>
           </c03>
@@ -933,13 +871,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>19th Century</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>20th Century</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
@@ -948,7 +886,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [953986424568876268]">3</container>
+              <container type="box" label="Box [0069067491194717876691]">3</container>
               <unittitle>1800-Present, Study Guide</unittitle>
             </did>
           </c03>
@@ -964,21 +902,18 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83787048708836834]">4</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1975/1980">1975-1980</unitdate>, <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [510946294991857934957]">4</container>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1975/1980">1975-1980</unitdate><unitdate type="inclusive" normal="1991">1991</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83787048708836834]">4</container>
-            <unittitle>Lecture -- "Make a Joyful Noise," given at American Antiquarian Society <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [510946294991857934957]">4</container>
+            <unittitle>Lecture -- "Make a Joyful Noise," given at American Antiquarian Society</unittitle><unitdate type="inclusive" normal="1989">1989</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83787048708836834]">4</container>
-            <unittitle>Notes and Coursework at Michigan, ca. <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [510946294991857934957]">4</container>
+            <unittitle>Notes and Coursework at Michigan, ca.</unittitle><unitdate type="inclusive" normal="1959">1959</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -993,24 +928,21 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83787048708836834]">4</container>
-            <unittitle>Earl V. Moore Interviews <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [510946294991857934957]">4</container>
+            <unittitle>Earl V. Moore Interviews</unittitle><unitdate type="inclusive" normal="1979">1979</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">17 audiocassettes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83787048708836834]">4</container>
-            <unittitle>Miscellaneous Michigan Music Programs <unitdate type="inclusive" normal="1910/1915">1910-1915</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [510946294991857934957]">4</container>
+            <unittitle>Miscellaneous Michigan Music Programs</unittitle><unitdate type="inclusive" normal="1910/1915">1910-1915</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83787048708836834]">4</container>
-            <unittitle>Photograph, Cast of <title render="italic">Mikado</title>, Detroit Conservatory of Music, <unitdate type="inclusive" normal="1909">1909</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [510946294991857934957]">4</container>
+            <unittitle>Photograph, Cast of <title render="italic">Mikado</title>, Detroit Conservatory of Music</unittitle><unitdate type="inclusive" normal="1909">1909</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1021,28 +953,24 @@
           </scopecontent>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [83787048708836834]">4</container>
-              <unittitle>Musical Programs in Detroit <unitdate type="inclusive" normal="1909/1914">1909-1914</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [510946294991857934957]">4</container>
+              <unittitle>Musical Programs in Detroit</unittitle><unitdate type="inclusive" normal="1909/1914">1909-1914</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [83787048708836834]">4</container>
-              <unittitle>William Howland <unitdate type="inclusive" normal="1893/1913">1893-1913</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [510946294991857934957]">4</container>
+              <unittitle>William How</unittitle><unitdate type="inclusive" normal="1893/1913">1893-1913</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83787048708836834]">4</container>
-            <unittitle><title render="italic">Sinfonia</title>, publication of Phi Mu Alpha, <unitdate type="inclusive" normal="1910">1910</unitdate>, <unitdate type="inclusive" normal="1913">1913</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [510946294991857934957]">4</container>
+            <unittitle><title render="italic">Sinfonia</title>, publication of Phi Mu Alpha</unittitle><unitdate type="inclusive" normal="1910">1910</unitdate><unitdate type="inclusive" normal="1913">1913</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83787048708836834]">4</container>
-            <unittitle>Transcription <unitdate type="inclusive" normal="1887/1889">1887-1889</unitdate> School of Music Catalog and Ledger (Enrollment)</unittitle>
-          </did>
+            <container type="box" label="Box [510946294991857934957]">4</container>
+            <unittitle>Transcription School of Music Catalog and Ledger (Enrollment)</unittitle><unitdate type="inclusive" normal="1887/1889">1887-1889</unitdate></did>
         </c02>
       </c01>
     </dsc>

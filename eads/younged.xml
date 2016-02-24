@@ -24,7 +24,8 @@
         <item>Original encoding from Filemaker Pro database and Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Young, Edward, 1887-1964.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/6231">Young, Edward, 1887-1964.</persname>
       </origination>
-      <unittitle encodinganalog="245">Edward Young papers <unitdate type="inclusive" encodinganalog="245$f" normal="1928/1940" certainty="approximate">circa 1928-1940</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">07182 Aa 2; UAs</unitid>
+      <unittitle encodinganalog="245">Edward Young papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1928/1940" certainty="approximate">circa 1928-1940</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">07182 Aa 2; UAs</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Professor of civil engineering at the University of Michigan. Collection consists of 16mm film of activities at U-M's Cam p Davis in Wyoming with additional footage at Yellowstone National Park and Douglas Lake, Michigan.</abstract>
       <physdesc altrender="part">
@@ -81,18 +81,18 @@
       </p>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <geogname source="lcsh" encodinganalog="651">Camp Davis (University of Michigan)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Douglas Lake (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Surveying--Wyoming.</subject>
-        <subject source="lctgm" encodinganalog="650">Surveying--Michigan.</subject>
-        <geogname source="lcsh" encodinganalog="651">Wyoming.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Yellowstone National Park.</geogname>
-        <persname source="lcnaf" encodinganalog="600">Young, Edward, 1887-1964.</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1605">Camp Davis (University of Michigan)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1604">Douglas Lake (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4077">Surveying--Wyoming.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4078">Surveying--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1606">Wyoming.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1642">Yellowstone National Park.</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6231">Young, Edward, 1887-1964.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Motion pictures.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3162">Motion pictures.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -102,7 +102,7 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [4786081462489662009422]">1</container>
+            <container type="folder" label="Folder [245844788579098235]">1</container>
             <unittitle>Photos</unittitle>
           </did>
           <odd>
@@ -116,8 +116,7 @@
         </did>
         <c02 level="item">
           <did>
-            <unittitle>Camp Davis/Douglas Lake Pre-1929 Hydrographic Survey Training <unitdate type="inclusive">undated</unitdate></unittitle>
-            <unitid>07182-1</unitid>
+            <unittitle>Camp Davis/Douglas Lake Pre-1929 Hydrographic Survey Training</unittitle><unitdate type="inclusive">undated</unitdate><unitid>07182-1</unitid>
           </did>
           <c03 level="otherlevel" otherlevel="item-part">
             <did>
@@ -129,7 +128,7 @@
           </c03>
           <c03 level="otherlevel" otherlevel="item-part">
             <did>
-              <container type="box" label="DVD Box [63250364462820183152526]">10</container>
+              <container type="box" label="DVD Box [290814830324464753]">10</container>
               <unittitle>Use Copy</unittitle>
               <physdesc>
                 <physfacet>DVD</physfacet>
@@ -142,7 +141,7 @@
               <physdesc>
                 <physfacet>flash</physfacet>
               </physdesc>
-              <dao href="07182-1" show="new" actuate="onRequest">
+              <dao href="07182-1" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16581">
                 <daodesc>
                   <p>[view video]</p>
                 </daodesc>
@@ -152,8 +151,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <unittitle>Camp Davis/Douglas Lake, Michigan 1928 <unitdate type="inclusive" normal="1928">1928</unitdate></unittitle>
-            <unitid>07182-2</unitid>
+            <unittitle>Camp Davis/Douglas Lake, Michigan 1928</unittitle><unitdate type="inclusive" normal="1928">1928</unitdate><unitid>07182-2</unitid>
           </did>
           <c03 level="otherlevel" otherlevel="item-part">
             <did>
@@ -165,7 +163,7 @@
           </c03>
           <c03 level="otherlevel" otherlevel="item-part">
             <did>
-              <container type="box" label="DVD Box [63250364462820183152526]">10</container>
+              <container type="box" label="DVD Box [290814830324464753]">10</container>
               <unittitle>Use Copy</unittitle>
               <physdesc>
                 <physfacet>DVD</physfacet>
@@ -178,7 +176,7 @@
               <physdesc>
                 <physfacet>flash</physfacet>
               </physdesc>
-              <dao href="07182-2" show="new" actuate="onRequest">
+              <dao href="07182-2" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16582">
                 <daodesc>
                   <p>[view video]</p>
                 </daodesc>
@@ -188,8 +186,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <unittitle>Camp Davis 1929-Reel 1 <unitdate type="inclusive" normal="1929">1929</unitdate></unittitle>
-            <unitid>07182-3</unitid>
+            <unittitle>Camp Davis 1929-Reel 1</unittitle><unitdate type="inclusive" normal="1929">1929</unitdate><unitid>07182-3</unitid>
           </did>
           <c03 level="otherlevel" otherlevel="item-part">
             <did>
@@ -201,7 +198,7 @@
           </c03>
           <c03 level="otherlevel" otherlevel="item-part">
             <did>
-              <container type="box" label="DVD Box [63250364462820183152526]">10</container>
+              <container type="box" label="DVD Box [290814830324464753]">10</container>
               <unittitle>Use Copy</unittitle>
               <physdesc>
                 <physfacet>DVD</physfacet>
@@ -214,7 +211,7 @@
               <physdesc>
                 <physfacet>flash</physfacet>
               </physdesc>
-              <dao href="07182-3" show="new" actuate="onRequest">
+              <dao href="07182-3" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16583">
                 <daodesc>
                   <p>[view video]</p>
                 </daodesc>
@@ -224,8 +221,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <unittitle>Camp Davis 1929-Reel 2 <unitdate type="inclusive" normal="1929">1929</unitdate></unittitle>
-            <unitid>07182-4</unitid>
+            <unittitle>Camp Davis 1929-Reel 2</unittitle><unitdate type="inclusive" normal="1929">1929</unitdate><unitid>07182-4</unitid>
           </did>
           <c03 level="otherlevel" otherlevel="item-part">
             <did>
@@ -237,7 +233,7 @@
           </c03>
           <c03 level="otherlevel" otherlevel="item-part">
             <did>
-              <container type="box" label="DVD Box [63250364462820183152526]">10</container>
+              <container type="box" label="DVD Box [290814830324464753]">10</container>
               <unittitle>Use Copy</unittitle>
               <physdesc>
                 <physfacet>DVD</physfacet>
@@ -250,7 +246,7 @@
               <physdesc>
                 <physfacet>flash</physfacet>
               </physdesc>
-              <dao href="07182-4" show="new" actuate="onRequest">
+              <dao href="07182-4" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16584">
                 <daodesc>
                   <p>[view video]</p>
                 </daodesc>
@@ -260,8 +256,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <unittitle>Camp Davis 1930 (or 1931 ?)-Reel 1 <unitdate type="inclusive" normal="1930" certainty="approximate">circa 1930</unitdate></unittitle>
-            <unitid>07182-5</unitid>
+            <unittitle>Camp Davis 1930 (or 1931 ?)-Reel 1</unittitle><unitdate type="inclusive" normal="1930" certainty="approximate">circa 1930</unitdate><unitid>07182-5</unitid>
           </did>
           <c03 level="otherlevel" otherlevel="item-part">
             <did>
@@ -273,7 +268,7 @@
           </c03>
           <c03 level="otherlevel" otherlevel="item-part">
             <did>
-              <container type="box" label="DVD Box [63250364462820183152526]">10</container>
+              <container type="box" label="DVD Box [290814830324464753]">10</container>
               <unittitle>Use Copy</unittitle>
               <physdesc>
                 <physfacet>DVD</physfacet>
@@ -283,8 +278,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <unittitle>Camp Davis 1931-Reel 2. Trip through Yellowstone <unitdate type="inclusive" normal="1931">1931</unitdate></unittitle>
-            <unitid>07182-6</unitid>
+            <unittitle>Camp Davis 1931-Reel 2. Trip through Yellowstone</unittitle><unitdate type="inclusive" normal="1931">1931</unitdate><unitid>07182-6</unitid>
           </did>
           <c03 level="otherlevel" otherlevel="item-part">
             <did>
@@ -296,7 +290,7 @@
           </c03>
           <c03 level="otherlevel" otherlevel="item-part">
             <did>
-              <container type="box" label="DVD Box [63250364462820183152526]">10</container>
+              <container type="box" label="DVD Box [290814830324464753]">10</container>
               <unittitle>Use Copy</unittitle>
               <physdesc>
                 <physfacet>DVD</physfacet>
@@ -314,8 +308,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <unittitle>Camp Davis <unitdate type="inclusive" normal="1934">1934</unitdate>, <unitdate type="inclusive" normal="1934">1934</unitdate></unittitle>
-            <unitid>07182-7</unitid>
+            <unittitle>Camp Davis</unittitle><unitdate type="inclusive" normal="1934">1934</unitdate><unitid>07182-7</unitid>
           </did>
           <c03 level="otherlevel" otherlevel="item-part">
             <did>
@@ -327,7 +320,7 @@
           </c03>
           <c03 level="otherlevel" otherlevel="item-part">
             <did>
-              <container type="box" label="DVD Box [63250364462820183152526]">10</container>
+              <container type="box" label="DVD Box [290814830324464753]">10</container>
               <unittitle>Use Copy</unittitle>
               <physdesc>
                 <physfacet>DVD</physfacet>
@@ -345,8 +338,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <unittitle>Yellowstone and Camp Davis <unitdate type="inclusive" normal="1935">1935</unitdate>, <unitdate type="inclusive" normal="1935">1935</unitdate></unittitle>
-            <unitid>07182-8</unitid>
+            <unittitle>Yellowstone and Camp Davis</unittitle><unitdate type="inclusive" normal="1935">1935</unitdate><unitid>07182-8</unitid>
           </did>
           <c03 level="otherlevel" otherlevel="item-part">
             <did>
@@ -358,7 +350,7 @@
           </c03>
           <c03 level="otherlevel" otherlevel="item-part">
             <did>
-              <container type="box" label="DVD Box [63250364462820183152526]">10</container>
+              <container type="box" label="DVD Box [290814830324464753]">10</container>
               <unittitle>Use Copy</unittitle>
               <physdesc>
                 <physfacet>DVD</physfacet>
@@ -376,8 +368,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <unittitle>Camp Davis 1938/39-Overall Good of Camp, Surveying and Geology Students <unitdate type="inclusive" normal="1938">1938</unitdate></unittitle>
-            <unitid>07182-9</unitid>
+            <unittitle>Camp Davis 1938/39-Overall Good of Camp, Surveying and Geology Students</unittitle><unitdate type="inclusive" normal="1938">1938</unitdate><unitid>07182-9</unitid>
           </did>
           <c03 level="otherlevel" otherlevel="item-part">
             <did>
@@ -389,7 +380,7 @@
           </c03>
           <c03 level="otherlevel" otherlevel="item-part">
             <did>
-              <container type="box" label="DVD Box [63250364462820183152526]">10</container>
+              <container type="box" label="DVD Box [290814830324464753]">10</container>
               <unittitle>Use Copy</unittitle>
               <physdesc>
                 <physfacet>DVD</physfacet>
@@ -407,8 +398,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <unittitle>Camp Davis <unitdate type="inclusive" normal="1939">1939</unitdate>, <unitdate type="inclusive" normal="1939">1939</unitdate></unittitle>
-            <unitid>07182-10</unitid>
+            <unittitle>Camp Davis</unittitle><unitdate type="inclusive" normal="1939">1939</unitdate><unitid>07182-10</unitid>
           </did>
           <c03 level="otherlevel" otherlevel="item-part">
             <did>
@@ -420,7 +410,7 @@
           </c03>
           <c03 level="otherlevel" otherlevel="item-part">
             <did>
-              <container type="box" label="DVD Box [63250364462820183152526]">10</container>
+              <container type="box" label="DVD Box [290814830324464753]">10</container>
               <unittitle>Use Copy</unittitle>
               <physdesc>
                 <physfacet>DVD</physfacet>
@@ -438,8 +428,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <unittitle>Camp Davis (28) <unitdate type="inclusive">undated</unitdate></unittitle>
-            <unitid>07182-11</unitid>
+            <unittitle>Camp Davis (28)</unittitle><unitdate type="inclusive">undated</unitdate><unitid>07182-11</unitid>
           </did>
           <c03 level="otherlevel" otherlevel="item-part">
             <did>
@@ -451,7 +440,7 @@
           </c03>
           <c03 level="otherlevel" otherlevel="item-part">
             <did>
-              <container type="box" label="DVD Box [63250364462820183152526]">10</container>
+              <container type="box" label="DVD Box [290814830324464753]">10</container>
               <unittitle>Use Copy</unittitle>
               <physdesc>
                 <physfacet>DVD</physfacet>
@@ -469,8 +458,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <unittitle>Yellowstone <unitdate type="inclusive" normal="1930">1930</unitdate>, <unitdate type="inclusive" normal="1930">1930</unitdate></unittitle>
-            <unitid>07182-12</unitid>
+            <unittitle>Yellowstone</unittitle><unitdate type="inclusive" normal="1930">1930</unitdate><unitid>07182-12</unitid>
           </did>
           <c03 level="otherlevel" otherlevel="item-part">
             <did>
@@ -482,7 +470,7 @@
           </c03>
           <c03 level="otherlevel" otherlevel="item-part">
             <did>
-              <container type="box" label="DVD Box [63250364462820183152526]">10</container>
+              <container type="box" label="DVD Box [290814830324464753]">10</container>
               <unittitle>Use Copy</unittitle>
               <physdesc>
                 <physfacet>DVD</physfacet>
@@ -500,8 +488,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <unittitle>Untitled (972) <unitdate type="inclusive">undated</unitdate></unittitle>
-            <unitid>07182-13</unitid>
+            <unittitle>Untitled (972)</unittitle><unitdate type="inclusive">undated</unitdate><unitid>07182-13</unitid>
           </did>
           <c03 level="otherlevel" otherlevel="item-part">
             <did>
@@ -513,7 +500,7 @@
           </c03>
           <c03 level="otherlevel" otherlevel="item-part">
             <did>
-              <container type="box" label="DVD Box [63250364462820183152526]">10</container>
+              <container type="box" label="DVD Box [290814830324464753]">10</container>
               <unittitle>Use Copy</unittitle>
               <physdesc>
                 <physfacet>DVD</physfacet>
@@ -526,7 +513,7 @@
               <physdesc>
                 <physfacet>flash</physfacet>
               </physdesc>
-              <dao href="07182-13" show="new" actuate="onRequest">
+              <dao href="07182-13" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/16585">
                 <daodesc>
                   <p>[view video]</p>
                 </daodesc>
@@ -536,8 +523,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <unittitle>Camp Davis (X) <unitdate type="inclusive">undated</unitdate></unittitle>
-            <unitid>07182-14</unitid>
+            <unittitle>Camp Davis (X)</unittitle><unitdate type="inclusive">undated</unitdate><unitid>07182-14</unitid>
           </did>
           <c03 level="otherlevel" otherlevel="item-part">
             <did>
@@ -549,7 +535,7 @@
           </c03>
           <c03 level="otherlevel" otherlevel="item-part">
             <did>
-              <container type="box" label="DVD Box [63250364462820183152526]">10</container>
+              <container type="box" label="DVD Box [290814830324464753]">10</container>
               <unittitle>Use Copy</unittitle>
               <physdesc>
                 <physfacet>DVD</physfacet>
@@ -567,8 +553,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <unittitle>Camp Davis (18 or 81) <unitdate type="inclusive">undated</unitdate></unittitle>
-            <unitid>07182-15</unitid>
+            <unittitle>Camp Davis (18 or 81)</unittitle><unitdate type="inclusive">undated</unitdate><unitid>07182-15</unitid>
           </did>
           <c03 level="otherlevel" otherlevel="item-part">
             <did>
@@ -580,7 +565,7 @@
           </c03>
           <c03 level="otherlevel" otherlevel="item-part">
             <did>
-              <container type="box" label="DVD Box [63250364462820183152526]">10</container>
+              <container type="box" label="DVD Box [290814830324464753]">10</container>
               <unittitle>Use Copy</unittitle>
               <physdesc>
                 <physfacet>DVD</physfacet>
@@ -598,8 +583,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <unittitle>Camp Davis <unitdate type="inclusive">undated</unitdate></unittitle>
-            <unitid>07182-16</unitid>
+            <unittitle>Camp Davis</unittitle><unitdate type="inclusive">undated</unitdate><unitid>07182-16</unitid>
           </did>
           <c03 level="otherlevel" otherlevel="item-part">
             <did>
@@ -611,7 +595,7 @@
           </c03>
           <c03 level="otherlevel" otherlevel="item-part">
             <did>
-              <container type="box" label="DVD Box [63250364462820183152526]">10</container>
+              <container type="box" label="DVD Box [290814830324464753]">10</container>
               <unittitle>Use Copy</unittitle>
               <physdesc>
                 <physfacet>DVD</physfacet>
@@ -629,8 +613,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <unittitle>Camp Davis 1931-Solar Obs. and Prairie Leveling <unitdate type="inclusive" normal="1931">1931</unitdate></unittitle>
-            <unitid>07182-17</unitid>
+            <unittitle>Camp Davis 1931-Solar Obs. and Prairie Leveling</unittitle><unitdate type="inclusive" normal="1931">1931</unitdate><unitid>07182-17</unitid>
           </did>
           <c03 level="otherlevel" otherlevel="item-part">
             <did>
@@ -642,7 +625,7 @@
           </c03>
           <c03 level="otherlevel" otherlevel="item-part">
             <did>
-              <container type="box" label="DVD Box [63250364462820183152526]">10</container>
+              <container type="box" label="DVD Box [290814830324464753]">10</container>
               <unittitle>Use Copy</unittitle>
               <physdesc>
                 <physfacet>DVD</physfacet>

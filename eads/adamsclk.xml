@@ -23,7 +23,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,10 +35,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Adams, Clark J., 1904-1981.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/6445">Adams, Clark J., 1904-1981.</persname>
       </origination>
-      <unittitle encodinganalog="245">Clark J. Adams Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1920/1983">1920-1983</unitdate></unittitle>
-      <abstract>Attorney, Michigan State Representative, Justice of the Michigan Supreme Court; biographical information, topical files, and visual materials</abstract>
+      <unittitle encodinganalog="245">Clark J. Adams Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1920/1983">1920-1983</unitdate><abstract>Attorney, Michigan State Representative, Justice of the Michigan Supreme Court; biographical information, topical files, and visual materials</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">88372 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -78,27 +78,27 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Adams, Clark J., 1904-1981.</persname>
-        <subject source="lcsh" encodinganalog="650">Judges--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Lawyers--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81074669">Michigan. Supreme Court.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6445">Adams, Clark J., 1904-1981.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5739">Judges--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5740">Lawyers--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81074669" ref="/agents/corporate_entities/1769">Michigan. Supreme Court.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Adams, Adeline B.</persname>
-        <persname source="lcnaf" encodinganalog="600">Adams, Clark J., 1904-1981.</persname>
-        <subject source="lctgm" encodinganalog="650">Clothing and dress.</subject>
-        <subject source="lctgm" encodinganalog="650">Courtrooms.</subject>
-        <subject source="lctgm" encodinganalog="650">Government officials.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Lawyers' Club (University of Michigan)</corpname>
-        <subject source="lctgm" encodinganalog="650">Politicians' wives.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Pontiac Silverdome (Pontiac, Mich.)</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80084463">Williams, G. Mennen, 1911-1988.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80070288">Williams, G. Mennen, Mrs.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1653">Adams, Adeline B.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6445">Adams, Clark J., 1904-1981.</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3622">Clothing and dress.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3635">Courtrooms.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3636">Government officials.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/128">Lawyers' Club (University of Michigan)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3637">Politicians' wives.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4781">Pontiac Silverdome (Pontiac, Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80084463" ref="/agents/people/3876">Williams, G. Mennen, 1911-1988.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80070288" ref="/agents/people/8141">Williams, G. Mennen, Mrs.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -111,15 +111,13 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [38449716423932177657]">1</container>
-            <unittitle>Clark J. Adams <unitdate type="inclusive" normal="1920/1983">1920-1983</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [06700572684082319638]">1</container>
+            <unittitle>Clark J. Adams</unittitle><unitdate type="inclusive" normal="1920/1983">1920-1983</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [38449716423932177657]">1</container>
-            <unittitle>Family <unitdate type="inclusive" normal="1940/1982">1940-1982</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [06700572684082319638]">1</container>
+            <unittitle>Family</unittitle><unitdate type="inclusive" normal="1940/1982">1940-1982</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -131,15 +129,13 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [38449716423932177657]">1</container>
-            <unittitle>American Cancer Society, correspondence and clippings <unitdate type="inclusive" normal="1958-01/1958-04">January-April 1958</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [06700572684082319638]">1</container>
+            <unittitle>American Cancer Society, correspondence and clippings</unittitle><unitdate type="inclusive" normal="1958-01/1958-04">January-April 1958</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [38449716423932177657]">1</container>
-            <unittitle>Auditor General, clippings <unitdate type="inclusive" normal="1944">1944</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [06700572684082319638]">1</container>
+            <unittitle>Auditor General, clippings</unittitle><unitdate type="inclusive" normal="1944">1944</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -147,22 +143,19 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [38449716423932177657]">1</container>
-              <unittitle>Clippings <unitdate type="inclusive" normal="1953/1973">1953-1973</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [06700572684082319638]">1</container>
+              <unittitle>Clippings</unittitle><unitdate type="inclusive" normal="1953/1973">1953-1973</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [38449716423932177657]">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1955-06/1963-09">June 1955-September 1963</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [06700572684082319638]">1</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1955-06/1963-09">June 1955-September 1963</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [38449716423932177657]">1</container>
-            <unittitle>Club Memberships <unitdate type="inclusive" normal="1940/1975">1940-1975</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [06700572684082319638]">1</container>
+            <unittitle>Club Memberships</unittitle><unitdate type="inclusive" normal="1940/1975">1940-1975</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -170,15 +163,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [38449716423932177657]">1</container>
-              <unittitle>Minutes <unitdate type="inclusive" normal="1961-04/1961-06">April 1961-June 1961</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [06700572684082319638]">1</container>
+              <unittitle>Minutes</unittitle><unitdate type="inclusive" normal="1961-04/1961-06">April 1961-June 1961</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [38449716423932177657]">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1961-06/1961-09">June-September 1961</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [06700572684082319638]">1</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1961-06/1961-09">June-September 1961</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -187,9 +178,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [38449716423932177657]">1</container>
-              <unittitle>Minutes <unitdate type="inclusive" normal="1958/1962">1958-1962</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [06700572684082319638]">1</container>
+              <unittitle>Minutes</unittitle><unitdate type="inclusive" normal="1958/1962">1958-1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -197,33 +187,25 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [38449716423932177657]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1958/1959">1958-1959</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [06700572684082319638]">1</container>
+                <unitdate type="inclusive" normal="1958/1959">1958-1959</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [38449716423932177657]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1960/1963">1960-1963</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [06700572684082319638]">1</container>
+                <unitdate type="inclusive" normal="1960/1963">1960-1963</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [38449716423932177657]">1</container>
-              <unittitle>Reports and Recommendations <unitdate type="inclusive" normal="1958/1961">1958-1961</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [06700572684082319638]">1</container>
+              <unittitle>Reports and Recommendations</unittitle><unitdate type="inclusive" normal="1958/1961">1958-1961</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [38449716423932177657]">1</container>
-            <unittitle>Greater Pontiac Area Advisory Council, correspondence <unitdate type="inclusive" normal="1957-06/1957-12">June-December 1957</unitdate>, <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [06700572684082319638]">1</container>
+            <unittitle>Greater Pontiac Area Advisory Council, correspondence</unittitle><unitdate type="inclusive" normal="1957-06/1957-12">June-December 1957</unitdate><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -231,40 +213,34 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [38449716423932177657]">1</container>
-              <unittitle>Clippings <unitdate type="inclusive" normal="1949/1973">1949-1973</unitdate>, <unitdate>undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [06700572684082319638]">1</container>
+              <unittitle>Clippings</unittitle><unitdate type="inclusive" normal="1949/1973">1949-1973</unitdate><unitdate>undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [38449716423932177657]">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1949-02/1955-12">February 1949-December 1955</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [06700572684082319638]">1</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1949-02/1955-12">February 1949-December 1955</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [38449716423932177657]">1</container>
-              <unittitle>Interviews <unitdate type="inclusive" normal="1949-07/1951-10">July 1949-October 1951</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [06700572684082319638]">1</container>
+              <unittitle>Interviews</unittitle><unitdate type="inclusive" normal="1949-07/1951-10">July 1949-October 1951</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [38449716423932177657]">1</container>
-            <unittitle>Michigan Corrections Commission, correspondence and clippings <unitdate type="inclusive" normal="1955-04/1959-04">April 1955-April 1959</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [06700572684082319638]">1</container>
+            <unittitle>Michigan Corrections Commission, correspondence and clippings</unittitle><unitdate type="inclusive" normal="1955-04/1959-04">April 1955-April 1959</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [38449716423932177657]">1</container>
-            <unittitle>Michigan Judges Association, correspondence and clippings <unitdate type="inclusive" normal="1963-04/1967-09">April 1963-September 1967</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [06700572684082319638]">1</container>
+            <unittitle>Michigan Judges Association, correspondence and clippings</unittitle><unitdate type="inclusive" normal="1963-04/1967-09">April 1963-September 1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [38449716423932177657]">1</container>
-            <unittitle>Michigan State Bar Association, correspondence <unitdate type="inclusive" normal="1962-03/1962-09">March 1962-September 1962</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [06700572684082319638]">1</container>
+            <unittitle>Michigan State Bar Association, correspondence</unittitle><unitdate type="inclusive" normal="1962-03/1962-09">March 1962-September 1962</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -272,9 +248,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [38449716423932177657]">1</container>
-              <unittitle>Clippings <unitdate type="inclusive" normal="1936/1952">1936-1952</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [06700572684082319638]">1</container>
+              <unittitle>Clippings</unittitle><unitdate type="inclusive" normal="1936/1952">1936-1952</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -282,49 +257,35 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [38449716423932177657]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1941">1941</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [06700572684082319638]">1</container>
+                <unitdate type="inclusive" normal="1941">1941</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [38449716423932177657]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1942">1942</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [06700572684082319638]">1</container>
+                <unitdate type="inclusive" normal="1942">1942</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [38449716423932177657]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1943">1943</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [06700572684082319638]">1</container>
+                <unitdate type="inclusive" normal="1943">1943</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [38449716423932177657]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1944/1946">1944-1946</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [06700572684082319638]">1</container>
+                <unitdate type="inclusive" normal="1944/1946">1944-1946</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [38449716423932177657]">1</container>
-              <unittitle>Election Certificates <unitdate type="inclusive" normal="1936/1940">1936-1940</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [06700572684082319638]">1</container>
+              <unittitle>Election Certificates</unittitle><unitdate type="inclusive" normal="1936/1940">1936-1940</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [38449716423932177657]">1</container>
-            <unittitle>Michigan State University-Oakland Foundation <unitdate type="inclusive" normal="1937-01/1963-07">January 1937-July 1963</unitdate>, <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [06700572684082319638]">1</container>
+            <unittitle>Michigan State University-Oakland Foundation</unittitle><unitdate type="inclusive" normal="1937-01/1963-07">January 1937-July 1963</unitdate><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -332,94 +293,79 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [38449716423932177657]">1</container>
-              <unittitle>Clippings <unitdate type="inclusive" normal="1952/1953">1952-1953</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [06700572684082319638]">1</container>
+              <unittitle>Clippings</unittitle><unitdate type="inclusive" normal="1952/1953">1952-1953</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [38449716423932177657]">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1952-07/1964-02">July 1952-February 1964</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [06700572684082319638]">1</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1952-07/1964-02">July 1952-February 1964</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [38449716423932177657]">1</container>
-            <unittitle>Michigan Traffic Safety Federation, correspondence <unitdate type="inclusive" normal="1952-01/1953-03">January 1952-March 1953</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [06700572684082319638]">1</container>
+            <unittitle>Michigan Traffic Safety Federation, correspondence</unittitle><unitdate type="inclusive" normal="1952-01/1953-03">January 1952-March 1953</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [38449716423932177657]">1</container>
-            <unittitle>Miscellaneous Correspondence <unitdate type="inclusive" normal="1938-07/1978-09">July 1938-September 1978</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [06700572684082319638]">1</container>
+            <unittitle>Miscellaneous Correspondence</unittitle><unitdate type="inclusive" normal="1938-07/1978-09">July 1938-September 1978</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [38449716423932177657]">1</container>
-            <unittitle>Notary Public, correspondence <unitdate type="inclusive" normal="1954-01">January 1954</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [06700572684082319638]">1</container>
+            <unittitle>Notary Public, correspondence</unittitle><unitdate type="inclusive" normal="1954-01">January 1954</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [38449716423932177657]">1</container>
-            <unittitle>Oakland County Bar Association, correspondence and clippings <unitdate type="inclusive" normal="1934/1970-12">1934-December 1970</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [06700572684082319638]">1</container>
+            <unittitle>Oakland County Bar Association, correspondence and clippings</unittitle><unitdate type="inclusive" normal="1934/1970-12">1934-December 1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [38449716423932177657]">1</container>
-            <unittitle>Oakland County-Cauca Valley Alliance Committee, correspondence <unitdate type="inclusive" normal="1963-10/1965-02">October 1963-February 1965</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [06700572684082319638]">1</container>
+            <unittitle>Oakland County-Cauca Valley Alliance Committee, correspondence</unittitle><unitdate type="inclusive" normal="1963-10/1965-02">October 1963-February 1965</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [38449716423932177657]">1</container>
-            <unittitle>Oakland County Committee for Mental Health, correspondence <unitdate type="inclusive" normal="1955-02/1955-06">February-June 1955</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [06700572684082319638]">1</container>
+            <unittitle>Oakland County Committee for Mental Health, correspondence</unittitle><unitdate type="inclusive" normal="1955-02/1955-06">February-June 1955</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [38449716423932177657]">1</container>
-            <unittitle>Oakland County Law Library, correspondence and clippings <unitdate type="inclusive" normal="1976-04/1976-05">April-May 1976</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [06700572684082319638]">1</container>
+            <unittitle>Oakland County Law Library, correspondence and clippings</unittitle><unitdate type="inclusive" normal="1976-04/1976-05">April-May 1976</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [38449716423932177657]">1</container>
-            <unittitle>Oakland First Federal Savings Bank and Trust, clippings <unitdate type="inclusive" normal="1934-01/1973">January 1934-1973</unitdate>, <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [06700572684082319638]">1</container>
+            <unittitle>Oakland First Federal Savings Bank and Trust, clippings</unittitle><unitdate type="inclusive" normal="1934-01/1973">January 1934-1973</unitdate><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [38449716423932177657]">1</container>
-            <unittitle>Pontiac Area Community Council, clippings <unitdate type="inclusive" normal="1957/1959">1957-1959</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [06700572684082319638]">1</container>
+            <unittitle>Pontiac Area Community Council, clippings</unittitle><unitdate type="inclusive" normal="1957/1959">1957-1959</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [38449716423932177657]">1</container>
-            <unittitle>Pontiac Stadium Building Authority, correspondence <unitdate type="inclusive" normal="1980-01/1981-02">January 1980-February 1981</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [06700572684082319638]">1</container>
+            <unittitle>Pontiac Stadium Building Authority, correspondence</unittitle><unitdate type="inclusive" normal="1980-01/1981-02">January 1980-February 1981</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [38449716423932177657]">1</container>
-            <unittitle>Prosecuting Attorney <unitdate type="inclusive" normal="1930">1930</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [06700572684082319638]">1</container>
+            <unittitle>Prosecuting Attorney</unittitle><unitdate type="inclusive" normal="1930">1930</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [38449716423932177657]">1</container>
-            <unittitle>Retirement, correspondence and clippings <unitdate type="inclusive" normal="1973-01/1978-05">January 1973-May 1978</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [06700572684082319638]">1</container>
+            <unittitle>Retirement, correspondence and clippings</unittitle><unitdate type="inclusive" normal="1973-01/1978-05">January 1973-May 1978</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [38449716423932177657]">1</container>
-            <unittitle>United Fund, correspondence and clippings <unitdate type="inclusive" normal="1958-08/1959-01">August 1958-January 1959</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [06700572684082319638]">1</container>
+            <unittitle>United Fund, correspondence and clippings</unittitle><unitdate type="inclusive" normal="1958-08/1959-01">August 1958-January 1959</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -431,18 +377,16 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [38449716423932177657]">1</container>
-            <unittitle>Portraits <unitdate type="inclusive" normal="1920/1979" certainty="approximate">1920s-1970s</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [06700572684082319638]">1</container>
+            <unittitle>Portraits</unittitle><unitdate type="inclusive" normal="1920/1979" certainty="approximate">1920s-1970s</unitdate></did>
           <odd>
             <p>(photos of Adams with other public figures, including G. Mennen Williams)</p>
           </odd>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [38449716423932177657]">1</container>
-            <unittitle>Videotape entitled "An Evening Honoring Judge Clark J. Adams," <unitdate type="inclusive" normal="1973-04-19">April 19, 1973</unitdate></unittitle>
-            <physdesc>
+            <container type="box" label="Box [06700572684082319638]">1</container>
+            <unittitle>Videotape entitled "An Evening Honoring Judge Clark J. Adams,"</unittitle><unitdate type="inclusive" normal="1973-04-19">April 19, 1973</unitdate><physdesc>
               <physfacet>1/2 in. videotape</physfacet>
             </physdesc>
           </did>

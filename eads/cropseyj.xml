@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Cropsey, Jasper Francis, 1823-1900.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/6039">Cropsey, Jasper Francis, 1823-1900.</persname>
       </origination>
-      <unittitle encodinganalog="245">Jasper Francis Cropsey visual materials <unitdate type="inclusive" encodinganalog="245$f" normal="1855/1856">1855-1856</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">92117 Aa 1 UAm UAs</unitid>
+      <unittitle encodinganalog="245">Jasper Francis Cropsey visual materials</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1855/1856">1855-1856</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">92117 Aa 1 UAm UAs</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Sketch book of scenes along the St. Lawrence River and the University of Michigan campus.</abstract>
       <physdesc altrender="part">
@@ -86,21 +86,21 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Art.</subject>
-        <subject source="lcsh" encodinganalog="650">Artists.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Detroit Observatory.</corpname>
-        <geogname source="lcsh" encodinganalog="651">Niagara Falls (N.Y. and Ont.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Huron River (Oakland County-Monroe County, Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">President's House (University of Michigan)</corpname>
-        <geogname source="lcsh" encodinganalog="651">Saint Lawrence River.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Buildings.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Campus--1855.</corpname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219" ref="/subjects/856">Ann Arbor (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6569">Art.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6570">Artists.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3496">Detroit Observatory.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1644">Niagara Falls (N.Y. and Ont.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/849">Huron River (Oakland County-Monroe County, Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1773">President's House (University of Michigan)</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1645">Saint Lawrence River.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Buildings.<term type="topical">Buildings.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Campus--1855.<term type="temporal">1855.</term><term type="topical">Campus</term></corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="gmgpc" encodinganalog="655">Drawings.</genreform>
-        <genreform source="gmgpc" encodinganalog="655">Paintings.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3462">Drawings.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3463">Paintings.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -114,7 +114,7 @@
         <c02 level="item">
           <did>
             <unittitle>Front cover</unittitle>
-            <dao href="bl006398" show="new" actuate="onRequest">
+            <dao href="bl006398" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8309">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -125,7 +125,7 @@
           <did>
             <unitid>1.</unitid>
             <unittitle>Notes inside front cover.</unittitle>
-            <dao href="bl006399" show="new" actuate="onRequest">
+            <dao href="bl006399" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8310">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -136,7 +136,7 @@
           <did>
             <unitid>2.</unitid>
             <unittitle>"J. F. Cropsey. New York."</unittitle>
-            <dao href="bl006321" show="new" actuate="onRequest">
+            <dao href="bl006321" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8311">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -153,7 +153,7 @@
           <did>
             <unitid>4.</unitid>
             <unittitle>Ship.</unittitle>
-            <dao href="bl006322" show="new" actuate="onRequest">
+            <dao href="bl006322" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8312">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -164,7 +164,7 @@
           <did>
             <unitid>5,6.</unitid>
             <unittitle>"Cumulus sky on Lake Erie September 12, 1855. From on board Steamer Plymouth Rock."</unittitle>
-            <dao href="bl006323" show="new" actuate="onRequest">
+            <dao href="bl006323" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8313">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -178,7 +178,7 @@
           <did>
             <unitid>7,8.</unitid>
             <unittitle>"View of the Huron at Ann Arbor, Michigan.</unittitle>
-            <dao href="bl006324" show="new" actuate="onRequest">
+            <dao href="bl006324" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8314">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -198,7 +198,7 @@
           <did>
             <unitid>10.</unitid>
             <unittitle>"Rev. Dr. Tappan's House at Ann Arbor. Michigan University."</unittitle>
-            <dao href="bl006325" show="new" actuate="onRequest">
+            <dao href="bl006325" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8315">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -215,7 +215,7 @@
           <did>
             <unitid>12.</unitid>
             <unittitle>Details of the University of Michigan campus, with notes.</unittitle>
-            <dao href="bl006326" show="new" actuate="onRequest">
+            <dao href="bl006326" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8316">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -232,7 +232,7 @@
           <did>
             <unitid>14.</unitid>
             <unittitle>Landscape.</unittitle>
-            <dao href="bl006327" show="new" actuate="onRequest">
+            <dao href="bl006327" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8317">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -249,7 +249,7 @@
           <did>
             <unitid>16.</unitid>
             <unittitle>Two details of ships.</unittitle>
-            <dao href="bl006328" show="new" actuate="onRequest">
+            <dao href="bl006328" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8318">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -260,7 +260,7 @@
           <did>
             <unitid>17.</unitid>
             <unittitle>Lake scene with notes.</unittitle>
-            <dao href="bl006329" show="new" actuate="onRequest">
+            <dao href="bl006329" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8319">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -271,7 +271,7 @@
           <did>
             <unitid>18.</unitid>
             <unittitle>"Thousand Isles, St. Lawrence, on Steamer New York at Sunrise 18 September 1855."</unittitle>
-            <dao href="bl006330" show="new" actuate="onRequest">
+            <dao href="bl006330" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8320">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -288,7 +288,7 @@
           <did>
             <unitid>20.</unitid>
             <unittitle>"Steamer stoped [sic] at the town." With notes on the island;</unittitle>
-            <dao href="bl006331" show="new" actuate="onRequest">
+            <dao href="bl006331" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8321">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -299,7 +299,7 @@
           <did>
             <unitid>21.</unitid>
             <unittitle>"Looking down the St. Lawrence."</unittitle>
-            <dao href="bl006332" show="new" actuate="onRequest">
+            <dao href="bl006332" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8322">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -310,7 +310,7 @@
           <did>
             <unitid>22.</unitid>
             <unittitle>"On the St. Lawrence."</unittitle>
-            <dao href="bl006333" show="new" actuate="onRequest">
+            <dao href="bl006333" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8323">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -327,7 +327,7 @@
           <did>
             <unitid>24.</unitid>
             <unittitle>"Looking over the St. Lawrence from Montreal."</unittitle>
-            <dao href="bl006334" show="new" actuate="onRequest">
+            <dao href="bl006334" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8324">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -337,8 +337,7 @@
         <c02 level="item">
           <did>
             <unitid>25, 26.</unitid>
-            <unittitle>"Montreal. September 20th <unitdate type="inclusive" normal="1855">1855</unitdate> from the [Quebec?] ferry"</unittitle>
-            <dao href="bl006335" show="new" actuate="onRequest">
+            <unittitle>"Montreal. September 20th from the [Quebec?] ferry"</unittitle><unitdate type="inclusive" normal="1855">1855</unitdate><dao href="bl006335" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8325">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -358,7 +357,7 @@
           <did>
             <unitid>28.</unitid>
             <unittitle>"Montmorency Falls, 21st Sept."</unittitle>
-            <dao href="bl006336" show="new" actuate="onRequest">
+            <dao href="bl006336" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8326">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -369,7 +368,7 @@
           <did>
             <unitid>29.</unitid>
             <unittitle>[Undescribed]</unittitle>
-            <dao href="bl006337" show="new" actuate="onRequest">
+            <dao href="bl006337" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8327">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -380,7 +379,7 @@
           <did>
             <unitid>30.</unitid>
             <unittitle>"Plains of Abraham. September 21st."</unittitle>
-            <dao href="bl006338" show="new" actuate="onRequest">
+            <dao href="bl006338" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8328">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -392,7 +391,7 @@
             <unitid>31.</unitid>
             <unittitle>Sketch of boat.</unittitle>
             <unittitle>"Monument to Wolf." With notes.</unittitle>
-            <dao href="bl006339" show="new" actuate="onRequest">
+            <dao href="bl006339" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8329">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -403,7 +402,7 @@
           <did>
             <unitid>32.</unitid>
             <unittitle>"From [Swords?] Hotel. Quebec. September 22nd."</unittitle>
-            <dao href="bl006340" show="new" actuate="onRequest">
+            <dao href="bl006340" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8330">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -414,7 +413,7 @@
           <did>
             <unitid>33.</unitid>
             <unittitle>"Quebec Wharf. September 22nd 1855" and "Camels Hump from Essex Junction. September 24th 1855."</unittitle>
-            <dao href="bl006341" show="new" actuate="onRequest">
+            <dao href="bl006341" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8331">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -425,7 +424,7 @@
           <did>
             <unitid>34.</unitid>
             <unittitle>Detail of tree trunk and stump, and small sketch of skyline</unittitle>
-            <dao href="bl006342" show="new" actuate="onRequest">
+            <dao href="bl006342" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8332">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -436,7 +435,7 @@
           <did>
             <unitid>35.</unitid>
             <unittitle>Landscape of Mt. LaFayette?</unittitle>
-            <dao href="bl006343" show="new" actuate="onRequest">
+            <dao href="bl006343" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8333">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -447,7 +446,7 @@
           <did>
             <unitid>36.</unitid>
             <unittitle>"Mt. LaFayette., September 25th, 1855."</unittitle>
-            <dao href="bl006344" show="new" actuate="onRequest">
+            <dao href="bl006344" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8334">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -464,7 +463,7 @@
           <did>
             <unitid>38.</unitid>
             <unittitle>"Hemlock stump. Birch log. September 25th." With notes.</unittitle>
-            <dao href="bl006345" show="new" actuate="onRequest">
+            <dao href="bl006345" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8335">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -481,7 +480,7 @@
           <did>
             <unitid>40.</unitid>
             <unittitle>Trees and rocks September 25th.</unittitle>
-            <dao href="bl006346" show="new" actuate="onRequest">
+            <dao href="bl006346" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8336">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -492,7 +491,7 @@
           <did>
             <unitid>41.</unitid>
             <unittitle>Sketch of Eagle Cliff?</unittitle>
-            <dao href="bl006347" show="new" actuate="onRequest">
+            <dao href="bl006347" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8337">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -503,7 +502,7 @@
           <did>
             <unitid>42.</unitid>
             <unittitle>"Eagle Cliff"</unittitle>
-            <dao href="bl006348" show="new" actuate="onRequest">
+            <dao href="bl006348" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8338">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -514,7 +513,7 @@
           <did>
             <unitid>43,44</unitid>
             <unittitle>"Looking from Bethlehem, toward Mt. Washington. September 26th 1855" with an additional sketch of tree.</unittitle>
-            <dao href="bl006349" show="new" actuate="onRequest">
+            <dao href="bl006349" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8339">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -528,7 +527,7 @@
           <did>
             <unitid>45.</unitid>
             <unittitle>Sketch of mountain scene.</unittitle>
-            <dao href="bl006350" show="new" actuate="onRequest">
+            <dao href="bl006350" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8340">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -539,7 +538,7 @@
           <did>
             <unitid>46.</unitid>
             <unittitle>Sketch of a rocky cliff. With notes.</unittitle>
-            <dao href="bl006351" show="new" actuate="onRequest">
+            <dao href="bl006351" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8341">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -550,7 +549,7 @@
           <did>
             <unitid>47.</unitid>
             <unittitle>Notes on Mt. Washington.</unittitle>
-            <dao href="bl006352" show="new" actuate="onRequest">
+            <dao href="bl006352" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8342">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -561,7 +560,7 @@
           <did>
             <unitid>48.</unitid>
             <unittitle>Sketch of rocks.</unittitle>
-            <dao href="bl006353" show="new" actuate="onRequest">
+            <dao href="bl006353" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8343">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -572,7 +571,7 @@
           <did>
             <unitid>49,50</unitid>
             <unittitle>"White Notch" 2 pages.</unittitle>
-            <dao href="bl006354" show="new" actuate="onRequest">
+            <dao href="bl006354" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8344">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -589,7 +588,7 @@
           <did>
             <unitid>52.</unitid>
             <unittitle>"Willey Mountain from the Willey House." With notes.</unittitle>
-            <dao href="bl006355" show="new" actuate="onRequest">
+            <dao href="bl006355" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8345">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -606,7 +605,7 @@
           <did>
             <unitid>54.</unitid>
             <unittitle>"Elm tree. Conway Valley"</unittitle>
-            <dao href="bl006356" show="new" actuate="onRequest">
+            <dao href="bl006356" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8346">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -617,7 +616,7 @@
           <did>
             <unitid>55,56</unitid>
             <unittitle>Mt. Washington and the Sago River"</unittitle>
-            <dao href="bl006357" show="new" actuate="onRequest">
+            <dao href="bl006357" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8347">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -631,7 +630,7 @@
           <did>
             <unitid>57.</unitid>
             <unittitle>Small sketch of woman. With notes on colors.</unittitle>
-            <dao href="bl006358" show="new" actuate="onRequest">
+            <dao href="bl006358" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8348">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -642,7 +641,7 @@
           <did>
             <unitid>58.</unitid>
             <unittitle>Sketch of pine trees.</unittitle>
-            <dao href="bl006359" show="new" actuate="onRequest">
+            <dao href="bl006359" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8349">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -659,7 +658,7 @@
           <did>
             <unitid>60.</unitid>
             <unittitle>Two small sketches of figures in doorway.</unittitle>
-            <dao href="bl006360" show="new" actuate="onRequest">
+            <dao href="bl006360" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8350">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -676,7 +675,7 @@
           <did>
             <unitid>62.</unitid>
             <unittitle>View of cabin, bridge and trees.</unittitle>
-            <dao href="bl006361" show="new" actuate="onRequest">
+            <dao href="bl006361" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8351">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -693,7 +692,7 @@
           <did>
             <unitid>64.</unitid>
             <unittitle>Sheep.</unittitle>
-            <dao href="bl006362" show="new" actuate="onRequest">
+            <dao href="bl006362" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8352">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -710,7 +709,7 @@
           <did>
             <unitid>66.</unitid>
             <unittitle>Sheep.</unittitle>
-            <dao href="bl006363" show="new" actuate="onRequest">
+            <dao href="bl006363" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8353">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -727,7 +726,7 @@
           <did>
             <unitid>68.</unitid>
             <unittitle>Sheep.</unittitle>
-            <dao href="bl006364" show="new" actuate="onRequest">
+            <dao href="bl006364" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8354">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -738,7 +737,7 @@
           <did>
             <unitid>69.</unitid>
             <unittitle>Sketches of Chocorua Peak?</unittitle>
-            <dao href="bl006365" show="new" actuate="onRequest">
+            <dao href="bl006365" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8355">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -749,7 +748,7 @@
           <did>
             <unitid>70.</unitid>
             <unittitle>"Chocorua Peak"</unittitle>
-            <dao href="bl006366" show="new" actuate="onRequest">
+            <dao href="bl006366" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8356">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -766,7 +765,7 @@
           <did>
             <unitid>72.</unitid>
             <unittitle>"Birches at Tamworth"</unittitle>
-            <dao href="bl006367" show="new" actuate="onRequest">
+            <dao href="bl006367" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8357">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -777,7 +776,7 @@
           <did>
             <unitid>73, 74</unitid>
             <unittitle>Sketch of plant with notes, October 8, 1855.</unittitle>
-            <dao href="bl006368" show="new" actuate="onRequest">
+            <dao href="bl006368" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8358">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -797,7 +796,7 @@
           <did>
             <unitid>76.</unitid>
             <unittitle>Elms at Tamworth.</unittitle>
-            <dao href="bl006369" show="new" actuate="onRequest">
+            <dao href="bl006369" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8359">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -808,7 +807,7 @@
           <did>
             <unitid>77.</unitid>
             <unittitle>"Note to above" (Under Table Rock?]</unittitle>
-            <dao href="bl006370" show="new" actuate="onRequest">
+            <dao href="bl006370" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8360">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -819,7 +818,7 @@
           <did>
             <unitid>78.</unitid>
             <unittitle>"Under the Table rock Niagara falls, March 20, 1856."</unittitle>
-            <dao href="bl006371" show="new" actuate="onRequest">
+            <dao href="bl006371" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8361">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -830,7 +829,7 @@
           <did>
             <unitid>79.</unitid>
             <unittitle>"N[iagara?] Falls"</unittitle>
-            <dao href="bl006372" show="new" actuate="onRequest">
+            <dao href="bl006372" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8362">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -844,7 +843,7 @@
           <did>
             <unitid>80.</unitid>
             <unittitle>Forest scene.</unittitle>
-            <dao href="bl006373" show="new" actuate="onRequest">
+            <dao href="bl006373" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8363">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -855,7 +854,7 @@
           <did>
             <unitid>81.</unitid>
             <unittitle>Sketch of mountain scene?</unittitle>
-            <dao href="bl006374" show="new" actuate="onRequest">
+            <dao href="bl006374" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8364">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -866,7 +865,7 @@
           <did>
             <unitid>82.</unitid>
             <unittitle>Rocks and water.</unittitle>
-            <dao href="bl006375" show="new" actuate="onRequest">
+            <dao href="bl006375" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8365">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -883,7 +882,7 @@
           <did>
             <unitid>84.</unitid>
             <unittitle>"Goldenrod and Immortal"</unittitle>
-            <dao href="bl006376" show="new" actuate="onRequest">
+            <dao href="bl006376" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8366">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -894,7 +893,7 @@
           <did>
             <unitid>85.</unitid>
             <unittitle>"At Niagara Falls."</unittitle>
-            <dao href="bl006377" show="new" actuate="onRequest">
+            <dao href="bl006377" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8367">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -905,7 +904,7 @@
           <did>
             <unitid>86.</unitid>
             <unittitle>Barn, wagon and house.</unittitle>
-            <dao href="bl006378" show="new" actuate="onRequest">
+            <dao href="bl006378" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8368">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -922,7 +921,7 @@
           <did>
             <unitid>88.</unitid>
             <unittitle>"Mt. Jefferson from Glen House."</unittitle>
-            <dao href="bl006379" show="new" actuate="onRequest">
+            <dao href="bl006379" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8369">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -933,7 +932,7 @@
           <did>
             <unitid>89,90</unitid>
             <unittitle>"From the Glen House. Sunrise. October [6?] 1855"</unittitle>
-            <dao href="bl006380" show="new" actuate="onRequest">
+            <dao href="bl006380" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8370">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -947,7 +946,7 @@
           <did>
             <unitid>91.</unitid>
             <unittitle>"1/2 hour before Sunrise, at North Conway. October 7, 1855."</unittitle>
-            <dao href="bl006382" show="new" actuate="onRequest">
+            <dao href="bl006382" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8371">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -958,7 +957,7 @@
           <did>
             <unitid>92.</unitid>
             <unittitle>Mill and waterfall.</unittitle>
-            <dao href="bl006383" show="new" actuate="onRequest">
+            <dao href="bl006383" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8372">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -969,7 +968,7 @@
           <did>
             <unitid>93.</unitid>
             <unittitle>"Sky at Niagara Falls, March 20, 1856."</unittitle>
-            <dao href="bl006384" show="new" actuate="onRequest">
+            <dao href="bl006384" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8373">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -980,7 +979,7 @@
           <did>
             <unitid>94.</unitid>
             <unittitle>"Mist at Niagara Falls."</unittitle>
-            <dao href="bl006385" show="new" actuate="onRequest">
+            <dao href="bl006385" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8374">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -991,7 +990,7 @@
           <did>
             <unitid>95,96</unitid>
             <unittitle>"Sky over the Catskill Mt. Hudson Rv. R.R. March 22nd, 185[6?]"</unittitle>
-            <dao href="bl006386" show="new" actuate="onRequest">
+            <dao href="bl006386" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8375">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -1005,7 +1004,7 @@
           <did>
             <unitid>97.</unitid>
             <unittitle>"Sky in Catskill Mt. H.R.R.R. March 22nd, 1856"</unittitle>
-            <dao href="bl006388" show="new" actuate="onRequest">
+            <dao href="bl006388" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8376">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -1040,7 +1039,7 @@
           <did>
             <unitid>102.</unitid>
             <unittitle>"Conway October 7th." Notes on trees</unittitle>
-            <dao href="bl006389" show="new" actuate="onRequest">
+            <dao href="bl006389" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8377">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -1054,7 +1053,7 @@
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 pages</extent>
             </physdesc>
-            <dao href="bl006390" show="new" actuate="onRequest">
+            <dao href="bl006390" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8378">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -1064,8 +1063,7 @@
         <c02 level="item">
           <did>
             <unitid>105,106.</unitid>
-            <unittitle>"Morning of October 16th <unitdate type="inclusive" normal="1855">1855</unitdate> at the Catskill Mt. House."</unittitle>
-            <dao href="bl006391" show="new" actuate="onRequest">
+            <unittitle>"Morning of October 16th at the Catskill Mt. House."</unittitle><unitdate type="inclusive" normal="1855">1855</unitdate><dao href="bl006391" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8379">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -1079,7 +1077,7 @@
           <did>
             <unitid>107,108.</unitid>
             <unittitle>"Notes to [Trenton] Falls. August 29th 1855"</unittitle>
-            <dao href="bl006392" show="new" actuate="onRequest">
+            <dao href="bl006392" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8380">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -1093,7 +1091,7 @@
           <did>
             <unitid>109,110.</unitid>
             <unittitle>"Note to Trenton Falls"</unittitle>
-            <dao href="bl006393" show="new" actuate="onRequest">
+            <dao href="bl006393" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8381">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -1107,7 +1105,7 @@
           <did>
             <unitid>111.</unitid>
             <unittitle>Lake, ship and trees.</unittitle>
-            <dao href="bl006395" show="new" actuate="onRequest">
+            <dao href="bl006395" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8382">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -1118,7 +1116,7 @@
           <did>
             <unitid>112.</unitid>
             <unittitle>"Lindon. Note to Niagara."</unittitle>
-            <dao href="bl006396" show="new" actuate="onRequest">
+            <dao href="bl006396" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8383">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -1135,7 +1133,7 @@
           <did>
             <unitid>114.</unitid>
             <unittitle>Notes inside back cover.</unittitle>
-            <dao href="bl006397" show="new" actuate="onRequest">
+            <dao href="bl006397" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8384">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -1153,7 +1151,7 @@
             <physdesc>
               <physfacet>oil on paper</physfacet>
             </physdesc>
-            <dao href="bl000073" show="new" actuate="onRequest">
+            <dao href="bl000073" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8385">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -1165,11 +1163,10 @@
         </c02>
         <c02 level="item">
           <did>
-            <unittitle><title render="italic">The University of Michigan Campus</title>, <unitdate type="inclusive" normal="1855">1855</unitdate></unittitle>
-            <physdesc>
+            <unittitle><title render="italic">The University of Michigan Campus</title></unittitle><unitdate type="inclusive" normal="1855">1855</unitdate><physdesc>
               <physfacet>oil on paper</physfacet>
             </physdesc>
-            <dao href="bl000818" show="new" actuate="onRequest">
+            <dao href="bl000818" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/8386">
               <daodesc>
                 <p>[view image]</p>
               </daodesc>
@@ -1189,9 +1186,8 @@
         </did>
         <c02 level="item">
           <did>
-            <container label="Folder [786865432621683709405984]" type="folder">UAm</container>
-            <unittitle><title render="italic">The University of Michigan Campus</title>, <unitdate type="inclusive" normal="1855">1855</unitdate></unittitle>
-            <physdesc>
+            <container label="Folder [316904792435670771911]" type="folder">UAm</container>
+            <unittitle><title render="italic">The University of Michigan Campus</title></unittitle><unitdate type="inclusive" normal="1855">1855</unitdate><physdesc>
               <physfacet>pencil sketch</physfacet>
             </physdesc>
           </did>

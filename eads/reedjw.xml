@@ -23,7 +23,8 @@
         <item>Original encoding from MARC record using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,10 +35,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Reed, John Wesley, 1918-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/7447">Reed, John Wesley, 1918-</persname>
       </origination>
-      <unittitle encodinganalog="245">John Wesley Reed papers <unitdate type="inclusive" encodinganalog="245$f" normal="1951/1954">1951-1954</unitdate></unittitle>
-      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">861102 Aa/1</unitid>
+      <unittitle encodinganalog="245">John Wesley Reed papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1951/1954">1951-1954</unitdate><unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">861102 Aa/1</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Professor of law at the University of Michigan. Papers consist of memoranda, reports, and other papers relating to his work as a member of the law school's committee on teaching methods.</abstract>
       <physdesc altrender="whole">
@@ -75,9 +75,9 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Education--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Law School.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5682">Education--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Law School.<term type="topical">Law School.</term></corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -87,7 +87,7 @@
         </did>
         <c02 level="file">
           <did>
-            <container label="Folder [276671416351602661]" type="folder">1</container>
+            <container label="Folder [796910963243310135428855]" type="folder">1</container>
             <unittitle>Memoranda, reports, etc.</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">25 items</extent>

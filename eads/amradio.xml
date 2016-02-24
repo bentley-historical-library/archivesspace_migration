@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Amateur Radio Club (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/5730">Amateur Radio Club (University of Michigan)</corpname>
       </origination>
-      <unittitle encodinganalog="245">Amateur Radio Club (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1915/1976">1915-1976</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">861153 Bimu N50/2</unitid>
+      <unittitle encodinganalog="245">Amateur Radio Club (University of Michigan) records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1915/1976">1915-1976</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">861153 Bimu N50/2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Amateur radio club comprised of students faculty and staff at the University of Michigan founded in 1909. Constitution, minutes and correspondence, 1930-1956; and radio log books, 1915-1976 (scattered dates).</abstract>
       <physdesc altrender="whole">
@@ -82,9 +82,9 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Radio broadcasting--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Societies, etc.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Amateur Radio Club (University of Michigan)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5833">Radio broadcasting--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Societies, etc.<term type="topical">Students</term><term type="topical">Societies, etc.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5730">Amateur Radio Club (University of Michigan)</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -94,19 +94,16 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [395039842283826741812]">1</container>
-            <unittitle>Club Records <unitdate type="inclusive" normal="1930/1956">1930-1956</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [578275414107252110553]">1</container>
+            <unittitle>Club Records</unittitle><unitdate type="inclusive" normal="1930/1956">1930-1956</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Greenland Traffic Message Book <unitdate type="inclusive" normal="1928">1928</unitdate></unittitle>
-          </did>
+            <unittitle>Greenland Traffic Message Book</unittitle><unitdate type="inclusive" normal="1928">1928</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Radiograms <unitdate type="inclusive" normal="1928/1929">1928-1929</unitdate></unittitle>
-          </did>
+            <unittitle>Radiograms</unittitle><unitdate type="inclusive" normal="1928/1929">1928-1929</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -114,31 +111,26 @@
           </did>
           <c03 level="file">
             <did>
-              <unittitle>8XA <unitdate type="inclusive" normal="1915">1915</unitdate></unittitle>
-            </did>
+              <unittitle>8XA</unittitle><unitdate type="inclusive" normal="1915">1915</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>8AXZ <unitdate type="inclusive" normal="1927/1930">1927-1930</unitdate></unittitle>
-            </did>
+              <unittitle>8AXZ</unittitle><unitdate type="inclusive" normal="1927/1930">1927-1930</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>W8AXZ <unitdate type="inclusive" normal="1932/1941">1932-1941</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>W8AXZ</unittitle><unitdate type="inclusive" normal="1932/1941">1932-1941</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">9 volumes</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>W8ZUP <unitdate type="inclusive" normal="1947">1947</unitdate></unittitle>
-            </did>
+              <unittitle>W8ZUP</unittitle><unitdate type="inclusive" normal="1947">1947</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>W8UM <unitdate type="inclusive" normal="1967/1976">1967-1976</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>W8UM</unittitle><unitdate type="inclusive" normal="1967/1976">1967-1976</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">24 volumes</extent>
               </physdesc>
             </did>
@@ -146,13 +138,11 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Amplifier <unitdate type="inclusive" normal="1939/1941" certainty="approximate">circa 1939-1941</unitdate></unittitle>
-          </did>
+            <unittitle>Amplifier</unittitle><unitdate type="inclusive" normal="1939/1941" certainty="approximate">circa 1939-1941</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Wiring Diagram <unitdate type="inclusive" normal="1937">1937</unitdate></unittitle>
-          </did>
+            <unittitle>Wiring Diagram</unittitle><unitdate type="inclusive" normal="1937">1937</unitdate></did>
         </c02>
       </c01>
     </dsc>

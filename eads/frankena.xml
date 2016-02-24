@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n79144658">Frankena, William K.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n79144658" ref="/agents/people/5039">Frankena, William K.</persname>
       </origination>
-      <unittitle encodinganalog="245">William K. Frankena papers <unitdate type="inclusive" encodinganalog="245$f" normal="1927/1991">1927-1991</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1961/1981">1961-1981</unitdate></unittitle>
-      <abstract>Professor of philosophy at the University of Michigan, scholar and writer on moral philosophy, ethics, and philosophy of education. Collection includes philosophy papers written as a student at Calvin College, the University of Michigan, and Harvard; lecture notes and course materials, mainly from his teaching career at the University of Michigan; research articles and other manuscripts; formal lectures and conference papers; topical and background files on philosophy topics; correspondence; and files detailing University of Michigan departmental and committee responsibilities.</abstract>
+      <unittitle encodinganalog="245">William K. Frankena papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1927/1991">1927-1991</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1961/1981">1961-1981</unitdate><abstract>Professor of philosophy at the University of Michigan, scholar and writer on moral philosophy, ethics, and philosophy of education. Collection includes philosophy papers written as a student at Calvin College, the University of Michigan, and Harvard; lecture notes and course materials, mainly from his teaching career at the University of Michigan; research articles and other manuscripts; formal lectures and conference papers; topical and background files on philosophy topics; correspondence; and files detailing University of Michigan departmental and committee responsibilities.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">9538 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physloc>Stored offsite, two days notice required for retrieval.</physloc>
@@ -83,28 +83,26 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79144658">Frankena, William K.</persname>
-        <subject source="lcsh" encodinganalog="650">Ethical problems.</subject>
-        <subject source="lcsh" encodinganalog="650">Ethics.</subject>
-        <subject source="lcsh" encodinganalog="650">Ethicists.</subject>
-        <subject source="lcsh" encodinganalog="650">Education--Philosophy.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Philosophy.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79144658" ref="/agents/people/5039">Frankena, William K.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7857">Ethical problems.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6441">Ethics.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7858">Ethicists.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7859">Education--Philosophy.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/704">University of Michigan. Dept. of Philosophy.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Undergraduate Studies <unitdate type="inclusive" normal="1927/1930">1927-1930</unitdate></unittitle>
-        </did>
+          <unittitle>Undergraduate Studies</unittitle><unitdate type="inclusive" normal="1927/1930">1927-1930</unitdate></did>
         <scopecontent>
           <p>The Undergraduate Studies series (2 folders; 1927-1930) contains materials related to Frankena's undergraduate training at Calvin College. It is composed of papers which Frankena wrote as a student for various courses. They are arranged alphabetically.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1087079004732523442842]">1</container>
-            <unittitle>Calvin College Papers <unitdate type="inclusive" normal="1927/1930">1927-1930</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [25991531245849372918]">1</container>
+            <unittitle>Calvin College Papers</unittitle><unitdate type="inclusive" normal="1927/1930">1927-1930</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -112,8 +110,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Graduate Studies <unitdate type="inclusive" normal="1931/1937">1931-1937</unitdate></unittitle>
-          <physdesc altrender="whole">
+          <unittitle>Graduate Studies</unittitle><unitdate type="inclusive" normal="1931/1937">1931-1937</unitdate><physdesc altrender="whole">
             <extent altrender="materialtype spaceoccupied">0.7 linear feet</extent>
           </physdesc>
         </did>
@@ -126,159 +123,137 @@
           </did>
           <c03 level="item">
             <did>
-              <container type="box" label="Box [1087079004732523442842]">1</container>
+              <container type="box" label="Box [25991531245849372918]">1</container>
               <unittitle>"The Aesthetics of Immanuel Kant" (Phil. 201-University of Michigan)</unittitle>
             </did>
           </c03>
           <c03 level="item">
             <did>
-              <container type="box" label="Box [1087079004732523442842]">1</container>
-              <unittitle>"Alternative Systems," "Alternative Logics," "Foundational Codes" (Phil. 21-Harvard) <unitdate type="inclusive" normal="1935">1935</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [25991531245849372918]">1</container>
+              <unittitle>"Alternative Systems," "Alternative Logics," "Foundational Codes" (Phil. 21-Harvard)</unittitle><unitdate type="inclusive" normal="1935">1935</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <container type="box" label="Box [1087079004732523442842]">1</container>
-              <unittitle>"Aristotle on Philosophy and Its Axioms" (Phil. 155-University of Michigan) <unitdate type="inclusive" normal="1931">1931</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [25991531245849372918]">1</container>
+              <unittitle>"Aristotle on Philosophy and Its Axioms" (Phil. 155-University of Michigan)</unittitle><unitdate type="inclusive" normal="1931">1931</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <container type="box" label="Box [1087079004732523442842]">1</container>
-              <unittitle>"Aristotle on Potentiality" (Harvard) <unitdate type="inclusive" normal="1932">1932</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [25991531245849372918]">1</container>
+              <unittitle>"Aristotle on Potentiality" (Harvard)</unittitle><unitdate type="inclusive" normal="1932">1932</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <container type="box" label="Box [1087079004732523442842]">1</container>
-              <unittitle>"Aspects and Logic," "Propositions and Proportional Functions," "Codification; Codes and Code-Forms" (Phil. 8-Harvard) <unitdate type="inclusive" normal="1934">1934</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [25991531245849372918]">1</container>
+              <unittitle>"Aspects and Logic," "Propositions and Proportional Functions," "Codification; Codes and Code-Forms" (Phil. 8-Harvard)</unittitle><unitdate type="inclusive" normal="1934">1934</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <container type="box" label="Box [1087079004732523442842]">1</container>
-              <unittitle>"Carneys Psychichalismus" (Psychology 5-Harvard) <unitdate type="inclusive" normal="1934">1934</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [25991531245849372918]">1</container>
+              <unittitle>"Carneys Psychichalismus" (Psychology 5-Harvard)</unittitle><unitdate type="inclusive" normal="1934">1934</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <container type="box" label="Box [1087079004732523442842]">1</container>
+              <container type="box" label="Box [25991531245849372918]">1</container>
               <unittitle>"The Criterion of Truth in Immanuel Kant" (Phil. 201-University of Michigan)</unittitle>
             </did>
           </c03>
           <c03 level="item">
             <did>
-              <container type="box" label="Box [1087079004732523442842]">1</container>
-              <unittitle>"D. Hilbert and W. Ackermann <title render="italic">Grundzuge der Theoretischen Logik</title> (University of Michigan), <unitdate type="inclusive" normal="1932">1932</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [25991531245849372918]">1</container>
+              <unittitle>"D. Hilbert and W. Ackermann <title render="italic">Grundzuge der Theoretischen Logik</title> (University of Michigan)</unittitle><unitdate type="inclusive" normal="1932">1932</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <container type="box" label="Box [1087079004732523442842]">1</container>
-              <unittitle>"Hegel's Political Philosophy" (University of Michigan) <unitdate type="inclusive" normal="1932">1932</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [25991531245849372918]">1</container>
+              <unittitle>"Hegel's Political Philosophy" (University of Michigan)</unittitle><unitdate type="inclusive" normal="1932">1932</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <container type="box" label="Box [1087079004732523442842]">1</container>
-              <unittitle>"Intuitionism and Positivism" (Phil. 20-Harvard) <unitdate type="inclusive" normal="1935">1935</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [25991531245849372918]">1</container>
+              <unittitle>"Intuitionism and Positivism" (Phil. 20-Harvard)</unittitle><unitdate type="inclusive" normal="1935">1935</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <container type="box" label="Box [1087079004732523442842]">1</container>
-              <unittitle>"Leibniz' Discourse on Metaphysics," "An Essay on Leibniz" (Phil. 14a-Harvard) <unitdate type="inclusive" normal="1934/1935">1934-1935</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [25991531245849372918]">1</container>
+              <unittitle>"Leibniz' Discourse on Metaphysics," "An Essay on Leibniz" (Phil. 14a-Harvard)</unittitle><unitdate type="inclusive" normal="1934/1935">1934-1935</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <container type="box" label="Box [1087079004732523442842]">1</container>
-              <unittitle>"Lyric Poetry and Man's Proposals" (Creative Writing-University of Michigan) <unitdate type="inclusive" normal="1930/1931">1930-1931</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [25991531245849372918]">1</container>
+              <unittitle>"Lyric Poetry and Man's Proposals" (Creative Writing-University of Michigan)</unittitle><unitdate type="inclusive" normal="1930/1931">1930-1931</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <container type="box" label="Box [1087079004732523442842]">1</container>
-              <unittitle>"Metaphysics and Ethics," "Rationalism and Causation" (Phil 20h-Harvard) <unitdate type="inclusive" normal="1934/1935">1934-1935</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [25991531245849372918]">1</container>
+              <unittitle>"Metaphysics and Ethics," "Rationalism and Causation" (Phil 20h-Harvard)</unittitle><unitdate type="inclusive" normal="1934/1935">1934-1935</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <container type="box" label="Box [1087079004732523442842]">1</container>
-              <unittitle>"Plato's Theory of Knowledge" (Phil. 10-Harvard) <unitdate type="inclusive" normal="1933/1934">1933-1934</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [25991531245849372918]">1</container>
+              <unittitle>"Plato's Theory of Knowledge" (Phil. 10-Harvard)</unittitle><unitdate type="inclusive" normal="1933/1934">1933-1934</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <container type="box" label="Box [1087079004732523442842]">1</container>
-              <unittitle>"The Poetry of Emily Dickinson" (Phil. 139-University of Michigan) <unitdate type="inclusive" normal="1931">1931</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [25991531245849372918]">1</container>
+              <unittitle>"The Poetry of Emily Dickinson" (Phil. 139-University of Michigan)</unittitle><unitdate type="inclusive" normal="1931">1931</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <container type="box" label="Box [1087079004732523442842]">1</container>
-              <unittitle>"The Prose of John Dryden" (English Prose-University of Michigan) <unitdate type="inclusive" normal="1930/1932">1930-1932</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [25991531245849372918]">1</container>
+              <unittitle>"The Prose of John Dryden" (English Prose-University of Michigan)</unittitle><unitdate type="inclusive" normal="1930/1932">1930-1932</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <container type="box" label="Box [1087079004732523442842]">1</container>
+              <container type="box" label="Box [25991531245849372918]">1</container>
               <unittitle>"Psychology from the Standpoint of a Behaviorist" (Psychology 168-University of Michigan)</unittitle>
             </did>
           </c03>
           <c03 level="item">
             <did>
-              <container type="box" label="Box [1087079004732523442842]">1</container>
+              <container type="box" label="Box [25991531245849372918]">1</container>
               <unittitle>"Recent Intuitionism in British Ethics" (Phil. 20d-Harvard)</unittitle>
             </did>
           </c03>
           <c03 level="item">
             <did>
-              <container type="box" label="Box [1087079004732523442842]">1</container>
-              <unittitle>"The Romantic Conception of Pleasure" (English 166-University of Michigan) <unitdate type="inclusive" normal="1931">1931</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [25991531245849372918]">1</container>
+              <unittitle>"The Romantic Conception of Pleasure" (English 166-University of Michigan)</unittitle><unitdate type="inclusive" normal="1931">1931</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <container type="box" label="Box [1087079004732523442842]">1</container>
-              <unittitle>"Royce's Philosophy of Religion" (University of Michigan) <unitdate type="inclusive" normal="1931">1931</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [25991531245849372918]">1</container>
+              <unittitle>"Royce's Philosophy of Religion" (University of Michigan)</unittitle><unitdate type="inclusive" normal="1931">1931</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <container type="box" label="Box [1087079004732523442842]">1</container>
-              <unittitle>"Self-Hood, An Essay in Metaphysics" (University of Michigan) <unitdate type="inclusive" normal="1932">1932</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [25991531245849372918]">1</container>
+              <unittitle>"Self-Hood, An Essay in Metaphysics" (University of Michigan)</unittitle><unitdate type="inclusive" normal="1932">1932</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <container type="box" label="Box [1087079004732523442842]">1</container>
-              <unittitle>"Spinoza's Cogitate Metaphysics and Ethics Compared" (Phil. 14d-Harvard) <unitdate type="inclusive" normal="1933/1934">1933-1934</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [25991531245849372918]">1</container>
+              <unittitle>"Spinoza's Cogitate Metaphysics and Ethics Compared" (Phil. 14d-Harvard)</unittitle><unitdate type="inclusive" normal="1933/1934">1933-1934</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <container type="box" label="Box [1087079004732523442842]">1</container>
-              <unittitle>Submitted for the Hopwood Literary Contest (University of Michigan) <unitdate type="inclusive" normal="1931">1931</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [25991531245849372918]">1</container>
+              <unittitle>Submitted for the Hopwood Literary Contest (University of Michigan)</unittitle><unitdate type="inclusive" normal="1931">1931</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <container type="box" label="Box [1087079004732523442842]">1</container>
-              <unittitle>"The Theaetetus of Plato" (Phil. 154-University of Michigan) <unitdate type="inclusive" normal="1930/1931">1930-1931</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [25991531245849372918]">1</container>
+              <unittitle>"The Theaetetus of Plato" (Phil. 154-University of Michigan)</unittitle><unitdate type="inclusive" normal="1930/1931">1930-1931</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <container type="box" label="Box [1087079004732523442842]">1</container>
-              <unittitle>"The Timaeus of Plato," "A Study in Plato's Timaeus" (Phil. 3b-Harvard) <unitdate type="inclusive" normal="1933/1934">1933-1934</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [25991531245849372918]">1</container>
+              <unittitle>"The Timaeus of Plato," "A Study in Plato's Timaeus" (Phil. 3b-Harvard)</unittitle><unitdate type="inclusive" normal="1933/1934">1933-1934</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <container type="box" label="Box [1087079004732523442842]">1</container>
-              <unittitle>"What Think Ye of Substance" (University of Michigan) <unitdate type="inclusive" normal="1932">1932</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [25991531245849372918]">1</container>
+              <unittitle>"What Think Ye of Substance" (University of Michigan)</unittitle><unitdate type="inclusive" normal="1932">1932</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -287,7 +262,7 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1087079004732523442842]">1</container>
+              <container type="box" label="Box [25991531245849372918]">1</container>
               <unittitle>Manuscripts and Notes</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">5 folders</extent>
@@ -296,7 +271,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1087079004732523442842]">1</container>
+              <container type="box" label="Box [25991531245849372918]">1</container>
               <unittitle>Revisions</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -306,15 +281,14 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1087079004732523442842]">1</container>
+            <container type="box" label="Box [25991531245849372918]">1</container>
             <unittitle>Miscellaneous</unittitle>
           </did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Teaching <unitdate type="inclusive" normal="1937/1994">1937-1994</unitdate></unittitle>
-          <physdesc altrender="whole">
+          <unittitle>Teaching</unittitle><unitdate type="inclusive" normal="1937/1994">1937-1994</unitdate><physdesc altrender="whole">
             <extent altrender="materialtype spaceoccupied">4.3 linear feet</extent>
           </physdesc>
         </did>
@@ -327,36 +301,30 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35164293814203000]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1956/1972">1956-1972</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [116523024078703537612981]">2</container>
+              <unitdate type="inclusive" normal="1956/1972">1956-1972</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">17 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [537893840150147448485]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1973/1994">1973-1994</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [334960541702943608266]">3</container>
+              <unitdate type="inclusive" normal="1973/1994">1973-1994</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">21 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [537893840150147448485]">3</container>
+              <container type="box" label="Box [334960541702943608266]">3</container>
               <unittitle>Preliminary Examinations for the Ph.D</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="subseries">
           <did>
-            <container type="box" label="Box [923595228406692627117983]">4</container>
+            <container type="box" label="Box [93594765540863822710970]">4</container>
             <unittitle>Course Material</unittitle>
           </did>
           <c03 level="file">
@@ -365,234 +333,201 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [923595228406692627117983]">4</container>
-                <unittitle>Advanced Ethics (Phil. 218) <unitdate type="inclusive" normal="1939/1940">1939-1940</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [93594765540863822710970]">4</container>
+                <unittitle>Advanced Ethics (Phil. 218)</unittitle><unitdate type="inclusive" normal="1939/1940">1939-1940</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [923595228406692627117983]">4</container>
-                <unittitle>American Ethics <unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [93594765540863822710970]">4</container>
+                <unittitle>American Ethics</unittitle><unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [923595228406692627117983]">4</container>
-                <unittitle>American Philosophy (Phil. 110) <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [93594765540863822710970]">4</container>
+                <unittitle>American Philosophy (Phil. 110)</unittitle><unitdate type="inclusive" normal="1950">1950</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [923595228406692627117983]">4</container>
-                <unittitle>British Moralist (S 139-Columbia University) <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [93594765540863822710970]">4</container>
+                <unittitle>British Moralist (S 139-Columbia University)</unittitle><unitdate type="inclusive" normal="1953">1953</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [923595228406692627117983]">4</container>
-                <unittitle>Contemporary Philosophy (S 45 Columbia University and S 183 Harvard) <unitdate type="inclusive" normal="1953">1953</unitdate>, <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [93594765540863822710970]">4</container>
+                <unittitle>Contemporary Philosophy (S 45 Columbia University and S 183 Harvard)</unittitle><unitdate type="inclusive" normal="1953">1953</unitdate><unitdate type="inclusive" normal="1955">1955</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [923595228406692627117983]">4</container>
+                <container type="box" label="Box [93594765540863822710970]">4</container>
                 <unittitle>Course Evaluations (various years and classes)</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [923595228406692627117983]">4</container>
-                <unittitle>Eighteenth Century British Moralist (Phil. 340) <unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [93594765540863822710970]">4</container>
+                <unittitle>Eighteenth Century British Moralist (Phil. 340)</unittitle><unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [923595228406692627117983]">4</container>
-                <unittitle>English and American Ethics (Phil. 130) <unitdate type="inclusive" normal="1948">1948</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [93594765540863822710970]">4</container>
+                <unittitle>English and American Ethics (Phil. 130)</unittitle><unitdate type="inclusive" normal="1948">1948</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [923595228406692627117983]">4</container>
-                <unittitle>Ethics (Phil. 129) <unitdate type="inclusive" normal="1943">1943</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [93594765540863822710970]">4</container>
+                <unittitle>Ethics (Phil. 129)</unittitle><unitdate type="inclusive" normal="1943">1943</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [923595228406692627117983]">4</container>
+                <container type="box" label="Box [93594765540863822710970]">4</container>
                 <unittitle>Ethics (utilitarianism)</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [923595228406692627117983]">4</container>
-                <unittitle>Ethics in America (Phil. 340) <unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [93594765540863822710970]">4</container>
+                <unittitle>Ethics in America (Phil. 340)</unittitle><unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [923595228406692627117983]">4</container>
+                <container type="box" label="Box [93594765540863822710970]">4</container>
                 <unittitle>Exercises in Elementary Logic (Phil. 33)</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [923595228406692627117983]">4</container>
-                <unittitle>Great Books (Phil. 191 and 192) <unitdate type="inclusive" normal="1965/1967">1965-1967</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [93594765540863822710970]">4</container>
+                <unittitle>Great Books (Phil. 191 and 192)</unittitle><unitdate type="inclusive" normal="1965/1967">1965-1967</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [923595228406692627117983]">4</container>
-                <unittitle>History of Ethics (Phil. 130) <unitdate type="inclusive" normal="1944/1945">1944-1945</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [93594765540863822710970]">4</container>
+                <unittitle>History of Ethics (Phil. 130)</unittitle><unitdate type="inclusive" normal="1944/1945">1944-1945</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [923595228406692627117983]">4</container>
-                <unittitle>History of Ethics I (Phil. 130) <unitdate type="inclusive" normal="1942/1977">1942-1977</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [93594765540863822710970]">4</container>
+                <unittitle>History of Ethics I (Phil. 130)</unittitle><unitdate type="inclusive" normal="1942/1977">1942-1977</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [923595228406692627117983]">4</container>
-                <unittitle>History of Ethics II (Christian Medieval) <unitdate type="inclusive" normal="1944/1973">1944-1973</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [93594765540863822710970]">4</container>
+                <unittitle>History of Ethics II (Christian Medieval)</unittitle><unitdate type="inclusive" normal="1944/1973">1944-1973</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [923595228406692627117983]">4</container>
-                <unittitle>History of Ethics III (Phil. 130) <unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate>, <unitdate type="inclusive" normal="1952/1961">1952-1961</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [93594765540863822710970]">4</container>
+                <unittitle>History of Ethics III (Phil. 130)</unittitle><unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate><unitdate type="inclusive" normal="1952/1961">1952-1961</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [923595228406692627117983]">4</container>
-                <unittitle>History of Ethics IV (Phil. 130) <unitdate type="inclusive" normal="1938/1939">1938-1939</unitdate>, <unitdate type="inclusive" normal="1941/1943">1941-1943</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [93594765540863822710970]">4</container>
+                <unittitle>History of Ethics IV (Phil. 130)</unittitle><unitdate type="inclusive" normal="1938/1939">1938-1939</unitdate><unitdate type="inclusive" normal="1941/1943">1941-1943</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [923595228406692627117983]">4</container>
-                <unittitle>History of Ethics V (Bentham, Mill, 19th and 20th century) <unitdate type="inclusive" normal="1943/1977">1943-1977</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [93594765540863822710970]">4</container>
+                <unittitle>History of Ethics V (Bentham, Mill, 19th and 20th century)</unittitle><unitdate type="inclusive" normal="1943/1977">1943-1977</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [923595228406692627117983]">4</container>
-                <unittitle>Introduction to Analytical Philosophy of Education (Phil. 407) <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [93594765540863822710970]">4</container>
+                <unittitle>Introduction to Analytical Philosophy of Education (Phil. 407)</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [923595228406692627117983]">4</container>
-                <unittitle>Introduction to the University (University Course 101) <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [93594765540863822710970]">4</container>
+                <unittitle>Introduction to the University (University Course 101)</unittitle><unitdate type="inclusive" normal="1975">1975</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [923595228406692627117983]">4</container>
+                <container type="box" label="Box [93594765540863822710970]">4</container>
                 <unittitle>Medieval Philosophy (undated)</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [923595228406692627117983]">4</container>
-                <unittitle>Modern Philosophy and Introduction to Philosophy <unitdate>undated</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [93594765540863822710970]">4</container>
+                <unittitle>Modern Philosophy and Introduction to Philosophy</unittitle><unitdate>undated</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [923595228406692627117983]">4</container>
-                <unittitle>Philosophy of Education (Phil. 407) <unitdate type="inclusive" normal="1959/1961">1959-1961</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [93594765540863822710970]">4</container>
+                <unittitle>Philosophy of Education (Phil. 407)</unittitle><unitdate type="inclusive" normal="1959/1961">1959-1961</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [18632384234497401305]">5</container>
-                <unittitle>Philosophy of Education (Phil. 407) <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [8840784095458273761559]">5</container>
+                <unittitle>Philosophy of Education (Phil. 407)</unittitle><unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [18632384234497401305]">5</container>
-                <unittitle>Philosophy of Education (Phil. 407) <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [8840784095458273761559]">5</container>
+                <unittitle>Philosophy of Education (Phil. 407)</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [18632384234497401305]">5</container>
-                <unittitle>Philosophy of Education (Phil. 407) <unitdate type="inclusive" normal="1971/1974">1971-1974</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [8840784095458273761559]">5</container>
+                <unittitle>Philosophy of Education (Phil. 407)</unittitle><unitdate type="inclusive" normal="1971/1974">1971-1974</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [18632384234497401305]">5</container>
-                <unittitle>Philosophy of Education <unitdate>undated</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [8840784095458273761559]">5</container>
+                <unittitle>Philosophy of Education</unittitle><unitdate>undated</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [18632384234497401305]">5</container>
-                <unittitle>Philosophy of Education (A 54, Harvard Graduate School of Education) <unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [8840784095458273761559]">5</container>
+                <unittitle>Philosophy of Education (A 54, Harvard Graduate School of Education)</unittitle><unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [18632384234497401305]">5</container>
-                <unittitle>Plato and the Stoics (Phil. 129) <unitdate type="inclusive" normal="1944">1944</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [8840784095458273761559]">5</container>
+                <unittitle>Plato and the Stoics (Phil. 129)</unittitle><unitdate type="inclusive" normal="1944">1944</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [18632384234497401305]">5</container>
-                <unittitle>Platonism (Phil. 34) <unitdate type="inclusive" normal="1950/1953">1950-1953</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [8840784095458273761559]">5</container>
+                <unittitle>Platonism (Phil. 34)</unittitle><unitdate type="inclusive" normal="1950/1953">1950-1953</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [18632384234497401305]">5</container>
-                <unittitle>Seminar in Current Philosophy (Phil. 311) <unitdate type="inclusive" normal="1952/1953">1952-1953</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [8840784095458273761559]">5</container>
+                <unittitle>Seminar in Current Philosophy (Phil. 311)</unittitle><unitdate type="inclusive" normal="1952/1953">1952-1953</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [18632384234497401305]">5</container>
-                <unittitle>Seminar on Problems in Recent Moral Philosophy (Phil. 268, Harvard) <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [8840784095458273761559]">5</container>
+                <unittitle>Seminar on Problems in Recent Moral Philosophy (Phil. 268, Harvard)</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [18632384234497401305]">5</container>
-                <unittitle>Seventeenth Century Philosophy (Phil. 14, Harvard) <unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [8840784095458273761559]">5</container>
+                <unittitle>Seventeenth Century Philosophy (Phil. 14, Harvard)</unittitle><unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [18632384234497401305]">5</container>
-                <unittitle>Social Philosophy (Phil. 441) <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [8840784095458273761559]">5</container>
+                <unittitle>Social Philosophy (Phil. 441)</unittitle><unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [18632384234497401305]">5</container>
-                <unittitle>Topics in Philosophy (Phil. 129) <unitdate type="inclusive" normal="1943">1943</unitdate>, <unitdate type="inclusive" normal="1945">1945</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [8840784095458273761559]">5</container>
+                <unittitle>Topics in Philosophy (Phil. 129)</unittitle><unitdate type="inclusive" normal="1943">1943</unitdate><unitdate type="inclusive" normal="1945">1945</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [18632384234497401305]">5</container>
-                <unittitle>Value Theory and Aesthetics (Harvard and Radcliffe) <unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [8840784095458273761559]">5</container>
+                <unittitle>Value Theory and Aesthetics (Harvard and Radcliffe)</unittitle><unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -601,194 +536,165 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [18632384234497401305]">5</container>
-                <unittitle>33 <unitdate type="inclusive" normal="1940" certainty="approximate">circa 1940</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [8840784095458273761559]">5</container>
+                <unittitle>33</unittitle><unitdate type="inclusive" normal="1940" certainty="approximate">circa 1940</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [18632384234497401305]">5</container>
-                <unittitle>34 <unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate>, <unitdate type="inclusive" normal="1943/1948">1943-1948</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [8840784095458273761559]">5</container>
+                <unittitle>34</unittitle><unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate><unitdate type="inclusive" normal="1943/1948">1943-1948</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [18632384234497401305]">5</container>
-                <unittitle>37 <unitdate type="inclusive" normal="1944/1945">1944-1945</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [8840784095458273761559]">5</container>
+                <unittitle>37</unittitle><unitdate type="inclusive" normal="1944/1945">1944-1945</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [18632384234497401305]">5</container>
-                <unittitle>63 <unitdate type="inclusive" normal="1952/1953">1952-1953</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [8840784095458273761559]">5</container>
+                <unittitle>63</unittitle><unitdate type="inclusive" normal="1952/1953">1952-1953</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [18632384234497401305]">5</container>
-                <unittitle>98-99 <unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [8840784095458273761559]">5</container>
+                <unittitle>98-99</unittitle><unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [18632384234497401305]">5</container>
-                <unittitle>106 <unitdate type="inclusive" normal="1946/1947">1946-1947</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [8840784095458273761559]">5</container>
+                <unittitle>106</unittitle><unitdate type="inclusive" normal="1946/1947">1946-1947</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [18632384234497401305]">5</container>
-                <unittitle>130 <unitdate type="inclusive" normal="1945/1946">1945-1946</unitdate>, <unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate>, <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [8840784095458273761559]">5</container>
+                <unittitle>130</unittitle><unitdate type="inclusive" normal="1945/1946">1945-1946</unitdate><unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate><unitdate type="inclusive" normal="1953">1953</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [18632384234497401305]">5</container>
-                <unittitle>142 <unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [8840784095458273761559]">5</container>
+                <unittitle>142</unittitle><unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [18632384234497401305]">5</container>
-                <unittitle>185 <unitdate type="inclusive" normal="1946/1948">1946-1948</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [8840784095458273761559]">5</container>
+                <unittitle>185</unittitle><unitdate type="inclusive" normal="1946/1948">1946-1948</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [18632384234497401305]">5</container>
-                <unittitle>198 <unitdate type="inclusive" normal="1944">1944</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [8840784095458273761559]">5</container>
+                <unittitle>198</unittitle><unitdate type="inclusive" normal="1944">1944</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [7186054059266802652]">6</container>
-                <unittitle>200 <unitdate type="inclusive" normal="1943">1943</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [4611164318333989917]">6</container>
+                <unittitle>200</unittitle><unitdate type="inclusive" normal="1943">1943</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [7186054059266802652]">6</container>
-                <unittitle>200 <unitdate type="inclusive" normal="1945/1948">1945-1948</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [4611164318333989917]">6</container>
+                <unittitle>200</unittitle><unitdate type="inclusive" normal="1945/1948">1945-1948</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">3 folders</extent>
                 </physdesc>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [7186054059266802652]">6</container>
-                <unittitle>203 <unitdate type="inclusive" normal="1950" certainty="approximate">circa 1950</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [4611164318333989917]">6</container>
+                <unittitle>203</unittitle><unitdate type="inclusive" normal="1950" certainty="approximate">circa 1950</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [7186054059266802652]">6</container>
-                <unittitle>203 <unitdate>undated</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [4611164318333989917]">6</container>
+                <unittitle>203</unittitle><unitdate>undated</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [7186054059266802652]">6</container>
-                <unittitle>234 <unitdate>undated</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [4611164318333989917]">6</container>
+                <unittitle>234</unittitle><unitdate>undated</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [7186054059266802652]">6</container>
-                <unittitle>308 <unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [4611164318333989917]">6</container>
+                <unittitle>308</unittitle><unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [7186054059266802652]">6</container>
-                <unittitle>340 <unitdate type="inclusive" normal="1954/1955">1954-1955</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [4611164318333989917]">6</container>
+                <unittitle>340</unittitle><unitdate type="inclusive" normal="1954/1955">1954-1955</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [7186054059266802652]">6</container>
-                <unittitle>361 <unitdate type="inclusive" normal="1961/1973" certainty="approximate">circa 1961-1973</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [4611164318333989917]">6</container>
+                <unittitle>361</unittitle><unitdate type="inclusive" normal="1961/1973" certainty="approximate">circa 1961-1973</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [7186054059266802652]">6</container>
-                <unittitle>407 <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [4611164318333989917]">6</container>
+                <unittitle>407</unittitle><unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [7186054059266802652]">6</container>
-                <unittitle>429 <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [4611164318333989917]">6</container>
+                <unittitle>429</unittitle><unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [7186054059266802652]">6</container>
-                <unittitle>429 <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [4611164318333989917]">6</container>
+                <unittitle>429</unittitle><unitdate type="inclusive" normal="1974">1974</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [7186054059266802652]">6</container>
-                <unittitle>436 <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [4611164318333989917]">6</container>
+                <unittitle>436</unittitle><unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [7186054059266802652]">6</container>
-                <unittitle>570 <unitdate>undated</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [4611164318333989917]">6</container>
+                <unittitle>570</unittitle><unitdate>undated</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [7186054059266802652]">6</container>
-                <unittitle>640 <unitdate type="inclusive" normal="1965/1967">1965-1967</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [4611164318333989917]">6</container>
+                <unittitle>640</unittitle><unitdate type="inclusive" normal="1965/1967">1965-1967</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [7186054059266802652]">6</container>
-                <unittitle>640 <unitdate type="inclusive" normal="1969/1972">1969-1972</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [4611164318333989917]">6</container>
+                <unittitle>640</unittitle><unitdate type="inclusive" normal="1969/1972">1969-1972</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [7186054059266802652]">6</container>
-                <unittitle>34, 134, 234 <unitdate type="inclusive" normal="1943/1976">1943-1976</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [4611164318333989917]">6</container>
+                <unittitle>34, 134, 234</unittitle><unitdate type="inclusive" normal="1943/1976">1943-1976</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">3 folders</extent>
                 </physdesc>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [7186054059266802652]">6</container>
-                <unittitle>61, 261, 429 <unitdate type="inclusive" normal="1945/1966">1945-1966</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [4611164318333989917]">6</container>
+                <unittitle>61, 261, 429</unittitle><unitdate type="inclusive" normal="1945/1966">1945-1966</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [7186054059266802652]">6</container>
-                <unittitle>129 and 142 <unitdate type="inclusive" normal="1943">1943</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [4611164318333989917]">6</container>
+                <unittitle>129 and 142</unittitle><unitdate type="inclusive" normal="1943">1943</unitdate></did>
             </c04>
           </c03>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Articles and Manuscripts <unitdate type="inclusive" normal="1930/1990">1930-1990</unitdate></unittitle>
-          <physdesc altrender="whole">
+          <unittitle>Articles and Manuscripts</unittitle><unitdate type="inclusive" normal="1930/1990">1930-1990</unitdate><physdesc altrender="whole">
             <extent altrender="materialtype spaceoccupied">2.5 linear feet</extent>
           </physdesc>
         </did>
@@ -797,127 +703,108 @@
         </scopecontent>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [7186054059266802652]">6</container>
-            <unittitle>The Ambivalence of Bernard Mandevill, by Hector Monro" (review) <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [4611164318333989917]">6</container>
+            <unittitle>The Ambivalence of Bernard Mandevill, by Hector Monro" (review)</unittitle><unitdate type="inclusive" normal="1975">1975</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [7186054059266802652]">6</container>
-            <unittitle>"Beneficence in Ethics of Virtue," <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [4611164318333989917]">6</container>
+            <unittitle>"Beneficence in Ethics of Virtue,"</unittitle><unitdate type="inclusive" normal="1981">1981</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [7186054059266802652]">6</container>
-            <unittitle>"Bentham and Mill on the Justification of the Principle of Utility," <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [4611164318333989917]">6</container>
+            <unittitle>"Bentham and Mill on the Justification of the Principle of Utility,"</unittitle><unitdate type="inclusive" normal="1982">1982</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [7186054059266802652]">6</container>
-            <unittitle>"Bird Watching Stories and Things," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [4611164318333989917]">6</container>
+            <unittitle>"Bird Watching Stories and Things,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [7186054059266802652]">6</container>
-            <unittitle>"Broad's Analysis of Ethical Terms," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [4611164318333989917]">6</container>
+            <unittitle>"Broad's Analysis of Ethical Terms,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [13911822940758586010]">7</container>
-            <unittitle>"Can Biology Help Ethics?" <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [53569609419064455]">7</container>
+            <unittitle>"Can Biology Help Ethics?"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [13911822940758586010]">7</container>
-            <unittitle>"A Certain Kind of Commitment Word," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [53569609419064455]">7</container>
+            <unittitle>"A Certain Kind of Commitment Word,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [13911822940758586010]">7</container>
-            <unittitle>"Classification of Volitional Expressions," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [53569609419064455]">7</container>
+            <unittitle>"Classification of Volitional Expressions,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [13911822940758586010]">7</container>
-            <unittitle>"Cognitive and Non-Cognitive Aspects of Language," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [53569609419064455]">7</container>
+            <unittitle>"Cognitive and Non-Cognitive Aspects of Language,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [13911822940758586010]">7</container>
-            <unittitle>"The Concept of Morality," <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [53569609419064455]">7</container>
+            <unittitle>"The Concept of Morality,"</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [13911822940758586010]">7</container>
-            <unittitle>"The Concept of Education Today," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [53569609419064455]">7</container>
+            <unittitle>"The Concept of Education Today,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [13911822940758586010]">7</container>
-            <unittitle>"Concepts of Rational Action in the History of Ethics," <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [53569609419064455]">7</container>
+            <unittitle>"Concepts of Rational Action in the History of Ethics,"</unittitle><unitdate type="inclusive" normal="1982">1982</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [13911822940758586010]">7</container>
-            <unittitle>"The Concept of Social Justice," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [53569609419064455]">7</container>
+            <unittitle>"The Concept of Social Justice,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [13911822940758586010]">7</container>
-            <unittitle>"Concluding More or Less Philosophical Postscript" (for Goodpaster's volume) <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [53569609419064455]">7</container>
+            <unittitle>"Concluding More or Less Philosophical Postscript" (for Goodpaster's volume)</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [13911822940758586010]">7</container>
-            <unittitle>"Draft of the Report of Curriculum Committee," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [53569609419064455]">7</container>
+            <unittitle>"Draft of the Report of Curriculum Committee,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [13911822940758586010]">7</container>
+            <container type="box" label="Box [53569609419064455]">7</container>
             <unittitle>Editions of <title render="italic">Ethics</title></unittitle>
           </did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [13911822940758586010]">7</container>
-            <unittitle>"Education" (for <title render="italic">Dictionary of the History of Ideas</title>), <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [53569609419064455]">7</container>
+            <unittitle>"Education" (for <title render="italic">Dictionary of the History of Ideas</title>)</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [13911822940758586010]">7</container>
-            <unittitle>"Education for the Good Life," <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [53569609419064455]">7</container>
+            <unittitle>"Education for the Good Life,"</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [13911822940758586010]">7</container>
-            <unittitle>"Educational Values and Goals: Some Dispositions to be Fastered," <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [53569609419064455]">7</container>
+            <unittitle>"Educational Values and Goals: Some Dispositions to be Fastered,"</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [13911822940758586010]">7</container>
-            <unittitle>"Ethical Theory in America, 1930-1960," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [53569609419064455]">7</container>
+            <unittitle>"Ethical Theory in America, 1930-1960,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [13911822940758586010]">7</container>
+            <container type="box" label="Box [53569609419064455]">7</container>
             <unittitle>
               <title render="italic">Ethics</title>
             </unittitle>
@@ -925,522 +812,437 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [13911822940758586010]">7</container>
-            <unittitle>"Ethics and the Environment," <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [53569609419064455]">7</container>
+            <unittitle>"Ethics and the Environment,"</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [13911822940758586010]">7</container>
-            <unittitle>"The Ethics of Respect for Life," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [53569609419064455]">7</container>
+            <unittitle>"The Ethics of Respect for Life,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [13911822940758586010]">7</container>
-            <unittitle>"The Ethics of Love Conceived as an Ethics of Virtue," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [53569609419064455]">7</container>
+            <unittitle>"The Ethics of Love Conceived as an Ethics of Virtue,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [13911822940758586010]">7</container>
-            <unittitle>"Ethics of Respect for Persons," <unitdate type="inclusive" normal="1977">1977</unitdate>, <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [53569609419064455]">7</container>
+            <unittitle>"Ethics of Respect for Persons,"</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate><unitdate type="inclusive" normal="1982">1982</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [13911822940758586010]">7</container>
-            <unittitle>" <title render="italic">Ethics</title> Revisited in 1979," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [53569609419064455]">7</container>
+            <unittitle>" <title render="italic">Ethics</title> Revisited in 1979,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [13911822940758586010]">7</container>
-            <unittitle>"The Ethics of Right Reason," <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [53569609419064455]">7</container>
+            <unittitle>"The Ethics of Right Reason,"</unittitle><unitdate type="inclusive" normal="1981">1981</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [13911822940758586010]">7</container>
-            <unittitle>"An Ethics of Virtue," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [53569609419064455]">7</container>
+            <unittitle>"An Ethics of Virtue,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [13911822940758586010]">7</container>
-            <unittitle>"Ewing's Case Against Naturalistic Theories of Value," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [53569609419064455]">7</container>
+            <unittitle>"Ewing's Case Against Naturalistic Theories of Value,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [13911822940758586010]">7</container>
-            <unittitle>"Four Theories of Types of Morality," <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [53569609419064455]">7</container>
+            <unittitle>"Four Theories of Types of Morality,"</unittitle><unitdate type="inclusive" normal="1975">1975</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [13911822940758586010]">7</container>
-            <unittitle>"Freedom: Responsibility and Decision," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [53569609419064455]">7</container>
+            <unittitle>"Freedom: Responsibility and Decision,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [13911822940758586010]">7</container>
-            <unittitle>"Frondizi on the Foundations of Moral Norms," <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [53569609419064455]">7</container>
+            <unittitle>"Frondizi on the Foundations of Moral Norms,"</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [13911822940758586010]">7</container>
-            <unittitle>"Geneva: The Speech-Act Analysis of Words," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [53569609419064455]">7</container>
+            <unittitle>"Geneva: The Speech-Act Analysis of Words,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [13911822940758586010]">7</container>
-            <unittitle>"Hare on the Levels of Moral Thinking," <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [53569609419064455]">7</container>
+            <unittitle>"Hare on the Levels of Moral Thinking,"</unittitle><unitdate type="inclusive" normal="1984">1984</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [13911822940758586010]">7</container>
-            <unittitle>"Hare on Moral Weakness and the Definition of Morality," <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [53569609419064455]">7</container>
+            <unittitle>"Hare on Moral Weakness and the Definition of Morality,"</unittitle><unitdate type="inclusive" normal="1984">1984</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [660684020896264495649]">8</container>
-            <unittitle>"Hutcheson's Moral Sense Theory," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31853666741944232054]">8</container>
+            <unittitle>"Hutcheson's Moral Sense Theory,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [660684020896264495649]">8</container>
-            <unittitle>"Indefinability in Ethics," <unitdate type="inclusive" normal="1936">1936</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31853666741944232054]">8</container>
+            <unittitle>"Indefinability in Ethics,"</unittitle><unitdate type="inclusive" normal="1936">1936</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [660684020896264495649]">8</container>
-            <unittitle>Introduction to an edition of Jonathan Edward's <title render="italic">The Nature of True Virtue</title>, <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31853666741944232054]">8</container>
+            <unittitle>Introduction to an edition of Jonathan Edward's <title render="italic">The Nature of True Virtue</title></unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [660684020896264495649]">8</container>
-            <unittitle>"Is Morality a Purely Personal Matter?" <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31853666741944232054]">8</container>
+            <unittitle>"Is Morality a Purely Personal Matter?"</unittitle><unitdate type="inclusive" normal="1976">1976</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [660684020896264495649]">8</container>
-            <unittitle>"Is Morality Logically Dependent on Religion?" <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31853666741944232054]">8</container>
+            <unittitle>"Is Morality Logically Dependent on Religion?"</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [660684020896264495649]">8</container>
-            <unittitle>"C.I. Lewis on the Ground and Nature of the Right," <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31853666741944232054]">8</container>
+            <unittitle>"C.I. Lewis on the Ground and Nature of the Right,"</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [660684020896264495649]">8</container>
-            <unittitle>"Love and Principle in Christian Ethics," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31853666741944232054]">8</container>
+            <unittitle>"Love and Principle in Christian Ethics,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [660684020896264495649]">8</container>
-            <unittitle>"MacIntyre and Modern Morality," <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31853666741944232054]">8</container>
+            <unittitle>"MacIntyre and Modern Morality,"</unittitle><unitdate type="inclusive" normal="1981">1981</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [660684020896264495649]">8</container>
-            <unittitle>"McCormick and the Traditional Distinction," <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31853666741944232054]">8</container>
+            <unittitle>"McCormick and the Traditional Distinction,"</unittitle><unitdate type="inclusive" normal="1974">1974</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [660684020896264495649]">8</container>
-            <unittitle>"McMurrin and Smith on the Philosophy of Education," <unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31853666741944232054]">8</container>
+            <unittitle>"McMurrin and Smith on the Philosophy of Education,"</unittitle><unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [660684020896264495649]">8</container>
-            <unittitle>"The Metaphysics of Value," <unitdate>undated</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [31853666741944232054]">8</container>
+            <unittitle>"The Metaphysics of Value,"</unittitle><unitdate>undated</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [660684020896264495649]">8</container>
-            <unittitle>"Methods of Ethics, 1977," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31853666741944232054]">8</container>
+            <unittitle>"Methods of Ethics, 1977,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [660684020896264495649]">8</container>
-            <unittitle>"A Model for Analyzing a Philosophy of Education," <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31853666741944232054]">8</container>
+            <unittitle>"A Model for Analyzing a Philosophy of Education,"</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [660684020896264495649]">8</container>
-            <unittitle>"Moral Education, Moral Authority, and Moral Autonomy" <unitdate type="inclusive" normal="1973/1977" certainty="approximate">circa 1973-1977</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31853666741944232054]">8</container>
+            <unittitle>"Moral Education, Moral Authority, and Moral Autonomy"</unittitle><unitdate type="inclusive" normal="1973/1977" certainty="approximate">circa 1973-1977</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [660684020896264495649]">8</container>
-            <unittitle>"Moral Education: The Philosophical View," <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31853666741944232054]">8</container>
+            <unittitle>"Moral Education: The Philosophical View,"</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [660684020896264495649]">8</container>
-            <unittitle>"Moral Philosophy and Moral Education," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31853666741944232054]">8</container>
+            <unittitle>"Moral Philosophy and Moral Education,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [660684020896264495649]">8</container>
-            <unittitle>"(Moral) Philosophy and Moral Standards," <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31853666741944232054]">8</container>
+            <unittitle>"(Moral) Philosophy and Moral Standards,"</unittitle><unitdate type="inclusive" normal="1976">1976</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [660684020896264495649]">8</container>
-            <unittitle>"Moral Philosophy and World Hunger," <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31853666741944232054]">8</container>
+            <unittitle>"Moral Philosophy and World Hunger,"</unittitle><unitdate type="inclusive" normal="1975">1975</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [660684020896264495649]">8</container>
-            <unittitle>"Moral Philosophy and the Future," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31853666741944232054]">8</container>
+            <unittitle>"Moral Philosophy and the Future,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [660684020896264495649]">8</container>
-            <unittitle>"Moral Philosophy at Mid-Century," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31853666741944232054]">8</container>
+            <unittitle>"Moral Philosophy at Mid-Century,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [660684020896264495649]">8</container>
-            <unittitle>"Moral Philosophy in America," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31853666741944232054]">8</container>
+            <unittitle>"Moral Philosophy in America,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [660684020896264495649]">8</container>
-            <unittitle>"Moral Philosophy in the United States Today," <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31853666741944232054]">8</container>
+            <unittitle>"Moral Philosophy in the United States Today,"</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [660684020896264495649]">8</container>
-            <unittitle>"Moral Principles as Principles for Institutions," <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31853666741944232054]">8</container>
+            <unittitle>"Moral Principles as Principles for Institutions,"</unittitle><unitdate type="inclusive" normal="1976">1976</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [660684020896264495649]">8</container>
-            <unittitle>"Moral Saints, Saints, and Moral Philosophy," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31853666741944232054]">8</container>
+            <unittitle>"Moral Saints, Saints, and Moral Philosophy,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [660684020896264495649]">8</container>
-            <unittitle>"Morality and Conflict," <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31853666741944232054]">8</container>
+            <unittitle>"Morality and Conflict,"</unittitle><unitdate type="inclusive" normal="1983">1983</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [660684020896264495649]">8</container>
-            <unittitle>"Morality and Religion, Relations of," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31853666741944232054]">8</container>
+            <unittitle>"Morality and Religion, Relations of,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [660684020896264495649]">8</container>
-            <unittitle>"Must Morality Have an Object?" <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31853666741944232054]">8</container>
+            <unittitle>"Must Morality Have an Object?"</unittitle><unitdate type="inclusive" normal="1974">1974</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [660684020896264495649]">8</container>
-            <unittitle>"Natural and Inalienable Rights," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31853666741944232054]">8</container>
+            <unittitle>"Natural and Inalienable Rights,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [660684020896264495649]">8</container>
-            <unittitle>"Newman, Religion, and the University," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31853666741944232054]">8</container>
+            <unittitle>"Newman, Religion, and the University,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [660684020896264495649]">8</container>
-            <unittitle>"Note A Self-Involving Utterance," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31853666741944232054]">8</container>
+            <unittitle>"Note A Self-Involving Utterance,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [660684020896264495649]">8</container>
-            <unittitle>"Notes on 'War and Morality'," <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31853666741944232054]">8</container>
+            <unittitle>"Notes on 'War and Morality',"</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [660684020896264495649]">8</container>
-            <unittitle>"The Object (Subject) of Moral Judgment," <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31853666741944232054]">8</container>
+            <unittitle>"The Object (Subject) of Moral Judgment,"</unittitle><unitdate type="inclusive" normal="1973">1973</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [660684020896264495649]">8</container>
-            <unittitle>"Obligation and Ability," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31853666741944232054]">8</container>
+            <unittitle>"Obligation and Ability,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [660684020896264495649]">8</container>
-            <unittitle>"Obligation and Motivation in Recent Moral Philosophy," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31853666741944232054]">8</container>
+            <unittitle>"Obligation and Motivation in Recent Moral Philosophy,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [660684020896264495649]">8</container>
-            <unittitle>"On Defining and Defending Natural Law," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31853666741944232054]">8</container>
+            <unittitle>"On Defining and Defending Natural Law,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [660684020896264495649]">8</container>
-            <unittitle>"On Defining Moral Judgments, Principles, and Codes," <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31853666741944232054]">8</container>
+            <unittitle>"On Defining Moral Judgments, Principles, and Codes,"</unittitle><unitdate type="inclusive" normal="1973">1973</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [660684020896264495649]">8</container>
-            <unittitle>"On Distinguishing Critical and Positive Morality, Etc." <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31853666741944232054]">8</container>
+            <unittitle>"On Distinguishing Critical and Positive Morality, Etc."</unittitle><unitdate type="inclusive" normal="1975">1975</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [660684020896264495649]">8</container>
-            <unittitle>"On Morality and Sex Change," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31853666741944232054]">8</container>
+            <unittitle>"On Morality and Sex Change,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [660684020896264495649]">8</container>
-            <unittitle>"On the Hobby of Bird Watching," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31853666741944232054]">8</container>
+            <unittitle>"On the Hobby of Bird Watching,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [660684020896264495649]">8</container>
-            <unittitle>"On 'The Upside-down Curriculum'," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31853666741944232054]">8</container>
+            <unittitle>"On 'The Upside-down Curriculum',"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [660684020896264495649]">8</container>
-            <unittitle>"Ought and Is Once More," <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31853666741944232054]">8</container>
+            <unittitle>"Ought and Is Once More,"</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>"Our Belief in Reason," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>"Our Belief in Reason,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>"The Pattern of Moral Philosophy in America" <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>"The Pattern of Moral Philosophy in America"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>"A Peculiar Set of Terms" <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>"A Peculiar Set of Terms"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>"Phi Beta Kappa: Guide of Life" <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>"Phi Beta Kappa: Guide of Life"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>"The Philosopher's Attack on Morality" <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>"The Philosopher's Attack on Morality"</unittitle><unitdate type="inclusive" normal="1973">1973</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>"Philosophical Inquiry and the Schools" <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>"Philosophical Inquiry and the Schools"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>"The Philosophy of Education" <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>"The Philosophy of Education"</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>"A Point of View for the Future" <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>"A Point of View for the Future"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>"The Potential of Theology for Ethics" <unitdate type="inclusive" normal="1982/1983">1982-1983</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>"The Potential of Theology for Ethics"</unittitle><unitdate type="inclusive" normal="1982/1983">1982-1983</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>"Preface to Translation of Reiner's Book" <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>"Preface to Translation of Reiner's Book"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>"Prichard and the Ethics of Virtue; Notes on a Footnote" <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>"Prichard and the Ethics of Virtue; Notes on a Footnote"</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>"The Principles of Morality" <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>"The Principles of Morality"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>"Recent Conceptions of Morality" <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>"Recent Conceptions of Morality"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
+            <container type="box" label="Box [86839644998620784199]">9</container>
             <unittitle>"Religion, Learning, and the University</unittitle>
           </did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>"The Right to Life of Non-Human Beings," <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>"The Right to Life of Non-Human Beings,"</unittitle><unitdate type="inclusive" normal="1981">1981</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>"Rights and Theories about Rights," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>"Rights and Theories about Rights,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>"Sellers' Theory of Valuation," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>"Sellers' Theory of Valuation,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>"Sidgwick and the History of Ethical Dualism," <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>"Sidgwick and the History of Ethical Dualism,"</unittitle><unitdate type="inclusive" normal="1988">1988</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>"Sidgwick's Methods of Ethics, EDT. 7, Page 1" <unitdate type="inclusive" normal="1988/1990" certainty="approximate">circa 1988-1990</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>"Sidgwick's Methods of Ethics, EDT. 7, Page 1"</unittitle><unitdate type="inclusive" normal="1988/1990" certainty="approximate">circa 1988-1990</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>"Sidney Hook, Pragmatism and the Magic Sense of Life," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>"Sidney Hook, Pragmatism and the Magic Sense of Life,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>"Some Beliefs about Justice," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>"Some Beliefs about Justice,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>"Spinoza's 'New Morality': Notes on Book IV," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>"Spinoza's 'New Morality': Notes on Book IV,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>"Spinoza on the Knowledge of Good and Evil," <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>"Spinoza on the Knowledge of Good and Evil,"</unittitle><unitdate type="inclusive" normal="1976">1976</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>"Theology Voluntarism Today," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>"Theology Voluntarism Today,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>"Toward a Philosophy of Moral Education," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>"Toward a Philosophy of Moral Education,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>"Toward a Policy for a Public Education," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>"Toward a Policy for a Public Education,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>"Twentieth Century Philosophy Seen From the Middle," <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>"Twentieth Century Philosophy Seen From the Middle,"</unittitle><unitdate type="inclusive" normal="1950">1950</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>"Under What Net?" <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>"Under What Net?"</unittitle><unitdate type="inclusive" normal="1973">1973</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>"Value and Valuation," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>"Value and Valuation,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>"Warnock <title render="italic">Morality and Language</title>," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>"Warnock <title render="italic">Morality and Language</title>,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Lectures and Papers <unitdate type="inclusive" normal="1930/1987">1930-1987</unitdate></unittitle>
-          <physdesc altrender="whole">
+          <unittitle>Lectures and Papers</unittitle><unitdate type="inclusive" normal="1930/1987">1930-1987</unitdate><physdesc altrender="whole">
             <extent altrender="materialtype spaceoccupied">1.7 linear feet</extent>
           </physdesc>
         </did>
@@ -1449,453 +1251,379 @@
         </scopecontent>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>"The Basic Theory of Relevancy" (Institute on Advocacy, University of Michigan) <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>"The Basic Theory of Relevancy" (Institute on Advocacy, University of Michigan)</unittitle><unitdate type="inclusive" normal="1956">1956</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>"The Bearing of Ethics on Morality" (Oxford) <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>"The Bearing of Ethics on Morality" (Oxford)</unittitle><unitdate type="inclusive" normal="1979">1979</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>"Benificence / Benevolence" (Conference on Private Philanthropy and the Public Good) <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>"Benificence / Benevolence" (Conference on Private Philanthropy and the Public Good)</unittitle><unitdate type="inclusive" normal="1985">1985</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>"Beyond Morality?" (Iowa Philosophy Society) <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>"Beyond Morality?" (Iowa Philosophy Society)</unittitle><unitdate type="inclusive" normal="1976">1976</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>Boulder Summer Institute Lectures <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>Boulder Summer Institute Lectures</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>Carnegie Summer Institute in Philosophy Lectures (Notre Dame University) <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>Carnegie Summer Institute in Philosophy Lectures (Notre Dame University)</unittitle><unitdate type="inclusive" normal="1972">1972</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>"The Categorical Imperative" (Michigan State University) <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>"The Categorical Imperative" (Michigan State University)</unittitle><unitdate type="inclusive" normal="1958">1958</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>"Comments on Mandelbaum," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>"Comments on Mandelbaum,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>"Comments on Passmore," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>"Comments on Passmore,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>"Comments on Sturgeon on Brandt (and me)," <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>"Comments on Sturgeon on Brandt (and me),"</unittitle><unitdate type="inclusive" normal="1981">1981</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>"The Concept of Education Today" <unitdate type="inclusive" normal="1969/1970" certainty="approximate">circa 1969-1970</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>"The Concept of Education Today"</unittitle><unitdate type="inclusive" normal="1969/1970" certainty="approximate">circa 1969-1970</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>"The Concept of Morality" (Stockholm) <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>"The Concept of Morality" (Stockholm)</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>"Contra the Contras: A Trilogy," <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>"Contra the Contras: A Trilogy,"</unittitle><unitdate type="inclusive" normal="1987">1987</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>"Conversations with Carney and Hauerwas," <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>"Conversations with Carney and Hauerwas,"</unittitle><unitdate type="inclusive" normal="1975">1975</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [87344274049137739866]">9</container>
-            <unittitle>"Discussion of John Dewey's 'Some Questions about Values'," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86839644998620784199]">9</container>
+            <unittitle>"Discussion of John Dewey's 'Some Questions about Values',"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"Ethics in an Age of Science" (Princeton University) <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"Ethics in an Age of Science" (Princeton University)</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"Ethics in British" (University of Wyoming) <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"Ethics in British" (University of Wyoming)</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"Ethics of Respect for Life" (Johns-Hopkins University) <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"Ethics of Respect for Life" (Johns-Hopkins University)</unittitle><unitdate type="inclusive" normal="1975">1975</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"Sidgwick's Methods of Ethics, EDT. 7, Page 1" <unitdate type="inclusive" normal="1988/1990" certainty="approximate">circa 1988-1990</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"Sidgwick's Methods of Ethics, EDT. 7, Page 1"</unittitle><unitdate type="inclusive" normal="1988/1990" certainty="approximate">circa 1988-1990</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"The Foundations of Normative Ethics," <unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"The Foundations of Normative Ethics,"</unittitle><unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"Four Theories of Types of Morality," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"Four Theories of Types of Morality,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"Freedom: Responsibility and Decision" (Vienna Congress of Philosophy) <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"Freedom: Responsibility and Decision" (Vienna Congress of Philosophy)</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"G.H. Von Wright on the Nature of Morality," <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"G.H. Von Wright on the Nature of Morality,"</unittitle><unitdate type="inclusive" normal="1974">1974</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>Hare <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>Hare</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"Has Morality an Independent Bottom?" <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"Has Morality an Independent Bottom?"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"Is There a Third Kind of Knowledge?" <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"Is There a Third Kind of Knowledge?"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"Is Hobbes a Little Liberal or a Little Conservative?" (Hobbes Conference, University of Michigan) <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"Is Hobbes a Little Liberal or a Little Conservative?" (Hobbes Conference, University of Michigan)</unittitle><unitdate type="inclusive" normal="1987">1987</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"Is Morality A System of Ordinary Oughts?" <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"Is Morality A System of Ordinary Oughts?"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"Is the Philosophy of Education Intellectually Responsible?" (Philosophy of Education Society Meeting, Detroit) <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"Is the Philosophy of Education Intellectually Responsible?" (Philosophy of Education Society Meeting, Detroit)</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"Justice, Social and Global" (Stockholm Symposium on Social Justice) <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"Justice, Social and Global" (Stockholm Symposium on Social Justice)</unittitle><unitdate type="inclusive" normal="1978">1978</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"Justification in Ethics and 'The Moral Point of View'" (Yale Lectures) <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"Justification in Ethics and 'The Moral Point of View'" (Yale Lectures)</unittitle><unitdate type="inclusive" normal="1957">1957</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"John Hooker on Moral Sense Theories," <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"John Hooker on Moral Sense Theories,"</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"Kantian Ethics Today" (Hope College) <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"Kantian Ethics Today" (Hope College)</unittitle><unitdate type="inclusive" normal="1985">1985</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"Methods in 19th Century Ethics" (Gormell College) <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"Methods in 19th Century Ethics" (Gormell College)</unittitle><unitdate type="inclusive" normal="1976">1976</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"Major Moral Perspectives" (Haverford Institute Lectures) <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"Major Moral Perspectives" (Haverford Institute Lectures)</unittitle><unitdate type="inclusive" normal="1974">1974</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"Methods of Ethics," <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"Methods of Ethics,"</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"Moral Decency" (University of Texas at Dallas Lecture) <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"Moral Decency" (University of Texas at Dallas Lecture)</unittitle><unitdate type="inclusive" normal="1984">1984</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"Morality and Moral Education," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"Morality and Moral Education,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"Moral Person and Moral Society" (St. Mary's College) <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"Moral Person and Moral Society" (St. Mary's College)</unittitle><unitdate type="inclusive" normal="1981">1981</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"Moral Point of View Theories" (Delaware Lecture) <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"Moral Point of View Theories" (Delaware Lecture)</unittitle><unitdate type="inclusive" normal="1979">1979</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"Must Morality Have an Object?" <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"Must Morality Have an Object?"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"The Nature of Morality" (Carus Lectures) <unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"The Nature of Morality" (Carus Lectures)</unittitle><unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"The New Morality: Situational Ethics" (University of Redlands) <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"The New Morality: Situational Ethics" (University of Redlands)</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"On A Certain Kind of Self-Committing Expression" (Student-Faculty Lecture) <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"On A Certain Kind of Self-Committing Expression" (Student-Faculty Lecture)</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"On 'Is The History of Ethics an Outlying Province of Philosophy'?" <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"On 'Is The History of Ethics an Outlying Province of Philosophy'?"</unittitle><unitdate type="inclusive" normal="1978">1978</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"On Saying the Ethical Thing," <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"On Saying the Ethical Thing,"</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"On Schneewind's 'The Misfortunes of Virtue'" (University of Michigan Colloquium in Philosophy) <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"On Schneewind's 'The Misfortunes of Virtue'" (University of Michigan Colloquium in Philosophy)</unittitle><unitdate type="inclusive" normal="1984">1984</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"On the Cognitive Non Cognitive Distinction" (Lund University) <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"On the Cognitive Non Cognitive Distinction" (Lund University)</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"The Philosopher's Attack on Morality" (London) <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"The Philosopher's Attack on Morality" (London)</unittitle><unitdate type="inclusive" normal="1973">1973</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"The Philosophy of Vocation," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"The Philosophy of Vocation,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"Prichard and the Ethics of Virtue" (Moorhead) <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"Prichard and the Ethics of Virtue" (Moorhead)</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"The Principles of Morality," <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"The Principles of Morality,"</unittitle><unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"Public Education and the Good Life" (Penn State University) <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"Public Education and the Good Life" (Penn State University)</unittitle><unitdate type="inclusive" normal="1958">1958</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"Recent Epistemology and the Planning of a Collage Curriculum" (Macalester College) <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"Recent Epistemology and the Planning of a Collage Curriculum" (Macalester College)</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"Religion, Learning, and the University" (Notre Dame) <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"Religion, Learning, and the University" (Notre Dame)</unittitle><unitdate type="inclusive" normal="1959">1959</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"Respect for Persons, Etc." (Davidson College) <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"Respect for Persons, Etc." (Davidson College)</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"Rights and Theories about Rights" (Hope College) <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"Rights and Theories about Rights" (Hope College)</unittitle><unitdate type="inclusive" normal="1985">1985</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"Shklar on Legal, Moral, and Political Decisionism," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"Shklar on Legal, Moral, and Political Decisionism,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"Situational Ethics" (Cornell) <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"Situational Ethics" (Cornell)</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"Some Questions about Morality," <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"Some Questions about Morality,"</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [402782457973506]">10</container>
-            <unittitle>"Some Beliefs about Justice" (Lindley Lecture, University of Kansas) <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6083624511367846832]">10</container>
+            <unittitle>"Some Beliefs about Justice" (Lindley Lecture, University of Kansas)</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [4328038345765776932]">11</container>
-            <unittitle>"Stevenson and the Emotive Theory of Ethics" (Washington, D.C. Philosophy Society) <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [08470600564629847295332237]">11</container>
+            <unittitle>"Stevenson and the Emotive Theory of Ethics" (Washington, D.C. Philosophy Society)</unittitle><unitdate type="inclusive" normal="1979">1979</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [4328038345765776932]">11</container>
-            <unittitle>"Tendencies in Contemporary Philosophy of Education," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [08470600564629847295332237]">11</container>
+            <unittitle>"Tendencies in Contemporary Philosophy of Education,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [4328038345765776932]">11</container>
-            <unittitle>"Thinking about Morality" (LSA Distinguished Senior Faculty Lecture Series) <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [08470600564629847295332237]">11</container>
+            <unittitle>"Thinking about Morality" (LSA Distinguished Senior Faculty Lecture Series)</unittitle><unitdate type="inclusive" normal="1978">1978</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [4328038345765776932]">11</container>
-            <unittitle>"Thoughts After Hare's Visit," <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [08470600564629847295332237]">11</container>
+            <unittitle>"Thoughts After Hare's Visit,"</unittitle><unitdate type="inclusive" normal="1985">1985</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [4328038345765776932]">11</container>
-            <unittitle>"Three Questions About Morality" (Paul Carus Lectures, American Philosophical Association) <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [08470600564629847295332237]">11</container>
+            <unittitle>"Three Questions About Morality" (Paul Carus Lectures, American Philosophical Association)</unittitle><unitdate type="inclusive" normal="1974">1974</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [4328038345765776932]">11</container>
-            <unittitle>"Toward A Philosophy Of The Family" (University of Minnesota) <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [08470600564629847295332237]">11</container>
+            <unittitle>"Toward A Philosophy Of The Family" (University of Minnesota)</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [4328038345765776932]">11</container>
-            <unittitle>"Toward A Policy For Public Education" (National Academy of Education) <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [08470600564629847295332237]">11</container>
+            <unittitle>"Toward A Policy For Public Education" (National Academy of Education)</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [4328038345765776932]">11</container>
-            <unittitle>"Two Notes on Representation," <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [08470600564629847295332237]">11</container>
+            <unittitle>"Two Notes on Representation,"</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [4328038345765776932]">11</container>
-            <unittitle>"Values In The Humanities and Fine Arts" (Macalester College) <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [08470600564629847295332237]">11</container>
+            <unittitle>"Values In The Humanities and Fine Arts" (Macalester College)</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [4328038345765776932]">11</container>
-            <unittitle>"Visions of Morality" (Calvin College) <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [08470600564629847295332237]">11</container>
+            <unittitle>"Visions of Morality" (Calvin College)</unittitle><unitdate type="inclusive" normal="1976">1976</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [4328038345765776932]">11</container>
-            <unittitle>Wheaton College Lectures <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [08470600564629847295332237]">11</container>
+            <unittitle>Wheaton College Lectures</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [4328038345765776932]">11</container>
-            <unittitle>"Wild On Causation And Responsibility," <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [08470600564629847295332237]">11</container>
+            <unittitle>"Wild On Causation And Responsibility,"</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box" label="Box [4328038345765776932]">11</container>
-            <unittitle>Miscellaneous <unitdate type="inclusive" normal="1930/1970">1930-1970</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [08470600564629847295332237]">11</container>
+            <unittitle>Miscellaneous</unittitle><unitdate type="inclusive" normal="1930/1970">1930-1970</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
             </physdesc>
           </did>
@@ -1903,8 +1631,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Topical <unitdate type="inclusive" normal="1949/1980">1949-1980</unitdate></unittitle>
-          <physdesc altrender="whole">
+          <unittitle>Topical</unittitle><unitdate type="inclusive" normal="1949/1980">1949-1980</unitdate><physdesc altrender="whole">
             <extent altrender="materialtype spaceoccupied">1.5 linear feet</extent>
           </physdesc>
         </did>
@@ -1913,315 +1640,305 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4328038345765776932]">11</container>
-            <unittitle>Aiken, Henry D., "Contra 'The Moral Point of View'" <unitdate type="inclusive" normal="1980" certainty="approximate">circa 1980</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [08470600564629847295332237]">11</container>
+            <unittitle>Aiken, Henry D., "Contra 'The Moral Point of View'"</unittitle><unitdate type="inclusive" normal="1980" certainty="approximate">circa 1980</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4328038345765776932]">11</container>
-            <unittitle>Being and Doing <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [08470600564629847295332237]">11</container>
+            <unittitle>Being and Doing</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4328038345765776932]">11</container>
+            <container type="box" label="Box [08470600564629847295332237]">11</container>
             <unittitle>Bibliography of Frankena</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4328038345765776932]">11</container>
+            <container type="box" label="Box [08470600564629847295332237]">11</container>
             <unittitle>Black Paper</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4328038345765776932]">11</container>
+            <container type="box" label="Box [08470600564629847295332237]">11</container>
             <unittitle>Bollnow, Virtue, Etc</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4328038345765776932]">11</container>
+            <container type="box" label="Box [08470600564629847295332237]">11</container>
             <unittitle>Book Reviews</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4328038345765776932]">11</container>
+            <container type="box" label="Box [08470600564629847295332237]">11</container>
             <unittitle>Brandt Notes</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4328038345765776932]">11</container>
-            <unittitle>British Ethics Notes (sample) <unitdate type="inclusive" normal="1960/1970">1960-1970</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [08470600564629847295332237]">11</container>
+            <unittitle>British Ethics Notes (sample)</unittitle><unitdate type="inclusive" normal="1960/1970">1960-1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4244564092374687]">12</container>
+            <container type="box" label="Box [8162252402370737]">12</container>
             <unittitle>Broad, C.D.</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4244564092374687]">12</container>
-            <unittitle>Broad Lectures <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [8162252402370737]">12</container>
+            <unittitle>Broad Lectures</unittitle><unitdate type="inclusive" normal="1952">1952</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4244564092374687]">12</container>
-            <unittitle>Carnegie Summer Institute in Philosophy <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [8162252402370737]">12</container>
+            <unittitle>Carnegie Summer Institute in Philosophy</unittitle><unitdate type="inclusive" normal="1972">1972</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4244564092374687]">12</container>
-            <unittitle>Conference Programs <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [8162252402370737]">12</container>
+            <unittitle>Conference Programs</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4244564092374687]">12</container>
+            <container type="box" label="Box [8162252402370737]">12</container>
             <unittitle>Council For Philosophical Studies</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4244564092374687]">12</container>
+            <container type="box" label="Box [8162252402370737]">12</container>
             <unittitle>Democracy</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4244564092374687]">12</container>
-            <unittitle>Dissertation Approval <unitdate type="inclusive" normal="1977/1980">1977-1980</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [8162252402370737]">12</container>
+            <unittitle>Dissertation Approval</unittitle><unitdate type="inclusive" normal="1977/1980">1977-1980</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4244564092374687]">12</container>
+            <container type="box" label="Box [8162252402370737]">12</container>
             <unittitle>Editing Work</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4244564092374687]">12</container>
-            <unittitle>Ethics <unitdate type="inclusive" normal="1949/1953">1949-1953</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [8162252402370737]">12</container>
+            <unittitle>Ethics</unittitle><unitdate type="inclusive" normal="1949/1953">1949-1953</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4244564092374687]">12</container>
+            <container type="box" label="Box [8162252402370737]">12</container>
             <unittitle>Family</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4244564092374687]">12</container>
+            <container type="box" label="Box [8162252402370737]">12</container>
             <unittitle>Founding Of The National Academy Of Education</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4244564092374687]">12</container>
+            <container type="box" label="Box [8162252402370737]">12</container>
             <unittitle>Guggenheim Fellow</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4244564092374687]">12</container>
+            <container type="box" label="Box [8162252402370737]">12</container>
             <unittitle>Hall's "What Is Value?"</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4244564092374687]">12</container>
+            <container type="box" label="Box [8162252402370737]">12</container>
             <unittitle>Hampshire, Stuart</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4244564092374687]">12</container>
-            <unittitle>Human Rights <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [8162252402370737]">12</container>
+            <unittitle>Human Rights</unittitle><unitdate type="inclusive" normal="1952">1952</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4244564092374687]">12</container>
+            <container type="box" label="Box [8162252402370737]">12</container>
             <unittitle>Hume</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4244564092374687]">12</container>
+            <container type="box" label="Box [8162252402370737]">12</container>
             <unittitle>In The News</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4244564092374687]">12</container>
+            <container type="box" label="Box [8162252402370737]">12</container>
             <unittitle>"Justice As Fairness"</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4244564092374687]">12</container>
+            <container type="box" label="Box [8162252402370737]">12</container>
             <unittitle>Kant</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4244564092374687]">12</container>
+            <container type="box" label="Box [8162252402370737]">12</container>
             <unittitle>Language Papers</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4244564092374687]">12</container>
+            <container type="box" label="Box [8162252402370737]">12</container>
             <unittitle>Moore, G.E</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4244564092374687]">12</container>
+            <container type="box" label="Box [8162252402370737]">12</container>
             <unittitle>Moral Education</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4244564092374687]">12</container>
+            <container type="box" label="Box [8162252402370737]">12</container>
             <unittitle>Morality</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4244564092374687]">12</container>
+            <container type="box" label="Box [8162252402370737]">12</container>
             <unittitle>Motivation and Obligation</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4244564092374687]">12</container>
+            <container type="box" label="Box [8162252402370737]">12</container>
             <unittitle>Old and New Morality</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4244564092374687]">12</container>
+            <container type="box" label="Box [8162252402370737]">12</container>
             <unittitle>"On 'The Upside-down Curriculum"</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4244564092374687]">12</container>
+            <container type="box" label="Box [8162252402370737]">12</container>
             <unittitle>Parker, DeWitt</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4244564092374687]">12</container>
+            <container type="box" label="Box [8162252402370737]">12</container>
             <unittitle>Plato and Poetry</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4244564092374687]">12</container>
+            <container type="box" label="Box [8162252402370737]">12</container>
             <unittitle>Plato vs Aristotle</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4244564092374687]">12</container>
+            <container type="box" label="Box [8162252402370737]">12</container>
             <unittitle>Relevance In Education</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4244564092374687]">12</container>
+            <container type="box" label="Box [8162252402370737]">12</container>
             <unittitle>Rights</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [559158174758545631056]">13</container>
+            <container type="box" label="Box [3113224818349474896]">13</container>
             <unittitle>Sidgwick</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [559158174758545631056]">13</container>
+            <container type="box" label="Box [3113224818349474896]">13</container>
             <unittitle>Sincerity and Authenticity</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [559158174758545631056]">13</container>
+            <container type="box" label="Box [3113224818349474896]">13</container>
             <unittitle>Social Justice Book Essay and Princeton Project</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [559158174758545631056]">13</container>
+            <container type="box" label="Box [3113224818349474896]">13</container>
             <unittitle>Social Justice</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [559158174758545631056]">13</container>
+            <container type="box" label="Box [3113224818349474896]">13</container>
             <unittitle>Social Morality, Institutions, Etc</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [559158174758545631056]">13</container>
+            <container type="box" label="Box [3113224818349474896]">13</container>
             <unittitle>Socrates and Simonides</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [559158174758545631056]">13</container>
+            <container type="box" label="Box [3113224818349474896]">13</container>
             <unittitle>Spinoza</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [559158174758545631056]">13</container>
+            <container type="box" label="Box [3113224818349474896]">13</container>
             <unittitle>Stameshkin</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [559158174758545631056]">13</container>
+            <container type="box" label="Box [3113224818349474896]">13</container>
             <unittitle>Stevenson, Charlie Leslie</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [559158174758545631056]">13</container>
+            <container type="box" label="Box [3113224818349474896]">13</container>
             <unittitle>Virtue</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [559158174758545631056]">13</container>
+            <container type="box" label="Box [3113224818349474896]">13</container>
             <unittitle>Vocabulary</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [559158174758545631056]">13</container>
+            <container type="box" label="Box [3113224818349474896]">13</container>
             <unittitle>Vocational Education</unittitle>
           </did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Correspondence <unitdate type="inclusive" normal="1934/1991">1934-1991</unitdate></unittitle>
-          <physdesc altrender="whole">
+          <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1934/1991">1934-1991</unitdate><physdesc altrender="whole">
             <extent altrender="materialtype spaceoccupied">1.7 linear feet</extent>
           </physdesc>
         </did>
@@ -2234,56 +1951,42 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [559158174758545631056]">13</container>
-              <unittitle><unitdate type="inclusive" normal="1934">1934</unitdate>, <unitdate type="inclusive" normal="1939">1939</unitdate>, <unitdate type="inclusive" normal="1941">1941</unitdate>, <unitdate type="inclusive" normal="1943/1953">1943-1953</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3113224818349474896]">13</container>
+              <unitdate type="inclusive" normal="1934">1934</unitdate><unitdate type="inclusive" normal="1939">1939</unitdate><unitdate type="inclusive" normal="1941">1941</unitdate><unitdate type="inclusive" normal="1943/1953">1943-1953</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [559158174758545631056]">13</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1954/1970">1954-1970</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [3113224818349474896]">13</container>
+              <unitdate type="inclusive" normal="1954/1970">1954-1970</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">14 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [559158174758545631056]">13</container>
-              <unittitle><unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate>, <unitdate type="inclusive" normal="1977/1978">1977-1978</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3113224818349474896]">13</container>
+              <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate><unitdate type="inclusive" normal="1977/1978">1977-1978</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [559158174758545631056]">13</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1975">1975</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [3113224818349474896]">13</container>
+              <unitdate type="inclusive" normal="1975">1975</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [559158174758545631056]">13</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1981">1981</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [3113224818349474896]">13</container>
+              <unitdate type="inclusive" normal="1981">1981</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [559158174758545631056]">13</container>
+              <container type="box" label="Box [3113224818349474896]">13</container>
               <unittitle>Fragmentary</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [559158174758545631056]">13</container>
-              <unittitle>
-                <unitdate>Undated</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [3113224818349474896]">13</container>
+              <unitdate>Undated</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -2292,160 +1995,159 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35249398227462482]">14</container>
+              <container type="box" label="Box [6418120453233951507552]">14</container>
               <unittitle>Aiken, Henry D</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35249398227462482]">14</container>
+              <container type="box" label="Box [6418120453233951507552]">14</container>
               <unittitle>American Philosophical Association And Its Committees</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35249398227462482]">14</container>
+              <container type="box" label="Box [6418120453233951507552]">14</container>
               <unittitle>Arner, Douglas</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35249398227462482]">14</container>
+              <container type="box" label="Box [6418120453233951507552]">14</container>
               <unittitle>Brandt, Richard</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35249398227462482]">14</container>
+              <container type="box" label="Box [6418120453233951507552]">14</container>
               <unittitle>Broad, C.D</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35249398227462482]">14</container>
+              <container type="box" label="Box [6418120453233951507552]">14</container>
               <unittitle>Center For Advanced Study In The Behavioral Sciences</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35249398227462482]">14</container>
+              <container type="box" label="Box [6418120453233951507552]">14</container>
               <unittitle>Chatham College</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35249398227462482]">14</container>
+              <container type="box" label="Box [6418120453233951507552]">14</container>
               <unittitle>Conference In Philosophy Of Education</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35249398227462482]">14</container>
+              <container type="box" label="Box [6418120453233951507552]">14</container>
               <unittitle>Cornell University</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35249398227462482]">14</container>
+              <container type="box" label="Box [6418120453233951507552]">14</container>
               <unittitle>Harper &amp; Brothers</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35249398227462482]">14</container>
+              <container type="box" label="Box [6418120453233951507552]">14</container>
               <unittitle>Harvard University</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35249398227462482]">14</container>
+              <container type="box" label="Box [6418120453233951507552]">14</container>
               <unittitle>Henle, Paul</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35249398227462482]">14</container>
+              <container type="box" label="Box [6418120453233951507552]">14</container>
               <unittitle>Kiefer, Howard E. (State University College at Brockport)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35249398227462482]">14</container>
+              <container type="box" label="Box [6418120453233951507552]">14</container>
               <unittitle>Leonard, Henry S</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35249398227462482]">14</container>
+              <container type="box" label="Box [6418120453233951507552]">14</container>
               <unittitle>Lepley, Ray</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35249398227462482]">14</container>
-              <unittitle>Letters of Recommendation <unitdate type="inclusive" normal="1951/1991">1951-1991</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [6418120453233951507552]">14</container>
+              <unittitle>Letters of Recommendation</unittitle><unitdate type="inclusive" normal="1951/1991">1951-1991</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35249398227462482]">14</container>
+              <container type="box" label="Box [6418120453233951507552]">14</container>
               <unittitle>Lewis, C.I</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35249398227462482]">14</container>
+              <container type="box" label="Box [6418120453233951507552]">14</container>
               <unittitle>Macmillan Company</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35249398227462482]">14</container>
+              <container type="box" label="Box [6418120453233951507552]">14</container>
               <unittitle>Maurice Mandelbaum (Maurie)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35249398227462482]">14</container>
+              <container type="box" label="Box [6418120453233951507552]">14</container>
               <unittitle>Melden, A.I. (Abe)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35249398227462482]">14</container>
+              <container type="box" label="Box [6418120453233951507552]">14</container>
               <unittitle>Morgan, Douglas</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35249398227462482]">14</container>
+              <container type="box" label="Box [6418120453233951507552]">14</container>
               <unittitle>National Foundation On The Arts And The Humanities</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35249398227462482]">14</container>
+              <container type="box" label="Box [6418120453233951507552]">14</container>
               <unittitle>Notre Dame</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35249398227462482]">14</container>
+              <container type="box" label="Box [6418120453233951507552]">14</container>
               <unittitle>Perry, Ralph Barton III</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35249398227462482]">14</container>
+              <container type="box" label="Box [6418120453233951507552]">14</container>
               <unittitle>Reiner, Hans</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35249398227462482]">14</container>
+              <container type="box" label="Box [6418120453233951507552]">14</container>
               <unittitle>
                 <title render="italic">The Review of Metaphysics</title>
               </unittitle>
@@ -2453,49 +2155,48 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35249398227462482]">14</container>
+              <container type="box" label="Box [6418120453233951507552]">14</container>
               <unittitle>Rockfeller Foundation</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35249398227462482]">14</container>
-              <unittitle>Russell, Bruce <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [6418120453233951507552]">14</container>
+              <unittitle>Russell, Bruce</unittitle><unitdate type="inclusive" normal="1983">1983</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35249398227462482]">14</container>
+              <container type="box" label="Box [6418120453233951507552]">14</container>
               <unittitle>Scheffler, Israel (Harvard)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35249398227462482]">14</container>
+              <container type="box" label="Box [6418120453233951507552]">14</container>
               <unittitle>Stevenson, Charles and Nora</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35249398227462482]">14</container>
+              <container type="box" label="Box [6418120453233951507552]">14</container>
               <unittitle>University Center in Virginia</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35249398227462482]">14</container>
+              <container type="box" label="Box [6418120453233951507552]">14</container>
               <unittitle>Visiting Committees</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35249398227462482]">14</container>
+              <container type="box" label="Box [6418120453233951507552]">14</container>
               <unittitle>Vlastos, Gregory</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35249398227462482]">14</container>
+              <container type="box" label="Box [6418120453233951507552]">14</container>
               <unittitle>Yale University</unittitle>
             </did>
           </c03>
@@ -2503,8 +2204,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>University of Michigan Activities <unitdate type="inclusive" normal="1945/1963">1945-1963</unitdate></unittitle>
-          <physdesc altrender="whole">
+          <unittitle>University of Michigan Activities</unittitle><unitdate type="inclusive" normal="1945/1963">1945-1963</unitdate><physdesc altrender="whole">
             <extent altrender="materialtype spaceoccupied">0.3 linear feet</extent>
           </physdesc>
         </did>
@@ -2517,50 +2217,44 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35249398227462482]">14</container>
-              <unittitle>College Problems <unitdate type="inclusive" normal="1945">1945</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [6418120453233951507552]">14</container>
+              <unittitle>College Problems</unittitle><unitdate type="inclusive" normal="1945">1945</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35249398227462482]">14</container>
-              <unittitle>Deanship <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [6418120453233951507552]">14</container>
+              <unittitle>Deanship</unittitle><unitdate type="inclusive" normal="1950">1950</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35249398227462482]">14</container>
-              <unittitle>Qualifications <unitdate type="inclusive" normal="1960/1963">1960-1963</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [6418120453233951507552]">14</container>
+              <unittitle>Qualifications</unittitle><unitdate type="inclusive" normal="1960/1963">1960-1963</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35249398227462482]">14</container>
-              <unittitle>Religion <unitdate type="inclusive" normal="1948">1948</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [6418120453233951507552]">14</container>
+              <unittitle>Religion</unittitle><unitdate type="inclusive" normal="1948">1948</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35249398227462482]">14</container>
-              <unittitle>Reports <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [6418120453233951507552]">14</container>
+              <unittitle>Reports</unittitle><unitdate type="inclusive" normal="1953">1953</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [35249398227462482]">14</container>
+            <container type="box" label="Box [6418120453233951507552]">14</container>
             <unittitle>Department of Philosophy</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [35249398227462482]">14</container>
-            <unittitle>Promotion Recommendations <unitdate type="inclusive" normal="1959/1961">1959-1961</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6418120453233951507552]">14</container>
+            <unittitle>Promotion Recommendations</unittitle><unitdate type="inclusive" normal="1959/1961">1959-1961</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [35249398227462482]">14</container>
+            <container type="box" label="Box [6418120453233951507552]">14</container>
             <unittitle>Speeches</unittitle>
           </did>
         </c02>

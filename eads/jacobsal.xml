@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no2001009391">Jacobs, Albert Charles, 1900-1976.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no2001009391" ref="/agents/people/742">Jacobs, Albert Charles, 1900-1976.</persname>
       </origination>
-      <unittitle encodinganalog="245">Albert C. Jacobs papers <unitdate type="inclusive" encodinganalog="245$f" normal="1909/1970">1909-1970</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851550 Aa 2</unitid>
+      <unittitle encodinganalog="245">Albert C. Jacobs papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1909/1970">1909-1970</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851550 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>College administrator; correspondence, newspaper clippings, and printed materials.</abstract>
       <repository>
@@ -79,25 +79,25 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81024714">Columbia University.</corpname>
-        <subject source="lcsh" encodinganalog="650">Education--United States.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79066408">Eisenhower, Dwight D. (Dwight David), 1890-1969.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2001009391">Jacobs, Albert Charles, 1900-1976.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50049191">Trinity College (Hartford, Conn.)</corpname>
-        <subject source="lcsh" encodinganalog="650">Universities and colleges--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Denver.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81024714" ref="/agents/corporate_entities/511">Columbia University.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6121">Education--United States.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79066408" ref="/agents/people/3747">Eisenhower, Dwight D. (Dwight David), 1890-1969.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2001009391" ref="/agents/people/742">Jacobs, Albert Charles, 1900-1976.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50049191" ref="/agents/corporate_entities/5790">Trinity College (Hartford, Conn.)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6249">Universities and colleges--United States.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5441">University of Denver.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79066408">Eisenhower, Dwight D. (Dwight David), 1890-1969.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2001009391">Jacobs, Albert Charles, 1900-1976.</persname>
-        <famname source="lcnaf" encodinganalog="600">Jacobs family.</famname>
-        <persname source="lcnaf" encodinganalog="600">Romulo, Carlos P. (Carlos Peña), 1899-1985.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50049191">Trinity College (Hartford, Conn.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79066408" ref="/agents/people/3747">Eisenhower, Dwight D. (Dwight David), 1890-1969.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2001009391" ref="/agents/people/742">Jacobs, Albert Charles, 1900-1976.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/187">Jacobs family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/57">Romulo, Carlos P. (Carlos Peña), 1899-1985.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50049191" ref="/agents/corporate_entities/5790">Trinity College (Hartford, Conn.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -107,39 +107,35 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [8305875404051527484383]">1</container>
-            <unittitle>General <unitdate type="inclusive">undated</unitdate>, <unitdate type="inclusive" normal="1909/1966">1909-1966</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [86529890426272516691]">1</container>
+            <unittitle>General</unittitle><unitdate type="inclusive">undated</unitdate><unitdate type="inclusive" normal="1909/1966">1909-1966</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">27 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [73003763443469912799004]">2</container>
-            <unittitle>General <unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [065872514229085969725]">2</container>
+            <unittitle>General</unittitle><unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [73003763443469912799004]">2</container>
+            <container type="box" label="Box [065872514229085969725]">2</container>
             <unittitle>Invitations of the University Club of New York City to meet Albert C. Jacobs, Chancellor-elect of the University of Denver</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [73003763443469912799004]">2</container>
-            <unittitle>Columbia University correspondence <unitdate type="inclusive" normal="1946/1949">1946-1949</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [065872514229085969725]">2</container>
+            <unittitle>Columbia University correspondence</unittitle><unitdate type="inclusive" normal="1946/1949">1946-1949</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [73003763443469912799004]">2</container>
-            <unittitle>Letters re leaving Columbia University <unitdate type="inclusive" normal="1949">1949</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [065872514229085969725]">2</container>
+            <unittitle>Letters re leaving Columbia University</unittitle><unitdate type="inclusive" normal="1949">1949</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
             </physdesc>
           </did>
@@ -150,22 +146,16 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [73003763443469912799004]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1949/1951">1949-1951</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [065872514229085969725]">2</container>
+              <unitdate type="inclusive" normal="1949/1951">1949-1951</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">7 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [9382543694414651124]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1952/1953">1952-1953</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [60030554181032013702]">3</container>
+              <unitdate type="inclusive" normal="1952/1953">1952-1953</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
               </physdesc>
             </did>
@@ -173,9 +163,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9382543694414651124]">3</container>
-            <unittitle>Trinity College letters <unitdate type="inclusive" normal="1950/1954">1950-1954</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [60030554181032013702]">3</container>
+            <unittitle>Trinity College letters</unittitle><unitdate type="inclusive" normal="1950/1954">1950-1954</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">7 folders</extent>
             </physdesc>
           </did>
@@ -187,62 +176,51 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9382543694414651124]">3</container>
-            <unittitle>Columbia University <unitdate type="inclusive" normal="1946/1949">1946-1949</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [60030554181032013702]">3</container>
+            <unittitle>Columbia University</unittitle><unitdate type="inclusive" normal="1946/1949">1946-1949</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9382543694414651124]">3</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1953/1955">1953-1955</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [60030554181032013702]">3</container>
+            <unitdate type="inclusive" normal="1953/1955">1953-1955</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">6 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [27939773847612196]">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1956/1968">1956-1968</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [91978923948614650450464]">4</container>
+            <unitdate type="inclusive" normal="1956/1968">1956-1968</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">19 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [277124243004790981]">5</container>
-            <unittitle><unitdate type="inclusive" normal="1946">1946</unitdate> (Assistant to the President of Columbia for Veterans Affairs)</unittitle>
-          </did>
+            <container type="box" label="Box [70566281549856820392]">5</container>
+            <unittitle>(Assistant to the President of Columbia for Veterans Affairs)</unittitle><unitdate type="inclusive" normal="1946">1946</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [277124243004790981]">5</container>
-            <unittitle><unitdate type="inclusive" normal="1946/1949">1946-1949</unitdate> (Columbia University)</unittitle>
-          </did>
+            <container type="box" label="Box [70566281549856820392]">5</container>
+            <unittitle>(Columbia University)</unittitle><unitdate type="inclusive" normal="1946/1949">1946-1949</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [277124243004790981]">5</container>
-            <unittitle><unitdate type="inclusive" normal="1950/1953">1950-1953</unitdate> (University of Denver)</unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [70566281549856820392]">5</container>
+            <unittitle>(University of Denver)</unittitle><unitdate type="inclusive" normal="1950/1953">1950-1953</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [277124243004790981]">5</container>
-            <unittitle><unitdate type="inclusive" normal="1953">1953</unitdate> (Trinity College)</unittitle>
-          </did>
+            <container type="box" label="Box [70566281549856820392]">5</container>
+            <unittitle>(Trinity College)</unittitle><unitdate type="inclusive" normal="1953">1953</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [277124243004790981]">5</container>
+            <container type="box" label="Box [70566281549856820392]">5</container>
             <unittitle>Miscellaneous</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">8 folders</extent>
@@ -251,7 +229,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [488875221409431843]">6</container>
+            <container type="box" label="Box [60010399439146883706710]">6</container>
             <unittitle>Miscellaneous</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">15 folders</extent>
@@ -265,13 +243,13 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [488875221409431843]">6</container>
+            <container type="box" label="Box [60010399439146883706710]">6</container>
             <unittitle>Programs, pamphlets, and other printed material</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3652414468931584511]">7</container>
+            <container type="box" label="Box [64021050403819077615579]">7</container>
             <unittitle>Programs, pamphlets, and other printed material</unittitle>
           </did>
         </c02>
@@ -282,33 +260,24 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [08775874504809591669]">8</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1949/1957">1949-1957</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [6441852419401670004]">8</container>
+            <unitdate type="inclusive" normal="1949/1957">1949-1957</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">19 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [906194768418506082]">9</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1958/1965">1958-1965</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [49929914996828698437]">9</container>
+            <unitdate type="inclusive" normal="1958/1965">1958-1965</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">19 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2292147937807942305]">10</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [201016064778427882941]">10</container>
+            <unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 folders</extent>
             </physdesc>
           </did>
@@ -320,13 +289,13 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2292147937807942305]">10</container>
+            <container type="box" label="Box [201016064778427882941]">10</container>
             <unittitle>Miscellaneous correspondence, newspaper clippings, and printed material</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2292147937807942305]">10</container>
+            <container type="box" label="Box [201016064778427882941]">10</container>
             <unittitle>
               <genreform normal="Photographs">Photographs</genreform>
             </unittitle>

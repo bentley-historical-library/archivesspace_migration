@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Mattern, David E., 1890-1959.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/1559">Mattern, David E., 1890-1959.</persname>
       </origination>
-      <unittitle encodinganalog="245">David E. Mattern papers <unitdate type="inclusive" encodinganalog="245$f" normal="1905/1972">1905-1972</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1930/1959">1930-1959</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851840 Aa 2</unitid>
+      <unittitle encodinganalog="245">David E. Mattern papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1905/1972">1905-1972</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1930/1959">1930-1959</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851840 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Professor of music education at University of Michigan. Correspondence relating to his work in music education; also programs relating to music education, particularly the Summer Conference on Music Education; and photographs.</abstract>
       <physdesc altrender="whole">
@@ -85,71 +85,65 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Mattern, David Earl, 1890-1959.</persname>
-        <subject source="lcsh" encodinganalog="650">Music--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no98121869">University of Michigan. Men's Glee Club.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82063886">University of Michigan. School of Music.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Summer Session.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/805">Mattern, David Earl, 1890-1959.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5709">Music--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no98121869" ref="/agents/corporate_entities/3963">University of Michigan. Men's Glee Club.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82063886" ref="/agents/corporate_entities/1001">University of Michigan. School of Music.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1713">University of Michigan. Summer Session.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname source="lcnaf" encodinganalog="610">Grand Rapids High School (Mich.). Band.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Mattern, David Earl, 1890-1959.</persname>
-        <subject source="lctgm" encodinganalog="650">Music ensembles.</subject>
-        <subject source="lctgm" encodinganalog="650">Orchestras.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79122078">Sousa, John Philip, 1854-1932.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no98121869">University of Michigan. Men's Glee Club.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4517">Grand Rapids High School (Mich.). Band.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/805">Mattern, David Earl, 1890-1959.</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3690">Music ensembles.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3614">Orchestras.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79122078" ref="/agents/people/6378">Sousa, John Philip, 1854-1932.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no98121869" ref="/agents/corporate_entities/3963">University of Michigan. Men's Glee Club.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Biographical and Personal Materials <unitdate type="inclusive" normal="1931/1972">1931-1972</unitdate></unittitle>
-        </did>
+          <unittitle>Biographical and Personal Materials</unittitle><unitdate type="inclusive" normal="1931/1972">1931-1972</unitdate></did>
         <scopecontent>
           <p>The Biographical and Personal Materials series contains several biographical articles. Also included are other personal papers relating to the purchase of a lot, and the settling of his estate after his death. In 1972, Merle Hanson, a doctoral candidate in the School of Music, requested Viola Mattern's and Shirley Smith's permission to base his dissertation on Professor Mattern's career, and his proposal is included here.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [659474144024519558605]">1</container>
+            <container type="box" label="Box [9071127949001504]">1</container>
             <unittitle>Clippings and Articles</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [659474144024519558605]">1</container>
-            <unittitle>Green Scrapbook <unitdate type="inclusive" normal="1926/1929">1926-1929</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9071127949001504]">1</container>
+            <unittitle>Green Scrapbook</unittitle><unitdate type="inclusive" normal="1926/1929">1926-1929</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [659474144024519558605]">1</container>
-            <unittitle>Red Scrapbook <unitdate type="inclusive" normal="1923/1928">1923-1928</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9071127949001504]">1</container>
+            <unittitle>Red Scrapbook</unittitle><unitdate type="inclusive" normal="1923/1928">1923-1928</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [807023744864042219]">2</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1929/1959">1929-1959</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [89582824419280901384]">2</container>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1929/1959">1929-1959</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [807023744864042219]">2</container>
-            <unittitle>Green Scrapbook <unitdate type="inclusive" normal="1921/1926">1921-1926</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [89582824419280901384]">2</container>
+            <unittitle>Green Scrapbook</unittitle><unitdate type="inclusive" normal="1921/1926">1921-1926</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [807023744864042219]">2</container>
-            <unittitle>Black Scrapbook <unitdate type="inclusive" normal="1922/1928">1922-1928</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [89582824419280901384]">2</container>
+            <unittitle>Black Scrapbook</unittitle><unitdate type="inclusive" normal="1922/1928">1922-1928</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -161,15 +155,13 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [12116728643894071015538]">3</container>
-            <unittitle>Miscellaneous <unitdate type="inclusive" normal="1905/1912">1905-1912</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9375229462233067310]">3</container>
+            <unittitle>Miscellaneous</unittitle><unitdate type="inclusive" normal="1905/1912">1905-1912</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [12116728643894071015538]">3</container>
-            <unittitle>Class notes <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9375229462233067310]">3</container>
+            <unittitle>Class notes</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -183,55 +175,48 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [12116728643894071015538]">3</container>
-            <unittitle>Pennsylvania Summer Sessions <unitdate type="inclusive" normal="1917/1924">1917-1924</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9375229462233067310]">3</container>
+            <unittitle>Pennsylvania Summer Sessions</unittitle><unitdate type="inclusive" normal="1917/1924">1917-1924</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [12116728643894071015538]">3</container>
-            <unittitle>Rochester Philharmonic Orchestra <unitdate type="inclusive" normal="1920/1929" certainty="approximate">1920s</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9375229462233067310]">3</container>
+            <unittitle>Rochester Philharmonic Orchestra</unittitle><unitdate type="inclusive" normal="1920/1929" certainty="approximate">1920s</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [12116728643894071015538]">3</container>
-            <unittitle>Junior and Senior High conducting <unitdate type="inclusive" normal="1917/1928">1917-1928</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9375229462233067310]">3</container>
+            <unittitle>Junior and Senior High conducting</unittitle><unitdate type="inclusive" normal="1917/1928">1917-1928</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [12116728643894071015538]">3</container>
+            <container type="box" label="Box [9375229462233067310]">3</container>
             <unittitle>Kalamazoo Symphony Orchestra, Saginaw Civic Orchestra, Schubert Club of Grand Rapids</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [12116728643894071015538]">3</container>
-            <unittitle>Publications <unitdate type="inclusive" normal="1928/1953">1928-1953</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9375229462233067310]">3</container>
+            <unittitle>Publications</unittitle><unitdate type="inclusive" normal="1928/1953">1928-1953</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [12116728643894071015538]">3</container>
-            <unittitle>Lectures for C201, C211, C41, C50 classes <unitdate type="inclusive" normal="1941">1941</unitdate>, <unitdate type="inclusive" normal="1950" certainty="approximate">1950 undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9375229462233067310]">3</container>
+            <unittitle>Lectures for C201, C211, C41, C50 classes</unittitle><unitdate type="inclusive" normal="1941">1941</unitdate><unitdate type="inclusive" normal="1950" certainty="approximate">1950 undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [12116728643894071015538]">3</container>
-            <unittitle>Lectures for C63 <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9375229462233067310]">3</container>
+            <unittitle>Lectures for C63</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [12116728643894071015538]">3</container>
-            <unittitle>Speeches (?) <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9375229462233067310]">3</container>
+            <unittitle>Speeches (?)</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [12116728643894071015538]">3</container>
+            <container type="box" label="Box [9375229462233067310]">3</container>
             <unittitle>Mattern's "Cookbook"</unittitle>
           </did>
         </c02>
@@ -241,14 +226,13 @@
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
-            <container type="box" label="Box [12116728643894071015538]">3</container>
+            <container type="box" label="Box [9375229462233067310]">3</container>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [12116728643894071015538]">3</container>
-            <unittitle>U of M Symphony Orchestra <unitdate type="inclusive" normal="1930/1933">1930-1933</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9375229462233067310]">3</container>
+            <unittitle>U of M Symphony Orchestra</unittitle><unitdate type="inclusive" normal="1930/1933">1930-1933</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -256,31 +240,31 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [12116728643894071015538]">3</container>
+              <container type="box" label="Box [9375229462233067310]">3</container>
               <unittitle>Programs</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [12116728643894071015538]">3</container>
+              <container type="box" label="Box [9375229462233067310]">3</container>
               <unittitle>Clippings and Publicity</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4118772142786154360738]">4</container>
+              <container type="box" label="Box [1889635484866986515403]">4</container>
               <unittitle>Business</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4118772142786154360738]">4</container>
+              <container type="box" label="Box [1889635484866986515403]">4</container>
               <unittitle>Miscellaneous</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4118772142786154360738]">4</container>
+              <container type="box" label="Box [1889635484866986515403]">4</container>
               <unittitle>Soldiers' Letters</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -294,34 +278,32 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4118772142786154360738]">4</container>
-              <unittitle>Programs <unitdate type="inclusive" normal="1945/1959">1945-1959</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [1889635484866986515403]">4</container>
+              <unittitle>Programs</unittitle><unitdate type="inclusive" normal="1945/1959">1945-1959</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4118772142786154360738]">4</container>
+              <container type="box" label="Box [1889635484866986515403]">4</container>
               <unittitle>Participants' Letters</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4118772142786154360738]">4</container>
+              <container type="box" label="Box [1889635484866986515403]">4</container>
               <unittitle>Business and Miscellaneous</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4118772142786154360738]">4</container>
+              <container type="box" label="Box [1889635484866986515403]">4</container>
               <unittitle>Clippings and Publicity</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4118772142786154360738]">4</container>
-            <unittitle>U of M "Under and Over Sixty Club" <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [1889635484866986515403]">4</container>
+            <unittitle>U of M "Under and Over Sixty Club"</unittitle><unitdate type="inclusive" normal="1956">1956</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -329,52 +311,39 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4118772142786154360738]">4</container>
-              <unittitle><unitdate type="inclusive" normal="1936">1936</unitdate>, <unitdate type="inclusive" normal="1939">1939</unitdate>, <unitdate type="inclusive" normal="1947/1949">1947-1949</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [1889635484866986515403]">4</container>
+              <unitdate type="inclusive" normal="1936">1936</unitdate><unitdate type="inclusive" normal="1939">1939</unitdate><unitdate type="inclusive" normal="1947/1949">1947-1949</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4118772142786154360738]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1950">1950</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [1889635484866986515403]">4</container>
+              <unitdate type="inclusive" normal="1950">1950</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4118772142786154360738]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1951/1952">1951-1952</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [1889635484866986515403]">4</container>
+              <unitdate type="inclusive" normal="1951/1952">1951-1952</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4118772142786154360738]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1953/1956">1953-1956</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [1889635484866986515403]">4</container>
+              <unitdate type="inclusive" normal="1953/1956">1953-1956</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4118772142786154360738]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1955">1955</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [1889635484866986515403]">4</container>
+              <unitdate type="inclusive" normal="1955">1955</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [489591530468979710608]">5</container>
+            <container type="box" label="Box [979460468244485424653]">5</container>
             <unittitle>Guest and Church conducting</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [489591530468979710608]">5</container>
+            <container type="box" label="Box [979460468244485424653]">5</container>
             <unittitle>Programs Attended</unittitle>
           </did>
         </c02>
@@ -387,7 +356,7 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [489591530468979710608]">5</container>
+            <container type="box" label="Box [979460468244485424653]">5</container>
             <unittitle>Portraits</unittitle>
           </did>
         </c02>

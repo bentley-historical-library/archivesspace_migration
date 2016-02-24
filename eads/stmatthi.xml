@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,10 +43,9 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">St. Matthias' Episcopal Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/3028">St. Matthias' Episcopal Church (Detroit, Mich.)</corpname>
       </origination>
-      <unittitle encodinganalog="245">St. Matthias Episcopal Church, Detroit, Mich., Records <unitdate type="inclusive" encodinganalog="245$f" normal="1901/1978">1901-1978</unitdate></unittitle>
-      <abstract>Episcopal church located in Detroit, Michigan. Sacramental records including baptismal, marriage, and burial registers; registers of confirmations and communicants; vestry minutes; and photographs.</abstract>
+      <unittitle encodinganalog="245">St. Matthias Episcopal Church, Detroit, Mich., Records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1901/1978">1901-1978</unitdate><abstract>Episcopal church located in Detroit, Michigan. Sacramental records including baptismal, marriage, and burial registers; registers of confirmations and communicants; vestry minutes; and photographs.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">9431 Ba 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="part">
@@ -86,19 +86,19 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539">Detroit (Mich.)--Church history.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Episcopal Church--Michigan--Detroit.</corpname>
-        <subject source="lcsh" encodinganalog="650">Registers of births, etc.--Michigan--Detroit.</subject>
-        <corpname source="lcnaf" encodinganalog="610">St. Matthias' Episcopal Church (Detroit, Mich.)</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/948">Detroit (Mich.)--Church history.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/805">Episcopal Church--Michigan--Detroit.<term type="geographic">Michigan</term><term type="geographic">Detroit.</term></corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5965">Registers of births, etc.--Michigan--Detroit.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3028">St. Matthias' Episcopal Church (Detroit, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <corpname source="lcnaf" encodinganalog="610">St. Matthias' Episcopal Church (Detroit, Mich.)</corpname>
-        <subject source="lctgm" encodinganalog="650">Churches--Michigan--Detroit.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3028">St. Matthias' Episcopal Church (Detroit, Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3722">Churches--Michigan--Detroit.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -112,9 +112,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [122051774016553388]">1</container>
-              <unittitle>Vol. 1 <unitdate type="inclusive" normal="1901/1920">1901-1920</unitdate></unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [85707215944729285271755]">1</container>
+              <unittitle>Vol. 1</unittitle><unitdate type="inclusive" normal="1901/1920">1901-1920</unitdate></did>
             <odd>
               <p>(includes Communicants, January 1903-January 1915; Baptisms, June 1901-April 1917; Confirmations, February 1905-June 1916; Marriages, May 1902-May 1920; Burials, July 1902-April 1917; and List of families, undated)</p>
             </odd>
@@ -126,9 +125,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [886297148489056919]">2</container>
-              <unittitle>Vol. 3 <unitdate type="inclusive" normal="1920/1947">1920-1947</unitdate></unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [7322314477078080]">2</container>
+              <unittitle>Vol. 3</unittitle><unitdate type="inclusive" normal="1920/1947">1920-1947</unitdate></did>
             <odd>
               <p>(includes Communicants, September 1920-December 1927; Baptisms, February 1920-August 1942; Confirmations, May 1920-May 1936; Burials, January 1920-December 1947]</p>
             </odd>
@@ -136,9 +134,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [6324734747332954317438]">3</container>
-            <unittitle>Communicants register <unitdate type="inclusive" normal="1927-12/1968-11">December 1927-November 1968</unitdate></unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [35521464421644170280198]">3</container>
+            <unittitle>Communicants register</unittitle><unitdate type="inclusive" normal="1927-12/1968-11">December 1927-November 1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -146,34 +143,24 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [90551114882983606]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1942-08/1949-07">August 1942-July 1949</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [2273130408829519812208]">1</container>
+              <unitdate type="inclusive" normal="1942-08/1949-07">August 1942-July 1949</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [90551114882983606]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1949-07/1959-06">July 1949-June 1959</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [2273130408829519812208]">1</container>
+              <unitdate type="inclusive" normal="1949-07/1959-06">July 1949-June 1959</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [90551114882983606]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1959-09/1974-10">September 1959-October 1974</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [2273130408829519812208]">1</container>
+              <unitdate type="inclusive" normal="1959-09/1974-10">September 1959-October 1974</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [90551114882983606]">1</container>
-            <unittitle>Confirmation register <unitdate type="inclusive" normal="1957-05/1977-02">May 1957-February 1977</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [2273130408829519812208]">1</container>
+            <unittitle>Confirmation register</unittitle><unitdate type="inclusive" normal="1957-05/1977-02">May 1957-February 1977</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -181,50 +168,34 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [201337482889427696398]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1920-02/1932-03">February 1920-March 1932</unitdate>
-              </unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [40950542846411113129]">4</container>
+              <unitdate type="inclusive" normal="1920-02/1932-03">February 1920-March 1932</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [1565489440028892405]">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1932-04/1942-11">April 1932-November 1942</unitdate>
-              </unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [83573603340616018522]">5</container>
+              <unitdate type="inclusive" normal="1932-04/1942-11">April 1932-November 1942</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [90551114882983606]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1942-12/1947-02">December 1942-February 1947</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [2273130408829519812208]">1</container>
+              <unitdate type="inclusive" normal="1942-12/1947-02">December 1942-February 1947</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [90551114882983606]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1947-02/1951-05">February 1947-May 1951</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [2273130408829519812208]">1</container>
+              <unitdate type="inclusive" normal="1947-02/1951-05">February 1947-May 1951</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [90551114882983606]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1951-06/1978-06">June 1951-June 1978</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [2273130408829519812208]">1</container>
+              <unitdate type="inclusive" normal="1951-06/1978-06">June 1951-June 1978</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [90551114882983606]">1</container>
-            <unittitle>Burial register <unitdate type="inclusive" normal="1948-01/1978-08">January 1948-August 1978</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [2273130408829519812208]">1</container>
+            <unittitle>Burial register</unittitle><unitdate type="inclusive" normal="1948-01/1978-08">January 1948-August 1978</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -232,43 +203,28 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [90551114882983606]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1922-01/1942-09">January 1922-September 1942</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [2273130408829519812208]">1</container>
+              <unitdate type="inclusive" normal="1922-01/1942-09">January 1922-September 1942</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [90551114882983606]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1942-09/1959-09">September 1942-September 1959</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [2273130408829519812208]">1</container>
+              <unitdate type="inclusive" normal="1942-09/1959-09">September 1942-September 1959</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [90551114882983606]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1959-09/1963-07">September 1959-July 1963</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [2273130408829519812208]">1</container>
+              <unitdate type="inclusive" normal="1959-09/1963-07">September 1959-July 1963</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [90551114882983606]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1963-05/1967-10">May 1963-October 1967</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [2273130408829519812208]">1</container>
+              <unitdate type="inclusive" normal="1963-05/1967-10">May 1963-October 1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [90551114882983606]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1967-10/1978-08">October 1967-August 1978</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [2273130408829519812208]">1</container>
+              <unitdate type="inclusive" normal="1967-10/1978-08">October 1967-August 1978</unitdate></did>
           </c03>
         </c02>
       </c01>
@@ -278,46 +234,31 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [92810064858076136540827]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1905-09/1909-04">September 1905-April 1909</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [05195448286842090321]">2</container>
+            <unitdate type="inclusive" normal="1905-09/1909-04">September 1905-April 1909</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [92810064858076136540827]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1909-04/1911-03">April 1909-March 1911</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [05195448286842090321]">2</container>
+            <unitdate type="inclusive" normal="1909-04/1911-03">April 1909-March 1911</unitdate></did>
           <odd>
             <p>(also includes parish meetings, April 1911-April 1915)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [92810064858076136540827]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1911-04/1915-12">April 1911-December 1915</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [05195448286842090321]">2</container>
+            <unitdate type="inclusive" normal="1911-04/1915-12">April 1911-December 1915</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [92810064858076136540827]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1921-01/1930-12">January 1921-December 1930</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [05195448286842090321]">2</container>
+            <unitdate type="inclusive" normal="1921-01/1930-12">January 1921-December 1930</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [92810064858076136540827]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1940-09/1949-12">September 1940-December 1949</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [05195448286842090321]">2</container>
+            <unitdate type="inclusive" normal="1940-09/1949-12">September 1940-December 1949</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -326,19 +267,18 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [92810064858076136540827]">2</container>
-            <unittitle>Correspondent secretary book <unitdate type="inclusive" normal="1930/1945">1930-1945</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [05195448286842090321]">2</container>
+            <unittitle>Correspondent secretary book</unittitle><unitdate type="inclusive" normal="1930/1945">1930-1945</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [92810064858076136540827]">2</container>
+            <container type="box" label="Box [05195448286842090321]">2</container>
             <unittitle>Miscellanea</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [92810064858076136540827]">2</container>
+            <container type="box" label="Box [05195448286842090321]">2</container>
             <unittitle>
               <genreform source="aat" normal="Photographs">Photographs</genreform>
             </unittitle>

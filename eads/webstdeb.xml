@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,10 +35,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Webster Debating Society.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/5169">University of Michigan. Webster Debating Society.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Webster Debating Society (University of Michigan) minute books <unitdate type="inclusive" encodinganalog="245$f" normal="1868/1916">1868-1916</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">87353 Bimu M6 2</unitid>
+      <unittitle encodinganalog="245">Webster Debating Society (University of Michigan) minute books</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1868/1916">1868-1916</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">87353 Bimu M6 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Minutes, 1868-1881, 1895-1899, and 1905-1916, of the Webster Debating Society of the University of Michigan, a law school student organization.</abstract>
       <physdesc altrender="whole">
@@ -78,10 +78,10 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Law School.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Societies, etc.</corpname>
-        <subject source="lcsh" encodinganalog="650">Debates and debating--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Webster Debating Society.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Law School.<term type="topical">Law School.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Societies, etc.<term type="topical">Students</term><term type="topical">Societies, etc.</term></corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8292">Debates and debating--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5169">University of Michigan. Webster Debating Society.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -91,46 +91,28 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [155274780756253]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1868-10/1873-02">October 1868-February 1873</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [8075049046542826589]">1</container>
+            <unitdate type="inclusive" normal="1868-10/1873-02">October 1868-February 1873</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1873-10/1881-03">October 1873-March 1881</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1873-10/1881-03">October 1873-March 1881</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1895-10/1899-12">October 1895-December 1899</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1895-10/1899-12">October 1895-December 1899</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1905-01/1908-02">January 1905-February 1908</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1905-01/1908-02">January 1905-February 1908</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1908-03/1915-03">March 1908-March 1915</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1908-03/1915-03">March 1908-March 1915</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1915-10/1916-01">October 1915-January 1916</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1915-10/1916-01">October 1915-January 1916</unitdate></did>
         </c02>
       </c01>
     </dsc>

@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Shartel, Burke, 1889-1967</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/6306">Shartel, Burke, 1889-1967</persname>
       </origination>
-      <unittitle encodinganalog="245">Burke Woods Shartel papers <unitdate type="inclusive" encodinganalog="245$f" normal="1885/1963">1885-1963</unitdate></unittitle>
-      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">852248 Aa 2</unitid>
+      <unittitle encodinganalog="245">Burke Woods Shartel papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1885/1963">1885-1963</unitdate><unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">852248 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Professor of law at University of Michigan. Papers include correspondence and other papers concerning personal and family matters, professional affairs, the decision of the University to re-enter the Western Intercollegiate Conference; also correspondence from students serving in World War II; and photographs.</abstract>
       <physdesc altrender="whole">
@@ -84,378 +84,254 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Intercollegiate Conference of Faculty Representatives.</corpname>
-        <geogname source="lcsh" encodinganalog="651">Oklahoma.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Sports.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Law.</corpname>
-        <subject source="lcsh" encodinganalog="650">World War, 1939-1945.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4945">Intercollegiate Conference of Faculty Representatives.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1917">Oklahoma.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Sports.<term type="topical">Sports.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1404">University of Michigan. Dept. of Law.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5684">World War, 1939-1945.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87895282">Shartel, Burke, 1889-1968</persname>
-        <famname source="lcnaf" encodinganalog="600">Shartel family.</famname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87895282" ref="/agents/people/6303">Shartel, Burke, 1889-1968</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/109">Shartel family.</famname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n94105471">Brucker, Wilber Marion, 1894-1968.</persname>
-        <persname source="lcnaf" encodinganalog="700">Ferguson, Homer, 1889-1982.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50025733">Frankfurter, Felix, 1882-1965.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82018373">Griffiths, Martha W. (Martha Wright), 1912-2003.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008189963">Herbert, J. Joseph, 1894-1956.</persname>
-        <persname source="lcnaf" encodinganalog="700">Leonard, Donald S. (Donald Sparling), 1903-1976.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008190108">Meader, George, 1907-1994</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008183306">Murfin, James Orin, 1875-1940.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80020757">Plant, Marcus L., 1911-1984</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79059931">Pound, Roscoe, 1870-1964.</persname>
-        <persname source="lcnaf" encodinganalog="700">Smith, Allan Frederick, 1911-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80098082">Stason, E. Blythe (Edwin Blythe), 1891-1972.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no95054273">Yntema, Hessel E.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n94105471" ref="/agents/people/4211">Brucker, Wilber Marion, 1894-1968.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/7348">Ferguson, Homer, 1889-1982.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50025733" ref="/agents/people/9047">Frankfurter, Felix, 1882-1965.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82018373" ref="/agents/people/4532">Griffiths, Martha W. (Martha Wright), 1912-2003.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008189963" ref="/agents/people/253">Herbert, J. Joseph, 1894-1956.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/6209">Leonard, Donald S. (Donald Sparling), 1903-1976.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008190108" ref="/agents/people/4124">Meader, George, 1907-1994</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008183306" ref="/agents/people/8199">Murfin, James Orin, 1875-1940.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80020757" ref="/agents/people/3415">Plant, Marcus L., 1911-1984</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79059931" ref="/agents/people/2435">Pound, Roscoe, 1870-1964.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/3173">Smith, Allan Frederick, 1911-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80098082" ref="/agents/people/1246">Stason, E. Blythe (Edwin Blythe), 1891-1972.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no95054273" ref="/agents/people/2507">Yntema, Hessel E.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="lctgm" encodinganalog="655">Albums.</genreform>
-        <geogname source="lcsh" encodinganalog="651">Europe.</geogname>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="lctgm" encodinganalog="655" ref="/subjects/3406">Albums.</genreform>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/980">Europe.</geogname>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Correspondence <unitdate type="inclusive" normal="1901/1963">1901-1963</unitdate></unittitle>
-        </did>
+          <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1901/1963">1901-1963</unitdate></did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83666117664849928667174]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1901">1901</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [0136699631482983639337264]">1</container>
+            <unitdate type="inclusive" normal="1901">1901</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83666117664849928667174]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1908/1910">1908-1910</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [0136699631482983639337264]">1</container>
+            <unitdate type="inclusive" normal="1908/1910">1908-1910</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83666117664849928667174]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1911/1915">1911-1915</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [0136699631482983639337264]">1</container>
+            <unitdate type="inclusive" normal="1911/1915">1911-1915</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83666117664849928667174]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1916/1920">1916-1920</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [0136699631482983639337264]">1</container>
+            <unitdate type="inclusive" normal="1916/1920">1916-1920</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83666117664849928667174]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1921/1922">1921-1922</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [0136699631482983639337264]">1</container>
+            <unitdate type="inclusive" normal="1921/1922">1921-1922</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83666117664849928667174]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1925">1925</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [0136699631482983639337264]">1</container>
+            <unitdate type="inclusive" normal="1925">1925</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83666117664849928667174]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1926/1930">1926-1930</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [0136699631482983639337264]">1</container>
+            <unitdate type="inclusive" normal="1926/1930">1926-1930</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83666117664849928667174]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1931/1935">1931-1935</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [0136699631482983639337264]">1</container>
+            <unitdate type="inclusive" normal="1931/1935">1931-1935</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83666117664849928667174]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1936">1936</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [0136699631482983639337264]">1</container>
+            <unitdate type="inclusive" normal="1936">1936</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83666117664849928667174]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1937">1937</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [0136699631482983639337264]">1</container>
+            <unitdate type="inclusive" normal="1937">1937</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83666117664849928667174]">1</container>
+            <container type="box" label="Box [0136699631482983639337264]">1</container>
             <unittitle>1938-1940</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83666117664849928667174]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1941">1941</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [0136699631482983639337264]">1</container>
+            <unitdate type="inclusive" normal="1941">1941</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83666117664849928667174]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1942">1942</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [0136699631482983639337264]">1</container>
+            <unitdate type="inclusive" normal="1942">1942</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83666117664849928667174]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1943">1943</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [0136699631482983639337264]">1</container>
+            <unitdate type="inclusive" normal="1943">1943</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83666117664849928667174]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1944">1944</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [0136699631482983639337264]">1</container>
+            <unitdate type="inclusive" normal="1944">1944</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83666117664849928667174]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1945">1945</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [0136699631482983639337264]">1</container>
+            <unitdate type="inclusive" normal="1945">1945</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83666117664849928667174]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1946-01/1946-06">January-June 1946</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [0136699631482983639337264]">1</container>
+            <unitdate type="inclusive" normal="1946-01/1946-06">January-June 1946</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83666117664849928667174]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1946-07/1946-12">July-December 1946</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [0136699631482983639337264]">1</container>
+            <unitdate type="inclusive" normal="1946-07/1946-12">July-December 1946</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83666117664849928667174]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1947">1947</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [0136699631482983639337264]">1</container>
+            <unitdate type="inclusive" normal="1947">1947</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83666117664849928667174]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1948">1948</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [0136699631482983639337264]">1</container>
+            <unitdate type="inclusive" normal="1948">1948</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83666117664849928667174]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1949">1949</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [0136699631482983639337264]">1</container>
+            <unitdate type="inclusive" normal="1949">1949</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83666117664849928667174]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1950-01/1950-06">January-June 1950</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [0136699631482983639337264]">1</container>
+            <unitdate type="inclusive" normal="1950-01/1950-06">January-June 1950</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83666117664849928667174]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1950-07/1950-12">July-December 1950</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [0136699631482983639337264]">1</container>
+            <unitdate type="inclusive" normal="1950-07/1950-12">July-December 1950</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83666117664849928667174]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1951-01/1951-06">January-June 1951</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [0136699631482983639337264]">1</container>
+            <unitdate type="inclusive" normal="1951-01/1951-06">January-June 1951</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83666117664849928667174]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1951-07/1951-12">July-December 1951</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [0136699631482983639337264]">1</container>
+            <unitdate type="inclusive" normal="1951-07/1951-12">July-December 1951</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83666117664849928667174]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1952-01/1952-06">January-June 1952</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [0136699631482983639337264]">1</container>
+            <unitdate type="inclusive" normal="1952-01/1952-06">January-June 1952</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83666117664849928667174]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1952-07/1952-12">July-December 1952</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [0136699631482983639337264]">1</container>
+            <unitdate type="inclusive" normal="1952-07/1952-12">July-December 1952</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6232074287685102]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1953-01/1953-06">January-June 1953</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [8202789245821109965432]">2</container>
+            <unitdate type="inclusive" normal="1953-01/1953-06">January-June 1953</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6232074287685102]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1953-07/1953-12">July-December 1953</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [8202789245821109965432]">2</container>
+            <unitdate type="inclusive" normal="1953-07/1953-12">July-December 1953</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6232074287685102]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1954-01/1954-06">January-June 1954</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [8202789245821109965432]">2</container>
+            <unitdate type="inclusive" normal="1954-01/1954-06">January-June 1954</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6232074287685102]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1954-07/1954-12">July-December 1954</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [8202789245821109965432]">2</container>
+            <unitdate type="inclusive" normal="1954-07/1954-12">July-December 1954</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6232074287685102]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1955-01/1955-06">January-June 1955</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [8202789245821109965432]">2</container>
+            <unitdate type="inclusive" normal="1955-01/1955-06">January-June 1955</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6232074287685102]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1955-07/1955-12">July-December 1955</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [8202789245821109965432]">2</container>
+            <unitdate type="inclusive" normal="1955-07/1955-12">July-December 1955</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6232074287685102]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1956-01/1956-06">January-June 1956</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [8202789245821109965432]">2</container>
+            <unitdate type="inclusive" normal="1956-01/1956-06">January-June 1956</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6232074287685102]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1956-07/1956-12">July-December 1956</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [8202789245821109965432]">2</container>
+            <unitdate type="inclusive" normal="1956-07/1956-12">July-December 1956</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6232074287685102]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1957">1957</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [8202789245821109965432]">2</container>
+            <unitdate type="inclusive" normal="1957">1957</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6232074287685102]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1958-01/1958-06">January-June 1958</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [8202789245821109965432]">2</container>
+            <unitdate type="inclusive" normal="1958-01/1958-06">January-June 1958</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6232074287685102]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1958-07/1958-12">July-December 1958</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [8202789245821109965432]">2</container>
+            <unitdate type="inclusive" normal="1958-07/1958-12">July-December 1958</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6232074287685102]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1959">1959</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [8202789245821109965432]">2</container>
+            <unitdate type="inclusive" normal="1959">1959</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6232074287685102]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [8202789245821109965432]">2</container>
+            <unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6232074287685102]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1963">1963</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [8202789245821109965432]">2</container>
+            <unitdate type="inclusive" normal="1963">1963</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6232074287685102]">2</container>
-            <unittitle>
-              <unitdate type="inclusive">undated</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [8202789245821109965432]">2</container>
+            <unitdate type="inclusive">undated</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -464,24 +340,21 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6232074287685102]">2</container>
-            <unittitle>U-M Athletics <unitdate type="inclusive" normal="1906/1913">1906-1913</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [8202789245821109965432]">2</container>
+            <unittitle>U-M Athletics</unittitle><unitdate type="inclusive" normal="1906/1913">1906-1913</unitdate></did>
           <odd>
             <p>(concerning the University of Michigan Athletic Department and the Western Football Conference, also newspaper clippings)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6232074287685102]">2</container>
-            <unittitle>Papers <unitdate type="inclusive" normal="1926/1954">1926-1954</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [8202789245821109965432]">2</container>
+            <unittitle>Papers</unittitle><unitdate type="inclusive" normal="1926/1954">1926-1954</unitdate><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6232074287685102]">2</container>
-            <unittitle>Trip to Germany <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [8202789245821109965432]">2</container>
+            <unittitle>Trip to Germany</unittitle><unitdate type="inclusive" normal="1951">1951</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -489,32 +362,23 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6232074287685102]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1885/1924">1885-1924</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [8202789245821109965432]">2</container>
+              <unitdate type="inclusive" normal="1885/1924">1885-1924</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6232074287685102]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1931/1963">1931-1963</unitdate>
-                <unitdate type="inclusive">undated</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [8202789245821109965432]">2</container>
+              <unitdate type="inclusive" normal="1931/1963">1931-1963</unitdate><unitdate type="inclusive">undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6232074287685102]">2</container>
-              <unittitle>Miscellanea and clippings <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8202789245821109965432]">2</container>
+              <unittitle>Miscellanea and clippings</unittitle><unitdate type="inclusive">undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6232074287685102]">2</container>
-              <unittitle>Concerning last will and testament of Elfrieda Woods Shartel <unitdate type="inclusive" normal="1946/1953">1946-1953</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8202789245821109965432]">2</container>
+              <unittitle>Concerning last will and testament of Elfrieda Woods Shartel</unittitle><unitdate type="inclusive" normal="1946/1953">1946-1953</unitdate></did>
           </c03>
         </c02>
       </c01>
@@ -524,15 +388,13 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1616178148471195111328]">3</container>
-            <unittitle>Family album <unitdate type="inclusive" normal="1880/1889" certainty="approximate">circa 1880s</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [5299946769407279025753]">3</container>
+            <unittitle>Family album</unittitle><unitdate type="inclusive" normal="1880/1889" certainty="approximate">circa 1880s</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1616178148471195111328]">3</container>
-            <unittitle>European trip album <unitdate type="inclusive" normal="1910/1919" certainty="approximate">1910s</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [5299946769407279025753]">3</container>
+            <unittitle>European trip album</unittitle><unitdate type="inclusive" normal="1910/1919" certainty="approximate">1910s</unitdate></did>
         </c02>
       </c01>
     </dsc>

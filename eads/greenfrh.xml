@@ -27,7 +27,8 @@
         <item>Edited to reflect migration of content from CD-ROM to Deep Blue JMBG</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Green, Fred Harrison, 1890-1961.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/1932">Green, Fred Harrison, 1890-1961.</persname>
       </origination>
-      <unittitle encodinganalog="245">Fred Harrison Green papers <unitdate type="inclusive" encodinganalog="245$f" normal="1918">1918</unitdate></unittitle>
-      <abstract>Letter of Fred Harrison Green, who served as a private in Company C, 310th Engineers, sent to Archangel, Russia at the end of World War I, the "Polar Bear Expedition."</abstract>
+      <unittitle encodinganalog="245">Fred Harrison Green papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1918">1918</unitdate><abstract>Letter of Fred Harrison Green, who served as a private in Company C, 310th Engineers, sent to Archangel, Russia at the end of World War I, the "Polar Bear Expedition."</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">2010150 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -81,11 +81,11 @@
       </p>
       <controlaccess>
         <head>Subjects</head>
-        <persname source="lcnaf" encodinganalog="600">Green, Fred Harrison, 1890-1961.</persname>
-        <geogname source="lcsh" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Engineer Regiment, 310th.</corpname>
-        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
-        <subject source="local" encodinganalog="690">Polar Bear Expedition.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1932">Green, Fred Harrison, 1890-1961.</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/879">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1507">United States. Army. Engineer Regiment, 310th.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5715">World War, 1914-1918.</subject>
+        <subject source="local" encodinganalog="690" ref="/subjects/3516">Polar Bear Expedition.</subject>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -95,12 +95,12 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [332078641917709938647]">1</container>
+            <container type="folder" label="Folder [817232404296192200882]">1</container>
             <unittitle>Papers</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">6 digital files</extent>
             </physdesc>
-            <dao show="new" actuate="onRequest" href="green0001">
+            <dao show="new" actuate="onRequest" href="green0001" ref="/repositories/2/digital_objects/9295">
               <daodesc>
                 <p>[view items]</p>
               </daodesc>

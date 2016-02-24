@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no2005015646">Byington, S. John, 1937-</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no2005015646" ref="/agents/people/1225">Byington, S. John, 1937-</persname>
       </origination>
-      <unittitle encodinganalog="245">S. John Byington Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1964/1972">1964-1972</unitdate></unittitle>
-      <abstract>Campaign worker for George Romney; includes biographical information and files relating to election activities in Romney's 1964 race for governor of Michigan and 1972 campaign for president.</abstract>
+      <unittitle encodinganalog="245">S. John Byington Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1964/1972">1964-1972</unitdate><abstract>Campaign worker for George Romney; includes biographical information and files relating to election activities in Romney's 1964 race for governor of Michigan and 1972 campaign for president.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">9976 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -80,12 +80,12 @@
     <controlaccess>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2005015646">Byington, S. John, 1937-</persname>
-        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1964.</subject>
-        <subject source="lcsh" encodinganalog="650">Presidents--United States--Election--1968.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50048290">Romney, George W., 1907-1995.</persname>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Politics and government--1961-1970.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2005015646" ref="/agents/people/1225">Byington, S. John, 1937-</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6620">Elections--Michigan--1964.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6621">Presidents--United States--Election--1968.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50048290" ref="/agents/people/4407">Romney, George W., 1907-1995.</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1427">Michigan--Politics and government--1961-1970.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4055">Republican Party (Mich.)</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -98,7 +98,7 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [30831161947234998170]">1</container>
+            <container type="box" label="Box [92751484800537523]">1</container>
             <unittitle>Biographical Information</unittitle>
           </did>
         </c02>
@@ -108,26 +108,19 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [30831161947234998170]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1965">1965</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [92751484800537523]">1</container>
+              <unitdate type="inclusive" normal="1965">1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [30831161947234998170]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1966/1972">1966-1972</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [92751484800537523]">1</container>
+              <unitdate type="inclusive" normal="1966/1972">1966-1972</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [30831161947234998170]">1</container>
-            <unittitle>Newsclippings <unitdate type="inclusive" normal="1964/1972">1964-1972</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [92751484800537523]">1</container>
+            <unittitle>Newsclippings</unittitle><unitdate type="inclusive" normal="1964/1972">1964-1972</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -143,29 +136,27 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [30831161947234998170]">1</container>
-              <unittitle>Gubernatorial Race <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [92751484800537523]">1</container>
+              <unittitle>Gubernatorial Race</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Republican Presidential Nomination <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></unittitle>
-            </did>
+              <unittitle>Republican Presidential Nomination</unittitle><unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [30831161947234998170]">1</container>
+                <container type="box" label="Box [92751484800537523]">1</container>
                 <unittitle>Correspondence</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [30831161947234998170]">1</container>
+                <container type="box" label="Box [92751484800537523]">1</container>
                 <unittitle>Staff Memoranda</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [30831161947234998170]">1</container>
+                <container type="box" label="Box [92751484800537523]">1</container>
                 <unittitle>Miscellaneous Minutes</unittitle>
               </did>
             </c04>
@@ -177,9 +168,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [30831161947234998170]">1</container>
-              <unittitle>Campaign materials <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [92751484800537523]">1</container>
+              <unittitle>Campaign materials</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
         </c02>
       </c01>

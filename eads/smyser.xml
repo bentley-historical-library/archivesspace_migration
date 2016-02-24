@@ -24,7 +24,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Smyser family</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/294">Smyser family</famname>
       </origination>
-      <unittitle encodinganalog="245">Smyser family papers <unitdate type="inclusive" encodinganalog="245$f" normal="1889/1984">1889-1984</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1902/1955">1902-1955</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">87441 Aa 2</unitid>
+      <unittitle encodinganalog="245">Smyser family papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1889/1984">1889-1984</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1902/1955">1902-1955</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">87441 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>M. M. and Carme H. Smyser were teachers and missionaries to Japan. The collection includes correspondence, diaries, financial and other notebooks relating to mission activities, and photographs.</abstract>
       <physdesc altrender="whole">
@@ -88,33 +88,33 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Disciples of Christ--Japan.</corpname>
-        <geogname source="lcsh" encodinganalog="651">Japan.</geogname>
-        <subject source="lcsh" encodinganalog="650">Missionaries--Japan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Disciples of Christ--Missions--Japan.</corpname>
-        <subject source="lcsh" encodinganalog="650">Women--Japan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5765">Disciples of Christ--Japan.<term type="geographic">Japan.</term></corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/944">Japan.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8492">Missionaries--Japan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5765">Disciples of Christ--Missions--Japan.<term type="geographic">Japan.</term><term type="topical">Missions</term></corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10159">Women--Japan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <subject source="lctgm" encodinganalog="650">Costumes, Japanese.</subject>
-        <geogname source="lcsh" encodinganalog="651">Japan.</geogname>
-        <geogname source="lctgm" encodinganalog="651">Japan--Missions.</geogname>
-        <subject source="lctgm" encodinganalog="650">Missions--Japan.</subject>
-        <subject source="lctgm" encodinganalog="650">Missionaries--Japan.</subject>
-        <subject source="lctgm" encodinganalog="650">Religious services.</subject>
-        <persname source="lcnaf" encodinganalog="600">Smyser, Carme Hostetter, 1869-1945.</persname>
-        <persname source="lcnaf" encodinganalog="600">Smyser, Martin Mosser, 1875-1955.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Disciples of Christ--Missions--Japan.</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5346">Costumes, Japanese.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/944">Japan.</geogname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/351">Japan--Missions.</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4245">Missions--Japan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4586">Missionaries--Japan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4261">Religious services.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4888">Smyser, Carme Hostetter, 1869-1945.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2607">Smyser, Martin Mosser, 1875-1955.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5765">Disciples of Christ--Missions--Japan.<term type="geographic">Japan.</term><term type="topical">Missions</term></corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Smyser, Carme Hostetter, 1869-1945.</persname>
-        <persname source="lcnaf" encodinganalog="700">Smyser, Martin Mosser, 1875-1955.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/4888">Smyser, Carme Hostetter, 1869-1945.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/2607">Smyser, Martin Mosser, 1875-1955.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Diaries.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3145">Diaries.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -124,15 +124,14 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [771566494105587221580]">1</container>
+            <container type="box" label="Box [7995650408849482762000]">1</container>
             <unittitle>Biographical Information</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [771566494105587221580]">1</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1895/1984">1895-1984</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [7995650408849482762000]">1</container>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1895/1984">1895-1984</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">8 folders</extent>
             </physdesc>
           </did>
@@ -145,59 +144,54 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [771566494105587221580]">1</container>
+              <container type="box" label="Box [7995650408849482762000]">1</container>
               <unittitle>Smyser Family Portraits</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [771566494105587221580]">1</container>
-              <unittitle>Tokyo and Sendai Missions <unitdate type="inclusive" normal="1895/1905" certainty="approximate">circa 1895-1905</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [7995650408849482762000]">1</container>
+              <unittitle>Tokyo and Sendai Missions</unittitle><unitdate type="inclusive" normal="1895/1905" certainty="approximate">circa 1895-1905</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [771566494105587221580]">1</container>
-              <unittitle>Yokote Mission <unitdate type="inclusive" normal="1915/1953" certainty="approximate">circa 1915-1953</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [7995650408849482762000]">1</container>
+              <unittitle>Yokote Mission</unittitle><unitdate type="inclusive" normal="1915/1953" certainty="approximate">circa 1915-1953</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [771566494105587221580]">1</container>
+              <container type="box" label="Box [7995650408849482762000]">1</container>
               <unittitle>Unidentified</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [771566494105587221580]">1</container>
-            <unittitle>Masardis, Maine, Parish Record <unitdate type="inclusive" normal="1911/1914">1911-1914</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7995650408849482762000]">1</container>
+            <unittitle>Masardis, Maine, Parish Record</unittitle><unitdate type="inclusive" normal="1911/1914">1911-1914</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [771566494105587221580]">1</container>
-            <unittitle>Carme Hostetter Lecture Notes <unitdate type="inclusive" normal="1889">1889</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7995650408849482762000]">1</container>
+            <unittitle>Carme Hostetter Lecture Notes</unittitle><unitdate type="inclusive" normal="1889">1889</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [545906331849802910117]">2</container>
-            <unittitle><genreform normal="Diaries">Diaries</genreform>, <unitdate type="inclusive" normal="1902/1953">1902-1953</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [17562258644832490951]">2</container>
+            <unittitle><genreform normal="Diaries">Diaries</genreform></unittitle><unitdate type="inclusive" normal="1902/1953">1902-1953</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">33 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [545906331849802910117]">2</container>
+            <container type="box" label="Box [17562258644832490951]">2</container>
             <unittitle>Miscellaneous Notebooks</unittitle>
           </did>
           <odd>
@@ -206,43 +200,39 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [66941084772047619755813744]">3</container>
-            <unittitle>Account Books <unitdate type="bulk" normal="1904/1908">1904-1908</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [489720954885633831611]">3</container>
+            <unittitle>Account Books</unittitle><unitdate type="bulk" normal="1904/1908">1904-1908</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">12 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [66941084772047619755813744]">3</container>
-            <unittitle>American Financial Helpers Notebooks <unitdate type="inclusive" normal="1928/1940">1928-1940</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [489720954885633831611]">3</container>
+            <unittitle>American Financial Helpers Notebooks</unittitle><unitdate type="inclusive" normal="1928/1940">1928-1940</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [66941084772047619755813744]">3</container>
-            <unittitle>Correspondence Record <unitdate type="inclusive" normal="1904/1906">1904-1906</unitdate>, <unitdate type="inclusive" normal="1929/1952">1929-1952</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [489720954885633831611]">3</container>
+            <unittitle>Correspondence Record</unittitle><unitdate type="inclusive" normal="1904/1906">1904-1906</unitdate><unitdate type="inclusive" normal="1929/1952">1929-1952</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">13 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [66941084772047619755813744]">3</container>
-            <unittitle>Roll Call Books <unitdate type="inclusive" normal="1917">1917</unitdate>, <unitdate type="inclusive" normal="1927/1941">1927-1941</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [489720954885633831611]">3</container>
+            <unittitle>Roll Call Books</unittitle><unitdate type="inclusive" normal="1917">1917</unitdate><unitdate type="inclusive" normal="1927/1941">1927-1941</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">8 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [66941084772047619755813744]">3</container>
+            <container type="box" label="Box [489720954885633831611]">3</container>
             <unittitle>Sermons and Miscellaneous Notes</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -251,9 +241,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [66941084772047619755813744]">3</container>
-            <unittitle>Sunday School Roster <unitdate type="inclusive" normal="1918">1918</unitdate>, <unitdate type="inclusive" normal="1922">1922</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [489720954885633831611]">3</container>
+            <unittitle>Sunday School Roster</unittitle><unitdate type="inclusive" normal="1918">1918</unitdate><unitdate type="inclusive" normal="1922">1922</unitdate></did>
         </c02>
       </c01>
     </dsc>

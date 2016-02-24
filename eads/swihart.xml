@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Swihart, Leon R., collector.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/1380">Swihart, Leon R., collector.</persname>
       </origination>
-      <unittitle encodinganalog="245">Leon R. Swihart collection <unitdate type="inclusive" encodinganalog="245$f" normal="1863">1863</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1969" certainty="approximate">1918-1960s (scattered dates)</unitdate></unittitle>
-      <abstract>Collected materials include Civil War diary (1863) of William Harts, soldier with Co. B, 1st Michigan Infantry; also papers of Leon Bell, member of 339th Infantry (Polar Bears) sent to northern Russia after World War I.</abstract>
+      <unittitle encodinganalog="245">Leon R. Swihart collection</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1863">1863</unitdate><unitdate type="inclusive" encodinganalog="245$f" normal="1918/1969" certainty="approximate">1918-1960s (scattered dates)</unitdate><abstract>Collected materials include Civil War diary (1863) of William Harts, soldier with Co. B, 1st Michigan Infantry; also papers of Leon Bell, member of 339th Infantry (Polar Bears) sent to northern Russia after World War I.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">03127 Aa 2 UAm</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="part">
@@ -75,21 +75,21 @@
       </p>
       <controlaccess>
         <head>Subjects</head>
-        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
-        <persname role="subject" source="lcnaf" encodinganalog="600">Harts, William.</persname>
-        <persname role="subject" source="lcnaf" encodinganalog="600">Bell, Leon.</persname>
-        <geogname source="lcsh" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <corpname role="subject" source="lcnaf" encodinganalog="610">United States. Army. Michigan Infantry Regiment, 1st (1861-1865). Company B.</corpname>
-        <geogname source="lcsh" encodinganalog="651">United States--History--Civil War, 1861-1865.</geogname>
-        <corpname role="subject" source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82129076">United States. Army. Infantry, 339th.</corpname>
-        <persname source="lcnaf" encodinganalog="700">Harts, William.</persname>
-        <persname source="lcnaf" encodinganalog="700">Bell, Leon.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5715">World War, 1914-1918.</subject>
+        <persname role="subject" source="lcnaf" encodinganalog="600" ref="/agents/people/2506">Harts, William.</persname>
+        <persname role="subject" source="lcnaf" encodinganalog="600" ref="/agents/people/6450">Bell, Leon.</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/879">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <corpname role="subject" source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4653">United States. Army. Michigan Infantry Regiment, 1st (1861-1865). Company B.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/905">United States--History--Civil War, 1861-1865.</geogname>
+        <corpname role="subject" source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82129076" ref="/agents/corporate_entities/3942">United States. Army. Infantry, 339th.</corpname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/2506">Harts, William.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/6450">Bell, Leon.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms</head>
-        <genreform source="aat" encodinganalog="655">Diaries.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="aat" encodinganalog="655">Postcards.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3145">Diaries.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3180">Postcards.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -99,7 +99,7 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [530534442252497923679]">1</container>
+            <container type="folder" label="Folder [3568378419428836864]">1</container>
             <unittitle>Diary, 1863</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">1 items</extent>
@@ -113,7 +113,7 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [8469861564410845110175531]">2</container>
+            <container type="folder" label="Folder [70686320354548709381318]">2</container>
             <unittitle>World War I scrapbook</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">1 items</extent>
@@ -122,7 +122,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [15880243969553074]">3</container>
+            <container type="folder" label="Folder [7990625524105300584618]">3</container>
             <unittitle>World War I correspondence and miscellanea</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">19 items</extent>
@@ -131,7 +131,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [55659364493796237802]">4</container>
+            <container type="folder" label="Folder [249199768411783267465]">4</container>
             <unittitle>World War I era clippings (also clippings about)</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">6 items</extent>
@@ -140,7 +140,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [046239842396843315]">5</container>
+            <container type="folder" label="Folder [4166178447985430635]">5</container>
             <unittitle>World War I postcards-Views of France and related</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">25 items</extent>
@@ -149,7 +149,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [1539947561863995204]">6</container>
+            <container type="folder" label="Folder [409496645602752201]">6</container>
             <unittitle>World War II era photographs</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">8 items</extent>
@@ -158,7 +158,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [168870149017393]">7</container>
+            <container type="folder" label="Folder [310224090158685]">7</container>
             <unittitle>Leon Bell correspondence, World War II</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 items</extent>
@@ -167,7 +167,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [84597125422866623322]">8</container>
+            <container type="folder" label="Folder [1576267824267943158982]">8</container>
             <unittitle>World War II era clippings</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">6 items</extent>

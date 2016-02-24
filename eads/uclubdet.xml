@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,10 +35,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan Club of Detroit.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/4459">University of Michigan Club of Detroit.</corpname>
       </origination>
-      <unittitle encodinganalog="245">University of Michigan Club of Detroit records <unitdate type="inclusive" encodinganalog="245$f" normal="1913/1957">1913-1957</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">861156 Bimu H6 2</unitid>
+      <unittitle encodinganalog="245">University of Michigan Club of Detroit records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1913/1957">1913-1957</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">861156 Bimu H6 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Records, 1913-1957, of the University of Michigan Club of Detroit, an alumni group. Includes correspondence files and undated papers concerning the history of the club.</abstract>
       <physdesc altrender="whole">
@@ -78,12 +78,12 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539">Detroit (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Alumni and alumnae--Michigan--Detroit.</corpname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539" ref="/subjects/929">Detroit (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Alumni and alumnae--Michigan--Detroit.<term type="topical">Alumni and alumnae</term><term type="geographic">Michigan</term><term type="geographic">Detroit.</term></corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2006035848">Lawton, James Frederick, 1888-1969.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2006035848" ref="/agents/people/2593">Lawton, James Frederick, 1888-1969.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -93,30 +93,21 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5984457243932935]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1913">1913</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [063461056479801109867]">1</container>
+            <unitdate type="inclusive" normal="1913">1913</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5984457243932935]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1926/1948">1926-1948</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [063461056479801109867]">1</container>
+            <unitdate type="inclusive" normal="1926/1948">1926-1948</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">23 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [663312914750380933]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1949/1957">1949-1957</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [1236044496272386]">2</container>
+            <unitdate type="inclusive" normal="1949/1957">1949-1957</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">14 folders</extent>
             </physdesc>
           </did>
@@ -128,7 +119,7 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [663312914750380933]">2</container>
+            <container type="box" label="Box [1236044496272386]">2</container>
             <unittitle>Concerning the history of the University of Michigan Alumni Club, undated.</unittitle>
           </did>
         </c02>

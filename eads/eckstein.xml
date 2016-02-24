@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,10 +43,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Eckstein, Alexander, 1915-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/8589">Eckstein, Alexander, 1915-</persname>
       </origination>
-      <unittitle encodinganalog="245">Alexander Eckstein Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1943/1976">1943-1976</unitdate></unittitle>
-      <abstract>Professor of economics and director of the Center for Chinese Studies at the University of Michigan, and consultant on China to the U. S. Department of State. China files relating to the Chinese economy and to the reopening of relations with the Peoples Republic of China; also correspondence and talk files; papers and photographs relating to professional travels; writings; and miscellaneous University and Vietnam subject files.</abstract>
+      <unittitle encodinganalog="245">Alexander Eckstein Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1943/1976">1943-1976</unitdate><abstract>Professor of economics and director of the Center for Chinese Studies at the University of Michigan, and consultant on China to the U. S. Department of State. China files relating to the Chinese economy and to the reopening of relations with the Peoples Republic of China; also correspondence and talk files; papers and photographs relating to professional travels; writings; and miscellaneous University and Vietnam subject files.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">85149 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -94,24 +94,24 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651">China--History--1949-1976.</geogname>
-        <subject source="lcsh" encodinganalog="650">Commerce.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79088971">Eckstein, Alexander, 1915-1976</persname>
-        <subject source="lcsh" encodinganalog="650">Economics.</subject>
-        <subject source="lcsh" encodinganalog="650">Vietnamese Conflict, 1961-1975.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Economics.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Dept. of State.</corpname>
-        <geogname source="lcsh" encodinganalog="651">United States--Foreign relations--China.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1387">China--History--1949-1976.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6574">Commerce.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79088971" ref="/agents/people/6007">Eckstein, Alexander, 1915-1976</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5732">Economics.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5917">Vietnamese Conflict, 1961-1975.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1476">University of Michigan. Dept. of Economics.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5475">United States. Dept. of State.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1389">United States--Foreign relations--China.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <geogname source="lcsh" encodinganalog="651">United States--Foreign relations--China.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1389">United States--Foreign relations--China.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -124,19 +124,19 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [337469844391981257381]">1</container>
+            <container type="box" label="Box [1241778468820157179661]">1</container>
             <unittitle>Biographical Materials</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [337469844391981257381]">1</container>
+            <container type="box" label="Box [1241778468820157179661]">1</container>
             <unittitle>Federal Employment Forms</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [337469844391981257381]">1</container>
+            <container type="box" label="Box [1241778468820157179661]">1</container>
             <unittitle>Memorabilia (World War II)</unittitle>
           </did>
         </c02>
@@ -146,30 +146,24 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [337469844391981257381]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1959/1966">1959-1966</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [1241778468820157179661]">1</container>
+              <unitdate type="inclusive" normal="1959/1966">1959-1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [337469844391981257381]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1967/1976">1967-1976</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [1241778468820157179661]">1</container>
+              <unitdate type="inclusive" normal="1967/1976">1967-1976</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [337469844391981257381]">1</container>
+            <container type="box" label="Box [1241778468820157179661]">1</container>
             <unittitle>Eulogies</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [337469844391981257381]">1</container>
+            <container type="box" label="Box [1241778468820157179661]">1</container>
             <unittitle>Obituaries</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -178,13 +172,13 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [337469844391981257381]">1</container>
+            <container type="box" label="Box [1241778468820157179661]">1</container>
             <unittitle>Letters of Condolence</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [337469844391981257381]">1</container>
+            <container type="box" label="Box [1241778468820157179661]">1</container>
             <unittitle>Miscellanea</unittitle>
           </did>
         </c02>
@@ -198,7 +192,7 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [337469844391981257381]">1</container>
+            <container type="box" label="Box [1241778468820157179661]">1</container>
             <unittitle>Association for Asian Studies</unittitle>
           </did>
         </c02>
@@ -208,50 +202,45 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [337469844391981257381]">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1961/1967">1961-1967</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [1241778468820157179661]">1</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1961/1967">1961-1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [337469844391981257381]">1</container>
-              <unittitle>Program <unitdate type="inclusive" normal="1972-05-22">May 22, 1972</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [1241778468820157179661]">1</container>
+              <unittitle>Program</unittitle><unitdate type="inclusive" normal="1972-05-22">May 22, 1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [337469844391981257381]">1</container>
+              <container type="box" label="Box [1241778468820157179661]">1</container>
               <unittitle>Research Materials (including AE Study for State Department)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [337469844391981257381]">1</container>
-              <unittitle>Research Memoranda <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [1241778468820157179661]">1</container>
+              <unittitle>Research Memoranda</unittitle><unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [337469844391981257381]">1</container>
-              <unittitle>"Themes to be Examined" (by the Panel) <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [1241778468820157179661]">1</container>
+              <unittitle>"Themes to be Examined" (by the Panel)</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [337469844391981257381]">1</container>
+              <container type="box" label="Box [1241778468820157179661]">1</container>
               <unittitle>Miscellanea</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [337469844391981257381]">1</container>
-            <unittitle>Citizen Exchange Corps <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [1241778468820157179661]">1</container>
+            <unittitle>Citizen Exchange Corps</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [337469844391981257381]">1</container>
+            <container type="box" label="Box [1241778468820157179661]">1</container>
             <unittitle>Collected Materials</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
@@ -264,21 +253,18 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [337469844391981257381]">1</container>
-              <unittitle>Draft Policy Statement <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [1241778468820157179661]">1</container>
+              <unittitle>Draft Policy Statement</unittitle><unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [337469844391981257381]">1</container>
-              <unittitle>Minutes <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [1241778468820157179661]">1</container>
+              <unittitle>Minutes</unittitle><unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [337469844391981257381]">1</container>
-              <unittitle>Policy Statement on East-West Trade <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [1241778468820157179661]">1</container>
+              <unittitle>Policy Statement on East-West Trade</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -291,34 +277,24 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [337469844391981257381]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1973/1975-04-21">1973-April 21, 1975</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [1241778468820157179661]">1</container>
+                <unitdate type="inclusive" normal="1973/1975-04-21">1973-April 21, 1975</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [337469844391981257381]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1975-04-23/1975-05">April 23, 1975-May 1975</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [1241778468820157179661]">1</container>
+                <unitdate type="inclusive" normal="1975-04-23/1975-05">April 23, 1975-May 1975</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [337469844391981257381]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1975-07/1976">July 1975-1976</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [1241778468820157179661]">1</container>
+                <unitdate type="inclusive" normal="1975-07/1976">July 1975-1976</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [337469844391981257381]">1</container>
-              <unittitle>Meetings <unitdate type="inclusive" normal="1969/1976">1969-1976</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [1241778468820157179661]">1</container>
+              <unittitle>Meetings</unittitle><unitdate type="inclusive" normal="1969/1976">1969-1976</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -326,19 +302,13 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [337469844391981257381]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1973/1975-10">1973-October 1975</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [1241778468820157179661]">1</container>
+                <unitdate type="inclusive" normal="1973/1975-10">1973-October 1975</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [337469844391981257381]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1975-11/1976">November 1975-1976</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [1241778468820157179661]">1</container>
+                <unitdate type="inclusive" normal="1975-11/1976">November 1975-1976</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -347,32 +317,23 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [5171565495014434766]">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1973/1975-06">1973-June 1975</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [7082849470825342]">2</container>
+                <unitdate type="inclusive" normal="1973/1975-06">1973-June 1975</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [5171565495014434766]">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1975-07/1976-04">July 1975-April 1976</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [7082849470825342]">2</container>
+                <unitdate type="inclusive" normal="1975-07/1976-04">July 1975-April 1976</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [5171565495014434766]">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1976-05">May 1976</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [7082849470825342]">2</container>
+                <unitdate type="inclusive" normal="1976-05">May 1976</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5171565495014434766]">2</container>
+              <container type="box" label="Box [7082849470825342]">2</container>
               <unittitle>Programs</unittitle>
             </did>
           </c03>
@@ -382,27 +343,18 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [5171565495014434766]">2</container>
-                <unittitle>
-                  <unitdate>Undated</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [7082849470825342]">2</container>
+                <unitdate>Undated</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [5171565495014434766]">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1975">1975</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [7082849470825342]">2</container>
+                <unitdate type="inclusive" normal="1975">1975</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [5171565495014434766]">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1976">1976</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [7082849470825342]">2</container>
+                <unitdate type="inclusive" normal="1976">1976</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -411,31 +363,25 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [5171565495014434766]">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [7082849470825342]">2</container>
+                <unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [5171565495014434766]">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1975/1976">1975-1976</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [7082849470825342]">2</container>
+                <unitdate type="inclusive" normal="1975/1976">1975-1976</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5171565495014434766]">2</container>
+              <container type="box" label="Box [7082849470825342]">2</container>
               <unittitle>Miscellanea</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [92095288415990371525885]">11</container>
+            <container type="box" label="Box [33281949549912737]">11</container>
             <unittitle>"Commodity Composite of the Foreign Trade of the People's Republic of China with the Free World and the USSR, 1955-1973"</unittitle>
           </did>
         </c02>
@@ -445,9 +391,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5171565495014434766]">2</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1966/1976">1966-1976</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [7082849470825342]">2</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1966/1976">1966-1976</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -455,7 +400,7 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [5171565495014434766]">2</container>
+                <container type="box" label="Box [7082849470825342]">2</container>
                 <unittitle>Drafts</unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -468,9 +413,8 @@
               </did>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [5171565495014434766]">2</container>
-                  <unittitle>House Committee on International Relations <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [7082849470825342]">2</container>
+                  <unittitle>House Committee on International Relations</unittitle><unitdate type="inclusive" normal="1976">1976</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
@@ -478,26 +422,19 @@
                 </did>
                 <c06 level="file">
                   <did>
-                    <container type="box" label="Box [5171565495014434766]">2</container>
-                    <unittitle>
-                      <unitdate type="inclusive" normal="1966">1966</unitdate>
-                    </unittitle>
-                  </did>
+                    <container type="box" label="Box [7082849470825342]">2</container>
+                    <unitdate type="inclusive" normal="1966">1966</unitdate></did>
                 </c06>
                 <c06 level="file">
                   <did>
-                    <container type="box" label="Box [5171565495014434766]">2</container>
-                    <unittitle>
-                      <unitdate type="inclusive" normal="1970">1970</unitdate>
-                    </unittitle>
-                  </did>
+                    <container type="box" label="Box [7082849470825342]">2</container>
+                    <unitdate type="inclusive" normal="1970">1970</unitdate></did>
                 </c06>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [5171565495014434766]">2</container>
-                  <unittitle>House Subcommittee on the Far East and the Pacific <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [7082849470825342]">2</container>
+                  <unittitle>House Subcommittee on the Far East and the Pacific</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
@@ -505,33 +442,23 @@
                 </did>
                 <c06 level="file">
                   <did>
-                    <container type="box" label="Box [5171565495014434766]">2</container>
-                    <unittitle>
-                      <unitdate type="inclusive" normal="1957">1957</unitdate>
-                    </unittitle>
-                  </did>
+                    <container type="box" label="Box [7082849470825342]">2</container>
+                    <unitdate type="inclusive" normal="1957">1957</unitdate></did>
                 </c06>
                 <c06 level="file">
                   <did>
-                    <container type="box" label="Box [5171565495014434766]">2</container>
-                    <unittitle>
-                      <unitdate type="inclusive" normal="1967">1967</unitdate>
-                    </unittitle>
-                  </did>
+                    <container type="box" label="Box [7082849470825342]">2</container>
+                    <unitdate type="inclusive" normal="1967">1967</unitdate></did>
                 </c06>
                 <c06 level="file">
                   <did>
-                    <container type="box" label="Box [5171565495014434766]">2</container>
-                    <unittitle>
-                      <unitdate type="inclusive" normal="1978">1978</unitdate>
-                    </unittitle>
-                  </did>
+                    <container type="box" label="Box [7082849470825342]">2</container>
+                    <unitdate type="inclusive" normal="1978">1978</unitdate></did>
                 </c06>
                 <c06 level="file">
                   <did>
-                    <container type="box" label="Box [5171565495014434766]">2</container>
-                    <unittitle>Subcommittee on Foreign Economic Policy <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
-                  </did>
+                    <container type="box" label="Box [7082849470825342]">2</container>
+                    <unittitle>Subcommittee on Foreign Economic Policy</unittitle><unitdate type="inclusive" normal="1956">1956</unitdate></did>
                 </c06>
               </c05>
               <c05 level="file">
@@ -540,43 +467,40 @@
                 </did>
                 <c06 level="file">
                   <did>
-                    <container type="box" label="Box [5171565495014434766]">2</container>
-                    <unittitle>Hearings <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-                  </did>
+                    <container type="box" label="Box [7082849470825342]">2</container>
+                    <unittitle>Hearings</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
                 </c06>
                 <c06 level="file">
                   <did>
-                    <container type="box" label="Box [5171565495014434766]">2</container>
-                    <unittitle>China, Vietnam and the United States <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-                  </did>
+                    <container type="box" label="Box [7082849470825342]">2</container>
+                    <unittitle>China, Vietnam and the United States</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
                 </c06>
               </c05>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5171565495014434766]">2</container>
+              <container type="box" label="Box [7082849470825342]">2</container>
               <unittitle>Miscellanea</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5171565495014434766]">2</container>
+            <container type="box" label="Box [7082849470825342]">2</container>
             <unittitle>Consultant to State Department (AE appointment)</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5171565495014434766]">2</container>
+            <container type="box" label="Box [7082849470825342]">2</container>
             <unittitle>Council on Foreign Relations</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5171565495014434766]">2</container>
-            <unittitle>CTP Interview Notes <unitdate type="inclusive" normal="1970/1975">1970-1975</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [7082849470825342]">2</container>
+            <unittitle>CTP Interview Notes</unittitle><unitdate type="inclusive" normal="1970/1975">1970-1975</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
             </physdesc>
           </did>
@@ -587,13 +511,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [61310140443952197445]">3</container>
+              <container type="box" label="Box [72170548049908571236303855]">3</container>
               <unittitle>Correspondence</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [61310140443952197445]">3</container>
+              <container type="box" label="Box [72170548049908571236303855]">3</container>
               <unittitle>Statements</unittitle>
             </did>
           </c03>
@@ -604,34 +528,33 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [61310140443952197445]">3</container>
+              <container type="box" label="Box [72170548049908571236303855]">3</container>
               <unittitle>Notes (by AE)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [61310140443952197445]">3</container>
+              <container type="box" label="Box [72170548049908571236303855]">3</container>
               <unittitle>Papers</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [61310140443952197445]">3</container>
+              <container type="box" label="Box [72170548049908571236303855]">3</container>
               <unittitle>Reprints</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [61310140443952197445]">3</container>
+              <container type="box" label="Box [72170548049908571236303855]">3</container>
               <unittitle>Statement of Purpose</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [61310140443952197445]">3</container>
-            <unittitle>Exchanges with the PRC <unitdate type="inclusive" normal="1976/1979">1976-1979</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [72170548049908571236303855]">3</container>
+            <unittitle>Exchanges with the PRC</unittitle><unitdate type="inclusive" normal="1976/1979">1976-1979</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -639,15 +562,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [61310140443952197445]">3</container>
-              <unittitle>Conferences <unitdate type="inclusive" normal="1959/1967">1959-1967</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [72170548049908571236303855]">3</container>
+              <unittitle>Conferences</unittitle><unitdate type="inclusive" normal="1959/1967">1959-1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [61310140443952197445]">3</container>
-              <unittitle>History of JCCC <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [72170548049908571236303855]">3</container>
+              <unittitle>History of JCCC</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -655,19 +576,13 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [61310140443952197445]">3</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1959/1961">1959-1961</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [72170548049908571236303855]">3</container>
+                <unitdate type="inclusive" normal="1959/1961">1959-1961</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [61310140443952197445]">3</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1964/1971">1964-1971</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [72170548049908571236303855]">3</container>
+                <unitdate type="inclusive" normal="1964/1971">1964-1971</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -676,15 +591,12 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [61310140443952197445]">3</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1960/1969">1960-1969</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [72170548049908571236303855]">3</container>
+                <unitdate type="inclusive" normal="1960/1969">1960-1969</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [61310140443952197445]">3</container>
+                <container type="box" label="Box [72170548049908571236303855]">3</container>
                 <unittitle>"The Development of Chinese Studies in the 1970s Options and Recommendations" by Michel Oksenberg</unittitle>
               </did>
             </c04>
@@ -695,28 +607,24 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [61310140443952197445]">3</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1961/1966">1961-1966</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [72170548049908571236303855]">3</container>
+                <unitdate type="inclusive" normal="1961/1966">1961-1966</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [61310140443952197445]">3</container>
+                <container type="box" label="Box [72170548049908571236303855]">3</container>
                 <unittitle>"A Report on the Availability..." by Eugene Wu, for the Subcommittee on Materials</unittitle>
               </did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [61310140443952197445]">3</container>
-              <unittitle>Survey of Graduate Students <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [72170548049908571236303855]">3</container>
+              <unittitle>Survey of Graduate Students</unittitle><unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [61310140443952197445]">3</container>
+              <container type="box" label="Box [72170548049908571236303855]">3</container>
               <unittitle>Miscellanea</unittitle>
             </did>
           </c03>
@@ -727,21 +635,18 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [61310140443952197445]">3</container>
-              <unittitle>Annual Reports <unitdate type="inclusive" normal="1974/1975">1974-1975</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [72170548049908571236303855]">3</container>
+              <unittitle>Annual Reports</unittitle><unitdate type="inclusive" normal="1974/1975">1974-1975</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [61310140443952197445]">3</container>
-              <unittitle>Budget. <unitdate type="inclusive" normal="1974/1975">1974-1975</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [72170548049908571236303855]">3</container>
+              <unittitle>Budget.</unittitle><unitdate type="inclusive" normal="1974/1975">1974-1975</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [61310140443952197445]">3</container>
-              <unittitle>Conferences <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [72170548049908571236303855]">3</container>
+              <unittitle>Conferences</unittitle><unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -753,19 +658,13 @@
               </did>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [61310140443952197445]">3</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1972/1974">1972-1974</unitdate>
-                  </unittitle>
-                </did>
+                  <container type="box" label="Box [72170548049908571236303855]">3</container>
+                  <unitdate type="inclusive" normal="1972/1974">1972-1974</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [61310140443952197445]">3</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1975/1976">1975-1976</unitdate>
-                  </unittitle>
-                </did>
+                  <container type="box" label="Box [72170548049908571236303855]">3</container>
+                  <unitdate type="inclusive" normal="1975/1976">1975-1976</unitdate></did>
               </c05>
             </c04>
             <c04 level="file">
@@ -778,13 +677,13 @@
                 </did>
                 <c06 level="file">
                   <did>
-                    <container type="box" label="Box [61310140443952197445]">3</container>
+                    <container type="box" label="Box [72170548049908571236303855]">3</container>
                     <unittitle>General</unittitle>
                   </did>
                 </c06>
                 <c06 level="file">
                   <did>
-                    <container type="box" label="Box [61310140443952197445]">3</container>
+                    <container type="box" label="Box [72170548049908571236303855]">3</container>
                     <unittitle>Chinese Delegation</unittitle>
                   </did>
                 </c06>
@@ -794,30 +693,24 @@
                   </did>
                   <c07 level="file">
                     <did>
-                      <container type="box" label="Box [61310140443952197445]">3</container>
-                      <unittitle>
-                        <unitdate type="inclusive" normal="1971">1971</unitdate>
-                      </unittitle>
-                    </did>
+                      <container type="box" label="Box [72170548049908571236303855]">3</container>
+                      <unitdate type="inclusive" normal="1971">1971</unitdate></did>
                   </c07>
                   <c07 level="file">
                     <did>
-                      <container type="box" label="Box [61310140443952197445]">3</container>
-                      <unittitle>
-                        <unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate>
-                      </unittitle>
-                    </did>
+                      <container type="box" label="Box [72170548049908571236303855]">3</container>
+                      <unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate></did>
                   </c07>
                 </c06>
                 <c06 level="file">
                   <did>
-                    <container type="box" label="Box [61310140443952197445]">3</container>
+                    <container type="box" label="Box [72170548049908571236303855]">3</container>
                     <unittitle>History of Table Tennis Exchange</unittitle>
                   </did>
                 </c06>
                 <c06 level="file">
                   <did>
-                    <container type="box" label="Box [61310140443952197445]">3</container>
+                    <container type="box" label="Box [72170548049908571236303855]">3</container>
                     <unittitle>Itineraries</unittitle>
                     <physdesc altrender="whole">
                       <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -830,19 +723,13 @@
                   </did>
                   <c07 level="file">
                     <did>
-                      <container type="box" label="Box [61310140443952197445]">3</container>
-                      <unittitle>
-                        <unitdate type="inclusive" normal="1971/1972-04-15">1971-April 15, 1972</unitdate>
-                      </unittitle>
-                    </did>
+                      <container type="box" label="Box [72170548049908571236303855]">3</container>
+                      <unitdate type="inclusive" normal="1971/1972-04-15">1971-April 15, 1972</unitdate></did>
                   </c07>
                   <c07 level="file">
                     <did>
-                      <container type="box" label="Box [61310140443952197445]">3</container>
-                      <unittitle>
-                        <unitdate type="inclusive" normal="1972-04-16/1972-08">April 16, 1972-August 1972</unitdate>
-                      </unittitle>
-                    </did>
+                      <container type="box" label="Box [72170548049908571236303855]">3</container>
+                      <unitdate type="inclusive" normal="1972-04-16/1972-08">April 16, 1972-August 1972</unitdate></did>
                   </c07>
                 </c06>
                 <c06 level="file">
@@ -851,34 +738,30 @@
                   </did>
                   <c07 level="file">
                     <did>
-                      <container type="box" label="Box [61310140443952197445]">3</container>
-                      <unittitle>to <unitdate type="inclusive" normal="1971-07">July, 1971</unitdate></unittitle>
-                    </did>
+                      <container type="box" label="Box [72170548049908571236303855]">3</container>
+                      <unittitle>To</unittitle><unitdate type="inclusive" normal="1971-07">July, 1971</unitdate></did>
                   </c07>
                   <c07 level="file">
                     <did>
-                      <container type="box" label="Box [61310140443952197445]">3</container>
-                      <unittitle>
-                        <unitdate type="inclusive" normal="1971-08/1972-06">August 1971-June 1972</unitdate>
-                      </unittitle>
-                    </did>
+                      <container type="box" label="Box [72170548049908571236303855]">3</container>
+                      <unitdate type="inclusive" normal="1971-08/1972-06">August 1971-June 1972</unitdate></did>
                   </c07>
                 </c06>
                 <c06 level="file">
                   <did>
-                    <container type="box" label="Box [7737436534843051372057]">4</container>
+                    <container type="box" label="Box [62382634988969941189971]">4</container>
                     <unittitle>Publicity</unittitle>
                   </did>
                 </c06>
                 <c06 level="file">
                   <did>
-                    <container type="box" label="Box [7737436534843051372057]">4</container>
+                    <container type="box" label="Box [62382634988969941189971]">4</container>
                     <unittitle>Souvenirs</unittitle>
                   </did>
                 </c06>
                 <c06 level="file">
                   <did>
-                    <container type="box" label="Box [7737436534843051372057]">4</container>
+                    <container type="box" label="Box [62382634988969941189971]">4</container>
                     <unittitle>Miscellanea</unittitle>
                   </did>
                 </c06>
@@ -890,30 +773,24 @@
               </did>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [7737436534843051372057]">4</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1971/1973">1971-1973</unitdate>
-                  </unittitle>
-                </did>
+                  <container type="box" label="Box [62382634988969941189971]">4</container>
+                  <unitdate type="inclusive" normal="1971/1973">1971-1973</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [7737436534843051372057]">4</container>
-                  <unittitle><unitdate type="inclusive" normal="1974">1974</unitdate> (Chinese Archaeological Exhibition)</unittitle>
-                </did>
+                  <container type="box" label="Box [62382634988969941189971]">4</container>
+                  <unittitle>(Chinese Archaeological Exhibition)</unittitle><unitdate type="inclusive" normal="1974">1974</unitdate></did>
               </c05>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [7737436534843051372057]">4</container>
-                <unittitle>Scholarly Exchanges <unitdate type="inclusive" normal="1965/1975">1965-1975</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [62382634988969941189971]">4</container>
+                <unittitle>Scholarly Exchanges</unittitle><unitdate type="inclusive" normal="1965/1975">1965-1975</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [7737436534843051372057]">4</container>
-                <unittitle>Trade Exchanges <unitdate type="inclusive" normal="1970/1976">1970-1976</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [62382634988969941189971]">4</container>
+                <unittitle>Trade Exchanges</unittitle><unitdate type="inclusive" normal="1970/1976">1970-1976</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -922,40 +799,34 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [7737436534843051372057]">4</container>
-                <unittitle>Board of Directors <unitdate type="inclusive" normal="1974/1976">1974-1976</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [62382634988969941189971]">4</container>
+                <unittitle>Board of Directors</unittitle><unitdate type="inclusive" normal="1974/1976">1974-1976</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [7737436534843051372057]">4</container>
-                <unittitle>Executive Committee <unitdate type="inclusive" normal="1972/1975">1972-1975</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [62382634988969941189971]">4</container>
+                <unittitle>Executive Committee</unittitle><unitdate type="inclusive" normal="1972/1975">1972-1975</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [7737436534843051372057]">4</container>
-                <unittitle>Others <unitdate type="inclusive" normal="1974/1976">1974-1976</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [62382634988969941189971]">4</container>
+                <unittitle>Others</unittitle><unitdate type="inclusive" normal="1974/1976">1974-1976</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7737436534843051372057]">4</container>
-              <unittitle>Membership <unitdate type="inclusive" normal="1974/1976">1974-1976</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [62382634988969941189971]">4</container>
+              <unittitle>Membership</unittitle><unitdate type="inclusive" normal="1974/1976">1974-1976</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7737436534843051372057]">4</container>
-              <unittitle>National Council for U.S.-China Trade <unitdate type="inclusive" normal="1973/1975">1973-1975</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [62382634988969941189971]">4</container>
+              <unittitle>National Council for U.S.-China Trade</unittitle><unitdate type="inclusive" normal="1973/1975">1973-1975</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7737436534843051372057]">4</container>
-              <unittitle>Organization <unitdate type="inclusive" normal="1971/1976">1971-1976</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [62382634988969941189971]">4</container>
+              <unittitle>Organization</unittitle><unitdate type="inclusive" normal="1971/1976">1971-1976</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -963,32 +834,24 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [7737436534843051372057]">4</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1971/1974">1971-1974</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [62382634988969941189971]">4</container>
+                <unitdate type="inclusive" normal="1971/1974">1971-1974</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [7737436534843051372057]">4</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1975">1975</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [62382634988969941189971]">4</container>
+                <unitdate type="inclusive" normal="1975">1975</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7737436534843051372057]">4</container>
-              <unittitle>Proposal for the Establishment of a China Trade Information Service <unitdate type="inclusive" normal="1971/1973">1971-1973</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [62382634988969941189971]">4</container>
+              <unittitle>Proposal for the Establishment of a China Trade Information Service</unittitle><unitdate type="inclusive" normal="1971/1973">1971-1973</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7737436534843051372057]">4</container>
-              <unittitle>Publications <unitdate type="inclusive" normal="1968/1972">1968-1972</unitdate> (including reviews)</unittitle>
-            </did>
+              <container type="box" label="Box [62382634988969941189971]">4</container>
+              <unittitle>Publications (including reviews)</unittitle><unitdate type="inclusive" normal="1968/1972">1968-1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -996,57 +859,41 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [7737436534843051372057]">4</container>
-                <unittitle>
-                  <unitdate>Undated</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [62382634988969941189971]">4</container>
+                <unitdate>Undated</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [7737436534843051372057]">4</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1968">1968</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [62382634988969941189971]">4</container>
+                <unitdate type="inclusive" normal="1968">1968</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [7737436534843051372057]">4</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1969-01/1969-04">January-April 1969</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [62382634988969941189971]">4</container>
+                <unitdate type="inclusive" normal="1969-01/1969-04">January-April 1969</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [7737436534843051372057]">4</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1969-05/1969-11">May-November 1969</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [62382634988969941189971]">4</container>
+                <unitdate type="inclusive" normal="1969-05/1969-11">May-November 1969</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [7737436534843051372057]">4</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1969-12/1970">December 1969-1970</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [62382634988969941189971]">4</container>
+                <unitdate type="inclusive" normal="1969-12/1970">December 1969-1970</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7737436534843051372057]">4</container>
+              <container type="box" label="Box [62382634988969941189971]">4</container>
               <unittitle>Miscellanea</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7737436534843051372057]">4</container>
-            <unittitle>Newspaper Clippings <unitdate type="inclusive" normal="1954/1976">1954-1976</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [62382634988969941189971]">4</container>
+            <unittitle>Newspaper Clippings</unittitle><unitdate type="inclusive" normal="1954/1976">1954-1976</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1054,7 +901,7 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7737436534843051372057]">4</container>
+              <container type="box" label="Box [62382634988969941189971]">4</container>
               <unittitle>China</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -1063,7 +910,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7737436534843051372057]">4</container>
+              <container type="box" label="Box [62382634988969941189971]">4</container>
               <unittitle>Sino-Soviet Economic Relations</unittitle>
             </did>
           </c03>
@@ -1074,33 +921,23 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7232684118861653224017]">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1960/1964">1960-1964</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [211191028494083807]">5</container>
+              <unitdate type="inclusive" normal="1960/1964">1960-1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7232684118861653224017]">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [211191028494083807]">5</container>
+              <unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7232684118861653224017]">5</container>
-              <unittitle>Twentieth International Congress of Chinese Studies, Prague <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [211191028494083807]">5</container>
+              <unittitle>Twentieth International Congress of Chinese Studies, Prague</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7232684118861653224017]">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1967/1976">1967-1976</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [211191028494083807]">5</container>
+              <unitdate type="inclusive" normal="1967/1976">1967-1976</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -1109,21 +946,18 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7232684118861653224017]">5</container>
-              <unittitle>National Seminar on Communist China <unitdate type="inclusive" normal="1965-11-19/1965-11-21">November 19-21, 1965</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [211191028494083807]">5</container>
+              <unittitle>National Seminar on Communist China</unittitle><unitdate type="inclusive" normal="1965-11-19/1965-11-21">November 19-21, 1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7232684118861653224017]">5</container>
-              <unittitle>National War College <unitdate type="inclusive" normal="1971-02">February 1971</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [211191028494083807]">5</container>
+              <unittitle>National War College</unittitle><unitdate type="inclusive" normal="1971-02">February 1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7232684118861653224017]">5</container>
-              <unittitle>Seminar on Sino-Soviet Relations, Harvard <unitdate type="inclusive" normal="1961-02">February 1961</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [211191028494083807]">5</container>
+              <unittitle>Seminar on Sino-Soviet Relations, Harvard</unittitle><unitdate type="inclusive" normal="1961-02">February 1961</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -1132,7 +966,7 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7232684118861653224017]">5</container>
+              <container type="box" label="Box [211191028494083807]">5</container>
               <unittitle>Area Studies Committee</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
@@ -1145,15 +979,13 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [7232684118861653224017]">5</container>
-                <unittitle>General <unitdate type="inclusive" normal="1962/1971">1962-1971</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [211191028494083807]">5</container>
+                <unittitle>General</unittitle><unitdate type="inclusive" normal="1962/1971">1962-1971</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [7232684118861653224017]">5</container>
-                <unittitle>Meetings <unitdate type="inclusive" normal="1960/1969">1960-1969</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [211191028494083807]">5</container>
+                <unittitle>Meetings</unittitle><unitdate type="inclusive" normal="1960/1969">1960-1969</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -1161,18 +993,16 @@
               </did>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [7232684118861653224017]">5</container>
-                  <unittitle>Correspondence <unitdate type="inclusive" normal="1961/1969">1961-1969</unitdate></unittitle>
-                  <physdesc altrender="whole">
+                  <container type="box" label="Box [211191028494083807]">5</container>
+                  <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1961/1969">1961-1969</unitdate><physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">4 folders</extent>
                   </physdesc>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [7232684118861653224017]">5</container>
-                  <unittitle>Criticisms <unitdate type="inclusive" normal="1965/1969">1965-1969</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [211191028494083807]">5</container>
+                  <unittitle>Criticisms</unittitle><unitdate type="inclusive" normal="1965/1969">1965-1969</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
@@ -1180,68 +1010,68 @@
                 </did>
                 <c06 level="file">
                   <did>
-                    <container type="box" label="Box [7232684118861653224017]">5</container>
+                    <container type="box" label="Box [211191028494083807]">5</container>
                     <unittitle>Chang, John K. "Industrial Development of Mainland China, 1912-1949"</unittitle>
                   </did>
                 </c06>
                 <c06 level="file">
                   <did>
-                    <container type="box" label="Box [7232684118861653224017]">5</container>
+                    <container type="box" label="Box [211191028494083807]">5</container>
                     <unittitle>Chang, Perry P. "The Theory and Practice of Monetary Control in Communist China"</unittitle>
                   </did>
                 </c06>
                 <c06 level="file">
                   <did>
-                    <container type="box" label="Box [7232684118861653224017]">5</container>
+                    <container type="box" label="Box [211191028494083807]">5</container>
                     <unittitle>Eckstein, Alexander. "The Economic Heritage"</unittitle>
                   </did>
                 </c06>
                 <c06 level="file">
                   <did>
-                    <container type="box" label="Box [7232684118861653224017]">5</container>
+                    <container type="box" label="Box [211191028494083807]">5</container>
                     <unittitle>Eckstein, Alexander with Walter Galenson and Ta-Chang Liu. "Introduction"</unittitle>
                   </did>
                 </c06>
                 <c06 level="file">
                   <did>
-                    <container type="box" label="Box [7232684118861653224017]">5</container>
+                    <container type="box" label="Box [211191028494083807]">5</container>
                     <unittitle>Field, Robert Michael. "Labor Productivity in Industry During the First Five Year Plan"</unittitle>
                   </did>
                 </c06>
                 <c06 level="file">
                   <did>
-                    <container type="box" label="Box [7232684118861653224017]">5</container>
+                    <container type="box" label="Box [211191028494083807]">5</container>
                     <unittitle>Mah, Feng-hwa. "The Foreign Trade of Communist China!"</unittitle>
                   </did>
                 </c06>
                 <c06 level="file">
                   <did>
-                    <container type="box" label="Box [7232684118861653224017]">5</container>
+                    <container type="box" label="Box [211191028494083807]">5</container>
                     <unittitle>Tang, Anthony M. "Policy and Performance in Agriculture"</unittitle>
                   </did>
                 </c06>
                 <c06 level="file">
                   <did>
-                    <container type="box" label="Box [7232684118861653224017]">5</container>
+                    <container type="box" label="Box [211191028494083807]">5</container>
                     <unittitle>Walker, Kenneth R. "Organization for Agricultural Production in China"</unittitle>
                   </did>
                 </c06>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [7232684118861653224017]">5</container>
+                  <container type="box" label="Box [211191028494083807]">5</container>
                   <unittitle>Materials</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [7232684118861653224017]">5</container>
+                  <container type="box" label="Box [211191028494083807]">5</container>
                   <unittitle>Outlines</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [7232684118861653224017]">5</container>
+                  <container type="box" label="Box [211191028494083807]">5</container>
                   <unittitle>Pilot Study (by Helen Yin)</unittitle>
                 </did>
               </c05>
@@ -1251,30 +1081,24 @@
                 </did>
                 <c06 level="file">
                   <did>
-                    <container type="box" label="Box [7232684118861653224017]">5</container>
-                    <unittitle>
-                      <unitdate>Undated</unitdate>
-                    </unittitle>
-                  </did>
+                    <container type="box" label="Box [211191028494083807]">5</container>
+                    <unitdate>Undated</unitdate></did>
                 </c06>
                 <c06 level="file">
                   <did>
-                    <container type="box" label="Box [7232684118861653224017]">5</container>
-                    <unittitle>
-                      <unitdate type="inclusive" normal="1962/1969">1962-1969</unitdate>
-                    </unittitle>
-                  </did>
+                    <container type="box" label="Box [211191028494083807]">5</container>
+                    <unitdate type="inclusive" normal="1962/1969">1962-1969</unitdate></did>
                 </c06>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [7232684118861653224017]">5</container>
+                  <container type="box" label="Box [211191028494083807]">5</container>
                   <unittitle>Resumes</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [7232684118861653224017]">5</container>
+                  <container type="box" label="Box [211191028494083807]">5</container>
                   <unittitle>Miscellanea</unittitle>
                 </did>
               </c05>
@@ -1282,15 +1106,13 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94535864599664313400]">6</container>
-              <unittitle>Committee on Exchanges with Asian Institutions <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [980114951798435233]">6</container>
+              <unittitle>Committee on Exchanges with Asian Institutions</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94535864599664313400]">6</container>
-              <unittitle>Conferences <unitdate type="inclusive" normal="1967/1971">1967-1971</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [980114951798435233]">6</container>
+              <unittitle>Conferences</unittitle><unitdate type="inclusive" normal="1967/1971">1967-1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1298,20 +1120,20 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [94535864599664313400]">6</container>
+                <container type="box" label="Box [980114951798435233]">6</container>
                 <unittitle>Applications</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [94535864599664313400]">6</container>
+                <container type="box" label="Box [980114951798435233]">6</container>
                 <unittitle>Information</unittitle>
               </did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94535864599664313400]">6</container>
+              <container type="box" label="Box [980114951798435233]">6</container>
               <unittitle><title render="italic">Items</title>-SSRC magazine</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">1 volumes</extent>
@@ -1320,19 +1142,18 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94535864599664313400]">6</container>
-              <unittitle>Liaison Committee <unitdate type="inclusive" normal="1965/1971">1965-1971</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [980114951798435233]">6</container>
+              <unittitle>Liaison Committee</unittitle><unitdate type="inclusive" normal="1965/1971">1965-1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94535864599664313400]">6</container>
+              <container type="box" label="Box [980114951798435233]">6</container>
               <unittitle>Study: C.S. Chen-"The Mineral Resources and Industrial Capabilities of Manchuria"</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94535864599664313400]">6</container>
+              <container type="box" label="Box [980114951798435233]">6</container>
               <unittitle>Study: Alexander Eckstein and John Chang-"Economic Growth in Manchuria 1920-1960: A Case Study in the Expansion of an Undeveloped Frontier Under Colonial Auspices"</unittitle>
             </did>
           </c03>
@@ -1343,249 +1164,244 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94535864599664313400]">6</container>
-              <unittitle>University of Chicago <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [980114951798435233]">6</container>
+              <unittitle>University of Chicago</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94535864599664313400]">6</container>
-              <unittitle>Others <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [980114951798435233]">6</container>
+              <unittitle>Others</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [94535864599664313400]">6</container>
-            <unittitle>U.S. China Policy, statements <unitdate type="inclusive" normal="1966/1976">1966-1976</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [980114951798435233]">6</container>
+            <unittitle>U.S. China Policy, statements</unittitle><unitdate type="inclusive" normal="1966/1976">1966-1976</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [94535864599664313400]">6</container>
+            <container type="box" label="Box [980114951798435233]">6</container>
             <unittitle>Miscellanea</unittitle>
           </did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Personal Correspondence File <unitdate type="inclusive" normal="1960/1976">1960-1976</unitdate></unittitle>
-        </did>
+          <unittitle>Personal Correspondence File</unittitle><unitdate type="inclusive" normal="1960/1976">1960-1976</unitdate></did>
         <scopecontent>
           <p>Eckstein arranged his Personal Correspondence alphabetically. The names of some of his correspondents include several top American-Chins, scholars, such as Doak Barnett, John King Fairbank, Edgar Snow, and Allen Whiting. There is also a file for Henry Kissinger. These files also contain non-correspondence, such as clippings or reprints. In addition, the researcher should note the filing of correspondence throughout the China series, especially under the names of organizations.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [94535864599664313400]">6</container>
+            <container type="box" label="Box [980114951798435233]">6</container>
             <unittitle>Barnett, Doak A.</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [94535864599664313400]">6</container>
+            <container type="box" label="Box [980114951798435233]">6</container>
             <unittitle>Chang, John</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [94535864599664313400]">6</container>
+            <container type="box" label="Box [980114951798435233]">6</container>
             <unittitle>Chao, Kang</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [94535864599664313400]">6</container>
+            <container type="box" label="Box [980114951798435233]">6</container>
             <unittitle>Chen, Pi-chao (Peter)</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [94535864599664313400]">6</container>
+            <container type="box" label="Box [980114951798435233]">6</container>
             <unittitle>Cheng, Chu-yuan</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [94535864599664313400]">6</container>
+            <container type="box" label="Box [980114951798435233]">6</container>
             <unittitle>Fairbank, John King</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [94535864599664313400]">6</container>
+            <container type="box" label="Box [980114951798435233]">6</container>
             <unittitle>Hua, Huang</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [94535864599664313400]">6</container>
+            <container type="box" label="Box [980114951798435233]">6</container>
             <unittitle>Julius, Steve</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [94535864599664313400]">6</container>
+            <container type="box" label="Box [980114951798435233]">6</container>
             <unittitle>Kennedy, Edward and Robert</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [94535864599664313400]">6</container>
+            <container type="box" label="Box [980114951798435233]">6</container>
             <unittitle>Kirschen, E.S.</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [94535864599664313400]">6</container>
+            <container type="box" label="Box [980114951798435233]">6</container>
             <unittitle>Kissinger, Henry</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [94535864599664313400]">6</container>
+            <container type="box" label="Box [980114951798435233]">6</container>
             <unittitle>Kobler, Franz</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [94535864599664313400]">6</container>
+            <container type="box" label="Box [980114951798435233]">6</container>
             <unittitle>KorkoreffAlexander</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [94535864599664313400]">6</container>
+            <container type="box" label="Box [980114951798435233]">6</container>
             <unittitle>Laird, Melvin R.</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [94535864599664313400]">6</container>
+            <container type="box" label="Box [980114951798435233]">6</container>
             <unittitle>Lindbeck, John</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [94535864599664313400]">6</container>
+            <container type="box" label="Box [980114951798435233]">6</container>
             <unittitle>Little, Arthur D.</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [94535864599664313400]">6</container>
+            <container type="box" label="Box [980114951798435233]">6</container>
             <unittitle>Lockwood, William F.</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [94535864599664313400]">6</container>
+            <container type="box" label="Box [980114951798435233]">6</container>
             <unittitle>Pleng, Ming-Min</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [94535864599664313400]">6</container>
+            <container type="box" label="Box [980114951798435233]">6</container>
             <unittitle>Riegle, Donald W.</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [94535864599664313400]">6</container>
+            <container type="box" label="Box [980114951798435233]">6</container>
             <unittitle>Reynolds, Bruce</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [94535864599664313400]">6</container>
+            <container type="box" label="Box [980114951798435233]">6</container>
             <unittitle>Robinson, Dana I.</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [94535864599664313400]">6</container>
+            <container type="box" label="Box [980114951798435233]">6</container>
             <unittitle>Rubin, Vitali A.</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [94535864599664313400]">6</container>
+            <container type="box" label="Box [980114951798435233]">6</container>
             <unittitle>Snow, Edgar</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [94535864599664313400]">6</container>
+            <container type="box" label="Box [980114951798435233]">6</container>
             <unittitle>Stewart, Sir Michael</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [94535864599664313400]">6</container>
+            <container type="box" label="Box [980114951798435233]">6</container>
             <unittitle>Sweitzer, James</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [94535864599664313400]">6</container>
+            <container type="box" label="Box [980114951798435233]">6</container>
             <unittitle>Tuan, Chi-hsien</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [94535864599664313400]">6</container>
+            <container type="box" label="Box [980114951798435233]">6</container>
             <unittitle>Vivian, Weston</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [94535864599664313400]">6</container>
+            <container type="box" label="Box [980114951798435233]">6</container>
             <unittitle>Vogel, Ezra</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [94535864599664313400]">6</container>
+            <container type="box" label="Box [980114951798435233]">6</container>
             <unittitle>Walker, Kenneth R.</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [94535864599664313400]">6</container>
+            <container type="box" label="Box [980114951798435233]">6</container>
             <unittitle>Walker, Richard L.</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [94535864599664313400]">6</container>
+            <container type="box" label="Box [980114951798435233]">6</container>
             <unittitle>Wegman, Myron E.</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [94535864599664313400]">6</container>
+            <container type="box" label="Box [980114951798435233]">6</container>
             <unittitle>Whiting, Allen</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [94535864599664313400]">6</container>
+            <container type="box" label="Box [980114951798435233]">6</container>
             <unittitle>Williams, Robert</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [94535864599664313400]">6</container>
+            <container type="box" label="Box [980114951798435233]">6</container>
             <unittitle>Wu, Jack</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [94535864599664313400]">6</container>
-            <unittitle>Miscellanea <unitdate type="inclusive" normal="1955/1976">1955-1976</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [980114951798435233]">6</container>
+            <unittitle>Miscellanea</unittitle><unitdate type="inclusive" normal="1955/1976">1955-1976</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -1597,85 +1413,79 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0413989044866620072870]">7</container>
-            <unittitle>"China's Developing Trade and the World Economy," <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [298502842479884537878]">7</container>
+            <unittitle>"China's Developing Trade and the World Economy,"</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0413989044866620072870]">7</container>
+            <container type="box" label="Box [298502842479884537878]">7</container>
             <unittitle>"Communist Chinese Economic Development: Trends and Prospects"</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0413989044866620072870]">7</container>
-            <unittitle>"Comparative Development Patterns in India and China," <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [298502842479884537878]">7</container>
+            <unittitle>"Comparative Development Patterns in India and China,"</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0413989044866620072870]">7</container>
-            <unittitle>"Comparative Patterns of Economic Development of China and the Soviet Union," <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [298502842479884537878]">7</container>
+            <unittitle>"Comparative Patterns of Economic Development of China and the Soviet Union,"</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0413989044866620072870]">7</container>
+            <container type="box" label="Box [298502842479884537878]">7</container>
             <unittitle>"The Cultural and Economic Setting of Economic Rationality in Western and Eastern Europe"</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0413989044866620072870]">7</container>
+            <container type="box" label="Box [298502842479884537878]">7</container>
             <unittitle>"The Cultural Revolution: An Overview"</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0413989044866620072870]">7</container>
-            <unittitle>"The Cultural Revolution and its Policy Implications for the United States," <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [298502842479884537878]">7</container>
+            <unittitle>"The Cultural Revolution and its Policy Implications for the United States,"</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0413989044866620072870]">7</container>
-            <unittitle>"The Economic Potential of the USSR for War," <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [298502842479884537878]">7</container>
+            <unittitle>"The Economic Potential of the USSR for War,"</unittitle><unitdate type="inclusive" normal="1955">1955</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0413989044866620072870]">7</container>
+            <container type="box" label="Box [298502842479884537878]">7</container>
             <unittitle>"Individualism and the Role of the State in Economic Growth"</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0413989044866620072870]">7</container>
+            <container type="box" label="Box [298502842479884537878]">7</container>
             <unittitle>"Knowledge, Information and Innovation in the Soviet Economy"</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0413989044866620072870]">7</container>
+            <container type="box" label="Box [298502842479884537878]">7</container>
             <unittitle>"Problems in Economic Development Theory"</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0413989044866620072870]">7</container>
+            <container type="box" label="Box [298502842479884537878]">7</container>
             <unittitle>"Some Reflections on Economic Trends in China"</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0413989044866620072870]">7</container>
-            <unittitle>Summary of untitled speech <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [298502842479884537878]">7</container>
+            <unittitle>Summary of untitled speech</unittitle><unitdate type="inclusive" normal="1955">1955</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0413989044866620072870]">7</container>
+            <container type="box" label="Box [298502842479884537878]">7</container>
             <unittitle>Talks and Lecture Notes on China</unittitle>
           </did>
         </c02>
@@ -1685,15 +1495,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0413989044866620072870]">7</container>
-              <unittitle>"China and the Triangular Power Game," <unitdate type="inclusive" normal="1971-07-28">July 28, 1971</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [298502842479884537878]">7</container>
+              <unittitle>"China and the Triangular Power Game,"</unittitle><unitdate type="inclusive" normal="1971-07-28">July 28, 1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0413989044866620072870]">7</container>
-              <unittitle>"Economic Development in Communist China," <unitdate type="inclusive" normal="1962-11-06">November 6, 1962</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [298502842479884537878]">7</container>
+              <unittitle>"Economic Development in Communist China,"</unittitle><unitdate type="inclusive" normal="1962-11-06">November 6, 1962</unitdate></did>
           </c03>
         </c02>
       </c01>
@@ -1706,35 +1514,34 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <unittitle>Asia <unitdate type="inclusive" normal="1969">1969</unitdate> (Japan and Taiwan)</unittitle>
-          </did>
+            <unittitle>Asia (Japan and Taiwan)</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0413989044866620072870]">7</container>
+              <container type="box" label="Box [298502842479884537878]">7</container>
               <unittitle>Address before Asian Affairs Research Council, Tokyo</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0413989044866620072870]">7</container>
+              <container type="box" label="Box [298502842479884537878]">7</container>
               <unittitle>Collected Materials</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0413989044866620072870]">7</container>
+              <container type="box" label="Box [298502842479884537878]">7</container>
               <unittitle>Contacts and Itineraries</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0413989044866620072870]">7</container>
+              <container type="box" label="Box [298502842479884537878]">7</container>
               <unittitle>Correspondence</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0413989044866620072870]">7</container>
+              <container type="box" label="Box [298502842479884537878]">7</container>
               <unittitle>Notes</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -1744,96 +1551,90 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Australia <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
-          </did>
+            <unittitle>Australia</unittitle><unitdate type="inclusive" normal="1975">1975</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0413989044866620072870]">7</container>
+              <container type="box" label="Box [298502842479884537878]">7</container>
               <unittitle>Australian National University Conference Notes</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0413989044866620072870]">7</container>
+              <container type="box" label="Box [298502842479884537878]">7</container>
               <unittitle>Contacts and Itineraries</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0413989044866620072870]">7</container>
+              <container type="box" label="Box [298502842479884537878]">7</container>
               <unittitle>Correspondence</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0413989044866620072870]">7</container>
+              <container type="box" label="Box [298502842479884537878]">7</container>
               <unittitle>Impressions</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0413989044866620072870]">7</container>
+              <container type="box" label="Box [298502842479884537878]">7</container>
               <unittitle>Newspaper Clippings</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0413989044866620072870]">7</container>
-            <unittitle>China <unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [298502842479884537878]">7</container>
+            <unittitle>China</unittitle><unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate></did>
           <odd>
             <p>series of note pads, plus final copy of notes</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0413989044866620072870]">7</container>
-            <unittitle>Hong Kong <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [298502842479884537878]">7</container>
+            <unittitle>Hong Kong</unittitle><unitdate type="inclusive" normal="1959">1959</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>India <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-          </did>
+            <unittitle>India</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0413989044866620072870]">7</container>
+              <container type="box" label="Box [298502842479884537878]">7</container>
               <unittitle>Contacts and Itineraries</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0413989044866620072870]">7</container>
+              <container type="box" label="Box [298502842479884537878]">7</container>
               <unittitle>Correspondence</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0413989044866620072870]">7</container>
+              <container type="box" label="Box [298502842479884537878]">7</container>
               <unittitle>State Department Travel Kit</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0413989044866620072870]">7</container>
+              <container type="box" label="Box [298502842479884537878]">7</container>
               <unittitle>Miscellanea</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Japan <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
-          </did>
+            <unittitle>Japan</unittitle><unitdate type="inclusive" normal="1959">1959</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0413989044866620072870]">7</container>
-              <unittitle>Taiwan (Republic of China) <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [298502842479884537878]">7</container>
+              <unittitle>Taiwan (Republic of China)</unittitle><unitdate type="inclusive" normal="1959">1959</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0413989044866620072870]">7</container>
+              <container type="box" label="Box [298502842479884537878]">7</container>
               <unittitle>Notes</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -1842,64 +1643,62 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0413989044866620072870]">7</container>
+              <container type="box" label="Box [298502842479884537878]">7</container>
               <unittitle>Proposal for the Development of the Social Sciences and Humanities in Taiwan</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0413989044866620072870]">7</container>
+              <container type="box" label="Box [298502842479884537878]">7</container>
               <unittitle>Miscellanea</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Yugoslavia <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-          </did>
+            <unittitle>Yugoslavia</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0413989044866620072870]">7</container>
+              <container type="box" label="Box [298502842479884537878]">7</container>
               <unittitle>General</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Yugoslav Institute for Economic Research <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <unittitle>Yugoslav Institute for Economic Research</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [0413989044866620072870]">7</container>
+                <container type="box" label="Box [298502842479884537878]">7</container>
                 <unittitle>Correspondence</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [0413989044866620072870]">7</container>
+                <container type="box" label="Box [298502842479884537878]">7</container>
                 <unittitle>Notes</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [0413989044866620072870]">7</container>
+                <container type="box" label="Box [298502842479884537878]">7</container>
                 <unittitle>Proposal</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [0413989044866620072870]">7</container>
+                <container type="box" label="Box [298502842479884537878]">7</container>
                 <unittitle>Questionnaire</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [0413989044866620072870]">7</container>
+                <container type="box" label="Box [298502842479884537878]">7</container>
                 <unittitle>Report</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [0413989044866620072870]">7</container>
+                <container type="box" label="Box [298502842479884537878]">7</container>
                 <unittitle>Miscellanea</unittitle>
               </did>
             </c04>
@@ -1915,7 +1714,7 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0413989044866620072870]">7</container>
+            <container type="box" label="Box [298502842479884537878]">7</container>
             <unittitle>Chabad. House Project</unittitle>
           </did>
         </c02>
@@ -1925,27 +1724,23 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0413989044866620072870]">7</container>
-              <unittitle>Communications with chairman, Peter O. Steiner <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [298502842479884537878]">7</container>
+              <unittitle>Communications with chairman, Peter O. Steiner</unittitle><unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0413989044866620072870]">7</container>
-              <unittitle>Letters of recommendation <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [298502842479884537878]">7</container>
+              <unittitle>Letters of recommendation</unittitle><unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0413989044866620072870]">7</container>
-              <unittitle>Walgreen Chair <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [298502842479884537878]">7</container>
+              <unittitle>Walgreen Chair</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0413989044866620072870]">7</container>
-              <unittitle>Miscellanea <unitdate type="inclusive" normal="1965/1976">1965-1976</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [298502842479884537878]">7</container>
+              <unittitle>Miscellanea</unittitle><unitdate type="inclusive" normal="1965/1976">1965-1976</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -1954,26 +1749,23 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1746044476396994]">8</container>
-              <unittitle>Council on Minority Affairs <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [43006076964867492805114]">8</container>
+              <unittitle>Council on Minority Affairs</unittitle><unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1746044476396994]">8</container>
-              <unittitle>Opportunity Program <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [43006076964867492805114]">8</container>
+              <unittitle>Opportunity Program</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1746044476396994]">8</container>
-              <unittitle>University Judiciary <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [43006076964867492805114]">8</container>
+              <unittitle>University Judiciary</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1746044476396994]">8</container>
+            <container type="box" label="Box [43006076964867492805114]">8</container>
             <unittitle>News Releases</unittitle>
           </did>
         </c02>
@@ -1987,7 +1779,7 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1746044476396994]">8</container>
+            <container type="box" label="Box [43006076964867492805114]">8</container>
             <unittitle>Collected Materials</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -1996,34 +1788,32 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1746044476396994]">8</container>
-            <unittitle>Congressional Briefing Session <unitdate type="inclusive" normal="1967-11-28">November 28, 1967</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [43006076964867492805114]">8</container>
+            <unittitle>Congressional Briefing Session</unittitle><unitdate type="inclusive" normal="1967-11-28">November 28, 1967</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1746044476396994]">8</container>
+            <container type="box" label="Box [43006076964867492805114]">8</container>
             <unittitle>Policy Statements</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1746044476396994]">8</container>
+            <container type="box" label="Box [43006076964867492805114]">8</container>
             <unittitle>Riegle, Representative Donald M.</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1746044476396994]">8</container>
-            <unittitle>Study Group Minutes <unitdate type="inclusive" normal="1967-10-31">October 31, 1967</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [43006076964867492805114]">8</container>
+            <unittitle>Study Group Minutes</unittitle><unitdate type="inclusive" normal="1967-10-31">October 31, 1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1746044476396994]">8</container>
+            <container type="box" label="Box [43006076964867492805114]">8</container>
             <unittitle>Miscellanea</unittitle>
           </did>
         </c02>
@@ -2041,17 +1831,17 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1746044476396994]">8</container>
-              <unittitle>by Alexander Eckstein</unittitle>
+              <container type="box" label="Box [43006076964867492805114]">8</container>
+              <unittitle>By Alexander Eckstein</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>for Alexander Eckstein's work</unittitle>
+              <unittitle>For Alexander Eckstein's work</unittitle>
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [1746044476396994]">8</container>
+                <container type="box" label="Box [43006076964867492805114]">8</container>
                 <unittitle>
                   <title render="italic">China's Economic Revolution</title>
                 </unittitle>
@@ -2059,7 +1849,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [1746044476396994]">8</container>
+                <container type="box" label="Box [43006076964867492805114]">8</container>
                 <unittitle>Other</unittitle>
               </did>
             </c04>
@@ -2067,7 +1857,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1746044476396994]">8</container>
+            <container type="box" label="Box [43006076964867492805114]">8</container>
             <unittitle>Drafts</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">7 folders</extent>
@@ -2076,13 +1866,13 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1746044476396994]">8</container>
+            <container type="box" label="Box [43006076964867492805114]">8</container>
             <unittitle>Newspaper Articles</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1746044476396994]">8</container>
+            <container type="box" label="Box [43006076964867492805114]">8</container>
             <unittitle>Permission to Repriat</unittitle>
           </did>
         </c02>
@@ -2092,49 +1882,42 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1746044476396994]">8</container>
-              <unittitle><title render="italic">China's Economic Development</title>, <unitdate type="inclusive" normal="1974/1975">1974-1975</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [43006076964867492805114]">8</container>
+              <unittitle><title render="italic">China's Economic Development</title></unittitle><unitdate type="inclusive" normal="1974/1975">1974-1975</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1746044476396994]">8</container>
-              <unittitle><title render="italic">China's Economic Revolution</title>, <unitdate type="inclusive" normal="1971/1977">1971-1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [43006076964867492805114]">8</container>
+              <unittitle><title render="italic">China's Economic Revolution</title></unittitle><unitdate type="inclusive" normal="1971/1977">1971-1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1746044476396994]">8</container>
-              <unittitle><title render="italic">China Trade Prospects and U.S. Policy</title>, <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [43006076964867492805114]">8</container>
+              <unittitle><title render="italic">China Trade Prospects and U.S. Policy</title></unittitle><unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1746044476396994]">8</container>
-              <unittitle><title render="italic">Comparative Economics Systems</title>, <unitdate type="inclusive" normal="1969/1972">1969-1972</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [43006076964867492805114]">8</container>
+              <unittitle><title render="italic">Comparative Economics Systems</title></unittitle><unitdate type="inclusive" normal="1969/1972">1969-1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1746044476396994]">8</container>
-              <unittitle><title render="italic">Economic Development in China</title>, <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [43006076964867492805114]">8</container>
+              <unittitle><title render="italic">Economic Development in China</title></unittitle><unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1746044476396994]">8</container>
-              <unittitle><title render="italic">Economic Trends of Communist China</title>, <unitdate type="inclusive" normal="1969/1974">1969-1974</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [43006076964867492805114]">8</container>
+              <unittitle><title render="italic">Economic Trends of Communist China</title></unittitle><unitdate type="inclusive" normal="1969/1974">1969-1974</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1746044476396994]">8</container>
-              <unittitle><title render="italic">Quantitative Measures of China's Economic Output</title>, <unitdate type="inclusive" normal="1980">1980</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [43006076964867492805114]">8</container>
+              <unittitle><title render="italic">Quantitative Measures of China's Economic Output</title></unittitle><unitdate type="inclusive" normal="1980">1980</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1746044476396994]">8</container>
+              <container type="box" label="Box [43006076964867492805114]">8</container>
               <unittitle>Others</unittitle>
             </did>
           </c03>
@@ -2145,9 +1928,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1746044476396994]">8</container>
-              <unittitle>Asia <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [43006076964867492805114]">8</container>
+              <unittitle>Asia</unittitle><unitdate type="inclusive" normal="1957">1957</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -2155,68 +1937,46 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [1746044476396994]">8</container>
-                <unittitle>
-                  <unitdate>Undated</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [43006076964867492805114]">8</container>
+                <unitdate>Undated</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [1746044476396994]">8</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1952/1953">1952-1953</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [43006076964867492805114]">8</container>
+                <unitdate type="inclusive" normal="1952/1953">1952-1953</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [1746044476396994]">8</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1954/1955">1954-1955</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [43006076964867492805114]">8</container>
+                <unitdate type="inclusive" normal="1954/1955">1954-1955</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [1746044476396994]">8</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1956/1960">1956-1960</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [43006076964867492805114]">8</container>
+                <unitdate type="inclusive" normal="1956/1960">1956-1960</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [1746044476396994]">8</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [43006076964867492805114]">8</container>
+                <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [1746044476396994]">8</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1963/1967">1963-1967</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [43006076964867492805114]">8</container>
+                <unitdate type="inclusive" normal="1963/1967">1963-1967</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [97930020954513587815807]">9</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1968/1976">1968-1976</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [081285744971808126]">9</container>
+                <unitdate type="inclusive" normal="1968/1976">1968-1976</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [97930020954513587815807]">9</container>
-                <unittitle><title render="italic">Encyclopedia Hebraica</title>, article on China's economy, <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [081285744971808126]">9</container>
+                <unittitle><title render="italic">Encyclopedia Hebraica</title>, article on China's economy</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
@@ -2228,9 +1988,8 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [97930020954513587815807]">9</container>
-                <unittitle>General <unitdate type="inclusive" normal="1950/1970">1950-1970</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [081285744971808126]">9</container>
+                <unittitle>General</unittitle><unitdate type="inclusive" normal="1950/1970">1950-1970</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -2238,72 +1997,58 @@
               </did>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [97930020954513587815807]">9</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1952">1952</unitdate>
-                  </unittitle>
-                </did>
+                  <container type="box" label="Box [081285744971808126]">9</container>
+                  <unitdate type="inclusive" normal="1952">1952</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [97930020954513587815807]">9</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1954">1954</unitdate>
-                  </unittitle>
-                  <physdesc altrender="whole">
+                  <container type="box" label="Box [081285744971808126]">9</container>
+                  <unitdate type="inclusive" normal="1954">1954</unitdate><physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">2 folders</extent>
                   </physdesc>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [97930020954513587815807]">9</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1955/1967">1955-1967</unitdate>
-                  </unittitle>
-                </did>
+                  <container type="box" label="Box [081285744971808126]">9</container>
+                  <unitdate type="inclusive" normal="1955/1967">1955-1967</unitdate></did>
               </c05>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [97930020954513587815807]">9</container>
-                <unittitle>China/Soviet Union <unitdate type="inclusive" normal="1955/1964">1955-1964</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [081285744971808126]">9</container>
+                <unittitle>China/Soviet Union</unittitle><unitdate type="inclusive" normal="1955/1964">1955-1964</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [97930020954513587815807]">9</container>
-                <unittitle>China/United States <unitdate type="inclusive" normal="1952/1975">1952-1975</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [081285744971808126]">9</container>
+                <unittitle>China/United States</unittitle><unitdate type="inclusive" normal="1952/1975">1952-1975</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [97930020954513587815807]">9</container>
-              <unittitle>Developing Countries <unitdate>undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [081285744971808126]">9</container>
+              <unittitle>Developing Countries</unittitle><unitdate>undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [97930020954513587815807]">9</container>
+              <container type="box" label="Box [081285744971808126]">9</container>
               <unittitle>Economics (general)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [97930020954513587815807]">9</container>
-              <unittitle>Europe <unitdate type="inclusive" normal="1943/1955">1943-1955</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [081285744971808126]">9</container>
+              <unittitle>Europe</unittitle><unitdate type="inclusive" normal="1943/1955">1943-1955</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [97930020954513587815807]">9</container>
-              <unittitle>India <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [081285744971808126]">9</container>
+              <unittitle>India</unittitle><unitdate type="inclusive" normal="1958">1958</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [97930020954513587815807]">9</container>
+              <container type="box" label="Box [081285744971808126]">9</container>
               <unittitle>Japan</unittitle>
             </did>
           </c03>
@@ -2313,15 +2058,12 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [97930020954513587815807]">9</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1955/1956">1955-1956</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [081285744971808126]">9</container>
+                <unitdate type="inclusive" normal="1955/1956">1955-1956</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [97930020954513587815807]">9</container>
+                <container type="box" label="Box [081285744971808126]">9</container>
                 <unittitle>Papers for Russian Research Center, Harvard University</unittitle>
               </did>
             </c04>
@@ -2332,26 +2074,19 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [97930020954513587815807]">9</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1941">1941</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [081285744971808126]">9</container>
+                <unitdate type="inclusive" normal="1941">1941</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [97930020954513587815807]">9</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1943">1943</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [081285744971808126]">9</container>
+                <unitdate type="inclusive" normal="1943">1943</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [97930020954513587815807]">9</container>
-              <unittitle>Vietnam <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [081285744971808126]">9</container>
+              <unittitle>Vietnam</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -2360,7 +2095,7 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [97930020954513587815807]">9</container>
+              <container type="box" label="Box [081285744971808126]">9</container>
               <unittitle>Europe</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -2369,7 +2104,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [97930020954513587815807]">9</container>
+              <container type="box" label="Box [081285744971808126]">9</container>
               <unittitle>Eastern Europe</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">6 folders</extent>
@@ -2378,7 +2113,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [97930020954513587815807]">9</container>
+              <container type="box" label="Box [081285744971808126]">9</container>
               <unittitle>Hungary</unittitle>
             </did>
             <odd>
@@ -2387,7 +2122,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2718012654289918522793]">10</container>
+              <container type="box" label="Box [49452804985090]">10</container>
               <unittitle>Hungary</unittitle>
             </did>
             <odd>
@@ -2405,15 +2140,13 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [2718012654289918522793]">10</container>
-                <unittitle>Baran, Paul: <title render="italic">The Political Economy of Growth</title>, <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [49452804985090]">10</container>
+                <unittitle>Baran, Paul: <title render="italic">The Political Economy of Growth</title></unittitle><unitdate type="inclusive" normal="1959">1959</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [2718012654289918522793]">10</container>
-                <unittitle>Others <unitdate type="inclusive" normal="1954/1974">1954-1974</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [49452804985090]">10</container>
+                <unittitle>Others</unittitle><unitdate type="inclusive" normal="1954/1974">1954-1974</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -2422,7 +2155,7 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [2718012654289918522793]">10</container>
+                <container type="box" label="Box [49452804985090]">10</container>
                 <unittitle>
                   <title render="italic">China's Economic Development</title>
                 </unittitle>
@@ -2430,7 +2163,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [2718012654289918522793]">10</container>
+                <container type="box" label="Box [49452804985090]">10</container>
                 <unittitle>
                   <title render="italic">China's Economic Revolution</title>
                 </unittitle>
@@ -2438,7 +2171,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [2718012654289918522793]">10</container>
+                <container type="box" label="Box [49452804985090]">10</container>
                 <unittitle>
                   <title render="italic">China Trade Prospects and U.S. Policy</title>
                 </unittitle>
@@ -2446,7 +2179,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [2718012654289918522793]">10</container>
+                <container type="box" label="Box [49452804985090]">10</container>
                 <unittitle>
                   <title render="italic">Communist China's Economic Growth and Foreign Trade</title>
                 </unittitle>
@@ -2454,7 +2187,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [2718012654289918522793]">10</container>
+                <container type="box" label="Box [49452804985090]">10</container>
                 <unittitle>
                   <title render="italic">Comparison of Economic Systems: Theoretical and Methodological Approaches</title>
                 </unittitle>
@@ -2462,7 +2195,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [2718012654289918522793]">10</container>
+                <container type="box" label="Box [49452804985090]">10</container>
                 <unittitle>
                   <title render="italic">Economic Trends in Communist China</title>
                 </unittitle>
@@ -2470,7 +2203,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [2718012654289918522793]">10</container>
+                <container type="box" label="Box [49452804985090]">10</container>
                 <unittitle>
                   <title render="italic">The National Income of Communist China</title>
                 </unittitle>
@@ -2478,9 +2211,8 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [2718012654289918522793]">10</container>
-                <unittitle>Others <unitdate type="inclusive" normal="1955/1963">1955-1963</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [49452804985090]">10</container>
+                <unittitle>Others</unittitle><unitdate type="inclusive" normal="1955/1963">1955-1963</unitdate></did>
             </c04>
           </c03>
         </c02>
@@ -2497,36 +2229,31 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2718012654289918522793]">10</container>
-              <unittitle>Voice of America broadcast <unitdate type="inclusive" normal="1966-01-27">January 27, 1966</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [49452804985090]">10</container>
+              <unittitle>Voice of America broadcast</unittitle><unitdate type="inclusive" normal="1966-01-27">January 27, 1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2718012654289918522793]">10</container>
-              <unittitle>Talk on India <unitdate type="inclusive" normal="1966-03-21">March 21, 1966</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [49452804985090]">10</container>
+              <unittitle>Talk on India</unittitle><unitdate type="inclusive" normal="1966-03-21">March 21, 1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2718012654289918522793]">10</container>
-              <unittitle>Memorial service for Robert F. Kennedy <unitdate type="inclusive" normal="1968-06-06">June 6, 1968</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [49452804985090]">10</container>
+              <unittitle>Memorial service for Robert F. Kennedy</unittitle><unitdate type="inclusive" normal="1968-06-06">June 6, 1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2718012654289918522793]">10</container>
-              <unittitle>"How to trade with Red China," <unitdate type="inclusive" normal="1971-05">May 1971</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [49452804985090]">10</container>
+              <unittitle>"How to trade with Red China,"</unittitle><unitdate type="inclusive" normal="1971-05">May 1971</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">1 audiocassettes</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2718012654289918522793]">10</container>
-              <unittitle>Interview with Alexander Eckstein <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [49452804985090]">10</container>
+              <unittitle>Interview with Alexander Eckstein</unittitle><unitdate type="inclusive" normal="1976">1976</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">1 audiocassettes</extent>
               </physdesc>
             </did>
@@ -2541,9 +2268,8 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2718012654289918522793]">10</container>
-            <unittitle>Portrait; and photograph of Chinese table tennis delegation to the United States <unitdate type="inclusive" normal="1970/1979" certainty="approximate">1970s</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [49452804985090]">10</container>
+            <unittitle>Portrait; and photograph of Chinese table tennis delegation to the United States</unittitle><unitdate type="inclusive" normal="1970/1979" certainty="approximate">1970s</unitdate></did>
         </c02>
       </c01>
     </dsc>

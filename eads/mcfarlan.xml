@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,10 +35,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">McFarlan, James H. (James Hoyt)</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/7879">McFarlan, James H. (James Hoyt)</persname>
       </origination>
-      <unittitle encodinganalog="245">James H. McFarlan Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1881/1924">1881-1924</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85295 Aa 2; AC</unitid>
+      <unittitle encodinganalog="245">James H. McFarlan Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1881/1924">1881-1924</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85295 Aa 2; AC</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>1876 graduate of the University of Michigan, later teacher in Linden, Mich., homesteader in Windsor (later known as White Lake), Dakota Territory, and lawyer in Flint, Mich. Diary includes reminiscences of student activities at the University of Michigan; extensive description of homesteading (Aug. 1881-Mar. 1882 and Apr.-May 1883); and briefer descriptions of teaching. Collection also includes scattered financial records of the Flint Land Company; letterpress books, 1897-1902, of correspondence relating primarily to his law practice and to the dealings of the Flint Land Company.</abstract>
       <physdesc altrender="part">
@@ -78,23 +78,23 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82166396">Flint (Mich.)--Commerce.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Flint Land Company.</corpname>
-        <subject source="lcsh" encodinganalog="650">Frontier and pioneer life--South Dakota--White Lake.</subject>
-        <subject source="lcsh" encodinganalog="650">Lawyers--Michigan--Flint.</subject>
-        <subject source="lcsh" encodinganalog="650">Land use--Michigan--Flint.</subject>
-        <geogname source="lcsh" encodinganalog="651">Linden (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600">McFarlan, James H. (James Hoyt)</persname>
-        <corpname source="lcnaf" encodinganalog="610">McFarlan, Williams and Wilson.</corpname>
-        <subject source="lcsh" encodinganalog="650">Pioneers--South Dakota--White Lake.</subject>
-        <subject source="lcsh" encodinganalog="650">Teachers--Michigan--Linden.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Social life and customs--1871-1880.</corpname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/no2012068844">White Lake (S.D.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2311">Flint (Mich.)--Commerce.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1849">Flint Land Company.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8990">Frontier and pioneer life--South Dakota--White Lake.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6683">Lawyers--Michigan--Flint.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8991">Land use--Michigan--Flint.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1144">Linden (Mich.)</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/7879">McFarlan, James H. (James Hoyt)</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/255">McFarlan, Williams and Wilson.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8992">Pioneers--South Dakota--White Lake.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8993">Teachers--Michigan--Linden.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Social life and customs--1871-1880.<term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1871-1880.</term></corpname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/no2012068844" ref="/subjects/2312">White Lake (S.D.)</geogname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Business records.</genreform>
-        <genreform source="aat" encodinganalog="655">Diaries.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3172">Business records.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3145">Diaries.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -104,9 +104,8 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [82669490095458403702]">1</container>
-            <unittitle><genreform normal="Diaries">Diary</genreform>, <unitdate type="inclusive" normal="1881/1885">1881-1885</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [726556048585657110550]">1</container>
+            <unittitle><genreform normal="Diaries">Diary</genreform></unittitle><unitdate type="inclusive" normal="1881/1885">1881-1885</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -114,15 +113,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [82669490095458403702]">1</container>
-              <unittitle>Daybook <unitdate type="inclusive" normal="1899-09-23/1903-04-30">September 23, 1899-April 30, 1903</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [726556048585657110550]">1</container>
+              <unittitle>Daybook</unittitle><unitdate type="inclusive" normal="1899-09-23/1903-04-30">September 23, 1899-April 30, 1903</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [7810267456927559]">1</container>
-              <unittitle>Journal <unitdate type="inclusive" normal="1914-01/1924-07">January 1914-July 1924</unitdate></unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [77352546486740970318]">1</container>
+              <unittitle>Journal</unittitle><unitdate type="inclusive" normal="1914-01/1924-07">January 1914-July 1924</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -131,80 +128,53 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [82669490095458403702]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1897-09-10/1898-01-21">September 10, 1897-January 21, 1898</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [726556048585657110550]">1</container>
+              <unitdate type="inclusive" normal="1897-09-10/1898-01-21">September 10, 1897-January 21, 1898</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [82669490095458403702]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1898-01-21/1898-05-07">January 21, 1898-May 7, 1898</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [726556048585657110550]">1</container>
+              <unitdate type="inclusive" normal="1898-01-21/1898-05-07">January 21, 1898-May 7, 1898</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [82669490095458403702]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1898-05-07/1898-09-20">May 7, 1898-September 20, 1898</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [726556048585657110550]">1</container>
+              <unitdate type="inclusive" normal="1898-05-07/1898-09-20">May 7, 1898-September 20, 1898</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [82669490095458403702]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1898-09-20/1899-03-14">September 20, 1898-March 14, 1899</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [726556048585657110550]">1</container>
+              <unitdate type="inclusive" normal="1898-09-20/1899-03-14">September 20, 1898-March 14, 1899</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [82669490095458403702]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1899-03-14/1899-07-15">March 14, 1899-July 15, 1899</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [726556048585657110550]">1</container>
+              <unitdate type="inclusive" normal="1899-03-14/1899-07-15">March 14, 1899-July 15, 1899</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [157415446670376052]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1899-07-17/1900-03-23">July 17, 1899-March 23, 1900</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [98574649816188964648]">2</container>
+              <unitdate type="inclusive" normal="1899-07-17/1900-03-23">July 17, 1899-March 23, 1900</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [157415446670376052]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900-03-24/1900-08-16">March 24, 1900-August 16, 1900</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [98574649816188964648]">2</container>
+              <unitdate type="inclusive" normal="1900-03-24/1900-08-16">March 24, 1900-August 16, 1900</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [157415446670376052]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1901-12-17/1902-06-10">December 17, 1901-June 10, 1902</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [98574649816188964648]">2</container>
+              <unitdate type="inclusive" normal="1901-12-17/1902-06-10">December 17, 1901-June 10, 1902</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [157415446670376052]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1902-06-10/1902-12-01">June 10, 1902-December 1, 1902</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [98574649816188964648]">2</container>
+              <unitdate type="inclusive" normal="1902-06-10/1902-12-01">June 10, 1902-December 1, 1902</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [157415446670376052]">2</container>
+            <container type="box" label="Box [98574649816188964648]">2</container>
             <unittitle>Transcript of court case concerning property in Flint</unittitle>
           </did>
         </c02>

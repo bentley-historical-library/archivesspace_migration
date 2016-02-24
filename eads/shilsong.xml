@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,10 +43,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Shilson, Gilbert T., 1897-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/2254">Shilson, Gilbert T., 1897-</persname>
       </origination>
-      <unittitle encodinganalog="245">Gilbert T. Shilson papers <unitdate type="inclusive" encodinganalog="245$f" normal="1919">1919</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="1929">1929</unitdate></unittitle>
-      <abstract>Member of Co. K, 339th U.S. Infantry who served in the Allied intervention in Russia, 1918-1920, the "Polar Bear Expedition." Collection includes citation from French government for bravery in combat in 1918; and photographs.</abstract>
+      <unittitle encodinganalog="245">Gilbert T. Shilson papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1919">1919</unitdate><unitdate type="inclusive" encodinganalog="245$f" normal="1929">1929</unitdate><abstract>Member of Co. K, 339th U.S. Infantry who served in the Allied intervention in Russia, 1918-1920, the "Polar Bear Expedition." Collection includes citation from French government for bravery in combat in 1918; and photographs.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">89272 Aa 1</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -79,23 +79,23 @@
       </p>
       <controlaccess>
         <head>Subjects</head>
-        <persname source="lcnaf" encodinganalog="600">Shilson, Gilbert T., 1897-</persname>
-        <geogname source="lcsh" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
-        <subject source="local" encodinganalog="690">Polar Bear Expedition.</subject>
-        <subject source="lctgm" encodinganalog="650">Cemeteries--Michigan--Troy.</subject>
-        <subject source="lctgm" encodinganalog="650">Funeral rites and ceremonies.</subject>
-        <subject source="lctgm" encodinganalog="650">Military personnel.</subject>
-        <subject source="lctgm" encodinganalog="650">Monuments and memorials--Michigan--Troy.</subject>
-        <geogname source="lctgm" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79078639">Troy (Mich.)--Cemeteries.</geogname>
-        <geogname source="lctgm" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79078639">Troy (Mich.)--Monuments and memorials.</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008183293">Green, Fred W. (Fred Warren), 1872-1936.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Polar Bear Association.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">White Chapel Memorial Park Cemetery (Troy, Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2254">Shilson, Gilbert T., 1897-</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/879">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5715">World War, 1914-1918.</subject>
+        <subject source="local" encodinganalog="690" ref="/subjects/3516">Polar Bear Expedition.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5123">Cemeteries--Michigan--Troy.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3697">Funeral rites and ceremonies.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5124">Military personnel.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5125">Monuments and memorials--Michigan--Troy.</subject>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/632">Troy (Mich.)--Cemeteries.</geogname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/633">Troy (Mich.)--Monuments and memorials.</geogname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008183293" ref="/agents/people/2071">Green, Fred W. (Fred Warren), 1872-1936.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1596">Polar Bear Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3908">White Chapel Memorial Park Cemetery (Troy, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -105,9 +105,8 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [830186124488071875]">1</container>
-            <unittitle>Papers <unitdate type="inclusive" normal="1919">1919</unitdate> and Photographs, <unitdate type="inclusive" normal="1929">1929</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="folder" label="Folder [989774847834730168]">1</container>
+            <unittitle>Papers 1919 and Photographs, 1929</unittitle><unitdate type="inclusive" normal="1919">1919</unitdate><unitdate type="inclusive" normal="1929">1929</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 items</extent>
             </physdesc>
           </did>

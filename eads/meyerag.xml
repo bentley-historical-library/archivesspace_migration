@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Meyer, Alfred G.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/139">Meyer, Alfred G.</persname>
       </origination>
-      <unittitle encodinganalog="245">Alfred G. Meyer Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1860/1998" certainty="approximate">circa 1860-1998</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1930/1979" certainty="approximate">1930s-1970s</unitdate></unittitle>
-      <abstract>Professor of political science at Michigan State University and at the University of Michigan; director of the U-M Center for Russian and Eastern European Studies; specialist in communist ideology and the Soviet political system. The collection is composed of four series. The personal series consists of biographical information including autobiography detailing flight of his family from Nazi Germany, his education, and his academic career; the series also contains files relating to his education and to the history of his family; including extensive family correspondence, partially in German, primarily in the period of 1924-1945. The other, smaller, series in the collection pertain to his career and to his writings.</abstract>
+      <unittitle encodinganalog="245">Alfred G. Meyer Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1860/1998" certainty="approximate">circa 1860-1998</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1930/1979" certainty="approximate">1930s-1970s</unitdate><abstract>Professor of political science at Michigan State University and at the University of Michigan; director of the U-M Center for Russian and Eastern European Studies; specialist in communist ideology and the Soviet political system. The collection is composed of four series. The personal series consists of biographical information including autobiography detailing flight of his family from Nazi Germany, his education, and his academic career; the series also contains files relating to his education and to the history of his family; including extensive family correspondence, partially in German, primarily in the period of 1924-1945. The other, smaller, series in the collection pertain to his career and to his writings.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">0049 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -82,26 +82,26 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Meyer, Alfred G.</persname>
-        <geogname source="lcsh" encodinganalog="651">United States--Emigration and immigration.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Germany--Emigration and immigration.</geogname>
-        <famname source="lcnaf" encodinganalog="600">Myers family.</famname>
-        <subject source="lcsh" encodinganalog="650">Refugees, Jewish--United States.</subject>
-        <subject source="lcsh" encodinganalog="650">Refugees, Jewish--Germany.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Political Science.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/139">Meyer, Alfred G.</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/862">United States--Emigration and immigration.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2328">Germany--Emigration and immigration.</geogname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/129">Myers family.</famname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9248">Refugees, Jewish--United States.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9249">Refugees, Jewish--Germany.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1802">University of Michigan. Dept. of Political Science.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Meyer, Alfred G.</persname>
-        <geogname source="lcsh" encodinganalog="651">United States--Emigration and immigration.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Germany--Emigration and immigration.</geogname>
-        <subject source="lcsh" encodinganalog="650">Refugees, Jewish--United States.</subject>
-        <subject source="lcsh" encodinganalog="650">Refugees, Jewish--Germany.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/139">Meyer, Alfred G.</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/862">United States--Emigration and immigration.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2328">Germany--Emigration and immigration.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9248">Refugees, Jewish--United States.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9249">Refugees, Jewish--Germany.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Videocassettes.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3140">Videocassettes.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -121,23 +121,20 @@
           </scopecontent>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [80943341412493967317139]">1</container>
-              <unittitle>Obituaries, Articles, and Miscellaneous <unitdate type="inclusive" normal="1989/1998">1989-1998</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3858399408600605142451]">1</container>
+              <unittitle>Obituaries, Articles, and Miscellaneous</unittitle><unitdate type="inclusive" normal="1989/1998">1989-1998</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [80943341412493967317139]">1</container>
-              <unittitle>Curriculum Vitae <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3858399408600605142451]">1</container>
+              <unittitle>Curriculum Vitae</unittitle><unitdate type="inclusive" normal="1989">1989</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Autobiography, unpublished <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
-            </did>
+              <unittitle>Autobiography, unpublished</unittitle><unitdate type="inclusive" normal="1997">1997</unitdate></did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [80943341412493967317139]">1</container>
+                <container type="box" label="Box [3858399408600605142451]">1</container>
                 <unittitle>Full Draft with Scanned Photographs</unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">479 pages</extent>
@@ -146,7 +143,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [80943341412493967317139]">1</container>
+                <container type="box" label="Box [3858399408600605142451]">1</container>
                 <unittitle>Draft Fragments and Correspondence</unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -155,22 +152,20 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [80943341412493967317139]">1</container>
+                <container type="box" label="Box [3858399408600605142451]">1</container>
                 <unittitle>Scanned Photographs with Captions</unittitle>
               </did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [80943341412493967317139]">1</container>
-              <unittitle>FBI File and FOIA Request Correspondence <unitdate type="inclusive" normal="1994/1997">1994-1997</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3858399408600605142451]">1</container>
+              <unittitle>FBI File and FOIA Request Correspondence</unittitle><unitdate type="inclusive" normal="1994/1997">1994-1997</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [80943341412493967317139]">1</container>
-              <unittitle>Memorial Service Program <unitdate type="inclusive" normal="1998-08-19">August 19, 1998</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3858399408600605142451]">1</container>
+              <unittitle>Memorial Service Program</unittitle><unitdate type="inclusive" normal="1998-08-19">August 19, 1998</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -182,15 +177,13 @@
           </scopecontent>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [80943341412493967317139]">1</container>
-              <unittitle>Gymnasium (Primary and Secondary School) Records, Bielefeld, Germany <unitdate type="inclusive" normal="1926/1938">1926-1938</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3858399408600605142451]">1</container>
+              <unittitle>Gymnasium (Primary and Secondary School) Records, Bielefeld, Germany</unittitle><unitdate type="inclusive" normal="1926/1938">1926-1938</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [80943341412493967317139]">1</container>
-              <unittitle>Harvard Graduate School Records <unitdate type="inclusive" normal="1943/1947">1943-1947</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3858399408600605142451]">1</container>
+              <unittitle>Harvard Graduate School Records</unittitle><unitdate type="inclusive" normal="1943/1947">1943-1947</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -202,7 +195,7 @@
           </scopecontent>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [80943341412493967317139]">1</container>
+              <container type="box" label="Box [3858399408600605142451]">1</container>
               <unittitle>Family History</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
@@ -211,7 +204,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [80943341412493967317139]">1</container>
+              <container type="box" label="Box [3858399408600605142451]">1</container>
               <unittitle>Family Trees</unittitle>
             </did>
           </c03>
@@ -221,131 +214,93 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [80943341412493967317139]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1916">1916</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [3858399408600605142451]">1</container>
+                <unitdate type="inclusive" normal="1916">1916</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [80943341412493967317139]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1917/1931">1917-1931</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [3858399408600605142451]">1</container>
+                <unitdate type="inclusive" normal="1917/1931">1917-1931</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [80943341412493967317139]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1934/1935">1934-1935</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [3858399408600605142451]">1</container>
+                <unitdate type="inclusive" normal="1934/1935">1934-1935</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [80943341412493967317139]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1936">1936</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [3858399408600605142451]">1</container>
+                <unitdate type="inclusive" normal="1936">1936</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [80943341412493967317139]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1937">1937</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [3858399408600605142451]">1</container>
+                <unitdate type="inclusive" normal="1937">1937</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [80943341412493967317139]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1938">1938</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [3858399408600605142451]">1</container>
+                <unitdate type="inclusive" normal="1938">1938</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [80943341412493967317139]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1939">1939</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [3858399408600605142451]">1</container>
+                <unitdate type="inclusive" normal="1939">1939</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [80943341412493967317139]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1940">1940</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [3858399408600605142451]">1</container>
+                <unitdate type="inclusive" normal="1940">1940</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [80943341412493967317139]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1941">1941</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [3858399408600605142451]">1</container>
+                <unitdate type="inclusive" normal="1941">1941</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [80943341412493967317139]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1943/1945">1943-1945</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [3858399408600605142451]">1</container>
+                <unitdate type="inclusive" normal="1943/1945">1943-1945</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [80943341412493967317139]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1946/1969">1946-1969</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [3858399408600605142451]">1</container>
+                <unitdate type="inclusive" normal="1946/1969">1946-1969</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [80943341412493967317139]">1</container>
-                <unittitle>Gustave and Therese Meyer, Final Letters <unitdate type="inclusive" normal="1943">1943</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [3858399408600605142451]">1</container>
+                <unittitle>Gustave and Therese Meyer, Final Letters</unittitle><unitdate type="inclusive" normal="1943">1943</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [80943341412493967317139]">1</container>
-                <unittitle>Miscellaneous and <unitdate>Undated</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [3858399408600605142451]">1</container>
+                <unittitle>Miscellaneous</unittitle><unitdate>Undated</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [80943341412493967317139]">1</container>
-              <unittitle>Dissertation, Gustave Meyer <unitdate type="inclusive" normal="1900">1900</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3858399408600605142451]">1</container>
+              <unittitle>Dissertation, Gustave Meyer</unittitle><unitdate type="inclusive" normal="1900">1900</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [80943341412493967317139]">1</container>
-              <unittitle>Memoir, Jacob Melchior <unitdate type="inclusive" normal="1908" certainty="approximate">circa 1908</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [3858399408600605142451]">1</container>
+              <unittitle>Memoir, Jacob Melchior</unittitle><unitdate type="inclusive" normal="1908" certainty="approximate">circa 1908</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">1 volumes</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [80943341412493967317139]">1</container>
-              <unittitle><genreform normal="Photographs">Photographs</genreform>, <unitdate type="inclusive" normal="1860/1976" certainty="approximate">circa 1860-1976</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3858399408600605142451]">1</container>
+              <unittitle><genreform normal="Photographs">Photographs</genreform></unittitle><unitdate type="inclusive" normal="1860/1976" certainty="approximate">circa 1860-1976</unitdate></did>
             <odd>
               <p>(scattered dates)</p>
             </odd>
@@ -360,15 +315,13 @@
           </scopecontent>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [151424265273719]">2</container>
-              <unittitle>Newspaper Clippings, Correspondence, and Aerial Photographs <unitdate type="inclusive" normal="1945">1945</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [35223447259236083]">2</container>
+              <unittitle>Newspaper Clippings, Correspondence, and Aerial Photographs</unittitle><unitdate type="inclusive" normal="1945">1945</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [151424265273719]">2</container>
-              <unittitle>Military Awards, Certificates, and Records <unitdate type="inclusive" normal="1944/1953">1944-1953</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [35223447259236083]">2</container>
+              <unittitle>Military Awards, Certificates, and Records</unittitle><unitdate type="inclusive" normal="1944/1953">1944-1953</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -380,16 +333,15 @@
           </scopecontent>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [151424265273719]">2</container>
-              <unittitle>Cantata Singers and Mount Desert Chorale, Programs and Program Notes <unitdate type="inclusive" normal="1985/1993">1985-1993</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [35223447259236083]">2</container>
+              <unittitle>Cantata Singers and Mount Desert Chorale, Programs and Program Notes</unittitle><unitdate type="inclusive" normal="1985/1993">1985-1993</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [151424265273719]">2</container>
+              <container type="box" label="Box [35223447259236083]">2</container>
               <unittitle>Doodles, Cartoons, and Humorous Clippings</unittitle>
             </did>
           </c03>
@@ -404,24 +356,21 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [151424265273719]">2</container>
-            <unittitle>Articles About Meyer <unitdate type="inclusive" normal="1962/1997">1962-1997</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [35223447259236083]">2</container>
+            <unittitle>Articles About Meyer</unittitle><unitdate type="inclusive" normal="1962/1997">1962-1997</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [151424265273719]">2</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1959/1977">1959-1977</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [35223447259236083]">2</container>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1959/1977">1959-1977</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [151424265273719]">2</container>
-            <unittitle>Disarmament Subcommittee, United States Senate, Testimony and Correspondence <unitdate type="inclusive" normal="1956/1958">1956-1958</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [35223447259236083]">2</container>
+            <unittitle>Disarmament Subcommittee, United States Senate, Testimony and Correspondence</unittitle><unitdate type="inclusive" normal="1956/1958">1956-1958</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -429,28 +378,24 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [151424265273719]">2</container>
-              <unittitle>Awards and Certificates <unitdate type="inclusive" normal="1963/1996">1963-1996</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [35223447259236083]">2</container>
+              <unittitle>Awards and Certificates</unittitle><unitdate type="inclusive" normal="1963/1996">1963-1996</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [151424265273719]">2</container>
-              <unittitle>Honor Societies <unitdate type="inclusive" normal="1965">1965</unitdate>, <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [35223447259236083]">2</container>
+              <unittitle>Honor Societies</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate><unitdate type="inclusive" normal="1977">1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [151424265273719]">2</container>
-              <unittitle>Grand Cross of the Order of Merit from the Federal Republic of Germany, Award and Acceptance Speech <unitdate type="inclusive" normal="1991-04-10">April 10, 1991</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [35223447259236083]">2</container>
+              <unittitle>Grand Cross of the Order of Merit from the Federal Republic of Germany, Award and Acceptance Speech</unittitle><unitdate type="inclusive" normal="1991-04-10">April 10, 1991</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [151424265273719]">2</container>
-            <unittitle>Retirement Notices, Ceremony, and Thanks/Memories by Students and Colleagues <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [35223447259236083]">2</container>
+            <unittitle>Retirement Notices, Ceremony, and Thanks/Memories by Students and Colleagues</unittitle><unitdate type="inclusive" normal="1989">1989</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -466,7 +411,7 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [151424265273719]">2</container>
+              <container type="box" label="Box [35223447259236083]">2</container>
               <unittitle>Books, in Translation</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 volumes</extent>
@@ -475,24 +420,21 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [151424265273719]">2</container>
-              <unittitle>Journal articles, reviews, translations, news articles <unitdate type="inclusive" normal="1952/1972">1952-1972</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [35223447259236083]">2</container>
+              <unittitle>Journal articles, reviews, translations, news articles</unittitle><unitdate type="inclusive" normal="1952/1972">1952-1972</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [151424265273719]">2</container>
-              <unittitle>Reviews of Meyer's Publications <unitdate type="inclusive" normal="1957/1990">1957-1990</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [35223447259236083]">2</container>
+              <unittitle>Reviews of Meyer's Publications</unittitle><unitdate type="inclusive" normal="1957/1990">1957-1990</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [151424265273719]">2</container>
-              <unittitle>Publication Correspondence <unitdate type="inclusive" normal="1969/1998">1969-1998</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [35223447259236083]">2</container>
+              <unittitle>Publication Correspondence</unittitle><unitdate type="inclusive" normal="1969/1998">1969-1998</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -501,7 +443,7 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [151424265273719]">2</container>
+              <container type="box" label="Box [35223447259236083]">2</container>
               <unittitle>Essays and Lectures</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">4 folders</extent>
@@ -510,12 +452,12 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [162804545455559284]">3</container>
+              <container type="box" label="Box [583044448013779]">3</container>
               <unittitle>Friedrich Engels Biography</unittitle>
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [162804545455559284]">3</container>
+                <container type="box" label="Box [583044448013779]">3</container>
                 <unittitle>Draft</unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">545 pages</extent>
@@ -524,15 +466,14 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [162804545455559284]">3</container>
+                <container type="box" label="Box [583044448013779]">3</container>
                 <unittitle>Chapter 7, Alternate Draft</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [162804545455559284]">3</container>
-                <unittitle>Publication Correspondence <unitdate type="inclusive" normal="1977/1979">1977-1979</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [583044448013779]">3</container>
+                <unittitle>Publication Correspondence</unittitle><unitdate type="inclusive" normal="1977/1979">1977-1979</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -541,21 +482,20 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [162804545455559284]">3</container>
+                <container type="box" label="Box [583044448013779]">3</container>
                 <unittitle>"Interzone: On Life in Neukoln"</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [162804545455559284]">3</container>
+                <container type="box" label="Box [583044448013779]">3</container>
                 <unittitle>"It is Late, I Cannot Breathe: A Nocturnal Report"</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [162804545455559284]">3</container>
-                <unittitle>Publication Correspondence <unitdate type="inclusive" normal="1991/1997">1991-1997</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [583044448013779]">3</container>
+                <unittitle>Publication Correspondence</unittitle><unitdate type="inclusive" normal="1991/1997">1991-1997</unitdate></did>
             </c04>
           </c03>
         </c02>
@@ -569,9 +509,8 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [162804545455559284]">3</container>
-            <unittitle>Videocassette, SHOAH Interview <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [583044448013779]">3</container>
+            <unittitle>Videocassette, SHOAH Interview</unittitle><unitdate type="inclusive" normal="1998">1998</unitdate></did>
         </c02>
       </c01>
     </dsc>

@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,10 +43,9 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Ann Arbor Art Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/5082">Ann Arbor Art Association.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Ann Arbor Art Association Records <unitdate type="inclusive" encodinganalog="245$f" normal="1909/1969">1909-1969</unitdate></unittitle>
-      <abstract>Constitution, by-laws, minutes of meetings, reports, membership lists, scrapbooks, correspondence and exhibit materials.</abstract>
+      <unittitle encodinganalog="245">Ann Arbor Art Association Records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1909/1969">1909-1969</unitdate><abstract>Constitution, by-laws, minutes of meetings, reports, membership lists, scrapbooks, correspondence and exhibit materials.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">85621 Bp 2; BP outsize</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="part">
@@ -87,13 +87,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Art--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Artists--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Arts--Michigan--Ann Arbor--Societies, etc.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5651">Art--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5652">Artists--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5653">Arts--Michigan--Ann Arbor--Societies, etc.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Scrapbooks.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3133">Scrapbooks.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -113,112 +113,75 @@
           </scopecontent>
           <c03 level="file">
             <did>
-              <unittitle>Minutes <unitdate type="inclusive" normal="1909-05/1968-07">May 1909-July 1968</unitdate></unittitle>
-            </did>
+              <unittitle>Minutes</unittitle><unitdate type="inclusive" normal="1909-05/1968-07">May 1909-July 1968</unitdate></did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [602724861476597117]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1909-05/1916-01">May 1909-January 1916</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [8933471404879806125127421]">1</container>
+                <unitdate type="inclusive" normal="1909-05/1916-01">May 1909-January 1916</unitdate></did>
               <odd>
                 <p>(lacking 1913)</p>
               </odd>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [602724861476597117]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1916-01/1923-12">January 1916-December 1923</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [8933471404879806125127421]">1</container>
+                <unitdate type="inclusive" normal="1916-01/1923-12">January 1916-December 1923</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [602724861476597117]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1924-01/1933-11">January 1924-November 1933</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [8933471404879806125127421]">1</container>
+                <unitdate type="inclusive" normal="1924-01/1933-11">January 1924-November 1933</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [602724861476597117]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1934-01/1946-06">January 1934-June 1946</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [8933471404879806125127421]">1</container>
+                <unitdate type="inclusive" normal="1934-01/1946-06">January 1934-June 1946</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [602724861476597117]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1946-10/1953-05">October 1946-May 1953</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [8933471404879806125127421]">1</container>
+                <unitdate type="inclusive" normal="1946-10/1953-05">October 1946-May 1953</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [602724861476597117]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1949-05/1953-06">May 1949-June 1953</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [8933471404879806125127421]">1</container>
+                <unitdate type="inclusive" normal="1949-05/1953-06">May 1949-June 1953</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [602724861476597117]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1947/1950-05">1947-May 1950</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [8933471404879806125127421]">1</container>
+                <unitdate type="inclusive" normal="1947/1950-05">1947-May 1950</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [602724861476597117]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1952-05/1957-05">May 1952-May 1957</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [8933471404879806125127421]">1</container>
+                <unitdate type="inclusive" normal="1952-05/1957-05">May 1952-May 1957</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [602724861476597117]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1956-06/1957-05">June 1956-May 1957</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [8933471404879806125127421]">1</container>
+                <unitdate type="inclusive" normal="1956-06/1957-05">June 1956-May 1957</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [602724861476597117]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1953-07/1959-08">July 1953-August 1959</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [8933471404879806125127421]">1</container>
+                <unitdate type="inclusive" normal="1953-07/1959-08">July 1953-August 1959</unitdate></did>
               <odd>
                 <p>(also treasurer's reports)</p>
               </odd>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [602724861476597117]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1956-11/1962-05">November 1956-May 1962</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [8933471404879806125127421]">1</container>
+                <unitdate type="inclusive" normal="1956-11/1962-05">November 1956-May 1962</unitdate></did>
               <odd>
                 <p>(also treasurer's reports)</p>
               </odd>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [602724861476597117]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1962-05/1968-07">May 1962-July 1968</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [8933471404879806125127421]">1</container>
+                <unitdate type="inclusive" normal="1962-05/1968-07">May 1962-July 1968</unitdate></did>
               <odd>
                 <p>(also treasurer's reports)</p>
               </odd>
@@ -234,45 +197,38 @@
           </scopecontent>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [602724861476597117]">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1911/1912">1911-1912</unitdate>, <unitdate type="inclusive" normal="1959/1963">1959-1963</unitdate>, <unitdate type="inclusive" normal="1965/1967">1965-1967</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8933471404879806125127421]">1</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1911/1912">1911-1912</unitdate><unitdate type="inclusive" normal="1959/1963">1959-1963</unitdate><unitdate type="inclusive" normal="1965/1967">1965-1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [602724861476597117]">1</container>
-              <unittitle>Treasurer's Reports <unitdate type="inclusive" normal="1951-05/1966-05">May 1951-May 1966</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8933471404879806125127421]">1</container>
+              <unittitle>Treasurer's Reports</unittitle><unitdate type="inclusive" normal="1951-05/1966-05">May 1951-May 1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [602724861476597117]">1</container>
-              <unittitle>Treasurer's Reports <unitdate type="inclusive" normal="1954-05/1961-01">May 1954-January 1961</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8933471404879806125127421]">1</container>
+              <unittitle>Treasurer's Reports</unittitle><unitdate type="inclusive" normal="1954-05/1961-01">May 1954-January 1961</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [602724861476597117]">1</container>
-              <unittitle>Constitution and Amendments <unitdate type="inclusive" normal="1959/1963">1959-1963</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8933471404879806125127421]">1</container>
+              <unittitle>Constitution and Amendments</unittitle><unitdate type="inclusive" normal="1959/1963">1959-1963</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [602724861476597117]">1</container>
-              <unittitle>Policy on Expenditure <unitdate type="inclusive" normal="1946">1946</unitdate>, <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8933471404879806125127421]">1</container>
+              <unittitle>Policy on Expenditure</unittitle><unitdate type="inclusive" normal="1946">1946</unitdate><unitdate type="inclusive" normal="1957">1957</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [602724861476597117]">1</container>
-              <unittitle>Insurance for Art Exhibits <unitdate type="inclusive" normal="1958/1961">1958-1961</unitdate>, <unitdate type="inclusive" normal="1963/1967">1963-1967</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8933471404879806125127421]">1</container>
+              <unittitle>Insurance for Art Exhibits</unittitle><unitdate type="inclusive" normal="1958/1961">1958-1961</unitdate><unitdate type="inclusive" normal="1963/1967">1963-1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [602724861476597117]">1</container>
-              <unittitle>Tax Problem <unitdate type="inclusive" normal="1964-01">January 1964</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8933471404879806125127421]">1</container>
+              <unittitle>Tax Problem</unittitle><unitdate type="inclusive" normal="1964-01">January 1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -280,41 +236,32 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [499057434735972510791]">2</container>
-                <unittitle>Membership Books and Letters <unitdate type="inclusive" normal="1922">1922</unitdate>, <unitdate type="inclusive" normal="1958/1967">1958-1967</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [66733145188946365]">2</container>
+                <unittitle>Membership Books and Letters</unittitle><unitdate type="inclusive" normal="1922">1922</unitdate><unitdate type="inclusive" normal="1958/1967">1958-1967</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>Lists <unitdate type="inclusive" normal="1953/1969">1953-1969</unitdate></unittitle>
-              </did>
+                <unittitle>Lists</unittitle><unitdate type="inclusive" normal="1953/1969">1953-1969</unitdate></did>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [499057434735972510791]">2</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1953/1964">1953-1964</unitdate>
-                  </unittitle>
-                </did>
+                  <container type="box" label="Box [66733145188946365]">2</container>
+                  <unitdate type="inclusive" normal="1953/1964">1953-1964</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [499057434735972510791]">2</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1964/1969">1964-1969</unitdate>
-                  </unittitle>
-                </did>
+                  <container type="box" label="Box [66733145188946365]">2</container>
+                  <unitdate type="inclusive" normal="1964/1969">1964-1969</unitdate></did>
               </c05>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [499057434735972510791]">2</container>
-                <unittitle>Members Record <unitdate type="inclusive" normal="1955-01">January 1955</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [66733145188946365]">2</container>
+                <unittitle>Members Record</unittitle><unitdate type="inclusive" normal="1955-01">January 1955</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [499057434735972510791]">2</container>
+              <container type="box" label="Box [66733145188946365]">2</container>
               <unittitle>Miscellaneous</unittitle>
             </did>
             <odd>
@@ -332,9 +279,8 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [499057434735972510791]">2</container>
-            <unittitle>Paper by Emil Lorch entitled, "The Ann Arbor Art Association Exhibits and Lectures 1909-1934; notes on the establishment of lecture course in the History of Art and on art instruction University of Michigan" <unitdate type="inclusive" normal="1956-08">August 1956</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [66733145188946365]">2</container>
+            <unittitle>Paper by Emil Lorch entitled, "The Ann Arbor Art Association Exhibits and Lectures 1909-1934; notes on the establishment of lecture course in the History of Art and on art instruction University of Michigan"</unittitle><unitdate type="inclusive" normal="1956-08">August 1956</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -342,107 +288,68 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [499057434735972510791]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1925/1929">1925-1929</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [66733145188946365]">2</container>
+              <unitdate type="inclusive" normal="1925/1929">1925-1929</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [499057434735972510791]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1929/1931">1929-1931</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [66733145188946365]">2</container>
+              <unitdate type="inclusive" normal="1929/1931">1929-1931</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [499057434735972510791]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1931/1934">1931-1934</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [66733145188946365]">2</container>
+              <unitdate type="inclusive" normal="1931/1934">1931-1934</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [499057434735972510791]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1934/1936">1934-1936</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [66733145188946365]">2</container>
+              <unitdate type="inclusive" normal="1934/1936">1934-1936</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [499057434735972510791]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1936/1937">1936-1937</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [66733145188946365]">2</container>
+              <unitdate type="inclusive" normal="1936/1937">1936-1937</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [499057434735972510791]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1938/1939">1938-1939</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [66733145188946365]">2</container>
+              <unitdate type="inclusive" normal="1938/1939">1938-1939</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [499057434735972510791]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1939/1940">1939-1940</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [66733145188946365]">2</container>
+              <unitdate type="inclusive" normal="1939/1940">1939-1940</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [499057434735972510791]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1940/1942">1940-1942</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [66733145188946365]">2</container>
+              <unitdate type="inclusive" normal="1940/1942">1940-1942</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [499057434735972510791]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1942/1948">1942-1948</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [66733145188946365]">2</container>
+              <unitdate type="inclusive" normal="1942/1948">1942-1948</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [499057434735972510791]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1948/1951">1948-1951</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [66733145188946365]">2</container>
+              <unitdate type="inclusive" normal="1948/1951">1948-1951</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [499057434735972510791]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1951/1954">1951-1954</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [66733145188946365]">2</container>
+              <unitdate type="inclusive" normal="1951/1954">1951-1954</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [499057434735972510791]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1954/1957">1954-1957</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [66733145188946365]">2</container>
+              <unitdate type="inclusive" normal="1954/1957">1954-1957</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [499057434735972510791]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1958/1967">1958-1967</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [66733145188946365]">2</container>
+              <unitdate type="inclusive" normal="1958/1967">1958-1967</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -451,171 +358,144 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [499057434735972510791]">2</container>
-              <unittitle>Ann Arbor Art Association Permanent Collection <unitdate type="inclusive" normal="1958/1966">1958-1966</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [66733145188946365]">2</container>
+              <unittitle>Ann Arbor Art Association Permanent Collection</unittitle><unitdate type="inclusive" normal="1958/1966">1958-1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [499057434735972510791]">2</container>
-              <unittitle>Ann Arbor Street Fair <unitdate type="inclusive" normal="1960">1960</unitdate>, <unitdate type="inclusive" normal="1964/1967">1964-1967</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [66733145188946365]">2</container>
+              <unittitle>Ann Arbor Street Fair</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate><unitdate type="inclusive" normal="1964/1967">1964-1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [499057434735972510791]">2</container>
-              <unittitle>Christmas Shows <unitdate type="inclusive" normal="1958/1961">1958-1961</unitdate>, <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [66733145188946365]">2</container>
+              <unittitle>Christmas Shows</unittitle><unitdate type="inclusive" normal="1958/1961">1958-1961</unitdate><unitdate type="inclusive" normal="1963">1963</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [499057434735972510791]">2</container>
-              <unittitle>City Hall Shows <unitdate type="inclusive" normal="1958/1959">1958-1959</unitdate>, <unitdate type="inclusive" normal="1963/1967">1963-1967</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [66733145188946365]">2</container>
+              <unittitle>City Hall Shows</unittitle><unitdate type="inclusive" normal="1958/1959">1958-1959</unitdate><unitdate type="inclusive" normal="1963/1967">1963-1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [499057434735972510791]">2</container>
-              <unittitle>City Hall Show <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [66733145188946365]">2</container>
+              <unittitle>City Hall Show</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [499057434735972510791]">2</container>
-              <unittitle>City Hall Shows <unitdate type="inclusive" normal="1963-12">December 1963</unitdate>, <unitdate type="inclusive" normal="1964-02">February 1964</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [66733145188946365]">2</container>
+              <unittitle>City Hall Shows</unittitle><unitdate type="inclusive" normal="1963-12">December 1963</unitdate><unitdate type="inclusive" normal="1964-02">February 1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [499057434735972510791]">2</container>
-              <unittitle>City Planning Shows <unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [66733145188946365]">2</container>
+              <unittitle>City Planning Shows</unittitle><unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [499057434735972510791]">2</container>
-              <unittitle>Group Shows <unitdate type="inclusive" normal="1959">1959</unitdate>, <unitdate type="inclusive" normal="1961/1963">1961-1963</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [66733145188946365]">2</container>
+              <unittitle>Group Shows</unittitle><unitdate type="inclusive" normal="1959">1959</unitdate><unitdate type="inclusive" normal="1961/1963">1961-1963</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [499057434735972510791]">2</container>
-              <unittitle>Film Lecture Program <unitdate type="inclusive" normal="1951/1964">1951-1964</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [66733145188946365]">2</container>
+              <unittitle>Film Lecture Program</unittitle><unitdate type="inclusive" normal="1951/1964">1951-1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [499057434735972510791]">2</container>
-              <unittitle>Library Shows <unitdate type="inclusive" normal="1959/1967">1959-1967</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [66733145188946365]">2</container>
+              <unittitle>Library Shows</unittitle><unitdate type="inclusive" normal="1959/1967">1959-1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [499057434735972510791]">2</container>
-              <unittitle>Michigan Water Color Exhibit <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [66733145188946365]">2</container>
+              <unittitle>Michigan Water Color Exhibit</unittitle><unitdate type="inclusive" normal="1959">1959</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [499057434735972510791]">2</container>
-              <unittitle>Old German Restaurant <unitdate type="inclusive" normal="1960/1964">1960-1964</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [66733145188946365]">2</container>
+              <unittitle>Old German Restaurant</unittitle><unitdate type="inclusive" normal="1960/1964">1960-1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [499057434735972510791]">2</container>
-              <unittitle>One Day Craft Sale <unitdate type="inclusive" normal="1964/1967">1964-1967</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [66733145188946365]">2</container>
+              <unittitle>One Day Craft Sale</unittitle><unitdate type="inclusive" normal="1964/1967">1964-1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [499057434735972510791]">2</container>
-              <unittitle>Semi-Centennial <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [66733145188946365]">2</container>
+              <unittitle>Semi-Centennial</unittitle><unitdate type="inclusive" normal="1959">1959</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [499057434735972510791]">2</container>
-              <unittitle>Jean Paul Slusser Tribute Fund <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [66733145188946365]">2</container>
+              <unittitle>Jean Paul Slusser Tribute Fund</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [499057434735972510791]">2</container>
-              <unittitle>Youth Exhibit <unitdate type="inclusive" normal="1960/1966">1960-1966</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [66733145188946365]">2</container>
+              <unittitle>Youth Exhibit</unittitle><unitdate type="inclusive" normal="1960/1966">1960-1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [499057434735972510791]">2</container>
-              <unittitle>Exhibit Notices <unitdate type="inclusive" normal="1957/1967">1957-1967</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [66733145188946365]">2</container>
+              <unittitle>Exhibit Notices</unittitle><unitdate type="inclusive" normal="1957/1967">1957-1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [602745924453890147595]">3</container>
-              <unittitle>Various <unitdate type="inclusive" normal="1954/1964">1954-1964</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [682252599948509615604612]">3</container>
+              <unittitle>Various</unittitle><unitdate type="inclusive" normal="1954/1964">1954-1964</unitdate></did>
             <odd>
               <p>(includes press releases, price lists)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [602745924453890147595]">3</container>
-              <unittitle>Various <unitdate type="inclusive" normal="1965/1969">1965-1969</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [682252599948509615604612]">3</container>
+              <unittitle>Various</unittitle><unitdate type="inclusive" normal="1965/1969">1965-1969</unitdate></did>
             <odd>
               <p>(includes press releases, price lists)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [602745924453890147595]">3</container>
-              <unittitle>Publication: <title render="italic">Hand-book for the first exhibition of the Ann Arbor Art Association</title>, <unitdate type="inclusive" normal="1909">1909</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [682252599948509615604612]">3</container>
+              <unittitle>Publication: <title render="italic">Hand-book for the first exhibition of the Ann Arbor Art Association</title></unittitle><unitdate type="inclusive" normal="1909">1909</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [602745924453890147595]">3</container>
-              <unittitle>Publication: <title render="italic">Exhibition of oriental and American Art</title>, <unitdate type="inclusive" normal="1910">1910</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [682252599948509615604612]">3</container>
+              <unittitle>Publication: <title render="italic">Exhibition of oriental and American Art</title></unittitle><unitdate type="inclusive" normal="1910">1910</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [602745924453890147595]">3</container>
-              <unittitle>Publication: <title render="italic">Retrospective exhibition ...Warren P. Lombard ...Horatio W. Shaw</title>, <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [682252599948509615604612]">3</container>
+              <unittitle>Publication: <title render="italic">Retrospective exhibition ...Warren P. Lombard ...Horatio W. Shaw</title></unittitle><unitdate type="inclusive" normal="1940">1940</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [602745924453890147595]">3</container>
-              <unittitle>Publication: <title render="italic">The Ann Arbor Art Association 1909-1959 a survey of fifty years</title>, <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [682252599948509615604612]">3</container>
+              <unittitle>Publication: <title render="italic">The Ann Arbor Art Association 1909-1959 a survey of fifty years</title></unittitle><unitdate type="inclusive" normal="1959">1959</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [602745924453890147595]">3</container>
-              <unittitle>Scrapbook containing exhibit notices and newspaper clippings <unitdate type="inclusive" normal="1931/1938">1931-1938</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [682252599948509615604612]">3</container>
+              <unittitle>Scrapbook containing exhibit notices and newspaper clippings</unittitle><unitdate type="inclusive" normal="1931/1938">1931-1938</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [952931764096099505]">1</container>
-              <unittitle>Scrapbook containing exhibit notices and newspaper clippings <unitdate type="inclusive" normal="1948/1954">1948-1954</unitdate></unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [1881165743685493909190]">1</container>
+              <unittitle>Scrapbook containing exhibit notices and newspaper clippings</unittitle><unitdate type="inclusive" normal="1948/1954">1948-1954</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [007959626478650888495]">2</container>
-              <unittitle>Scrapbook containing exhibit notices and newspaper clippings <unitdate type="inclusive" normal="1953/1962">1953-1962</unitdate></unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [595695943929166648569]">2</container>
+              <unittitle>Scrapbook containing exhibit notices and newspaper clippings</unittitle><unitdate type="inclusive" normal="1953/1962">1953-1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [602745924453890147595]">3</container>
-              <unittitle>Attendance book for Art Association exhibits in Alumni Memorial Hall <unitdate type="inclusive" normal="1935/1936">1935-1936</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [682252599948509615604612]">3</container>
+              <unittitle>Attendance book for Art Association exhibits in Alumni Memorial Hall</unittitle><unitdate type="inclusive" normal="1935/1936">1935-1936</unitdate></did>
           </c03>
         </c02>
       </c01>

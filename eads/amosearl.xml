@@ -32,7 +32,8 @@
         <item>Edited to reflect migration of content from CD-ROM to Deep Blue JMBG</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -43,10 +44,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Amos, Earl V.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/1938">Amos, Earl V.</persname>
       </origination>
-      <unittitle encodinganalog="245">Earl V. Amos papers <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1919">1918-1919</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">05143 Aa 2</unitid>
+      <unittitle encodinganalog="245">Earl V. Amos papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1918/1919">1918-1919</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">05143 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Papers of a soldier in the Allied intervention in Russia, 1918-1920, the "Polar Bear Expedition."</abstract>
       <physdesc altrender="whole">
@@ -89,22 +89,22 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Amos, Earl V.</persname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Engineer Regiment, 310th.</corpname>
-        <geogname source="lcsh" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <subject encodinganalog="690" source="local">Polar Bear Expedition.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1938">Amos, Earl V.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1507">United States. Army. Engineer Regiment, 310th.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/879">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <subject encodinganalog="690" source="local" ref="/subjects/3516">Polar Bear Expedition.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat">Diaries.</genreform>
+        <genreform source="aat" ref="/subjects/3145">Diaries.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <container type="folder" label="Folder [684709403414072343575]">1</container>
+          <container type="folder" label="Folder [164947846988374154]">1</container>
           <unittitle>Papers</unittitle>
-          <dao show="new" actuate="onRequest" href="amos0001">
+          <dao show="new" actuate="onRequest" href="amos0001" ref="/repositories/2/digital_objects/7474">
             <daodesc>
               <p>[view items]</p>
             </daodesc>
@@ -122,8 +122,7 @@
         <c02 level="file">
           <did>
             <unitid>005, 049</unitid>
-            <unittitle><title>Midnight sun</title> (newsletter), <unitdate type="inclusive" normal="1919-06-30">June 30, 1919</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle><title>Midnight sun</title> (newsletter)</unittitle><unitdate type="inclusive" normal="1919-06-30">June 30, 1919</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 digital files</extent>
             </physdesc>
           </did>
@@ -149,9 +148,9 @@
       </c01>
       <c01 level="series">
         <did>
-          <container type="folder" label="Folder [097001394043064025342]">2</container>
+          <container type="folder" label="Folder [2231313729438555446635]">2</container>
           <unittitle>Visual Materials</unittitle>
-          <dao show="new" actuate="onRequest" href="amos0002">
+          <dao show="new" actuate="onRequest" href="amos0002" ref="/repositories/2/digital_objects/7475">
             <daodesc>
               <p>[view items]</p>
             </daodesc>

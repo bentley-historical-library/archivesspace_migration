@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Hospitals. Business Office.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/662">University of Michigan. Hospitals. Business Office.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Hospitals. Business office. (University of Michigan) records, <unitdate type="inclusive" encodinganalog="245$f" normal="1926/1977">1926-1977</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1950/1970">1950-1970</unitdate></unittitle>
-      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">05103 Bimu C500 2</unitid>
+      <unittitle encodinganalog="245">Hospitals. Business office. (University of Michigan) records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1926/1977">1926-1977</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1950/1970">1950-1970</unitdate><unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">05103 Bimu C500 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>The collection contains financial reports, budget information and patient statistics for the major divisions of the University of Michigan Hospitals. The major divisions include the General Hospital/General Division, Neuropsychiatric Institute, Veterans Readjustment Center, Clinical Research Unit, and Psychiatric Division.</abstract>
       <physdesc altrender="whole">
@@ -178,55 +178,45 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname encodinganalog="610" source="lcnaf">University of Michigan. Hospitals. Business Office.</corpname>
-        <corpname encodinganalog="610" source="lcnaf">University of Michigan. Hospitals.</corpname>
-        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Finance.</corpname>
-        <subject source="lcsh" encodinganalog="650">Hospitals--Finance--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Hospitals--Administration.</subject>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/662">University of Michigan. Hospitals. Business Office.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/1668">University of Michigan. Hospitals.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Finance.<term type="topical">Finance.</term></corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8313">Hospitals--Finance--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8314">Hospitals--Administration.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Budgets.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3289">Budgets.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Accountant's Daily Report <unitdate type="inclusive" normal="1926/1973">1926-1973</unitdate></unittitle>
-        </did>
+          <unittitle>Accountant's Daily Report</unittitle><unitdate type="inclusive" normal="1926/1973">1926-1973</unitdate></did>
         <scopecontent>
           <p>Accountant's Daily Reports (3 linear feet, 1926-1973) is comprised of reports by the accountants summarizing the financial status of the hospital. For each day, they recorded accounts receivable, statistics on the number of patients, cash and revenue. They also listed the cumulative statistics for the year, and the comparable amount for a year and two years prior. Starting in fiscal year 1948/49, a report was only created on the 10th, 20th, and last day of each month. Reports are not included for the following fiscal years: 1932/33, 1933/34, 1934/35, 1938/39, and 1940/41.</p>
           <p>Beginning in fiscal year 1941/42, patient statistics were listed separately for each hospital. There is the University Hospital or General Division, and also the Neuropsychiatric Institute (1941-1966), Veterans Readjustment Center (1947-1963), Children's Psychiatric Hospital (1955-1966), Clinical Research Unit (1963-1971), and Psychiatric Division (1966-1971). Patient statistics were no longer included in the Accountant's Daily Reports after January 20, 1971.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4733222420964132914]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1926/1936">1926-1936</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [7987321482939278287]">1</container>
+            <unitdate type="inclusive" normal="1926/1936">1926-1936</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">7 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9975935748099394576441]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1936/1948">1936-1948</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [8716910145644988087]">2</container>
+            <unitdate type="inclusive" normal="1936/1948">1936-1948</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">6 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6235191934424199440994354]">3</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1948/1973">1948-1973</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [5141995493343426611]">3</container>
+            <unitdate type="inclusive" normal="1948/1973">1948-1973</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">25 volumes</extent>
             </physdesc>
           </did>
@@ -234,67 +224,57 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Business Office Standards and Financial Analysis <unitdate type="inclusive" normal="1928/1972">1928-1972</unitdate></unittitle>
-        </did>
+          <unittitle>Business Office Standards and Financial Analysis</unittitle><unitdate type="inclusive" normal="1928/1972">1928-1972</unitdate></did>
         <scopecontent>
           <p>Business Office Standards and Financial Analysis (2 linear feet, 1928-1972) contains a variety of financial and administrative documents. There are reports on standard practices for accounting, billing, and paperwork (1928-1955), hospital rates (1950-1956), salary and wage guidelines (1970-1971), and budgets and financial statements of the General Hospital and the Psychiatric Division (1961-1972). The financial statements list expenses and incomes. There are also meeting minutes of the Board of Trustees of the Psychopathic Hospital (1928-1936), which mainly discuss the budget, patient statistics, and the construction of a new building. In addition, there is a report on unpaid accounts, listing credit analysis, analysis of increase inactive pay, and collection analysis from 1930 to 1932.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1673591464949560]">4</container>
-            <unittitle>Accounting Bulletins <unitdate type="inclusive" normal="1948/1950">1948-1950</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [20744427749884223124098]">4</container>
+            <unittitle>Accounting Bulletins</unittitle><unitdate type="inclusive" normal="1948/1950">1948-1950</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1673591464949560]">4</container>
-            <unittitle>Analysis of Unpaid Accounts <unitdate type="inclusive" normal="1930/1932">1930-1932</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [20744427749884223124098]">4</container>
+            <unittitle>Analysis of Unpaid Accounts</unittitle><unitdate type="inclusive" normal="1930/1932">1930-1932</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1673591464949560]">4</container>
-            <unittitle>Board of Trustees of the Psychopathic Hospital Meeting Minutes <unitdate type="inclusive" normal="1928/1936">1928-1936</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [20744427749884223124098]">4</container>
+            <unittitle>Board of Trustees of the Psychopathic Hospital Meeting Minutes</unittitle><unitdate type="inclusive" normal="1928/1936">1928-1936</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1673591464949560]">4</container>
-            <unittitle>Budget, General Hospital Budget Progress and Psychiatric Division <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [20744427749884223124098]">4</container>
+            <unittitle>Budget, General Hospital Budget Progress and Psychiatric Division</unittitle><unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1673591464949560]">4</container>
-            <unittitle>Financial Statements, General Hospital and Psychiatric Division Expenses and Incomes <unitdate type="inclusive" normal="1961/1965">1961-1965</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [20744427749884223124098]">4</container>
+            <unittitle>Financial Statements, General Hospital and Psychiatric Division Expenses and Incomes</unittitle><unitdate type="inclusive" normal="1961/1965">1961-1965</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1673591464949560]">4</container>
-            <unittitle>Rate Schedules <unitdate type="inclusive" normal="1950/1956">1950-1956</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [20744427749884223124098]">4</container>
+            <unittitle>Rate Schedules</unittitle><unitdate type="inclusive" normal="1950/1956">1950-1956</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [49665189488823749791]">5</container>
-            <unittitle>A Report on the General Ledger of the University Hospital <unitdate type="inclusive" normal="1928">1928</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [78441719474891077234346]">5</container>
+            <unittitle>A Report on the General Ledger of the University Hospital</unittitle><unitdate type="inclusive" normal="1928">1928</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [49665189488823749791]">5</container>
-            <unittitle>Salary and Wage Ranges and Guidelines <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [78441719474891077234346]">5</container>
+            <unittitle>Salary and Wage Ranges and Guidelines</unittitle><unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [49665189488823749791]">5</container>
-            <unittitle>Standard Practices <unitdate type="inclusive" normal="1933/1955">1933-1955</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [78441719474891077234346]">5</container>
+            <unittitle>Standard Practices</unittitle><unitdate type="inclusive" normal="1933/1955">1933-1955</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
@@ -302,18 +282,14 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Director's Daily Statistical Reports <unitdate type="inclusive" normal="1947/1977">1947-1977</unitdate></unittitle>
-        </did>
+          <unittitle>Director's Daily Statistical Reports</unittitle><unitdate type="inclusive" normal="1947/1977">1947-1977</unitdate></did>
         <scopecontent>
           <p>Director's Daily Statistical Reports [RESTRICTED] (5 linear feet, 1947-1977) contains statistical reports on the patients of the university hospitals. For each day, they record the number of patients at each location and the percent occupancy of each division, as well as a record of individuals who died or were dangerously ill that day. The report indicates their name, location, the service the patient was receiving, the doctor who recorded the information, and the hometown of the patient. Some of the reports also include the number of patients receiving each service (1948-1960) and the number of registrations by service (1948-1963). Because of the presence of patient names, the reports in this series are restricted.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5711958043422524343]">6</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1947/1954">1947-1954</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [63258634648611035]">6</container>
+            <unitdate type="inclusive" normal="1947/1954">1947-1954</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">7 volumes</extent>
             </physdesc>
           </did>
@@ -323,11 +299,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [664811977304508713176954901]">7</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1954/1960">1954-1960</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [1187818895414520713357311]">7</container>
+            <unitdate type="inclusive" normal="1954/1960">1954-1960</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">6 volumes</extent>
             </physdesc>
           </did>
@@ -337,11 +310,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [688780448589387564146]">8</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1960/1966">1960-1966</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [645394162409544915724]">8</container>
+            <unitdate type="inclusive" normal="1960/1966">1960-1966</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">6 volumes</extent>
             </physdesc>
           </did>
@@ -351,11 +321,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [591575497799303562]">9</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1966/1972">1966-1972</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [07262336443976262572]">9</container>
+            <unitdate type="inclusive" normal="1966/1972">1966-1972</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">6 volumes</extent>
             </physdesc>
           </did>
@@ -365,11 +332,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7489516847288648725782]">10</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1972/1977">1972-1977</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [89964448719629692]">10</container>
+            <unitdate type="inclusive" normal="1972/1977">1972-1977</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 volumes</extent>
             </physdesc>
           </did>
@@ -380,63 +344,47 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Monthly Department Cost Reports <unitdate type="inclusive" normal="1949/1971">1949-1971</unitdate></unittitle>
-        </did>
+          <unittitle>Monthly Department Cost Reports</unittitle><unitdate type="inclusive" normal="1949/1971">1949-1971</unitdate></did>
         <scopecontent>
           <p>Monthly Department Cost Reports (5 linear feet, 1949-1971) contains operating and statistical statements. For each month, there is a report of the incomes, expenses and profits or losses of each floor, unit, patient service and laboratory, as well as summary data for each hospital division. There is also statistical data on the length of patient stay, the percent capacity of the unit, and the cost and income per patient day when applicable.</p>
           <p>Starting in fiscal year 1954/55, there are only reports for September-June. In fiscal year 1970/71, there is a format change. The reports are for each quarter and are divided by division only. The reports list revenues, direct costs, operating amount, contribution percentage, total indirect costs, net income or expense, net income or expense year to date, and if applicable, percentage of occupancy, average length of stay, total expense per patient day and net income or expense per patient day.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7829692895429968382173]">11</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1949/1955">1949-1955</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [6717874809376583050]">11</container>
+            <unitdate type="inclusive" normal="1949/1955">1949-1955</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [31086270464968013262696]">12</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1955/1959">1955-1959</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [40379144804432406506]">12</container>
+            <unitdate type="inclusive" normal="1955/1959">1955-1959</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7367142053722013441]">13</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1959/1963">1959-1963</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [68634961868430067]">13</container>
+            <unitdate type="inclusive" normal="1959/1963">1959-1963</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [84165907469529102229]">14</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1963/1966">1963-1966</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [915435094192554405]">14</container>
+            <unitdate type="inclusive" normal="1963/1966">1963-1966</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [500873245894129417013]">15</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1966/1971">1966-1971</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [854430314189640736876472]">15</container>
+            <unitdate type="inclusive" normal="1966/1971">1966-1971</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 volumes</extent>
             </physdesc>
           </did>
@@ -444,52 +392,39 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Monthly Financial Reports <unitdate type="inclusive" normal="1948/1975">1948-1975</unitdate></unittitle>
-        </did>
+          <unittitle>Monthly Financial Reports</unittitle><unitdate type="inclusive" normal="1948/1975">1948-1975</unitdate></did>
         <scopecontent>
           <p>Monthly Financial Reports (3 linear feet, 1948-1975) contains summaries of financial data for the major divisions of the university hospital system. For each month, the incomes, expenses, assets, liabilities, changes in accounts receivable allowances and patient statistics are recorded and compared to the budgeted amount for each division. The major divisions are University Hospital (1948-1952), General Hospital (1952-1964), General Division (1964-1975), Neuropsychiatric Institute (1948-1964), Veterans Readjustment Center (1948-1963), Children's Psychiatric Hospital (1955-1964), Mental Health Research Institute (1955-1957) and Psychiatric Division (1964-1975).</p>
           <p>From fiscal year 1970/71 to 1973/74, there is also a monthly report called "Comparative Finance Report," which has a statistics section and a financial section. The statistics section lists patient days, patient occupancy percentage, discharges, and the average length of stay, as well as clinical visits if applicable. Statistics are recorded for the General Division, Main Hospital, Mott Hospital, Parkview Medical, Women's Hospital, and the Psychiatric Hospital. The financial section records revenue, salary and commodity expenses and net earnings for the general and psychiatric divisions and compares them to the budgeted amount and the previous year. It also includes a summary of the balance sheet for each of the two divisions.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [8739008413607067563]">16</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1948/1959">1948-1959</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [924627545782608713]">16</container>
+            <unitdate type="inclusive" normal="1948/1959">1948-1959</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">11 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [55335477232381665]">17</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1959/1970">1959-1970</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [661438278870085979]">17</container>
+            <unitdate type="inclusive" normal="1959/1970">1959-1970</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">11 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [97938884153372355]">18</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1970/1973">1970-1973</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [3930728094239581700]">18</container>
+            <unitdate type="inclusive" normal="1970/1973">1970-1973</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [97938884153372355]">18</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1973/1975">1973-1975</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [3930728094239581700]">18</container>
+            <unitdate type="inclusive" normal="1973/1975">1973-1975</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
             </physdesc>
           </did>
@@ -497,29 +432,22 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Revenue-Payroll-Commodities Reports <unitdate type="inclusive" normal="1961/1970">1961-1970</unitdate></unittitle>
-        </did>
+          <unittitle>Revenue-Payroll-Commodities Reports</unittitle><unitdate type="inclusive" normal="1961/1970">1961-1970</unitdate></did>
         <scopecontent>
           <p>Revenue-Payroll-Commodities (2 linear feet, 1961-1970) includes income and expenditure statistics for the General Division, Neuropsychiatric Institute (NPI) and Children's Psychiatric Hospital (CPH). There is no report for 1968/69. The report for 1969/70 is called "Cumulative Runs Revenue and Expense" and contains a combined expense section as well as revenue, payroll and commodities.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7028165441721359117624]">19</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1961/1966">1961-1966</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [43238468184348858115151006]">19</container>
+            <unitdate type="inclusive" normal="1961/1966">1961-1966</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [30345743794785469]">20</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1966/1970">1966-1970</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [44303401459276500734]">20</container>
+            <unitdate type="inclusive" normal="1966/1970">1966-1970</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 volumes</extent>
             </physdesc>
           </did>
@@ -527,18 +455,14 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Director's Books <unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate></unittitle>
-        </did>
+          <unittitle>Director's Books</unittitle><unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate></did>
         <scopecontent>
           <p>Director's Books (2 volumes, 1967-1969) contain statistics on the various hospital units. The statistics for fiscal year 1967/68 include the number of admissions, registrations, discharges, patient days, and various types of revenue, divided by different demographic variables and by insurance (Medicare, Medicaid and M/CARE and M/CAIDE), as well as a labor turnover report. Statistics are given for the General Hospital, Neuropsychiatric Institute, Children's Psychiatric Hospital and the Clinical Research Unit. The statistics for the 1968/69 fiscal year are for admissions and registrations only.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [30345743794785469]">20</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [44303401459276500734]">20</container>
+            <unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 volumes</extent>
             </physdesc>
           </did>

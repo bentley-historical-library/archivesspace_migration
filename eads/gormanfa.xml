@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,10 +35,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Gorman family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/178">Gorman family.</famname>
       </origination>
-      <unittitle encodinganalog="245">Gorman Family papers <unitdate type="inclusive" encodinganalog="245$f" normal="1886/1970">1886-1970</unitdate></unittitle>
-      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">8778 Aa 2</unitid>
+      <unittitle encodinganalog="245">Gorman Family papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1886/1970">1886-1970</unitdate><unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">8778 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Chelsea and Dexter, Michigan family. Letters of Nellie Gorman with her husband James, 1886-1892, while he served in the Michigan State Senate (1887-1891), and the U. S. House of Representatives (1891-1985); family letters; miscellanea relating to Gorman's estate; papers of son Galbraith Gorman, Dexter, Michigan, funeral home director; and photographs.</abstract>
       <physdesc altrender="whole">
@@ -74,29 +74,29 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85064194">Chelsea (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Dexter (Mich.)</geogname>
-        <famname source="lcnaf" encodinganalog="600">Gorman family.</famname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. Legislature. Senate.</corpname>
-        <subject source="lcsh" encodinganalog="650">Undertakers and undertaking--Michigan--Dexter.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79107874">United States. Congress. House.</corpname>
-        <subject source="lcsh" encodinganalog="650">Women--Michigan--Dexter.</subject>
-        <subject source="lcsh" encodinganalog="650">Women--Michigan--Chelsea.</subject>
-        <subject source="lcsh" encodinganalog="650">Legislators' spouses--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85064194" ref="/subjects/1055">Chelsea (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1009">Dexter (Mich.)</geogname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/178">Gorman family.</famname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/724">Michigan. Legislature. Senate.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8013">Undertakers and undertaking--Michigan--Dexter.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79107874" ref="/agents/corporate_entities/1829">United States. Congress. House.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8014">Women--Michigan--Dexter.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8015">Women--Michigan--Chelsea.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8016">Legislators' spouses--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <famname source="lcnaf" encodinganalog="600">Gorman family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/178">Gorman family.</famname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Gorman, Galbraith, b. 1889.</persname>
-        <persname source="lcnaf" encodinganalog="700">Gorman, James Sedgwick, 1850-1923.</persname>
-        <persname source="lcnaf" encodinganalog="700">Gorman, Nellie Bingham, 1863-1949.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/4098">Gorman, Galbraith, b. 1889.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/306">Gorman, James Sedgwick, 1850-1923.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/3370">Gorman, Nellie Bingham, 1863-1949.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -106,22 +106,21 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5646749226269]">1</container>
+            <container type="box" label="Box [1154514293921705000]">1</container>
             <unittitle>Biographical and genealogical information</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5646749226269]">1</container>
-            <unittitle>Letters <unitdate type="inclusive" normal="1886/1970">1886-1970</unitdate>, <unitdate type="inclusive">undated</unitdate>, scattered dates</unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [1154514293921705000]">1</container>
+            <unittitle>Letters 1886-1970, undated, scattered dates</unittitle><unitdate type="inclusive" normal="1886/1970">1886-1970</unitdate><unitdate type="inclusive">undated</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">45 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5646749226269]">1</container>
+            <container type="box" label="Box [1154514293921705000]">1</container>
             <unittitle>Gorman Estate</unittitle>
           </did>
         </c02>
@@ -131,38 +130,38 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5646749226269]">1</container>
+              <container type="box" label="Box [1154514293921705000]">1</container>
               <unittitle>Mortuary records</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5646749226269]">1</container>
+              <container type="box" label="Box [1154514293921705000]">1</container>
               <unittitle>School papers</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5646749226269]">1</container>
+              <container type="box" label="Box [1154514293921705000]">1</container>
               <unittitle>Tuition receipts (also includes Nellie Bingham Gorman's)</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5646749226269]">1</container>
+            <container type="box" label="Box [1154514293921705000]">1</container>
             <unittitle>Announcements, invitations, programs</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5646749226269]">1</container>
+            <container type="box" label="Box [1154514293921705000]">1</container>
             <unittitle>Newspaper clippings</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5646749226269]">1</container>
+            <container type="box" label="Box [1154514293921705000]">1</container>
             <unittitle>
               <genreform normal="Photographs">Photographs</genreform>
             </unittitle>

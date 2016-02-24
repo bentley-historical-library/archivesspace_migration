@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Gossett, Elizabeth Hughes, 1907-1981.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/4315">Gossett, Elizabeth Hughes, 1907-1981.</persname>
       </origination>
-      <unittitle encodinganalog="245">Elizabeth Hughes Gossett papers <unitdate type="inclusive" encodinganalog="245$f" normal="1907/1990">1907-1990</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1924/1981">1924-1981</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009186 Aa 2</unitid>
+      <unittitle encodinganalog="245">Elizabeth Hughes Gossett papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1907/1990">1907-1990</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1924/1981">1924-1981</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009186 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Volunteer in local and national community and professional organizations and resident of Bloomfield Hills, Michigan from 1947-1981; records include photographs, correspondence, articles, newspaper clippings, and notes related to Gossett’s personal life and volunteer activities.</abstract>
       <physdesc altrender="whole">
@@ -82,26 +82,26 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Barnard College--Alumni and alumnae.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Barnard College--Students.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Gossett, Elizabeth Hughes, 1908-1981.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79006704">Hughes, Charles Evans, 1862-1948.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n78095516">National Conference of Christians and Jews.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81025896">Supreme Court Historical Society.</corpname>
-        <subject source="lcsh" encodinganalog="650">Volunteers--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2833">Barnard College--Alumni and alumnae.<term type="topical">Alumni and alumnae.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2833">Barnard College--Students.<term type="topical">Students.</term></corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/8649">Gossett, Elizabeth Hughes, 1908-1981.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79006704" ref="/agents/people/508">Hughes, Charles Evans, 1862-1948.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n78095516" ref="/agents/corporate_entities/4630">National Conference of Christians and Jews.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81025896" ref="/agents/corporate_entities/2819">Supreme Court Historical Society.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8024">Volunteers--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <subject source="lcsh" encodinganalog="650">Charity work--Michigan.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80050882">Cologne (Germany)</geogname>
-        <persname source="lcnaf" encodinganalog="600">Gossett, Elizabeth Hughes, 1908-1981.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n78095516">National Conference of Christians and Jews.</corpname>
-        <subject source="lctgm" encodinganalog="650">Travel--Europe.</subject>
-        <subject source="lctgm" encodinganalog="650">War damage--Germany--Cologne.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8025">Charity work--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80050882" ref="/subjects/1920">Cologne (Germany)</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/8649">Gossett, Elizabeth Hughes, 1908-1981.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n78095516" ref="/agents/corporate_entities/4630">National Conference of Christians and Jews.</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4427">Travel--Europe.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4428">War damage--Germany--Cologne.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -116,29 +116,28 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <unittitle>Europe <unitdate type="inclusive" normal="1948">1948</unitdate></unittitle>
-          </did>
+            <unittitle>Europe</unittitle><unitdate type="inclusive" normal="1948">1948</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0039535495373216815]">1</container>
+              <container type="box" label="Box [467371573406810575574595]">1</container>
               <unittitle>Belgium</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0039535495373216815]">1</container>
+              <container type="box" label="Box [467371573406810575574595]">1</container>
               <unittitle>France</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0039535495373216815]">1</container>
+              <container type="box" label="Box [467371573406810575574595]">1</container>
               <unittitle>Germany (includes images of the ruins of post-World War II Cologne)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0039535495373216815]">1</container>
+              <container type="box" label="Box [467371573406810575574595]">1</container>
               <unittitle>Great Britain</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">5 folders</extent>
@@ -147,67 +146,59 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0039535495373216815]">1</container>
+              <container type="box" label="Box [467371573406810575574595]">1</container>
               <unittitle>The Netherlands</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0039535495373216815]">1</container>
+              <container type="box" label="Box [467371573406810575574595]">1</container>
               <unittitle>Switzerland</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0039535495373216815]">1</container>
-            <unittitle>Fleur Cowles Event, Cranbrook Academy of Art <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [467371573406810575574595]">1</container>
+            <unittitle>Fleur Cowles Event, Cranbrook Academy of Art</unittitle><unitdate type="inclusive" normal="1974">1974</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0039535495373216815]">1</container>
-            <unittitle>Honorary Doctor of Laws, New York Law School <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [467371573406810575574595]">1</container>
+            <unittitle>Honorary Doctor of Laws, New York Law School</unittitle><unitdate type="inclusive" normal="1979">1979</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0039535495373216815]">1</container>
-            <unittitle>International Court of Justice, The Hague, Netherlands <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [467371573406810575574595]">1</container>
+            <unittitle>International Court of Justice, The Hague, Netherlands</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0039535495373216815]">1</container>
-            <unittitle>Michigan Bar Association, Mid-Winter Meeting <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [467371573406810575574595]">1</container>
+            <unittitle>Michigan Bar Association, Mid-Winter Meeting</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0039535495373216815]">1</container>
-            <unittitle>National Conference of Christians and Jews, Charles Evans Hughes Awards Ceremonies <unitdate type="inclusive" normal="1965/1974">1965-1974</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [467371573406810575574595]">1</container>
+            <unittitle>National Conference of Christians and Jews, Charles Evans Hughes Awards Ceremonies</unittitle><unitdate type="inclusive" normal="1965/1974">1965-1974</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0039535495373216815]">1</container>
-            <unittitle>Visit of Pope Paul VI to Detroit <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [467371573406810575574595]">1</container>
+            <unittitle>Visit of Pope Paul VI to Detroit</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0039535495373216815]">1</container>
-            <unittitle>With Millicent McIntosh, President of Barnard College <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [467371573406810575574595]">1</container>
+            <unittitle>With Millicent McIntosh, President of Barnard College</unittitle><unitdate type="inclusive" normal="1954">1954</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0039535495373216815]">1</container>
-            <unittitle>Autographed portraits of George Romney and Warren Burger <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [467371573406810575574595]">1</container>
+            <unittitle>Autographed portraits of George Romney and Warren Burger</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -219,33 +210,28 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3906662312426919602379]">2</container>
-            <unittitle>Article about diabetes treatments <title render="italic">Saturday Night</title>, <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [006304423828404341439]">2</container>
+            <unittitle>Article about diabetes treatments <title render="italic">Saturday Night</title></unittitle><unitdate type="inclusive" normal="1981">1981</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3906662312426919602379]">2</container>
-            <unittitle>Barnard College Exams and Grades <unitdate type="inclusive" normal="1926/1929">1926-1929</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [006304423828404341439]">2</container>
+            <unittitle>Barnard College Exams and Grades</unittitle><unitdate type="inclusive" normal="1926/1929">1926-1929</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3906662312426919602379]">2</container>
-            <unittitle>Barnard College Notes and Drafts <unitdate type="inclusive" normal="1928">1928</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [006304423828404341439]">2</container>
+            <unittitle>Barnard College Notes and Drafts</unittitle><unitdate type="inclusive" normal="1928">1928</unitdate><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3906662312426919602379]">2</container>
-            <unittitle>Barnard College Papers <unitdate type="inclusive" normal="1924/1930">1924-1930</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [006304423828404341439]">2</container>
+            <unittitle>Barnard College Papers</unittitle><unitdate type="inclusive" normal="1924/1930">1924-1930</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3906662312426919602379]">2</container>
-            <unittitle>Condolence File <unitdate type="inclusive" normal="1981/1982">1981-1982</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [006304423828404341439]">2</container>
+            <unittitle>Condolence File</unittitle><unitdate type="inclusive" normal="1981/1982">1981-1982</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -256,46 +242,36 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3906662312426919602379]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1909/1951">1909-1951</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [006304423828404341439]">2</container>
+              <unitdate type="inclusive" normal="1909/1951">1909-1951</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3906662312426919602379]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1952/1990">1952-1990</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [006304423828404341439]">2</container>
+              <unitdate type="inclusive" normal="1952/1990">1952-1990</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3906662312426919602379]">2</container>
-              <unittitle>Re: Charles Evans Hughes Memorial Book <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [006304423828404341439]">2</container>
+              <unittitle>Re: Charles Evans Hughes Memorial Book</unittitle><unitdate type="inclusive" normal="1954">1954</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3906662312426919602379]">2</container>
-              <unittitle>Re: Charles Evans Hughes "Notes," <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [006304423828404341439]">2</container>
+              <unittitle>Re: Charles Evans Hughes "Notes,"</unittitle><unitdate type="inclusive" normal="1973">1973</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3906662312426919602379]">2</container>
-              <unittitle>Re: Charles Evans Hughes "Profiles in Courage" Television Program <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [006304423828404341439]">2</container>
+              <unittitle>Re: Charles Evans Hughes "Profiles in Courage" Television Program</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3906662312426919602379]">2</container>
-              <unittitle>Re: Charles Evans Hughes stamp <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [006304423828404341439]">2</container>
+              <unittitle>Re: Charles Evans Hughes stamp</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -303,45 +279,40 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3906662312426919602379]">2</container>
-            <unittitle>Memorabilia <unitdate type="inclusive" normal="1906/1959">1906-1959 (scattered)</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [006304423828404341439]">2</container>
+            <unittitle>Memorabilia</unittitle><unitdate type="inclusive" normal="1906/1959">1906-1959 (scattered)</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3906662312426919602379]">2</container>
-            <unittitle>Miscellaneous <unitdate type="inclusive" normal="1921/1974">1921-1974</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [006304423828404341439]">2</container>
+            <unittitle>Miscellaneous</unittitle><unitdate type="inclusive" normal="1921/1974">1921-1974</unitdate></did>
           <odd>
             <p>(includes photocopied material from 1907)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3906662312426919602379]">2</container>
-            <unittitle>Newspaper Clippings (Hughes and Gossett families) <unitdate type="inclusive" normal="1908/1981">1908-1981 (scattered)</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [006304423828404341439]">2</container>
+            <unittitle>Newspaper Clippings (Hughes and Gossett families)</unittitle><unitdate type="inclusive" normal="1908/1981">1908-1981 (scattered)</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3906662312426919602379]">2</container>
-            <unittitle>Travel Documents <unitdate type="inclusive" normal="1925/1980">1925-1980</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [006304423828404341439]">2</container>
+            <unittitle>Travel Documents</unittitle><unitdate type="inclusive" normal="1925/1980">1925-1980</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3906662312426919602379]">2</container>
-            <unittitle>Writings and Drawing <unitdate type="inclusive" normal="1922">1922</unitdate>, <unitdate type="inclusive" normal="1931">1931</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [006304423828404341439]">2</container>
+            <unittitle>Writings and Drawing</unittitle><unitdate type="inclusive" normal="1922">1922</unitdate><unitdate type="inclusive" normal="1931">1931</unitdate><unitdate type="inclusive">undated</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -353,72 +324,61 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3906662312426919602379]">2</container>
-            <unittitle>American Bar Association, Miscellaneous Materials <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [006304423828404341439]">2</container>
+            <unittitle>American Bar Association, Miscellaneous Materials</unittitle><unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3906662312426919602379]">2</container>
-            <unittitle>American Bar Association, Correspondence <unitdate type="inclusive" normal="1968/1974">1968-1974</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [006304423828404341439]">2</container>
+            <unittitle>American Bar Association, Correspondence</unittitle><unitdate type="inclusive" normal="1968/1974">1968-1974</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3906662312426919602379]">2</container>
-            <unittitle>American Bar Association, Diary <unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [006304423828404341439]">2</container>
+            <unittitle>American Bar Association, Diary</unittitle><unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3906662312426919602379]">2</container>
-            <unittitle>American Red Cross <unitdate type="inclusive" normal="1944/1947">1944-1947</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [006304423828404341439]">2</container>
+            <unittitle>American Red Cross</unittitle><unitdate type="inclusive" normal="1944/1947">1944-1947</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3906662312426919602379]">2</container>
-            <unittitle>Barnard College Alumni Activities <unitdate type="inclusive" normal="1952/1976">1952-1976</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [006304423828404341439]">2</container>
+            <unittitle>Barnard College Alumni Activities</unittitle><unitdate type="inclusive" normal="1952/1976">1952-1976</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2431767794198661234684]">3</container>
-            <unittitle>Fleur Cowles Event, Cranbrook Academy of Art <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [64734521869194453]">3</container>
+            <unittitle>Fleur Cowles Event, Cranbrook Academy of Art</unittitle><unitdate type="inclusive" normal="1974">1974</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2431767794198661234684]">3</container>
-            <unittitle>Honorary Doctor of Laws, New York Law School <unitdate type="inclusive" normal="1977/1979">1977-1979</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [64734521869194453]">3</container>
+            <unittitle>Honorary Doctor of Laws, New York Law School</unittitle><unitdate type="inclusive" normal="1977/1979">1977-1979</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2431767794198661234684]">3</container>
-            <unittitle>Judicial Fellows Program <unitdate type="inclusive" normal="1975/1981">1975-1981</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [64734521869194453]">3</container>
+            <unittitle>Judicial Fellows Program</unittitle><unitdate type="inclusive" normal="1975/1981">1975-1981</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2431767794198661234684]">3</container>
-            <unittitle>Junior League <unitdate type="inclusive" normal="1945/1960">1945-1960</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [64734521869194453]">3</container>
+            <unittitle>Junior League</unittitle><unitdate type="inclusive" normal="1945/1960">1945-1960</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2431767794198661234684]">3</container>
-            <unittitle>Miscellaneous Correspondence <unitdate type="inclusive" normal="1961/1978">1961-1978</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [64734521869194453]">3</container>
+            <unittitle>Miscellaneous Correspondence</unittitle><unitdate type="inclusive" normal="1961/1978">1961-1978</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2431767794198661234684]">3</container>
-            <unittitle>National Council of Christians and Jews, Pamphlets and Correspondence <unitdate type="inclusive" normal="1964/1971">1964-1971 (scattered)</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [64734521869194453]">3</container>
+            <unittitle>National Council of Christians and Jews, Pamphlets and Correspondence</unittitle><unitdate type="inclusive" normal="1964/1971">1964-1971 (scattered)</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -426,40 +386,34 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2431767794198661234684]">3</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1967/1971">1967-1971</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [64734521869194453]">3</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1967/1971">1967-1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2431767794198661234684]">3</container>
-              <unittitle>Continuing Education <unitdate type="inclusive" normal="1957" certainty="approximate">circa 1957</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [64734521869194453]">3</container>
+              <unittitle>Continuing Education</unittitle><unitdate type="inclusive" normal="1957" certainty="approximate">circa 1957</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2431767794198661234684]">3</container>
-              <unittitle>Meadowbrook Ball <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [64734521869194453]">3</container>
+              <unittitle>Meadowbrook Ball</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2431767794198661234684]">3</container>
-              <unittitle>Photographs and Clippings <unitdate type="inclusive" normal="1960/1972">1960-1972 (scattered)</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [64734521869194453]">3</container>
+              <unittitle>Photographs and Clippings</unittitle><unitdate type="inclusive" normal="1960/1972">1960-1972 (scattered)</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2431767794198661234684]">3</container>
-            <unittitle>United Nations, Detroit Board <unitdate type="inclusive" normal="1965/1967">1965-1967</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [64734521869194453]">3</container>
+            <unittitle>United Nations, Detroit Board</unittitle><unitdate type="inclusive" normal="1965/1967">1965-1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2431767794198661234684]">3</container>
-            <unittitle>United States Supreme Court Historical Society <unitdate type="inclusive" normal="1969/1980">1969-1980</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [64734521869194453]">3</container>
+            <unittitle>United States Supreme Court Historical Society</unittitle><unitdate type="inclusive" normal="1969/1980">1969-1980</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -471,66 +425,56 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2431767794198661234684]">3</container>
-            <unittitle>Articles (about Hughes by William and Elizabeth Gossett) <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [64734521869194453]">3</container>
+            <unittitle>Articles (about Hughes by William and Elizabeth Gossett)</unittitle><unitdate type="inclusive" normal="1973">1973</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2431767794198661234684]">3</container>
-            <unittitle>Charles Evans Hughes Award, National Conference of Christians and Jews <unitdate type="inclusive" normal="1965/1974">1965-1974</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [64734521869194453]">3</container>
+            <unittitle>Charles Evans Hughes Award, National Conference of Christians and Jews</unittitle><unitdate type="inclusive" normal="1965/1974">1965-1974</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2431767794198661234684]">3</container>
-            <unittitle>Charles Evans Hughes Day, Glen Falls, New York <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [64734521869194453]">3</container>
+            <unittitle>Charles Evans Hughes Day, Glen Falls, New York</unittitle><unitdate type="inclusive" normal="1976">1976</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2431767794198661234684]">3</container>
-            <unittitle>Charles Evans Hughes Junior High School <unitdate type="inclusive" normal="1949/1962">1949-1962</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [64734521869194453]">3</container>
+            <unittitle>Charles Evans Hughes Junior High School</unittitle><unitdate type="inclusive" normal="1949/1962">1949-1962</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2431767794198661234684]">3</container>
-            <unittitle>Charles Evans Hughes Room, Association of the Bar of the City of New York <unitdate type="inclusive" normal="1980">1980</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [64734521869194453]">3</container>
+            <unittitle>Charles Evans Hughes Room, Association of the Bar of the City of New York</unittitle><unitdate type="inclusive" normal="1980">1980</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2431767794198661234684]">3</container>
-            <unittitle>Charles Evans Hughes Memorial Lectures <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [64734521869194453]">3</container>
+            <unittitle>Charles Evans Hughes Memorial Lectures</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2431767794198661234684]">3</container>
-            <unittitle>Charles Evans Hughes Scholarship, Oakland University <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [64734521869194453]">3</container>
+            <unittitle>Charles Evans Hughes Scholarship, Oakland University</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2431767794198661234684]">3</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1925/1927">1925-1927</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [64734521869194453]">3</container>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1925/1927">1925-1927</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2431767794198661234684]">3</container>
-            <unittitle>Miscellaneous Posthumous Awards and Honors <unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [64734521869194453]">3</container>
+            <unittitle>Miscellaneous Posthumous Awards and Honors</unittitle><unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2431767794198661234684]">3</container>
-            <unittitle>Miscellaneous <unitdate type="inclusive" normal="1940/1977">1940-1977</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [64734521869194453]">3</container>
+            <unittitle>Miscellaneous</unittitle><unitdate type="inclusive" normal="1940/1977">1940-1977</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -540,9 +484,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2431767794198661234684]">3</container>
-            <unittitle>Telegrams re: Insurance Hall of Fame Induction Ceremony <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [64734521869194453]">3</container>
+            <unittitle>Telegrams re: Insurance Hall of Fame Induction Ceremony</unittitle><unitdate type="inclusive" normal="1958">1958</unitdate></did>
         </c02>
       </c01>
     </dsc>

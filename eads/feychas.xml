@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Fey, Charles.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/3564">Fey, Charles.</persname>
       </origination>
-      <unittitle encodinganalog="245">Charles Fey papers <unitdate type="inclusive" encodinganalog="245$f" normal="1914/1970">1914-1970</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851324 Aa 2</unitid>
+      <unittitle encodinganalog="245">Charles Fey papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1914/1970">1914-1970</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851324 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Birmingham, Michigan, businessman and Masonic historian; correspondence, research materials, and writings on freemasonry; also materials on other research interests, notably the history of Royal Oak and Royal Oak Township.</abstract>
       <physdesc altrender="whole">
@@ -78,19 +78,19 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81104604">Birmingham (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85033216">Chicago Pneumatic Tool Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Congregational churches--Michigan--Birmingham.</corpname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539">Detroit (Mich.)--Church history.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Episcopal Church--Michigan--Detroit.</corpname>
-        <subject source="lcsh" encodinganalog="650">Freemasonry--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Knights Templar (Masonic order)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no99090991">Mariners' Church of Detroit (Detroit, Mich.)</corpname>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Capital and capitol.</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091869">Oakland County (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Royal Oak (Mich. : Township)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82045731">Scottish Rite (Masonic Order)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Townsite Community Congregational Church (Birmingham, Mich.)</corpname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81104604" ref="/subjects/1040">Birmingham (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85033216" ref="/agents/corporate_entities/5029">Chicago Pneumatic Tool Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4105">Congregational churches--Michigan--Birmingham.<term type="geographic">Michigan</term><term type="geographic">Birmingham.</term></corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/948">Detroit (Mich.)--Church history.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/805">Episcopal Church--Michigan--Detroit.<term type="geographic">Michigan</term><term type="geographic">Detroit.</term></corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6066">Freemasonry--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1780">Knights Templar (Masonic order)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no99090991" ref="/agents/corporate_entities/3526">Mariners' Church of Detroit (Detroit, Mich.)</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1851">Michigan--Capital and capitol.</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091869" ref="/subjects/1852">Oakland County (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/883">Royal Oak (Mich. : Township)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82045731" ref="/agents/corporate_entities/2454">Scottish Rite (Masonic Order)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1174">Townsite Community Congregational Church (Birmingham, Mich.)</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -100,9 +100,8 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [14847648765434750]">1</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1948/1956">1948-1956</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [0193998461636136147]">1</container>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1948/1956">1948-1956</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">16 folders</extent>
             </physdesc>
           </did>
@@ -112,14 +111,13 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Correspondence with biographical data <unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate></unittitle>
-          </did>
+            <unittitle>Correspondence with biographical data</unittitle><unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate></did>
           <odd>
             <p>(arranged alphabetically)</p>
           </odd>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14847648765434750]">1</container>
+              <container type="box" label="Box [0193998461636136147]">1</container>
               <unittitle>A</unittitle>
             </did>
             <odd>
@@ -131,7 +129,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14847648765434750]">1</container>
+              <container type="box" label="Box [0193998461636136147]">1</container>
               <unittitle>B</unittitle>
             </did>
             <odd>
@@ -143,7 +141,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14847648765434750]">1</container>
+              <container type="box" label="Box [0193998461636136147]">1</container>
               <unittitle>C</unittitle>
             </did>
             <odd>
@@ -155,7 +153,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14847648765434750]">1</container>
+              <container type="box" label="Box [0193998461636136147]">1</container>
               <unittitle>D</unittitle>
             </did>
             <odd>
@@ -167,7 +165,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14847648765434750]">1</container>
+              <container type="box" label="Box [0193998461636136147]">1</container>
               <unittitle>F</unittitle>
             </did>
             <odd>
@@ -179,7 +177,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14847648765434750]">1</container>
+              <container type="box" label="Box [0193998461636136147]">1</container>
               <unittitle>G</unittitle>
             </did>
             <odd>
@@ -191,7 +189,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14847648765434750]">1</container>
+              <container type="box" label="Box [0193998461636136147]">1</container>
               <unittitle>H</unittitle>
             </did>
             <odd>
@@ -203,7 +201,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14847648765434750]">1</container>
+              <container type="box" label="Box [0193998461636136147]">1</container>
               <unittitle>I-J</unittitle>
             </did>
             <odd>
@@ -215,7 +213,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14847648765434750]">1</container>
+              <container type="box" label="Box [0193998461636136147]">1</container>
               <unittitle>K</unittitle>
             </did>
             <odd>
@@ -227,7 +225,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14847648765434750]">1</container>
+              <container type="box" label="Box [0193998461636136147]">1</container>
               <unittitle>L</unittitle>
             </did>
             <odd>
@@ -239,7 +237,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14847648765434750]">1</container>
+              <container type="box" label="Box [0193998461636136147]">1</container>
               <unittitle>M</unittitle>
             </did>
             <odd>
@@ -251,7 +249,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14847648765434750]">1</container>
+              <container type="box" label="Box [0193998461636136147]">1</container>
               <unittitle>N-O</unittitle>
             </did>
             <odd>
@@ -263,7 +261,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14847648765434750]">1</container>
+              <container type="box" label="Box [0193998461636136147]">1</container>
               <unittitle>P</unittitle>
             </did>
             <odd>
@@ -275,7 +273,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14847648765434750]">1</container>
+              <container type="box" label="Box [0193998461636136147]">1</container>
               <unittitle>R</unittitle>
             </did>
             <odd>
@@ -287,7 +285,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14847648765434750]">1</container>
+              <container type="box" label="Box [0193998461636136147]">1</container>
               <unittitle>S</unittitle>
             </did>
             <odd>
@@ -299,7 +297,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14847648765434750]">1</container>
+              <container type="box" label="Box [0193998461636136147]">1</container>
               <unittitle>T</unittitle>
             </did>
             <odd>
@@ -311,7 +309,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14847648765434750]">1</container>
+              <container type="box" label="Box [0193998461636136147]">1</container>
               <unittitle>U-V</unittitle>
             </did>
             <odd>
@@ -323,7 +321,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14847648765434750]">1</container>
+              <container type="box" label="Box [0193998461636136147]">1</container>
               <unittitle>W</unittitle>
             </did>
             <odd>
@@ -336,9 +334,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [14847648765434750]">1</container>
-            <unittitle>Other papers <unitdate type="inclusive">undated</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [0193998461636136147]">1</container>
+            <unittitle>Other papers</unittitle><unitdate type="inclusive">undated</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
@@ -357,55 +354,40 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14847648765434750]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1952">1952</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [0193998461636136147]">1</container>
+              <unitdate type="inclusive" normal="1952">1952</unitdate></did>
             <odd>
               <p>(folder 38)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14847648765434750]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1956">1956</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [0193998461636136147]">1</container>
+              <unitdate type="inclusive" normal="1956">1956</unitdate></did>
             <odd>
               <p>(folder 39)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14847648765434750]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1957">1957</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [0193998461636136147]">1</container>
+              <unitdate type="inclusive" normal="1957">1957</unitdate></did>
             <odd>
               <p>(folder 40)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14847648765434750]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1958">1958</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [0193998461636136147]">1</container>
+              <unitdate type="inclusive" normal="1958">1958</unitdate></did>
             <odd>
               <p>(folder 41)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14847648765434750]">1</container>
-              <unittitle>
-                <unitdate type="inclusive">Undated</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [0193998461636136147]">1</container>
+              <unitdate type="inclusive">Undated</unitdate></did>
             <odd>
               <p>(folder 42)</p>
             </odd>
@@ -413,14 +395,13 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Correspondence with biographical data <unitdate type="inclusive" normal="1947/1958">1947-1958</unitdate></unittitle>
-          </did>
+            <unittitle>Correspondence with biographical data</unittitle><unitdate type="inclusive" normal="1947/1958">1947-1958</unitdate></did>
           <odd>
             <p>(arranged alphabetically)</p>
           </odd>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14847648765434750]">1</container>
+              <container type="box" label="Box [0193998461636136147]">1</container>
               <unittitle>A-B</unittitle>
             </did>
             <odd>
@@ -432,7 +413,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14847648765434750]">1</container>
+              <container type="box" label="Box [0193998461636136147]">1</container>
               <unittitle>C</unittitle>
             </did>
             <odd>
@@ -444,7 +425,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14847648765434750]">1</container>
+              <container type="box" label="Box [0193998461636136147]">1</container>
               <unittitle>D</unittitle>
             </did>
             <odd>
@@ -456,7 +437,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14847648765434750]">1</container>
+              <container type="box" label="Box [0193998461636136147]">1</container>
               <unittitle>F</unittitle>
             </did>
             <odd>
@@ -468,7 +449,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14847648765434750]">1</container>
+              <container type="box" label="Box [0193998461636136147]">1</container>
               <unittitle>H</unittitle>
             </did>
             <odd>
@@ -480,7 +461,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14847648765434750]">1</container>
+              <container type="box" label="Box [0193998461636136147]">1</container>
               <unittitle>L</unittitle>
             </did>
             <odd>
@@ -492,7 +473,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14847648765434750]">1</container>
+              <container type="box" label="Box [0193998461636136147]">1</container>
               <unittitle>M</unittitle>
             </did>
             <odd>
@@ -504,7 +485,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14847648765434750]">1</container>
+              <container type="box" label="Box [0193998461636136147]">1</container>
               <unittitle>O</unittitle>
             </did>
             <odd>
@@ -516,7 +497,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5409874300008621009]">2</container>
+              <container type="box" label="Box [025978134709303684597]">2</container>
               <unittitle>R</unittitle>
             </did>
             <odd>
@@ -528,7 +509,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5409874300008621009]">2</container>
+              <container type="box" label="Box [025978134709303684597]">2</container>
               <unittitle>S</unittitle>
             </did>
             <odd>
@@ -540,7 +521,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5409874300008621009]">2</container>
+              <container type="box" label="Box [025978134709303684597]">2</container>
               <unittitle>T</unittitle>
             </did>
             <odd>
@@ -552,7 +533,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5409874300008621009]">2</container>
+              <container type="box" label="Box [025978134709303684597]">2</container>
               <unittitle>W</unittitle>
             </did>
             <odd>
@@ -565,9 +546,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5409874300008621009]">2</container>
-            <unittitle>Detroit Commandery no. 1 of the Knights Templars <unitdate type="inclusive" normal="1947/1948">1947-1948</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [025978134709303684597]">2</container>
+            <unittitle>Detroit Commandery no. 1 of the Knights Templars</unittitle><unitdate type="inclusive" normal="1947/1948">1947-1948</unitdate></did>
           <odd>
             <p>(folder 55)</p>
           </odd>
@@ -579,9 +559,8 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5409874300008621009]">2</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1939/1949">1939-1949</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [025978134709303684597]">2</container>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1939/1949">1939-1949</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">11 folders</extent>
             </physdesc>
           </did>
@@ -591,7 +570,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5409874300008621009]">2</container>
+            <container type="box" label="Box [025978134709303684597]">2</container>
             <unittitle>Miscellanea</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
@@ -603,14 +582,13 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Correspondence with biographical data <unitdate type="inclusive" normal="1941/1952">1941-1952</unitdate></unittitle>
-          </did>
+            <unittitle>Correspondence with biographical data</unittitle><unitdate type="inclusive" normal="1941/1952">1941-1952</unitdate></did>
           <odd>
             <p>(arranged alphabetically)</p>
           </odd>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5409874300008621009]">2</container>
+              <container type="box" label="Box [025978134709303684597]">2</container>
               <unittitle>A-B</unittitle>
             </did>
             <odd>
@@ -622,7 +600,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5409874300008621009]">2</container>
+              <container type="box" label="Box [025978134709303684597]">2</container>
               <unittitle>C</unittitle>
             </did>
             <odd>
@@ -634,7 +612,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5409874300008621009]">2</container>
+              <container type="box" label="Box [025978134709303684597]">2</container>
               <unittitle>E</unittitle>
             </did>
             <odd>
@@ -646,7 +624,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5409874300008621009]">2</container>
+              <container type="box" label="Box [025978134709303684597]">2</container>
               <unittitle>F</unittitle>
             </did>
             <odd>
@@ -658,7 +636,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5409874300008621009]">2</container>
+              <container type="box" label="Box [025978134709303684597]">2</container>
               <unittitle>G</unittitle>
             </did>
             <odd>
@@ -670,7 +648,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5409874300008621009]">2</container>
+              <container type="box" label="Box [025978134709303684597]">2</container>
               <unittitle>H</unittitle>
             </did>
             <odd>
@@ -682,7 +660,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5409874300008621009]">2</container>
+              <container type="box" label="Box [025978134709303684597]">2</container>
               <unittitle>J-K</unittitle>
             </did>
             <odd>
@@ -694,7 +672,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5409874300008621009]">2</container>
+              <container type="box" label="Box [025978134709303684597]">2</container>
               <unittitle>L</unittitle>
             </did>
             <odd>
@@ -706,7 +684,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5409874300008621009]">2</container>
+              <container type="box" label="Box [025978134709303684597]">2</container>
               <unittitle>M-N</unittitle>
             </did>
             <odd>
@@ -718,7 +696,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5409874300008621009]">2</container>
+              <container type="box" label="Box [025978134709303684597]">2</container>
               <unittitle>R-S</unittitle>
             </did>
             <odd>
@@ -730,7 +708,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5409874300008621009]">2</container>
+              <container type="box" label="Box [025978134709303684597]">2</container>
               <unittitle>V</unittitle>
             </did>
             <odd>
@@ -742,7 +720,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5409874300008621009]">2</container>
+              <container type="box" label="Box [025978134709303684597]">2</container>
               <unittitle>W</unittitle>
             </did>
             <odd>
@@ -755,9 +733,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5409874300008621009]">2</container>
-            <unittitle>Royal Oak Lodge No. 464 <unitdate type="inclusive" normal="1931/1932">1931-1932</unitdate>, <unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate>, <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [025978134709303684597]">2</container>
+            <unittitle>Royal Oak Lodge No. 464</unittitle><unitdate type="inclusive" normal="1931/1932">1931-1932</unitdate><unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate><unitdate type="inclusive" normal="1962">1962</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
             </physdesc>
           </did>
@@ -776,16 +753,15 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [40733644627976178]">3</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1945/1948">1945-1948</unitdate>, <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [973895981849818235402689]">3</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1945/1948">1945-1948</unitdate><unitdate type="inclusive" normal="1956">1956</unitdate></did>
             <odd>
               <p>(folder 89)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [40733644627976178]">3</container>
+              <container type="box" label="Box [973895981849818235402689]">3</container>
               <unittitle>Miscellaneous</unittitle>
             </did>
             <odd>
@@ -803,7 +779,7 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [40733644627976178]">3</container>
+                <container type="box" label="Box [973895981849818235402689]">3</container>
                 <unittitle>A-B</unittitle>
               </did>
               <odd>
@@ -815,7 +791,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [40733644627976178]">3</container>
+                <container type="box" label="Box [973895981849818235402689]">3</container>
                 <unittitle>C</unittitle>
               </did>
               <odd>
@@ -827,7 +803,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [40733644627976178]">3</container>
+                <container type="box" label="Box [973895981849818235402689]">3</container>
                 <unittitle>D</unittitle>
               </did>
               <odd>
@@ -839,7 +815,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [40733644627976178]">3</container>
+                <container type="box" label="Box [973895981849818235402689]">3</container>
                 <unittitle>I</unittitle>
               </did>
               <odd>
@@ -851,7 +827,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [40733644627976178]">3</container>
+                <container type="box" label="Box [973895981849818235402689]">3</container>
                 <unittitle>J</unittitle>
               </did>
               <odd>
@@ -863,7 +839,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [40733644627976178]">3</container>
+                <container type="box" label="Box [973895981849818235402689]">3</container>
                 <unittitle>K</unittitle>
               </did>
               <odd>
@@ -875,7 +851,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [40733644627976178]">3</container>
+                <container type="box" label="Box [973895981849818235402689]">3</container>
                 <unittitle>L-M</unittitle>
               </did>
               <odd>
@@ -887,7 +863,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [40733644627976178]">3</container>
+                <container type="box" label="Box [973895981849818235402689]">3</container>
                 <unittitle>P</unittitle>
               </did>
               <odd>
@@ -899,7 +875,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [40733644627976178]">3</container>
+                <container type="box" label="Box [973895981849818235402689]">3</container>
                 <unittitle>R</unittitle>
               </did>
               <odd>
@@ -911,7 +887,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [40733644627976178]">3</container>
+                <container type="box" label="Box [973895981849818235402689]">3</container>
                 <unittitle>S</unittitle>
               </did>
               <odd>
@@ -923,7 +899,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [40733644627976178]">3</container>
+                <container type="box" label="Box [973895981849818235402689]">3</container>
                 <unittitle>T</unittitle>
               </did>
               <odd>
@@ -935,7 +911,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [40733644627976178]">3</container>
+                <container type="box" label="Box [973895981849818235402689]">3</container>
                 <unittitle>W</unittitle>
               </did>
               <odd>
@@ -949,11 +925,10 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Masonic Grand Lodge chaplains <unitdate type="inclusive" normal="1948/1957">1948-1957</unitdate></unittitle>
-          </did>
+            <unittitle>Masonic Grand Lodge chaplains</unittitle><unitdate type="inclusive" normal="1948/1957">1948-1957</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [40733644627976178]">3</container>
+              <container type="box" label="Box [973895981849818235402689]">3</container>
               <unittitle>Samuel Silsby</unittitle>
             </did>
             <odd>
@@ -962,7 +937,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [40733644627976178]">3</container>
+              <container type="box" label="Box [973895981849818235402689]">3</container>
               <unittitle>Daniel Michael</unittitle>
             </did>
             <odd>
@@ -971,7 +946,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [40733644627976178]">3</container>
+              <container type="box" label="Box [973895981849818235402689]">3</container>
               <unittitle>Ashbel Wells and Oliver Cromwell Comstock</unittitle>
             </did>
             <odd>
@@ -990,7 +965,7 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [40733644627976178]">3</container>
+              <container type="box" label="Box [973895981849818235402689]">3</container>
               <unittitle>Miscellanea</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
@@ -1002,14 +977,13 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Correspondence with biographical data <unitdate type="inclusive" normal="1946/1962">1946-1962</unitdate></unittitle>
-            </did>
+              <unittitle>Correspondence with biographical data</unittitle><unitdate type="inclusive" normal="1946/1962">1946-1962</unitdate></did>
             <odd>
               <p>(arranged alphabetically)</p>
             </odd>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [40733644627976178]">3</container>
+                <container type="box" label="Box [973895981849818235402689]">3</container>
                 <unittitle>A</unittitle>
               </did>
               <odd>
@@ -1021,7 +995,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [40733644627976178]">3</container>
+                <container type="box" label="Box [973895981849818235402689]">3</container>
                 <unittitle>C</unittitle>
               </did>
               <odd>
@@ -1033,7 +1007,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [40733644627976178]">3</container>
+                <container type="box" label="Box [973895981849818235402689]">3</container>
                 <unittitle>D-E</unittitle>
               </did>
               <odd>
@@ -1045,7 +1019,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [40733644627976178]">3</container>
+                <container type="box" label="Box [973895981849818235402689]">3</container>
                 <unittitle>F</unittitle>
               </did>
               <odd>
@@ -1057,7 +1031,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [40733644627976178]">3</container>
+                <container type="box" label="Box [973895981849818235402689]">3</container>
                 <unittitle>G</unittitle>
               </did>
               <odd>
@@ -1069,7 +1043,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [40733644627976178]">3</container>
+                <container type="box" label="Box [973895981849818235402689]">3</container>
                 <unittitle>H-Hari</unittitle>
               </did>
               <odd>
@@ -1081,7 +1055,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [40733644627976178]">3</container>
+                <container type="box" label="Box [973895981849818235402689]">3</container>
                 <unittitle>Harj-I</unittitle>
               </did>
               <odd>
@@ -1093,7 +1067,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [40733644627976178]">3</container>
+                <container type="box" label="Box [973895981849818235402689]">3</container>
                 <unittitle>J-M</unittitle>
               </did>
               <odd>
@@ -1105,7 +1079,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [40733644627976178]">3</container>
+                <container type="box" label="Box [973895981849818235402689]">3</container>
                 <unittitle>P</unittitle>
               </did>
               <odd>
@@ -1117,7 +1091,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [40733644627976178]">3</container>
+                <container type="box" label="Box [973895981849818235402689]">3</container>
                 <unittitle>R</unittitle>
               </did>
               <odd>
@@ -1129,7 +1103,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [40733644627976178]">3</container>
+                <container type="box" label="Box [973895981849818235402689]">3</container>
                 <unittitle>S</unittitle>
               </did>
               <odd>
@@ -1141,7 +1115,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [40733644627976178]">3</container>
+                <container type="box" label="Box [973895981849818235402689]">3</container>
                 <unittitle>T</unittitle>
               </did>
               <odd>
@@ -1159,14 +1133,13 @@
           </did>
           <c03 level="file">
             <did>
-              <unittitle>Correspondence with biographical data <unitdate type="inclusive" normal="1946/1962">1946-1962</unitdate></unittitle>
-            </did>
+              <unittitle>Correspondence with biographical data</unittitle><unitdate type="inclusive" normal="1946/1962">1946-1962</unitdate></did>
             <odd>
               <p>(arranged alphabetically)</p>
             </odd>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [5849757176404911499121]">4</container>
+                <container type="box" label="Box [0566121158478431370718]">4</container>
                 <unittitle>A</unittitle>
               </did>
               <odd>
@@ -1178,7 +1151,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [5849757176404911499121]">4</container>
+                <container type="box" label="Box [0566121158478431370718]">4</container>
                 <unittitle>B-Bk</unittitle>
               </did>
               <odd>
@@ -1190,7 +1163,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [5849757176404911499121]">4</container>
+                <container type="box" label="Box [0566121158478431370718]">4</container>
                 <unittitle>Bl-C</unittitle>
               </did>
               <odd>
@@ -1202,7 +1175,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [5849757176404911499121]">4</container>
+                <container type="box" label="Box [0566121158478431370718]">4</container>
                 <unittitle>C</unittitle>
               </did>
               <odd>
@@ -1214,7 +1187,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [5849757176404911499121]">4</container>
+                <container type="box" label="Box [0566121158478431370718]">4</container>
                 <unittitle>E</unittitle>
               </did>
               <odd>
@@ -1226,7 +1199,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [5849757176404911499121]">4</container>
+                <container type="box" label="Box [0566121158478431370718]">4</container>
                 <unittitle>F</unittitle>
               </did>
               <odd>
@@ -1238,7 +1211,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [5849757176404911499121]">4</container>
+                <container type="box" label="Box [0566121158478431370718]">4</container>
                 <unittitle>G</unittitle>
               </did>
               <odd>
@@ -1250,7 +1223,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [5849757176404911499121]">4</container>
+                <container type="box" label="Box [0566121158478431370718]">4</container>
                 <unittitle>H</unittitle>
               </did>
               <odd>
@@ -1262,7 +1235,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [5849757176404911499121]">4</container>
+                <container type="box" label="Box [0566121158478431370718]">4</container>
                 <unittitle>J-K</unittitle>
               </did>
               <odd>
@@ -1274,7 +1247,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [5849757176404911499121]">4</container>
+                <container type="box" label="Box [0566121158478431370718]">4</container>
                 <unittitle>L</unittitle>
               </did>
               <odd>
@@ -1286,7 +1259,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [5849757176404911499121]">4</container>
+                <container type="box" label="Box [0566121158478431370718]">4</container>
                 <unittitle>M</unittitle>
               </did>
               <odd>
@@ -1298,7 +1271,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [5849757176404911499121]">4</container>
+                <container type="box" label="Box [0566121158478431370718]">4</container>
                 <unittitle>P</unittitle>
               </did>
               <odd>
@@ -1310,7 +1283,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [5849757176404911499121]">4</container>
+                <container type="box" label="Box [0566121158478431370718]">4</container>
                 <unittitle>R</unittitle>
               </did>
               <odd>
@@ -1322,7 +1295,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [5849757176404911499121]">4</container>
+                <container type="box" label="Box [0566121158478431370718]">4</container>
                 <unittitle>S-Shel</unittitle>
               </did>
               <odd>
@@ -1334,7 +1307,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [5849757176404911499121]">4</container>
+                <container type="box" label="Box [0566121158478431370718]">4</container>
                 <unittitle>Shem-T</unittitle>
               </did>
               <odd>
@@ -1346,7 +1319,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [5849757176404911499121]">4</container>
+                <container type="box" label="Box [0566121158478431370718]">4</container>
                 <unittitle>T</unittitle>
               </did>
               <odd>
@@ -1358,7 +1331,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [5849757176404911499121]">4</container>
+                <container type="box" label="Box [0566121158478431370718]">4</container>
                 <unittitle>V</unittitle>
               </did>
               <odd>
@@ -1370,7 +1343,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [5849757176404911499121]">4</container>
+                <container type="box" label="Box [0566121158478431370718]">4</container>
                 <unittitle>W-Wj</unittitle>
               </did>
               <odd>
@@ -1382,7 +1355,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [5849757176404911499121]">4</container>
+                <container type="box" label="Box [0566121158478431370718]">4</container>
                 <unittitle>Wk-Z</unittitle>
               </did>
               <odd>
@@ -1395,9 +1368,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5849757176404911499121]">4</container>
-              <unittitle>Correspondence with Grand Council Royal and Select Master Masons of Michigan <unitdate type="inclusive" normal="1947/1960">1947-1960</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [0566121158478431370718]">4</container>
+              <unittitle>Correspondence with Grand Council Royal and Select Master Masons of Michigan</unittitle><unitdate type="inclusive" normal="1947/1960">1947-1960</unitdate></did>
             <odd>
               <p>(folder 140)</p>
             </odd>
@@ -1410,9 +1382,8 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5849757176404911499121]">4</container>
-            <unittitle>General Masonic History correspondence <unitdate type="inclusive" normal="1941/1966">1941-1966</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [0566121158478431370718]">4</container>
+            <unittitle>General Masonic History correspondence</unittitle><unitdate type="inclusive" normal="1941/1966">1941-1966</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">23 folders</extent>
             </physdesc>
           </did>
@@ -1426,7 +1397,7 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [95491074294408962870105]">5</container>
+              <container type="box" label="Box [2952865484258973902]">5</container>
               <unittitle>Miscellanea</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">4 folders</extent>
@@ -1438,7 +1409,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [95491074294408962870105]">5</container>
+              <container type="box" label="Box [2952865484258973902]">5</container>
               <unittitle>Biographical data (A-Z)</unittitle>
             </did>
             <odd>
@@ -1450,7 +1421,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [95491074294408962870105]">5</container>
+              <container type="box" label="Box [2952865484258973902]">5</container>
               <unittitle>Manuscript of book entitled "History of Freemasonry in Michigan" by Charles Fey</unittitle>
             </did>
             <odd>
@@ -1459,7 +1430,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [95491074294408962870105]">5</container>
+              <container type="box" label="Box [2952865484258973902]">5</container>
               <unittitle>Miscellaneous printed matter</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
@@ -1471,7 +1442,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [95491074294408962870105]">5</container>
+              <container type="box" label="Box [2952865484258973902]">5</container>
               <unittitle>Miscellanea</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
@@ -1483,7 +1454,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [95491074294408962870105]">5</container>
+              <container type="box" label="Box [2952865484258973902]">5</container>
               <unittitle>Clippings</unittitle>
             </did>
             <odd>
@@ -1493,9 +1464,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [95491074294408962870105]">5</container>
-            <unittitle>Masonry outside Michigan, correspondence with biographical data <unitdate type="inclusive" normal="1950/1959">1950-1959</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [2952865484258973902]">5</container>
+            <unittitle>Masonry outside Michigan, correspondence with biographical data</unittitle><unitdate type="inclusive" normal="1950/1959">1950-1959</unitdate></did>
           <odd>
             <p>(folder 177)</p>
           </odd>
@@ -1513,9 +1483,8 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [95491074294408962870105]">5</container>
-                <unittitle>Correspondence <unitdate type="inclusive" normal="1955/1970">1955-1970</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [2952865484258973902]">5</container>
+                <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1955/1970">1955-1970</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">3 folders</extent>
                 </physdesc>
               </did>
@@ -1525,7 +1494,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [95491074294408962870105]">5</container>
+                <container type="box" label="Box [2952865484258973902]">5</container>
                 <unittitle>Miscellanea</unittitle>
               </did>
               <odd>
@@ -1534,7 +1503,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [95491074294408962870105]">5</container>
+                <container type="box" label="Box [2952865484258973902]">5</container>
                 <unittitle>Printed material</unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -1551,16 +1520,15 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [95491074294408962870105]">5</container>
-                <unittitle>Correspondence and miscellanea <unitdate type="inclusive" normal="1944/1959">1944-1959</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [2952865484258973902]">5</container>
+                <unittitle>Correspondence and miscellanea</unittitle><unitdate type="inclusive" normal="1944/1959">1944-1959</unitdate></did>
               <odd>
                 <p>(folder 184)</p>
               </odd>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [95491074294408962870105]">5</container>
+                <container type="box" label="Box [2952865484258973902]">5</container>
                 <unittitle>Miscellanea</unittitle>
               </did>
               <odd>
@@ -1570,7 +1538,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [95491074294408962870105]">5</container>
+              <container type="box" label="Box [2952865484258973902]">5</container>
               <unittitle>DeWitt Clinton</unittitle>
             </did>
             <odd>
@@ -1579,7 +1547,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [95491074294408962870105]">5</container>
+              <container type="box" label="Box [2952865484258973902]">5</container>
               <unittitle>George B. Ensworth</unittitle>
             </did>
             <odd>
@@ -1592,16 +1560,15 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [95491074294408962870105]">5</container>
-                <unittitle>Correspondence <unitdate type="inclusive" normal="1959/1963">1959-1963</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [2952865484258973902]">5</container>
+                <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1959/1963">1959-1963</unitdate></did>
               <odd>
                 <p>(folder 188)</p>
               </odd>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [95491074294408962870105]">5</container>
+                <container type="box" label="Box [2952865484258973902]">5</container>
                 <unittitle>Miscellanea</unittitle>
               </did>
               <odd>
@@ -1615,16 +1582,15 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [95491074294408962870105]">5</container>
-                <unittitle>Correspondence <unitdate type="inclusive" normal="1949/1951">1949-1951</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [2952865484258973902]">5</container>
+                <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1949/1951">1949-1951</unitdate></did>
               <odd>
                 <p>(folder 190)</p>
               </odd>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [95491074294408962870105]">5</container>
+                <container type="box" label="Box [2952865484258973902]">5</container>
                 <unittitle>Biographical data</unittitle>
               </did>
               <odd>
@@ -1633,7 +1599,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [95491074294408962870105]">5</container>
+                <container type="box" label="Box [2952865484258973902]">5</container>
                 <unittitle>Printed miscellanea</unittitle>
               </did>
               <odd>
@@ -1647,9 +1613,8 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [5192745743567727]">6</container>
-                <unittitle>Correspondence <unitdate type="inclusive" normal="1953/1961">1953-1961</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [97063796941759758760667]">6</container>
+                <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1953/1961">1953-1961</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">4 folders</extent>
                 </physdesc>
               </did>
@@ -1659,7 +1624,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [5192745743567727]">6</container>
+                <container type="box" label="Box [97063796941759758760667]">6</container>
                 <unittitle>Biographical data</unittitle>
               </did>
               <odd>
@@ -1669,7 +1634,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5192745743567727]">6</container>
+              <container type="box" label="Box [97063796941759758760667]">6</container>
               <unittitle>William T. Tracy</unittitle>
             </did>
             <odd>
@@ -1682,7 +1647,7 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [5192745743567727]">6</container>
+                <container type="box" label="Box [97063796941759758760667]">6</container>
                 <unittitle>Correspondence</unittitle>
               </did>
               <odd>
@@ -1691,7 +1656,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [5192745743567727]">6</container>
+                <container type="box" label="Box [97063796941759758760667]">6</container>
                 <unittitle>Biographical data</unittitle>
               </did>
               <odd>
@@ -1702,9 +1667,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5192745743567727]">6</container>
-            <unittitle>Miscellaneous correspondence <unitdate type="inclusive" normal="1933">1933</unitdate>, <unitdate type="inclusive" normal="1940/1966">1940-1966</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [97063796941759758760667]">6</container>
+            <unittitle>Miscellaneous correspondence</unittitle><unitdate type="inclusive" normal="1933">1933</unitdate><unitdate type="inclusive" normal="1940/1966">1940-1966</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">6 folders</extent>
             </physdesc>
           </did>
@@ -1718,7 +1682,7 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5192745743567727]">6</container>
+              <container type="box" label="Box [97063796941759758760667]">6</container>
               <unittitle>Miscellanea</unittitle>
             </did>
             <odd>
@@ -1731,16 +1695,15 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [5192745743567727]">6</container>
-                <unittitle>Correspondence <unitdate type="inclusive" normal="1914/1920">1914-1920</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [97063796941759758760667]">6</container>
+                <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1914/1920">1914-1920</unitdate></did>
               <odd>
                 <p>(folder 208)</p>
               </odd>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [5192745743567727]">6</container>
+                <container type="box" label="Box [97063796941759758760667]">6</container>
                 <unittitle>Miscellanea</unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -1753,16 +1716,15 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5192745743567727]">6</container>
-              <unittitle>History of hymns sung at Michigan Grand Lodge, correspondence about <unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [97063796941759758760667]">6</container>
+              <unittitle>History of hymns sung at Michigan Grand Lodge, correspondence about</unittitle><unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate></did>
             <odd>
               <p>(folder 211)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5192745743567727]">6</container>
+              <container type="box" label="Box [97063796941759758760667]">6</container>
               <unittitle>Masonic Education Plan of Royal Oak Lodge No. 464</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -1774,7 +1736,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5192745743567727]">6</container>
+              <container type="box" label="Box [97063796941759758760667]">6</container>
               <unittitle>Old Detroit City Hall</unittitle>
             </did>
             <odd>
@@ -1783,9 +1745,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5192745743567727]">6</container>
-              <unittitle>State Capitol Buildings in Michigan, correspondence about <unitdate type="inclusive" normal="1947/1948">1947-1948</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [97063796941759758760667]">6</container>
+              <unittitle>State Capitol Buildings in Michigan, correspondence about</unittitle><unitdate type="inclusive" normal="1947/1948">1947-1948</unitdate></did>
             <odd>
               <p>(folder 215)</p>
             </odd>
@@ -1796,16 +1757,15 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [5192745743567727]">6</container>
-                <unittitle>Correspondence about <unitdate type="inclusive" normal="1951/1965">1951-1965</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [97063796941759758760667]">6</container>
+                <unittitle>Correspondence about</unittitle><unitdate type="inclusive" normal="1951/1965">1951-1965</unitdate></did>
               <odd>
                 <p>(folder 216)</p>
               </odd>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [5192745743567727]">6</container>
+                <container type="box" label="Box [97063796941759758760667]">6</container>
                 <unittitle>Miscellanea</unittitle>
               </did>
               <odd>
@@ -1815,7 +1775,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5192745743567727]">6</container>
+              <container type="box" label="Box [97063796941759758760667]">6</container>
               <unittitle>Mariners' Church in Detroit</unittitle>
             </did>
             <odd>
@@ -1824,7 +1784,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5192745743567727]">6</container>
+              <container type="box" label="Box [97063796941759758760667]">6</container>
               <unittitle>Article by Louis H. Fead entitled "Masonic Law"</unittitle>
             </did>
             <odd>
@@ -1833,7 +1793,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5192745743567727]">6</container>
+              <container type="box" label="Box [97063796941759758760667]">6</container>
               <unittitle>Printed miscellanea concerning history of Freemasonry</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -1845,7 +1805,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5192745743567727]">6</container>
+              <container type="box" label="Box [97063796941759758760667]">6</container>
               <unittitle>Miscellaneous articles from Masonic periodicals</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">8 folders</extent>
@@ -1857,7 +1817,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5192745743567727]">6</container>
+              <container type="box" label="Box [97063796941759758760667]">6</container>
               <unittitle>Miscellaneous document re Masonic history</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -1870,108 +1830,96 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
-              <unittitle>Masonry in Denmark, papers <unitdate type="inclusive" normal="1947/1951">1947-1951</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
+              <unittitle>Masonry in Denmark, papers</unittitle><unitdate type="inclusive" normal="1947/1951">1947-1951</unitdate></did>
             <odd>
               <p>(folder 232)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
-              <unittitle>George Washington and Freemasonry, papers <unitdate type="inclusive" normal="1960/1967">1960-1967</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
+              <unittitle>George Washington and Freemasonry, papers</unittitle><unitdate type="inclusive" normal="1960/1967">1960-1967</unitdate></did>
             <odd>
               <p>(folder 233)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
-              <unittitle>Masonry in New York, papers <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
+              <unittitle>Masonry in New York, papers</unittitle><unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></did>
             <odd>
               <p>(folder 234)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
-              <unittitle>American flag, and the seal and flag of Michigan, papers <unitdate type="inclusive" normal="1946/1956">1946-1956</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
+              <unittitle>American flag, and the seal and flag of Michigan, papers</unittitle><unitdate type="inclusive" normal="1946/1956">1946-1956</unitdate></did>
             <odd>
               <p>(folder 235)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
-              <unittitle>Harris Hampden Hickman, papers <unitdate type="inclusive" normal="1959/1963">1959-1963</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
+              <unittitle>Harris Hampden Hickman, papers</unittitle><unitdate type="inclusive" normal="1959/1963">1959-1963</unitdate></did>
             <odd>
               <p>(folder 236)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
-              <unittitle>John Curtis, papers <unitdate type="inclusive" normal="1943/1952">1943-1952</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
+              <unittitle>John Curtis, papers</unittitle><unitdate type="inclusive" normal="1943/1952">1943-1952</unitdate></did>
             <odd>
               <p>(folder 237)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
-              <unittitle>Grand Lodge of Michigan, papers <unitdate type="inclusive" normal="1959/1963">1959-1963</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
+              <unittitle>Grand Lodge of Michigan, papers</unittitle><unitdate type="inclusive" normal="1959/1963">1959-1963</unitdate></did>
             <odd>
               <p>(folder 238)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
-              <unittitle>Reginald V. Harris, secretary of the Canadian Masonic Research Association, correspondence <unitdate type="inclusive" normal="1948/1969">1948-1969</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
+              <unittitle>Reginald V. Harris, secretary of the Canadian Masonic Research Association, correspondence</unittitle><unitdate type="inclusive" normal="1948/1969">1948-1969</unitdate></did>
             <odd>
               <p>(folder 239)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
-              <unittitle>Order of the Red Cross of Constantine, papers <unitdate type="inclusive" normal="1954/1962">1954-1962</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
+              <unittitle>Order of the Red Cross of Constantine, papers</unittitle><unitdate type="inclusive" normal="1954/1962">1954-1962</unitdate></did>
             <odd>
               <p>(folder 240)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
-              <unittitle>Detroit Masonic Temple, and other Masonic affairs, papers <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
+              <unittitle>Detroit Masonic Temple, and other Masonic affairs, papers</unittitle><unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></did>
             <odd>
               <p>(folder 241)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
-              <unittitle>Early Freemasonry in central New York, papers <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
+              <unittitle>Early Freemasonry in central New York, papers</unittitle><unitdate type="inclusive">undated</unitdate></did>
             <odd>
               <p>(folder 242)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
-              <unittitle>History of Masonry in Michigan, miscellanea <unitdate type="inclusive" normal="1959/1969">1959-1969</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [3352560146357837110522]">7</container>
+              <unittitle>History of Masonry in Michigan, miscellanea</unittitle><unitdate type="inclusive" normal="1959/1969">1959-1969</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
               </physdesc>
             </did>
@@ -1981,7 +1929,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
               <unittitle>Miscellanea</unittitle>
             </did>
             <odd>
@@ -1995,7 +1943,7 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
               <unittitle>"Lincoln and Freemasonry: Historical records prove mutual respect"</unittitle>
             </did>
             <odd>
@@ -2004,7 +1952,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
               <unittitle>"Heraldry of Freemasonry"</unittitle>
             </did>
             <odd>
@@ -2013,7 +1961,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
               <unittitle>"Daniel B. Taylor and his Candle"</unittitle>
             </did>
             <odd>
@@ -2022,7 +1970,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
               <unittitle>"Early Detroit and the Fire of 1805"</unittitle>
             </did>
             <odd>
@@ -2031,7 +1979,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
               <unittitle>"Harris Hampden Hickman"</unittitle>
             </did>
             <odd>
@@ -2040,7 +1988,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
               <unittitle>"Dr. William McDowell Scott"</unittitle>
             </did>
             <odd>
@@ -2049,7 +1997,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
               <unittitle>"Early History of Freemasonry in Central New York"</unittitle>
             </did>
             <odd>
@@ -2058,7 +2006,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
               <unittitle>"Monument erected to the memory of M.W. Horace Smith Roberts, P.G.M."</unittitle>
             </did>
             <odd>
@@ -2067,7 +2015,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
               <unittitle>"Meeting and possible meeting places of Stony Creek Lodge No. 7, 3, 5, now Rochester Lodge No.5"</unittitle>
             </did>
             <odd>
@@ -2076,16 +2024,15 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
-              <unittitle>"Freemasonry in Upper Canada and the <unitdate type="inclusive" normal="1812">1812</unitdate> War"</unittitle>
-            </did>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
+              <unittitle>"Freemasonry in Upper Canada and the War"</unittitle><unitdate type="inclusive" normal="1812">1812</unitdate></did>
             <odd>
               <p>(folder 256)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
               <unittitle>"The Michigan Railroad Era"</unittitle>
             </did>
             <odd>
@@ -2094,7 +2041,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
               <unittitle>"Did the French Masons influence the Indians Mit-Tah Masonry?"</unittitle>
             </did>
             <odd>
@@ -2103,7 +2050,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
               <unittitle>"Stony Creek Memorial, Rochester, Michigan"</unittitle>
             </did>
             <odd>
@@ -2112,7 +2059,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
               <unittitle>"Grand Chaplains Grand Lodge of Michigan"</unittitle>
             </did>
             <odd>
@@ -2121,7 +2068,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
               <unittitle>"Michigan Freemasonry and the Civil War"</unittitle>
             </did>
             <odd>
@@ -2130,7 +2077,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
               <unittitle>"Solomon Sibley"</unittitle>
             </did>
             <odd>
@@ -2139,7 +2086,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
               <unittitle>"Grand Lecturers of Michigan"</unittitle>
             </did>
             <odd>
@@ -2148,7 +2095,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
               <unittitle>"Worshipful Masters of Zion Lodge, No. 1, 1794-1829"</unittitle>
             </did>
             <odd>
@@ -2157,7 +2104,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
               <unittitle>"Hymns sung at Grand Lodge"</unittitle>
             </did>
             <odd>
@@ -2166,7 +2113,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
               <unittitle>"Killian Henry Van Rensselaer"</unittitle>
             </did>
             <odd>
@@ -2175,7 +2122,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
               <unittitle>"Dr. Richard Schuckburgh, author of Yankee Doodle"</unittitle>
             </did>
             <odd>
@@ -2184,7 +2131,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
               <unittitle>"Dewitt Clinton"</unittitle>
             </did>
             <odd>
@@ -2193,7 +2140,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
               <unittitle>"List of officers contained in a petition to transport settlers and their families to the settlement at Detroit"</unittitle>
             </did>
             <odd>
@@ -2202,7 +2149,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
               <unittitle>"The Academic Regalia"</unittitle>
             </did>
             <odd>
@@ -2211,7 +2158,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
               <unittitle>"Reports of the History Committee of the Grand Chapter"</unittitle>
             </did>
             <odd>
@@ -2220,7 +2167,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
               <unittitle>"John L. Whiting, First Grand Secretary of the Grand Lodge of Michigan"</unittitle>
             </did>
             <odd>
@@ -2229,7 +2176,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
               <unittitle>"Rev. David Burnham Tracy and his membership in the Red Cross of Constantine"</unittitle>
             </did>
             <odd>
@@ -2241,7 +2188,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
               <unittitle>"Detroit in 1793"</unittitle>
             </did>
             <odd>
@@ -2250,7 +2197,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
               <unittitle>"Captain John Clark"</unittitle>
             </did>
             <odd>
@@ -2259,7 +2206,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
               <unittitle>"Ammi W. Wright, Donor of the Masonic Home in Alma, Michigan"</unittitle>
             </did>
             <odd>
@@ -2268,7 +2215,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
               <unittitle>"Birth of the Ancient Accepted Scottish Rite in America..."</unittitle>
             </did>
             <odd>
@@ -2277,7 +2224,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
               <unittitle>"Casimir Pulaski"</unittitle>
             </did>
             <odd>
@@ -2286,7 +2233,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
               <unittitle>"Local and Grand Lodge Buildings"</unittitle>
             </did>
             <odd>
@@ -2295,7 +2242,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
               <unittitle>"Simon Girty"</unittitle>
             </did>
             <odd>
@@ -2304,7 +2251,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8082583141803872952562]">7</container>
+              <container type="box" label="Box [3352560146357837110522]">7</container>
               <unittitle>"Charles Fey"</unittitle>
             </did>
             <odd>
@@ -2313,7 +2260,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [477707894429961129991423]">8</container>
+              <container type="box" label="Box [80481874450996318]">8</container>
               <unittitle>"Masonic Side Orders"</unittitle>
             </did>
             <odd>
@@ -2322,7 +2269,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [477707894429961129991423]">8</container>
+              <container type="box" label="Box [80481874450996318]">8</container>
               <unittitle>"The Royal Americans of the 60th Regiment"</unittitle>
             </did>
             <odd>
@@ -2332,7 +2279,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [477707894429961129991423]">8</container>
+            <container type="box" label="Box [80481874450996318]">8</container>
             <unittitle>Notebook containing biographical material on early Michigan masons</unittitle>
           </did>
           <odd>
@@ -2341,7 +2288,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [477707894429961129991423]">8</container>
+            <container type="box" label="Box [80481874450996318]">8</container>
             <unittitle>"Stony Creek Lodge No. 7, now Rochester Lodge No. 5", research paper</unittitle>
           </did>
           <odd>
@@ -2350,9 +2297,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [477707894429961129991423]">8</container>
-            <unittitle>Stony Creek Lodge No. 7, research material <unitdate type="inclusive" normal="1960/1971">1960-1971</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [80481874450996318]">8</container>
+            <unittitle>Stony Creek Lodge No. 7, research material</unittitle><unitdate type="inclusive" normal="1960/1971">1960-1971</unitdate></did>
           <odd>
             <p>(folder 286)</p>
           </odd>
@@ -2363,7 +2309,7 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [477707894429961129991423]">8</container>
+              <container type="box" label="Box [80481874450996318]">8</container>
               <unittitle>"Dr. William Beaumont"</unittitle>
             </did>
             <odd>
@@ -2372,7 +2318,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [477707894429961129991423]">8</container>
+              <container type="box" label="Box [80481874450996318]">8</container>
               <unittitle>"Sherman Stevens. Father of Royal Oak Village, Mich."</unittitle>
             </did>
             <odd>
@@ -2381,7 +2327,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [477707894429961129991423]">8</container>
+              <container type="box" label="Box [80481874450996318]">8</container>
               <unittitle>"Was William Morgan of the Caribbean the same as William Morgan of Batavia?"</unittitle>
             </did>
             <odd>
@@ -2390,7 +2336,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [477707894429961129991423]">8</container>
+              <container type="box" label="Box [80481874450996318]">8</container>
               <unittitle>"King Solomon's Temple"</unittitle>
             </did>
             <odd>
@@ -2399,7 +2345,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [477707894429961129991423]">8</container>
+              <container type="box" label="Box [80481874450996318]">8</container>
               <unittitle>"William F. Tracy"</unittitle>
             </did>
             <odd>
@@ -2408,7 +2354,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [477707894429961129991423]">8</container>
+              <container type="box" label="Box [80481874450996318]">8</container>
               <unittitle>"Rev. Josiah Henson, or the Hero of Uncle Tom's Cabin"</unittitle>
             </did>
             <odd>
@@ -2417,7 +2363,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [477707894429961129991423]">8</container>
+              <container type="box" label="Box [80481874450996318]">8</container>
               <unittitle>"Captain John Christie, First Worshipful Master Lodge No. 1, Detroit, Mich. 1764"</unittitle>
             </did>
             <odd>
@@ -2426,7 +2372,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [477707894429961129991423]">8</container>
+              <container type="box" label="Box [80481874450996318]">8</container>
               <unittitle>"Michigan Masonic Homes"</unittitle>
             </did>
             <odd>
@@ -2435,7 +2381,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [477707894429961129991423]">8</container>
+              <container type="box" label="Box [80481874450996318]">8</container>
               <unittitle>"The Beginning of Freemasonry"</unittitle>
             </did>
             <odd>
@@ -2444,7 +2390,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [477707894429961129991423]">8</container>
+              <container type="box" label="Box [80481874450996318]">8</container>
               <unittitle>"Prominent Indians and Freemasonry"</unittitle>
             </did>
             <odd>
@@ -2453,7 +2399,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [477707894429961129991423]">8</container>
+              <container type="box" label="Box [80481874450996318]">8</container>
               <unittitle>"Judge Augustus Brevoort Woodward"</unittitle>
             </did>
             <odd>
@@ -2462,7 +2408,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [477707894429961129991423]">8</container>
+              <container type="box" label="Box [80481874450996318]">8</container>
               <unittitle>"Col. John Francis Hamtramck, Master Mason"</unittitle>
             </did>
             <odd>
@@ -2471,7 +2417,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [477707894429961129991423]">8</container>
+              <container type="box" label="Box [80481874450996318]">8</container>
               <unittitle>"History of the Chicago Pneumatic Tool Co. and its Subsidiaries, 1894-1959"</unittitle>
             </did>
             <odd>
@@ -2480,7 +2426,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [477707894429961129991423]">8</container>
+              <container type="box" label="Box [80481874450996318]">8</container>
               <unittitle>Taylor Family</unittitle>
             </did>
             <odd>
@@ -2489,7 +2435,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [477707894429961129991423]">8</container>
+              <container type="box" label="Box [80481874450996318]">8</container>
               <unittitle>Dead Sea Scrolls</unittitle>
             </did>
             <odd>
@@ -2498,7 +2444,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [477707894429961129991423]">8</container>
+              <container type="box" label="Box [80481874450996318]">8</container>
               <unittitle>John Gilbert, Jr.</unittitle>
             </did>
             <odd>
@@ -2507,7 +2453,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [477707894429961129991423]">8</container>
+              <container type="box" label="Box [80481874450996318]">8</container>
               <unittitle>Nathaniel Pullman</unittitle>
             </did>
             <odd>
@@ -2516,7 +2462,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [477707894429961129991423]">8</container>
+              <container type="box" label="Box [80481874450996318]">8</container>
               <unittitle>William Morgan</unittitle>
             </did>
             <odd>
@@ -2526,7 +2472,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [477707894429961129991423]">8</container>
+            <container type="box" label="Box [80481874450996318]">8</container>
             <unittitle>Research on Oakland County Masonry, papers concerning</unittitle>
           </did>
           <odd>
@@ -2535,7 +2481,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [477707894429961129991423]">8</container>
+            <container type="box" label="Box [80481874450996318]">8</container>
             <unittitle>Newspaper clippings</unittitle>
           </did>
           <odd>
@@ -2544,7 +2490,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [477707894429961129991423]">8</container>
+            <container type="box" label="Box [80481874450996318]">8</container>
             <unittitle>Newspaper clippings</unittitle>
           </did>
           <odd>
@@ -2553,7 +2499,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [477707894429961129991423]">8</container>
+            <container type="box" label="Box [80481874450996318]">8</container>
             <unittitle>Miscellaneous research materials</unittitle>
           </did>
           <odd>
@@ -2562,7 +2508,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [477707894429961129991423]">8</container>
+            <container type="box" label="Box [80481874450996318]">8</container>
             <unittitle>The George Washington National Memorial Association</unittitle>
           </did>
           <odd>
@@ -2571,7 +2517,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [477707894429961129991423]">8</container>
+            <container type="box" label="Box [80481874450996318]">8</container>
             <unittitle>History of the Conferences of the Grand Master Masons and the Grand Secretaries in North America</unittitle>
           </did>
           <odd>
@@ -2589,9 +2535,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [898464841537102964]">9</container>
-              <unittitle>Royal Oak, Michigan history correspondence <unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [229228694488040741423267]">9</container>
+              <unittitle>Royal Oak, Michigan history correspondence</unittitle><unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">5 folders</extent>
               </physdesc>
             </did>
@@ -2601,9 +2546,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [898464841537102964]">9</container>
-              <unittitle>Oakland County, Michigan history <unitdate type="inclusive" normal="1955">1955</unitdate>, <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [229228694488040741423267]">9</container>
+              <unittitle>Oakland County, Michigan history</unittitle><unitdate type="inclusive" normal="1955">1955</unitdate><unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -2613,9 +2557,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [898464841537102964]">9</container>
-              <unittitle>Sherman Stevens, correspondence about <unitdate type="inclusive" normal="1953/1955">1953-1955</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [229228694488040741423267]">9</container>
+              <unittitle>Sherman Stevens, correspondence about</unittitle><unitdate type="inclusive" normal="1953/1955">1953-1955</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">4 folders</extent>
               </physdesc>
             </did>
@@ -2625,7 +2568,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [898464841537102964]">9</container>
+              <container type="box" label="Box [229228694488040741423267]">9</container>
               <unittitle>Royal Oak history, clippings</unittitle>
             </did>
             <odd>
@@ -2639,9 +2582,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [898464841537102964]">9</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1951/1962">1951-1962</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [229228694488040741423267]">9</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1951/1962">1951-1962</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">13 folders</extent>
               </physdesc>
             </did>
@@ -2651,7 +2593,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [898464841537102964]">9</container>
+              <container type="box" label="Box [229228694488040741423267]">9</container>
               <unittitle>Miscellanea</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">4 folders</extent>
@@ -2668,7 +2610,7 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [898464841537102964]">9</container>
+              <container type="box" label="Box [229228694488040741423267]">9</container>
               <unittitle>Miscellanea</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">4 folders</extent>
@@ -2681,7 +2623,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [898464841537102964]">9</container>
+            <container type="box" label="Box [229228694488040741423267]">9</container>
             <unittitle>Royal Oak Township history</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 folders</extent>

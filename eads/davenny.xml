@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Davenny, Wilson Imbrie, 1859-1917.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/5929">Davenny, Wilson Imbrie, 1859-1917.</persname>
       </origination>
-      <unittitle encodinganalog="245">Wilson I. Davenny papers <unitdate type="inclusive" encodinganalog="245$f" normal="1889/1917">1889-1917</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851068 Aa 2; UAm</unitid>
+      <unittitle encodinganalog="245">Wilson I. Davenny papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1889/1917">1889-1917</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851068 Aa 2; UAm</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Newspaperman, lobbyist for the National Rivers and Harbors Congress, and spokesman for the United Spanish War Veterans. Correspondence, scrapbooks, speeches, business papers and account books relating primarily to his work as a lobbyist.</abstract>
       <physdesc altrender="part">
@@ -81,31 +81,31 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Lobbying.</subject>
-        <corpname source="lcnaf" encodinganalog="610">National Rivers and Harbors Congress.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82070032">United Spanish War Veterans.</corpname>
-        <subject source="lcsh" encodinganalog="650">Veterans--Michigan--Societies, etc.</subject>
-        <subject source="lcsh" encodinganalog="650">Spanish-American War, 1898.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6717">Lobbying.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1000">National Rivers and Harbors Congress.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82070032" ref="/agents/corporate_entities/3264">United Spanish War Veterans.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5892">Veterans--Michigan--Societies, etc.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6016">Spanish-American War, 1898.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <geogname source="lcsh" encodinganalog="651">Cuba.</geogname>
-        <persname source="lcnaf" encodinganalog="600">Davenny, Wilson Imbrie, 1859-1917.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2013133837">Maine (Battleship)</corpname>
-        <subject source="lctgm" encodinganalog="650">Military art and science.</subject>
-        <subject source="lcsh" encodinganalog="650">Spanish-American War, 1898.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1278">Cuba.</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5929">Davenny, Wilson Imbrie, 1859-1917.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2013133837" ref="/agents/corporate_entities/2031">Maine (Battleship)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3771">Military art and science.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6016">Spanish-American War, 1898.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n90640269">Ransdell, Joseph Eugene, 1858-1954.</persname>
-        <persname source="lcnaf" encodinganalog="700">Smith, Samuel William, 1852-1931.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79063604">Washington, Booker T., 1856-1915.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n90640269" ref="/agents/people/8175">Ransdell, Joseph Eugene, 1858-1954.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/761">Smith, Samuel William, 1852-1931.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79063604" ref="/agents/people/346">Washington, Booker T., 1856-1915.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="aat" encodinganalog="655">Scrapbooks.</genreform>
-        <genreform source="gmgpc" encodinganalog="655">Tintypes.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3133">Scrapbooks.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3453">Tintypes.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -115,11 +115,8 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [347470444056940222455]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1889/1933">1889-1933</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [42752248950477979]">1</container>
+            <unitdate type="inclusive" normal="1889/1933">1889-1933</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">24 folders</extent>
             </physdesc>
           </did>
@@ -137,35 +134,30 @@
         </odd>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [347470444056940222455]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1898/1916">1898-1916</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [42752248950477979]">1</container>
+            <unitdate type="inclusive" normal="1898/1916">1898-1916</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">11 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [347470444056940222455]">1</container>
-            <unittitle>Miscellaneous <unitdate type="inclusive" normal="1901/1912">1901-1912</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [42752248950477979]">1</container>
+            <unittitle>Miscellaneous</unittitle><unitdate type="inclusive" normal="1901/1912">1901-1912</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3974119148980993989]">2</container>
+            <container type="box" label="Box [1615328455922928753]">2</container>
             <unittitle>Speeches</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3974119148980993989]">2</container>
-            <unittitle><title render="italic">Spanish War Review</title>, <unitdate type="inclusive" normal="1911/1912">1911-1912</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [1615328455922928753]">2</container>
+            <unittitle><title render="italic">Spanish War Review</title></unittitle><unitdate type="inclusive" normal="1911/1912">1911-1912</unitdate></did>
           <odd>
             <p>(Davenny was editor and manager during this period)</p>
           </odd>
@@ -180,12 +172,8 @@
         </odd>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3974119148980993989]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1912/1917">1912-1917</unitdate>
-              <unitdate type="inclusive">undated</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [1615328455922928753]">2</container>
+            <unitdate type="inclusive" normal="1912/1917">1912-1917</unitdate><unitdate type="inclusive">undated</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">25 folders</extent>
             </physdesc>
           </did>
@@ -197,27 +185,24 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3974119148980993989]">2</container>
-            <unittitle>Letters containing endorsements of Davenny for US Consular Service <unitdate type="inclusive" normal="1897">1897</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [1615328455922928753]">2</container>
+            <unittitle>Letters containing endorsements of Davenny for US Consular Service</unittitle><unitdate type="inclusive" normal="1897">1897</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3974119148980993989]">2</container>
+            <container type="box" label="Box [1615328455922928753]">2</container>
             <unittitle>Abstracts, deeds, and inventory of the Davenny library</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3974119148980993989]">2</container>
-            <unittitle>Cash book <unitdate type="inclusive" normal="1909">1909</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [1615328455922928753]">2</container>
+            <unittitle>Cash book</unittitle><unitdate type="inclusive" normal="1909">1909</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [591473044442518382580823397]">3</container>
-            <unittitle><genreform normal="Scrapbooks">Scrapbooks</genreform>, <unitdate type="inclusive" normal="1903/1906">1903-1906</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [55550760503412846846476621]">3</container>
+            <unittitle><genreform normal="Scrapbooks">Scrapbooks</genreform></unittitle><unitdate type="inclusive" normal="1903/1906">1903-1906</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">8 volumes</extent>
             </physdesc>
           </did>
@@ -227,19 +212,17 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [591473044442518382580823397]">3</container>
-            <unittitle>Pocket expense books <unitdate type="inclusive" normal="1906/1909">1906-1909</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [55550760503412846846476621]">3</container>
+            <unittitle>Pocket expense books</unittitle><unitdate type="inclusive" normal="1906/1909">1906-1909</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [591473044442518382580823397]">3</container>
-            <unittitle><genreform normal="Photographs">Photograph</genreform> album relating to the raising and commemoration of the U.S.S. Maine in <unitdate type="inclusive" normal="1912">1912</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [55550760503412846846476621]">3</container>
+            <unittitle><genreform normal="Photographs">Photograph</genreform> album relating to the raising and commemoration of the U.S.S. Maine in</unittitle><unitdate type="inclusive" normal="1912">1912</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [591473044442518382580823397]">3</container>
+            <container type="box" label="Box [55550760503412846846476621]">3</container>
             <unittitle><genreform normal="Photographs">Photograph</genreform>: portraits of Davenny, his wife, and acquaintances</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>

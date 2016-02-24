@@ -8,8 +8,8 @@ import time
 def dspace_abstract_to_odd(ead_dir, dspace_mets_dir):
     skip = ['nispodcast.xml','bamdocs.xml','actonh.xml','stewartmary.xml','mullinsr.xml','pollackp.xml','saxj.xml','caen.xml','shurtleffm.xml','ticecarol.xml','ootbmpm.xml']
     add_odd = ['schoening.xml','nsfnet.xml','gonzalesjess.xml']
-
-    for filename in os.listdir(ead_dir):
+    filenames = [filename for filename in os.listdir(ead_dir) if filename.endswith('.xml')]
+    for filename in filenames:
         print "Adding DSpace abstracts to odds in {0}".format(filename)
         if filename not in skip:
             tree = etree.parse(join(ead_dir, filename))
@@ -23,15 +23,16 @@ def dspace_abstract_to_odd(ead_dir, dspace_mets_dir):
                     if not did.xpath('./odd') and not c.xpath('./odd') or (filename in add_odd):
                         handlepath = urlparse.urlparse(href).path
                         the_id = handlepath.split('/')[-1]
-                        if the_id + '.xml' in dspace_mets_dir:
+                        if the_id + '.xml' in os.listdir(dspace_mets_dir):
                             metstree = etree.parse(join(dspace_mets_dir,the_id + '.xml'))
                             abstracts = metstree.xpath("//dim:field[@element='description'][@qualifier='abstract']", namespaces={'dim': 'http://www.dspace.org/xmlns/dspace/dim'})
-                            if abstracts and abstracts[0].text and abstracts[0] is not None:
+                            if abstracts and abstracts[0].text:
+                                print "Adding abstract from {0}".format(the_id)
                                 rewrite = True
-                                abstract = abstracts[0].text.strip().encode('utf-8')
+                                abstract = abstracts[0].text.encode('utf-8').decode('utf-8')
                                 odd = etree.Element('odd')
                                 ptag = etree.SubElement(odd,'p')
-                                ptag.text = "({0})".format(abstract)
+                                ptag.text = u"({0})".format(abstract.strip())
                                 c.insert(c.index(did)+1, odd)
             if rewrite:
                 with open(join(ead_dir,filename),'w') as f:

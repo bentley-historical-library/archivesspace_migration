@@ -39,7 +39,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -50,10 +51,9 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">United Church of Christ Women of Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/5005">United Church of Christ Women of Michigan.</corpname>
       </origination>
-      <unittitle encodinganalog="245">United Church of Christ Women of Michigan Records <unitdate type="inclusive" encodinganalog="245$f" normal="1915/2013">1915-2013</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1945/2013">1945-2013</unitdate></unittitle>
-      <abstract>Record books and other records, including minutes, correspondence, annual reports, directories, newsletters and other materials relating to their activities, as well as historical essays.</abstract>
+      <unittitle encodinganalog="245">United Church of Christ Women of Michigan Records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1915/2013">1915-2013</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1945/2013">1945-2013</unitdate><abstract>Record books and other records, including minutes, correspondence, annual reports, directories, newsletters and other materials relating to their activities, as well as historical essays.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">03166 Ba 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -93,13 +93,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Congregational churches--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Evangelical and Reformed Church--Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United Church of Christ--Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United Church of Christ Women of Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Woman's Home Missionary Union of Michigan.</corpname>
-        <subject source="lcsh" encodinganalog="650">Women--Michigan--Societies and clubs.</subject>
-        <subject source="lcsh" encodinganalog="650">Women--Religious life--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10445">Congregational churches--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1631">Evangelical and Reformed Church--Michigan.<term type="geographic">Michigan.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5109">United Church of Christ--Michigan.<term type="geographic">Michigan.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5005">United Church of Christ Women of Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2949">Woman's Home Missionary Union of Michigan.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6653">Women--Michigan--Societies and clubs.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6333">Women--Religious life--Michigan.</subject>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -112,39 +112,33 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [865206240768571884692107]">1</container>
-            <unittitle><unitdate type="inclusive" normal="1915/1945">1915-1945</unitdate> (Book I; scattered dates)</unittitle>
-          </did>
+            <container type="box" label="Box [53886216816744369022378]">1</container>
+            <unittitle>(Book I; scattered dates)</unittitle><unitdate type="inclusive" normal="1915/1945">1915-1945</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [865206240768571884692107]">1</container>
-            <unittitle><unitdate type="inclusive" normal="1945/1955">1945-1955</unitdate> (Book II)</unittitle>
-          </did>
+            <container type="box" label="Box [53886216816744369022378]">1</container>
+            <unittitle>(Book II)</unittitle><unitdate type="inclusive" normal="1945/1955">1945-1955</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [865206240768571884692107]">1</container>
-            <unittitle><unitdate type="inclusive" normal="1956/1960">1956-1960</unitdate> (Book III)</unittitle>
-          </did>
+            <container type="box" label="Box [53886216816744369022378]">1</container>
+            <unittitle>(Book III)</unittitle><unitdate type="inclusive" normal="1956/1960">1956-1960</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [865206240768571884692107]">1</container>
-            <unittitle><unitdate type="inclusive" normal="1961/1964">1961-1964</unitdate> (Book IV)</unittitle>
-          </did>
+            <container type="box" label="Box [53886216816744369022378]">1</container>
+            <unittitle>(Book IV)</unittitle><unitdate type="inclusive" normal="1961/1964">1961-1964</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [865206240768571884692107]">1</container>
-            <unittitle><unitdate type="inclusive" normal="1964/1974">1964-1974</unitdate> (Book V)</unittitle>
-          </did>
+            <container type="box" label="Box [53886216816744369022378]">1</container>
+            <unittitle>(Book V)</unittitle><unitdate type="inclusive" normal="1964/1974">1964-1974</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [865206240768571884692107]">1</container>
-            <unittitle><unitdate type="inclusive" normal="1974/1979">1974-1979</unitdate> (Book VI)</unittitle>
-          </did>
+            <container type="box" label="Box [53886216816744369022378]">1</container>
+            <unittitle>(Book VI)</unittitle><unitdate type="inclusive" normal="1974/1979">1974-1979</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -156,22 +150,16 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [865206240768571884692107]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1962/1969">1962-1969</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [53886216816744369022378]">1</container>
+            <unitdate type="inclusive" normal="1962/1969">1962-1969</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">8 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5374704466895723673]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1970/2013">1970-2012/13</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [44779574478814829725]">2</container>
+            <unitdate type="inclusive" normal="1970/2013">1970-2012/13</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">43 folders</extent>
             </physdesc>
           </did>
@@ -186,36 +174,32 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [631414574919895164]">3</container>
-            <unittitle>Newsletter: The Communicator <unitdate type="inclusive" normal="2001/2008">2001-2008</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9941225442858113081602256]">3</container>
+            <unittitle>Newsletter: The Communicator</unittitle><unitdate type="inclusive" normal="2001/2008">2001-2008</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [631414574919895164]">3</container>
-            <unittitle>Bylaws and manual <unitdate type="inclusive" normal="1975">1975</unitdate>, <unitdate type="inclusive" normal="1983">1983</unitdate>, <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9941225442858113081602256]">3</container>
+            <unittitle>Bylaws and manual</unittitle><unitdate type="inclusive" normal="1975">1975</unitdate><unitdate type="inclusive" normal="1983">1983</unitdate><unitdate type="inclusive" normal="1984">1984</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [631414574919895164]">3</container>
-            <unittitle>Directories <unitdate type="inclusive" normal="1963/2007">1963/64-2006/07</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [9941225442858113081602256]">3</container>
+            <unittitle>Directories</unittitle><unitdate type="inclusive" normal="1963/2007">1963/64-2006/07</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [631414574919895164]">3</container>
+            <container type="box" label="Box [9941225442858113081602256]">3</container>
             <unittitle>History of UCCW</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [631414574919895164]">3</container>
-            <unittitle>UCC Women of Michigan Investment Committee File <unitdate type="inclusive" normal="1975/1987">1975-1987</unitdate> (scattered years)</unittitle>
-          </did>
+            <container type="box" label="Box [9941225442858113081602256]">3</container>
+            <unittitle>UCC Women of Michigan Investment Committee File (scattered years)</unittitle><unitdate type="inclusive" normal="1975/1987">1975-1987</unitdate></did>
         </c02>
       </c01>
     </dsc>

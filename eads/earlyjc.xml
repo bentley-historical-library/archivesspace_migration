@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Early, John C. (John Chrysostom), 1878-1932.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/8101">Early, John C. (John Chrysostom), 1878-1932.</persname>
       </origination>
-      <unittitle encodinganalog="245">John C. Early Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1911/1942">1911-1942</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1911/1932">1911-1932</unitdate></unittitle>
-      <abstract>Teacher and administrator in the Philippines, governor of the Mountain Province, 1923-1930, later advisor to the Governor General on non-Christian affairs; correspondence, reminiscences, speeches, articles, and photographs.</abstract>
+      <unittitle encodinganalog="245">John C. Early Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1911/1942">1911-1942</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1911/1932">1911-1932</unitdate><abstract>Teacher and administrator in the Philippines, governor of the Mountain Province, 1923-1930, later advisor to the Governor General on non-Christian affairs; correspondence, reminiscences, speeches, articles, and photographs.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">85532 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="part">
@@ -81,29 +81,29 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Early, John C. (John Chrysostom), 1878-1932.</persname>
-        <geogname source="lcsh" encodinganalog="651">Philippines--History--1898-1946.</geogname>
-        <subject source="lcsh" encodinganalog="650">Teachers--Philippines.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/8101">Early, John C. (John Chrysostom), 1878-1932.</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/940">Philippines--History--1898-1946.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7371">Teachers--Philippines.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Early, John C. (John Chrysostom), 1878-1932.</persname>
-        <famname source="lcnaf" encodinganalog="600">Early family.</famname>
-        <subject source="lctgm" encodinganalog="650">Governors--Philippines.</subject>
-        <geogname source="lcsh" encodinganalog="651">Philippines--History--1898-1946.</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/8101">Early, John C. (John Chrysostom), 1878-1932.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/211">Early family.</famname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4238">Governors--Philippines.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/940">Philippines--History--1898-1946.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n96029853">Brent, Charles Henry, 1862-1929.</persname>
-        <persname source="lcnaf" encodinganalog="700">Early, Willa R. (Willa Rhodes), 1883-</persname>
-        <persname source="lcnaf" encodinganalog="700">Fugate, James, 1877-1938.</persname>
-        <persname source="lcnaf" encodinganalog="700">Mosher, Gouverneur Frank, 1871-1941.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50011364">Stimson, Henry L. (Henry Lewis), 1867-1950.</persname>
-        <persname source="lcnaf" encodinganalog="700">Wood, Leonard, 1860-1927.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n96029853" ref="/agents/people/8379">Brent, Charles Henry, 1862-1929.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/8421">Early, Willa R. (Willa Rhodes), 1883-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/8616">Fugate, James, 1877-1938.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/7843">Mosher, Gouverneur Frank, 1871-1941.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50011364" ref="/agents/people/5206">Stimson, Henry L. (Henry Lewis), 1867-1950.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/2533">Wood, Leonard, 1860-1927.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -117,42 +117,35 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [08223485994294254681900]">1</container>
-              <unittitle><unitdate>Undated</unitdate>, <unitdate type="inclusive" normal="1911/1920">1911-1920</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [2283445439545568]">1</container>
+              <unitdate>Undated</unitdate><unitdate type="inclusive" normal="1911/1920">1911-1920</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [08223485994294254681900]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1921/1928">1921-1928</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [2283445439545568]">1</container>
+              <unitdate type="inclusive" normal="1921/1928">1921-1928</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [08223485994294254681900]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1929/1932">1929-1932</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [2283445439545568]">1</container>
+              <unitdate type="inclusive" normal="1929/1932">1929-1932</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [08223485994294254681900]">1</container>
+            <container type="box" label="Box [2283445439545568]">1</container>
             <unittitle>Speeches and writings</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [08223485994294254681900]">1</container>
+            <container type="box" label="Box [2283445439545568]">1</container>
             <unittitle>Article, "Home of the Luzon Highlander"</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [08223485994294254681900]">1</container>
+            <container type="box" label="Box [2283445439545568]">1</container>
             <unittitle>Miscellanea</unittitle>
           </did>
         </c02>
@@ -164,22 +157,20 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [08223485994294254681900]">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1923/1942">1923-1942</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [2283445439545568]">1</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1923/1942">1923-1942</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [08223485994294254681900]">1</container>
+              <container type="box" label="Box [2283445439545568]">1</container>
               <unittitle>Miscellanea</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [08223485994294254681900]">1</container>
-            <unittitle>Reminiscence of John C. Early (1906-1923) <unitdate type="inclusive" normal="1931">1931</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [2283445439545568]">1</container>
+            <unittitle>Reminiscence of John C. Early (1906-1923)</unittitle><unitdate type="inclusive" normal="1931">1931</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">1 volumes</extent>
             </physdesc>
           </did>
@@ -193,37 +184,37 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [08223485994294254681900]">1</container>
+            <container type="box" label="Box [2283445439545568]">1</container>
             <unittitle>Philippine buildings, cities, towns</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [08223485994294254681900]">1</container>
+            <container type="box" label="Box [2283445439545568]">1</container>
             <unittitle>Philippine countryside (especially views of Mountain Province)</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [08223485994294254681900]">1</container>
+            <container type="box" label="Box [2283445439545568]">1</container>
             <unittitle>Family, friends, unidentified people (American)</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [08223485994294254681900]">1</container>
+            <container type="box" label="Box [2283445439545568]">1</container>
             <unittitle>Official groups and functions</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [08223485994294254681900]">1</container>
+            <container type="box" label="Box [2283445439545568]">1</container>
             <unittitle>Residences</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [08223485994294254681900]">1</container>
+            <container type="box" label="Box [2283445439545568]">1</container>
             <unittitle>Unidentified people</unittitle>
           </did>
         </c02>

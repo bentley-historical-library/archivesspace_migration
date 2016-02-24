@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Safford family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/363">Safford family.</famname>
       </origination>
-      <unittitle encodinganalog="245">Safford and Sunderland Family papers <unitdate type="inclusive" encodinganalog="245$f" normal="1826/1987">1826-1987</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1890/1940">1890-1940</unitdate></unittitle>
-      <abstract>The Safford Sunderland papers trace several generations of a Southeastern Michigan family, showcasing everyday life and Michigan (as well as U.S.) history over the course of the first half of the Twentieth Century.</abstract>
+      <unittitle encodinganalog="245">Safford and Sunderland Family papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1826/1987">1826-1987</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1890/1940">1890-1940</unitdate><abstract>The Safford Sunderland papers trace several generations of a Southeastern Michigan family, showcasing everyday life and Michigan (as well as U.S.) history over the course of the first half of the Twentieth Century.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">03161 Aa 2 UAm</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="part">
@@ -87,132 +87,121 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Medicine--Michigan.</subject>
-        <famname source="lcnaf" encodinganalog="600">Safford family.</famname>
-        <famname source="lcnaf" encodinganalog="600">Sunderland family.</famname>
-        <geogname source="lcsh" encodinganalog="651">United States--History--Civil War, 1861-1865.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n97063470">United States. Army. Michigan Infantry Regiment, 24th (1862-1865)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Alumni and alumnae.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students.</corpname>
-        <subject source="lcsh" encodinganalog="650">Women--Michigan--History.</subject>
-        <subject source="lcsh" encodinganalog="650">World War, 1914-1918--Medical care.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6035">Medicine--Michigan.</subject>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/363">Safford family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/95">Sunderland family.</famname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/905">United States--History--Civil War, 1861-1865.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n97063470" ref="/agents/corporate_entities/4631">United States. Army. Michigan Infantry Regiment, 24th (1862-1865)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Alumni and alumnae.<term type="topical">Alumni and alumnae.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students.<term type="topical">Students.</term></corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10297">Women--Michigan--History.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9011">World War, 1914-1918--Medical care.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <famname source="lcnaf" encodinganalog="600">Safford family.</famname>
-        <geogname source="lctgm" encodinganalog="651">Canton (Mich.)--Houses.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">City Hall (Detroit, Mich.)</corpname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82105515">Grand Haven (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Interiors--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Central Railroad Depot (Ann Arbor, Mich.)</corpname>
-        <geogname source="lctgm" encodinganalog="651">Plymouth (Mich.)--Houses.</geogname>
-        <famname source="lcnaf" encodinganalog="600">Sunderland family.</famname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Campus.</corpname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85149704">Whitmore Lake (Mich.)</geogname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/363">Safford family.</famname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/686">Canton (Mich.)--Houses.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/517">City Hall (Detroit, Mich.)</corpname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82105515" ref="/subjects/1096">Grand Haven (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5416">Interiors--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3243">Michigan Central Railroad Depot (Ann Arbor, Mich.)</corpname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/687">Plymouth (Mich.)--Houses.</geogname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/95">Sunderland family.</famname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Campus.<term type="topical">Campus.</term></corpname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85149704" ref="/subjects/1703">Whitmore Lake (Mich.)</geogname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Safford, Ada Murray, 1877-1951.</persname>
-        <persname source="lcnaf" encodinganalog="700">Safford, Gertrude Sunderland, 1873-1967.</persname>
-        <persname source="lcnaf" encodinganalog="700">Safford, Homer Erwin, 1869-1933.</persname>
-        <persname source="lcnaf" encodinganalog="700">Safford, Mildred Hortense, 1901-</persname>
-        <persname source="lcnaf" encodinganalog="700">Safford, Winfield Scott, d.1863.</persname>
-        <persname source="lcnaf" encodinganalog="700">Toohy, Helen Safford, 1899-1997.</persname>
-        <persname source="lcnaf" encodinganalog="700">Sunderland, Eliza Read, 1839-1910.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82020597">Sunderland, Jabez Thomas, 1842-1936.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/4668">Safford, Ada Murray, 1877-1951.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/3325">Safford, Gertrude Sunderland, 1873-1967.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/4084">Safford, Homer Erwin, 1869-1933.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/8963">Safford, Mildred Hortense, 1901-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/4181">Safford, Winfield Scott, d.1863.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/5759">Toohy, Helen Safford, 1899-1997.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/3750">Sunderland, Eliza Read, 1839-1910.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82020597" ref="/agents/people/6467">Sunderland, Jabez Thomas, 1842-1936.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Diaries.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3145">Diaries.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle><genreform source="aat" normal="Photographs">Photographs</genreform>, <unitdate type="inclusive" normal="1826/1985">1826-1985</unitdate></unittitle>
-        </did>
+          <unittitle><genreform source="aat" normal="Photographs">Photographs</genreform></unittitle><unitdate type="inclusive" normal="1826/1985">1826-1985</unitdate></did>
         <scopecontent>
           <p>The Photographs series (1826-1985) contains photos of several generations of Sunderlands and Saffords. In addition to formal portraits, there are numerous casual images of family gatherings and vacations. Other subjects include Detroit, Ann Arbor and the University of Michigan Campus, family homesteads in Canton Township and Grand Haven, and Mildred H. Safford's photo scrapbook of a European tour. Some of the earliest materials in the series are represented by tintypes and glass plate negatives, as well as by original photographs on cardstock and by reprints on modern photo paper.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="folder" label="Oversize Folder [99751273400185668614]">UAm</container>
-            <unittitle>Sunderland Family portraits, Safford Farm, Clifford M. Toohy, Brackett-Safford Family <unitdate type="inclusive" normal="1900/1945" certainty="approximate">circa 1900-1945</unitdate></unittitle>
-          </did>
+            <container type="folder" label="Oversize Folder [908802174149212094]">UAm</container>
+            <unittitle>Sunderland Family portraits, Safford Farm, Clifford M. Toohy, Brackett-Safford Family</unittitle><unitdate type="inclusive" normal="1900/1945" certainty="approximate">circa 1900-1945</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [49487754419801270589588]">1</container>
-            <unittitle>Jabez T. Sunderland <unitdate type="inclusive" normal="1890/1936" certainty="approximate">circa 1890-1936</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [597059405281722]">1</container>
+            <unittitle>Jabez T. Sunder</unittitle><unitdate type="inclusive" normal="1890/1936" certainty="approximate">circa 1890-1936</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [49487754419801270589588]">1</container>
-            <unittitle>Eliza Jane Read Sunderland <unitdate type="inclusive" normal="1890/1899" certainty="approximate">1890s</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [597059405281722]">1</container>
+            <unittitle>Eliza Jane Read Sunder</unittitle><unitdate type="inclusive" normal="1890/1899" certainty="approximate">1890s</unitdate></did>
           <odd>
             <p>(Also her brother, Thomas H. Read, reprint of photo from ca. 1865)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [49487754419801270589588]">1</container>
-            <unittitle>Edson Read Sunderland <unitdate type="inclusive" normal="1890/1899" certainty="approximate">circa 1890s</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [597059405281722]">1</container>
+            <unittitle>Edson Read Sunder</unittitle><unitdate type="inclusive" normal="1890/1899" certainty="approximate">circa 1890s</unitdate></did>
           <odd>
             <p>(Also his daughter, Alice Sunderland Wethy with her son David, 1950)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [49487754419801270589588]">1</container>
-            <unittitle>Florence Sunderland <unitdate type="inclusive" normal="1880/1889" certainty="approximate">1880s</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [597059405281722]">1</container>
+            <unittitle>Florence Sunder</unittitle><unitdate type="inclusive" normal="1880/1889" certainty="approximate">1880s</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [49487754419801270589588]">1</container>
-            <unittitle>Gertrude Sunderland Safford <unitdate type="inclusive" normal="1877/1957">1877-1957</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [597059405281722]">1</container>
+            <unittitle>Gertrude Sunderland Safford</unittitle><unitdate type="inclusive" normal="1877/1957">1877-1957</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [49487754419801270589588]">1</container>
-            <unittitle>Jabez T. and Eliza Read Sunderland with Homer E. and Gertrude S. Safford and their Children <unitdate type="inclusive" normal="1904" certainty="approximate">circa 1904</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [597059405281722]">1</container>
+            <unittitle>Jabez T. and Eliza Read Sunderland with Homer E. and Gertrude S. Safford and their Children</unittitle><unitdate type="inclusive" normal="1904" certainty="approximate">circa 1904</unitdate></did>
           <odd>
             <p>(Helen, Mildred, and Truman)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [49487754419801270589588]">1</container>
-            <unittitle>Homer E. Safford <unitdate type="inclusive" normal="1870/1919" certainty="approximate">circa 1870s-1919</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [597059405281722]">1</container>
+            <unittitle>Homer E. Safford</unittitle><unitdate type="inclusive" normal="1870/1919" certainty="approximate">circa 1870s-1919</unitdate></did>
           <odd>
             <p>(includes tintype)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [49487754419801270589588]">1</container>
-            <unittitle>Ada Murray Safford <unitdate type="inclusive" normal="1890/1949" certainty="approximate">circa 1890s-1949</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [597059405281722]">1</container>
+            <unittitle>Ada Murray Safford</unittitle><unitdate type="inclusive" normal="1890/1949" certainty="approximate">circa 1890s-1949</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [49487754419801270589588]">1</container>
-            <unittitle>Crawford/Safford Family (Siblings, parents, and paternal relatives of Homer E. and Ada M. Safford) <unitdate type="inclusive" normal="1860/1950" certainty="approximate">circa 1860s-1950</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [597059405281722]">1</container>
+            <unittitle>Crawford/Safford Family (Siblings, parents, and paternal relatives of Homer E. and Ada M. Safford)</unittitle><unitdate type="inclusive" normal="1860/1950" certainty="approximate">circa 1860s-1950</unitdate></did>
           <odd>
             <p>(includes tintype)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [49487754419801270589588]">1</container>
+            <container type="box" label="Box [597059405281722]">1</container>
             <unittitle>Murray/Horton Family (Maternal relatives of Homer E. and Ada M. Safford)</unittitle>
           </did>
           <odd>
@@ -221,128 +210,111 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [49487754419801270589588]">1</container>
-            <unittitle>Homer E. and Gertrude S. Safford <unitdate type="inclusive" normal="1896/1940" certainty="approximate">circa 1896-1940</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [597059405281722]">1</container>
+            <unittitle>Homer E. and Gertrude S. Safford</unittitle><unitdate type="inclusive" normal="1896/1940" certainty="approximate">circa 1896-1940</unitdate></did>
           <odd>
             <p>(Also family gatherings of Homer and Gertrude with their children and grandchildren, some also include Jabez T. Sunderland)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [49487754419801270589588]">1</container>
-            <unittitle>Children of Homer E. and Gertrude S. Safford <unitdate type="inclusive" normal="1900/1915" certainty="approximate">circa 1900-1915</unitdate>, <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [597059405281722]">1</container>
+            <unittitle>Children of Homer E. and Gertrude S. Safford</unittitle><unitdate type="inclusive" normal="1900/1915" certainty="approximate">circa 1900-1915</unitdate><unitdate type="inclusive" normal="1976">1976</unitdate></did>
           <odd>
             <p>(Helen, Mildred, Truman, and Virginia)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [49487754419801270589588]">1</container>
-            <unittitle>Mildred H. Safford <unitdate type="inclusive" normal="1908/1985" certainty="approximate">circa 1908-1985</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [597059405281722]">1</container>
+            <unittitle>Mildred H. Safford</unittitle><unitdate type="inclusive" normal="1908/1985" certainty="approximate">circa 1908-1985</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [49487754419801270589588]">1</container>
-            <unittitle>Mildred H. Safford's European Tour <unitdate type="inclusive" normal="1920/1929" certainty="approximate">1920s</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [597059405281722]">1</container>
+            <unittitle>Mildred H. Safford's European Tour</unittitle><unitdate type="inclusive" normal="1920/1929" certainty="approximate">1920s</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [49487754419801270589588]">1</container>
-            <unittitle>Truman S. Safford <unitdate type="inclusive" normal="1904/1976">1904-1976</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [597059405281722]">1</container>
+            <unittitle>Truman S. Safford</unittitle><unitdate type="inclusive" normal="1904/1976">1904-1976</unitdate></did>
           <odd>
             <p>(Also his first wife, Naomi Brackett Safford, their children Newell and Mary/Molly, and his second wife, Eleanor Safford)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [49487754419801270589588]">1</container>
-            <unittitle>Virginia Safford Arnold <unitdate type="inclusive" normal="1930/1945" certainty="approximate">circa 1930-1945</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [597059405281722]">1</container>
+            <unittitle>Virginia Safford Arnold</unittitle><unitdate type="inclusive" normal="1930/1945" certainty="approximate">circa 1930-1945</unitdate></did>
           <odd>
             <p>(Also her husband, Orlan M. Arnold, and their children)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [49487754419801270589588]">1</container>
-            <unittitle>Helen Safford Toohy <unitdate type="inclusive" normal="1899/1955">1899-1955</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [597059405281722]">1</container>
+            <unittitle>Helen Safford Toohy</unittitle><unitdate type="inclusive" normal="1899/1955">1899-1955</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [49487754419801270589588]">1</container>
-            <unittitle>Safford Toohy Family <unitdate type="inclusive" normal="1938/1949" certainty="approximate">circa 1938-1949</unitdate>, <unitdate type="inclusive" normal="1960/1969" certainty="approximate">circa 1960s</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [597059405281722]">1</container>
+            <unittitle>Safford Toohy Family</unittitle><unitdate type="inclusive" normal="1938/1949" certainty="approximate">circa 1938-1949</unitdate><unitdate type="inclusive" normal="1960/1969" certainty="approximate">circa 1960s</unitdate></did>
           <odd>
             <p>(Helen Safford Toohy and her daughters, Janet and Phyllis, and her grandchildren)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [49487754419801270589588]">1</container>
-            <unittitle>Martin Toohy Family <unitdate type="inclusive" normal="1897/1929">1897-1929</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [597059405281722]">1</container>
+            <unittitle>Martin Toohy Family</unittitle><unitdate type="inclusive" normal="1897/1929">1897-1929</unitdate></did>
           <odd>
             <p>(Relatives of Clifford M. Toohy, Helen Safford Toohy's husband)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [49487754419801270589588]">1</container>
-            <unittitle>Safford Family Farm (And nearby grave plot, both in Plymouth, MI) <unitdate type="inclusive" normal="1886/1939">1886-1939</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [597059405281722]">1</container>
+            <unittitle>Safford Family Farm (And nearby grave plot, both in Plymouth, MI)</unittitle><unitdate type="inclusive" normal="1886/1939">1886-1939</unitdate></did>
           <odd>
             <p>(includes glass plate negatives)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [49487754419801270589588]">1</container>
-            <unittitle>Ann Arbor <unitdate type="inclusive" normal="1890/1899" certainty="approximate">circa 1890s</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [597059405281722]">1</container>
+            <unittitle>Ann Arbor</unittitle><unitdate type="inclusive" normal="1890/1899" certainty="approximate">circa 1890s</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [49487754419801270589588]">1</container>
-            <unittitle>University of Michigan <unitdate type="inclusive" normal="1880/1899" certainty="approximate">circa 1880s-1890s</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [597059405281722]">1</container>
+            <unittitle>University of Michigan</unittitle><unitdate type="inclusive" normal="1880/1899" certainty="approximate">circa 1880s-1890s</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [49487754419801270589588]">1</container>
-            <unittitle>Detroit <unitdate type="inclusive" normal="1891/1932">1891-1932</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [597059405281722]">1</container>
+            <unittitle>Detroit</unittitle><unitdate type="inclusive" normal="1891/1932">1891-1932</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [49487754419801270589588]">1</container>
-            <unittitle>Grand Haven (Safford Toohy family cottage), early <unitdate type="inclusive" normal="1900/1909" certainty="approximate">1900s</unitdate>, <unitdate type="inclusive" normal="1940/1959" certainty="approximate">circa 1940s-1950s</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [597059405281722]">1</container>
+            <unittitle>Grand Haven (Safford Toohy family cottage), early</unittitle><unitdate type="inclusive" normal="1900/1909" certainty="approximate">1900s</unitdate><unitdate type="inclusive" normal="1940/1959" certainty="approximate">circa 1940s-1950s</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [49487754419801270589588]">1</container>
-            <unittitle>Miscellaneous <unitdate type="inclusive" normal="1890/1899" certainty="approximate">circa 1890s</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [597059405281722]">1</container>
+            <unittitle>Miscellaneous</unittitle><unitdate type="inclusive" normal="1890/1899" certainty="approximate">circa 1890s</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Gertrude Sunderland Safford <unitdate type="inclusive" normal="1880/1969" certainty="approximate">1880s-1969</unitdate></unittitle>
-        </did>
+          <unittitle>Gertrude Sunderland Safford</unittitle><unitdate type="inclusive" normal="1880/1969" certainty="approximate">1880s-1969</unitdate></did>
         <scopecontent>
           <p>In addition to extensive family correspondence, the Gertrude Sunderland Safford (1880s-1969) series contains records of Sunderland Safford's involvement with women's clubs, the League of Women Voters, and the Merrill-Parker School. The series also contains records documenting Sunderland Safford's interest in music and diaries of trips to Europe and from her time in Chicago working under John Dewey. Sunderland Safford corresponded quite frequently with her parents, siblings, and children (when they were away); the incoming half of these exchanges are well represented in this series. Of special interest are letters documenting the growth of her children (from the Sunderlands' joy at their births to the children's' letters home from college), Homer Safford's trips away from home (including his tours of European, U.S., and Canadian hospitals and his WWI service), and her father's ongoing involvement with the Unitarian Church and his 1913-1914 trip to Japan and India. The series also includes correspondence addressed to the Sunderland Safford children while they lived at home.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [49487754419801270589588]">1</container>
-            <unittitle>Biographical <unitdate type="inclusive" normal="1890/1967">1890-1967</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [597059405281722]">1</container>
+            <unittitle>Biographical</unittitle><unitdate type="inclusive" normal="1890/1967">1890-1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -350,39 +322,33 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [49487754419801270589588]">1</container>
-              <unittitle>From Various <unitdate type="inclusive" normal="1888/1964">1888-1964</unitdate>, <unitdate>undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [597059405281722]">1</container>
+              <unittitle>From Various</unittitle><unitdate type="inclusive" normal="1888/1964">1888-1964</unitdate><unitdate>undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [49487754419801270589588]">1</container>
-              <unittitle>From Lucy Textor <unitdate type="inclusive" normal="1891/1896">1891-1896</unitdate>, <unitdate type="inclusive" normal="1933">1933</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [597059405281722]">1</container>
+              <unittitle>From Lucy Textor</unittitle><unitdate type="inclusive" normal="1891/1896">1891-1896</unitdate><unitdate type="inclusive" normal="1933">1933</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [49487754419801270589588]">1</container>
-              <unittitle>From Eliza Jane Read Sunderland <unitdate type="inclusive" normal="1891/1909">1891-1909</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [597059405281722]">1</container>
+              <unittitle>From Eliza Jane Read Sunder</unittitle><unitdate type="inclusive" normal="1891/1909">1891-1909</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [73930432416136615]">2</container>
-              <unittitle>From Edson and Florence Sunderland <unitdate type="inclusive" normal="1891/1926">1891-1926</unitdate>, <unitdate type="inclusive" normal="1958">1958</unitdate>, <unitdate>undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [859372341864111]">2</container>
+              <unittitle>From Edson and Florence Sunder</unittitle><unitdate type="inclusive" normal="1891/1926">1891-1926</unitdate><unitdate type="inclusive" normal="1958">1958</unitdate><unitdate>undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [73930432416136615]">2</container>
-              <unittitle>From Jabez T. Sunderland <unitdate type="inclusive" normal="1891/1936">1891-1936</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [859372341864111]">2</container>
+              <unittitle>From Jabez T. Sunder</unittitle><unitdate type="inclusive" normal="1891/1936">1891-1936</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [73930432416136615]">2</container>
-              <unittitle>From Homer E. Safford <unitdate type="inclusive" normal="1895/1919">1895-1919</unitdate>, <unitdate>undated</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [859372341864111]">2</container>
+              <unittitle>From Homer E. Safford</unittitle><unitdate type="inclusive" normal="1895/1919">1895-1919</unitdate><unitdate>undated</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">4 folders</extent>
               </physdesc>
             </did>
@@ -392,15 +358,13 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [73930432416136615]">2</container>
-              <unittitle>From Various Sunderlands and Saffords (including grandchildren) <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>, <unitdate>undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [859372341864111]">2</container>
+              <unittitle>From Various Sunderlands and Saffords (including grandchildren)</unittitle><unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><unitdate>undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [73930432416136615]">2</container>
-              <unittitle>To Gertrude S. Safford (or to Gertrude S. and Homer E. Safford) from their Children <unitdate type="inclusive" normal="1902/1969">1902-1969</unitdate>, <unitdate>undated</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [859372341864111]">2</container>
+              <unittitle>To Gertrude S. Safford (or to Gertrude S. and Homer E. Safford) from their Children</unittitle><unitdate type="inclusive" normal="1902/1969">1902-1969</unitdate><unitdate>undated</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">6 folders</extent>
               </physdesc>
             </did>
@@ -408,9 +372,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [974311948833615300]">3</container>
-            <unittitle><genreform source="aat" normal="Diaries">Diaries</genreform>, <unitdate type="inclusive" normal="1888/1890">1888-1890</unitdate>, <unitdate type="inclusive" normal="1895/1930">1895-1930</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [41277629452883828293]">3</container>
+            <unittitle><genreform source="aat" normal="Diaries">Diaries</genreform></unittitle><unitdate type="inclusive" normal="1888/1890">1888-1890</unitdate><unitdate type="inclusive" normal="1895/1930">1895-1930</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
@@ -421,39 +384,33 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [974311948833615300]">3</container>
-              <unittitle>Sketchbook <unitdate type="inclusive" normal="1880/1899" certainty="approximate">1880s-1890s</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [41277629452883828293]">3</container>
+              <unittitle>Sketchbook</unittitle><unitdate type="inclusive" normal="1880/1899" certainty="approximate">1880s-1890s</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [974311948833615300]">3</container>
-              <unittitle>Letters of Recommendation <unitdate type="inclusive" normal="1895/1898">1895-1898</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [41277629452883828293]">3</container>
+              <unittitle>Letters of Recommendation</unittitle><unitdate type="inclusive" normal="1895/1898">1895-1898</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [974311948833615300]">3</container>
-              <unittitle>Musical Interests <unitdate type="inclusive" normal="1898/1939">1898-1939</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [41277629452883828293]">3</container>
+              <unittitle>Musical Interests</unittitle><unitdate type="inclusive" normal="1898/1939">1898-1939</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [974311948833615300]">3</container>
-              <unittitle>Twentieth Century Club and League of Women Voters <unitdate type="inclusive" normal="1906/1951">1906-1951</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [41277629452883828293]">3</container>
+              <unittitle>Twentieth Century Club and League of Women Voters</unittitle><unitdate type="inclusive" normal="1906/1951">1906-1951</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [974311948833615300]">3</container>
-              <unittitle>First Unitarian Church Sunday School <unitdate type="inclusive" normal="1911/1919">1911-1919</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [41277629452883828293]">3</container>
+              <unittitle>First Unitarian Church Sunday School</unittitle><unitdate type="inclusive" normal="1911/1919">1911-1919</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [974311948833615300]">3</container>
-              <unittitle>The Merrill-Palmer School <unitdate type="inclusive" normal="1918/1963">1918-1963</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [41277629452883828293]">3</container>
+              <unittitle>The Merrill-Palmer School</unittitle><unitdate type="inclusive" normal="1918/1963">1918-1963</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -461,21 +418,18 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [974311948833615300]">3</container>
-                <unittitle>Magazine <unitdate type="inclusive" normal="1928/1942">1928-1942</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [41277629452883828293]">3</container>
+                <unittitle>Magazine</unittitle><unitdate type="inclusive" normal="1928/1942">1928-1942</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [974311948833615300]">3</container>
-                <unittitle>Bulletin and Annual Report Summary <unitdate type="inclusive" normal="1921/1924">1921-1924</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [41277629452883828293]">3</container>
+                <unittitle>Bulletin and Annual Report Summary</unittitle><unitdate type="inclusive" normal="1921/1924">1921-1924</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [974311948833615300]">3</container>
-                <unittitle>Programs and Club Activities <unitdate type="inclusive" normal="1920/1931">1920-1931</unitdate>, <unitdate>undated</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [41277629452883828293]">3</container>
+                <unittitle>Programs and Club Activities</unittitle><unitdate type="inclusive" normal="1920/1931">1920-1931</unitdate><unitdate>undated</unitdate></did>
             </c04>
           </c03>
         </c02>
@@ -485,25 +439,22 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [974311948833615300]">3</container>
-              <unittitle>Letters to the Sunderland Safford Children (Helen, Mildred, Truman, and Virginia), from Family Members <unitdate type="inclusive" normal="1902/1916">1902-1916</unitdate>, <unitdate>undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [41277629452883828293]">3</container>
+              <unittitle>Letters to the Sunderland Safford Children (Helen, Mildred, Truman, and Virginia), from Family Members</unittitle><unitdate type="inclusive" normal="1902/1916">1902-1916</unitdate><unitdate>undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [974311948833615300]">3</container>
-              <unittitle>Letters to the Sunderland Safford Children (Truman and Virginia), from Family Members <unitdate type="inclusive" normal="1917/1929">1917-1929</unitdate>, <unitdate type="inclusive" normal="1940">1940</unitdate>, <unitdate type="inclusive" normal="1944">1944</unitdate>, <unitdate>undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [41277629452883828293]">3</container>
+              <unittitle>Letters to the Sunderland Safford Children (Truman and Virginia), from Family Members</unittitle><unitdate type="inclusive" normal="1917/1929">1917-1929</unitdate><unitdate type="inclusive" normal="1940">1940</unitdate><unitdate type="inclusive" normal="1944">1944</unitdate><unitdate>undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [974311948833615300]">3</container>
-              <unittitle>Obituaries of Eliza Read Sunderland <unitdate type="inclusive" normal="1910">1910</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [41277629452883828293]">3</container>
+              <unittitle>Obituaries of Eliza Read Sunder</unittitle><unitdate type="inclusive" normal="1910">1910</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [974311948833615300]">3</container>
+              <container type="box" label="Box [41277629452883828293]">3</container>
               <unittitle>Miscellaneous</unittitle>
             </did>
           </c03>
@@ -511,8 +462,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Homer Erwin Safford <unitdate type="inclusive" normal="1843/1982">1843-1982</unitdate></unittitle>
-        </did>
+          <unittitle>Homer Erwin Safford</unittitle><unitdate type="inclusive" normal="1843/1982">1843-1982</unitdate></did>
         <scopecontent>
           <p>Above all, the Homer Erwin Safford (1843-1982) series documents Safford's medical career. This includes his general practice in the 1900s, his work on efforts to build a new hospital in Detroit before WWI, his service in the Army Medical Corps during the War, and his later work as a psychiatric consultant for the Highland Park school system, the Children's Aid Society, various juvenile court systems, and others. Much of these papers are in the form of diaries, correspondence, and clippings on Safford's accomplishments. The series also contains Safford's personal correspondence from family and friends. This includes letters from Gertrude Sunderland Safford both before their marriage and while he was away, and letters from his children. Letters addressed to both parents are included in the Gertrude Sunderland Safford series; because these two series include the children's letters home from while they were away at college, the family correspondence in them is especially rich in documenting student life during the 1920s. Finally, the series includes papers on Safford family history, including ante-bellum and Civil War correspondence.</p>
         </scopecontent>
@@ -522,13 +472,12 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [974311948833615300]">3</container>
-              <unittitle>General <unitdate type="inclusive" normal="1894/1934">1894-1934</unitdate>, <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [41277629452883828293]">3</container>
+              <unittitle>General</unittitle><unitdate type="inclusive" normal="1894/1934">1894-1934</unitdate><unitdate type="inclusive" normal="1982">1982</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [974311948833615300]">3</container>
+              <container type="box" label="Box [41277629452883828293]">3</container>
               <unittitle>WWI Reminiscences</unittitle>
             </did>
           </c03>
@@ -539,27 +488,23 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [974311948833615300]">3</container>
-              <unittitle>From Gertrude Sunderland (later Safford) <unitdate type="inclusive" normal="1896/1918">1896-1918</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [41277629452883828293]">3</container>
+              <unittitle>From Gertrude Sunderland (later Safford)</unittitle><unitdate type="inclusive" normal="1896/1918">1896-1918</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [974311948833615300]">3</container>
-              <unittitle>To and From Various <unitdate type="inclusive" normal="1898/1924">1898-1924</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [41277629452883828293]">3</container>
+              <unittitle>To and From Various</unittitle><unitdate type="inclusive" normal="1898/1924">1898-1924</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [974311948833615300]">3</container>
-              <unittitle>From His Children <unitdate type="inclusive" normal="1902/1926">1902-1926</unitdate>, <unitdate>undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [41277629452883828293]">3</container>
+              <unittitle>From His Children</unittitle><unitdate type="inclusive" normal="1902/1926">1902-1926</unitdate><unitdate>undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [320688730478405699127607]">4</container>
-              <unittitle>To Homer E. and Gertrude S. Safford (From Valentin Block) <unitdate type="inclusive" normal="1913/1914">1913-1914</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3680284641881086415920]">4</container>
+              <unittitle>To Homer E. and Gertrude S. Safford (From Valentin Block)</unittitle><unitdate type="inclusive" normal="1913/1914">1913-1914</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -570,21 +515,16 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [320688730478405699127607]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1908">1908</unitdate>
-                <unitdate type="inclusive" normal="1909">1909</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [3680284641881086415920]">4</container>
+              <unitdate type="inclusive" normal="1908">1908</unitdate><unitdate type="inclusive" normal="1909">1909</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [320688730478405699127607]">4</container>
-              <unittitle>Transcripts of <unitdate type="inclusive" normal="1908">1908</unitdate>, <unitdate type="inclusive" normal="1909">1909</unitdate> Diaries</unittitle>
-            </did>
+              <container type="box" label="Box [3680284641881086415920]">4</container>
+              <unittitle>Transcripts of 1908, 1909 Diaries</unittitle><unitdate type="inclusive" normal="1908">1908</unitdate><unitdate type="inclusive" normal="1909">1909</unitdate></did>
             <odd>
               <p>(with two pages of 1910 diary)</p>
             </odd>
@@ -596,21 +536,18 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [320688730478405699127607]">4</container>
-              <unittitle>Medical Career Correspondence <unitdate type="inclusive" normal="1919/1933">1919-1933</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3680284641881086415920]">4</container>
+              <unittitle>Medical Career Correspondence</unittitle><unitdate type="inclusive" normal="1919/1933">1919-1933</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [320688730478405699127607]">4</container>
-              <unittitle>Medical Career Publications and Clippings <unitdate type="inclusive" normal="1901">1901</unitdate>, <unitdate type="inclusive" normal="1916">1916</unitdate>, <unitdate type="inclusive" normal="1919/1931">1919-1931</unitdate>, <unitdate>undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3680284641881086415920]">4</container>
+              <unittitle>Medical Career Publications and Clippings</unittitle><unitdate type="inclusive" normal="1901">1901</unitdate><unitdate type="inclusive" normal="1916">1916</unitdate><unitdate type="inclusive" normal="1919/1931">1919-1931</unitdate><unitdate>undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [320688730478405699127607]">4</container>
-              <unittitle>WWI Medical Psychiatric Service <unitdate type="inclusive" normal="1917/1919">1917-1919</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3680284641881086415920]">4</container>
+              <unittitle>WWI Medical Psychiatric Service</unittitle><unitdate type="inclusive" normal="1917/1919">1917-1919</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -619,15 +556,14 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [320688730478405699127607]">4</container>
+              <container type="box" label="Box [3680284641881086415920]">4</container>
               <unittitle>Safford Family History</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [320688730478405699127607]">4</container>
-              <unittitle>Murray/Safford Correspondence <unitdate type="inclusive" normal="1843/1863">1843-1863</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3680284641881086415920]">4</container>
+              <unittitle>Murray/Safford Correspondence</unittitle><unitdate type="inclusive" normal="1843/1863">1843-1863</unitdate></did>
             <odd>
               <p>(including Civil War letters from Winfield Scott Safford to Robert Crawford Safford)</p>
             </odd>
@@ -636,16 +572,14 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Ada Murray Safford <unitdate type="inclusive" normal="1890/1951" certainty="approximate">1890s-1951</unitdate></unittitle>
-        </did>
+          <unittitle>Ada Murray Safford</unittitle><unitdate type="inclusive" normal="1890/1951" certainty="approximate">1890s-1951</unitdate></did>
         <scopecontent>
           <p>The Ada Murray Safford (1890s-1951) series revolves around her significant interest in family history. Records on her career as a public health nurse are dwarfed by correspondence from her 'immediate family' of Sunderland Saffords. These letters, in turn, are outweighed by her extensive correspondence from members of the extended Murray and Safford families on genealogical matters.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [320688730478405699127607]">4</container>
-            <unittitle>Biographical <unitdate type="inclusive" normal="1890/1951" certainty="approximate">1890s-1951</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3680284641881086415920]">4</container>
+            <unittitle>Biographical</unittitle><unitdate type="inclusive" normal="1890/1951" certainty="approximate">1890s-1951</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -653,31 +587,27 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [320688730478405699127607]">4</container>
-              <unittitle>Immediate Family <unitdate type="inclusive" normal="1894/1951">1894-1951</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3680284641881086415920]">4</container>
+              <unittitle>Immediate Family</unittitle><unitdate type="inclusive" normal="1894/1951">1894-1951</unitdate></did>
             <odd>
               <p>(To Ada and her mother from Robert C. Safford, Homer E. and Gertrude S. Safford, and their children)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [320688730478405699127607]">4</container>
-              <unittitle>From Various <unitdate type="inclusive" normal="1931">1931</unitdate>, <unitdate type="inclusive" normal="1947/1950">1947-1950</unitdate>, <unitdate>undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3680284641881086415920]">4</container>
+              <unittitle>From Various</unittitle><unitdate type="inclusive" normal="1931">1931</unitdate><unitdate type="inclusive" normal="1947/1950">1947-1950</unitdate><unitdate>undated</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [320688730478405699127607]">4</container>
-            <unittitle>Clippings on Immediate Family <unitdate type="inclusive" normal="1901/1950">1901-1950</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3680284641881086415920]">4</container>
+            <unittitle>Clippings on Immediate Family</unittitle><unitdate type="inclusive" normal="1901/1950">1901-1950</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [320688730478405699127607]">4</container>
-            <unittitle>Nursing Activities <unitdate type="inclusive" normal="1903/1927">1903-1927</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3680284641881086415920]">4</container>
+            <unittitle>Nursing Activities</unittitle><unitdate type="inclusive" normal="1903/1927">1903-1927</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -685,25 +615,24 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [320688730478405699127607]">4</container>
-              <unittitle>Correspondence from Extended Family on Family History <unitdate type="inclusive" normal="1903/1950">1903-1950</unitdate>, <unitdate>undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3680284641881086415920]">4</container>
+              <unittitle>Correspondence from Extended Family on Family History</unittitle><unitdate type="inclusive" normal="1903/1950">1903-1950</unitdate><unitdate>undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [320688730478405699127607]">4</container>
+              <container type="box" label="Box [3680284641881086415920]">4</container>
               <unittitle>Safford/Crawford/Murray/Horton "Common Binder" and other Mixed Records</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [320688730478405699127607]">4</container>
+              <container type="box" label="Box [3680284641881086415920]">4</container>
               <unittitle>Safford Family</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [320688730478405699127607]">4</container>
+              <container type="box" label="Box [3680284641881086415920]">4</container>
               <unittitle>Crawford Family</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -712,48 +641,46 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [50509989409660817954]">5</container>
+              <container type="box" label="Box [1259143104417732119]">5</container>
               <unittitle>Crawford/Albright Family</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [50509989409660817954]">5</container>
+              <container type="box" label="Box [1259143104417732119]">5</container>
               <unittitle>Murray/Horton Family</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [50509989409660817954]">5</container>
+              <container type="box" label="Box [1259143104417732119]">5</container>
               <unittitle>Murray/Yard/Horton/Beakes Family</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [50509989409660817954]">5</container>
+              <container type="box" label="Box [1259143104417732119]">5</container>
               <unittitle>Genealogical Associations, Forms and Correspondence</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [50509989409660817954]">5</container>
+            <container type="box" label="Box [1259143104417732119]">5</container>
             <unittitle>Miscellaneous</unittitle>
           </did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Mildred Hortense Safford <unitdate type="inclusive" normal="1903/1983">1903-1983</unitdate></unittitle>
-        </did>
+          <unittitle>Mildred Hortense Safford</unittitle><unitdate type="inclusive" normal="1903/1983">1903-1983</unitdate></did>
         <scopecontent>
           <p>Like the other series in the collection, the Mildred Hortense Safford (1903-1987) series is strong on family correspondence, especially for 1918-1925. (This series includes not only correspondence to Mildred Safford, but also correspondence addressed to both Helen and Mildred Safford from during the time when they were at UM together.) Later correspondence includes letters from life-long friends Safford made with sorority sisters and from coworkers at the Detroit Children's Museum. (Some of the sorority sisters' letters to Safford are addressed to 'Peter', a sorority nickname of hers.) The series also documents Safford's distinguished career at the Detroit Children's Museum and her involvement with the Detroit Women's City Club.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [50509989409660817954]">5</container>
-            <unittitle>Biographical <unitdate type="inclusive" normal="1903/1933">1903-1933</unitdate>, <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [1259143104417732119]">5</container>
+            <unittitle>Biographical</unittitle><unitdate type="inclusive" normal="1903/1933">1903-1933</unitdate><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -761,27 +688,24 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [50509989409660817954]">5</container>
-              <unittitle>From Family <unitdate type="inclusive" normal="1917/1983">1917-1983</unitdate>, <unitdate>undated</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [1259143104417732119]">5</container>
+              <unittitle>From Family</unittitle><unitdate type="inclusive" normal="1917/1983">1917-1983</unitdate><unitdate>undated</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">4 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [50509989409660817954]">5</container>
-              <unittitle>To Mildred and Helen at College <unitdate type="inclusive" normal="1919/1923">1919-1923</unitdate>, <unitdate>undated</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [1259143104417732119]">5</container>
+              <unittitle>To Mildred and Helen at College</unittitle><unitdate type="inclusive" normal="1919/1923">1919-1923</unitdate><unitdate>undated</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [50509989409660817954]">5</container>
-              <unittitle>From Various <unitdate type="inclusive" normal="1915/1969">1915-1969</unitdate>, <unitdate>undated</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [1259143104417732119]">5</container>
+              <unittitle>From Various</unittitle><unitdate type="inclusive" normal="1915/1969">1915-1969</unitdate><unitdate>undated</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
               </physdesc>
             </did>
@@ -789,21 +713,18 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [590677844171051256361]">6</container>
-            <unittitle>Detroit Children's Museum <unitdate type="inclusive" normal="1930/1987">1930-1987</unitdate>, <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [2341770645885745329]">6</container>
+            <unittitle>Detroit Children's Museum</unittitle><unitdate type="inclusive" normal="1930/1987">1930-1987</unitdate><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [590677844171051256361]">6</container>
-            <unittitle>Women's City Club <unitdate type="inclusive" normal="1960/1979" certainty="approximate">1960s-1979</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [2341770645885745329]">6</container>
+            <unittitle>Women's City Club</unittitle><unitdate type="inclusive" normal="1960/1979" certainty="approximate">1960s-1979</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Helen Safford Toohy <unitdate type="inclusive" normal="1899/1976">1899-1976</unitdate></unittitle>
-        </did>
+          <unittitle>Helen Safford Toohy</unittitle><unitdate type="inclusive" normal="1899/1976">1899-1976</unitdate></did>
         <scopecontent>
           <p>The Helen Safford Toohy (1899-1976) series again contains extensive family correspondence, focusing on her years during and immediately following college. Other correspondence includes letters from future husband Clifford M. Toohy. The series also contains records of her educational progress, from her parents' records of her first several dozen words to her notes on University classes. Additionally, the series contains Safford Toohy's diaries documenting her troubled home life with her husband. Finally, the series contains some papers belonging to Clifford Toohy, as well as the letters he received from Helen Safford before their marriage, and letters from various Sunderlands and Saffords to the Safford Toohys' daughter, Janet Toohy, during her first year at Antioch College.</p>
         </scopecontent>
@@ -813,15 +734,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [590677844171051256361]">6</container>
-              <unittitle>General <unitdate type="inclusive" normal="1899/1926">1899-1926</unitdate>, <unitdate>undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [2341770645885745329]">6</container>
+              <unittitle>General</unittitle><unitdate type="inclusive" normal="1899/1926">1899-1926</unitdate><unitdate>undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [590677844171051256361]">6</container>
-              <unittitle>School Work and Honors <unitdate type="inclusive" normal="1900/1923" certainty="approximate">1900s-1923</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [2341770645885745329]">6</container>
+              <unittitle>School Work and Honors</unittitle><unitdate type="inclusive" normal="1900/1923" certainty="approximate">1900s-1923</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -830,65 +749,57 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [590677844171051256361]">6</container>
-              <unittitle>From Various <unitdate type="inclusive" normal="1917/1952">1917-1952</unitdate>, <unitdate>undated</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [2341770645885745329]">6</container>
+              <unittitle>From Various</unittitle><unitdate type="inclusive" normal="1917/1952">1917-1952</unitdate><unitdate>undated</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [590677844171051256361]">6</container>
-              <unittitle>From Family <unitdate type="inclusive" normal="1918/1963">1918-1963</unitdate>, <unitdate>undated</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [2341770645885745329]">6</container>
+              <unittitle>From Family</unittitle><unitdate type="inclusive" normal="1918/1963">1918-1963</unitdate><unitdate>undated</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [590677844171051256361]">6</container>
-              <unittitle>From Clifford M. Toohy <unitdate type="inclusive" normal="1924/1925">1924-1925</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [2341770645885745329]">6</container>
+              <unittitle>From Clifford M. Toohy</unittitle><unitdate type="inclusive" normal="1924/1925">1924-1925</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [590677844171051256361]">6</container>
-              <unittitle>Miscellaneous Outgoing Correspondence <unitdate type="inclusive" normal="1941/1952">1941-1952</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [2341770645885745329]">6</container>
+              <unittitle>Miscellaneous Outgoing Correspondence</unittitle><unitdate type="inclusive" normal="1941/1952">1941-1952</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [590677844171051256361]">6</container>
-            <unittitle>Diaries <unitdate type="inclusive" normal="1907">1907</unitdate>, <unitdate type="inclusive" normal="1915">1915</unitdate>, <unitdate type="inclusive" normal="1921/1922">1921-1922</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [2341770645885745329]">6</container>
+            <unittitle>Diaries</unittitle><unitdate type="inclusive" normal="1907">1907</unitdate><unitdate type="inclusive" normal="1915">1915</unitdate><unitdate type="inclusive" normal="1921/1922">1921-1922</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1482133421696084097151]">7</container>
-            <unittitle>Diaries <unitdate type="inclusive" normal="1927">1927</unitdate>, <unitdate type="inclusive" normal="1927/1937">1927-1937</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [2024519854856160179]">7</container>
+            <unittitle>Diaries</unittitle><unitdate type="inclusive" normal="1927">1927</unitdate><unitdate type="inclusive" normal="1927/1937">1927-1937</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1482133421696084097151]">7</container>
-            <unittitle>Detroit Symphony <unitdate type="inclusive" normal="1939/1940">1939-1940</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [2024519854856160179]">7</container>
+            <unittitle>Detroit Symphony</unittitle><unitdate type="inclusive" normal="1939/1940">1939-1940</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1482133421696084097151]">7</container>
-            <unittitle>Family Clippings <unitdate type="inclusive" normal="1936/1976">1936-1976</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [2024519854856160179]">7</container>
+            <unittitle>Family Clippings</unittitle><unitdate type="inclusive" normal="1936/1976">1936-1976</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1482133421696084097151]">7</container>
+            <container type="box" label="Box [2024519854856160179]">7</container>
             <unittitle>Miscellaneous</unittitle>
           </did>
         </c02>
@@ -898,18 +809,16 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1482133421696084097151]">7</container>
-              <unittitle>Correspondence (From Helen Safford) <unitdate type="inclusive" normal="1924/1940">1924-1940</unitdate>, <unitdate>undated</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [2024519854856160179]">7</container>
+              <unittitle>Correspondence (From Helen Safford)</unittitle><unitdate type="inclusive" normal="1924/1940">1924-1940</unitdate><unitdate>undated</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1482133421696084097151]">7</container>
-              <unittitle>Church Materials <unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [2024519854856160179]">7</container>
+              <unittitle>Church Materials</unittitle><unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -918,9 +827,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1482133421696084097151]">7</container>
-              <unittitle>Correspondence (From family) <unitdate type="inclusive" normal="1945/1946">1945-1946</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [2024519854856160179]">7</container>
+              <unittitle>Correspondence (From family)</unittitle><unitdate type="inclusive" normal="1945/1946">1945-1946</unitdate></did>
           </c03>
         </c02>
       </c01>

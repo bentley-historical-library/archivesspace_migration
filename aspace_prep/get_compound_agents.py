@@ -5,6 +5,7 @@ from os.path import join
 
 def get_compound_agents(ead_dir, subjects_agents_dir):
     tags = ['persname','corpname','famname']
+    special_cases = ['University of Michigan--Dearborn','University of Michigan--Flint','University of Michigan--Dearborn. Department of History','University of Wisconsin--Milwaukee','Lutheran Church--Missouri Synod']
     uniques = []
     for filename in os.listdir(ead_dir):
         print "Extracting compound agents from {0}".format(filename)
@@ -15,7 +16,11 @@ def get_compound_agents(ead_dir, subjects_agents_dir):
                 if '---' in agent_text:
                     agent_text = agent_text.replace('---','- --')
                 if '--' in agent_text:
-                    if agent_text not in uniques:
+                    terms = agent_text.split('--')
+                    joined = '--'.join(terms[0:2]).rstrip('.')
+                    if joined in special_cases and len(terms) > 2 and agent_text not in uniques:
+                        uniques.append(agent_text)
+                    elif joined not in special_cases and agent_text not in uniques:
                         uniques.append(agent_text)
 
     data = []
@@ -23,15 +28,19 @@ def get_compound_agents(ead_dir, subjects_agents_dir):
         row = []
         row.append(unique)
         terms = unique.split('--')
-        for term in terms:
-            row.append(term)
+        joined = '--'.join(terms[0:2])
+        if joined in special_cases:
+            row.append(joined)
+            for term in terms[2:]:
+                row.append(term)
+        else:
+            for term in terms:
+                row.append(term)
         data.append(row)
 
     output_csv = join(subjects_agents_dir,'compound_agents.csv')
-    if os.path.exists(output_csv):
-        os.remove(output_csv)
 
-    with open(output_csv, 'ab') as csvfile:
+    with open(output_csv, 'wb') as csvfile:
         writer = csv.writer(csvfile)
         writer.writerows(data)
 

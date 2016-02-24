@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,10 +43,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Parrish, Silver.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/4836">Parrish, Silver.</persname>
       </origination>
-      <unittitle encodinganalog="245">Silver Parrish diary <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1919">1918-1919</unitdate></unittitle>
-      <abstract>Soldier from Bay City, Mich., member of Co. B, 339th U.S. Infantry who served in the Allied intervention in Russia, 1918-1920, the "Polar Bear Expedition." Collection includes diaries which give an account of his service in Russia with the Polar Bear expedition, including sympathetic references to the Bolsheviks.</abstract>
+      <unittitle encodinganalog="245">Silver Parrish diary</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1918/1919">1918-1919</unitdate><abstract>Soldier from Bay City, Mich., member of Co. B, 339th U.S. Infantry who served in the Allied intervention in Russia, 1918-1920, the "Polar Bear Expedition." Collection includes diaries which give an account of his service in Russia with the Polar Bear expedition, including sympathetic references to the Bolsheviks.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">86616 Aa 1</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -79,14 +79,14 @@
       </p>
       <controlaccess>
         <head>Subjects</head>
-        <persname source="lcnaf" encodinganalog="600">Parrish, Silver.</persname>
-        <geogname source="lcsh" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
-        <subject source="local" encodinganalog="690">Polar Bear Expedition.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4836">Parrish, Silver.</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/879">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5715">World War, 1914-1918.</subject>
+        <subject source="local" encodinganalog="690" ref="/subjects/3516">Polar Bear Expedition.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Diaries.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3145">Diaries.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -96,7 +96,7 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [729304479599794530]">1</container>
+            <container type="folder" label="Folder [4151786434518853586]">1</container>
             <unittitle>Sept. 1918-April 1919</unittitle>
             <physdesc altrender="part">
               <extent altrender="materialtype spaceoccupied">1 items</extent>

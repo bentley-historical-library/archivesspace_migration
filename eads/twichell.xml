@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,10 +35,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Twichell family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/300">Twichell family.</famname>
       </origination>
-      <unittitle encodinganalog="245">Twichell Family papers <unitdate type="inclusive" encodinganalog="245$f" normal="1831/1975">1831-1975</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1844/1975">1844-1975</unitdate></unittitle>
-      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">85470 Aa 2; UAl</unitid>
+      <unittitle encodinganalog="245">Twichell Family papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1831/1975">1831-1975</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1844/1975">1844-1975</unitdate><unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">85470 Aa 2; UAl</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Hamburg, Livingston County, and Ann Arbor, Michigan, family. Correspondence, newspaper clippings and photographs of the Lohmiller, Twichell, and Hollister families.</abstract>
       <physdesc altrender="part">
@@ -77,210 +77,176 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)</geogname>
-        <famname source="lcnaf" encodinganalog="600">Depew family.</famname>
-        <subject source="lcsh" encodinganalog="650">Farm life--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Farms--Michigan--Hamburg.</subject>
-        <geogname source="lcsh" encodinganalog="651">Hamburg (Mich.)</geogname>
-        <famname source="lcnaf" encodinganalog="600">Hollister family.</famname>
-        <geogname source="lcsh" encodinganalog="651">Livingston County (Mich.)</geogname>
-        <famname source="lcnaf" encodinganalog="600">Lohmiller family.</famname>
-        <geogname source="lcsh" encodinganalog="651">Menominee (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Teachers--Michigan--Hamburg.</subject>
-        <subject source="lcsh" encodinganalog="650">Teachers--Michigan--Menominee.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Social life and customs--1921-1930.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Social life and customs--1941-1950.</corpname>
-        <subject source="lcsh" encodinganalog="650">Women teachers--Michigan--Hamburg.</subject>
-        <subject source="lcsh" encodinganalog="650">Women teachers--Michigan--Menominee.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219" ref="/subjects/856">Ann Arbor (Mich.)</geogname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/373">Depew family.</famname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7892">Farm life--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10435">Farms--Michigan--Hamburg.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1104">Hamburg (Mich.)</geogname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/198">Hollister family.</famname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1300">Livingston County (Mich.)</geogname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/292">Lohmiller family.</famname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1667">Menominee (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10436">Teachers--Michigan--Hamburg.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10437">Teachers--Michigan--Menominee.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Social life and customs--1921-1930.<term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1921-1930.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Social life and customs--1941-1950.<term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1941-1950.</term></corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10438">Women teachers--Michigan--Hamburg.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10439">Women teachers--Michigan--Menominee.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <subject source="lctgm" encodinganalog="650">Aged persons.</subject>
-        <geogname source="lctgm" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)--Business enterprises.</geogname>
-        <geogname source="lctgm" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)--Dwellings.</geogname>
-        <geogname source="lctgm" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)--Streets.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Arizona.</geogname>
-        <subject source="lctgm" encodinganalog="650">Automobiles.</subject>
-        <subject source="lctgm" encodinganalog="650">Bicycles and tricycles.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79053967">Boy Scouts of America.</corpname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n97092419">Brighton (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Business enterprises--Michigan--Ann Arbor.</subject>
-        <subject source="lctgm" encodinganalog="650">Business enterprises--Michigan--Manistee.</subject>
-        <famname source="lcnaf" encodinganalog="600">Butler family.</famname>
-        <geogname source="lcsh" encodinganalog="651">California.</geogname>
-        <subject source="lctgm" encodinganalog="650">Carriages and coaches.</subject>
-        <subject source="lctgm" encodinganalog="650">Carts and wagons.</subject>
-        <subject source="lctgm" encodinganalog="650">Cats.</subject>
-        <subject source="lctgm" encodinganalog="650">Children.</subject>
-        <geogname source="lcsh" encodinganalog="651">Church Street (Ann Arbor, Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Classrooms--Michigan--Hamburg.</subject>
-        <subject source="lctgm" encodinganalog="650">Clothing and dress.</subject>
-        <subject source="lctgm" encodinganalog="650">Dwellings.</subject>
-        <subject source="lctgm" encodinganalog="650">Dwellings--Michigan--Ann Arbor.</subject>
-        <subject source="lctgm" encodinganalog="650">Families.</subject>
-        <subject source="lctgm" encodinganalog="650">Ferries.</subject>
-        <subject source="lctgm" encodinganalog="650">Floods.</subject>
-        <geogname source="lcsh" encodinganalog="651">Florida.</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82137791">Frankfort (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Hamburg (Mich.)</geogname>
-        <geogname source="lctgm" encodinganalog="651">Hamburg (Mich.)--Schools.</geogname>
-        <famname source="lcnaf" encodinganalog="600">Hayes family.</famname>
-        <famname source="lcnaf" encodinganalog="600">Hollister family.</famname>
-        <subject source="lctgm" encodinganalog="650">Hunting--United States.</subject>
-        <subject source="lctgm" encodinganalog="650">Interiors.</subject>
-        <geogname source="lcsh" encodinganalog="651">Lakeland (Mich.)</geogname>
-        <famname source="lcnaf" encodinganalog="600">Lohmiller family.</famname>
-        <corpname source="lcnaf" encodinganalog="610">Louis Sands Salt and Lumber Company (Manistee, Mich.)</corpname>
-        <subject source="lctgm" encodinganalog="650">Lumber industry.</subject>
-        <geogname source="lctgm" encodinganalog="651">Manistee (Mich.)--Business enterprises.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Manistee River (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Menominee (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Nursing.</subject>
-        <geogname source="lcsh" encodinganalog="651">Packard Street (Ann Arbor, Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Phi Delta Phi. Kent Chapter (University of Michigan)</corpname>
-        <subject source="lctgm" encodinganalog="650">Railroads--Michigan.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/no90002701">Remer (Minn.)</geogname>
-        <famname source="lcnaf" encodinganalog="600">Rorabacher family.</famname>
-        <corpname source="lcnaf" encodinganalog="610">Schlede Bookstore (Ann Arbor, Mich.)</corpname>
-        <famname source="lcnaf" encodinganalog="600">Schlede family.</famname>
-        <corpname source="lcnaf" encodinganalog="610">Schlede House (Ann Arbor, Mich.)</corpname>
-        <subject source="lctgm" encodinganalog="650">Schools--Michigan--Hamburg.</subject>
-        <famname source="lcnaf" encodinganalog="600">Scott family.</famname>
-        <geogname source="lcsh" encodinganalog="651">Sheboygan (Wis.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Streets--Michigan--Ann Arbor.</subject>
-        <subject source="lctgm" encodinganalog="650">Tourism.</subject>
-        <famname source="lcnaf" encodinganalog="600">Twichell family.</famname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students.</corpname>
-        <geogname source="lcsh" encodinganalog="651">Wisconsin.</geogname>
-        <subject source="lctgm" encodinganalog="650">Women.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3756">Aged persons.</subject>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/206">Ann Arbor (Mich.)--Business enterprises.</geogname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/203">Ann Arbor (Mich.)--Dwellings.</geogname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/205">Ann Arbor (Mich.)--Streets.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1601">Arizona.</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4146">Automobiles.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3740">Bicycles and tricycles.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79053967" ref="/agents/corporate_entities/1600">Boy Scouts of America.</corpname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n97092419" ref="/subjects/1042">Brighton (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3587">Business enterprises--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5461">Business enterprises--Michigan--Manistee.</subject>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/324">Butler family.</famname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1277">California.</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3652">Carriages and coaches.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4215">Carts and wagons.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5462">Cats.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3620">Children.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2981">Church Street (Ann Arbor, Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5463">Classrooms--Michigan--Hamburg.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3622">Clothing and dress.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3995">Dwellings.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3570">Dwellings--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3921">Families.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3785">Ferries.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4581">Floods.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1592">Florida.</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82137791" ref="/subjects/1090">Frankfort (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1104">Hamburg (Mich.)</geogname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/691">Hamburg (Mich.)--Schools.</geogname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/42">Hayes family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/198">Hollister family.</famname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5063">Hunting--United States.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3687">Interiors.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2634">Lakeland (Mich.)</geogname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/292">Lohmiller family.</famname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5130">Louis Sands Salt and Lumber Company (Manistee, Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3664">Lumber industry.</subject>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/692">Manistee (Mich.)--Business enterprises.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1632">Manistee River (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1667">Menominee (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5464">Nursing.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2982">Packard Street (Ann Arbor, Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3866">Phi Delta Phi. Kent Chapter (University of Michigan)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3837">Railroads--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/no90002701" ref="/subjects/2983">Remer (Minn.)</geogname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/148">Rorabacher family.</famname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/649">Schlede Bookstore (Ann Arbor, Mich.)</corpname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/167">Schlede family.</famname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1962">Schlede House (Ann Arbor, Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5465">Schools--Michigan--Hamburg.</subject>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/163">Scott family.</famname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2984">Sheboygan (Wis.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3843">Streets--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5466">Tourism.</subject>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/300">Twichell family.</famname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students.<term type="topical">Students.</term></corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1858">Wisconsin.</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3617">Women.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="gmgpc" encodinganalog="655">Albums.</genreform>
-        <genreform source="gmgpc" encodinganalog="655">Cyanotypes.</genreform>
-        <genreform source="lcsh" encodinganalog="655">Diaries.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="gmgpc" encodinganalog="655">Postcards.</genreform>
-        <genreform source="gmgpc" encodinganalog="655">Tintypes.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3458">Albums.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3472">Cyanotypes.</genreform>
+        <genreform source="lcsh" encodinganalog="655" ref="/subjects/3439">Diaries.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3476">Postcards.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3453">Tintypes.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Correspondence <unitdate type="inclusive" normal="1831/1971">1831-1971</unitdate></unittitle>
-        </did>
+          <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1831/1971">1831-1971</unitdate></did>
         <scopecontent>
           <p>The Correspondence Series consists of letters from the Hollister and Twichell families dating from 1831 to 1959. Most of this correspondence was sent or received by Etta Twichell and her daughter Jennie. There are a few Civil War period letters, but most of these don't mention the conflict. Of particular interest are the letters to Etta Twichell from M.S. Hollister as he migrated west through Arizona and California, and from Joseph Hollister, who settled in Idaho. There are also letters by Jennie Twichell Lohmiller describing her work as a teacher. The series also contains letters from friends and relatives describing preparations for World War I. The series also includes letters of Jean Lohmiller Rich, 1930-1971, with her family and with her husband Ed Rich. These letters relate to their careers and their personal relationship.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [62519798492556904]">1</container>
-            <unittitle><unitdate type="inclusive" normal="1831">1831</unitdate>, <unitdate type="inclusive" normal="1844/1859">1844-1859</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3196441462676499432]">1</container>
+            <unitdate type="inclusive" normal="1831">1831</unitdate><unitdate type="inclusive" normal="1844/1859">1844-1859</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [62519798492556904]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1860/1869">1860-1869</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [3196441462676499432]">1</container>
+            <unitdate type="inclusive" normal="1860/1869">1860-1869</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [62519798492556904]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1870/1879">1870-1879</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [3196441462676499432]">1</container>
+            <unitdate type="inclusive" normal="1870/1879">1870-1879</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [62519798492556904]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1880/1889">1880-1889</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [3196441462676499432]">1</container>
+            <unitdate type="inclusive" normal="1880/1889">1880-1889</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [62519798492556904]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1890/1899">1890-1899</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [3196441462676499432]">1</container>
+            <unitdate type="inclusive" normal="1890/1899">1890-1899</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [62519798492556904]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1900/1909">1900-1909</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [3196441462676499432]">1</container>
+            <unitdate type="inclusive" normal="1900/1909">1900-1909</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [62519798492556904]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1910/1919">1910-1919</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [3196441462676499432]">1</container>
+            <unitdate type="inclusive" normal="1910/1919">1910-1919</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">8 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [62519798492556904]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1920/1929">1920-1929</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [3196441462676499432]">1</container>
+            <unitdate type="inclusive" normal="1920/1929">1920-1929</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [62519798492556904]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1930/1939">1930-1939</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [3196441462676499432]">1</container>
+            <unitdate type="inclusive" normal="1930/1939">1930-1939</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [62519798492556904]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1940/1949">1940-1949</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [3196441462676499432]">1</container>
+            <unitdate type="inclusive" normal="1940/1949">1940-1949</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [62519798492556904]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1950/1959">1950-1959</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [3196441462676499432]">1</container>
+            <unitdate type="inclusive" normal="1950/1959">1950-1959</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [62519798492556904]">1</container>
-            <unittitle>Jean Lohmiller Rich <unitdate type="inclusive" normal="1930/1971">1930-1971</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3196441462676499432]">1</container>
+            <unittitle>Jean Lohmiller Rich</unittitle><unitdate type="inclusive" normal="1930/1971">1930-1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [62519798492556904]">1</container>
-            <unittitle>Jean Lohmiller Rich and Ed Rich <unitdate type="inclusive" normal="1947/1952">1947-1952</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [3196441462676499432]">1</container>
+            <unittitle>Jean Lohmiller Rich and Ed Rich</unittitle><unitdate type="inclusive" normal="1947/1952">1947-1952</unitdate><unitdate type="inclusive">undated</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -288,34 +254,29 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Alphabetical Files <unitdate type="inclusive" normal="1859/1975">1859-1975</unitdate></unittitle>
-        </did>
+          <unittitle>Alphabetical Files</unittitle><unitdate type="inclusive" normal="1859/1975">1859-1975</unitdate></did>
         <scopecontent>
           <p>The Alphabetical Files contain clippings, documents and ephemeral materials saved by various members of this family. In some cases, these materials have been arranged into folders corresponding to the individual who created it, or the family who is its subject. In other cases, the files were created around a particular format or subject. In addition, notes and reminiscences written by Jennie Twichell Lohmiller summarize some of the information scattered in other folders. Her files also contain her reminiscence of life as a child on a turn-of-the-century Michigan farm. There is also material concerning University of Michigan life in the Martha Cook Dormitory, and the Triangle Engineering Fraternity, especially during the 1940s and 1950s. Account ledgers document the transactions of the Ann Arbor boarding houses run by the Twichell and Lohmiller families. There are two folders of newspaper clippings, most related to the Hollister and Twichell families, and many dating from the 19th century. Another file contains poetry manuscripts from the 1860s, dealing with Civil War themes. Although there is no author noted on most of them, one was written by "Alsena" of Hamburg, Michigan (probably Alcena Twichell DePue, 1843-1936, of Hamburg). The files on different families and individuals contain clippings, notes, anecdotes, documents, and ephemeral materials.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63184504368624413]">2</container>
-            <unittitle>Ann Arbor Boarding House Records of Twichell and Lohmiller Families, ca. <unitdate type="inclusive" normal="1898">1898</unitdate>, <unitdate type="inclusive" normal="1921/1942">1921-1942</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [48439046043327102444]">2</container>
+            <unittitle>Ann Arbor Boarding House Records of Twichell and Lohmiller Families, ca.</unittitle><unitdate type="inclusive" normal="1898">1898</unitdate><unitdate type="inclusive" normal="1921/1942">1921-1942</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63184504368624413]">2</container>
-            <unittitle>Barnard, Lois (Notebook) <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [48439046043327102444]">2</container>
+            <unittitle>Barnard, Lois (Notebook)</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63184504368624413]">2</container>
-            <unittitle>Civil War Poems <unitdate type="inclusive" normal="1859/1865">1859-1865</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [48439046043327102444]">2</container>
+            <unittitle>Civil War Poems</unittitle><unitdate type="inclusive" normal="1859/1865">1859-1865</unitdate><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63184504368624413]">2</container>
-            <unittitle>Deeds and Mortgages, ca. <unitdate type="inclusive" normal="1836/1920">1836-1920</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [48439046043327102444]">2</container>
+            <unittitle>Deeds and Mortgages, ca.</unittitle><unitdate type="inclusive" normal="1836/1920">1836-1920</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -325,34 +286,29 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63184504368624413]">2</container>
-              <unittitle>Trip to Western United States <unitdate type="inclusive" normal="1912">1912</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [48439046043327102444]">2</container>
+              <unittitle>Trip to Western United States</unittitle><unitdate type="inclusive" normal="1912">1912</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63184504368624413]">2</container>
-              <unittitle>Jean Lohmiller Rich <unitdate type="inclusive" normal="1936/1943">1936-1943</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [48439046043327102444]">2</container>
+              <unittitle>Jean Lohmiller Rich</unittitle><unitdate type="inclusive" normal="1936/1943">1936-1943</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63184504368624413]">2</container>
-            <unittitle>Hollister Family History <unitdate type="inclusive" normal="1885">1885</unitdate>, <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [48439046043327102444]">2</container>
+            <unittitle>Hollister Family History</unittitle><unitdate type="inclusive" normal="1885">1885</unitdate><unitdate type="inclusive" normal="1991">1991</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63184504368624413]">2</container>
-            <unittitle>Hollister, Grace, Autograph Book, ca. <unitdate type="inclusive" normal="1882/1885">1882-1885</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [48439046043327102444]">2</container>
+            <unittitle>Hollister, Grace, Autograph Book, ca.</unittitle><unitdate type="inclusive" normal="1882/1885">1882-1885</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63184504368624413]">2</container>
-            <unittitle>Lohmiller Family <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [48439046043327102444]">2</container>
+            <unittitle>Lohmiller Family</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -360,21 +316,18 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63184504368624413]">2</container>
-              <unittitle>Account Book <unitdate type="inclusive">Undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [48439046043327102444]">2</container>
+              <unittitle>Account Book</unittitle><unitdate type="inclusive">Undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63184504368624413]">2</container>
-              <unittitle>Family Documents and Mementos, ca. <unitdate type="inclusive" normal="1900/1974">1900-1974</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [48439046043327102444]">2</container>
+              <unittitle>Family Documents and Mementos, ca.</unittitle><unitdate type="inclusive" normal="1900/1974">1900-1974</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63184504368624413]">2</container>
-              <unittitle>Notes on Her Life and Her Family <unitdate type="inclusive">undated</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [48439046043327102444]">2</container>
+              <unittitle>Notes on Her Life and Her Family</unittitle><unitdate type="inclusive">undated</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
               </physdesc>
             </did>
@@ -385,53 +338,47 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [63184504368624413]">2</container>
-                <unittitle>Typescript <unitdate type="inclusive">undated</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [48439046043327102444]">2</container>
+                <unittitle>Typescript</unittitle><unitdate type="inclusive">undated</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [63184504368624413]">2</container>
-                <unittitle>Audio Tapes <unitdate type="inclusive" normal="1970/1975">1970-1975</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [48439046043327102444]">2</container>
+                <unittitle>Audio Tapes</unittitle><unitdate type="inclusive" normal="1970/1975">1970-1975</unitdate></did>
             </c04>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63184504368624413]">2</container>
-            <unittitle>Midland, Michigan, Northeast Intermediate School <unitdate type="inclusive" normal="1951/1952">1951-1952</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [48439046043327102444]">2</container>
+            <unittitle>Midland, Michigan, Northeast Intermediate School</unittitle><unitdate type="inclusive" normal="1951/1952">1951-1952</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63184504368624413]">2</container>
+            <container type="box" label="Box [48439046043327102444]">2</container>
             <unittitle>Miscellaneous</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63184504368624413]">2</container>
-            <unittitle>Newspaper Clippings <unitdate type="inclusive" normal="1870/1950" certainty="approximate">circa 1870-1950</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [48439046043327102444]">2</container>
+            <unittitle>Newspaper Clippings</unittitle><unitdate type="inclusive" normal="1870/1950" certainty="approximate">circa 1870-1950</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63184504368624413]">2</container>
+            <container type="box" label="Box [48439046043327102444]">2</container>
             <unittitle>Notebooks, Unidentified</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63184504368624413]">2</container>
-            <unittitle>Rich, Jean Lohmiller (Genealogy Workbook) <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [48439046043327102444]">2</container>
+            <unittitle>Rich, Jean Lohmiller (Genealogy Workbook)</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63184504368624413]">2</container>
-            <unittitle>Scrapbook, ca. <unitdate type="inclusive" normal="1920">1920</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [48439046043327102444]">2</container>
+            <unittitle>Scrapbook, ca.</unittitle><unitdate type="inclusive" normal="1920">1920</unitdate><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -439,21 +386,18 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63184504368624413]">2</container>
-              <unittitle>Sermon by Rev. Algernon Sidney Hollister <unitdate type="inclusive" normal="1846">1846</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [48439046043327102444]">2</container>
+              <unittitle>Sermon by Rev. Algernon Sidney Hollister</unittitle><unitdate type="inclusive" normal="1846">1846</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63184504368624413]">2</container>
-              <unittitle>Girls and Boys Clubs, ca. <unitdate type="inclusive" normal="1917">1917</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [48439046043327102444]">2</container>
+              <unittitle>Girls and Boys Clubs, ca.</unittitle><unitdate type="inclusive" normal="1917">1917</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63184504368624413]">2</container>
-              <unittitle>Junior Red Cross Township Meeting <unitdate type="inclusive" normal="1919">1919</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [48439046043327102444]">2</container>
+              <unittitle>Junior Red Cross Township Meeting</unittitle><unitdate type="inclusive" normal="1919">1919</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -462,21 +406,19 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63184504368624413]">2</container>
-              <unittitle>Genealogy Notes <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [48439046043327102444]">2</container>
+              <unittitle>Genealogy Notes</unittitle><unitdate type="inclusive">undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63184504368624413]">2</container>
+              <container type="box" label="Box [48439046043327102444]">2</container>
               <unittitle>Miscellaneous</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63184504368624413]">2</container>
-              <unittitle>Significant Documents (mostly Hobart Twichell's) <unitdate type="inclusive" normal="1844">1844</unitdate>, <unitdate type="inclusive" normal="1878">1878</unitdate>, <unitdate type="inclusive" normal="1897" certainty="approximate">1897 undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [48439046043327102444]">2</container>
+              <unittitle>Significant Documents (mostly Hobart Twichell's)</unittitle><unitdate type="inclusive" normal="1844">1844</unitdate><unitdate type="inclusive" normal="1878">1878</unitdate><unitdate type="inclusive" normal="1897" certainty="approximate">1897 undated</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -485,15 +427,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63184504368624413]">2</container>
-              <unittitle>Martha Cook Dormitory (Jean Lohmiller Rich?) <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [48439046043327102444]">2</container>
+              <unittitle>Martha Cook Dormitory (Jean Lohmiller Rich?)</unittitle><unitdate type="inclusive" normal="1951">1951</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63184504368624413]">2</container>
-              <unittitle>Triangle Fraternity: <genreform normal="Photographs">Photographs</genreform> and Newsletter, <unitdate type="inclusive" normal="1942/1951">1942-1951</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [48439046043327102444]">2</container>
+              <unittitle>Triangle Fraternity: <genreform normal="Photographs">Photographs</genreform> and Newsletter</unittitle><unitdate type="inclusive" normal="1942/1951">1942-1951</unitdate></did>
           </c03>
         </c02>
       </c01>
@@ -512,31 +452,31 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [64776277594083627814]">3</container>
+              <container type="box" label="Box [002402478540918670223]">3</container>
               <unittitle>Butler Family</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [64776277594083627814]">3</container>
+              <container type="box" label="Box [002402478540918670223]">3</container>
               <unittitle>Family and Friends A-M</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [64776277594083627814]">3</container>
+              <container type="box" label="Box [002402478540918670223]">3</container>
               <unittitle>Family and Friends N-Z</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [64776277594083627814]">3</container>
+              <container type="box" label="Box [002402478540918670223]">3</container>
               <unittitle>Hayes Family</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [64776277594083627814]">3</container>
+              <container type="box" label="Box [002402478540918670223]">3</container>
               <unittitle>Hollister Family</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -545,7 +485,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [64776277594083627814]">3</container>
+              <container type="box" label="Box [002402478540918670223]">3</container>
               <unittitle>Lohmiller Family</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
@@ -554,43 +494,43 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [64776277594083627814]">3</container>
+              <container type="box" label="Box [002402478540918670223]">3</container>
               <unittitle>Rich, Jean</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [64776277594083627814]">3</container>
+              <container type="box" label="Box [002402478540918670223]">3</container>
               <unittitle>Rich, Ed and Jean Lohmiller</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [64776277594083627814]">3</container>
+              <container type="box" label="Box [002402478540918670223]">3</container>
               <unittitle>Rorabacher Family</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [64776277594083627814]">3</container>
+              <container type="box" label="Box [002402478540918670223]">3</container>
               <unittitle>Schlede, Grace Hollister</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [64776277594083627814]">3</container>
+              <container type="box" label="Box [002402478540918670223]">3</container>
               <unittitle>Scott Family</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [64776277594083627814]">3</container>
+              <container type="box" label="Box [002402478540918670223]">3</container>
               <unittitle>Twichell, Etta, Western Tour (?)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [64776277594083627814]">3</container>
+              <container type="box" label="Box [002402478540918670223]">3</container>
               <unittitle>Twichell Family</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">4 folders</extent>
@@ -599,7 +539,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [64776277594083627814]">3</container>
+              <container type="box" label="Box [002402478540918670223]">3</container>
               <unittitle>Unidentified</unittitle>
             </did>
             <odd>
@@ -613,37 +553,37 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [64776277594083627814]">3</container>
+              <container type="box" label="Box [002402478540918670223]">3</container>
               <unittitle>Ann Arbor, Michigan</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [64776277594083627814]">3</container>
+              <container type="box" label="Box [002402478540918670223]">3</container>
               <unittitle>Hamburg, Michigan</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [64776277594083627814]">3</container>
+              <container type="box" label="Box [002402478540918670223]">3</container>
               <unittitle>Lakeland, Michigan</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [64776277594083627814]">3</container>
+              <container type="box" label="Box [002402478540918670223]">3</container>
               <unittitle>Menominee, Michigan</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [64776277594083627814]">3</container>
+              <container type="box" label="Box [002402478540918670223]">3</container>
               <unittitle>Remer, Minnesota</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [64776277594083627814]">3</container>
+              <container type="box" label="Box [002402478540918670223]">3</container>
               <unittitle>Sheboygan (Wis.)</unittitle>
             </did>
           </c03>
@@ -654,13 +594,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [64776277594083627814]">3</container>
+              <container type="box" label="Box [002402478540918670223]">3</container>
               <unittitle>Boarders connected with Twichell Boarding House and University of Michigan</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [64776277594083627814]">3</container>
+              <container type="box" label="Box [002402478540918670223]">3</container>
               <unittitle>Houses, Businesses</unittitle>
             </did>
             <odd>
@@ -669,7 +609,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [64776277594083627814]">3</container>
+              <container type="box" label="Box [002402478540918670223]">3</container>
               <unittitle>Lumbering</unittitle>
             </did>
             <odd>
@@ -678,13 +618,12 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [64776277594083627814]">3</container>
-              <unittitle>Men Who Worked at Twichell Boarding Houses at 1325 Geddes and 5215 East University <unitdate type="inclusive" normal="1899/1905">1899-1905</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [002402478540918670223]">3</container>
+              <unittitle>Men Who Worked at Twichell Boarding Houses at 1325 Geddes and 5215 East University</unittitle><unitdate type="inclusive" normal="1899/1905">1899-1905</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [64776277594083627814]">3</container>
+              <container type="box" label="Box [002402478540918670223]">3</container>
               <unittitle>Miscellaneous</unittitle>
             </did>
             <odd>
@@ -693,7 +632,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [64776277594083627814]">3</container>
+              <container type="box" label="Box [002402478540918670223]">3</container>
               <unittitle>Phi Delta Phi</unittitle>
             </did>
             <odd>
@@ -702,16 +641,15 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [64776277594083627814]">3</container>
-              <unittitle>University of Michigan Student Body <unitdate type="inclusive" normal="1913">1913</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [002402478540918670223]">3</container>
+              <unittitle>University of Michigan Student Body</unittitle><unitdate type="inclusive" normal="1913">1913</unitdate></did>
             <odd>
               <p>(see oversize folder UAl)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [64776277594083627814]">3</container>
+              <container type="box" label="Box [002402478540918670223]">3</container>
               <unittitle>Western Tour (?)</unittitle>
             </did>
           </c03>
@@ -726,13 +664,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [64776277594083627814]">3</container>
+              <container type="box" label="Box [002402478540918670223]">3</container>
               <unittitle>Portrait Album, 19th century</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [64776277594083627814]">3</container>
+              <container type="box" label="Box [002402478540918670223]">3</container>
               <unittitle>Unidentified</unittitle>
             </did>
             <odd>
@@ -741,26 +679,25 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2000885414434293258848]">4</container>
+              <container type="box" label="Box [84910432745549558044]">4</container>
               <unittitle>Hobart Twichell and Family</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2000885414434293258848]">4</container>
+              <container type="box" label="Box [84910432745549558044]">4</container>
               <unittitle>"Cena T. DePue's Book"</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2000885414434293258848]">4</container>
-              <unittitle>Unidentified Ann Arbor people/places, ca. <unitdate type="inclusive" normal="1945">1945</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [84910432745549558044]">4</container>
+              <unittitle>Unidentified Ann Arbor people/places, ca.</unittitle><unitdate type="inclusive" normal="1945">1945</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2000885414434293258848]">4</container>
+            <container type="box" label="Box [84910432745549558044]">4</container>
             <unittitle>Scrapbook, 19th century</unittitle>
           </did>
           <odd>
@@ -774,7 +711,7 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2000885414434293258848]">4</container>
+            <container type="box" label="Box [84910432745549558044]">4</container>
             <unittitle>Ed Rich (?) reminiscences</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 audiocassettes</extent>
@@ -783,9 +720,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2000885414434293258848]">4</container>
-            <unittitle>Reminiscences of Triangle Fraternity by Ed Rich, ca. <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [84910432745549558044]">4</container>
+            <unittitle>Reminiscences of Triangle Fraternity by Ed Rich, ca.</unittitle><unitdate type="inclusive" normal="1975">1975</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">1 audiocassettes</extent>
             </physdesc>
           </did>

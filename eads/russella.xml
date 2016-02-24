@@ -27,7 +27,8 @@
         <item>Edited to reflect migration of content from CD-ROM to Deep Blue JMBG</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Russell, Anton.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/8875">Russell, Anton.</persname>
       </origination>
-      <unittitle encodinganalog="245">Anton Russell papers <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1919">1918-1919</unitdate></unittitle>
-      <abstract>Debriefing report and diary of Anton Russell, private in the 339th Infantry Medical Detachment, sent to Archangel, Russia at the end of World War I, the "Polar Bear Expedition."</abstract>
+      <unittitle encodinganalog="245">Anton Russell papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1918/1919">1918-1919</unitdate><abstract>Debriefing report and diary of Anton Russell, private in the 339th Infantry Medical Detachment, sent to Archangel, Russia at the end of World War I, the "Polar Bear Expedition."</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">2011095 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="part">
@@ -81,17 +81,17 @@
       </p>
       <controlaccess>
         <head>Subjects</head>
-        <persname source="lcnaf" encodinganalog="600">Russell, Anton.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Polar Bear Association.</corpname>
-        <geogname source="lcsh" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Infantry, 339th. Medical Detachment.</corpname>
-        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
-        <subject source="local" encodinganalog="690">Polar Bear Expedition.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/8875">Russell, Anton.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1596">Polar Bear Association.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/879">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2552">United States. Army. Infantry, 339th. Medical Detachment.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5715">World War, 1914-1918.</subject>
+        <subject source="local" encodinganalog="690" ref="/subjects/3516">Polar Bear Expedition.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Diaries.</genreform>
-        <genreform source="aat" encodinganalog="655">Medals.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3145">Diaries.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3356">Medals.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -101,12 +101,12 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [2973786498733361434]">1</container>
+            <container type="folder" label="Folder [284920421595563407]">1</container>
             <unittitle>Travel log, July 14, 1918-July 12, 1919 and Polar Bear reunion medal, 1922</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">35 digital files</extent>
             </physdesc>
-            <dao show="new" actuate="onRequest" href="russell0001">
+            <dao show="new" actuate="onRequest" href="russell0001" ref="/repositories/2/digital_objects/15313">
               <daodesc>
                 <p>[view items]</p>
               </daodesc>
@@ -118,7 +118,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [044585774225372788268]">2</container>
+            <container type="folder" label="Folder [3841840996960687]">2</container>
             <unittitle>Debriefing report</unittitle>
           </did>
           <odd>

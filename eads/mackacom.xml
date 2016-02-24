@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Mack &amp; Company (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/1381">Mack &amp; Company (Ann Arbor, Mich.)</corpname>
       </origination>
-      <unittitle encodinganalog="245">Mack &amp; Company records <unitdate type="inclusive" encodinganalog="245$f" normal="1858/1940">1858-1940</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85477 Bb.2 2; BB.2 Out. Vol.</unitid>
+      <unittitle encodinganalog="245">Mack &amp; Company records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1858/1940">1858-1940</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85477 Bb.2 2; BB.2 Out. Vol.</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Ann Arbor, Michigan, dry goods store. Ledgers, cash books, payroll books, sales books, and photographs; also records, 1902-1913, of the estate of Christian Mack, and records, 1874-1922, of the Mack Insurance Agency.</abstract>
       <physdesc altrender="part">
@@ -84,10 +84,10 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">General stores--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Insurance--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600">Mack, Christian, 1834-1902.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Mack Insurance Agency (Ann Arbor, Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8937">General stores--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6044">Insurance--Michigan.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2065">Mack, Christian, 1834-1902.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1059">Mack Insurance Agency (Ann Arbor, Mich.)</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -97,96 +97,78 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9918964772030637929]" id="baa6bb2b-2c09-429f-9c2f-efbe11909fcd">5</container>
-            <container type="reel" label="Roll" parent="baa6bb2b-2c09-429f-9c2f-efbe11909fcd">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1858/1863">1858-1863</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [47792494311173937]" id="aac0b7fb-5a9f-4059-ae9c-0a8f2534bd60">5</container>
+            <container type="reel" label="Roll" parent="aac0b7fb-5a9f-4059-ae9c-0a8f2534bd60">1</container>
+            <unitdate type="inclusive" normal="1858/1863">1858-1863</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9918964772030637929]" id="d21a20aa-6e92-485f-8a89-146d6d40cbcb">5</container>
-            <container type="reel" label="Roll" parent="d21a20aa-6e92-485f-8a89-146d6d40cbcb">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1901/1903">1901-1903</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [47792494311173937]" id="7afb33e6-f283-49ba-a3fc-cb90630f4f99">5</container>
+            <container type="reel" label="Roll" parent="7afb33e6-f283-49ba-a3fc-cb90630f4f99">1</container>
+            <unitdate type="inclusive" normal="1901/1903">1901-1903</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9918964772030637929]" id="0b917469-c094-4a81-8c10-23d8f967e007">5</container>
-            <container type="reel" label="Roll" parent="0b917469-c094-4a81-8c10-23d8f967e007">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1906/1908">1906-1908</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [47792494311173937]" id="1c52f702-a3d1-44cb-881a-b4f54b04fe77">5</container>
+            <container type="reel" label="Roll" parent="1c52f702-a3d1-44cb-881a-b4f54b04fe77">2</container>
+            <unitdate type="inclusive" normal="1906/1908">1906-1908</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9918964772030637929]" id="390664d6-5567-4065-b00d-3dbc4b23507a">5</container>
-            <container type="reel" label="Roll" parent="390664d6-5567-4065-b00d-3dbc4b23507a">3</container>
-            <unittitle><unitdate type="inclusive" normal="1909/1914">1909-1914</unitdate> (A-D)</unittitle>
-          </did>
+            <container type="box" label="Box [47792494311173937]" id="a2913ad9-b2e4-4417-8e0c-55c03c501d72">5</container>
+            <container type="reel" label="Roll" parent="a2913ad9-b2e4-4417-8e0c-55c03c501d72">3</container>
+            <unittitle>(A-D)</unittitle><unitdate type="inclusive" normal="1909/1914">1909-1914</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9918964772030637929]" id="69caa39f-e475-4cdd-80b1-9930e45dfc43">5</container>
-            <container type="reel" label="Roll" parent="69caa39f-e475-4cdd-80b1-9930e45dfc43">4</container>
-            <unittitle><unitdate type="inclusive" normal="1909/1914">1909-1914</unitdate> (E-R)</unittitle>
-          </did>
+            <container type="box" label="Box [47792494311173937]" id="1a55075d-ddcf-4c32-ae59-f61c5ebf837f">5</container>
+            <container type="reel" label="Roll" parent="1a55075d-ddcf-4c32-ae59-f61c5ebf837f">4</container>
+            <unittitle>(E-R)</unittitle><unitdate type="inclusive" normal="1909/1914">1909-1914</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9918964772030637929]" id="c0e99497-eeff-4e3c-8e6d-12457fb65af3">5</container>
-            <container type="reel" label="Roll" parent="c0e99497-eeff-4e3c-8e6d-12457fb65af3">5</container>
-            <unittitle><unitdate type="inclusive" normal="1909/1914">1909-1914</unitdate> (S-Z)</unittitle>
-          </did>
+            <container type="box" label="Box [47792494311173937]" id="8776d72e-daea-4f6a-929c-14967522a15d">5</container>
+            <container type="reel" label="Roll" parent="8776d72e-daea-4f6a-929c-14967522a15d">5</container>
+            <unittitle>(S-Z)</unittitle><unitdate type="inclusive" normal="1909/1914">1909-1914</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9918964772030637929]" id="ee533989-72ee-4df6-a629-6ea154c43b87">5</container>
-            <container type="reel" label="Roll" parent="ee533989-72ee-4df6-a629-6ea154c43b87">5</container>
-            <unittitle><unitdate type="inclusive" normal="1914/1917">1914-1917</unitdate> (A-D)</unittitle>
-          </did>
+            <container type="box" label="Box [47792494311173937]" id="f1d15500-b873-46f2-8dd2-e51d1ecbffb5">5</container>
+            <container type="reel" label="Roll" parent="f1d15500-b873-46f2-8dd2-e51d1ecbffb5">5</container>
+            <unittitle>(A-D)</unittitle><unitdate type="inclusive" normal="1914/1917">1914-1917</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9918964772030637929]" id="89ddcdaa-6301-41b2-b3a6-842f006f18dd">5</container>
-            <container type="reel" label="Roll" parent="89ddcdaa-6301-41b2-b3a6-842f006f18dd">6</container>
-            <unittitle><unitdate type="inclusive" normal="1914/1917">1914-1917</unitdate> (E-K)</unittitle>
-          </did>
+            <container type="box" label="Box [47792494311173937]" id="a69e8a9d-783b-4bbe-86a3-0ebf7372b02c">5</container>
+            <container type="reel" label="Roll" parent="a69e8a9d-783b-4bbe-86a3-0ebf7372b02c">6</container>
+            <unittitle>(E-K)</unittitle><unitdate type="inclusive" normal="1914/1917">1914-1917</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9918964772030637929]" id="d52409ec-8696-49de-8398-5639697fbe1e">5</container>
-            <container type="reel" label="Roll" parent="d52409ec-8696-49de-8398-5639697fbe1e">7</container>
-            <unittitle><unitdate type="inclusive" normal="1914/1917">1914-1917</unitdate> (L-Z)</unittitle>
-          </did>
+            <container type="box" label="Box [47792494311173937]" id="937d9962-b5fb-465d-baff-d30c222534b2">5</container>
+            <container type="reel" label="Roll" parent="937d9962-b5fb-465d-baff-d30c222534b2">7</container>
+            <unittitle>(L-Z)</unittitle><unitdate type="inclusive" normal="1914/1917">1914-1917</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9918964772030637929]" id="aeaae8fb-3a9a-4f48-8528-3085bf54b536">5</container>
-            <container type="reel" label="Roll" parent="aeaae8fb-3a9a-4f48-8528-3085bf54b536">8</container>
-            <unittitle><unitdate type="inclusive" normal="1917/1919">1917-1919</unitdate> (A-K)</unittitle>
-          </did>
+            <container type="box" label="Box [47792494311173937]" id="f0778574-9a31-435a-be84-09eb99fc2449">5</container>
+            <container type="reel" label="Roll" parent="f0778574-9a31-435a-be84-09eb99fc2449">8</container>
+            <unittitle>(A-K)</unittitle><unitdate type="inclusive" normal="1917/1919">1917-1919</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9918964772030637929]" id="7ed47733-1f37-4216-b1ec-f16599118e17">5</container>
-            <container type="reel" label="Roll" parent="7ed47733-1f37-4216-b1ec-f16599118e17">9</container>
-            <unittitle><unitdate type="inclusive" normal="1917/1919">1917-1919</unitdate> (L-Z)</unittitle>
-          </did>
+            <container type="box" label="Box [47792494311173937]" id="743f26d0-0fbe-4718-a44f-eee7a466d4af">5</container>
+            <container type="reel" label="Roll" parent="743f26d0-0fbe-4718-a44f-eee7a466d4af">9</container>
+            <unittitle>(L-Z)</unittitle><unitdate type="inclusive" normal="1917/1919">1917-1919</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [14998412407165362505069]">1</container>
-            <unittitle><unitdate type="inclusive" normal="1901/1903">1901-1903</unitdate> (M&amp;S ledger; fragmentary)</unittitle>
-          </did>
+            <container type="box" label="Box [97164327460851102]">1</container>
+            <unittitle>(M&amp;S ledger; fragmentary)</unittitle><unitdate type="inclusive" normal="1901/1903">1901-1903</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [14998412407165362505069]">1</container>
+            <container type="box" label="Box [97164327460851102]">1</container>
             <unittitle>Indexes to ledgers</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">9 volumes</extent>
@@ -195,7 +177,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1529774509291832171]">2</container>
+            <container type="box" label="Box [2276035343534874851720]">2</container>
             <unittitle>Indexes to ledgers</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">10 volumes</extent>
@@ -213,32 +195,24 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [87524014295350146005]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1922/1923">1922-1923</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [229021349557355364]">3</container>
+              <unitdate type="inclusive" normal="1922/1923">1922-1923</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [87524014295350146005]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1924/1925">1924-1925</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [229021349557355364]">3</container>
+              <unitdate type="inclusive" normal="1924/1925">1924-1925</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [87524014295350146005]">3</container>
-            <unittitle>Letterpress book of the Christian Mack Insurance Agency <unitdate type="inclusive" normal="1902/1907">1902-1907</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [229021349557355364]">3</container>
+            <unittitle>Letterpress book of the Christian Mack Insurance Agency</unittitle><unitdate type="inclusive" normal="1902/1907">1902-1907</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [87524014295350146005]">3</container>
-            <unittitle>Record of expirations of insurance policies for the Christian Mack Agency <unitdate type="inclusive" normal="1874/1920">1874-1920</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [229021349557355364]">3</container>
+            <unittitle>Record of expirations of insurance policies for the Christian Mack Agency</unittitle><unitdate type="inclusive" normal="1874/1920">1874-1920</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -246,26 +220,19 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [607253441682893433159]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1881/1890">1881-1890</unitdate>
-              </unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [092684225344654]">1</container>
+              <unitdate type="inclusive" normal="1881/1890">1881-1890</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [272082400443185]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1890/1897">1890-1897</unitdate>
-              </unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [52734228205382]">2</container>
+              <unitdate type="inclusive" normal="1890/1897">1890-1897</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [743247723558217095]">3</container>
-            <unittitle>Policy Record <unitdate type="inclusive" normal="1922/1925">1922-1925</unitdate></unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [855428241379339945566]">3</container>
+            <unittitle>Policy Record</unittitle><unitdate type="inclusive" normal="1922/1925">1922-1925</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -274,100 +241,85 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [87524014295350146005]">3</container>
-            <unittitle>Records of the Mack and Company Savings Bank <unitdate type="inclusive" normal="1904/1936" certainty="approximate">circa 1904-1936</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [229021349557355364]">3</container>
+            <unittitle>Records of the Mack and Company Savings Bank</unittitle><unitdate type="inclusive" normal="1904/1936" certainty="approximate">circa 1904-1936</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9918964772030637929]" id="18eee11a-9a58-464a-b7c1-eb00f1e5f046">5</container>
-            <container type="reel" label="Roll" parent="18eee11a-9a58-464a-b7c1-eb00f1e5f046">10</container>
-            <unittitle>Cash/Order Book <unitdate type="inclusive" normal="1901/1904">1901-1904</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [47792494311173937]" id="bd62150d-89cb-41b0-933e-f8654d204b4a">5</container>
+            <container type="reel" label="Roll" parent="bd62150d-89cb-41b0-933e-f8654d204b4a">10</container>
+            <unittitle>Cash/Order Book</unittitle><unitdate type="inclusive" normal="1901/1904">1901-1904</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9918964772030637929]" id="0d0449b3-e5bf-4a31-89fc-f25e70b7173c">5</container>
-            <container type="reel" label="Roll" parent="0d0449b3-e5bf-4a31-89fc-f25e70b7173c">10</container>
-            <unittitle>Insurance Accounts <unitdate type="inclusive" normal="1908/1916">1908-1916</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [47792494311173937]" id="0c6b7025-b83a-4c4c-bb13-d1dccda3995d">5</container>
+            <container type="reel" label="Roll" parent="0c6b7025-b83a-4c4c-bb13-d1dccda3995d">10</container>
+            <unittitle>Insurance Accounts</unittitle><unitdate type="inclusive" normal="1908/1916">1908-1916</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9918964772030637929]" id="fd78cfd5-01dd-4c99-b3a3-05900431d6c8">5</container>
-            <container type="reel" label="Roll" parent="fd78cfd5-01dd-4c99-b3a3-05900431d6c8">11</container>
-            <unittitle>Insurance Accounts <unitdate type="inclusive" normal="1916/1922">1916-1922</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [47792494311173937]" id="d575e9dd-d1bc-40a9-838b-3035208f8079">5</container>
+            <container type="reel" label="Roll" parent="d575e9dd-d1bc-40a9-838b-3035208f8079">11</container>
+            <unittitle>Insurance Accounts</unittitle><unitdate type="inclusive" normal="1916/1922">1916-1922</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9918964772030637929]" id="eefdbd88-4753-42f6-bff5-58a6681df75c">5</container>
-            <container type="reel" label="Roll" parent="eefdbd88-4753-42f6-bff5-58a6681df75c">11</container>
-            <unittitle>Time and Payroll Book <unitdate type="inclusive" normal="1909/1910">1909-1910</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [47792494311173937]" id="8dde0f73-9351-4bd3-8b89-b4c65f25551f">5</container>
+            <container type="reel" label="Roll" parent="8dde0f73-9351-4bd3-8b89-b4c65f25551f">11</container>
+            <unittitle>Time and Payroll Book</unittitle><unitdate type="inclusive" normal="1909/1910">1909-1910</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9918964772030637929]" id="3635dd78-5013-432f-9942-6a92c6cbeaa0">5</container>
-            <container type="reel" label="Roll" parent="3635dd78-5013-432f-9942-6a92c6cbeaa0">11</container>
-            <unittitle>Time and Payroll Book <unitdate type="inclusive" normal="1912/1913">1912-1913</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [47792494311173937]" id="e33317fa-62b1-429d-800a-1a30fea3c24b">5</container>
+            <container type="reel" label="Roll" parent="e33317fa-62b1-429d-800a-1a30fea3c24b">11</container>
+            <unittitle>Time and Payroll Book</unittitle><unitdate type="inclusive" normal="1912/1913">1912-1913</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9918964772030637929]" id="6c40bf15-0ef3-4b50-b67c-e3704da4d3c8">5</container>
-            <container type="reel" label="Roll" parent="6c40bf15-0ef3-4b50-b67c-e3704da4d3c8">11</container>
-            <unittitle>Sales Book <unitdate type="inclusive" normal="1875/1881">1875-1881</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [47792494311173937]" id="e7630bbe-08dc-4f33-b472-9f7c0659dfd6">5</container>
+            <container type="reel" label="Roll" parent="e7630bbe-08dc-4f33-b472-9f7c0659dfd6">11</container>
+            <unittitle>Sales Book</unittitle><unitdate type="inclusive" normal="1875/1881">1875-1881</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9918964772030637929]" id="2d013b02-3502-41b6-b776-b19443ff6248">5</container>
-            <container type="reel" label="Roll" parent="2d013b02-3502-41b6-b776-b19443ff6248">12</container>
-            <unittitle>Sales Books <unitdate type="inclusive" normal="1900/1919">1900-1919</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [47792494311173937]" id="14979001-9bf1-493b-b106-28c20bc99cdb">5</container>
+            <container type="reel" label="Roll" parent="14979001-9bf1-493b-b106-28c20bc99cdb">12</container>
+            <unittitle>Sales Books</unittitle><unitdate type="inclusive" normal="1900/1919">1900-1919</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [828257347999190367974]">4</container>
-            <unittitle>Cash Book <unitdate type="inclusive" normal="1859/1866">1859-1866</unitdate></unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [7277145264407335967825620]">4</container>
+            <unittitle>Cash Book</unittitle><unitdate type="inclusive" normal="1859/1866">1859-1866</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [51424714595571515667]">5</container>
-            <unittitle>Scrapbook of sales brochures of Mack and Company <unitdate type="inclusive" normal="1926/1928">1926-1928</unitdate></unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [2095439468808318656]">5</container>
+            <unittitle>Scrapbook of sales brochures of Mack and Company</unittitle><unitdate type="inclusive" normal="1926/1928">1926-1928</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7254697444645409929692]">4</container>
-            <unittitle>Cash Book of the estate of Christian Mack <unitdate type="inclusive" normal="1902/1910">1902-1910</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [90826892943329916376904]">4</container>
+            <unittitle>Cash Book of the estate of Christian Mack</unittitle><unitdate type="inclusive" normal="1902/1910">1902-1910</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7254697444645409929692]">4</container>
-            <unittitle>Departmental record book <unitdate type="inclusive" normal="1901/1914">1901-1914</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [90826892943329916376904]">4</container>
+            <unittitle>Departmental record book</unittitle><unitdate type="inclusive" normal="1901/1914">1901-1914</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7254697444645409929692]">4</container>
-            <unittitle>Walter C. Mack record book <unitdate type="inclusive" normal="1889/1897">1889-1897</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [90826892943329916376904]">4</container>
+            <unittitle>Walter C. Mack record book</unittitle><unitdate type="inclusive" normal="1889/1897">1889-1897</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7254697444645409929692]">4</container>
-            <unittitle>Cash Book <unitdate type="inclusive" normal="1901/1906">1901-1906</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [90826892943329916376904]">4</container>
+            <unittitle>Cash Book</unittitle><unitdate type="inclusive" normal="1901/1906">1901-1906</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7254697444645409929692]">4</container>
-            <unittitle>Annual and Semi-annual financial statements <unitdate type="inclusive" normal="1892/1901">1892-1901</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [90826892943329916376904]">4</container>
+            <unittitle>Annual and Semi-annual financial statements</unittitle><unitdate type="inclusive" normal="1892/1901">1892-1901</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -379,39 +331,33 @@
         </odd>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7254697444645409929692]">4</container>
-            <unittitle>Balance Sheets <unitdate type="inclusive" normal="1889/1892">1889-1892</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [90826892943329916376904]">4</container>
+            <unittitle>Balance Sheets</unittitle><unitdate type="inclusive" normal="1889/1892">1889-1892</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7254697444645409929692]">4</container>
-            <unittitle>Record of Hosiery Sales <unitdate type="inclusive" normal="1936/1938">1936-1938</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [90826892943329916376904]">4</container>
+            <unittitle>Record of Hosiery Sales</unittitle><unitdate type="inclusive" normal="1936/1938">1936-1938</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7254697444645409929692]">4</container>
-            <unittitle>Record of Sales of the Cunningham Drug Store <unitdate type="inclusive" normal="1936/1938">1936-1938</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [90826892943329916376904]">4</container>
+            <unittitle>Record of Sales of the Cunningham Drug Store</unittitle><unitdate type="inclusive" normal="1936/1938">1936-1938</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7254697444645409929692]">4</container>
-            <unittitle>Papers concerning the estate of Christian Mack <unitdate type="inclusive" normal="1908/1913">1908-1913</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [90826892943329916376904]">4</container>
+            <unittitle>Papers concerning the estate of Christian Mack</unittitle><unitdate type="inclusive" normal="1908/1913">1908-1913</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7254697444645409929692]">4</container>
-            <unittitle>Receipt <unitdate type="inclusive" normal="1862">1862</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [90826892943329916376904]">4</container>
+            <unittitle>Receipt</unittitle><unitdate type="inclusive" normal="1862">1862</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7254697444645409929692]">4</container>
-            <unittitle>Papers concerning annual meetings of stockholders <unitdate type="inclusive" normal="1895/1939">1895-1939</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [90826892943329916376904]">4</container>
+            <unittitle>Papers concerning annual meetings of stockholders</unittitle><unitdate type="inclusive" normal="1895/1939">1895-1939</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -419,27 +365,18 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7254697444645409929692]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1931/1933">1931-1933</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [90826892943329916376904]">4</container>
+              <unitdate type="inclusive" normal="1931/1933">1931-1933</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7254697444645409929692]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1934/1935">1934-1935</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [90826892943329916376904]">4</container>
+              <unitdate type="inclusive" normal="1934/1935">1934-1935</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7254697444645409929692]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1936/1937">1936-1937</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [90826892943329916376904]">4</container>
+              <unitdate type="inclusive" normal="1936/1937">1936-1937</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -448,26 +385,19 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7254697444645409929692]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1932">1932</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [90826892943329916376904]">4</container>
+              <unitdate type="inclusive" normal="1932">1932</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7254697444645409929692]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1933/1934">1933-1934</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [90826892943329916376904]">4</container>
+              <unitdate type="inclusive" normal="1933/1934">1933-1934</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7254697444645409929692]">4</container>
-            <unittitle>Mercantile Properties Corporation income tax returns <unitdate type="inclusive" normal="1934/1937">1934-1937</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [90826892943329916376904]">4</container>
+            <unittitle>Mercantile Properties Corporation income tax returns</unittitle><unitdate type="inclusive" normal="1934/1937">1934-1937</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -475,50 +405,39 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7254697444645409929692]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1934/1935">1934-1935</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [90826892943329916376904]">4</container>
+              <unitdate type="inclusive" normal="1934/1935">1934-1935</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7254697444645409929692]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1936/1937">1936-1937</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [90826892943329916376904]">4</container>
+              <unitdate type="inclusive" normal="1936/1937">1936-1937</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7254697444645409929692]">4</container>
-            <unittitle>Income tax papers concerning employees <unitdate type="inclusive" normal="1930/1938">1930-1938</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [90826892943329916376904]">4</container>
+            <unittitle>Income tax papers concerning employees</unittitle><unitdate type="inclusive" normal="1930/1938">1930-1938</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7254697444645409929692]">4</container>
-            <unittitle>Income tax returns of Walter C. Mack <unitdate type="inclusive" normal="1932/1937">1932-1937</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [90826892943329916376904]">4</container>
+            <unittitle>Income tax returns of Walter C. Mack</unittitle><unitdate type="inclusive" normal="1932/1937">1932-1937</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7254697444645409929692]">4</container>
-            <unittitle>Income tax returns of Christian Mack <unitdate type="inclusive" normal="1936/1937">1936-1937</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [90826892943329916376904]">4</container>
+            <unittitle>Income tax returns of Christian Mack</unittitle><unitdate type="inclusive" normal="1936/1937">1936-1937</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7254697444645409929692]">4</container>
-            <unittitle>Income tax returns of Virginia Mack <unitdate type="inclusive" normal="1936">1936</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [90826892943329916376904]">4</container>
+            <unittitle>Income tax returns of Virginia Mack</unittitle><unitdate type="inclusive" normal="1936">1936</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7254697444645409929692]">4</container>
-            <unittitle>Income tax return of W.C. Mack <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [90826892943329916376904]">4</container>
+            <unittitle>Income tax return of W.C. Mack</unittitle><unitdate type="inclusive" normal="1940">1940</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -526,122 +445,109 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7254697444645409929692]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1919/1923">1919-1923</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [90826892943329916376904]">4</container>
+              <unitdate type="inclusive" normal="1919/1923">1919-1923</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7254697444645409929692]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1924/1929">1924-1929</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [90826892943329916376904]">4</container>
+              <unitdate type="inclusive" normal="1924/1929">1924-1929</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7254697444645409929692]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1930/1936">1930-1936</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [90826892943329916376904]">4</container>
+              <unitdate type="inclusive" normal="1930/1936">1930-1936</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7254697444645409929692]">4</container>
+            <container type="box" label="Box [90826892943329916376904]">4</container>
             <unittitle>Retail Stores of Ann Arbor</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7254697444645409929692]">4</container>
+            <container type="box" label="Box [90826892943329916376904]">4</container>
             <unittitle>Mercantile Properties Corporation</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9918964772030637929]">5</container>
+            <container type="box" label="Box [47792494311173937]">5</container>
             <unittitle>W.C. Mack Realty Company</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9918964772030637929]">5</container>
-            <unittitle>Mack and Company balance sheets <unitdate type="inclusive" normal="1923/1935">1923-1935</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [47792494311173937]">5</container>
+            <unittitle>Mack and Company balance sheets</unittitle><unitdate type="inclusive" normal="1923/1935">1923-1935</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9918964772030637929]">5</container>
+            <container type="box" label="Box [47792494311173937]">5</container>
             <unittitle>Mack and Company dividend records</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9918964772030637929]">5</container>
-            <unittitle>Diagrams of the Mack and Company building <unitdate type="inclusive" normal="1924">1924</unitdate>, <unitdate type="inclusive" normal="1927">1927</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [47792494311173937]">5</container>
+            <unittitle>Diagrams of the Mack and Company building</unittitle><unitdate type="inclusive" normal="1924">1924</unitdate><unitdate type="inclusive" normal="1927">1927</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9918964772030637929]">5</container>
-            <unittitle>Loan from the University of Michigan <unitdate type="inclusive" normal="1935/1940">1935-1940</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [47792494311173937]">5</container>
+            <unittitle>Loan from the University of Michigan</unittitle><unitdate type="inclusive" normal="1935/1940">1935-1940</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9918964772030637929]">5</container>
+            <container type="box" label="Box [47792494311173937]">5</container>
             <unittitle>Cunningham Drug Store lease</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9918964772030637929]">5</container>
+            <container type="box" label="Box [47792494311173937]">5</container>
             <unittitle>Robin Redbreast Hosiery Company lease</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9918964772030637929]">5</container>
+            <container type="box" label="Box [47792494311173937]">5</container>
             <unittitle>Pansy Hosiery Company lease</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9918964772030637929]">5</container>
+            <container type="box" label="Box [47792494311173937]">5</container>
             <unittitle>Schwaebischer Unterstuetzungs Verein lease</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9918964772030637929]">5</container>
+            <container type="box" label="Box [47792494311173937]">5</container>
             <unittitle>Vogel lease</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9918964772030637929]">5</container>
+            <container type="box" label="Box [47792494311173937]">5</container>
             <unittitle>Book of Rules for employees of Mack and Company</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9918964772030637929]">5</container>
-            <unittitle>Lewis G. Christman's work as trustee for Mack and Company <unitdate type="inclusive" normal="1939/1940">1939-1940</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [47792494311173937]">5</container>
+            <unittitle>Lewis G. Christman's work as trustee for Mack and Company</unittitle><unitdate type="inclusive" normal="1939/1940">1939-1940</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9918964772030637929]">5</container>
+            <container type="box" label="Box [47792494311173937]">5</container>
             <unittitle>Walter Mack's purchase of stock in the Hoover Steel Ball Company</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9918964772030637929]">5</container>
+            <container type="box" label="Box [47792494311173937]">5</container>
             <unittitle>Miscellaneous</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -650,25 +556,24 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9918964772030637929]">5</container>
+            <container type="box" label="Box [47792494311173937]">5</container>
             <unittitle>Newsletter -- The Mackazine</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9918964772030637929]">5</container>
+            <container type="box" label="Box [47792494311173937]">5</container>
             <unittitle>Memos to Employees</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9918964772030637929]">5</container>
-            <unittitle>Lists of Employees <unitdate type="inclusive" normal="1913/1924">1913-1924</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [47792494311173937]">5</container>
+            <unittitle>Lists of Employees</unittitle><unitdate type="inclusive" normal="1913/1924">1913-1924</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9918964772030637929]">5</container>
+            <container type="box" label="Box [47792494311173937]">5</container>
             <unittitle>Microfilm</unittitle>
           </did>
           <odd>

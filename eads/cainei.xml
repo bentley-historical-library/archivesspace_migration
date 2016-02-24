@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,10 +40,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Cain, Elmer I.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/3158">Cain, Elmer I.</persname>
       </origination>
-      <unittitle encodinganalog="245">Elmer I. Cain papers <unitdate type="inclusive" encodinganalog="245$f" normal="1917/1942">1917-1942</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1918/1919">1918-1919</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2014005 Aa3</unitid>
+      <unittitle encodinganalog="245">Elmer I. Cain papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1917/1942">1917-1942</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1918/1919">1918-1919</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2014005 Aa3</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Member of United States Army Co. H, 339th Infantry and veteran of the Allied Intervention in Northern Russia at the close of World War I. Includes digitized photographs depicting the daily lives and responsibilities of soldiers in Onega and Parog, Russia as well as scenes from Russian villages. Also contains digitized versions of Cain's draft registration cards from the First and Second World Wars.</abstract>
       <physdesc altrender="whole">
@@ -88,36 +88,35 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Cain, Elmer I.</persname>
-        <subject source="lcsh" encodinganalog="650">Soldiers--American--Russia (Federation)</subject>
-        <geogname source="lcsh" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Infantry, 339th. Company H.</corpname>
-        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3158">Cain, Elmer I.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6132">Soldiers--American--Russia (Federation)</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/879">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/811">United States. Army. Infantry, 339th. Company H.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5715">World War, 1914-1918.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600">Cain, Elmer I.</persname>
-        <geogname source="lcsh" encodinganalog="651">Onega Bay Region (Russia)</geogname>
-        <subject source="lctgm" encodinganalog="650">Soldiers--American--Russia (Federation)</subject>
-        <geogname source="lcsh" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Infantry, 339th. Company H.</corpname>
-        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3158">Cain, Elmer I.</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1429">Onega Bay Region (Russia)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3768">Soldiers--American--Russia (Federation)</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/879">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/811">United States. Army. Infantry, 339th. Company H.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5715">World War, 1914-1918.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n79096723">American National Red Cross.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n79096723" ref="/agents/corporate_entities/1441">American National Red Cross.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform encodinganalog="655" source="aat">Digital files.</genreform>
+        <genreform encodinganalog="655" source="aat" ref="/subjects/3216">Digital files.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
           <physloc>Online</physloc>
-          <unittitle>Photographs <unitdate type="inclusive" normal="1918/1919">1918-1919</unitdate></unittitle>
-          <dao show="new" actuate="onRequest" href="bhlpbcain0001">
+          <unittitle>Photographs</unittitle><unitdate type="inclusive" normal="1918/1919">1918-1919</unitdate><dao show="new" actuate="onRequest" href="bhlpbcain0001" ref="/repositories/2/digital_objects/8101">
             <daodesc>
               <p>[view items]</p>
             </daodesc>
@@ -235,8 +234,7 @@
       <c01 level="series">
         <did>
           <physloc>Online</physloc>
-          <unittitle>Draft Registration <unitdate type="inclusive" normal="1917">1917</unitdate>, <unitdate type="inclusive" normal="1942">1942</unitdate></unittitle>
-          <dao show="new" actuate="onRequest" href="bhlpbcain0002">
+          <unittitle>Draft Registration</unittitle><unitdate type="inclusive" normal="1917">1917</unitdate><unitdate type="inclusive" normal="1942">1942</unitdate><dao show="new" actuate="onRequest" href="bhlpbcain0002" ref="/repositories/2/digital_objects/8102">
             <daodesc>
               <p>[view items]</p>
             </daodesc>
@@ -247,13 +245,11 @@
         </scopecontent>
         <c02 level="item">
           <did>
-            <unittitle>World War I <unitdate type="inclusive" normal="1917">1917</unitdate></unittitle>
-          </did>
+            <unittitle>World War I</unittitle><unitdate type="inclusive" normal="1917">1917</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <unittitle>World War II <unitdate type="inclusive" normal="1942">1942</unitdate></unittitle>
-          </did>
+            <unittitle>World War II</unittitle><unitdate type="inclusive" normal="1942">1942</unitdate></did>
         </c02>
       </c01>
     </dsc>

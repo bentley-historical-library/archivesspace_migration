@@ -27,7 +27,8 @@
         <item>Original encoding.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">McMenamy, Patrick Vincent, 1894-1965.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/7358">McMenamy, Patrick Vincent, 1894-1965.</persname>
       </origination>
-      <unittitle encodinganalog="245">Patrick Vincent McMenamy photograph collection <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1919">1918-1919</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="1990/1999" certainty="approximate">1990s</unitdate></unittitle>
-      <abstract>Born in St. Louis, Mo., member of Company D, U.S. 339th Infantry who served in the Allied intervention in Russia, 1918-1920, the "Polar Bear Expedition."</abstract>
+      <unittitle encodinganalog="245">Patrick Vincent McMenamy photograph collection</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1918/1919">1918-1919</unitdate><unitdate type="inclusive" encodinganalog="245$f" normal="1990/1999" certainty="approximate">1990s</unitdate><abstract>Born in St. Louis, Mo., member of Company D, U.S. 339th Infantry who served in the Allied intervention in Russia, 1918-1920, the "Polar Bear Expedition."</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">0598 UAl</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -75,15 +75,15 @@
       </p>
       <controlaccess>
         <head>Subjects</head>
-        <persname source="lcnaf" encodinganalog="600">McMenamy, Patrick Vincent, 1894-1965.</persname>
-        <geogname source="lcsh" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <subject source="local" encodinganalog="690">Polar Bear Expedition.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82129076">United States. Army. Infantry, 339th.</corpname>
-        <subject source="lctgm" encodinganalog="650">Soldiers--American.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/7358">McMenamy, Patrick Vincent, 1894-1965.</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/879">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <subject source="local" encodinganalog="690" ref="/subjects/3516">Polar Bear Expedition.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82129076" ref="/agents/corporate_entities/3942">United States. Army. Infantry, 339th.</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3672">Soldiers--American.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -93,12 +93,8 @@
         </did>
         <c02 level="file">
           <did>
-            <container label="Oversize Folder [19454016966941]" type="folder">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1918/1919">1918-1919</unitdate>
-              <unitdate type="inclusive" normal="1990/1999" certainty="approximate">1990s</unitdate>
-            </unittitle>
-            <dao href="mcmenamy0001" show="new" actuate="onRequest">
+            <container label="Oversize Folder [13725244229982176326021]" type="folder">1</container>
+            <unitdate type="inclusive" normal="1918/1919">1918-1919</unitdate><unitdate type="inclusive" normal="1990/1999" certainty="approximate">1990s</unitdate><dao href="mcmenamy0001" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/10238">
               <daodesc>
                 <p>[view images]</p>
               </daodesc>

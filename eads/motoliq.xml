@@ -24,7 +24,8 @@
         <item>Original encoding from Word 10.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library<lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Motors Liquidation Company</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/1819">Motors Liquidation Company</corpname>
       </origination>
-      <unittitle encodinganalog="245"> General Motors Bankruptcy Collection Web Archives <unitdate type="inclusive" encodinganalog="245$f"> 2009-ongoing </unitdate> </unittitle>
-      <physdesc altrender="part">
+      <unittitle encodinganalog="245">General Motors Bankruptcy Collection Web Archives</unittitle><unitdate type="inclusive" encodinganalog="245$f"> 2009-ongoing </unitdate><physdesc altrender="part">
         <extent encodinganalog="300" altrender="materialtype spaceoccupied">1.03 GB</extent>
         <physfacet>online</physfacet>
       </physdesc>
@@ -89,17 +89,17 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79079577">General Motors Corporation.</corpname>
-        <subject source="lcsh" encodinganalog="650">Bankruptcy--Michigan--Detroit.</subject>
-        <subject source="lcsh" encodinganalog="650">Liquidation--Michigan--Detroit.</subject>
-        <subject source="lcsh" encodinganalog="650">Corporations--Michigan--Detroit.</subject>
-        <geogname source="lcsh" encodinganalog="651">Michigan.</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539">Detroit (Mich.)</geogname>
-        <subject source="local" encodinganalog="690">Commerce and industry.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79079577" ref="/agents/corporate_entities/177">General Motors Corporation.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6905">Bankruptcy--Michigan--Detroit.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6921">Liquidation--Michigan--Detroit.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6911">Corporations--Michigan--Detroit.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2400">Michigan.</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539" ref="/subjects/929">Detroit (Mich.)</geogname>
+        <subject source="local" encodinganalog="690" ref="/subjects/3523">Commerce and industry.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Web sites.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3332">Web sites.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -110,10 +110,7 @@
         <c02 level="file">
           <did>
             <physloc>Online </physloc>
-            <unittitle>
-              <unitdate type="inclusive" normal="2009">2009</unitdate>
-            </unittitle>
-            <dao href="http://hdl.handle.net/2027.42/116381" show="new" actuate="onRequest">
+            <unitdate type="inclusive" normal="2009">2009</unitdate><dao href="http://hdl.handle.net/2027.42/116381" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/10570">
               <daodesc>
                 <p>[download item]</p>
               </daodesc>
@@ -128,7 +125,7 @@
             <did>
               <physloc>Online </physloc>
               <unittitle>Motors Liquidation Company website </unittitle>
-              <dao href="https://wayback.archive-it.org/org-934/*/http://www.motorsliquidationdocket.com" show="new" actuate="onRequest">
+              <dao href="https://wayback.archive-it.org/org-934/*/http://www.motorsliquidationdocket.com" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/10571">
                 <daodesc>
                   <p>[view item]</p>
                 </daodesc>

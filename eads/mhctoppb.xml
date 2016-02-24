@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,10 +47,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf">Michigan Historical Collection</corpname>
+        <corpname source="lcnaf" ref="/agents/corporate_entities/3808">Michigan Historical Collection</corpname>
       </origination>
-      <unittitle encodinganalog="245">Michigan Historical Collections Polar Bear Expedition photograph collection <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1919">1918-1919</unitdate></unittitle>
-      <abstract>The Michigan Historical Collections Polar Bear Expedition Photograph Collection includes images relating to the American intervention in north Russia, 1918-1919, the "Polar Bear Expedition." The provenance of most of the photographs has been lost and therefore these images have been grouped together by subject into an artificial accumulation.</abstract>
+      <unittitle encodinganalog="245">Michigan Historical Collections Polar Bear Expedition photograph collection</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1918/1919">1918-1919</unitdate><abstract>The Michigan Historical Collections Polar Bear Expedition Photograph Collection includes images relating to the American intervention in north Russia, 1918-1919, the "Polar Bear Expedition." The provenance of most of the photographs has been lost and therefore these images have been grouped together by subject into an artificial accumulation.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">92331</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -83,21 +83,21 @@
       </p>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <subject source="lctgm" encodinganalog="650">Funeral rites and ceremonies.</subject>
-        <subject source="lctgm" encodinganalog="650">Military camps.</subject>
-        <subject source="lctgm" encodinganalog="650">Military life.</subject>
-        <subject source="lctgm" encodinganalog="650">Military maneuvers.</subject>
-        <subject source="lctgm" encodinganalog="650">Military officers.</subject>
-        <subject source="lctgm" encodinganalog="650">Military parades and ceremonies.</subject>
-        <subject source="lctgm" encodinganalog="650">Soldiers--American--Russia (Federation)</subject>
-        <geogname source="lcsh" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82129076">United States. Army. Infantry, 339th.</corpname>
-        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
-        <subject source="local" encodinganalog="690">Polar Bear Expedition.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3697">Funeral rites and ceremonies.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3745">Military camps.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4217">Military life.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4806">Military maneuvers.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3770">Military officers.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3982">Military parades and ceremonies.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3768">Soldiers--American--Russia (Federation)</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/879">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82129076" ref="/agents/corporate_entities/3942">United States. Army. Infantry, 339th.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5715">World War, 1914-1918.</subject>
+        <subject source="local" encodinganalog="690" ref="/subjects/3516">Polar Bear Expedition.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="gmgpc" encodinganalog="655">Photographs.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3456">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -109,7 +109,7 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [1351326140798173838219]">1</container>
+            <container type="folder" label="Folder [01559811424869591154509310]">1</container>
             <unittitle>Polar Bear Expedition</unittitle>
           </did>
         </c02>

@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">International Neighbors.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/5195">International Neighbors.</corpname>
       </origination>
-      <unittitle encodinganalog="245">International Neighbors records <unitdate type="inclusive" encodinganalog="245$f" normal="1958/2013">1958-2013</unitdate></unittitle>
-      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">85229 Bk 2</unitid>
+      <unittitle encodinganalog="245">International Neighbors records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1958/2013">1958-2013</unitdate><unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">85229 Bk 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Ann Arbor, Michigan, women's organization formed to provide friendship and assistance to foreign women visitors to Ann Arbor and the University of Michigan. Minutes, reports, bulletins and newsletters, slide presentations, and other materials relating to their activities.</abstract>
       <physdesc altrender="whole">
@@ -80,33 +80,33 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">International cooperation.</subject>
-        <corpname source="lcnaf" encodinganalog="610">International Neighbors.</corpname>
-        <subject source="lcsh" encodinganalog="650">Women--Michigan--Ann Arbor--Societies and clubs.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219" ref="/subjects/856">Ann Arbor (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8420">International cooperation.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5195">International Neighbors.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5675">Women--Michigan--Ann Arbor--Societies and clubs.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <geogname source="lctgm" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)--Chapels.</geogname>
-        <geogname source="lctgm" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)--Parks.</geogname>
-        <subject source="lctgm" encodinganalog="650">Chapels--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Concordia College (Ann Arbor, Mich.)</corpname>
-        <subject source="lctgm" encodinganalog="650">Ice hockey.</subject>
-        <subject source="lctgm" encodinganalog="650">Ice skating.</subject>
-        <corpname source="lcnaf" encodinganalog="610">International Neighbors.</corpname>
-        <subject source="lctgm" encodinganalog="650">Parks--Michigan--Ann Arbor.</subject>
-        <subject source="lctgm" encodinganalog="650">Winter.</subject>
-        <subject source="lctgm" encodinganalog="650">Women.</subject>
-        <subject source="lctgm" encodinganalog="650">Women--Organizations.</subject>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/342">Ann Arbor (Mich.)--Chapels.</geogname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/343">Ann Arbor (Mich.)--Parks.</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4562">Chapels--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/727">Concordia College (Ann Arbor, Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3725">Ice hockey.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3938">Ice skating.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5195">International Neighbors.</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4131">Parks--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3940">Winter.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3617">Women.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3629">Women--Organizations.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Dunham, Esther.</persname>
-        <persname source="lcnaf" encodinganalog="700">Mead, Kathleen.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/2170">Dunham, Esther.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/6020">Mead, Kathleen.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="lcsh" encodinganalog="655">Slides (photography)</genreform>
+        <genreform source="lcsh" encodinganalog="655" ref="/subjects/3440">Slides (photography)</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -119,43 +119,39 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [075960245188584833707]">1</container>
-            <unittitle>Annual Meeting Reports and Minutes <unitdate type="inclusive" normal="1959/1999">1959-1999</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [0094124248351445550]">1</container>
+            <unittitle>Annual Meeting Reports and Minutes</unittitle><unitdate type="inclusive" normal="1959/1999">1959-1999</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [075960245188584833707]">1</container>
+            <container type="box" label="Box [0094124248351445550]">1</container>
             <unittitle>Articles of Association, By-laws, and Policies</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [075960245188584833707]">1</container>
-            <unittitle>Board Minutes <unitdate type="inclusive" normal="1961/1992">1961-1992</unitdate>, <unitdate type="inclusive" normal="1995/1999">1995-1999</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [0094124248351445550]">1</container>
+            <unittitle>Board Minutes</unittitle><unitdate type="inclusive" normal="1961/1992">1961-1992</unitdate><unitdate type="inclusive" normal="1995/1999">1995-1999</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">12 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [075960245188584833707]">1</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1978/1997">1978-1997</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0094124248351445550]">1</container>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1978/1997">1978-1997</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [075960245188584833707]">1</container>
-            <unittitle>Fran Miller Special Projects Fund <unitdate type="inclusive" normal="1987/1995">1987-1995</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0094124248351445550]">1</container>
+            <unittitle>Fran Miller Special Projects Fund</unittitle><unitdate type="inclusive" normal="1987/1995">1987-1995</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [075960245188584833707]">1</container>
+            <container type="box" label="Box [0094124248351445550]">1</container>
             <unittitle>History</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -164,31 +160,29 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [075960245188584833707]">1</container>
+            <container type="box" label="Box [0094124248351445550]">1</container>
             <unittitle>Incorporation</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [075960245188584833707]">1</container>
-            <unittitle>Articles of Incorporation application <unitdate type="inclusive" normal="1963/2004">1963-2004</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0094124248351445550]">1</container>
+            <unittitle>Articles of Incorporation application</unittitle><unitdate type="inclusive" normal="1963/2004">1963-2004</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [075960245188584833707]">1</container>
+            <container type="box" label="Box [0094124248351445550]">1</container>
             <unittitle>Job Descriptions</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [075960245188584833707]">1</container>
-            <unittitle>Kopelman Concern <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0094124248351445550]">1</container>
+            <unittitle>Kopelman Concern</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [075960245188584833707]">1</container>
+            <container type="box" label="Box [0094124248351445550]">1</container>
             <unittitle>Mailings</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -197,33 +191,29 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [075960245188584833707]">1</container>
-            <unittitle>Officers and Executive Board <unitdate type="inclusive" normal="1960/1998">1960-1998</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0094124248351445550]">1</container>
+            <unittitle>Officers and Executive Board</unittitle><unitdate type="inclusive" normal="1960/1998">1960-1998</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [075960245188584833707]">1</container>
-            <unittitle>Participant-Guests Committee <unitdate type="inclusive" normal="1960/1997">1960-1997 (scattered)</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0094124248351445550]">1</container>
+            <unittitle>Participant-Guests Committee</unittitle><unitdate type="inclusive" normal="1960/1997">1960-1997 (scattered)</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [075960245188584833707]">1</container>
+            <container type="box" label="Box [0094124248351445550]">1</container>
             <unittitle>Participant-Hostesses Committee</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [075960245188584833707]">1</container>
-            <unittitle>President's Annual Report <unitdate type="inclusive" normal="1991/1999">1991-1999</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0094124248351445550]">1</container>
+            <unittitle>President's Annual Report</unittitle><unitdate type="inclusive" normal="1991/1999">1991-1999</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [075960245188584833707]">1</container>
-            <unittitle>Treasurer's Annual Report <unitdate type="inclusive" normal="1961/1990">1961-1990</unitdate>, <unitdate type="inclusive" normal="1993/1999">1993-1999</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0094124248351445550]">1</container>
+            <unittitle>Treasurer's Annual Report</unittitle><unitdate type="inclusive" normal="1961/1990">1961-1990</unitdate><unitdate type="inclusive" normal="1993/1999">1993-1999</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -235,51 +225,44 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [075960245188584833707]">1</container>
-            <unittitle>Discussion Groups <unitdate type="inclusive" normal="1960/1975">1960-1975</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0094124248351445550]">1</container>
+            <unittitle>Discussion Groups</unittitle><unitdate type="inclusive" normal="1960/1975">1960-1975</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [075960245188584833707]">1</container>
-            <unittitle>English Conversation Groups <unitdate type="inclusive" normal="1960/1981">1960-1981</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0094124248351445550]">1</container>
+            <unittitle>English Conversation Groups</unittitle><unitdate type="inclusive" normal="1960/1981">1960-1981</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [804456084790050496193]">2</container>
-            <unittitle>Fall Reception <unitdate type="inclusive" normal="1958/1998">1958-1998</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [663125549428517170844865]">2</container>
+            <unittitle>Fall Reception</unittitle><unitdate type="inclusive" normal="1958/1998">1958-1998</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [804456084790050496193]">2</container>
-            <unittitle>Family Picnic <unitdate type="inclusive" normal="1960/1966">1960-1966</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [663125549428517170844865]">2</container>
+            <unittitle>Family Picnic</unittitle><unitdate type="inclusive" normal="1960/1966">1960-1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [804456084790050496193]">2</container>
-            <unittitle>International Days <unitdate type="inclusive" normal="1960/1979">1960-1979</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [663125549428517170844865]">2</container>
+            <unittitle>International Days</unittitle><unitdate type="inclusive" normal="1960/1979">1960-1979</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [804456084790050496193]">2</container>
-            <unittitle>International Neighbors Exchange <unitdate type="inclusive" normal="1962/1979">1962-1979</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [663125549428517170844865]">2</container>
+            <unittitle>International Neighbors Exchange</unittitle><unitdate type="inclusive" normal="1962/1979">1962-1979</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [804456084790050496193]">2</container>
-            <unittitle>Neighborhood Tea Groups <unitdate type="inclusive" normal="1959/1984">1959-1984</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [663125549428517170844865]">2</container>
+            <unittitle>Neighborhood Tea Groups</unittitle><unitdate type="inclusive" normal="1959/1984">1959-1984</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -287,19 +270,17 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [804456084790050496193]">2</container>
-              <unittitle>Out and About in Ann Arbor <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [663125549428517170844865]">2</container>
+              <unittitle>Out and About in Ann Arbor</unittitle><unitdate type="inclusive" normal="1975">1975</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [804456084790050496193]">2</container>
-              <unittitle>The Story of an International Neighbor <unitdate type="inclusive" normal="1974/1975">1974-1975</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [663125549428517170844865]">2</container>
+              <unittitle>The Story of an International Neighbor</unittitle><unitdate type="inclusive" normal="1974/1975">1974-1975</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [804456084790050496193]">2</container>
+              <container type="box" label="Box [663125549428517170844865]">2</container>
               <unittitle>
                 <genreform normal="Photographs">Slides</genreform>
               </unittitle>
@@ -311,7 +292,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [804456084790050496193]">2</container>
+            <container type="box" label="Box [663125549428517170844865]">2</container>
             <unittitle>Special Services</unittitle>
           </did>
         </c02>
@@ -321,28 +302,24 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [804456084790050496193]">2</container>
-              <unittitle>Bibliographies <unitdate type="inclusive" normal="1964/1966">1964-1966</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [663125549428517170844865]">2</container>
+              <unittitle>Bibliographies</unittitle><unitdate type="inclusive" normal="1964/1966">1964-1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [804456084790050496193]">2</container>
-              <unittitle>Chinese Participation <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [663125549428517170844865]">2</container>
+              <unittitle>Chinese Participation</unittitle><unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [804456084790050496193]">2</container>
-            <unittitle>Summer Tea <unitdate type="inclusive" normal="1967/1990">1967-1990</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [663125549428517170844865]">2</container>
+            <unittitle>Summer Tea</unittitle><unitdate type="inclusive" normal="1967/1990">1967-1990</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [804456084790050496193]">2</container>
-            <unittitle>Twentieth Anniversary <unitdate type="inclusive" normal="1977/1978">1977-1978</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [663125549428517170844865]">2</container>
+            <unittitle>Twentieth Anniversary</unittitle><unitdate type="inclusive" normal="1977/1978">1977-1978</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -354,36 +331,31 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [804456084790050496193]">2</container>
-            <unittitle>Brochures <unitdate type="inclusive" normal="1960/1998">1960-1998</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [663125549428517170844865]">2</container>
+            <unittitle>Brochures</unittitle><unitdate type="inclusive" normal="1960/1998">1960-1998</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [804456084790050496193]">2</container>
-            <unittitle>Bulletins <unitdate type="inclusive" normal="1961/1999">1961-1999 (scattered)</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [663125549428517170844865]">2</container>
+            <unittitle>Bulletins</unittitle><unitdate type="inclusive" normal="1961/1999">1961-1999 (scattered)</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [804456084790050496193]">2</container>
-            <unittitle>Newsletter (scattered) <unitdate type="inclusive" normal="2003/2004">2003-2004</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [663125549428517170844865]">2</container>
+            <unittitle>Newsletter (scattered)</unittitle><unitdate type="inclusive" normal="2003/2004">2003-2004</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [804456084790050496193]">2</container>
-            <unittitle>Handbook for Hostesses <unitdate type="inclusive" normal="1974">1974</unitdate>, <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [663125549428517170844865]">2</container>
+            <unittitle>Handbook for Hostesses</unittitle><unitdate type="inclusive" normal="1974">1974</unitdate><unitdate type="inclusive" normal="1999">1999</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [804456084790050496193]">2</container>
-            <unittitle>Living in Ann Arbor <unitdate type="inclusive" normal="1963/1997">1963-1997</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [663125549428517170844865]">2</container>
+            <unittitle>Living in Ann Arbor</unittitle><unitdate type="inclusive" normal="1963/1997">1963-1997</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
@@ -395,122 +367,82 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [804456084790050496193]">2</container>
+            <container type="box" label="Box [663125549428517170844865]">2</container>
             <unittitle>Tributes to Special Members, Newspaper articles and Memorial Tributes</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [804456084790050496193]">2</container>
-            <unittitle>Extra historical materials <unitdate type="inclusive" normal="1960/2013">1960-2013</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [663125549428517170844865]">2</container>
+            <unittitle>Extra historical materials</unittitle><unitdate type="inclusive" normal="1960/2013">1960-2013</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [804456084790050496193]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2000/2001">2000-2001</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [663125549428517170844865]">2</container>
+            <unitdate type="inclusive" normal="2000/2001">2000-2001</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [804456084790050496193]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2001/2002">2001-2002</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [663125549428517170844865]">2</container>
+            <unitdate type="inclusive" normal="2001/2002">2001-2002</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [804456084790050496193]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2002/2003">2002-2003</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [663125549428517170844865]">2</container>
+            <unitdate type="inclusive" normal="2002/2003">2002-2003</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [804456084790050496193]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2003/2004">2003-2004</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [663125549428517170844865]">2</container>
+            <unitdate type="inclusive" normal="2003/2004">2003-2004</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [804456084790050496193]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2004/2005">2004-2005</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [663125549428517170844865]">2</container>
+            <unitdate type="inclusive" normal="2004/2005">2004-2005</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [804456084790050496193]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2005/2006">2005-2006</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [663125549428517170844865]">2</container>
+            <unitdate type="inclusive" normal="2005/2006">2005-2006</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [72603149490302020725]">3</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2006/2007">2006-2007</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [33032244682130554]">3</container>
+            <unitdate type="inclusive" normal="2006/2007">2006-2007</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [72603149490302020725]">3</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2007/2008">2007-2008</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [33032244682130554]">3</container>
+            <unitdate type="inclusive" normal="2007/2008">2007-2008</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [72603149490302020725]">3</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2008/2009">2008-2009</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [33032244682130554]">3</container>
+            <unitdate type="inclusive" normal="2008/2009">2008-2009</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [72603149490302020725]">3</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2009/2010">2009-2010</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [33032244682130554]">3</container>
+            <unitdate type="inclusive" normal="2009/2010">2009-2010</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [72603149490302020725]">3</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2010/2011">2010-2011</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [33032244682130554]">3</container>
+            <unitdate type="inclusive" normal="2010/2011">2010-2011</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [72603149490302020725]">3</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2011/2012">2011-2012</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [33032244682130554]">3</container>
+            <unitdate type="inclusive" normal="2011/2012">2011-2012</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [72603149490302020725]">3</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2012/2013">2012-2013</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [33032244682130554]">3</container>
+            <unitdate type="inclusive" normal="2012/2013">2012-2013</unitdate></did>
         </c02>
       </c01>
     </dsc>

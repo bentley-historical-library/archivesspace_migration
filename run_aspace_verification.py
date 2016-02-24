@@ -1,4 +1,5 @@
 from lxml import etree
+import csv
 import os
 from os.path import join
 import re
@@ -10,9 +11,9 @@ tags = ['subject','geogname','genreform','title','persname','corpname','famname'
 
 ead_errors = []
 
-for filenmae in os.listdir(ead_dir):
+for filename in os.listdir(ead_dir):
 	print "Checking for errors in {0}".format(filename)
-	tree = etree.parse(join(path,filename))
+	tree = etree.parse(join(ead_dir,filename))
 	components = tree.xpath("//dsc//*[starts-with(local-name(), 'c0')]")
 	classifications = tree.xpath('//classification')
 	notes = tree.xpath('//scopecontent') + tree.xpath('//odd') + tree.xpath('//abstract')

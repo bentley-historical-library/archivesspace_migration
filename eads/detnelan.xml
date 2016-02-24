@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,10 +40,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Detroit News Lansing Bureau.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/3144">Detroit News Lansing Bureau.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Detroit News Lansing Bureau scrapbooks <unitdate type="inclusive" encodinganalog="245$f" normal="1931/1972">1931-1972</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851119 Bb.1 2</unitid>
+      <unittitle encodinganalog="245">Detroit News Lansing Bureau scrapbooks</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1931/1972">1931-1972</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851119 Bb.1 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Newspaper clippings detailing all aspects of state government, including the gubernatorial administrations of Kim Sigler, G. Mennen Williams, John B. Swainson, and George Romney; also; and miscellaneous reference files, including political and governmental press releases.</abstract>
       <physdesc altrender="whole">
@@ -82,25 +82,25 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n91059253">Michigan. Constitutional Convention (1961-1962)</corpname>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1929-1938.</geogname>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1939-1945.</geogname>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1946-1960.</geogname>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1961-1970.</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50048290">Romney, George W., 1907-1995.</persname>
-        <persname source="lcnaf" encodinganalog="600">Sigler, Kim, b. 1894.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n2003087794">Swainson, John B. (John Burley), 1925-1994.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80084463">Williams, G. Mennen, 1911-1988.</persname>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Politics and government--1837-1950.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Politics and government--1951-</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n91059253" ref="/agents/corporate_entities/767">Michigan. Constitutional Convention (1961-1962)</corpname>
+        <geogname source="local" encodinganalog="691" ref="/subjects/799">Michigan--Politics and government--1929-1938.</geogname>
+        <geogname source="local" encodinganalog="691" ref="/subjects/808">Michigan--Politics and government--1939-1945.</geogname>
+        <geogname source="local" encodinganalog="691" ref="/subjects/805">Michigan--Politics and government--1946-1960.</geogname>
+        <geogname source="local" encodinganalog="691" ref="/subjects/806">Michigan--Politics and government--1961-1970.</geogname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50048290" ref="/agents/people/4407">Romney, George W., 1907-1995.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2705">Sigler, Kim, b. 1894.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n2003087794" ref="/agents/people/5522">Swainson, John B. (John Burley), 1925-1994.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80084463" ref="/agents/people/3876">Williams, G. Mennen, 1911-1988.</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/880">Michigan--Politics and government--1837-1950.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/906">Michigan--Politics and government--1951-</geogname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Engle, Glenn.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/1261">Engle, Glenn.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Scrapbooks.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3133">Scrapbooks.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -112,222 +112,152 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [8649673473812978350]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1931-01/1931-05">January-May 1931</unitdate>
-              <unitdate type="inclusive" normal="1932-12/1935-12">December 1932-December 1935</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [7859572140043946653]">1</container>
+            <unitdate type="inclusive" normal="1931-01/1931-05">January-May 1931</unitdate><unitdate type="inclusive" normal="1932-12/1935-12">December 1932-December 1935</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4398015747665898426907]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1935-12/1938-04">December 1935-April 1938</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [8677954022556542384]">2</container>
+            <unitdate type="inclusive" normal="1935-12/1938-04">December 1935-April 1938</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [42411410342487446076]">3</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1938-04/1940-01">April 1938-January 1940</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [83672446790494557]">3</container>
+            <unitdate type="inclusive" normal="1938-04/1940-01">April 1938-January 1940</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [11206190574689781683175]">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1940-01/1941-10">January 1940-October 1941</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [110177588423589569708]">4</container>
+            <unitdate type="inclusive" normal="1940-01/1941-10">January 1940-October 1941</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [643693042224160120874017]">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1941-10/1943-09">October 1941-September 1943</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [5197509864610156]">5</container>
+            <unitdate type="inclusive" normal="1941-10/1943-09">October 1941-September 1943</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [131645644949065250289]">6</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1943-09/1945-11">September 1943-November 1945</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [50062843471912197994]">6</container>
+            <unitdate type="inclusive" normal="1943-09/1945-11">September 1943-November 1945</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [09434256562885143]">7</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1945-11/1947-04">November 1945-April 1947</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [3431174128836753217501]">7</container>
+            <unitdate type="inclusive" normal="1945-11/1947-04">November 1945-April 1947</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5396621442305716718]">8</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1947-04/1948-12">April 1947-December 1948</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [672678317046698217804]">8</container>
+            <unitdate type="inclusive" normal="1947-04/1948-12">April 1947-December 1948</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [256743698790076269413]">9</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1948-12/1951-01">December 1948-January 1951</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [4934205460915319891849]">9</container>
+            <unitdate type="inclusive" normal="1948-12/1951-01">December 1948-January 1951</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [18523142644784698058]">10</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1951-01/1952-06">January 1951-June 1952</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [31863208784261101618]">10</container>
+            <unitdate type="inclusive" normal="1951-01/1952-06">January 1951-June 1952</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2670397472706345977]">11</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1952-06/1953-07">June 1952-July 1953</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [975894628420807143610]">11</container>
+            <unitdate type="inclusive" normal="1952-06/1953-07">June 1952-July 1953</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [8841576647696427676]">12</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1953-07/1954-12">July 1953-December 1954</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [77245485594822573556]">12</container>
+            <unitdate type="inclusive" normal="1953-07/1954-12">July 1953-December 1954</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [787822940660528532]">13</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1954-12/1956-09">December 1954-September 1956</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [88160535415288660001313]">13</container>
+            <unitdate type="inclusive" normal="1954-12/1956-09">December 1954-September 1956</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [345320432132544560337]">14</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1956-09/1958-11">September 1956-November 1958</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [761860947553098097]">14</container>
+            <unitdate type="inclusive" normal="1956-09/1958-11">September 1956-November 1958</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [427974407497614572293]">15</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1958-11/1960-05">November 1958-May 1960</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [04304851024629135212185]">15</container>
+            <unitdate type="inclusive" normal="1958-11/1960-05">November 1958-May 1960</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [068935059440283020110]">16</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1960-05/1962-01">May 1960-January 1962</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [8750627842941432201536112]">16</container>
+            <unitdate type="inclusive" normal="1960-05/1962-01">May 1960-January 1962</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [045813546093636956]">17</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1962-01/1963-03">January 1962-March 1963</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [0276917549897182730]">17</container>
+            <unitdate type="inclusive" normal="1962-01/1963-03">January 1962-March 1963</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [66266043932256227272]">18</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1963-03/1964-08">March 1963-August 1964</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [26450474839981359992]">18</container>
+            <unitdate type="inclusive" normal="1963-03/1964-08">March 1963-August 1964</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [653282194585391544]">19</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1964-08/1966-03">August 1964-March 1966</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [54527400989491618]">19</container>
+            <unitdate type="inclusive" normal="1964-08/1966-03">August 1964-March 1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6596874499893573246]">20</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1966-03/1966-12">March 1966-December 1966</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [3714935533464971691299871]">20</container>
+            <unitdate type="inclusive" normal="1966-03/1966-12">March 1966-December 1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6596874499893573246]">20</container>
-            <unittitle><unitdate type="inclusive" normal="1946/1947">1946-1947</unitdate> concerning gubernatorial administration of Kim Sigler</unittitle>
-          </did>
+            <container type="box" label="Box [3714935533464971691299871]">20</container>
+            <unittitle>Concerning gubernatorial administration of Kim Sigler</unittitle><unitdate type="inclusive" normal="1946/1947">1946-1947</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6161844428193691841]">21</container>
-            <unittitle><unitdate type="inclusive" normal="1947/1955-02">1947-February 1955</unitdate> concerning gubernatorial administration of G. Mennen Williams</unittitle>
-          </did>
+            <container type="box" label="Box [0869273645848832788810]">21</container>
+            <unittitle>Concerning gubernatorial administration of G. Mennen Williams</unittitle><unitdate type="inclusive" normal="1947/1955-02">1947-February 1955</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [70519439484487936279264]">22</container>
-            <unittitle><unitdate type="inclusive" normal="1955-02/1963-09">February 1955-September 1963</unitdate> concerning gubernatorial administration and African career of G. Mennen Williams</unittitle>
-          </did>
+            <container type="box" label="Box [841653443921991596957]">22</container>
+            <unittitle>Concerning gubernatorial administration and African career of G. Mennen Williams</unittitle><unitdate type="inclusive" normal="1955-02/1963-09">February 1955-September 1963</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2317204251000852]">23</container>
-            <unittitle><unitdate type="inclusive" normal="1960-11/1963-09">November 1960-September 1963</unitdate> concerning gubernatorial administration of John B. Swainson</unittitle>
-          </did>
+            <container type="box" label="Box [94138734737553440819]">23</container>
+            <unittitle>Concerning gubernatorial administration of John B. Swainson</unittitle><unitdate type="inclusive" normal="1960-11/1963-09">November 1960-September 1963</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2317204251000852]">23</container>
-            <unittitle><unitdate type="inclusive" normal="1962-05/1965-10">May 1962-October 1965</unitdate> concerning gubernatorial administration of George Romney</unittitle>
-          </did>
+            <container type="box" label="Box [94138734737553440819]">23</container>
+            <unittitle>Concerning gubernatorial administration of George Romney</unittitle><unitdate type="inclusive" normal="1962-05/1965-10">May 1962-October 1965</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2317204251000852]">23</container>
-            <unittitle><unitdate type="inclusive" normal="1945-05/1966-12">May 1945-December 1966</unitdate> concerning Michigan politics</unittitle>
-          </did>
+            <container type="box" label="Box [94138734737553440819]">23</container>
+            <unittitle>Concerning Michigan politics</unittitle><unitdate type="inclusive" normal="1945-05/1966-12">May 1945-December 1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [51310414966670569148]">24</container>
-            <unittitle><unitdate type="inclusive" normal="1943-11/1956-08">November 1943-August 1956</unitdate> concerning Michigan's Grand Jury</unittitle>
-          </did>
+            <container type="box" label="Box [5084340218812736189]">24</container>
+            <unittitle>Concerning Michigan's Grand Jury</unittitle><unitdate type="inclusive" normal="1943-11/1956-08">November 1943-August 1956</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4529189884686739831759]">25</container>
-            <unittitle><unitdate type="inclusive" normal="1956-08/1962">August 1956-1962</unitdate> concerning Michigan's Grand Jury</unittitle>
-          </did>
+            <container type="box" label="Box [408956150495597200782]">25</container>
+            <unittitle>Concerning Michigan's Grand Jury</unittitle><unitdate type="inclusive" normal="1956-08/1962">August 1956-1962</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4529189884686739831759]">25</container>
-            <unittitle><unitdate type="inclusive" normal="1961-06/1964-04">June 1961-April 1964</unitdate> "The Constitutional Convention"</unittitle>
-          </did>
+            <container type="box" label="Box [408956150495597200782]">25</container>
+            <unittitle>"The Constitutional Convention"</unittitle><unitdate type="inclusive" normal="1961-06/1964-04">June 1961-April 1964</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4529189884686739831759]">25</container>
+            <container type="box" label="Box [408956150495597200782]">25</container>
             <unittitle>Miscellaneous clippings</unittitle>
           </did>
         </c02>
@@ -338,34 +268,25 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [668942340279395127]">26</container>
+            <container type="box" label="Box [9404924288867571961049]">26</container>
             <unittitle>Michigan Joint Legislative Committee on Reorganization of State Government</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [668942340279395127]">26</container>
+            <container type="box" label="Box [9404924288867571961049]">26</container>
             <unittitle>Constitutional Convention</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [272940631048679482155428066]">27</container>
+            <container type="box" label="Box [579451403904481]">27</container>
             <unittitle>Miscellaneous</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [418547364056762991207]">28</container>
-            <unittitle>Miscellaneous</unittitle>
-          </did>
-          <odd>
-            <p>(continued)</p>
-          </odd>
-        </c02>
-        <c02 level="file">
-          <did>
-            <container type="box" label="Box [2287084686584401285]">29</container>
+            <container type="box" label="Box [31819224197880089433]">28</container>
             <unittitle>Miscellaneous</unittitle>
           </did>
           <odd>
@@ -374,9 +295,17 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [15547637546049726048816]">30</container>
-            <unittitle>Clippings of articles by Glenn Engle <unitdate type="inclusive" normal="1956/1972">1956-1972</unitdate></unittitle>
+            <container type="box" label="Box [2538966416707923236]">29</container>
+            <unittitle>Miscellaneous</unittitle>
           </did>
+          <odd>
+            <p>(continued)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box [825160453837801623]">30</container>
+            <unittitle>Clippings of articles by Glenn Engle</unittitle><unitdate type="inclusive" normal="1956/1972">1956-1972</unitdate></did>
         </c02>
       </c01>
     </dsc>

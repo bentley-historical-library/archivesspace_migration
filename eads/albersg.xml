@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Albers, George, 1891-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/3988">Albers, George, 1891-</persname>
       </origination>
-      <unittitle encodinganalog="245">George Albers papers <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1919">1918-1919</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="1940/1945">1940-1945</unitdate></unittitle>
-      <abstract>Soldier from Holland, Mich., member of Co. I, 339th U.S. Infantry who served in the Allied intervention in Russia, 1918-1920, the "Polar Bear Expedition." Collection includes diary, 1918-1919; and papers, 1940-1945, of the Howard H. Pellegram Post No. 3734 of the Veterans of Foreign Wars concerning the men and activities of the Polar Bear Expedition.</abstract>
+      <unittitle encodinganalog="245">George Albers papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1918/1919">1918-1919</unitdate><unitdate type="inclusive" encodinganalog="245$f" normal="1940/1945">1940-1945</unitdate><abstract>Soldier from Holland, Mich., member of Co. I, 339th U.S. Infantry who served in the Allied intervention in Russia, 1918-1920, the "Polar Bear Expedition." Collection includes diary, 1918-1919; and papers, 1940-1945, of the Howard H. Pellegram Post No. 3734 of the Veterans of Foreign Wars concerning the men and activities of the Polar Bear Expedition.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">86659;Aa;1</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -75,31 +75,28 @@
       </p>
       <controlaccess>
         <head>Subjects</head>
-        <persname source="lcnaf" encodinganalog="600">Albers, George, 1891-</persname>
-        <geogname source="lcsh" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
-        <subject source="local" encodinganalog="690">Polar Bear Expedition.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3988">Albers, George, 1891-</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/879">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5715">World War, 1914-1918.</subject>
+        <subject source="local" encodinganalog="690" ref="/subjects/3516">Polar Bear Expedition.</subject>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Papers <unitdate type="inclusive" normal="1918/1919">1918-1919</unitdate>, <unitdate type="inclusive" normal="1940/1945">1940-1945</unitdate></unittitle>
-        </did>
+          <unittitle>Papers</unittitle><unitdate type="inclusive" normal="1918/1919">1918-1919</unitdate><unitdate type="inclusive" normal="1940/1945">1940-1945</unitdate></did>
         <c02 level="file">
           <did>
-            <container label="Folder [143368843866156944657]" type="folder">1</container>
-            <unittitle>Diary of Fred Kooyers <unitdate type="inclusive" normal="1918/1919">1918-1919</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container label="Folder [7352977413979770]" type="folder">1</container>
+            <unittitle>Diary of Fred Kooyers</unittitle><unitdate type="inclusive" normal="1918/1919">1918-1919</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">1 items</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Folder [165070311498907535314961]" type="folder">2</container>
-            <unittitle>Papers <unitdate type="inclusive" normal="1918/1919">1918-1919</unitdate>, <unitdate type="inclusive" normal="1940/1945">1940-1945</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container label="Folder [781485274877317149]" type="folder">2</container>
+            <unittitle>Papers</unittitle><unitdate type="inclusive" normal="1918/1919">1918-1919</unitdate><unitdate type="inclusive" normal="1940/1945">1940-1945</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">12 items</extent>
             </physdesc>
           </did>

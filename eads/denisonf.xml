@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Denison family</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/1">Denison family</famname>
       </origination>
-      <unittitle encodinganalog="245">Denison family papers <unitdate type="inclusive" encodinganalog="245$f" normal="1848/1907">1848-1907</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85129 Aa 2</unitid>
+      <unittitle encodinganalog="245">Denison family papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1848/1907">1848-1907</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85129 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Grand Rapids, Michigan, family. Correspondence and business and legal papers of Julius Coe Denison; diaries, 1886-1890 and 1897-1907, of Julius' wife, Cornelia Carter Denison, describing daily life; and diaries, 1879-1889, of their son, Arthur Carter Denison, concerning in part his activities as student at the University of Michigan in the 1880s.</abstract>
       <physdesc altrender="whole">
@@ -80,25 +80,25 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79133151">Grand Rapids (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Social life and customs--1881-1890.</corpname>
-        <geogname source="local" encodinganalog="691">Michigan--Social life and customs--1871-1880.</geogname>
-        <geogname source="local" encodinganalog="691">Michigan--Social life and customs--1881-1890.</geogname>
-        <geogname source="local" encodinganalog="691">Michigan--Social life and customs--1891-1900.</geogname>
-        <geogname source="local" encodinganalog="691">Michigan--Social life and customs--1901-1910.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Social life and customs--19th century.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Social life and customs--20th century.</geogname>
-        <subject source="lcsh" encodinganalog="650">Women--Michigan--Grand Rapids.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79133151" ref="/subjects/1098">Grand Rapids (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Social life and customs--1881-1890.<term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1881-1890.</term></corpname>
+        <geogname source="local" encodinganalog="691" ref="/subjects/794">Michigan--Social life and customs--1871-1880.</geogname>
+        <geogname source="local" encodinganalog="691" ref="/subjects/795">Michigan--Social life and customs--1881-1890.</geogname>
+        <geogname source="local" encodinganalog="691" ref="/subjects/796">Michigan--Social life and customs--1891-1900.</geogname>
+        <geogname source="local" encodinganalog="691" ref="/subjects/811">Michigan--Social life and customs--1901-1910.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1298">Michigan--Social life and customs--19th century.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/847">Michigan--Social life and customs--20th century.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6457">Women--Michigan--Grand Rapids.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Denison, Arthur Carter, b. 1861.</persname>
-        <persname source="lcnaf" encodinganalog="700">Denison, Cornelia Carter.</persname>
-        <persname source="lcnaf" encodinganalog="700">Denison, Julius Coe.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/7477">Denison, Arthur Carter, b. 1861.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/6449">Denison, Cornelia Carter.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/2562">Denison, Julius Coe.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform encodinganalog="655" source="aat">Diaries.</genreform>
+        <genreform encodinganalog="655" source="aat" ref="/subjects/3145">Diaries.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -108,51 +108,39 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3016348936916]">1</container>
+            <container type="box" label="Box [30891941375372758347]">1</container>
             <unittitle>Correspondence</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3016348936916]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1848/1869">1848-1869 (scattered dates)</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [30891941375372758347]">1</container>
+            <unitdate type="inclusive" normal="1848/1869">1848-1869 (scattered dates)</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3016348936916]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1871/1874">1871-1874</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [30891941375372758347]">1</container>
+            <unitdate type="inclusive" normal="1871/1874">1871-1874</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3016348936916]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1876/1878">1876-1878</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [30891941375372758347]">1</container>
+            <unitdate type="inclusive" normal="1876/1878">1876-1878</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3016348936916]">1</container>
-            <unittitle>Receipts and Bills <unitdate type="inclusive" normal="1874/1877">1874-1877</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [30891941375372758347]">1</container>
+            <unittitle>Receipts and Bills</unittitle><unitdate type="inclusive" normal="1874/1877">1874-1877</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3016348936916]">1</container>
-            <unittitle>Land Deeds and Contracts <unitdate type="inclusive" normal="1848/1873">1848-1873</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [30891941375372758347]">1</container>
+            <unittitle>Land Deeds and Contracts</unittitle><unitdate type="inclusive" normal="1848/1873">1848-1873</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3016348936916]">1</container>
-            <unittitle>Miscellaneous <unitdate type="inclusive" normal="1850/1873">1850-1873 (scattered dates)</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [30891941375372758347]">1</container>
+            <unittitle>Miscellaneous</unittitle><unitdate type="inclusive" normal="1850/1873">1850-1873 (scattered dates)</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -161,18 +149,16 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3016348936916]">1</container>
-            <unittitle><genreform normal="Diaries">Diaries</genreform>, <unitdate type="inclusive" normal="1886/1890">1886-1890</unitdate>, <unitdate type="inclusive" normal="1897/1907">1897-1907</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [30891941375372758347]">1</container>
+            <unittitle><genreform normal="Diaries">Diaries</genreform></unittitle><unitdate type="inclusive" normal="1886/1890">1886-1890</unitdate><unitdate type="inclusive" normal="1897/1907">1897-1907</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">16 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3016348936916]">1</container>
-            <unittitle>Letter <unitdate type="inclusive" normal="1885">1885</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [30891941375372758347]">1</container>
+            <unittitle>Letter</unittitle><unitdate type="inclusive" normal="1885">1885</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -181,24 +167,21 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3016348936916]">1</container>
-            <unittitle><genreform normal="Diaraies">Diaries</genreform>, <unitdate type="inclusive" normal="1879/1889">1879-1889</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [30891941375372758347]">1</container>
+            <unittitle><genreform normal="Diaraies">Diaries</genreform></unittitle><unitdate type="inclusive" normal="1879/1889">1879-1889</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">11 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3016348936916]">1</container>
-            <unittitle>Letter <unitdate type="inclusive" normal="1879">1879</unitdate>, and biographical material</unittitle>
-          </did>
+            <container type="box" label="Box [30891941375372758347]">1</container>
+            <unittitle>Letter , and biographical material</unittitle><unitdate type="inclusive" normal="1879">1879</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3016348936916]">1</container>
-            <unittitle>Scrapbook <unitdate type="inclusive" normal="1905/1910">1905-1910</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [30891941375372758347]">1</container>
+            <unittitle>Scrapbook</unittitle><unitdate type="inclusive" normal="1905/1910">1905-1910</unitdate></did>
         </c02>
       </c01>
     </dsc>

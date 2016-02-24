@@ -32,7 +32,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -43,10 +44,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Woman’s Christian Temperance Union. Ann Arbor Chapter.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/376">Woman’s Christian Temperance Union. Ann Arbor Chapter.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Woman’s Christian Temperance Union, Ann Arbor Chapter records <unitdate type="inclusive" encodinganalog="245$f" normal="1874">1874</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="1877/1979">1877-1979</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">86331 Bj 2</unitid>
+      <unittitle encodinganalog="245">Woman’s Christian Temperance Union, Ann Arbor Chapter records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1874">1874</unitdate><unitdate type="inclusive" encodinganalog="245$f" normal="1877/1979">1877-1979</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">86331 Bj 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Ann Arbor chapter of the Woman’s Christian Temperance Union; Minute books and treasurer’s books of Mary J. Taft Union; secretary’s book of Juvenile Temperance Union, 1877-1885; miscellaneous other records, and motion pictures.</abstract>
       <physdesc altrender="whole">
@@ -83,24 +83,24 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Juvenile Temperance Union (Mich.)</corpname>
-        <subject source="lcsh" encodinganalog="650">Social reformers--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Students--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Temperance--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998">University of Michigan. Board of Regents.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Social life and customs--1881-1890.</corpname>
-        <subject source="lcsh" encodinganalog="650">Women--Michigan--Ann Arbor--Societies and clubs.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50081260">Woman's Christian Temperance Union--Michigan--Ann Arbor.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Woman's Christian Temperance Union. Ann Arbor Chapter (Mich.)</corpname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219" ref="/subjects/856">Ann Arbor (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2632">Ann Arbor Juvenile Temperance Union (Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8682">Social reformers--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7724">Students--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10644">Temperance--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998" ref="/agents/corporate_entities/858">University of Michigan. Board of Regents.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Social life and customs--1881-1890.<term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1881-1890.</term></corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5675">Women--Michigan--Ann Arbor--Societies and clubs.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50081260" ref="/agents/corporate_entities/1660">Woman's Christian Temperance Union--Michigan--Ann Arbor.<term type="geographic">Michigan</term><term type="geographic">Ann Arbor.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4621">Woman's Christian Temperance Union. Ann Arbor Chapter (Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <corpname source="lcnaf" encodinganalog="710">Woman's Christian Temperance Union. Mary J. Taft Union.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/5219">Woman's Christian Temperance Union. Mary J. Taft Union.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Motion pictures.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3162">Motion pictures.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -110,121 +110,78 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7758375337416950145644]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1877/1880">1877-1880</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [19189840899240443156]">1</container>
+            <unitdate type="inclusive" normal="1877/1880">1877-1880</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7758375337416950145644]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1883/1889">1883-1889</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [19189840899240443156]">1</container>
+            <unitdate type="inclusive" normal="1883/1889">1883-1889</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7758375337416950145644]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1890/1894">1890-1894</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [19189840899240443156]">1</container>
+            <unitdate type="inclusive" normal="1890/1894">1890-1894</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7758375337416950145644]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1895/1898">1895-1898</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [19189840899240443156]">1</container>
+            <unitdate type="inclusive" normal="1895/1898">1895-1898</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7758375337416950145644]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1898/1901">1898-1901</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [19189840899240443156]">1</container>
+            <unitdate type="inclusive" normal="1898/1901">1898-1901</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7758375337416950145644]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1907/1911">1907-1911</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [19189840899240443156]">1</container>
+            <unitdate type="inclusive" normal="1907/1911">1907-1911</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7758375337416950145644]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1911/1916">1911-1916</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [19189840899240443156]">1</container>
+            <unitdate type="inclusive" normal="1911/1916">1911-1916</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7758375337416950145644]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1917/1922">1917-1922</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [19189840899240443156]">1</container>
+            <unitdate type="inclusive" normal="1917/1922">1917-1922</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7758375337416950145644]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1922/1926">1922-1926</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [19189840899240443156]">1</container>
+            <unitdate type="inclusive" normal="1922/1926">1922-1926</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7758375337416950145644]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1945/1950">1945-1950</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [19189840899240443156]">1</container>
+            <unitdate type="inclusive" normal="1945/1950">1945-1950</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7758375337416950145644]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1950/1955">1950-1955</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [19189840899240443156]">1</container>
+            <unitdate type="inclusive" normal="1950/1955">1950-1955</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7758375337416950145644]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1958/1967">1958-1967</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [19189840899240443156]">1</container>
+            <unitdate type="inclusive" normal="1958/1967">1958-1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7758375337416950145644]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1968/1972">1968-1972</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [19189840899240443156]">1</container>
+            <unitdate type="inclusive" normal="1968/1972">1968-1972</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7758375337416950145644]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1972/1979">1972-1979</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [19189840899240443156]">1</container>
+            <unitdate type="inclusive" normal="1972/1979">1972-1979</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7758375337416950145644]">1</container>
-            <unittitle><unitdate type="inclusive" normal="1877/1885">1877-1885</unitdate> of the Juvenile Temperance Union</unittitle>
-          </did>
+            <container type="box" label="Box [19189840899240443156]">1</container>
+            <unittitle>Of the Juvenile Temperance Union</unittitle><unitdate type="inclusive" normal="1877/1885">1877-1885</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -233,83 +190,53 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39753144979551081]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1893/1902">1893-1902</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [511704519780721915]">2</container>
+            <unitdate type="inclusive" normal="1893/1902">1893-1902</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39753144979551081]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1946/1949">1946-1949</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [511704519780721915]">2</container>
+            <unitdate type="inclusive" normal="1946/1949">1946-1949</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39753144979551081]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1950/1952">1950-1952</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [511704519780721915]">2</container>
+            <unitdate type="inclusive" normal="1950/1952">1950-1952</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39753144979551081]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1950/1953">1950-1953</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [511704519780721915]">2</container>
+            <unitdate type="inclusive" normal="1950/1953">1950-1953</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39753144979551081]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1953/1956">1953-1956</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [511704519780721915]">2</container>
+            <unitdate type="inclusive" normal="1953/1956">1953-1956</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39753144979551081]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1956/1959">1956-1959</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [511704519780721915]">2</container>
+            <unitdate type="inclusive" normal="1956/1959">1956-1959</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39753144979551081]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1959/1962">1959-1962</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [511704519780721915]">2</container>
+            <unitdate type="inclusive" normal="1959/1962">1959-1962</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39753144979551081]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1962/1966">1962-1966</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [511704519780721915]">2</container>
+            <unitdate type="inclusive" normal="1962/1966">1962-1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39753144979551081]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1966/1974">1966-1974</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [511704519780721915]">2</container>
+            <unitdate type="inclusive" normal="1966/1974">1966-1974</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39753144979551081]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1974/1979">1974-1979</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [511704519780721915]">2</container>
+            <unitdate type="inclusive" normal="1974/1979">1974-1979</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -318,37 +245,35 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39753144979551081]">2</container>
-            <unittitle>Personal scrapbook of Lulu Bon Rice <unitdate type="inclusive" normal="1930/1959" certainty="approximate">circa 1930s-1950s</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [511704519780721915]">2</container>
+            <unittitle>Personal scrapbook of Lulu Bon Rice</unittitle><unitdate type="inclusive" normal="1930/1959" certainty="approximate">circa 1930s-1950s</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39753144979551081]">2</container>
-            <unittitle>Letter <unitdate type="inclusive" normal="1874-06">June 1874</unitdate> to University of Michigan Board of Regents concerning regulation of student drinking</unittitle>
-          </did>
+            <container type="box" label="Box [511704519780721915]">2</container>
+            <unittitle>Letter to University of Michigan Board of Regents concerning regulation of student drinking</unittitle><unitdate type="inclusive" normal="1874-06">June 1874</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39753144979551081]">2</container>
+            <container type="box" label="Box [511704519780721915]">2</container>
             <unittitle>History of W.C.T.U. movement with special emphasis on Ann Arbor chapter</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39753144979551081]">2</container>
+            <container type="box" label="Box [511704519780721915]">2</container>
             <unittitle>Newspaper clippings</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39753144979551081]">2</container>
+            <container type="box" label="Box [511704519780721915]">2</container>
             <unittitle>Correspondence and miscellaneous organizational records</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39753144979551081]">2</container>
+            <container type="box" label="Box [511704519780721915]">2</container>
             <unittitle>Miscellanea</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
@@ -364,36 +289,32 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="CD Box [918141751948613772208]">8</container>
-            <unittitle>"The Choice is Yours," <unitdate type="inclusive" normal="1950" certainty="approximate">circa 1950</unitdate>.(Presented by the National Women's Christian Temperance Union; produced by Fred S. Niemann)</unittitle>
-            <physdesc>
+            <container type="box" label="CD Box [693720432446228647037831]">8</container>
+            <unittitle>"The Choice is Yours," .(Presented by the National Women's Christian Temperance Union; produced by Fred S. Niemann)</unittitle><unitdate type="inclusive" normal="1950" certainty="approximate">circa 1950</unitdate><physdesc>
               <dimensions>ca. 25 min.</dimensions>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="CD Box [918141751948613772208]">8</container>
-            <unittitle>"It's the Brain that Counts," <unitdate type="inclusive" normal="1950" certainty="approximate">circa 1950</unitdate> (Produced by Chicago Film Laboratories)</unittitle>
-            <physdesc>
+            <container type="box" label="CD Box [693720432446228647037831]">8</container>
+            <unittitle>"It's the Brain that Counts," (Produced by Chicago Film Laboratories)</unittitle><unitdate type="inclusive" normal="1950" certainty="approximate">circa 1950</unitdate><physdesc>
               <dimensions>ca. 25 min.</dimensions>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="CD Box [918141751948613772208]">8</container>
-            <unittitle>"The Vicious Circle," <unitdate type="inclusive" normal="1950" certainty="approximate">circa 1950</unitdate> (Produced by Fred S. Niemann)</unittitle>
-            <physdesc>
+            <container type="box" label="CD Box [693720432446228647037831]">8</container>
+            <unittitle>"The Vicious Circle," (Produced by Fred S. Niemann)</unittitle><unitdate type="inclusive" normal="1950" certainty="approximate">circa 1950</unitdate><physdesc>
               <dimensions>ca. 25 min.</dimensions>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="CD Box [918141751948613772208]">8</container>
-            <unittitle>"Where Does it Get You," <unitdate type="inclusive" normal="1950" certainty="approximate">circa 1950</unitdate> (A Century Film production)</unittitle>
-            <physdesc>
+            <container type="box" label="CD Box [693720432446228647037831]">8</container>
+            <unittitle>"Where Does it Get You," (A Century Film production)</unittitle><unitdate type="inclusive" normal="1950" certainty="approximate">circa 1950</unitdate><physdesc>
               <dimensions>ca. 15 min.</dimensions>
             </physdesc>
           </did>

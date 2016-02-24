@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Engstrom, Arnell, 1897-1970.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/6493">Engstrom, Arnell, 1897-1970.</persname>
       </origination>
-      <unittitle encodinganalog="245">Arnell Engstrom papers <unitdate type="inclusive" encodinganalog="245$f" normal="1952/1970">1952-1970</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1960/1968">1960-1968</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851227 Aa 2</unitid>
+      <unittitle encodinganalog="245">Arnell Engstrom papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1952/1970">1952-1970</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1960/1968">1960-1968</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851227 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Traverse City, Michigan, businessman, Republican state legislator and chairman of the appropriations committee of the Michigan house of representatives. Correspondence: legislative and campaign files, and files, including materials regarding his election campaigns; personal files; and photographs.</abstract>
       <physdesc altrender="whole">
@@ -80,22 +80,22 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Engstrom, Arnell, 1897-1970.</persname>
-        <subject source="lcsh" encodinganalog="650">Legislators--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79059059">Michigan. Legislature.</corpname>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1946-1960.</geogname>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1961-1970.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Politics and government--1951-</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79006537">Traverse City (Mich.)</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6493">Engstrom, Arnell, 1897-1970.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6224">Legislators--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79059059" ref="/agents/corporate_entities/4690">Michigan. Legislature.</corpname>
+        <geogname source="local" encodinganalog="691" ref="/subjects/805">Michigan--Politics and government--1946-1960.</geogname>
+        <geogname source="local" encodinganalog="691" ref="/subjects/806">Michigan--Politics and government--1961-1970.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/906">Michigan--Politics and government--1951-</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4055">Republican Party (Mich.)</corpname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79006537" ref="/subjects/886">Traverse City (Mich.)</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600">Engstrom, Arnell, 1897-1970.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6493">Engstrom, Arnell, 1897-1970.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -108,9 +108,8 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [43067634808410493]">1</container>
-            <unittitle><unitdate type="inclusive" normal="1955/1970">1955-1970</unitdate> [A-Z]</unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [3537108142187180495]">1</container>
+            <unittitle>[A-Z]</unittitle><unitdate type="inclusive" normal="1955/1970">1955-1970</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">24 folders</extent>
             </physdesc>
           </did>
@@ -121,8 +120,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Legislative Files <unitdate type="inclusive" normal="1955/1970">1955-1970</unitdate></unittitle>
-        </did>
+          <unittitle>Legislative Files</unittitle><unitdate type="inclusive" normal="1955/1970">1955-1970</unitdate></did>
         <scopecontent>
           <p>The Legislative Files are arranged alphabetically by topical. Included here is a short subseries of legislative materials arranged alphabetically by correspondent. Some of these materials are identical in nature to those found in the Correspondence Files, yet this arrangement seems to reflect the original arrangement of the materials.</p>
         </scopecontent>
@@ -132,13 +130,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [43067634808410493]">1</container>
+              <container type="box" label="Box [3537108142187180495]">1</container>
               <unittitle>Audit and Appropriations</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [43067634808410493]">1</container>
+              <container type="box" label="Box [3537108142187180495]">1</container>
               <unittitle>Committee on Higher Education</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -147,89 +145,84 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [43067634808410493]">1</container>
-              <unittitle>Elections <unitdate type="inclusive" normal="1952/1962">1952-1962</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3537108142187180495]">1</container>
+              <unittitle>Elections</unittitle><unitdate type="inclusive" normal="1952/1962">1952-1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [43067634808410493]">1</container>
-              <unittitle>Election <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [3537108142187180495]">1</container>
+              <unittitle>Election</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">4 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [43067634808410493]">1</container>
-              <unittitle>Election <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3537108142187180495]">1</container>
+              <unittitle>Election</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [43067634808410493]">1</container>
+              <container type="box" label="Box [3537108142187180495]">1</container>
               <unittitle>Interlochen National Music Camp</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [43067634808410493]">1</container>
+              <container type="box" label="Box [3537108142187180495]">1</container>
               <unittitle>Interstate Cooperation</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [43067634808410493]">1</container>
-              <unittitle>Legislative information <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3537108142187180495]">1</container>
+              <unittitle>Legislative information</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [43067634808410493]">1</container>
+              <container type="box" label="Box [3537108142187180495]">1</container>
               <unittitle>Legislative Service Bureau</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [43067634808410493]">1</container>
+              <container type="box" label="Box [3537108142187180495]">1</container>
               <unittitle>Libraries</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [43067634808410493]">1</container>
+              <container type="box" label="Box [3537108142187180495]">1</container>
               <unittitle>Michigan Tourist Council</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [43067634808410493]">1</container>
+              <container type="box" label="Box [3537108142187180495]">1</container>
               <unittitle>Retirement announcement</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [43067634808410493]">1</container>
+              <container type="box" label="Box [3537108142187180495]">1</container>
               <unittitle>Sault Ste. Marie Armory</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [43067634808410493]">1</container>
+              <container type="box" label="Box [3537108142187180495]">1</container>
               <unittitle>Seventy-first birthday announcement</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [43067634808410493]">1</container>
-              <unittitle>Testimonial Dinner <unitdate type="inclusive" normal="1965-05-01">May 1, 1965</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3537108142187180495]">1</container>
+              <unittitle>Testimonial Dinner</unittitle><unitdate type="inclusive" normal="1965-05-01">May 1, 1965</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [86947269743278316052]">2</container>
+            <container type="box" label="Box [51337514759378900739]">2</container>
             <unittitle>Alphabetical file</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
@@ -250,32 +243,32 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [86947269743278316052]">2</container>
+              <container type="box" label="Box [51337514759378900739]">2</container>
               <unittitle>General</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [86947269743278316052]">2</container>
+              <container type="box" label="Box [51337514759378900739]">2</container>
               <unittitle>Educational Fund, Inc.</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [86947269743278316052]">2</container>
+              <container type="box" label="Box [51337514759378900739]">2</container>
               <unittitle>Board of Trustees Minutes</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [86947269743278316052]">2</container>
+            <container type="box" label="Box [51337514759378900739]">2</container>
             <unittitle>African Trip</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [86947269743278316052]">2</container>
+            <container type="box" label="Box [51337514759378900739]">2</container>
             <unittitle>
               <genreform normal="Photographs">Photographs</genreform>
             </unittitle>

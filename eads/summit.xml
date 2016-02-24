@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,10 +35,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Summit Medical Center (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/4735">Summit Medical Center (Ann Arbor, Mich.)</corpname>
       </origination>
-      <unittitle encodinganalog="245">Summit Medical Center records <unitdate type="inclusive" encodinganalog="245$f" normal="1969/2003">1969-2003</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1970/1985">1970-1985</unitdate></unittitle>
-      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">88298 Bf 2</unitid>
+      <unittitle encodinganalog="245">Summit Medical Center records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1969/2003">1969-2003</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1970/1985">1970-1985</unitdate><unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">88298 Bf 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Ann Arbor, Michigan based non-profit charitable corporation established to provide low-cost health services to low-income individuals and families. The records document the administration and to a lesser degree, the activities of the Summit Medical Center corporation and its clinics. Photographs include portraits of founder, Edward Pierce, and other staff physicians; and photographs of building, staff, and patients.</abstract>
       <physdesc altrender="whole">
@@ -78,27 +78,27 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Charities--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Children--Health and hygiene--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Medicine.</subject>
-        <subject source="lcsh" encodinganalog="650">Physicians--Michigan--Ann Arbor.</subject>
-        <persname source="lcnaf" encodinganalog="700">Pierce, Edward, 1930-</persname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219" ref="/subjects/856">Ann Arbor (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5711">Charities--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8393">Children--Health and hygiene--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6796">Medicine.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6036">Physicians--Michigan--Ann Arbor.</subject>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/4955">Pierce, Edward, 1930-</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <subject source="lctgm" encodinganalog="650">African Americans--Michigan--Ann Arbor--Health and welfare.</subject>
-        <subject source="lctgm" encodinganalog="650">African Americans--Michigan--Ann Arbor--Work.</subject>
-        <geogname source="lctgm" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)--Clinics.</geogname>
-        <subject source="lctgm" encodinganalog="650">Children.</subject>
-        <subject source="lctgm" encodinganalog="650">Clinics--Michigan--Ann Arbor.</subject>
-        <subject source="lctgm" encodinganalog="650">Health care.</subject>
-        <subject source="lctgm" encodinganalog="650">Physicians--Michigan--Ann Arbor.</subject>
-        <persname source="lcnaf" encodinganalog="600">Pierce, Edward, 1930-</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5413">African Americans--Michigan--Ann Arbor--Health and welfare.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5414">African Americans--Michigan--Ann Arbor--Work.</subject>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/685">Ann Arbor (Mich.)--Clinics.</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3620">Children.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5415">Clinics--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3973">Health care.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4124">Physicians--Michigan--Ann Arbor.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4955">Pierce, Edward, 1930-</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -112,28 +112,24 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6673645656407297832258072]">1</container>
-              <unittitle>Educational Materials <unitdate type="inclusive" normal="1975">1975</unitdate>, <unitdate type="inclusive">Undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [21074408768856516]">1</container>
+              <unittitle>Educational Materials</unittitle><unitdate type="inclusive" normal="1975">1975</unitdate><unitdate type="inclusive">Undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6673645656407297832258072]">1</container>
-              <unittitle>Family Planning <unitdate type="inclusive" normal="1973/1977">1973-1977</unitdate>, <unitdate type="inclusive">Undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [21074408768856516]">1</container>
+              <unittitle>Family Planning</unittitle><unitdate type="inclusive" normal="1973/1977">1973-1977</unitdate><unitdate type="inclusive">Undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6673645656407297832258072]">1</container>
-              <unittitle>Medicaid Case <unitdate type="inclusive" normal="1969/1976">1969-1976</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [21074408768856516]">1</container>
+              <unittitle>Medicaid Case</unittitle><unitdate type="inclusive" normal="1969/1976">1969-1976</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6673645656407297832258072]">1</container>
-            <unittitle>Background Information <unitdate type="inclusive" normal="1974">1974</unitdate>, <unitdate type="inclusive">Undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [21074408768856516]">1</container>
+            <unittitle>Background Information</unittitle><unitdate type="inclusive" normal="1974">1974</unitdate><unitdate type="inclusive">Undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -141,40 +137,34 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6673645656407297832258072]">1</container>
-              <unittitle>By-laws <unitdate type="inclusive" normal="1977">1977</unitdate>, <unitdate type="inclusive">Undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [21074408768856516]">1</container>
+              <unittitle>By-laws</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate><unitdate type="inclusive">Undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6673645656407297832258072]">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1976/1978">1976-1978</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [21074408768856516]">1</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1976/1978">1976-1978</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6673645656407297832258072]">1</container>
-              <unittitle>Meeting Minutes <unitdate type="inclusive" normal="1970/1985">1970-1985</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [21074408768856516]">1</container>
+              <unittitle>Meeting Minutes</unittitle><unitdate type="inclusive" normal="1970/1985">1970-1985</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6673645656407297832258072]">1</container>
-              <unittitle>Meeting Minutes (notes, Marcia Barrabee Papers) <unitdate type="inclusive" normal="1975/1979">1975-1979</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [21074408768856516]">1</container>
+              <unittitle>Meeting Minutes (notes, Marcia Barrabee Papers)</unittitle><unitdate type="inclusive" normal="1975/1979">1975-1979</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6673645656407297832258072]">1</container>
-              <unittitle>Roster <unitdate type="inclusive">Undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [21074408768856516]">1</container>
+              <unittitle>Roster</unittitle><unitdate type="inclusive">Undated</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6673645656407297832258072]">1</container>
-            <unittitle>Correspondence, General <unitdate type="inclusive" normal="1970/1977">1970-1977</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [21074408768856516]">1</container>
+            <unittitle>Correspondence, General</unittitle><unitdate type="inclusive" normal="1970/1977">1970-1977</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -182,21 +172,18 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6673645656407297832258072]">1</container>
-              <unittitle>Correspondence with Mel Pierce <unitdate type="inclusive" normal="1971/1979">1971-1979</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [21074408768856516]">1</container>
+              <unittitle>Correspondence with Mel Pierce</unittitle><unitdate type="inclusive" normal="1971/1979">1971-1979</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6673645656407297832258072]">1</container>
-              <unittitle>General <unitdate type="inclusive" normal="1970/1979">1970-1979</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [21074408768856516]">1</container>
+              <unittitle>General</unittitle><unitdate type="inclusive" normal="1970/1979">1970-1979</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6673645656407297832258072]">1</container>
-              <unittitle>Petty Cash Ledger <unitdate type="inclusive" normal="1976/1978">1976-1978</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [21074408768856516]">1</container>
+              <unittitle>Petty Cash Ledger</unittitle><unitdate type="inclusive" normal="1976/1978">1976-1978</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -205,82 +192,69 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6673645656407297832258072]">1</container>
-              <unittitle>General <unitdate type="inclusive" normal="1970/1985">1970-1985</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [21074408768856516]">1</container>
+              <unittitle>General</unittitle><unitdate type="inclusive" normal="1970/1985">1970-1985</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6673645656407297832258072]">1</container>
-              <unittitle>Johnson Foundation <unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [21074408768856516]">1</container>
+              <unittitle>Johnson Foundation</unittitle><unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6673645656407297832258072]">1</container>
-              <unittitle>City of Ann Arbor Revenue Sharing <unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate>, <unitdate type="inclusive">Undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [21074408768856516]">1</container>
+              <unittitle>City of Ann Arbor Revenue Sharing</unittitle><unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate><unitdate type="inclusive">Undated</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0604176859705839]">2</container>
-            <unittitle>Marcia Barrabee Papers--Correspondence <unitdate type="inclusive" normal="1976">1976</unitdate>, <unitdate type="inclusive">Undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [973211846492799214600]">2</container>
+            <unittitle>Marcia Barrabee Papers--Correspondence</unittitle><unitdate type="inclusive" normal="1976">1976</unitdate><unitdate type="inclusive">Undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0604176859705839]">2</container>
-            <unittitle>Memoranda <unitdate type="inclusive" normal="1974/1977">1974-1977</unitdate>, <unitdate type="inclusive">Undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [973211846492799214600]">2</container>
+            <unittitle>Memoranda</unittitle><unitdate type="inclusive" normal="1974/1977">1974-1977</unitdate><unitdate type="inclusive">Undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0604176859705839]">2</container>
-            <unittitle>Michigan Blue Shield <unitdate type="inclusive" normal="1972/1975">1972-1975</unitdate>, <unitdate type="inclusive">Undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [973211846492799214600]">2</container>
+            <unittitle>Michigan Blue Shield</unittitle><unitdate type="inclusive" normal="1972/1975">1972-1975</unitdate><unitdate type="inclusive">Undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0604176859705839]">2</container>
-            <unittitle>Model Cities Health Center <unitdate type="inclusive" normal="1970/1975">1970-1975</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [973211846492799214600]">2</container>
+            <unittitle>Model Cities Health Center</unittitle><unitdate type="inclusive" normal="1970/1975">1970-1975</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0604176859705839]">2</container>
-            <unittitle>Miscellaneous <unitdate type="inclusive" normal="1970">1970</unitdate>, <unitdate type="inclusive" normal="1971">1971</unitdate>, <unitdate type="inclusive">Undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [973211846492799214600]">2</container>
+            <unittitle>Miscellaneous</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate><unitdate type="inclusive" normal="1971">1971</unitdate><unitdate type="inclusive">Undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0604176859705839]">2</container>
-            <unittitle>Monthly Reports <unitdate type="inclusive" normal="1977/1979">1977-1979</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [973211846492799214600]">2</container>
+            <unittitle>Monthly Reports</unittitle><unitdate type="inclusive" normal="1977/1979">1977-1979</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0604176859705839]">2</container>
-            <unittitle>Packard Community Clinic (as an independent organization) <unitdate type="inclusive" normal="1978/2003">1978-2003</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [973211846492799214600]">2</container>
+            <unittitle>Packard Community Clinic (as an independent organization)</unittitle><unitdate type="inclusive" normal="1978/2003">1978-2003</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0604176859705839]">2</container>
-            <unittitle><genreform normal="Photographs">Photographs</genreform> <unitdate type="inclusive" normal="1971">1971</unitdate>, <unitdate type="inclusive" normal="1978">1978</unitdate>, <unitdate type="inclusive">Undated</unitdate> [c1971 and c1979]</unittitle>
-          </did>
+            <container type="box" label="Box [973211846492799214600]">2</container>
+            <unittitle><genreform normal="Photographs">Photographs</genreform> 1971, 1978, Undated [c1971 and c1979]</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate><unitdate type="inclusive" normal="1978">1978</unitdate><unitdate type="inclusive">Undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0604176859705839]">2</container>
-            <unittitle>Policy <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [973211846492799214600]">2</container>
+            <unittitle>Policy</unittitle><unitdate type="inclusive" normal="1973">1973</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0604176859705839]">2</container>
-            <unittitle>Procedures <unitdate type="inclusive" normal="1971/1979">1971-1979</unitdate>, <unitdate type="inclusive">Undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [973211846492799214600]">2</container>
+            <unittitle>Procedures</unittitle><unitdate type="inclusive" normal="1971/1979">1971-1979</unitdate><unitdate type="inclusive">Undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -288,28 +262,24 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0604176859705839]">2</container>
-              <unittitle>Brochures <unitdate type="inclusive" normal="1973">1973</unitdate>, <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [973211846492799214600]">2</container>
+              <unittitle>Brochures</unittitle><unitdate type="inclusive" normal="1973">1973</unitdate><unitdate type="inclusive" normal="1978">1978</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0604176859705839]">2</container>
-              <unittitle>Clippings <unitdate type="inclusive" normal="1970/1985">1970-1985</unitdate>, <unitdate type="inclusive">Undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [973211846492799214600]">2</container>
+              <unittitle>Clippings</unittitle><unitdate type="inclusive" normal="1970/1985">1970-1985</unitdate><unitdate type="inclusive">Undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0604176859705839]">2</container>
-              <unittitle>Newsletters <unitdate type="inclusive" normal="1974/1976">1974-1976</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [973211846492799214600]">2</container>
+              <unittitle>Newsletters</unittitle><unitdate type="inclusive" normal="1974/1976">1974-1976</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0604176859705839]">2</container>
-            <unittitle>Staff Meeting Minutes <unitdate type="inclusive" normal="1975/1976">1975-1976</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [973211846492799214600]">2</container>
+            <unittitle>Staff Meeting Minutes</unittitle><unitdate type="inclusive" normal="1975/1976">1975-1976</unitdate></did>
         </c02>
       </c01>
     </dsc>

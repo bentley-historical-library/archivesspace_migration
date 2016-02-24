@@ -25,10 +25,10 @@ def update_posted_subjects(ead_dir, subjects_agents_dir):
         print "Adding subject uris to {0}".format(filename)
         tree = etree.parse(join(ead_dir,filename))
         for sub in tree.xpath('//controlaccess/*'):
-            if sub.tag in tags and sub.text is not None:
+            if sub.tag in tags and sub.text is not None and not 'ref' in sub.attrib:
                 tag = sub.tag
                 source = sub.attrib['source']
-                subject = sub.text.encode('utf-8')
+                subject = sub.text.strip().encode('utf-8')
                 if subject in posted_subjects[tag][source]:
                     sub.attrib['ref'] = posted_subjects[tag][source][subject]
 

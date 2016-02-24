@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,10 +40,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Conant family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/128">Conant family.</famname>
       </origination>
-      <unittitle encodinganalog="245">Conant Family papers <unitdate type="inclusive" encodinganalog="245$f" normal="1833/2001">1833-2001</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2008180 Aa 2; Ac; UAx</unitid>
+      <unittitle encodinganalog="245">Conant Family papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1833/2001">1833-2001</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2008180 Aa 2; Ac; UAx</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>The Conant Family papers trace several generations of the Conant family in Van Buren Township, Wayne County and Salem Township, Washtenaw County. The collection contains Civil War correspondence, general family correspondence spanning a period of 130 years, warranty deeds regarding the Conant farmstead, genealogical research, photographs and negatives.</abstract>
       <physdesc altrender="part">
@@ -88,27 +88,27 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <famname source="lcnaf" encodinganalog="600">Conant family.</famname>
-        <geogname source="lcsh" encodinganalog="651">Salem (Washtenaw County, Mich. : Township)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Michigan Infantry Regiment, 4th (1861-1864). Company H.</corpname>
-        <geogname source="lcsh" encodinganalog="651">United States--History--Civil War, 1861-1865.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Van Buren (Mich. : Township)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Willow Run Airport (Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Willow Run Bomber Plant.</corpname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/128">Conant family.</famname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1624">Salem (Washtenaw County, Mich. : Township)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/717">United States. Army. Michigan Infantry Regiment, 4th (1861-1864). Company H.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/905">United States--History--Civil War, 1861-1865.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1625">Van Buren (Mich. : Township)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3955">Willow Run Airport (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2910">Willow Run Bomber Plant.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <famname source="lcnaf" encodinganalog="600">Conant family.</famname>
-        <subject source="lctgm" encodinganalog="650">Military uniforms.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Willow Run Airport (Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Willow Run Bomber Plant.</corpname>
-        <geogname source="lcsh" encodinganalog="651">Van Buren (Mich. : Township)</geogname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/128">Conant family.</famname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4088">Military uniforms.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3955">Willow Run Airport (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2910">Willow Run Bomber Plant.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1625">Van Buren (Mich. : Township)</geogname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Daguerreotypes.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="aat" encodinganalog="655">Tintypes.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3197">Daguerreotypes.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3171">Tintypes.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -121,21 +121,18 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7215529846466997511731]">1</container>
-            <unittitle>Abraham Lincoln Funeral Sermon by Rev. Samuel Gorman <unitdate type="inclusive" normal="1865">1865</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [107678452455280026649223]">1</container>
+            <unittitle>Abraham Lincoln Funeral Sermon by Rev. Samuel Gorman</unittitle><unitdate type="inclusive" normal="1865">1865</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7215529846466997511731]">1</container>
-            <unittitle>Army documents <unitdate type="inclusive" normal="1863/1897">1863-1897</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [107678452455280026649223]">1</container>
+            <unittitle>Army documents</unittitle><unitdate type="inclusive" normal="1863/1897">1863-1897</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7215529846466997511731]">1</container>
-            <unittitle>Civil War Correspondence <unitdate type="inclusive" normal="1863">1863</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [107678452455280026649223]">1</container>
+            <unittitle>Civil War Correspondence</unittitle><unitdate type="inclusive" normal="1863">1863</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -145,39 +142,33 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7215529846466997511731]">1</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1847/1862">1847-1862</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [107678452455280026649223]">1</container>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1847/1862">1847-1862</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7215529846466997511731]">1</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1863/1898">1863-1898</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [107678452455280026649223]">1</container>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1863/1898">1863-1898</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7215529846466997511731]">1</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1910/1977">1910-1977</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [107678452455280026649223]">1</container>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1910/1977">1910-1977</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7215529846466997511731]">1</container>
-            <unittitle>Marriage Certificates <unitdate type="inclusive" normal="1864">1864</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [107678452455280026649223]">1</container>
+            <unittitle>Marriage Certificates</unittitle><unitdate type="inclusive" normal="1864">1864</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7215529846466997511731]">1</container>
-            <unittitle>Newspaper Clippings <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [107678452455280026649223]">1</container>
+            <unittitle>Newspaper Clippings</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7215529846466997511731]">1</container>
-            <unittitle>War Rations <unitdate type="inclusive" normal="1945">1945</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [107678452455280026649223]">1</container>
+            <unittitle>War Rations</unittitle><unitdate type="inclusive" normal="1945">1945</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -189,57 +180,48 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7215529846466997511731]">1</container>
-            <unittitle>Abstracts of Title <unitdate type="inclusive" normal="1942">1942</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [107678452455280026649223]">1</container>
+            <unittitle>Abstracts of Title</unittitle><unitdate type="inclusive" normal="1942">1942</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7215529846466997511731]">1</container>
-            <unittitle>Detroit Farmers' Market Report <unitdate type="inclusive" normal="1946">1946</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [107678452455280026649223]">1</container>
+            <unittitle>Detroit Farmers' Market Report</unittitle><unitdate type="inclusive" normal="1946">1946</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7215529846466997511731]">1</container>
-            <unittitle>District Maps <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [107678452455280026649223]">1</container>
+            <unittitle>District Maps</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7215529846466997511731]">1</container>
-            <unittitle>Estate Documents <unitdate type="inclusive" normal="1833/1881">1833-1881</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [107678452455280026649223]">1</container>
+            <unittitle>Estate Documents</unittitle><unitdate type="inclusive" normal="1833/1881">1833-1881</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7215529846466997511731]">1</container>
-            <unittitle>Land Petitions <unitdate type="inclusive" normal="1942">1942</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [107678452455280026649223]">1</container>
+            <unittitle>Land Petitions</unittitle><unitdate type="inclusive" normal="1942">1942</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7215529846466997511731]">1</container>
-            <unittitle>Legal correspondence about land titles <unitdate type="inclusive" normal="1941/1948">1941-1948</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [107678452455280026649223]">1</container>
+            <unittitle>Legal correspondence about land titles</unittitle><unitdate type="inclusive" normal="1941/1948">1941-1948</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7215529846466997511731]">1</container>
-            <unittitle>Mortgage certificates <unitdate type="inclusive" normal="1873/1916">1873-1916</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [107678452455280026649223]">1</container>
+            <unittitle>Mortgage certificates</unittitle><unitdate type="inclusive" normal="1873/1916">1873-1916</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7215529846466997511731]">1</container>
-            <unittitle>Pension documents <unitdate type="inclusive" normal="1903/1981">1903-1981</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [107678452455280026649223]">1</container>
+            <unittitle>Pension documents</unittitle><unitdate type="inclusive" normal="1903/1981">1903-1981</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7215529846466997511731]">1</container>
-            <unittitle>Warranty Deeds <unitdate type="inclusive" normal="1833">1833</unitdate>, <unitdate type="inclusive" normal="1873/1942">1873-1942</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [107678452455280026649223]">1</container>
+            <unittitle>Warranty Deeds</unittitle><unitdate type="inclusive" normal="1833">1833</unitdate><unitdate type="inclusive" normal="1873/1942">1873-1942</unitdate></did>
           <odd>
             <p>(include land deed, 1833 in oversize folder)</p>
           </odd>
@@ -254,60 +236,51 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7215529846466997511731]">1</container>
-            <unittitle>Personal narratives/memories <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [107678452455280026649223]">1</container>
+            <unittitle>Personal narratives/memories</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7215529846466997511731]">1</container>
-            <unittitle>Conant Genealogical Published Research by Frederick Odell Conant <unitdate type="inclusive" normal="1887">1887</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [107678452455280026649223]">1</container>
+            <unittitle>Conant Genealogical Published Research by Frederick Odell Conant</unittitle><unitdate type="inclusive" normal="1887">1887</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7215529846466997511731]">1</container>
-            <unittitle>Roger Conant Family Association <unitdate type="inclusive" normal="1913/1919">1913-1919</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [107678452455280026649223]">1</container>
+            <unittitle>Roger Conant Family Association</unittitle><unitdate type="inclusive" normal="1913/1919">1913-1919</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7215529846466997511731]">1</container>
-            <unittitle>John Wesley Conant House <unitdate type="inclusive" normal="1990/1993">1990-1993</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [107678452455280026649223]">1</container>
+            <unittitle>John Wesley Conant House</unittitle><unitdate type="inclusive" normal="1990/1993">1990-1993</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7215529846466997511731]">1</container>
-            <unittitle>Other Families <unitdate type="inclusive" normal="1904/2001">1904-2001</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [107678452455280026649223]">1</container>
+            <unittitle>Other Families</unittitle><unitdate type="inclusive" normal="1904/2001">1904-2001</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7215529846466997511731]">1</container>
-            <unittitle>Genealogy Notebook <unitdate type="inclusive">undated</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [107678452455280026649223]">1</container>
+            <unittitle>Genealogy Notebook</unittitle><unitdate type="inclusive">undated</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7215529846466997511731]">1</container>
-            <unittitle>Family Trees <unitdate type="inclusive" normal="1986" certainty="approximate">1986 undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [107678452455280026649223]">1</container>
+            <unittitle>Family Trees</unittitle><unitdate type="inclusive" normal="1986" certainty="approximate">1986 undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7215529846466997511731]">1</container>
-            <unittitle>Emigrant's Directory <unitdate type="inclusive" normal="1834">1834</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [107678452455280026649223]">1</container>
+            <unittitle>Emigrant's Directory</unittitle><unitdate type="inclusive" normal="1834">1834</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7215529846466997511731]">1</container>
-            <unittitle>Gettysburg Hat Story <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [107678452455280026649223]">1</container>
+            <unittitle>Gettysburg Hat Story</unittitle><unitdate type="inclusive" normal="1996">1996</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -321,75 +294,64 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7215529846466997511731]">1</container>
-            <unittitle>Portraits <unitdate type="inclusive" normal="1860/1899" certainty="approximate">circa 1860s-1890s</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [107678452455280026649223]">1</container>
+            <unittitle>Portraits</unittitle><unitdate type="inclusive" normal="1860/1899" certainty="approximate">circa 1860s-1890s</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7215529846466997511731]">1</container>
-            <unittitle>Family Photographs <unitdate type="inclusive" normal="1860/1919" certainty="approximate">circa 1860s-1910s</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [107678452455280026649223]">1</container>
+            <unittitle>Family Photographs</unittitle><unitdate type="inclusive" normal="1860/1919" certainty="approximate">circa 1860s-1910s</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7215529846466997511731]">1</container>
-            <unittitle>Family Photographs <unitdate type="inclusive" normal="1950/1999" certainty="approximate">circa 1950s-1990s</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [107678452455280026649223]">1</container>
+            <unittitle>Family Photographs</unittitle><unitdate type="inclusive" normal="1950/1999" certainty="approximate">circa 1950s-1990s</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7215529846466997511731]">1</container>
-            <unittitle>Family Photographs <unitdate type="inclusive" normal="1990/1999" certainty="approximate">circa 1990s</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [107678452455280026649223]">1</container>
+            <unittitle>Family Photographs</unittitle><unitdate type="inclusive" normal="1990/1999" certainty="approximate">circa 1990s</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7215529846466997511731]">1</container>
-            <unittitle>Buildings in Michigan including family house and churches <unitdate type="inclusive" normal="1971" certainty="approximate">1971 undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [107678452455280026649223]">1</container>
+            <unittitle>Buildings in Michigan including family house and churches</unittitle><unitdate type="inclusive" normal="1971" certainty="approximate">1971 undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7215529846466997511731]">1</container>
-            <unittitle>Photograph scans of early family photos <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [107678452455280026649223]">1</container>
+            <unittitle>Photograph scans of early family photos</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7215529846466997511731]">1</container>
-            <unittitle>Negatives <unitdate type="inclusive" normal="1940/1999" certainty="approximate">1940s-1990s</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [107678452455280026649223]">1</container>
+            <unittitle>Negatives</unittitle><unitdate type="inclusive" normal="1940/1999" certainty="approximate">1940s-1990s</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7215529846466997511731]">1</container>
-            <unittitle>Description of Negatives? <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [107678452455280026649223]">1</container>
+            <unittitle>Description of Negatives?</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7215529846466997511731]">1</container>
-            <unittitle>Denton School postcard <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [107678452455280026649223]">1</container>
+            <unittitle>Denton School postcard</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7215529846466997511731]">1</container>
-            <unittitle>John Denton home, Denton Road <unitdate type="inclusive" normal="1887" certainty="approximate">circa 1887</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [107678452455280026649223]">1</container>
+            <unittitle>John Denton home, Denton Road</unittitle><unitdate type="inclusive" normal="1887" certainty="approximate">circa 1887</unitdate></did>
           <odd>
             <p>tintype</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Oversize Folder [84134054046085495711645818]">UAx</container>
-            <unittitle>John Conant and Family <unitdate type="inclusive" normal="1860/1869" certainty="approximate">circa 1860s</unitdate></unittitle>
-            <physdesc>
+            <container type="folder" label="Oversize Folder [3848059462868167]">UAx</container>
+            <unittitle>John Conant and Family</unittitle><unitdate type="inclusive" normal="1860/1869" certainty="approximate">circa 1860s</unitdate><physdesc>
               <physfacet><genreform normal="Daguerreotypes">daguerreotypes</genreform> and <genreform normal="Tintypes">tintypes</genreform></physfacet>
             </physdesc>
           </did>

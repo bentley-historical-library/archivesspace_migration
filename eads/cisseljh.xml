@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Cissel, James H., 1889-1949.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/4029">Cissel, James H., 1889-1949.</persname>
       </origination>
-      <unittitle encodinganalog="245">James H. Cissel papers <unitdate type="inclusive" encodinganalog="245$f" normal="1934/1943">1934-1943</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85962 Aa 2</unitid>
+      <unittitle encodinganalog="245">James H. Cissel papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1934/1943">1934-1943</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85962 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Professor of Civil Engineering at the University of Michigan; designer of the proposed Mackinac Bridge; and member of the Mackinac Straits Bridge Authority. Correspondence, newspaper clippings, blueprints and notes concerning the design and construction of the Mackinac Bridge in Michigan. Correspondents include: Mortimer E. Cooley and G. Donald Kennedy.</abstract>
       <physdesc altrender="whole">
@@ -80,29 +80,29 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Cissel, James H. (James Harlan), b. 1889.</persname>
-        <subject source="lcsh" encodinganalog="650">Bridges--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Engineers--Michigan--Ann Arbor.</subject>
-        <geogname source="lcsh" encodinganalog="651">Mackinac Bridge (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. Mackinac Straits Bridge Authority.</corpname>
-        <subject source="lcsh" encodinganalog="650">Traffic engineering--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80094504">University of Michigan. College of Engineering.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4692">Cissel, James H. (James Harlan), b. 1889.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6193">Bridges--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6404">Engineers--Michigan--Ann Arbor.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1370">Mackinac Bridge (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5018">Michigan. Mackinac Straits Bridge Authority.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6818">Traffic engineering--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80094504" ref="/agents/corporate_entities/304">University of Michigan. College of Engineering.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <subject source="lctgm" encodinganalog="650">Ferries.</subject>
-        <geogname source="lcsh" encodinganalog="651">Mackinac, Straits of (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n88268193">Mackinaw City (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3785">Ferries.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1581">Mackinac, Straits of (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n88268193" ref="/subjects/1001">Mackinaw City (Mich.)</geogname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84804477">Cooley, Mortimer E. (Mortimer Elwyn), 1855-1944.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008190250">Kennedy, G. Donald (George Donald), 1900-1988</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84804477" ref="/agents/people/8819">Cooley, Mortimer E. (Mortimer Elwyn), 1855-1944.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008190250" ref="/agents/people/1233">Kennedy, G. Donald (George Donald), 1900-1988</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -115,43 +115,28 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3918909374073987131845078]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1934/1936">1934-1936</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [78174252466967548207586]">1</container>
+            <unitdate type="inclusive" normal="1934/1936">1934-1936</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3918909374073987131845078]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1937">1937</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [78174252466967548207586]">1</container>
+            <unitdate type="inclusive" normal="1937">1937</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3918909374073987131845078]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1938">1938</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [78174252466967548207586]">1</container>
+            <unitdate type="inclusive" normal="1938">1938</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3918909374073987131845078]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1939">1939</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [78174252466967548207586]">1</container>
+            <unitdate type="inclusive" normal="1939">1939</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3918909374073987131845078]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1940">1940</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [78174252466967548207586]">1</container>
+            <unitdate type="inclusive" normal="1940">1940</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -163,89 +148,67 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3918909374073987131845078]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1934/1935">1934-1935</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [78174252466967548207586]">1</container>
+            <unitdate type="inclusive" normal="1934/1935">1934-1935</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3918909374073987131845078]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1936">1936</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [78174252466967548207586]">1</container>
+            <unitdate type="inclusive" normal="1936">1936</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3918909374073987131845078]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1937">1937</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [78174252466967548207586]">1</container>
+            <unitdate type="inclusive" normal="1937">1937</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3918909374073987131845078]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1938">1938</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [78174252466967548207586]">1</container>
+            <unitdate type="inclusive" normal="1938">1938</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3918909374073987131845078]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1939">1939</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [78174252466967548207586]">1</container>
+            <unitdate type="inclusive" normal="1939">1939</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3918909374073987131845078]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1940">1940</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [78174252466967548207586]">1</container>
+            <unitdate type="inclusive" normal="1940">1940</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Ferry Boat Data <unitdate type="inclusive" normal="1923/1943">1923-1943</unitdate></unittitle>
-        </did>
+          <unittitle>Ferry Boat Data</unittitle><unitdate type="inclusive" normal="1923/1943">1923-1943</unitdate></did>
         <scopecontent>
           <p>The Ferry Boat Data series includes photographs, traffic growth charts, receipt summaries, regulations, and newspaper clippings. Highway traffic maps and monthly and yearly charts of vehicles transported by the ferries make up the Traffic Data folder in this series.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3918909374073987131845078]">1</container>
-            <unittitle>Ferry Boat Operation Data for the years <unitdate type="inclusive" normal="1923/1938">1923-1938</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [78174252466967548207586]">1</container>
+            <unittitle>Ferry Boat Operation Data for the years</unittitle><unitdate type="inclusive" normal="1923/1938">1923-1938</unitdate></did>
           <odd>
             <p>(includes <genreform normal="Photographs">photographs</genreform>)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3918909374073987131845078]">1</container>
-            <unittitle>Traffic Data of Michigan State Ferry for the years <unitdate type="inclusive" normal="1923/1943">1923-1943</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [78174252466967548207586]">1</container>
+            <unittitle>Traffic Data of Michigan State Ferry for the years</unittitle><unitdate type="inclusive" normal="1923/1943">1923-1943</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Legislation <unitdate type="inclusive" normal="1934/1939">1934-1939</unitdate></unittitle>
-        </did>
+          <unittitle>Legislation</unittitle><unitdate type="inclusive" normal="1934/1939">1934-1939</unitdate></did>
         <scopecontent>
           <p>The Legislation file includes bills relating to the Mackinac Straits Bridge Authority from 1934 to 1939, proposals, and testimony by the State Highway Department's Murray D. Van Wagoner.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3918909374073987131845078]">1</container>
+            <container type="box" label="Box [78174252466967548207586]">1</container>
             <unittitle>Mackinac Straits Bridge Authority</unittitle>
           </did>
         </c02>
@@ -259,56 +222,51 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3918909374073987131845078]">1</container>
-            <unittitle>Comparative Studies of Cost for Three Proposed Routes (with exhibits) <unitdate type="inclusive" normal="1934">1934</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [78174252466967548207586]">1</container>
+            <unittitle>Comparative Studies of Cost for Three Proposed Routes (with exhibits)</unittitle><unitdate type="inclusive" normal="1934">1934</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3918909374073987131845078]">1</container>
-            <unittitle>"A Report Showing the Comparative Costs of Three Routes Crossing the Straits of Mackinac" by Glenn L. Alt and A.A. Jakkula <unitdate type="inclusive" normal="1934">1934</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [78174252466967548207586]">1</container>
+            <unittitle>"A Report Showing the Comparative Costs of Three Routes Crossing the Straits of Mackinac" by Glenn L. Alt and A.A. Jakkula</unittitle><unitdate type="inclusive" normal="1934">1934</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3918909374073987131845078]">1</container>
-            <unittitle>Studies for alternate routes and designs <unitdate type="inclusive" normal="1934">1934</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [78174252466967548207586]">1</container>
+            <unittitle>Studies for alternate routes and designs</unittitle><unitdate type="inclusive" normal="1934">1934</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3918909374073987131845078]">1</container>
+            <container type="box" label="Box [78174252466967548207586]">1</container>
             <unittitle>Report of Modjeski and Masters, consulting engineers, on Mackinac Straits Bridge</unittitle>
           </did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Publications <unitdate type="inclusive" normal="1935/1939">1935-1939</unitdate></unittitle>
-        </did>
+          <unittitle>Publications</unittitle><unitdate type="inclusive" normal="1935/1939">1935-1939</unitdate></did>
         <scopecontent>
           <p>Publications, consisting mainly of magazine articles and theses, further document the effort to build a bridge and span from 1935 to 1939 with a large portion of the materials authored by Cissel.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3918909374073987131845078]">1</container>
+            <container type="box" label="Box [78174252466967548207586]">1</container>
             <unittitle>Magazine articles and theses regarding effort to build bridge</unittitle>
           </did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Blueprints <unitdate type="inclusive" normal="1934/1935">1934-1935</unitdate>, <unitdate type="inclusive" normal="1938/1939">1938-1939</unitdate></unittitle>
-        </did>
+          <unittitle>Blueprints</unittitle><unitdate type="inclusive" normal="1934/1935">1934-1935</unitdate><unitdate type="inclusive" normal="1938/1939">1938-1939</unitdate></did>
         <scopecontent>
           <p>Blueprints show the three different routes considered for the Mackinac Bridge as well as location studies for foundations and borings.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3918909374073987131845078]">1</container>
+            <container type="box" label="Box [78174252466967548207586]">1</container>
             <unittitle>Proposed Bridge over Straits of Mackinac</unittitle>
           </did>
         </c02>
@@ -318,13 +276,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3918909374073987131845078]">1</container>
+              <container type="box" label="Box [78174252466967548207586]">1</container>
               <unittitle>Borings and Foundations</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3918909374073987131845078]">1</container>
+              <container type="box" label="Box [78174252466967548207586]">1</container>
               <unittitle>Proposed Bridge over Straits of Mackinac</unittitle>
             </did>
           </c03>

@@ -31,9 +31,9 @@ def update_posted_digital_objects(ead_dir, digital_objects_dir):
 
 def main():
 	project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    aspace_ead_dir = join(project_dir, 'eads')
-    digital_objects_dir = join(project_dir,'digital_objects')
-    update_posted_digital_objects(aspace_ead_dir, digital_objects_dir)
+	aspace_ead_dir = join(project_dir, 'eads')
+	digital_objects_dir = join(project_dir,'digital_objects')
+	update_posted_digital_objects(aspace_ead_dir, digital_objects_dir)
 
 if __name__ == "__main__":
 	main()

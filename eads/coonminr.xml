@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Minor J. Coon.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/6866">Minor J. Coon.</persname>
       </origination>
-      <unittitle encodinganalog="245">Minor J. Coon papers <unitdate type="inclusive" encodinganalog="245$f" normal="1946/2004">1946-2004</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1970/1999">1970-1999</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0774 Aa 2</unitid>
+      <unittitle encodinganalog="245">Minor J. Coon papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1946/2004">1946-2004</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1970/1999">1970-1999</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0774 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Professor and Chair of the Department of Biological Chemistry at the University of Michigan. Coon was internationally recognized for his pioneering research in P450 enzymes. Papers include topical files containing biographical and professional records, including reviews of the biological chemistry department from 1970-1988, awards, honorary degrees, lectureships, and programs. Also includes photographs that span Coon's 47-year career at the University of Michigan, with a focus on awards received.</abstract>
       <physdesc altrender="whole">
@@ -81,16 +81,16 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80010128">Coon, Minor Jesser, 1921-</persname>
-        <subject source="lcsh" encodinganalog="650">Biochemistry--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Biological Chemistry.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
-        <subject source="lcsh" encodinganalog="650">Cytochrome P-450.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151">University of Michigan. Medical School.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80010128" ref="/agents/people/2575">Coon, Minor Jesser, 1921-</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7003">Biochemistry--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4811">University of Michigan. Dept. of Biological Chemistry.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7004">Cytochrome P-450.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151" ref="/agents/corporate_entities/3042">University of Michigan. Medical School.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -103,27 +103,24 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [13726247494099446693974260]">1</container>
+            <container type="box" label="Box [320033492181062371584]">1</container>
             <unittitle>Awards</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [13726247494099446693974260]">1</container>
-            <unittitle>Bibliography <unitdate type="inclusive" normal="2005">2005</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [320033492181062371584]">1</container>
+            <unittitle>Bibliography</unittitle><unitdate type="inclusive" normal="2005">2005</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [13726247494099446693974260]">1</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1987/2004">1987-2004</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [320033492181062371584]">1</container>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1987/2004">1987-2004</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [13726247494099446693974260]">1</container>
-            <unittitle>Curriculum Vitae <unitdate type="inclusive" normal="2005">2005</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [320033492181062371584]">1</container>
+            <unittitle>Curriculum Vitae</unittitle><unitdate type="inclusive" normal="2005">2005</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -131,122 +128,110 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [13726247494099446693974260]">1</container>
-              <unittitle>Biological Chemistry Department Chairman Summaries <unitdate type="inclusive" normal="1970/1990">1970-1990</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [320033492181062371584]">1</container>
+              <unittitle>Biological Chemistry Department Chairman Summaries</unittitle><unitdate type="inclusive" normal="1970/1990">1970-1990</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [13726247494099446693974260]">1</container>
-              <unittitle>Biological Chemistry Department Periodic Review <unitdate type="inclusive" normal="1976/1981">1976-1981</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [320033492181062371584]">1</container>
+              <unittitle>Biological Chemistry Department Periodic Review</unittitle><unitdate type="inclusive" normal="1976/1981">1976-1981</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [13726247494099446693974260]">1</container>
-              <unittitle>Biological Chemistry Department Review <unitdate type="inclusive" normal="1970/1976">1970-1976</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [320033492181062371584]">1</container>
+              <unittitle>Biological Chemistry Department Review</unittitle><unitdate type="inclusive" normal="1970/1976">1970-1976</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [13726247494099446693974260]">1</container>
-              <unittitle>Biological Chemistry Department Review <unitdate type="inclusive" normal="1981/1988">1981-1988</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [320033492181062371584]">1</container>
+              <unittitle>Biological Chemistry Department Review</unittitle><unitdate type="inclusive" normal="1981/1988">1981-1988</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [13726247494099446693974260]">1</container>
-              <unittitle><title render="italic">Report of the External Review of the Department of Biological Chemistry</title>, <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [320033492181062371584]">1</container>
+              <unittitle><title render="italic">Report of the External Review of the Department of Biological Chemistry</title></unittitle><unitdate type="inclusive" normal="1983">1983</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [13726247494099446693974260]">1</container>
-            <unittitle>Dissertation: <title render="italic">The Amino Acid Requirements of Man</title>, <unitdate type="inclusive" normal="1946">1946</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [320033492181062371584]">1</container>
+            <unittitle>Dissertation: <title render="italic">The Amino Acid Requirements of Man</title></unittitle><unitdate type="inclusive" normal="1946">1946</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [13726247494099446693974260]">1</container>
-            <unittitle>FASEB Satellite Symposium <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [320033492181062371584]">1</container>
+            <unittitle>FASEB Satellite Symposium</unittitle><unitdate type="inclusive" normal="1991">1991</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [13726247494099446693974260]">1</container>
-            <unittitle>Henry Russel Lectureship <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [320033492181062371584]">1</container>
+            <unittitle>Henry Russel Lectureship</unittitle><unitdate type="inclusive" normal="1991">1991</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [13726247494099446693974260]">1</container>
+            <container type="box" label="Box [320033492181062371584]">1</container>
             <unittitle>Honorary Degrees</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [13726247494099446693974260]">1</container>
-            <unittitle>LCME Data, Biological Chemistry <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [320033492181062371584]">1</container>
+            <unittitle>LCME Data, Biological Chemistry</unittitle><unitdate type="inclusive" normal="1981">1981</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [13726247494099446693974260]">1</container>
+            <container type="box" label="Box [320033492181062371584]">1</container>
             <unittitle>Lu, Anthony Y. H.</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [13726247494099446693974260]">1</container>
+            <container type="box" label="Box [320033492181062371584]">1</container>
             <unittitle>Minor J. and Mary Lou Coon Graduate Student Fellowship Award</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [13726247494099446693974260]">1</container>
+            <container type="box" label="Box [320033492181062371584]">1</container>
             <unittitle>News Clippings</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [13726247494099446693974260]">1</container>
-            <unittitle>P450 Conference <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [320033492181062371584]">1</container>
+            <unittitle>P450 Conference</unittitle><unitdate type="inclusive" normal="2001">2001</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [13726247494099446693974260]">1</container>
+            <container type="box" label="Box [320033492181062371584]">1</container>
             <unittitle>Porter, Todd D.</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [13726247494099446693974260]">1</container>
+            <container type="box" label="Box [320033492181062371584]">1</container>
             <unittitle>Programs, Invitations, Flyers</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [13726247494099446693974260]">1</container>
-            <unittitle>Retirement Memoir <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [320033492181062371584]">1</container>
+            <unittitle>Retirement Memoir</unittitle><unitdate type="inclusive" normal="2002">2002</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [13726247494099446693974260]">1</container>
-            <unittitle>Search and Survey Committee and Coon Appointment <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [320033492181062371584]">1</container>
+            <unittitle>Search and Survey Committee and Coon Appointment</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1665340530338839]">2</container>
+            <container type="box" label="Box [22961439599135042]">2</container>
             <unittitle>Victor C. Vaughan Distinguished Professorship</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1665340530338839]">2</container>
+            <container type="box" label="Box [22961439599135042]">2</container>
             <unittitle>Writings</unittitle>
           </did>
         </c02>
@@ -260,11 +245,8 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1665340530338839]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1959/2002">1959-2002</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [22961439599135042]">2</container>
+            <unitdate type="inclusive" normal="1959/2002">1959-2002</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 packets</extent>
             </physdesc>
           </did>

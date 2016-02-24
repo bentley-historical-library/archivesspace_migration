@@ -39,7 +39,8 @@
         <item>original encoding from Word 6.0 file</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -50,10 +51,9 @@
   <archdesc level="recordgrp" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Michigan Synodical Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/5060">Michigan Synodical Association.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Michigan Synodical Association Records <unitdate encodinganalog="245$f" type="inclusive" normal="1873/1973">1873-1973</unitdate>, <unitdate encodinganalog="245$g" type="bulk" normal="1942/1968">1942-1968</unitdate></unittitle>
-      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">852107 Ba 2</unitid>
+      <unittitle encodinganalog="245">Michigan Synodical Association Records</unittitle><unitdate encodinganalog="245$f" type="inclusive" normal="1873/1973">1873-1973</unitdate><unitdate encodinganalog="245$g" type="bulk" normal="1942/1968">1942-1968</unitdate><unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">852107 Ba 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <abstract>Women's organization of the Michigan Synod of the Presbyterian Church of Michigan formed in 1919 through merger of the Michigan Woman's Foreign Missionary Society and the Michigan Woman's Foreign Missionary Society. papers include administrative files, annual reports, and minutes of committees and annual meetings</abstract>
       <physdesc altrender="whole">
@@ -84,7 +84,7 @@
       <p>In the early 1930s the function of presbyterials changed as presbyterial boundaries were redrawn. As a result, the character of the Michigan Synodical Society also changed with more emphasis given to developing leadership abilities among the church women. Despite these changes, missions remained a primary focus of the society. In 1961, the designation "presbyterial" was dropped, and the local presbyterial-level groups were known simply as the United Presbyterian Women. In 1968, the name of the organization was changed to Michigan Synodical Association, and in 1969, it became part of the <corpname>Synodical of the Covenant</corpname>, covering the area of <geogname>Michigan</geogname>, <geogname>Ohio</geogname>, and <geogname>Kentucky</geogname>.</p>
     </bioghist>
     <arrangement encodinganalog="351">
-      <p>The records have been divided into three series and several sub-series: <list type="simple"><item>Historical Material</item><item>Administration</item><item>Presbyterials <sublist type="simple"><subitem>Minutes, newsletters, etc.</subitem><subitem>Annual Meeting Booklets and Year Books</subitem></sublist></item></list> Within each series the arrangement is primarily chronologically.</p>
+      <p>The records have been divided into three series and several sub-series: <list type="simple"><item>Historical Material</item><item>Administration</item><item>Presbyterials <sublist type="simple"><subitem>Minutes, newsletters, etc.</subitem> <subitem>Annual Meeting Booklets and Year Books</subitem></sublist></item></list> Within each series the arrangement is primarily chronologically.</p>
     </arrangement>
     <scopecontent encodinganalog="520">
       <p>The records of the Michigan Synodical Society document its historical development, the administration of its business, its annual meetings, and its interests in missions, both foreign and home missions, from 1873 to 1973. These records document the beginnings of both the foreign (1873) and home (1879) missionary societies which eventually became the Michigan Synodical Society (1919). The bulk of the collection, however, covers the later period, 1942-1968.</p>
@@ -95,153 +95,131 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Synodical Association.</corpname>
-        <subject source="lcsh" encodinganalog="650">Women--Religious life--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">United Presbyterian Church in the U.S.A.--Michigan.</corpname>
-        <subject source="lcsh" encodinganalog="650">Women in the Presbyterian Church--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5060">Michigan Synodical Association.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6333">Women--Religious life--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/84">United Presbyterian Church in the U.S.A.--Michigan.<term type="geographic">Michigan.</term></corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9398">Women in the Presbyterian Church--Michigan.</subject>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Historical Materials <unitdate type="inclusive" normal="1873/1962">1873-1962</unitdate></unittitle>
-        </did>
+          <unittitle>Historical Materials</unittitle><unitdate type="inclusive" normal="1873/1962">1873-1962</unitdate></did>
         <scopecontent>
           <p>The Historical Materials series is comprised of materials relating to all four organizations encompassed by the Michigan Synodical Society, and covers the years 1873-1962. Each committee has been assigned a folder. The fifth folder in this series contains constitutions and bylaws of both mission committees, the Michigan Synodical Society, and almost every presbyterial, 1882-1969. Of particular interest is a list of the names and places of origin in Michigan of the Presbyterian missionaries sent all over the world, a booklet printed by the Detroit Mission arm of the Woman's Board of Home Missions (c.1919), a booklet printed for the Silver Jubilee of the Foreign Missionary Society (1898), and an historical summary of the Board of Home Missions as delivered at its Golden Jubilee in 1929. It should be noted that although there is reference in these folders to minutes of both committees, the minutes recorded prior to 1942 are not included. In the one hundred years covering the history of the Michigan Synodical Society, a handful of women stand out in leadership and dedicated service. Particular mention should be made of Mrs. Agnes Moffit Mitchell [1856-1933] who served as president of Home Missions, 1908-1919, and then went on to lead the new Synodical Society, 1919-1931.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container label="Box [5534449887250039454]" type="box">1</container>
-            <unittitle><corpname>Michigan Woman's Foreign Missionary Society</corpname>, <unitdate type="inclusive" normal="1873/1955">1873-1955</unitdate></unittitle>
-          </did>
+            <container label="Box [3221914487945770198664]" type="box">1</container>
+            <unittitle><corpname>Michigan Woman's Foreign Missionary Society</corpname></unittitle><unitdate type="inclusive" normal="1873/1955">1873-1955</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5534449887250039454]">1</container>
-            <unittitle><corpname>Michigan Woman's Board of Home Missions</corpname>, <unitdate type="inclusive" normal="1879/1929">1879-1929</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3221914487945770198664]">1</container>
+            <unittitle><corpname>Michigan Woman's Board of Home Missions</corpname></unittitle><unitdate type="inclusive" normal="1879/1929">1879-1929</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle><corpname>Michigan Synodical Society</corpname>, <unitdate type="inclusive" normal="1873/1962">1873-1962</unitdate></unittitle>
-          </did>
+            <unittitle><corpname>Michigan Synodical Society</corpname></unittitle><unitdate type="inclusive" normal="1873/1962">1873-1962</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5534449887250039454]">1</container>
-              <unittitle>General <unitdate type="inclusive" normal="1919/1969">1919-1969</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3221914487945770198664]">1</container>
+              <unittitle>General</unittitle><unitdate type="inclusive" normal="1919/1969">1919-1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5534449887250039454]">1</container>
-              <unittitle>Election of Synodical Officers <unitdate type="inclusive" normal="1873/1955">1873-1955</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3221914487945770198664]">1</container>
+              <unittitle>Election of Synodical Officers</unittitle><unitdate type="inclusive" normal="1873/1955">1873-1955</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5534449887250039454]">1</container>
-              <unittitle>Memorials of Synodical Officers <unitdate type="inclusive" normal="1873/1955">1873-1955</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3221914487945770198664]">1</container>
+              <unittitle>Memorials of Synodical Officers</unittitle><unitdate type="inclusive" normal="1873/1955">1873-1955</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5534449887250039454]">1</container>
-            <unittitle>Michigan Presbyterials <unitdate type="inclusive" normal="1932/1955">1932-1955</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3221914487945770198664]">1</container>
+            <unittitle>Michigan Presbyterials</unittitle><unitdate type="inclusive" normal="1932/1955">1932-1955</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5534449887250039454]">1</container>
-            <unittitle>Constitutions and By-Laws <unitdate type="inclusive" normal="1882/1969">1882-1969</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3221914487945770198664]">1</container>
+            <unittitle>Constitutions and By-Laws</unittitle><unitdate type="inclusive" normal="1882/1969">1882-1969</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Administration <unitdate type="inclusive" normal="1933/1971">1933-1971</unitdate></unittitle>
-        </did>
+          <unittitle>Administration</unittitle><unitdate type="inclusive" normal="1933/1971">1933-1971</unitdate></did>
         <scopecontent>
           <p>The second series concerns the Administration of the Michigan Synodical Society, 1933-1971. This series consists of two major categories of materials: the minutes of the society, 1942-1968, and files relating to its stewardship called "Goals and Giving" and covering the years, 1955-1968. The minutes have been organized chronologically by year, interweaving the minutes of the annual meetings (June) and the mid-Winter executive meetings (January), with any additional executive meetings that might have occurred.</p>
           <p>The remainder of this series consists of files reflecting the responsibilities and interests of the association. The synodical put out its own newsletter, called the <title render="italic">Michigan Synodical Signpos</title> t (later becoming the <title render="italic">Michigan Messenger</title>). Only a few copies of very few years are part of this collection: 1948-1950, 1959. One folder marks the relationship between Felicia Sunderlal from India and the women of the association. It begins with preparation for her arrival in 1954 and closes with her mother's communication of her death in 1962. There are two folders containing summary information: "Annual Meeting Booklets (with Year Book information), 1941-1959," and "Year Books, 1958/1959-1970/1971." Prior to 1959 the Annual Meeting Booklets contained information later found in the Society's year books. However, they also included the order of service which opened the annual meeting, as well as the agenda for the meeting.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container label="Box [5534449887250039454]" type="box">1</container>
-            <unittitle>Minutes of Annual and Mid Winter Executive Meetings <unitdate type="inclusive" normal="1942/1968">1942-1968</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container label="Box [3221914487945770198664]" type="box">1</container>
+            <unittitle>Minutes of Annual and Mid Winter Executive Meetings</unittitle><unitdate type="inclusive" normal="1942/1968">1942-1968</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">27 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5534449887250039454]">1</container>
-            <unittitle>Goals and Giving <unitdate type="inclusive" normal="1955/1968">1955-1968</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [3221914487945770198664]">1</container>
+            <unittitle>Goals and Giving</unittitle><unitdate type="inclusive" normal="1955/1968">1955-1968</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">14 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Box [43075269646887084883]" type="box">2</container>
-            <unittitle><corpname>Alma College</corpname>, <unitdate type="inclusive" normal="1957/1964">1957-1964</unitdate></unittitle>
-          </did>
+            <container label="Box [0188234848047735729]" type="box">2</container>
+            <unittitle><corpname>Alma College</corpname></unittitle><unitdate type="inclusive" normal="1957/1964">1957-1964</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [43075269646887084883]">2</container>
-            <unittitle>Annual Meeting Booklets (with year book information) <unitdate type="inclusive" normal="1941/1959">1941-1959</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0188234848047735729]">2</container>
+            <unittitle>Annual Meeting Booklets (with year book information)</unittitle><unitdate type="inclusive" normal="1941/1959">1941-1959</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [43075269646887084883]">2</container>
-            <unittitle>Annual Reports to Synod <unitdate type="inclusive" normal="1942/1968">1942-1968</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0188234848047735729]">2</container>
+            <unittitle>Annual Reports to Synod</unittitle><unitdate type="inclusive" normal="1942/1968">1942-1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [43075269646887084883]">2</container>
-            <unittitle>Correspondence between Synodical and Presbyterial Presidents <unitdate type="inclusive" normal="1964/1968">1964-1968</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0188234848047735729]">2</container>
+            <unittitle>Correspondence between Synodical and Presbyterial Presidents</unittitle><unitdate type="inclusive" normal="1964/1968">1964-1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [43075269646887084883]">2</container>
-            <unittitle>Membership <unitdate type="inclusive" normal="1956/1965">1956-1965</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0188234848047735729]">2</container>
+            <unittitle>Membership</unittitle><unitdate type="inclusive" normal="1956/1965">1956-1965</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [43075269646887084883]">2</container>
-            <unittitle><title render="italic">Michigan Synodical Signpost</title> (later <title render="italic">Michigan Synodical Messenger</title>), <unitdate type="inclusive" normal="1948/1950">1948-1950</unitdate>, <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0188234848047735729]">2</container>
+            <unittitle><title render="italic">Michigan Synodical Signpost</title> (later <title render="italic">Michigan Synodical Messenger</title>)</unittitle><unitdate type="inclusive" normal="1948/1950">1948-1950</unitdate><unitdate type="inclusive" normal="1959">1959</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [43075269646887084883]">2</container>
-            <unittitle><persname>Sunderlal, Felicia</persname>, <unitdate type="inclusive" normal="1954/1962">1954-1962</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0188234848047735729]">2</container>
+            <unittitle><persname>Sunderlal, Felicia</persname></unittitle><unitdate type="inclusive" normal="1954/1962">1954-1962</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [43075269646887084883]">2</container>
-            <unittitle>Training opportunities <unitdate type="inclusive" normal="1933/1969" certainty="approximate">1933-1969 (scattered dates)</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0188234848047735729]">2</container>
+            <unittitle>Training opportunities</unittitle><unitdate type="inclusive" normal="1933/1969" certainty="approximate">1933-1969 (scattered dates)</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [43075269646887084883]">2</container>
-            <unittitle>Year Books <unitdate type="inclusive" normal="1958/1971">1958/1959-1970/1971</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0188234848047735729]">2</container>
+            <unittitle>Year Books</unittitle><unitdate type="inclusive" normal="1958/1971">1958/1959-1970/1971</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Presbyterials <unitdate type="inclusive" normal="1925/1973">1925-1973</unitdate></unittitle>
-        </did>
+          <unittitle>Presbyterials</unittitle><unitdate type="inclusive" normal="1925/1973">1925-1973</unitdate></did>
         <scopecontent>
           <p>The Presbyterials series, includes a subseries of executive and annual meeting minutes, with occasional newsletters of the different presbyterials, arranged alphabetically. It also includes a second subseries of annual meeting booklets and year books, also arranged alphabetically.</p>
         </scopecontent>
@@ -257,34 +235,29 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [43075269646887084883]">2</container>
-                <unittitle>General <unitdate type="inclusive" normal="1954/1970">1954-1970</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [0188234848047735729]">2</container>
+                <unittitle>General</unittitle><unitdate type="inclusive" normal="1954/1970">1954-1970</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [43075269646887084883]">2</container>
-                <unittitle>Retreats <unitdate type="inclusive" normal="1915/1925" certainty="approximate">circa 1915-1925?</unitdate>, <unitdate type="inclusive" normal="1956/1962">1956-1962</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [0188234848047735729]">2</container>
+                <unittitle>Retreats</unittitle><unitdate type="inclusive" normal="1915/1925" certainty="approximate">circa 1915-1925?</unitdate><unitdate type="inclusive" normal="1956/1962">1956-1962</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [43075269646887084883]">2</container>
-              <unittitle><geogname>Grand River</geogname>, <unitdate type="inclusive" normal="1964/1970">1964-1970</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [0188234848047735729]">2</container>
+              <unittitle><geogname>Grand River</geogname></unittitle><unitdate type="inclusive" normal="1964/1970">1964-1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [43075269646887084883]">2</container>
-              <unittitle><geogname>Mackinac</geogname>, <unitdate type="inclusive" normal="1955/1970">1955-1970</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [0188234848047735729]">2</container>
+              <unittitle><geogname>Mackinac</geogname></unittitle><unitdate type="inclusive" normal="1955/1970">1955-1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [43075269646887084883]">2</container>
-              <unittitle><geogname>Southern Michigan</geogname>, <unitdate type="inclusive" normal="1964/1969">1964-1969</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [0188234848047735729]">2</container>
+              <unittitle><geogname>Southern Michigan</geogname></unittitle><unitdate type="inclusive" normal="1964/1969">1964-1969</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -293,68 +266,57 @@
           </did>
           <c03 level="file">
             <did>
-              <container label="Box [43075269646887084883]" type="box">2</container>
-              <unittitle><geogname>Detroit</geogname>, <unitdate type="inclusive" normal="1925">1925</unitdate>, <unitdate type="inclusive" normal="1930">1930</unitdate>, <unitdate type="inclusive" normal="1931/1961">1931-1961</unitdate>, <unitdate type="inclusive" normal="1962/1973">1962-1973</unitdate></unittitle>
-            </did>
+              <container label="Box [0188234848047735729]" type="box">2</container>
+              <unittitle><geogname>Detroit</geogname></unittitle><unitdate type="inclusive" normal="1925">1925</unitdate><unitdate type="inclusive" normal="1930">1930</unitdate><unitdate type="inclusive" normal="1931/1961">1931-1961</unitdate><unitdate type="inclusive" normal="1962/1973">1962-1973</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [43075269646887084883]">2</container>
-              <unittitle><geogname>Lansing</geogname>, <unitdate type="inclusive" normal="1939/1961">1939-1961</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [0188234848047735729]">2</container>
+              <unittitle><geogname>Lansing</geogname></unittitle><unitdate type="inclusive" normal="1939/1961">1939-1961</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [43075269646887084883]">2</container>
-              <unittitle><geogname>Grand River</geogname> (formed when the <geogname>Grand Rapids</geogname> and <geogname>Lansing</geogname> Presbyteries were joined in 1961), <unitdate type="inclusive" normal="1962/1968">1962-1968</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [0188234848047735729]">2</container>
+              <unittitle><geogname>Grand River</geogname> (formed when the <geogname>Grand Rapids</geogname> and <geogname>Lansing</geogname> Presbyteries were joined in 1961)</unittitle><unitdate type="inclusive" normal="1962/1968">1962-1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [43075269646887084883]">2</container>
-              <unittitle><geogname>Flint</geogname>, <unitdate type="inclusive" normal="1931">1931</unitdate>, <unitdate type="inclusive" normal="1939/1961-04">1939-April 1961</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [0188234848047735729]">2</container>
+              <unittitle><geogname>Flint</geogname></unittitle><unitdate type="inclusive" normal="1931">1931</unitdate><unitdate type="inclusive" normal="1939/1961-04">1939-April 1961</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [43075269646887084883]">2</container>
-              <unittitle><geogname>Saginaw</geogname>, <unitdate type="inclusive" normal="1931">1931</unitdate>, <unitdate type="inclusive" normal="1939/1961-04">1939-April 1961</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [0188234848047735729]">2</container>
+              <unittitle><geogname>Saginaw</geogname></unittitle><unitdate type="inclusive" normal="1931">1931</unitdate><unitdate type="inclusive" normal="1939/1961-04">1939-April 1961</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [43075269646887084883]">2</container>
-              <unittitle><geogname>Lake Huron</geogname> (formed when the <geogname>Flint</geogname> and <geogname>Saginaw</geogname> Presbyteries were joined in 1961), <unitdate type="inclusive" normal="1961/1968">Fall 1961-1968</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [0188234848047735729]">2</container>
+              <unittitle><geogname>Lake Huron</geogname> (formed when the <geogname>Flint</geogname> and <geogname>Saginaw</geogname> Presbyteries were joined in 1961)</unittitle><unitdate type="inclusive" normal="1961/1968">Fall 1961-1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [43075269646887084883]">2</container>
-              <unittitle><geogname>Mackinac</geogname> (formed when the <geogname>Lake Superior</geogname> and <geogname>Petoskey</geogname> Presbyteries were joined in 1961) <unitdate type="inclusive" normal="1962/1969">1962-1969</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [0188234848047735729]">2</container>
+              <unittitle><geogname>Mackinac</geogname> (formed when the <geogname>Lake Superior</geogname> and <geogname>Petoskey</geogname> Presbyteries were joined in 1961)</unittitle><unitdate type="inclusive" normal="1962/1969">1962-1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [43075269646887084883]">2</container>
-              <unittitle><geogname>Petoskey</geogname>, <unitdate type="inclusive" normal="1939/1961">1939-1961</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [0188234848047735729]">2</container>
+              <unittitle><geogname>Petoskey</geogname></unittitle><unitdate type="inclusive" normal="1939/1961">1939-1961</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [43075269646887084883]">2</container>
-              <unittitle><geogname>Grand Rapids</geogname>, <unitdate type="inclusive" normal="1937/1945">1937-1945</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [0188234848047735729]">2</container>
+              <unittitle><geogname>Grand Rapids</geogname></unittitle><unitdate type="inclusive" normal="1937/1945">1937-1945</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle><geogname>Southern Michigan</geogname> (formed when <geogname>Western Michigan</geogname> Presbytery was split to form the <geogname>Grand River</geogname> and the <geogname>Southern Michigan</geogname> Presbyteries in 1961), <unitdate type="inclusive" normal="1962/1968">1962-1968</unitdate></unittitle>
-            </did>
+              <unittitle><geogname>Southern Michigan</geogname> (formed when <geogname>Western Michigan</geogname> Presbytery was split to form the <geogname>Grand River</geogname> and the <geogname>Southern Michigan</geogname> Presbyteries in 1961)</unittitle><unitdate type="inclusive" normal="1962/1968">1962-1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [43075269646887084883]">2</container>
-              <unittitle><geogname>Western Michigan</geogname> (formed when the <geogname>Grand Rapids</geogname> and <geogname>Kalamazoo</geogname> Presbyteries were joined in 1946), <unitdate type="inclusive" normal="1946/1961">1946-1961</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [0188234848047735729]">2</container>
+              <unittitle><geogname>Western Michigan</geogname> (formed when the <geogname>Grand Rapids</geogname> and <geogname>Kalamazoo</geogname> Presbyteries were joined in 1946)</unittitle><unitdate type="inclusive" normal="1946/1961">1946-1961</unitdate></did>
           </c03>
         </c02>
       </c01>

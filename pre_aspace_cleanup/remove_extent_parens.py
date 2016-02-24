@@ -4,7 +4,8 @@ from os.path import join
 import re
 
 def remove_extent_parens(ead_dir):
-	for filename in os.listdir(ead_dir):
+	filenames = [filename for filename in os.listdir(ead_dir) if filename.endswith('.xml')]
+	for filename in filenames:
 		print "Remove parens from extents in {0}".format(filename)
 		tree = etree.parse(join(ead_dir,filename))
 		extents = tree.xpath('//extent')

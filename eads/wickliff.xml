@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Wickliffe, Letty M., 1902-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/4157">Wickliffe, Letty M., 1902-</persname>
       </origination>
-      <unittitle encodinganalog="245">Letty M. Wickliffe papers <unitdate type="inclusive" encodinganalog="245$f" normal="1860/1992" certainty="approximate">circa 1860-1992</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1960/1976" certainty="approximate">1960s-1976</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">9745 Aa 2</unitid>
+      <unittitle encodinganalog="245">Letty M. Wickliffe papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1860/1992" certainty="approximate">circa 1860-1992</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1960/1976" certainty="approximate">1960s-1976</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">9745 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Teacher; Ann Arbor, Michigan, community activist; member of the North Central Property Owners Association in Ann Arbor. Articles written for the local newspaper, awards, scattered correspondence, biographical information, and photographs.</abstract>
       <physdesc altrender="whole">
@@ -82,27 +82,27 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Wickliffe, Letty M., 1902-</persname>
-        <subject source="lcsh" encodinganalog="650">Civic leaders--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Women civic leaders--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">African American women--Michigan--Ann Arbor.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4157">Wickliffe, Letty M., 1902-</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7032">Civic leaders--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7031">Women civic leaders--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5820">African American women--Michigan--Ann Arbor.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219" ref="/subjects/856">Ann Arbor (Mich.)</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600">Wickliffe, Letty M., 1902-</persname>
-        <subject source="lctgm" encodinganalog="650">African Americans--Michigan--Ann Arbor.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Classrooms--Michigan--Ann Arbor--ca. 1915.</subject>
-        <subject source="lctgm" encodinganalog="650">Dwellings--Michigan--Ann Arbor.</subject>
-        <subject source="lctgm" encodinganalog="650">Business enterprises--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">North Central Property Owners Association.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79084324">King, Martin Luther, Jr., 1929-1968.</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. School of Education. Class of 1924.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4157">Wickliffe, Letty M., 1902-</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3565">African Americans--Michigan--Ann Arbor.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219" ref="/subjects/856">Ann Arbor (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5586">Classrooms--Michigan--Ann Arbor--ca. 1915.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3570">Dwellings--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3587">Business enterprises--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5727">North Central Property Owners Association.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79084324" ref="/agents/people/9023">King, Martin Luther, Jr., 1929-1968.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2985">University of Michigan. School of Education. Class of 1924.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -115,45 +115,38 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [62932207445998905598]">1</container>
-            <unittitle>Awards <unitdate type="inclusive" normal="1976/1992" certainty="approximate">1976-circa 1992</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [654905241704580288634576]">1</container>
+            <unittitle>Awards</unittitle><unitdate type="inclusive" normal="1976/1992" certainty="approximate">1976-circa 1992</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [62932207445998905598]">1</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1980">1980</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [654905241704580288634576]">1</container>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1980">1980</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [62932207445998905598]">1</container>
-            <unittitle>Education (diploma, certificates) <unitdate type="inclusive" normal="1924/1961">1924-1961</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [654905241704580288634576]">1</container>
+            <unittitle>Education (diploma, certificates)</unittitle><unitdate type="inclusive" normal="1924/1961">1924-1961</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [62932207445998905598]">1</container>
-            <unittitle>Family <unitdate type="inclusive" normal="1938/1968" certainty="approximate">1938-circa 1968</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [654905241704580288634576]">1</container>
+            <unittitle>Family</unittitle><unitdate type="inclusive" normal="1938/1968" certainty="approximate">1938-circa 1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [62932207445998905598]">1</container>
-            <unittitle>Letters of Recognition <unitdate type="inclusive" normal="1980/1988">1980-1988</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [654905241704580288634576]">1</container>
+            <unittitle>Letters of Recognition</unittitle><unitdate type="inclusive" normal="1980/1988">1980-1988</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [62932207445998905598]">1</container>
-            <unittitle>Newspaper articles (letters to the editor, guest editorial) <unitdate type="inclusive" normal="1981/1992" certainty="approximate">1981-circa 1992</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [654905241704580288634576]">1</container>
+            <unittitle>Newspaper articles (letters to the editor, guest editorial)</unittitle><unitdate type="inclusive" normal="1981/1992" certainty="approximate">1981-circa 1992</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [62932207445998905598]">1</container>
-            <unittitle>Resume <unitdate type="inclusive" normal="1993" certainty="approximate">circa 1993</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [654905241704580288634576]">1</container>
+            <unittitle>Resume</unittitle><unitdate type="inclusive" normal="1993" certainty="approximate">circa 1993</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -172,36 +165,31 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [62932207445998905598]">1</container>
-              <unittitle>Class Pictures <unitdate type="inclusive" normal="1913/1970" certainty="approximate">circa 1913-1970</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [654905241704580288634576]">1</container>
+              <unittitle>Class Pictures</unittitle><unitdate type="inclusive" normal="1913/1970" certainty="approximate">circa 1913-1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [62932207445998905598]">1</container>
-              <unittitle>Family <unitdate type="inclusive" normal="1860/1925" certainty="approximate">1860s-circa 1925</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [654905241704580288634576]">1</container>
+              <unittitle>Family</unittitle><unitdate type="inclusive" normal="1860/1925" certainty="approximate">1860s-circa 1925</unitdate></did>
             <odd>
               <p>See also family album in oversized Box 2</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [62932207445998905598]">1</container>
-              <unittitle>Letty Wickliffe Portraits and Informal Photos <unitdate type="inclusive" normal="1915/1985" certainty="approximate">circa 1915-1985</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [654905241704580288634576]">1</container>
+              <unittitle>Letty Wickliffe Portraits and Informal Photos</unittitle><unitdate type="inclusive" normal="1915/1985" certainty="approximate">circa 1915-1985</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [62932207445998905598]">1</container>
-              <unittitle>King, Martin Luther (Montgomery, Alabama) <unitdate type="inclusive" normal="1960/1969" certainty="approximate">circa 1960s</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [654905241704580288634576]">1</container>
+              <unittitle>King, Martin Luther (Montgomery, Alabama)</unittitle><unitdate type="inclusive" normal="1960/1969" certainty="approximate">circa 1960s</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [62932207445998905598]">1</container>
-              <unittitle>Ninetieth Birthday Celebration <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [654905241704580288634576]">1</container>
+              <unittitle>Ninetieth Birthday Celebration</unittitle><unitdate type="inclusive" normal="1992">1992</unitdate></did>
             <odd>
               <p>(see framed portrait and album of memorabilia in oversized Box 2)</p>
             </odd>
@@ -213,50 +201,43 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [62932207445998905598]">1</container>
-              <unittitle>Aerial Views <unitdate type="inclusive" normal="1972/1974">1972-1974</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [654905241704580288634576]">1</container>
+              <unittitle>Aerial Views</unittitle><unitdate type="inclusive" normal="1972/1974">1972-1974</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [62932207445998905598]">1</container>
-              <unittitle>Interiors of Homes <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [654905241704580288634576]">1</container>
+              <unittitle>Interiors of Homes</unittitle><unitdate type="inclusive" normal="1974">1974</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [62932207445998905598]">1</container>
-              <unittitle>Maps and Charts <unitdate type="inclusive" normal="1972" certainty="approximate">circa 1972</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [654905241704580288634576]">1</container>
+              <unittitle>Maps and Charts</unittitle><unitdate type="inclusive" normal="1972" certainty="approximate">circa 1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [62932207445998905598]">1</container>
-              <unittitle>Neighborhood Views <unitdate type="inclusive" normal="1968/1976" certainty="approximate">circa 1968-1976</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [654905241704580288634576]">1</container>
+              <unittitle>Neighborhood Views</unittitle><unitdate type="inclusive" normal="1968/1976" certainty="approximate">circa 1968-1976</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [62932207445998905598]">1</container>
-              <unittitle>Parks <unitdate type="inclusive" normal="1972/1974">1972-1974</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [654905241704580288634576]">1</container>
+              <unittitle>Parks</unittitle><unitdate type="inclusive" normal="1972/1974">1972-1974</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [62932207445998905598]">1</container>
-              <unittitle>Reports and Studies <unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [654905241704580288634576]">1</container>
+              <unittitle>Reports and Studies</unittitle><unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [62932207445998905598]">1</container>
-              <unittitle>Site Analyses <unitdate type="inclusive" normal="1972/1976">1972-1976</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [654905241704580288634576]">1</container>
+              <unittitle>Site Analyses</unittitle><unitdate type="inclusive" normal="1972/1976">1972-1976</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6131202448191374122]">2</container>
+            <container type="box" label="Box [00424097620458240]">2</container>
             <unittitle>Framed portrait and album of memorabilia</unittitle>
           </did>
         </c02>

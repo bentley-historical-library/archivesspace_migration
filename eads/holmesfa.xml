@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,10 +35,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Holmes family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/104">Holmes family.</famname>
       </origination>
-      <unittitle encodinganalog="245">Holmes Family papers <unitdate type="inclusive" encodinganalog="245$f" normal="1883/1957">1883-1957</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1897/1903">1897-1903</unitdate></unittitle>
-      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">861037 Aa 2</unitid>
+      <unittitle encodinganalog="245">Holmes Family papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1883/1957">1883-1957</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1897/1903">1897-1903</unitdate><unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">861037 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Bay City, Michigan. Personal letters, primarily of Susie Holmes living in New York from family members in Michigan detaining daily activities and family matters.</abstract>
       <physdesc altrender="whole">
@@ -75,17 +75,17 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81037331">Bay City (Mich.)</geogname>
-        <geogname source="local" encodinganalog="691">Michigan--Social life and customs--1891-1900.</geogname>
-        <geogname source="local" encodinganalog="691">Michigan--Social life and customs--1901-1910.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Social life and customs--19th century.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Social life and customs--20th century.</geogname>
-        <subject source="lcsh" encodinganalog="650">Women--New York (State)</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81037331" ref="/subjects/1034">Bay City (Mich.)</geogname>
+        <geogname source="local" encodinganalog="691" ref="/subjects/796">Michigan--Social life and customs--1891-1900.</geogname>
+        <geogname source="local" encodinganalog="691" ref="/subjects/811">Michigan--Social life and customs--1901-1910.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1298">Michigan--Social life and customs--19th century.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/847">Michigan--Social life and customs--20th century.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8299">Women--New York (State)</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Holmes, Harry.</persname>
-        <persname source="lcnaf" encodinganalog="700">Holmes, Susie.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/7579">Holmes, Harry.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/7954">Holmes, Susie.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -98,61 +98,54 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63556891405492098539692]">1</container>
-            <unittitle>Family correspondence, letters addressed to Susie <unitdate type="inclusive" normal="1897/1903">1897-1903</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [3064883428836097548508]">1</container>
+            <unittitle>Family correspondence, letters addressed to Susie</unittitle><unitdate type="inclusive" normal="1897/1903">1897-1903</unitdate><unitdate type="inclusive">undated</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">26 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63556891405492098539692]">1</container>
-            <unittitle>Letters forwarded to Susie (with no accompanying-letter) <unitdate type="inclusive" normal="1900/1903">1900-1903</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3064883428836097548508]">1</container>
+            <unittitle>Letters forwarded to Susie (with no accompanying-letter)</unittitle><unitdate type="inclusive" normal="1900/1903">1900-1903</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63556891405492098539692]">1</container>
-            <unittitle>Postcards <unitdate type="inclusive" normal="1900/1903">1900-1903</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3064883428836097548508]">1</container>
+            <unittitle>Postcards</unittitle><unitdate type="inclusive" normal="1900/1903">1900-1903</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63556891405492098539692]">1</container>
-            <unittitle>Telegrams <unitdate type="inclusive" normal="1899/1903" certainty="approximate">1899-1903</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3064883428836097548508]">1</container>
+            <unittitle>Telegrams</unittitle><unitdate type="inclusive" normal="1899/1903" certainty="approximate">1899-1903</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63556891405492098539692]">1</container>
-            <unittitle>Business Correspondence, Letters of Charles G. Butts (Susie's boss) to Susie <unitdate type="inclusive" normal="1898/1903">1898-1903</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [3064883428836097548508]">1</container>
+            <unittitle>Business Correspondence, Letters of Charles G. Butts (Susie's boss) to Susie</unittitle><unitdate type="inclusive" normal="1898/1903">1898-1903</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63556891405492098539692]">1</container>
-            <unittitle>Miscellaneous insurance forms and letters <unitdate type="inclusive" normal="1897/1903">1897-1903</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3064883428836097548508]">1</container>
+            <unittitle>Miscellaneous insurance forms and letters</unittitle><unitdate type="inclusive" normal="1897/1903">1897-1903</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63556891405492098539692]">1</container>
-            <unittitle>Miscellaneous and unidentified <unitdate type="inclusive" normal="1902/1903">1902-1903</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3064883428836097548508]">1</container>
+            <unittitle>Miscellaneous and unidentified</unittitle><unitdate type="inclusive" normal="1902/1903">1902-1903</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63556891405492098539692]">1</container>
+            <container type="box" label="Box [3064883428836097548508]">1</container>
             <unittitle>Wedding invitations</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63556891405492098539692]">1</container>
+            <container type="box" label="Box [3064883428836097548508]">1</container>
             <unittitle>Church materials</unittitle>
           </did>
         </c02>
@@ -162,37 +155,37 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63556891405492098539692]">1</container>
+              <container type="box" label="Box [3064883428836097548508]">1</container>
               <unittitle>English Literature titles</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63556891405492098539692]">1</container>
+              <container type="box" label="Box [3064883428836097548508]">1</container>
               <unittitle>American Literature titles</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63556891405492098539692]">1</container>
+              <container type="box" label="Box [3064883428836097548508]">1</container>
               <unittitle>Magazine titles</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63556891405492098539692]">1</container>
+              <container type="box" label="Box [3064883428836097548508]">1</container>
               <unittitle>"Captivities"</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63556891405492098539692]">1</container>
+              <container type="box" label="Box [3064883428836097548508]">1</container>
               <unittitle>"Travels"</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63556891405492098539692]">1</container>
+              <container type="box" label="Box [3064883428836097548508]">1</container>
               <unittitle>Undetermined</unittitle>
             </did>
           </c03>
@@ -200,8 +193,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Harry Holmes (primarily receipts) <unitdate type="inclusive" normal="1883/1913">1883-1913</unitdate></unittitle>
-        </did>
+          <unittitle>Harry Holmes (primarily receipts)</unittitle><unitdate type="inclusive" normal="1883/1913">1883-1913</unitdate></did>
         <scopecontent>
           <p>The second series of the collection relates to Harry Holmes. Included are business receipts between Harry and other companies dealing in lumber, hardware, brick and tile, lime, machine parts, and other goods and services. There is also a copy of a contract between Harry and the Michigan Central Railroad for the building of a machine shop in Bay City.</p>
         </scopecontent>
@@ -211,43 +203,43 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63556891405492098539692]">1</container>
+              <container type="box" label="Box [3064883428836097548508]">1</container>
               <unittitle>Handwritten ledgers</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63556891405492098539692]">1</container>
+              <container type="box" label="Box [3064883428836097548508]">1</container>
               <unittitle>Newspaper subscriptions</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63556891405492098539692]">1</container>
+              <container type="box" label="Box [3064883428836097548508]">1</container>
               <unittitle>Groceries and ice</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63556891405492098539692]">1</container>
+              <container type="box" label="Box [3064883428836097548508]">1</container>
               <unittitle>Household goods (such as wall paper)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63556891405492098539692]">1</container>
+              <container type="box" label="Box [3064883428836097548508]">1</container>
               <unittitle>Printers and books</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63556891405492098539692]">1</container>
+              <container type="box" label="Box [3064883428836097548508]">1</container>
               <unittitle>Clothes and Shoes</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63556891405492098539692]">1</container>
+              <container type="box" label="Box [3064883428836097548508]">1</container>
               <unittitle>Untitled receipts "received of Harry Holmes"</unittitle>
             </did>
           </c03>
@@ -258,32 +250,32 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63556891405492098539692]">1</container>
+              <container type="box" label="Box [3064883428836097548508]">1</container>
               <unittitle>A-M</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63556891405492098539692]">1</container>
+              <container type="box" label="Box [3064883428836097548508]">1</container>
               <unittitle>N-Z</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63556891405492098539692]">1</container>
+              <container type="box" label="Box [3064883428836097548508]">1</container>
               <unittitle>Single, assorted receipts from hardware and lumber related dealers</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63556891405492098539692]">1</container>
+              <container type="box" label="Box [3064883428836097548508]">1</container>
               <unittitle>Miscellaneous receipts</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63556891405492098539692]">1</container>
+            <container type="box" label="Box [3064883428836097548508]">1</container>
             <unittitle>Contract between Harry Holmes and the Michigan Central Railroad for the building of a machine shop in Bay City, Michigan</unittitle>
           </did>
         </c02>
@@ -297,18 +289,16 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63556891405492098539692]">1</container>
-            <unittitle>Holmes Family <unitdate type="inclusive" normal="1901/1957">1901-1957</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3064883428836097548508]">1</container>
+            <unittitle>Holmes Family</unittitle><unitdate type="inclusive" normal="1901/1957">1901-1957</unitdate></did>
           <odd>
             <p>scattered dates</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63556891405492098539692]">1</container>
-            <unittitle>Price Family in-laws <unitdate type="inclusive" normal="1924/1944">1924-1944</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3064883428836097548508]">1</container>
+            <unittitle>Price Family in-laws</unittitle><unitdate type="inclusive" normal="1924/1944">1924-1944</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -320,13 +310,13 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63556891405492098539692]">1</container>
+            <container type="box" label="Box [3064883428836097548508]">1</container>
             <unittitle>Letters to others and fragments</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63556891405492098539692]">1</container>
+            <container type="box" label="Box [3064883428836097548508]">1</container>
             <unittitle>Advertisements and ephemera</unittitle>
           </did>
         </c02>

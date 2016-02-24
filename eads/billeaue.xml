@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,10 +43,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Billeau, Ewald H., 1890-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/67">Billeau, Ewald H., 1890-</persname>
       </origination>
-      <unittitle encodinganalog="245">Ewald H. Billeau letter <unitdate type="inclusive" encodinganalog="245$f" normal="1918-10">October 1918</unitdate></unittitle>
-      <abstract>Soldier from Petoskey, Mich. who served in the Allied intervention in Russia, 1918-1920, the "Polar Bear Expedition." Collection includes a letter describing his experiences as sergeant in Co. A, 1st Battalion, 310th Engineers.</abstract>
+      <unittitle encodinganalog="245">Ewald H. Billeau letter</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1918-10">October 1918</unitdate><abstract>Soldier from Petoskey, Mich. who served in the Allied intervention in Russia, 1918-1920, the "Polar Bear Expedition." Collection includes a letter describing his experiences as sergeant in Co. A, 1st Battalion, 310th Engineers.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">86707 Aa 1</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -79,10 +79,10 @@
       </p>
       <controlaccess>
         <head>Subjects</head>
-        <persname source="lcnaf" encodinganalog="600">Billeau, Ewald H., 1890-</persname>
-        <geogname source="lcsh" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
-        <subject source="local" encodinganalog="690">Polar Bear Expedition.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/67">Billeau, Ewald H., 1890-</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/879">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5715">World War, 1914-1918.</subject>
+        <subject source="local" encodinganalog="690" ref="/subjects/3516">Polar Bear Expedition.</subject>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -92,11 +92,8 @@
         </did>
         <c02 level="item">
           <did>
-            <container label="Folder [7109014497728117445]" type="folder">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1918-10">October 1918</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container label="Folder [96290263482884446950631]" type="folder">1</container>
+            <unitdate type="inclusive" normal="1918-10">October 1918</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">1 items</extent>
             </physdesc>
           </did>

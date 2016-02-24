@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Michigan Historical Collections.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/5644">Michigan Historical Collections.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Immigration Sources Project records <unitdate type="inclusive" encodinganalog="245$f" normal="1977/1979">1977-1979</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">87202 Bimu C445 2</unitid>
+      <unittitle encodinganalog="245">Immigration Sources Project records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1977/1979">1977-1979</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">87202 Bimu C445 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Project established by the Michigan Historical Collections of the University of Michigan to survey archival records relating to the study of immigration in the Netherlands, Poland, Finland, Ireland, and Michigan. Administrative files.</abstract>
       <physdesc altrender="whole">
@@ -78,17 +78,17 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Archives.</subject>
-        <geogname source="lcsh" encodinganalog="651">Netherlands--Emigration and immigration.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Poland--Emigration and immigration.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Finland--Emigration and immigration.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Ireland--Emigration and immigration.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Emigration and immigration.</geogname>
-        <subject source="lcsh" encodinganalog="650">Irish Americans--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Dutch Americans--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Finnish Americans--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Polish Americans--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Immigrants--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9254">Archives.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1688">Netherlands--Emigration and immigration.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2331">Poland--Emigration and immigration.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2039">Finland--Emigration and immigration.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2332">Ireland--Emigration and immigration.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/859">Michigan--Emigration and immigration.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6344">Irish Americans--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6040">Dutch Americans--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6265">Finnish Americans--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6045">Polish Americans--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5687">Immigrants--Michigan.</subject>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -102,28 +102,24 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63041168674918945291386]">1</container>
-              <unittitle>A-I <unitdate type="inclusive" normal="1910">1910</unitdate>, <unitdate type="inclusive" normal="1930">1930</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [024974483678234902]">1</container>
+              <unittitle>A-I</unittitle><unitdate type="inclusive" normal="1910">1910</unitdate><unitdate type="inclusive" normal="1930">1930</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63041168674918945291386]">1</container>
-              <unittitle>J-W <unitdate type="inclusive" normal="1910">1910</unitdate>, <unitdate type="inclusive" normal="1930">1930</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [024974483678234902]">1</container>
+              <unittitle>J-W</unittitle><unitdate type="inclusive" normal="1910">1910</unitdate><unitdate type="inclusive" normal="1930">1930</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63041168674918945291386]">1</container>
-            <unittitle>City population data (Mich.) <unitdate type="inclusive" normal="1910/1930">1910-1930</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [024974483678234902]">1</container>
+            <unittitle>City population data (Mich.)</unittitle><unitdate type="inclusive" normal="1910/1930">1910-1930</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63041168674918945291386]">1</container>
-            <unittitle>Ward population data (Detroit, Grand Rapids, Saginaw) <unitdate type="inclusive" normal="1910">1910</unitdate> only</unittitle>
-          </did>
+            <container type="box" label="Box [024974483678234902]">1</container>
+            <unittitle>Ward population data (Detroit, Grand Rapids, Saginaw) only</unittitle><unitdate type="inclusive" normal="1910">1910</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -131,31 +127,31 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63041168674918945291386]">1</container>
+              <container type="box" label="Box [024974483678234902]">1</container>
               <unittitle>Netherlands Survey</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63041168674918945291386]">1</container>
+              <container type="box" label="Box [024974483678234902]">1</container>
               <unittitle>Poland Survey I</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63041168674918945291386]">1</container>
+              <container type="box" label="Box [024974483678234902]">1</container>
               <unittitle>Poland Survey II</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63041168674918945291386]">1</container>
+              <container type="box" label="Box [024974483678234902]">1</container>
               <unittitle>Ireland Survey I</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63041168674918945291386]">1</container>
+              <container type="box" label="Box [024974483678234902]">1</container>
               <unittitle>Ireland Survey I</unittitle>
             </did>
             <odd>
@@ -164,7 +160,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63041168674918945291386]">1</container>
+              <container type="box" label="Box [024974483678234902]">1</container>
               <unittitle>Finland Survey</unittitle>
             </did>
           </c03>
@@ -175,26 +171,26 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63041168674918945291386]">1</container>
+              <container type="box" label="Box [024974483678234902]">1</container>
               <unittitle>Catholic Churches (Michigan)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63041168674918945291386]">1</container>
+              <container type="box" label="Box [024974483678234902]">1</container>
               <unittitle>Churches-non Catholic (Michigan)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63041168674918945291386]">1</container>
+              <container type="box" label="Box [024974483678234902]">1</container>
               <unittitle>Associations (Michigan)</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63041168674918945291386]">1</container>
+            <container type="box" label="Box [024974483678234902]">1</container>
             <unittitle>Guide maps</unittitle>
           </did>
         </c02>
@@ -204,32 +200,32 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63041168674918945291386]">1</container>
+              <container type="box" label="Box [024974483678234902]">1</container>
               <unittitle>Public Libraries</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63041168674918945291386]">1</container>
+              <container type="box" label="Box [024974483678234902]">1</container>
               <unittitle>Historical Societies</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63041168674918945291386]">1</container>
+              <container type="box" label="Box [024974483678234902]">1</container>
               <unittitle>Museums</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63041168674918945291386]">1</container>
+              <container type="box" label="Box [024974483678234902]">1</container>
               <unittitle>Colleges and Universities</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63041168674918945291386]">1</container>
+            <container type="box" label="Box [024974483678234902]">1</container>
             <unittitle>Project correspondence</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -238,13 +234,13 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63041168674918945291386]">1</container>
+            <container type="box" label="Box [024974483678234902]">1</container>
             <unittitle>Miscellaneous</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63041168674918945291386]">1</container>
+            <container type="box" label="Box [024974483678234902]">1</container>
             <unittitle>Miscellaneous publications of the project</unittitle>
           </did>
         </c02>

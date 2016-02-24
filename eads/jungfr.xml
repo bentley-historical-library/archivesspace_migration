@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,10 +43,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Jung, Frank Richard.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/2468">Jung, Frank Richard.</persname>
       </origination>
-      <unittitle encodinganalog="245">Frank Richard Jung photograph collection <unitdate type="inclusive" encodinganalog="245$f" normal="1919">1919</unitdate></unittitle>
-      <abstract>Member of the 168th Co. Transportation Corps who served in the Allied intervention in Russia, 1918-1920, the "Polar Bear Expedition." Collection includes group portraits of units of the 168th Company Transportation Corps, who served with the Polar Bear Expedition.</abstract>
+      <unittitle encodinganalog="245">Frank Richard Jung photograph collection</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1919">1919</unitdate><abstract>Member of the 168th Co. Transportation Corps who served in the Allied intervention in Russia, 1918-1920, the "Polar Bear Expedition." Collection includes group portraits of units of the 168th Company Transportation Corps, who served with the Polar Bear Expedition.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">93317 UAm UAl</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -76,23 +76,22 @@
       </p>
       <controlaccess>
         <head>Subjects</head>
-        <geogname source="lcsh" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
-        <subject source="local" encodinganalog="690">Polar Bear Expedition.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/879">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5715">World War, 1914-1918.</subject>
+        <subject source="local" encodinganalog="690" ref="/subjects/3516">Polar Bear Expedition.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Photographs <unitdate type="inclusive" normal="1919">1919</unitdate></unittitle>
-        </did>
+          <unittitle>Photographs</unittitle><unitdate type="inclusive" normal="1919">1919</unitdate></did>
         <c02 level="file">
           <did>
-            <container type="folder" label="Oversize Folder [0972217458445908142]">1</container>
+            <container type="folder" label="Oversize Folder [7367572784561176623]">1</container>
             <unittitle>The "4" Stripe Polar Bear Boys</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">1 items</extent>
@@ -104,9 +103,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Oversize Folder [07444349289747550]">2</container>
-            <unittitle>Headquarters Co. and Medical Det., North Russia Trans Corps, Brest, France <unitdate type="inclusive" normal="1919">1919</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="folder" label="Oversize Folder [4303714144398702370505]">2</container>
+            <unittitle>Headquarters Co. and Medical Det., North Russia Trans Corps, Brest, France</unittitle><unitdate type="inclusive" normal="1919">1919</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">1 items</extent>
             </physdesc>
           </did>

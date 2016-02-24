@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">King, Robert</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/5303">King, Robert</persname>
       </origination>
-      <unittitle encodinganalog="245">Robert King papers <unitdate type="inclusive" encodinganalog="245$f" normal="1887/1942">1887-1942</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851635 Aa 2</unitid>
+      <unittitle encodinganalog="245">Robert King papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1887/1942">1887-1942</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851635 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Mining company superintendent; correspondence, reports, background information, and financial miscellanea.</abstract>
       <physdesc altrender="whole">
@@ -78,37 +78,33 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Ashland Iron Mining Company.</corpname>
-        <subject source="lcsh" encodinganalog="650">Business records.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091930">Gogebic County (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Hayes Mining Company.</corpname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85207518">Hurley (Wis.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Iron mines and mining--Wisconsin--Hurley.</subject>
-        <subject source="lcsh" encodinganalog="650">Iron mines and mining--Michigan--Ironwood.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85064191">Ironwood (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1158">Ashland Iron Mining Company.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5789">Business records.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091930" ref="/subjects/1926">Gogebic County (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5028">Hayes Mining Company.</corpname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85207518" ref="/subjects/2156">Hurley (Wis.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8683">Iron mines and mining--Wisconsin--Hurley.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8684">Iron mines and mining--Michigan--Ironwood.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85064191" ref="/subjects/991">Ironwood (Mich.)</geogname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86869621">Hayes, E. A. (Everis Anson), 1855-1942.</persname>
-        <persname source="lcnaf" encodinganalog="700">Hayes, Jay Orley, 1857-1948.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86869621" ref="/agents/people/5681">Hayes, E. A. (Everis Anson), 1855-1942.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/8330">Hayes, Jay Orley, 1857-1948.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform encodinganalog="655" source="aat">Diaries.</genreform>
+        <genreform encodinganalog="655" source="aat" ref="/subjects/3145">Diaries.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Correspondence <unitdate type="inclusive" normal="1887/1942">1887-1942</unitdate></unittitle>
-        </did>
+          <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1887/1942">1887-1942</unitdate></did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5634484913553117]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1887/1890">1887-1890</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [2944564792873850]">1</container>
+            <unitdate type="inclusive" normal="1887/1890">1887-1890</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
             </physdesc>
           </did>
@@ -118,184 +114,128 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5634484913553117]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1900/1910">1900-1910</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2944564792873850]">1</container>
+            <unitdate type="inclusive" normal="1900/1910">1900-1910</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5634484913553117]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1911/1914">1911-1914</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2944564792873850]">1</container>
+            <unitdate type="inclusive" normal="1911/1914">1911-1914</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5634484913553117]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1915">1915</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2944564792873850]">1</container>
+            <unitdate type="inclusive" normal="1915">1915</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5634484913553117]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1916/1917">1916-1917</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2944564792873850]">1</container>
+            <unitdate type="inclusive" normal="1916/1917">1916-1917</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5634484913553117]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1918">1918</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2944564792873850]">1</container>
+            <unitdate type="inclusive" normal="1918">1918</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5634484913553117]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1919">1919</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2944564792873850]">1</container>
+            <unitdate type="inclusive" normal="1919">1919</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5634484913553117]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1920">1920</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2944564792873850]">1</container>
+            <unitdate type="inclusive" normal="1920">1920</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5634484913553117]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1921">1921</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2944564792873850]">1</container>
+            <unitdate type="inclusive" normal="1921">1921</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5634484913553117]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1922/1923">1922-1923</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2944564792873850]">1</container>
+            <unitdate type="inclusive" normal="1922/1923">1922-1923</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5634484913553117]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1924">1924</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2944564792873850]">1</container>
+            <unitdate type="inclusive" normal="1924">1924</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5634484913553117]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1925">1925</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2944564792873850]">1</container>
+            <unitdate type="inclusive" normal="1925">1925</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5634484913553117]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1926">1926</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2944564792873850]">1</container>
+            <unitdate type="inclusive" normal="1926">1926</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5634484913553117]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1927">1927</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2944564792873850]">1</container>
+            <unitdate type="inclusive" normal="1927">1927</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5634484913553117]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1928/1929">1928-1929</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2944564792873850]">1</container>
+            <unitdate type="inclusive" normal="1928/1929">1928-1929</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5634484913553117]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1930/1931">1930-1931</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2944564792873850]">1</container>
+            <unitdate type="inclusive" normal="1930/1931">1930-1931</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5634484913553117]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1932/1933">1932-1933</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2944564792873850]">1</container>
+            <unitdate type="inclusive" normal="1932/1933">1932-1933</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5634484913553117]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1934/1942">1934-1942</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2944564792873850]">1</container>
+            <unitdate type="inclusive" normal="1934/1942">1934-1942</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Other papers <unitdate type="inclusive">undated</unitdate>, <unitdate type="inclusive" normal="1880/1929" certainty="approximate">1880s-1929</unitdate></unittitle>
-        </did>
+          <unittitle>Other papers</unittitle><unitdate type="inclusive">undated</unitdate><unitdate type="inclusive" normal="1880/1929" certainty="approximate">1880s-1929</unitdate></did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5634484913553117]">1</container>
-            <unittitle>Reports of Mining Developments and Disasters in the <unitdate type="inclusive" normal="1880/1889" certainty="approximate">1880s</unitdate>, <unitdate type="inclusive" normal="1890/1899" certainty="approximate">1890s</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [2944564792873850]">1</container>
+            <unittitle>Reports of Mining Developments and Disasters in the</unittitle><unitdate type="inclusive" normal="1880/1889" certainty="approximate">1880s</unitdate><unitdate type="inclusive" normal="1890/1899" certainty="approximate">1890s</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5634484913553117]">1</container>
-            <unittitle><unitdate type="inclusive" normal="1926/1929">1926-1929</unitdate> (Hayes Mining Co.)</unittitle>
-          </did>
+            <container type="box" label="Box [2944564792873850]">1</container>
+            <unittitle>(Hayes Mining Co.)</unittitle><unitdate type="inclusive" normal="1926/1929">1926-1929</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5634484913553117]">1</container>
+            <container type="box" label="Box [2944564792873850]">1</container>
             <unittitle>Papers concerning history of Hurley, Wisconsin</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5634484913553117]">1</container>
-            <unittitle>Germania Mine -- log of daily progress <unitdate type="inclusive" normal="1899/1925">1899-1925</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [2944564792873850]">1</container>
+            <unittitle>Germania Mine -- log of daily progress</unittitle><unitdate type="inclusive" normal="1899/1925">1899-1925</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5634484913553117]">1</container>
-            <unittitle>Travel <genreform normal="Diaries">diary</genreform>, <unitdate type="inclusive" normal="1909/1926">1909-1926</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [2944564792873850]">1</container>
+            <unittitle>Travel <genreform normal="Diaries">diary</genreform></unittitle><unitdate type="inclusive" normal="1909/1926">1909-1926</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5634484913553117]">1</container>
+            <container type="box" label="Box [2944564792873850]">1</container>
             <unittitle>Miscellanea</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5634484913553117]">1</container>
+            <container type="box" label="Box [2944564792873850]">1</container>
             <unittitle>Ledgers and journals</unittitle>
           </did>
         </c02>

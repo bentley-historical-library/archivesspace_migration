@@ -36,7 +36,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -47,10 +48,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Neighborhood Renewal Services of Saginaw.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/3724">Neighborhood Renewal Services of Saginaw.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Neighborhood Renewal Services of Saginaw records <unitdate type="inclusive" encodinganalog="245$f" normal="1988/2011">1988-2011</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2010149 Aa 2</unitid>
+      <unittitle encodinganalog="245">Neighborhood Renewal Services of Saginaw records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1988/2011">1988-2011</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2010149 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Organization established to help revitalize urban neighborhoods of Saginaw, Michigan; records of board; photographs, files relating to Cathedral District Project 2000 and to Community Buildings.</abstract>
       <physdesc altrender="part">
@@ -97,10 +97,10 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Neighborhoods--Michigan--Saginaw.</subject>
-        <geogname source="lcsh" encodinganalog="651">Saginaw (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Urban renewal--Michigan--Saginaw.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Neighborhood Renewal Services of Saginaw.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9522">Neighborhoods--Michigan--Saginaw.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1213">Saginaw (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9523">Urban renewal--Michigan--Saginaw.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3724">Neighborhood Renewal Services of Saginaw.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -110,55 +110,40 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4564223249557]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1988-07/1994-12">July 1988-December 1994</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [736026946606098339308]">1</container>
+            <unitdate type="inclusive" normal="1988-07/1994-12">July 1988-December 1994</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">6 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [705437171348003051352904]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1995/1999">1995-1999</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [03055243791390783580]">2</container>
+            <unitdate type="inclusive" normal="1995/1999">1995-1999</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [694068963248961584968287]">3</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2000/2003">2000-2003</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [93479541044979223]">3</container>
+            <unitdate type="inclusive" normal="2000/2003">2000-2003</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6077856994499877809695]">10</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2004/2005">2004-2005</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [669074413335637805]">10</container>
+            <unitdate type="inclusive" normal="2004/2005">2004-2005</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6077856994499877809695]">10</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2006/2011">2006-2011</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [669074413335637805]">10</container>
+            <unitdate type="inclusive" normal="2006/2011">2006-2011</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">6 folders</extent>
             </physdesc>
           </did>
@@ -166,30 +151,23 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Cathedral District Project <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
-        </did>
+          <unittitle>Cathedral District Project</unittitle><unitdate type="inclusive" normal="2000">2000</unitdate></did>
         <c02 level="file">
           <did>
             <unittitle>Record books</unittitle>
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [067065434393170806]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1997/1999">1997-1999</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [598634095473758618334]">4</container>
+              <unitdate type="inclusive" normal="1997/1999">1997-1999</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">10 volumes</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8580299438254534587]">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="2000">2000</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [80389005446202780]">5</container>
+              <unitdate type="inclusive" normal="2000">2000</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 volumes</extent>
               </physdesc>
             </did>
@@ -197,9 +175,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [8580299438254534587]">5</container>
-            <unittitle>Social Compact Award: information from NRS and Saint Mary's Hospital in support of their application for the award grant <unitdate type="inclusive" normal="1997/1999" certainty="approximate">circa 1997-1999</unitdate></unittitle>
-            <physdesc altrender="part">
+            <container type="box" label="Box [80389005446202780]">5</container>
+            <unittitle>Social Compact Award: information from NRS and Saint Mary's Hospital in support of their application for the award grant</unittitle><unitdate type="inclusive" normal="1997/1999" certainty="approximate">circa 1997-1999</unitdate><physdesc altrender="part">
               <extent altrender="materialtype spaceoccupied">1 volumes</extent>
             </physdesc>
             <physdesc altrender="part">
@@ -212,7 +189,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [8580299438254534587]">5</container>
+            <container type="box" label="Box [80389005446202780]">5</container>
             <unittitle>Slides and photographs of targeted buildings</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 volumes</extent>
@@ -226,7 +203,7 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1790810734279212003398]">6</container>
+            <container type="box" label="Box [32524637645098286524349]">6</container>
             <unittitle>Resident Leadership training materials for neighborhood revitalization</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 volumes</extent>
@@ -235,7 +212,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1790810734279212003398]">6</container>
+            <container type="box" label="Box [32524637645098286524349]">6</container>
             <unittitle>Code of ordinances, Saginaw, Michigan</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">1 volumes</extent>
@@ -244,9 +221,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [10414027049789776008]">7</container>
-            <unittitle>Record books <unitdate type="inclusive" normal="1999-11/2004-01">November 1999-January 2004</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [60981214278973450182]">7</container>
+            <unittitle>Record books</unittitle><unitdate type="inclusive" normal="1999-11/2004-01">November 1999-January 2004</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 volumes</extent>
             </physdesc>
           </did>
@@ -256,7 +232,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [216874966980367183]">8</container>
+            <container type="box" label="Box [04323069479847560832]">8</container>
             <unittitle>Photographs of people and activities and projects</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -265,7 +241,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [216874966980367183]">8</container>
+            <container type="box" label="Box [04323069479847560832]">8</container>
             <unittitle>Grant application materials</unittitle>
           </did>
         </c02>
@@ -276,9 +252,8 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [216874966980367183]">8</container>
-            <unittitle>Files relating to the redevelopment of the market at a new location <unitdate type="inclusive" normal="2002">2002</unitdate> include design proposals, financial reports, funding applications, background information, clippings</unittitle>
-          </did>
+            <container type="box" label="Box [04323069479847560832]">8</container>
+            <unittitle>Files relating to the redevelopment of the market at a new location include design proposals, financial reports, funding applications, background information, clippings</unittitle><unitdate type="inclusive" normal="2002">2002</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -287,11 +262,8 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [152677263489903862436]">9</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1999/2005">1999-2005</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [686126447973357212634]">9</container>
+            <unitdate type="inclusive" normal="1999/2005">1999-2005</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -307,69 +279,47 @@
           </odd>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [136102419164181631567]">11</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1983/1985">1983-1985</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [05051721487368808066]">11</container>
+              <unitdate type="inclusive" normal="1983/1985">1983-1985</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [136102419164181631567]">11</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1990">1990</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [05051721487368808066]">11</container>
+              <unitdate type="inclusive" normal="1990">1990</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [136102419164181631567]">11</container>
-              <unittitle><unitdate type="inclusive" normal="1990">1990</unitdate> (rehabilitation projects)</unittitle>
-            </did>
+              <container type="box" label="Box [05051721487368808066]">11</container>
+              <unittitle>(rehabilitation projects)</unittitle><unitdate type="inclusive" normal="1990">1990</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [136102419164181631567]">11</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [05051721487368808066]">11</container>
+              <unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [82574924978371170]">12</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [6847363146434012350111]">12</container>
+              <unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [82574924978371170]">12</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [6847363146434012350111]">12</container>
+              <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [82574924978371170]">12</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [6847363146434012350111]">12</container>
+              <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [577339493752801]">13</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1996/1998">1996-1998</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [30825462004479169890853467]">13</container>
+              <unitdate type="inclusive" normal="1996/1998">1996-1998</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [577339493752801]">13</container>
+              <container type="box" label="Box [30825462004479169890853467]">13</container>
               <unittitle>Miscellaneous</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">1 folders</extent>
@@ -386,25 +336,23 @@
           </odd>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [577339493752801]">13</container>
-              <unittitle>Cathedral District Update <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [30825462004479169890853467]">13</container>
+              <unittitle>Cathedral District Update</unittitle><unitdate type="inclusive" normal="1998">1998</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [577339493752801]">13</container>
+              <container type="box" label="Box [30825462004479169890853467]">13</container>
               <unittitle>Farmers' Market</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [577339493752801]">13</container>
-              <unittitle>Houses <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [30825462004479169890853467]">13</container>
+              <unittitle>Houses</unittitle><unitdate type="inclusive" normal="2002">2002</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [577339493752801]">13</container>
+              <container type="box" label="Box [30825462004479169890853467]">13</container>
               <unittitle>Miscellaneous</unittitle>
               <physdesc altrender="part">
                 <extent altrender="materialtype spaceoccupied">3 packets</extent>
@@ -425,25 +373,25 @@
         </odd>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [46084809074901788845]">14</container>
+            <container type="box" label="Box [673629781974153526681868779]">14</container>
             <unittitle>A-H</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2885362494052340464475]">15</container>
+            <container type="box" label="Box [435927795482774986]">15</container>
             <unittitle>H-M</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [673931054647658838]">16</container>
+            <container type="box" label="Box [275896408430371948]">16</container>
             <unittitle>O-T</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [43933752541888427844]">17</container>
+            <container type="box" label="Box [4465640479099723509072]">17</container>
             <unittitle>W-miscellaneous</unittitle>
           </did>
         </c02>
@@ -454,21 +402,19 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [43933752541888427844]">17</container>
+            <container type="box" label="Box [4465640479099723509072]">17</container>
             <unittitle>Brochures</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [43933752541888427844]">17</container>
-            <unittitle>Working files <unitdate type="inclusive" normal="1990/1993">1990-1993</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [4465640479099723509072]">17</container>
+            <unittitle>Working files</unittitle><unitdate type="inclusive" normal="1990/1993">1990-1993</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7389996490482868501981794]">18</container>
-            <unittitle>Working files <unitdate type="inclusive" normal="1994/1997">1994-1997</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [8404641404669312163023]">18</container>
+            <unittitle>Working files</unittitle><unitdate type="inclusive" normal="1994/1997">1994-1997</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -477,25 +423,24 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7389996490482868501981794]">18</container>
+            <container type="box" label="Box [8404641404669312163023]">18</container>
             <unittitle>Cathedral Campus Work Group</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7389996490482868501981794]">18</container>
+            <container type="box" label="Box [8404641404669312163023]">18</container>
             <unittitle>Cathedral District Demonstration Project</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7389996490482868501981794]">18</container>
-            <unittitle>Cathedral District Impact Tour for Neighborworks America <unitdate type="inclusive" normal="2005-06-14/2005-06-15">June 14-15, 2005</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [8404641404669312163023]">18</container>
+            <unittitle>Cathedral District Impact Tour for Neighborworks America</unittitle><unitdate type="inclusive" normal="2005-06-14/2005-06-15">June 14-15, 2005</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7389996490482868501981794]">18</container>
+            <container type="box" label="Box [8404641404669312163023]">18</container>
             <unittitle>Community Builders Curriculum and other materials</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -504,43 +449,41 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [24225084646088178437938]">19</container>
+            <container type="box" label="Box [0245134732132156]">19</container>
             <unittitle>Dorothy Richardson Award</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [24225084646088178437938]">19</container>
+            <container type="box" label="Box [0245134732132156]">19</container>
             <unittitle>Downtown Saginaw Farmer's Market</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [24225084646088178437938]">19</container>
+            <container type="box" label="Box [0245134732132156]">19</container>
             <unittitle>East Central Province of Daughters of Charity -- Community Builders</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [24225084646088178437938]">19</container>
+            <container type="box" label="Box [0245134732132156]">19</container>
             <unittitle>East Genesee Avenue Corridor Project</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [24225084646088178437938]">19</container>
-            <unittitle>Foster G. McGaw Prize <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0245134732132156]">19</container>
+            <unittitle>Foster G. McGaw Prize</unittitle><unitdate type="inclusive" normal="1999">1999</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [24225084646088178437938]">19</container>
-            <unittitle>Frank N. Andersen Foundation Grant Application -- Cathedral District Strategic Fund <unitdate type="inclusive" normal="2003">2003</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0245134732132156]">19</container>
+            <unittitle>Frank N. Andersen Foundation Grant Application -- Cathedral District Strategic Fund</unittitle><unitdate type="inclusive" normal="2003">2003</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [24225084646088178437938]">19</container>
+            <container type="box" label="Box [0245134732132156]">19</container>
             <unittitle>Home Ownership Promotion Initiative</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -549,7 +492,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [24225084646088178437938]">19</container>
+            <container type="box" label="Box [0245134732132156]">19</container>
             <unittitle>Neighborhood reinvestment materials</unittitle>
           </did>
         </c02>
@@ -559,44 +502,40 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [24225084646088178437938]">19</container>
-              <unittitle>Cathedral District Property Activity (acquisition, demolition, resale) <unitdate type="inclusive" normal="1997/2006">1997-2006</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [0245134732132156]">19</container>
+              <unittitle>Cathedral District Property Activity (acquisition, demolition, resale)</unittitle><unitdate type="inclusive" normal="1997/2006">1997-2006</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [24225084646088178437938]">19</container>
+              <container type="box" label="Box [0245134732132156]">19</container>
               <unittitle>Historical Overview and Timeline</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [24225084646088178437938]">19</container>
-              <unittitle>Long-range planning session <unitdate type="inclusive" normal="1991-03-15">March 15, 1991</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [0245134732132156]">19</container>
+              <unittitle>Long-range planning session</unittitle><unitdate type="inclusive" normal="1991-03-15">March 15, 1991</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [24225084646088178437938]">19</container>
+              <container type="box" label="Box [0245134732132156]">19</container>
               <unittitle>Overview of programs</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [24225084646088178437938]">19</container>
-              <unittitle>Strategic planning retreat <unitdate type="inclusive" normal="2005-06-06">June 6, 2005</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [0245134732132156]">19</container>
+              <unittitle>Strategic planning retreat</unittitle><unitdate type="inclusive" normal="2005-06-06">June 6, 2005</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [24225084646088178437938]">19</container>
-              <unittitle><unitdate type="inclusive" normal="2004">2004</unitdate> materials</unittitle>
-            </did>
+              <container type="box" label="Box [0245134732132156]">19</container>
+              <unittitle>Materials</unittitle><unitdate type="inclusive" normal="2004">2004</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [24225084646088178437938]">19</container>
+            <container type="box" label="Box [0245134732132156]">19</container>
             <unittitle>Newsletters</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
@@ -605,61 +544,59 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [00084114817807157337]">20</container>
+            <container type="box" label="Box [3814840598830268397]">20</container>
             <unittitle>Newspaper clippings</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [00084114817807157337]">20</container>
+            <container type="box" label="Box [3814840598830268397]">20</container>
             <unittitle>Property acquisition policies and forms</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [00084114817807157337]">20</container>
+            <container type="box" label="Box [3814840598830268397]">20</container>
             <unittitle>Property inventory / mapping reports</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [00084114817807157337]">20</container>
+            <container type="box" label="Box [3814840598830268397]">20</container>
             <unittitle>Publications</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [00084114817807157337]">20</container>
-            <unittitle>Reports <unitdate type="inclusive" normal="1989">1989</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3814840598830268397]">20</container>
+            <unittitle>Reports</unittitle><unitdate type="inclusive" normal="1989">1989</unitdate><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [00084114817807157337]">20</container>
-            <unittitle>Report: "Greetings from Saginaw, Michigan: Rebuilding Value and Pride, A Report on Saginaw's Eastside Neighborhoods" <unitdate type="inclusive" normal="2007-02">February 2007</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3814840598830268397]">20</container>
+            <unittitle>Report: "Greetings from Saginaw, Michigan: Rebuilding Value and Pride, A Report on Saginaw's Eastside Neighborhoods"</unittitle><unitdate type="inclusive" normal="2007-02">February 2007</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [04122229506483543958973]">21</container>
+            <container type="box" label="Box [88890443580858799]">21</container>
             <unittitle>St. Mary's of Michigan Advisory Board</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [04122229506483543958973]">21</container>
+            <container type="box" label="Box [88890443580858799]">21</container>
             <unittitle>St. Mary's Medical Center annual reports and community service plan</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [04122229506483543958973]">21</container>
+            <container type="box" label="Box [88890443580858799]">21</container>
             <unittitle>St. Mary's Community Service Committee</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [04122229506483543958973]">21</container>
+            <container type="box" label="Box [88890443580858799]">21</container>
             <unittitle>Social Compact Award</unittitle>
           </did>
           <odd>
@@ -668,19 +605,18 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [04122229506483543958973]">21</container>
+            <container type="box" label="Box [88890443580858799]">21</container>
             <unittitle>Space Management Committee and Property Improvement Committee</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [04122229506483543958973]">21</container>
-            <unittitle>Special Projects Requests: South Washington Ave. Corridor Improvement Project FY <unitdate type="inclusive" normal="2004">2004</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [88890443580858799]">21</container>
+            <unittitle>Special Projects Requests: South Washington Ave. Corridor Improvement Project FY</unittitle><unitdate type="inclusive" normal="2004">2004</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="map-case" label="Drawer [46872337449887870825689869]">21</container>
+            <container type="map-case" label="Drawer [25150226499286012446457]">21</container>
             <unittitle>Maps of Saginaw, Michigan neighborhoods under study by NRS; include the Cathedral District, the South Washington Target Area, the South Jefferson Avenue Corridor, the St. Mary’s Hospital Study Area, and the New Covenant Target Area; also foam-board display panels, some containing photographs of renewal projects</unittitle>
           </did>
         </c02>

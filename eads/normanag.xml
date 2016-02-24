@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,10 +43,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Norman, Arthur Geoffrey, 1905-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/1494">Norman, Arthur Geoffrey, 1905-</persname>
       </origination>
-      <unittitle encodinganalog="245">Arthur Geoffrey Norman Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1947/1972">1947-1972</unitdate></unittitle>
-      <abstract>Professor of botany at the University of Michigan, director of the Botanical Gardens, later vice-president for research. Correspondence, speeches, publications and reviews, and topical files relating to scientific interests, atomic energy, and the work of the Phoenix Project.</abstract>
+      <unittitle encodinganalog="245">Arthur Geoffrey Norman Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1947/1972">1947-1972</unitdate><abstract>Professor of botany at the University of Michigan, director of the Botanical Gardens, later vice-president for research. Correspondence, speeches, publications and reviews, and topical files relating to scientific interests, atomic energy, and the work of the Phoenix Project.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">85539 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <repository>
@@ -85,14 +85,14 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Botany.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n84055147">Michigan Memorial Phoenix Project.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2010133617">Norman, A. G. (Arthur Geoffrey), 1905-1982</persname>
-        <subject source="lcsh" encodinganalog="650">Nuclear energy.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Matthaei Botanical Gardens.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Botany.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Vice-President for Research.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6133">Botany.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n84055147" ref="/agents/corporate_entities/5312">Michigan Memorial Phoenix Project.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2010133617" ref="/agents/people/71">Norman, A. G. (Arthur Geoffrey), 1905-1982</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7887">Nuclear energy.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1750">University of Michigan. Matthaei Botanical Gardens.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/115">University of Michigan. Dept. of Botany.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2954">University of Michigan. Vice-President for Research.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -106,59 +106,38 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5623004407433857]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1951/1953">1951-1953</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [63726495218714974913]">1</container>
+              <unitdate type="inclusive" normal="1951/1953">1951-1953</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5623004407433857]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1954">1954</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [63726495218714974913]">1</container>
+              <unitdate type="inclusive" normal="1954">1954</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5623004407433857]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1955">1955</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [63726495218714974913]">1</container>
+              <unitdate type="inclusive" normal="1955">1955</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5623004407433857]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1956/1957-06">1956-June 1957</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [63726495218714974913]">1</container>
+              <unitdate type="inclusive" normal="1956/1957-06">1956-June 1957</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5623004407433857]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1957-07/1958-06">July 1957-June 1958</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [63726495218714974913]">1</container>
+              <unitdate type="inclusive" normal="1957-07/1958-06">July 1957-June 1958</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5623004407433857]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1958-07/1959-06">July 1958-June 1959</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [63726495218714974913]">1</container>
+              <unitdate type="inclusive" normal="1958-07/1959-06">July 1958-June 1959</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5623004407433857]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1959-07/1960-06">July 1959-June 1960</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [63726495218714974913]">1</container>
+              <unitdate type="inclusive" normal="1959-07/1960-06">July 1959-June 1960</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -167,67 +146,43 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5623004407433857]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1951/1953">1951-1953</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [63726495218714974913]">1</container>
+              <unitdate type="inclusive" normal="1951/1953">1951-1953</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5623004407433857]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1954">1954</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [63726495218714974913]">1</container>
+              <unitdate type="inclusive" normal="1954">1954</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5623004407433857]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1955/1957-06">1955-June 1957</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [63726495218714974913]">1</container>
+              <unitdate type="inclusive" normal="1955/1957-06">1955-June 1957</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5623004407433857]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1957-07/1958-06">July 1957-June 1958</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [63726495218714974913]">1</container>
+              <unitdate type="inclusive" normal="1957-07/1958-06">July 1957-June 1958</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5623004407433857]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1958-07/1959-06">July 1958-June 1959</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [63726495218714974913]">1</container>
+              <unitdate type="inclusive" normal="1958-07/1959-06">July 1958-June 1959</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5623004407433857]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1960">1960</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [63726495218714974913]">1</container>
+              <unitdate type="inclusive" normal="1960">1960</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3060954099130125902]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1961">1961</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [3055149842859924985159]">2</container>
+              <unitdate type="inclusive" normal="1961">1961</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3060954099130125902]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1962">1962</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [3055149842859924985159]">2</container>
+              <unitdate type="inclusive" normal="1962">1962</unitdate></did>
           </c03>
         </c02>
       </c01>
@@ -237,147 +192,123 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>American Astronautical Society <unitdate type="inclusive" normal="1968-09-16">September 16, 1968</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>American Astronautical Society</unittitle><unitdate type="inclusive" normal="1968-09-16">September 16, 1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>American Institute of Architects <unitdate type="inclusive" normal="1965-10-07">October 7, 1965</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>American Institute of Architects</unittitle><unitdate type="inclusive" normal="1965-10-07">October 7, 1965</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>American Society of Agronomy, Presidential Address <unitdate type="inclusive" normal="1957-11-20">November 20, 1957</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>American Society of Agronomy, Presidential Address</unittitle><unitdate type="inclusive" normal="1957-11-20">November 20, 1957</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>Argonne Radio-Botany Research Group <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>Argonne Radio-Botany Research Group</unittitle><unitdate type="inclusive" normal="1959">1959</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>Army War College <unitdate type="inclusive" normal="1966-04-06">April 6, 1966</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>Army War College</unittitle><unitdate type="inclusive" normal="1966-04-06">April 6, 1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>Astrogeology Symposium <unitdate type="inclusive" normal="1967-03-22">March 22, 1967</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>Astrogeology Symposium</unittitle><unitdate type="inclusive" normal="1967-03-22">March 22, 1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>Auxin Activity <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>Auxin Activity</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>Biological Symposium <unitdate type="inclusive" normal="1966-05">May 1966</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>Biological Symposium</unittitle><unitdate type="inclusive" normal="1966-05">May 1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>Bir Seminar <unitdate type="inclusive" normal="1968-05-13">May 13, 1968</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>Bir Seminar</unittitle><unitdate type="inclusive" normal="1968-05-13">May 13, 1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>Cellular Plastics in Construction, Conference on <unitdate type="inclusive" normal="1965-09-22">September 22, 1965</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>Cellular Plastics in Construction, Conference on</unittitle><unitdate type="inclusive" normal="1965-09-22">September 22, 1965</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>Community College Counselor-Student Conference <unitdate type="inclusive" normal="1968-03-05">March 5, 1968</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>Community College Counselor-Student Conference</unittitle><unitdate type="inclusive" normal="1968-03-05">March 5, 1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>Controlled Environment Facilities <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>Controlled Environment Facilities</unittitle><unitdate type="inclusive" normal="1958">1958</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>Dedications of Buildings <unitdate type="inclusive" normal="1964/1969">1964-1969</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>Dedications of Buildings</unittitle><unitdate type="inclusive" normal="1964/1969">1964-1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>Dentistry, Research Perspectives in <unitdate type="inclusive" normal="1970-09-18/1970-09-19">September 18-19, 1970</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>Dentistry, Research Perspectives in</unittitle><unitdate type="inclusive" normal="1970-09-18/1970-09-19">September 18-19, 1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>Electrical Engineering Research Review <unitdate type="inclusive" normal="1968-10-07">October 7, 1968</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>Electrical Engineering Research Review</unittitle><unitdate type="inclusive" normal="1968-10-07">October 7, 1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>Engineering Society of Detroit <unitdate type="inclusive" normal="1966-05-17">May 17, 1966</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>Engineering Society of Detroit</unittitle><unitdate type="inclusive" normal="1966-05-17">May 17, 1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>Foreign Students <unitdate type="inclusive" normal="1964-09-26">September 26, 1964</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>Foreign Students</unittitle><unitdate type="inclusive" normal="1964-09-26">September 26, 1964</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>Fort Detrick Banquet <unitdate type="inclusive" normal="1968-04-08">April 8, 1968</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>Fort Detrick Banquet</unittitle><unitdate type="inclusive" normal="1968-04-08">April 8, 1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>Great Lakes Research, Conference on <unitdate type="inclusive" normal="1969-05-05">May 5, 1969</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>Great Lakes Research, Conference on</unittitle><unitdate type="inclusive" normal="1969-05-05">May 5, 1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>Great Lakes Research Symposium <unitdate type="inclusive" normal="1968-10-28/1968-10-29">October 28-29, 1968</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>Great Lakes Research Symposium</unittitle><unitdate type="inclusive" normal="1968-10-28/1968-10-29">October 28-29, 1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>Highway Safety Research Institute: Prevention of Highway Injury <unitdate type="inclusive" normal="1967-04-19">April 19, 1967</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>Highway Safety Research Institute: Prevention of Highway Injury</unittitle><unitdate type="inclusive" normal="1967-04-19">April 19, 1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>Highway Safety Research Institute: Information Conference <unitdate type="inclusive" normal="1971-11-16">November 16, 1971</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>Highway Safety Research Institute: Information Conference</unittitle><unitdate type="inclusive" normal="1971-11-16">November 16, 1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>Hospital Financial Management, Conference on <unitdate type="inclusive" normal="1967-10-09">October 9, 1967</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>Hospital Financial Management, Conference on</unittitle><unitdate type="inclusive" normal="1967-10-09">October 9, 1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>IDD Housing Conference <unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>IDD Housing Conference</unittitle><unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -385,21 +316,18 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3060954099130125902]">2</container>
-              <unittitle>Environmental Mercury Contamination <unitdate type="inclusive" normal="1970-09-30/1970-10">September 30-October 1970</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3055149842859924985159]">2</container>
+              <unittitle>Environmental Mercury Contamination</unittitle><unitdate type="inclusive" normal="1970-09-30/1970-10">September 30-October 1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3060954099130125902]">2</container>
-              <unittitle>Leukemia <unitdate type="inclusive" normal="1967-10-09">October 9, 1967</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3055149842859924985159]">2</container>
+              <unittitle>Leukemia</unittitle><unitdate type="inclusive" normal="1967-10-09">October 9, 1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3060954099130125902]">2</container>
-              <unittitle>Manufacturing Technology <unitdate type="inclusive" normal="1967-10">October 1967</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3055149842859924985159]">2</container>
+              <unittitle>Manufacturing Technology</unittitle><unitdate type="inclusive" normal="1967-10">October 1967</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -408,52 +336,44 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3060954099130125902]">2</container>
-              <unittitle>Blood and Tissue Antigens <unitdate type="inclusive" normal="1969-09-17">September 17, 1969</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3055149842859924985159]">2</container>
+              <unittitle>Blood and Tissue Antigens</unittitle><unitdate type="inclusive" normal="1969-09-17">September 17, 1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3060954099130125902]">2</container>
-              <unittitle>Eutrophication <unitdate type="inclusive" normal="1967-06-11">June 11, 1967</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3055149842859924985159]">2</container>
+              <unittitle>Eutrophication</unittitle><unitdate type="inclusive" normal="1967-06-11">June 11, 1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3060954099130125902]">2</container>
-              <unittitle>Systematic Biology <unitdate type="inclusive" normal="1967-06-12/1967-06-14">June 12-14, 1967</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3055149842859924985159]">2</container>
+              <unittitle>Systematic Biology</unittitle><unitdate type="inclusive" normal="1967-06-12/1967-06-14">June 12-14, 1967</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>Joint Automatic Control Conference of the American Automatic Control Council <unitdate type="inclusive" normal="1968-06-27">June 27, 1968</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>Joint Automatic Control Conference of the American Automatic Control Council</unittitle><unitdate type="inclusive" normal="1968-06-27">June 27, 1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>Mechanical Engineering Centennial Convocation <unitdate type="inclusive" normal="1968-10-25">October 25, 1968</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>Mechanical Engineering Centennial Convocation</unittitle><unitdate type="inclusive" normal="1968-10-25">October 25, 1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>Metropolitan Detroit Science Club <unitdate type="inclusive" normal="1965-02-27">February 27, 1965</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>Metropolitan Detroit Science Club</unittitle><unitdate type="inclusive" normal="1965-02-27">February 27, 1965</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>Michigan Planning Officials, Society of <unitdate type="inclusive" normal="1964-10-09">October 9, 1964</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>Michigan Planning Officials, Society of</unittitle><unitdate type="inclusive" normal="1964-10-09">October 9, 1964</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>National Biomedical Science Instrumentation Symposium <unitdate type="inclusive" normal="1969-05-19">May 19, 1969</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>National Biomedical Science Instrumentation Symposium</unittitle><unitdate type="inclusive" normal="1969-05-19">May 19, 1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -461,170 +381,140 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3060954099130125902]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1968-09-23">September 23, 1968</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [3055149842859924985159]">2</container>
+              <unitdate type="inclusive" normal="1968-09-23">September 23, 1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3060954099130125902]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1970-09-23/1970-09-26">September 23-26, 1970</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [3055149842859924985159]">2</container>
+              <unitdate type="inclusive" normal="1970-09-23/1970-09-26">September 23-26, 1970</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>National Parks and Equivalent Reserve <unitdate type="inclusive" normal="1966-05">May 1966</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>National Parks and Equivalent Reserve</unittitle><unitdate type="inclusive" normal="1966-05">May 1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>National Symposium on Quality Standards for Natural Waters <unitdate type="inclusive" normal="1966-07">July 1966</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>National Symposium on Quality Standards for Natural Waters</unittitle><unitdate type="inclusive" normal="1966-07">July 1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>Naval Research Reserve Units Seminar <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>Naval Research Reserve Units Seminar</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>Ohio State University <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>Ohio State University</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>Oregon State College <unitdate type="inclusive" normal="1959-12-08">December 8, 1959</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>Oregon State College</unittitle><unitdate type="inclusive" normal="1959-12-08">December 8, 1959</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>Pharmacognosy, American Society for <unitdate type="inclusive" normal="1967-06-26">June 26, 1967</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>Pharmacognosy, American Society for</unittitle><unitdate type="inclusive" normal="1967-06-26">June 26, 1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>Radioecology Symposium <unitdate type="inclusive" normal="1967-05-15">May 15, 1967</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>Radioecology Symposium</unittitle><unitdate type="inclusive" normal="1967-05-15">May 15, 1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>Remote Sensing Symposium <unitdate type="inclusive" normal="1969-10-14">October 14, 1969</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>Remote Sensing Symposium</unittitle><unitdate type="inclusive" normal="1969-10-14">October 14, 1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>Reviews of Manuscripts <unitdate type="inclusive" normal="1951/1964">1951-1964</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>Reviews of Manuscripts</unittitle><unitdate type="inclusive" normal="1951/1964">1951-1964</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>Role of the University in Research <unitdate type="inclusive" normal="1967-07-12/1967-07-14">July 12-14, 1967</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>Role of the University in Research</unittitle><unitdate type="inclusive" normal="1967-07-12/1967-07-14">July 12-14, 1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>Rotary Speech <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>Rotary Speech</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>Sesquicentennial Celebration <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>Sesquicentennial Celebration</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>Sigma Xi <unitdate type="inclusive" normal="1965-02-10">February 10, 1965</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>Sigma Xi</unittitle><unitdate type="inclusive" normal="1965-02-10">February 10, 1965</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>Soils Congress <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>Soils Congress</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3060954099130125902]">2</container>
-            <unittitle>Southern Illinois University <unitdate type="inclusive" normal="1966-05-11">May 11, 1966</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3055149842859924985159]">2</container>
+            <unittitle>Southern Illinois University</unittitle><unitdate type="inclusive" normal="1966-05-11">May 11, 1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [35093404177541970]">3</container>
+            <container type="box" label="Box [05743844371110716840854]">3</container>
             <unittitle>Speeches, Miscellaneous</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [35093404177541970]">3</container>
-            <unittitle>State Outdoors Recreation Planners Symposium <unitdate type="inclusive" normal="1968-05-06">May 6, 1968</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [05743844371110716840854]">3</container>
+            <unittitle>State Outdoors Recreation Planners Symposium</unittitle><unitdate type="inclusive" normal="1968-05-06">May 6, 1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [35093404177541970]">3</container>
-            <unittitle>Structural Design of Asphalt Pavements, International Conference on <unitdate type="inclusive" normal="1967-08-07">August 7, 1967</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [05743844371110716840854]">3</container>
+            <unittitle>Structural Design of Asphalt Pavements, International Conference on</unittitle><unitdate type="inclusive" normal="1967-08-07">August 7, 1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [35093404177541970]">3</container>
-            <unittitle>Symposium on Research in Agriculture <unitdate type="inclusive" normal="1966-02-24">February 24, 1966</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [05743844371110716840854]">3</container>
+            <unittitle>Symposium on Research in Agriculture</unittitle><unitdate type="inclusive" normal="1966-02-24">February 24, 1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [35093404177541970]">3</container>
-            <unittitle>Symposium on Remote Sensing of Environment <unitdate type="inclusive" normal="1971-05-17/1971-05-21">May 17-21, 1971</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [05743844371110716840854]">3</container>
+            <unittitle>Symposium on Remote Sensing of Environment</unittitle><unitdate type="inclusive" normal="1971-05-17/1971-05-21">May 17-21, 1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [35093404177541970]">3</container>
-            <unittitle>Symposium on Scientific Aspects of Pest Control <unitdate type="inclusive" normal="1966-01-31">January 31, 1966</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [05743844371110716840854]">3</container>
+            <unittitle>Symposium on Scientific Aspects of Pest Control</unittitle><unitdate type="inclusive" normal="1966-01-31">January 31, 1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [35093404177541970]">3</container>
-            <unittitle>U-M "6411 Luncheon <unitdate type="inclusive" normal="1964-12-11">December 11, 1964</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [05743844371110716840854]">3</container>
+            <unittitle>U-M "6411 Luncheon</unittitle><unitdate type="inclusive" normal="1964-12-11">December 11, 1964</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [35093404177541970]">3</container>
-            <unittitle>URSI (International Scientific Radio Union) and IEEE (Institute of Electrical and Electronic Engineers) Antennas and Propagation <unitdate type="inclusive" normal="1967-10-17">October 17, 1967</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [05743844371110716840854]">3</container>
+            <unittitle>URSI (International Scientific Radio Union) and IEEE (Institute of Electrical and Electronic Engineers) Antennas and Propagation</unittitle><unitdate type="inclusive" normal="1967-10-17">October 17, 1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [35093404177541970]">3</container>
-            <unittitle>Water, Air and Noise Pollution <unitdate type="inclusive" normal="1969-11-21">November 21, 1969</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [05743844371110716840854]">3</container>
+            <unittitle>Water, Air and Noise Pollution</unittitle><unitdate type="inclusive" normal="1969-11-21">November 21, 1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [97304454830764840606]">4</container>
-            <unittitle>Reprints of writings <unitdate type="inclusive" normal="1926/1938">1926-1938</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [60549914652491128586]">4</container>
+            <unittitle>Reprints of writings</unittitle><unitdate type="inclusive" normal="1926/1938">1926-1938</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 volumes</extent>
             </physdesc>
           </did>
@@ -636,27 +526,24 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [35093404177541970]">3</container>
-            <unittitle>Academic Press <unitdate type="inclusive" normal="1960/1965">1960-1965</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [05743844371110716840854]">3</container>
+            <unittitle>Academic Press</unittitle><unitdate type="inclusive" normal="1960/1965">1960-1965</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [35093404177541970]">3</container>
+            <container type="box" label="Box [05743844371110716840854]">3</container>
             <unittitle><title render="italic">Advances in Agronomy</title> by A. G. Norman</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [35093404177541970]">3</container>
-            <unittitle>Agronomy Publications Committee <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [05743844371110716840854]">3</container>
+            <unittitle>Agronomy Publications Committee</unittitle><unitdate type="inclusive" normal="1955">1955</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [35093404177541970]">3</container>
-            <unittitle>Air Pollution, Detroit Area <unitdate type="inclusive" normal="1953/1955">1953-1955</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [05743844371110716840854]">3</container>
+            <unittitle>Air Pollution, Detroit Area</unittitle><unitdate type="inclusive" normal="1953/1955">1953-1955</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -664,52 +551,45 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35093404177541970]">3</container>
-              <unittitle>Board of Directors <unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [05743844371110716840854]">3</container>
+              <unittitle>Board of Directors</unittitle><unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35093404177541970]">3</container>
-              <unittitle>Bylaw Amendment Petition <unitdate type="inclusive" normal="1956/1958">1956-1958</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [05743844371110716840854]">3</container>
+              <unittitle>Bylaw Amendment Petition</unittitle><unitdate type="inclusive" normal="1956/1958">1956-1958</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35093404177541970]">3</container>
-              <unittitle>Executive Committee <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [05743844371110716840854]">3</container>
+              <unittitle>Executive Committee</unittitle><unitdate type="inclusive" normal="1958">1958</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35093404177541970]">3</container>
-              <unittitle>Vice-President Nominating Committee <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [05743844371110716840854]">3</container>
+              <unittitle>Vice-President Nominating Committee</unittitle><unitdate type="inclusive" normal="1959">1959</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [35093404177541970]">3</container>
-            <unittitle>Andelot Project, University of Delaware <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [05743844371110716840854]">3</container>
+            <unittitle>Andelot Project, University of Delaware</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [35093404177541970]">3</container>
+            <container type="box" label="Box [05743844371110716840854]">3</container>
             <unittitle>Biography</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [35093404177541970]">3</container>
-            <unittitle><title render="italic">Cellulose and Cellulose Derivatives</title>, <unitdate type="inclusive" normal="1951/1954">1951-1954</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [05743844371110716840854]">3</container>
+            <unittitle><title render="italic">Cellulose and Cellulose Derivatives</title></unittitle><unitdate type="inclusive" normal="1951/1954">1951-1954</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [35093404177541970]">3</container>
-            <unittitle>Division of Biological Sciences, UM General Committee <unitdate type="inclusive" normal="1958/1960">1958-1960</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [05743844371110716840854]">3</container>
+            <unittitle>Division of Biological Sciences, UM General Committee</unittitle><unitdate type="inclusive" normal="1958/1960">1958-1960</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -717,15 +597,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35093404177541970]">3</container>
-              <unittitle>General <unitdate type="inclusive" normal="1955/1964">1955-1964</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [05743844371110716840854]">3</container>
+              <unittitle>General</unittitle><unitdate type="inclusive" normal="1955/1964">1955-1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35093404177541970]">3</container>
-              <unittitle>Committee Meetings <unitdate type="inclusive" normal="1951/1954">1951-1954</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [05743844371110716840854]">3</container>
+              <unittitle>Committee Meetings</unittitle><unitdate type="inclusive" normal="1951/1954">1951-1954</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -733,59 +611,50 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [35093404177541970]">3</container>
-                <unittitle>with Ford Motor Co. <unitdate type="inclusive" normal="1951/1954">1951-1954</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [05743844371110716840854]">3</container>
+                <unittitle>With Ford Motor Co.</unittitle><unitdate type="inclusive" normal="1951/1954">1951-1954</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [35093404177541970]">3</container>
-                <unittitle>General <unitdate type="inclusive" normal="1952/1953">1952-1953</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [05743844371110716840854]">3</container>
+                <unittitle>General</unittitle><unitdate type="inclusive" normal="1952/1953">1952-1953</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35093404177541970]">3</container>
-              <unittitle>Progress Reports <unitdate type="inclusive" normal="1954/1959">1954-1959</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [05743844371110716840854]">3</container>
+              <unittitle>Progress Reports</unittitle><unitdate type="inclusive" normal="1954/1959">1954-1959</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [35093404177541970]">3</container>
-              <unittitle>Public Relations <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [05743844371110716840854]">3</container>
+              <unittitle>Public Relations</unittitle><unitdate type="inclusive" normal="1953">1953</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [35093404177541970]">3</container>
-            <unittitle>Gordon Research Conferences <unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [05743844371110716840854]">3</container>
+            <unittitle>Gordon Research Conferences</unittitle><unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [35093404177541970]">3</container>
-            <unittitle>Josiah Macy Foundation <unitdate type="inclusive" normal="1954/1956">1954-1956</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [05743844371110716840854]">3</container>
+            <unittitle>Josiah Macy Foundation</unittitle><unitdate type="inclusive" normal="1954/1956">1954-1956</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [35093404177541970]">3</container>
-            <unittitle>International Soils Congress <unitdate type="inclusive" normal="1954/1955">1954-1955</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [05743844371110716840854]">3</container>
+            <unittitle>International Soils Congress</unittitle><unitdate type="inclusive" normal="1954/1955">1954-1955</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [35093404177541970]">3</container>
-            <unittitle>Isotopes Conference <unitdate type="inclusive" normal="1955/1956">1955-1956</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [05743844371110716840854]">3</container>
+            <unittitle>Isotopes Conference</unittitle><unitdate type="inclusive" normal="1955/1956">1955-1956</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [97304454830764840606]">4</container>
-            <unittitle>Midwestern Plant Physiologists Meeting <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [60549914652491128586]">4</container>
+            <unittitle>Midwestern Plant Physiologists Meeting</unittitle><unitdate type="inclusive" normal="1957">1957</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -793,33 +662,28 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [97304454830764840606]">4</container>
-              <unittitle>Biomedical Committee on Civil Defense <unitdate type="inclusive" normal="1947">1947</unitdate>, <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [60549914652491128586]">4</container>
+              <unittitle>Biomedical Committee on Civil Defense</unittitle><unitdate type="inclusive" normal="1947">1947</unitdate><unitdate type="inclusive" normal="1958">1958</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [97304454830764840606]">4</container>
-              <unittitle>Center of Prevention of Deterioration <unitdate type="inclusive" normal="1948/1955">1948-1955</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [60549914652491128586]">4</container>
+              <unittitle>Center of Prevention of Deterioration</unittitle><unitdate type="inclusive" normal="1948/1955">1948-1955</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [97304454830764840606]">4</container>
-              <unittitle>Committee on Plant and Crop Ecology <unitdate type="inclusive" normal="1952/1953">1952-1953</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [60549914652491128586]">4</container>
+              <unittitle>Committee on Plant and Crop Ecology</unittitle><unitdate type="inclusive" normal="1952/1953">1952-1953</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [97304454830764840606]">4</container>
-              <unittitle>Division of Biology and Agriculture <unitdate type="inclusive" normal="1952/1954">1952-1954</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [60549914652491128586]">4</container>
+              <unittitle>Division of Biology and Agriculture</unittitle><unitdate type="inclusive" normal="1952/1954">1952-1954</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [97304454830764840606]">4</container>
-              <unittitle>Projects and Proposals Committee <unitdate type="inclusive" normal="1954/1956">1954-1956</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [60549914652491128586]">4</container>
+              <unittitle>Projects and Proposals Committee</unittitle><unitdate type="inclusive" normal="1954/1956">1954-1956</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -828,9 +692,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [97304454830764840606]">4</container>
-              <unittitle>Controlled Environment Committee <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [60549914652491128586]">4</container>
+              <unittitle>Controlled Environment Committee</unittitle><unitdate type="inclusive" normal="1957">1957</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -838,35 +701,30 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [97304454830764840606]">4</container>
-                <unittitle>General <unitdate type="inclusive" normal="1954/1958">1954-1958</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [60549914652491128586]">4</container>
+                <unittitle>General</unittitle><unitdate type="inclusive" normal="1954/1958">1954-1958</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [97304454830764840606]">4</container>
-                <unittitle>Budget <unitdate type="inclusive" normal="1955/1957">1955-1957</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [60549914652491128586]">4</container>
+                <unittitle>Budget</unittitle><unitdate type="inclusive" normal="1955/1957">1955-1957</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [97304454830764840606]">4</container>
-                <unittitle>Proposal <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [60549914652491128586]">4</container>
+                <unittitle>Proposal</unittitle><unitdate type="inclusive" normal="1956">1956</unitdate></did>
             </c04>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [97304454830764840606]">4</container>
-            <unittitle>Northeastern Weed Control Conference, Committee on Terminology <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [60549914652491128586]">4</container>
+            <unittitle>Northeastern Weed Control Conference, Committee on Terminology</unittitle><unitdate type="inclusive" normal="1952">1952</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [97304454830764840606]">4</container>
-            <unittitle>Society of American Bacteriologists, Committee on Teaching <unitdate type="inclusive" normal="1952/1953">1952-1953</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [60549914652491128586]">4</container>
+            <unittitle>Society of American Bacteriologists, Committee on Teaching</unittitle><unitdate type="inclusive" normal="1952/1953">1952-1953</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -874,44 +732,34 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [97304454830764840606]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [60549914652491128586]">4</container>
+              <unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [97304454830764840606]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1954">1954</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [60549914652491128586]">4</container>
+              <unitdate type="inclusive" normal="1954">1954</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [97304454830764840606]">4</container>
-            <unittitle>Soil Sciences Organic Matter Round Table <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [60549914652491128586]">4</container>
+            <unittitle>Soil Sciences Organic Matter Round Table</unittitle><unitdate type="inclusive" normal="1959">1959</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [97304454830764840606]">4</container>
-            <unittitle>Spencer Chemical Co. <unitdate type="inclusive" normal="1955/1958">1955-1958</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [60549914652491128586]">4</container>
+            <unittitle>Spencer Chemical Co.</unittitle><unitdate type="inclusive" normal="1955/1958">1955-1958</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [97304454830764840606]">4</container>
-            <unittitle>UMRI <unitdate type="inclusive" normal="1958/1960">1958-1960</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [60549914652491128586]">4</container>
+            <unittitle>UMRI</unittitle><unitdate type="inclusive" normal="1958/1960">1958-1960</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [97304454830764840606]">4</container>
-            <unittitle>Willcox, O.W. <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [60549914652491128586]">4</container>
+            <unittitle>Willcox, O.W.</unittitle><unitdate type="inclusive" normal="1958">1958</unitdate></did>
         </c02>
       </c01>
     </dsc>

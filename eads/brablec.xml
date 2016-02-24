@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Brablec, Carl, 1908-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/2212">Brablec, Carl, 1908-</persname>
       </origination>
-      <unittitle encodinganalog="245">Carl Brablec papers <unitdate type="inclusive" encodinganalog="245$f" normal="1957/1976">1957-1976</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">8564 Aa 2</unitid>
+      <unittitle encodinganalog="245">Carl Brablec papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1957/1976">1957-1976</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">8564 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>School administrator, Regent of the University of Michigan, 1958-1966. Regental files, and materials collected relating to the history of Czech-Americans, especially Moravian-Americans, in Michigan.</abstract>
       <physdesc altrender="whole">
@@ -78,12 +78,12 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Czech Americans--Michigan.</subject>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Emigration and immigration.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998">University of Michigan. Board of Regents.</corpname>
-        <subject source="lcsh" encodinganalog="650">Slovak Americans--Michigan.</subject>
-        <geogname source="lcsh" encodinganalog="651">Czech Republic--Emigration and immigration.</geogname>
-        <subject source="lcsh" encodinganalog="650">Immigrants--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6432">Czech Americans--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/859">Michigan--Emigration and immigration.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998" ref="/agents/corporate_entities/858">University of Michigan. Board of Regents.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6433">Slovak Americans--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1350">Czech Republic--Emigration and immigration.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5687">Immigrants--Michigan.</subject>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -93,11 +93,8 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [94959275490698012638]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1957/1970">1957-1970</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [8388825494918873275819495]">1</container>
+            <unitdate type="inclusive" normal="1957/1970">1957-1970</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">11 folders</extent>
             </physdesc>
           </did>
@@ -112,13 +109,12 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [725687041423019535]">2</container>
-            <unittitle>Notebook containing survey of selected southeastern Michigan families of Moravian ancestry <unitdate type="inclusive" normal="1969/1971" certainty="approximate">circa 1969-1971</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [42054114735978256365]">2</container>
+            <unittitle>Notebook containing survey of selected southeastern Michigan families of Moravian ancestry</unittitle><unitdate type="inclusive" normal="1969/1971" certainty="approximate">circa 1969-1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [725687041423019535]">2</container>
+            <container type="box" label="Box [42054114735978256365]">2</container>
             <unittitle>Miscellaneous: include manuscripts, clippings and published material relating to the Czech-American community (particularly Moravian-Americans) in Michigan</unittitle>
           </did>
         </c02>

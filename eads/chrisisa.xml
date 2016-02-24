@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Christiancy, Isaac Peckham, 1812-1890.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/4196">Christiancy, Isaac Peckham, 1812-1890.</persname>
       </origination>
-      <unittitle encodinganalog="245">Isaac Peckham Christiancy papers <unitdate type="inclusive" encodinganalog="245$f" normal="1830/1874">1830-1874</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85989 mf 318c, mf 319 c</unitid>
+      <unittitle encodinganalog="245">Isaac Peckham Christiancy papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1830/1874">1830-1874</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85989 mf 318c, mf 319 c</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Republican State Senator from Monroe County, Michigan, 1850-1851, Michigan Supreme Court Justice, 1858-1875, U.S. Senator, 1875-1879, and U.S. Minister to Peru. Letters to his children, business letters from his law partner Robert M. McClelland, Catholic Bishop Peter P. LeFevre and Nathaniel L. Christiancy; legal documents, Civil War address, Michigan Supreme Court docket book, and miscellaneous papers.</abstract>
       <physdesc altrender="whole">
@@ -79,21 +79,21 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Catholic Church.</corpname>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1845-1860.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81074669">Michigan. Supreme Court.</corpname>
-        <geogname source="lcsh" encodinganalog="651">Monroe (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Michigan Infantry Regiment, 4th (1861-1864). Company A.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79022161">United States. Congress. Senate.</corpname>
-        <geogname source="lcsh" encodinganalog="651">United States--History--Civil War, 1861-1865.</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80057180">Van Buren, Martin, 1782-1862.</persname>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Politics and government--1837-1950.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3597">Catholic Church.</corpname>
+        <geogname source="local" encodinganalog="691" ref="/subjects/820">Michigan--Politics and government--1845-1860.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81074669" ref="/agents/corporate_entities/1769">Michigan. Supreme Court.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1160">Monroe (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2893">United States. Army. Michigan Infantry Regiment, 4th (1861-1864). Company A.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79022161" ref="/agents/corporate_entities/761">United States. Congress. Senate.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/905">United States--History--Civil War, 1861-1865.</geogname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80057180" ref="/agents/people/2623">Van Buren, Martin, 1782-1862.</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/880">Michigan--Politics and government--1837-1950.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Christiancy, Nathaniel L.</persname>
-        <persname source="lcnaf" encodinganalog="700">Lefevere, Peter Paul, 1804-1869.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86054943">McClelland, Robert, 1807-1880.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/1080">Christiancy, Nathaniel L.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/336">Lefevere, Peter Paul, 1804-1869.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86054943" ref="/agents/people/6551">McClelland, Robert, 1807-1880.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -103,7 +103,7 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [708540041342048622]">1</container>
+            <container type="reel" label="Roll [0798153544892766461]">1</container>
             <unittitle>Miscellaneous: include chronology of Christiancy's life, typescripts of documents in other repositories, descriptions of the collection</unittitle>
           </did>
         </c02>
@@ -118,51 +118,33 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [708540041342048622]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1840/1849">1840-1849</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [0798153544892766461]">1</container>
+              <unitdate type="inclusive" normal="1840/1849">1840-1849</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [708540041342048622]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1850/1851">1850-1851</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [0798153544892766461]">1</container>
+              <unitdate type="inclusive" normal="1850/1851">1850-1851</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [708540041342048622]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1852/1854">1852-1854</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [0798153544892766461]">1</container>
+              <unitdate type="inclusive" normal="1852/1854">1852-1854</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [708540041342048622]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1855-01/1855-05">January-May 1855</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [0798153544892766461]">1</container>
+              <unitdate type="inclusive" normal="1855-01/1855-05">January-May 1855</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [708540041342048622]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1855-06/1855-12">June-December 1855</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [0798153544892766461]">1</container>
+              <unitdate type="inclusive" normal="1855-06/1855-12">June-December 1855</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [708540041342048622]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1856/1861">1856-1861</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [0798153544892766461]">1</container>
+              <unitdate type="inclusive" normal="1856/1861">1856-1861</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -171,51 +153,33 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [708540041342048622]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1850/1853">1850-1853</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [0798153544892766461]">1</container>
+              <unitdate type="inclusive" normal="1850/1853">1850-1853</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [708540041342048622]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1854-01/1854-05">January-May 1854</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [0798153544892766461]">1</container>
+              <unitdate type="inclusive" normal="1854-01/1854-05">January-May 1854</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [708540041342048622]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1854-06/1854-12">June-December 1854</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [0798153544892766461]">1</container>
+              <unitdate type="inclusive" normal="1854-06/1854-12">June-December 1854</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [708540041342048622]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1855-01/1855-07">January-July 1855</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [0798153544892766461]">1</container>
+              <unitdate type="inclusive" normal="1855-01/1855-07">January-July 1855</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [708540041342048622]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1855-08/1855-12">August-December 1855</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [0798153544892766461]">1</container>
+              <unitdate type="inclusive" normal="1855-08/1855-12">August-December 1855</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [708540041342048622]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1856/1859">1856-1859</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [0798153544892766461]">1</container>
+              <unitdate type="inclusive" normal="1856/1859">1856-1859</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -224,27 +188,18 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [708540041342048622]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1844/1847">1844-1847</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [0798153544892766461]">1</container>
+              <unitdate type="inclusive" normal="1844/1847">1844-1847</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [708540041342048622]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1848/1849">1848-1849</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [0798153544892766461]">1</container>
+              <unitdate type="inclusive" normal="1848/1849">1848-1849</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [708540041342048622]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1850/1855">1850-1855</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [0798153544892766461]">1</container>
+              <unitdate type="inclusive" normal="1850/1855">1850-1855</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -253,34 +208,24 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [708540041342048622]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1841/1844">1841-1844</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [0798153544892766461]">1</container>
+              <unitdate type="inclusive" normal="1841/1844">1841-1844</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [708540041342048622]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1845">1845</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [0798153544892766461]">1</container>
+              <unitdate type="inclusive" normal="1845">1845</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [708540041342048622]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1846/1851">1846-1851</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [0798153544892766461]">1</container>
+              <unitdate type="inclusive" normal="1846/1851">1846-1851</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [708540041342048622]">1</container>
-            <unittitle>Letters from his children <unitdate type="inclusive" normal="1874/1875">1874-1875</unitdate></unittitle>
-          </did>
+            <container type="reel" label="Roll [0798153544892766461]">1</container>
+            <unittitle>Letters from his children</unittitle><unitdate type="inclusive" normal="1874/1875">1874-1875</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -293,85 +238,68 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [708540041342048622]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1835/1837">1835-1837</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [0798153544892766461]">1</container>
+              <unitdate type="inclusive" normal="1835/1837">1835-1837</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [708540041342048622]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1841/1849">1841-1849</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [0798153544892766461]">1</container>
+              <unitdate type="inclusive" normal="1841/1849">1841-1849</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [708540041342048622]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1850/1851">1850-1851</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [0798153544892766461]">1</container>
+              <unitdate type="inclusive" normal="1850/1851">1850-1851</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [708540041342048622]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1852/1856">1852-1856</unitdate>
-                <unitdate type="inclusive">undated</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [0798153544892766461]">1</container>
+              <unitdate type="inclusive" normal="1852/1856">1852-1856</unitdate><unitdate type="inclusive">undated</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [708540041342048622]">1</container>
+            <container type="reel" label="Roll [0798153544892766461]">1</container>
             <unittitle>Business Receipts</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [708540041342048622]">1</container>
+            <container type="reel" label="Roll [0798153544892766461]">1</container>
             <unittitle>Personal bills, receipts, and checks</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [708540041342048622]">1</container>
-            <unittitle>Letters concerning pending litigation <unitdate type="inclusive" normal="1831/1855">1831-1855</unitdate></unittitle>
-          </did>
+            <container type="reel" label="Roll [0798153544892766461]">1</container>
+            <unittitle>Letters concerning pending litigation</unittitle><unitdate type="inclusive" normal="1831/1855">1831-1855</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [708540041342048622]">1</container>
+            <container type="reel" label="Roll [0798153544892766461]">1</container>
             <unittitle>Architect's plans, bills, and receipts for his home</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [708540041342048622]">1</container>
-            <unittitle>Michigan Supreme Court docket <unitdate type="inclusive" normal="1859-07">July 1859</unitdate></unittitle>
-          </did>
+            <container type="reel" label="Roll [0798153544892766461]">1</container>
+            <unittitle>Michigan Supreme Court docket</unittitle><unitdate type="inclusive" normal="1859-07">July 1859</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [708540041342048622]">1</container>
-            <unittitle>Address given <unitdate type="inclusive" normal="1861-05-21">May 21, 1861</unitdate> at Monroe</unittitle>
-          </did>
+            <container type="reel" label="Roll [0798153544892766461]">1</container>
+            <unittitle>Address given at Monroe</unittitle><unitdate type="inclusive" normal="1861-05-21">May 21, 1861</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [708540041342048622]">1</container>
+            <container type="reel" label="Roll [0798153544892766461]">1</container>
             <unittitle>Certificates of election to the Supreme Court</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [708540041342048622]">1</container>
-            <unittitle>Diary and Memorandum book <unitdate type="inclusive" normal="1850">1850</unitdate></unittitle>
-          </did>
+            <container type="reel" label="Roll [0798153544892766461]">1</container>
+            <unittitle>Diary and Memorandum book</unittitle><unitdate type="inclusive" normal="1850">1850</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -380,9 +308,8 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [70910065484105713548464]">2</container>
-            <unittitle>Record of Court Cases <unitdate type="inclusive" normal="1846/1848">1846-1848</unitdate></unittitle>
-          </did>
+            <container type="reel" label="Roll [749532489232838060]">2</container>
+            <unittitle>Record of Court Cases</unittitle><unitdate type="inclusive" normal="1846/1848">1846-1848</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -390,79 +317,79 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [70910065484105713548464]">2</container>
+              <container type="reel" label="Roll [749532489232838060]">2</container>
               <unittitle>Peter Allan Estate</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [70910065484105713548464]">2</container>
+              <container type="reel" label="Roll [749532489232838060]">2</container>
               <unittitle>Butler vs. Humphrey</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [70910065484105713548464]">2</container>
+              <container type="reel" label="Roll [749532489232838060]">2</container>
               <unittitle>Creelman and Chapman vs. Farmington</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [70910065484105713548464]">2</container>
+              <container type="reel" label="Roll [749532489232838060]">2</container>
               <unittitle>Culbertson vs. Damah</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [70910065484105713548464]">2</container>
+              <container type="reel" label="Roll [749532489232838060]">2</container>
               <unittitle>Farmers and Mechanics Bank vs. Strong and Maer</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [70910065484105713548464]">2</container>
+              <container type="reel" label="Roll [749532489232838060]">2</container>
               <unittitle>Farwell vs. Andrews</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [70910065484105713548464]">2</container>
+              <container type="reel" label="Roll [749532489232838060]">2</container>
               <unittitle>Field vs. Christiancy</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [70910065484105713548464]">2</container>
+              <container type="reel" label="Roll [749532489232838060]">2</container>
               <unittitle>Holman vs. Fort Wayne Railroad</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [70910065484105713548464]">2</container>
+              <container type="reel" label="Roll [749532489232838060]">2</container>
               <unittitle>Miller vs. Arnold</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [70910065484105713548464]">2</container>
+              <container type="reel" label="Roll [749532489232838060]">2</container>
               <unittitle>Nash vs. Filkins</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [70910065484105713548464]">2</container>
+              <container type="reel" label="Roll [749532489232838060]">2</container>
               <unittitle>O'Connor vs. Murphy</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [70910065484105713548464]">2</container>
+              <container type="reel" label="Roll [749532489232838060]">2</container>
               <unittitle>Francis Roberts Estate</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [70910065484105713548464]">2</container>
+              <container type="reel" label="Roll [749532489232838060]">2</container>
               <unittitle>Shauvon vs. People of Michigan</unittitle>
             </did>
           </c03>
@@ -473,43 +400,28 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [70910065484105713548464]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1839/1844">1839-1844</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [749532489232838060]">2</container>
+              <unitdate type="inclusive" normal="1839/1844">1839-1844</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [70910065484105713548464]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1845/1849">1845-1849</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [749532489232838060]">2</container>
+              <unitdate type="inclusive" normal="1845/1849">1845-1849</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [70910065484105713548464]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1850/1854">1850-1854</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [749532489232838060]">2</container>
+              <unitdate type="inclusive" normal="1850/1854">1850-1854</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [70910065484105713548464]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1855/1857">1855-1857</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [749532489232838060]">2</container>
+              <unitdate type="inclusive" normal="1855/1857">1855-1857</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [70910065484105713548464]">2</container>
-              <unittitle>
-                <unitdate type="inclusive">Undated</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [749532489232838060]">2</container>
+              <unitdate type="inclusive">Undated</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -518,83 +430,53 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [70910065484105713548464]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1800">1800</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [749532489232838060]">2</container>
+              <unitdate type="inclusive" normal="1800">1800</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [70910065484105713548464]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1830/1839">1830-1839</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [749532489232838060]">2</container>
+              <unitdate type="inclusive" normal="1830/1839">1830-1839</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [70910065484105713548464]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1840/1844">1840-1844</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [749532489232838060]">2</container>
+              <unitdate type="inclusive" normal="1840/1844">1840-1844</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [70910065484105713548464]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1845">1845</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [749532489232838060]">2</container>
+              <unitdate type="inclusive" normal="1845">1845</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [70910065484105713548464]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1846/1849">1846-1849</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [749532489232838060]">2</container>
+              <unitdate type="inclusive" normal="1846/1849">1846-1849</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [70910065484105713548464]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1850/1851">1850-1851</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [749532489232838060]">2</container>
+              <unitdate type="inclusive" normal="1850/1851">1850-1851</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [70910065484105713548464]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1852/1853">1852-1853</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [749532489232838060]">2</container>
+              <unitdate type="inclusive" normal="1852/1853">1852-1853</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [70910065484105713548464]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1854/1859">1854-1859</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [749532489232838060]">2</container>
+              <unitdate type="inclusive" normal="1854/1859">1854-1859</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [70910065484105713548464]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1860/1874">1860-1874</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [749532489232838060]">2</container>
+              <unitdate type="inclusive" normal="1860/1874">1860-1874</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [70910065484105713548464]">2</container>
-              <unittitle>
-                <unitdate type="inclusive">Undated</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [749532489232838060]">2</container>
+              <unitdate type="inclusive">Undated</unitdate></did>
           </c03>
         </c02>
       </c01>

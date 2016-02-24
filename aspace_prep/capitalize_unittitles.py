@@ -11,6 +11,7 @@ def capitalize_unittitles(ead_dir):
 		for unittitle in unittitles:
 			if unittitle.text and len(unittitle.text.strip()) >= 1:
 				unittitle_text = re.sub(r'^\s+','',unittitle.text)
+				unittitle_text = re.sub(r'\s+',' ',unittitle_text)
 				if not unittitle_text.startswith('de') and not unittitle_text.startswith('vs.') and not unittitle_text.startswith('von'):
 					unittitle_text = unittitle_text[0].upper() + unittitle_text[1:]
 				unittitle.text = unittitle_text

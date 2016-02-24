@@ -28,7 +28,8 @@
         <item>Original encoding.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,10 +40,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Nicke, Herbert Henry.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/3474">Nicke, Herbert Henry.</persname>
       </origination>
-      <unittitle encodinganalog="245">Herbert Henry Nicke and Mabel Delia Brown Nicke photograph collection <unitdate type="inclusive" encodinganalog="245$f" normal="1918">1918</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009167 Aa 2</unitid>
+      <unittitle encodinganalog="245">Herbert Henry Nicke and Mabel Delia Brown Nicke photograph collection</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1918">1918</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009167 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Photograph collection of a soldier in the U.S. 340th Ambulance Company during World War I and his future wife who served as secretary of the YMCA Michigan Hut at Conlie (Sarthe), France.</abstract>
       <physdesc altrender="whole">
@@ -83,24 +83,24 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcnaf" encodinganalog="651." authfilenumber="http://id.loc.gov/authorities/names/n94064669">Fort Custer (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600">Nicke, Herbert Henry.</persname>
-        <persname source="lcnaf" encodinganalog="600">Brown, Mabel Delia.</persname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Ambulance Company, 337th.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Ambulance Company, 340th.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Field Hospital Company, 310th.</corpname>
-        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
-        <subject source="lcsh" encodinganalog="650">World War, 1914-1918--War work--Young Men's Christian associations.</subject>
-        <subject source="lcsh" encodinganalog="650">Young Men's Christian Associations.</subject>
-        <subject source="lctgm" encodinganalog="650">Military training--Michigan--Fort Custer.</subject>
-        <subject source="lctgm" encodinganalog="650">Soldiers--American.</subject>
-        <subject source="lctgm" encodinganalog="650">Soldiers--American--France.</subject>
-        <subject source="lctgm" encodinganalog="650">War work--France--Conlie.</subject>
-        <corpname encodinganalog="690" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n2008059426">Polar Bear Expedition (1918-1919)</corpname>
+        <geogname source="lcnaf" encodinganalog="651." authfilenumber="http://id.loc.gov/authorities/names/n94064669" ref="/subjects/778">Fort Custer (Mich.)</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3474">Nicke, Herbert Henry.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6695">Brown, Mabel Delia.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4806">United States. Army. Ambulance Company, 337th.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1568">United States. Army. Ambulance Company, 340th.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/403">United States. Army. Field Hospital Company, 310th.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5715">World War, 1914-1918.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9545">World War, 1914-1918--War work--Young Men's Christian associations.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6558">Young Men's Christian Associations.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5069">Military training--Michigan--Fort Custer.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3672">Soldiers--American.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4746">Soldiers--American--France.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5070">War work--France--Conlie.</subject>
+        <corpname encodinganalog="690" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n2008059426" ref="/agents/corporate_entities/4142">Polar Bear Expedition (1918-1919)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -110,12 +110,12 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [6787564707899252943]">1</container>
+            <container type="folder" label="Folder [8566735844786562208058675]">1</container>
             <unittitle>Photographs</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">9 items</extent>
             </physdesc>
-            <dao href="nicke0001">
+            <dao href="nicke0001" ref="/repositories/2/digital_objects/14227">
               <daodesc>
                 <p>[view item}</p>
               </daodesc>

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Norris, Harold.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/3307">Norris, Harold.</persname>
       </origination>
-      <unittitle encodinganalog="245">Harold Norris papers <unitdate type="inclusive" encodinganalog="245$f" normal="1946/1971">1946-1971</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851941 Aa 2</unitid>
+      <unittitle encodinganalog="245">Harold Norris papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1946/1971">1946-1971</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851941 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Delegate to the Michigan Constitutional Convention. Correspondence and other papers concerning his professional and public service activities.</abstract>
       <physdesc altrender="part">
@@ -81,14 +81,14 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Apportionment (Election law)--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Civil rights--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731">Democratic Party (Mich.)</corpname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539">Detroit (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Lawyers--Michigan--Detroit.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n91059253">Michigan. Constitutional Convention (1961-1962)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79054671">National Lawyers Guild.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Norris, Harold.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6264">Apportionment (Election law)--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5733">Civil rights--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731" ref="/agents/corporate_entities/3762">Democratic Party (Mich.)</corpname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539" ref="/subjects/929">Detroit (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6440">Lawyers--Michigan--Detroit.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n91059253" ref="/agents/corporate_entities/767">Michigan. Constitutional Convention (1961-1962)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79054671" ref="/agents/corporate_entities/5234">National Lawyers Guild.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3307">Norris, Harold.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -98,34 +98,24 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [566347340460123742260074]">1</container>
-            <unittitle>
-              <unitdate type="inclusive">Undated</unitdate>
-              <unitdate type="inclusive" normal="1946/1960">1946-1960</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [442374459591821501213]">1</container>
+            <unitdate type="inclusive">Undated</unitdate><unitdate type="inclusive" normal="1946/1960">1946-1960</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">26 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [792854177447817988828]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [14249148559811854]">2</container>
+            <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">23 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [8009688174049525662523]">3</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1963/1971">1963-1971</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [83576699449598803655234]">3</container>
+            <unitdate type="inclusive" normal="1963/1971">1963-1971</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">7 folders</extent>
             </physdesc>
           </did>
@@ -137,22 +127,20 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [8009688174049525662523]">3</container>
-            <unittitle>Michigan Constitutional Convention <unitdate type="inclusive" normal="1961/1963">1961-1963</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [83576699449598803655234]">3</container>
+            <unittitle>Michigan Constitutional Convention</unittitle><unitdate type="inclusive" normal="1961/1963">1961-1963</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">10 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [8009688174049525662523]">3</container>
-            <unittitle>Pamphlets of the National Lawyers Guild <unitdate type="inclusive" normal="1947/1960">1947-1960</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [83576699449598803655234]">3</container>
+            <unittitle>Pamphlets of the National Lawyers Guild</unittitle><unitdate type="inclusive" normal="1947/1960">1947-1960</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Oversize Folder [3691081949988634195459744]">1</container>
+            <container type="folder" label="Oversize Folder [4817942916082585704]">1</container>
             <unittitle>Resolution in Memoriam (re. Michigan Constitutional Convention)</unittitle>
           </did>
         </c02>

@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,10 +40,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">St. Margaret’s Episcopal Church (Hazel Park, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/4206">St. Margaret’s Episcopal Church (Hazel Park, Mich.)</corpname>
       </origination>
-      <unittitle encodinganalog="245">St. Margaret’s Episcopal Church (Hazel Park, Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1927/2007">1927-2007</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2008074 Ba 2</unitid>
+      <unittitle encodinganalog="245">St. Margaret’s Episcopal Church (Hazel Park, Mich.) records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1927/2007">1927-2007</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2008074 Ba 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>St. Margaret’s Episcopal Church of Hazel Park, Michigan, member of the Episcopal Diocese of Michigan, operated from 1927 to 2007; registers of baptisms, burials, confirmations, marriages; and vestry minutes.</abstract>
       <physdesc altrender="part">
@@ -85,10 +85,10 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Episcopal Church--Michigan--Hazel Park.</corpname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85155126">Hazel Park (Mich.)--History.</geogname>
-        <subject source="lcsh" encodinganalog="650">Registers of births, etc.--Michigan--Hazel Park.</subject>
-        <corpname source="lcnaf" encodinganalog="610">St. Margaret's Episcopal Church (Hazel Park, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/805">Episcopal Church--Michigan--Hazel Park.<term type="geographic">Michigan</term><term type="geographic">Hazel Park.</term></corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2851">Hazel Park (Mich.)--History.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10265">Registers of births, etc.--Michigan--Hazel Park.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1842">St. Margaret's Episcopal Church (Hazel Park, Mich.)</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -101,39 +101,33 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [405264642135637255377]">1</container>
-            <unittitle>Baptisms <unitdate type="inclusive" normal="1927/1955">1927-1955</unitdate>, Confirmations, <unitdate type="inclusive" normal="1927/1955">1927-1955</unitdate>, Marriages, <unitdate type="inclusive" normal="1930/1955">1930-1955</unitdate>, Burials, <unitdate type="inclusive" normal="1928/1955">1928-1955</unitdate></unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [365944360122389290]">1</container>
+            <unittitle>Baptisms 1927-1955, Confirmations, 1927-1955, Marriages, 1930-1955, Burials, 1928-1955</unittitle><unitdate type="inclusive" normal="1927/1955">1927-1955</unitdate><unitdate type="inclusive" normal="1930/1955">1930-1955</unitdate><unitdate type="inclusive" normal="1928/1955">1928-1955</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [6162260467800859912]">2</container>
-            <unittitle>Baptisms <unitdate type="inclusive" normal="1956/1969">1956-1969</unitdate>, Confirmations, <unitdate type="inclusive" normal="1956/1966">1956-1966</unitdate>, Marriages, <unitdate type="inclusive" normal="1956/1974">1956-1974</unitdate>, Burials, <unitdate type="inclusive" normal="1956/1982">1956-1982</unitdate></unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [559096043346201510794]">2</container>
+            <unittitle>Baptisms 1956-1969, Confirmations, 1956-1966, Marriages, 1956-1974, Burials, 1956-1982</unittitle><unitdate type="inclusive" normal="1956/1969">1956-1969</unitdate><unitdate type="inclusive" normal="1956/1966">1956-1966</unitdate><unitdate type="inclusive" normal="1956/1974">1956-1974</unitdate><unitdate type="inclusive" normal="1956/1982">1956-1982</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6946856404446392404]">1</container>
-            <unittitle>Baptisms <unitdate type="inclusive" normal="1969/2005">1969-2005</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0939211044288562652]">1</container>
+            <unittitle>Baptisms</unittitle><unitdate type="inclusive" normal="1969/2005">1969-2005</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6946856404446392404]">1</container>
-            <unittitle>Burials <unitdate type="inclusive" normal="1982/2007">1982-2007</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0939211044288562652]">1</container>
+            <unittitle>Burials</unittitle><unitdate type="inclusive" normal="1982/2007">1982-2007</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6946856404446392404]">1</container>
-            <unittitle>Confirmations <unitdate type="inclusive" normal="1951/2007">1951-2007</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0939211044288562652]">1</container>
+            <unittitle>Confirmations</unittitle><unitdate type="inclusive" normal="1951/2007">1951-2007</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6946856404446392404]">1</container>
-            <unittitle>Marriages <unitdate type="inclusive" normal="1974/2004">1974-2004</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0939211044288562652]">1</container>
+            <unittitle>Marriages</unittitle><unitdate type="inclusive" normal="1974/2004">1974-2004</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -145,13 +139,12 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6946856404446392404]">1</container>
-            <unittitle>Building Plans Committee <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0939211044288562652]">1</container>
+            <unittitle>Building Plans Committee</unittitle><unitdate type="inclusive" normal="1959">1959</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6946856404446392404]">1</container>
+            <container type="box" label="Box [0939211044288562652]">1</container>
             <unittitle>Property Title</unittitle>
           </did>
         </c02>
@@ -161,11 +154,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6946856404446392404]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1929/2007">1929-2007</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [0939211044288562652]">1</container>
+              <unitdate type="inclusive" normal="1929/2007">1929-2007</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">6 volumes</extent>
               </physdesc>
             </did>
@@ -177,44 +167,32 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6946856404446392404]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1959/1962">1959-1962</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [0939211044288562652]">1</container>
+              <unitdate type="inclusive" normal="1959/1962">1959-1962</unitdate></did>
             <odd>
               <p>(incl. Articles of Incorporation)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [360534148286495646322]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1963/2001">1963-2001</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [670900498814397]">2</container>
+              <unitdate type="inclusive" normal="1963/2001">1963-2001</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">11 volumes</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [360534148286495646322]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="2002/2005">2002-2005</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [670900498814397]">2</container>
+              <unitdate type="inclusive" normal="2002/2005">2002-2005</unitdate></did>
             <odd>
               <p>(incl. 2002 Statistical Report)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [360534148286495646322]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="2006/2007">2006-2007</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [670900498814397]">2</container>
+              <unitdate type="inclusive" normal="2006/2007">2006-2007</unitdate></did>
             <odd>
               <p>(incl. Final Communications and Property Distribution)</p>
             </odd>

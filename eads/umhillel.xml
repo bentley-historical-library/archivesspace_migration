@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,10 +40,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan Hillel.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/2005">University of Michigan Hillel.</corpname>
       </origination>
-      <unittitle encodinganalog="245">University of Michigan Hillel records <unitdate type="inclusive" encodinganalog="245$f" normal="1935/2008">1935-2008</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009059 Bimu 2</unitid>
+      <unittitle encodinganalog="245">University of Michigan Hillel records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1935/2008">1935-2008</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009059 Bimu 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>The University of Michigan Hillel records cover the student organization's contribution to Jewish campus life. The collection consists primarily of calendar of events, newsletters, some correspondence, newspaper clippings, board minutes, brochures, programs, and posters.</abstract>
       <physdesc altrender="whole">
@@ -84,24 +84,24 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Jewish students--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Jews--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Religion.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan Hillel.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8050">Jewish students--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6299">Jews--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Religion.<term type="topical">Religion.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students.<term type="topical">Students.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2005">University of Michigan Hillel.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <subject source="lctgm" encodinganalog="650">Construction--Michigan--Ann Arbor.</subject>
-        <geogname source="lcsh" encodinganalog="651">Hill Street (Ann Arbor, Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan Hillel.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Zwerdling, Osias.</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3713">Construction--Michigan--Ann Arbor.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/848">Hill Street (Ann Arbor, Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2005">University of Michigan Hillel.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3136">Zwerdling, Osias.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="aat" encodinganalog="655">Posters.</genreform>
-        <genreform source="aat" encodinganalog="655">Scrapbooks.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3138">Posters.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3133">Scrapbooks.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -114,48 +114,41 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0824261603487816703654705]">1</container>
-            <unittitle>Hillel Organizational Notebook <unitdate type="inclusive" normal="1942/1960">1942-1960</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7765228640817122754265]">1</container>
+            <unittitle>Hillel Organizational Notebook</unittitle><unitdate type="inclusive" normal="1942/1960">1942-1960</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0824261603487816703654705]">1</container>
-            <unittitle>History/Background Material <unitdate type="inclusive" normal="1940/1988">1940-1988</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7765228640817122754265]">1</container>
+            <unittitle>History/Background Material</unittitle><unitdate type="inclusive" normal="1940/1988">1940-1988</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0824261603487816703654705]">1</container>
-            <unittitle>Legal and Financial Documents <unitdate type="inclusive" normal="1942/1988">1942-1988</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7765228640817122754265]">1</container>
+            <unittitle>Legal and Financial Documents</unittitle><unitdate type="inclusive" normal="1942/1988">1942-1988</unitdate></did>
           <odd>
             <p>(contains lease agreement, warranty deed, and trust agreement)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0824261603487816703654705]">1</container>
-            <unittitle>1429 Hill Street Building <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7765228640817122754265]">1</container>
+            <unittitle>1429 Hill Street Building</unittitle><unitdate type="inclusive" normal="1951">1951</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0824261603487816703654705]">1</container>
-            <unittitle>Board Meetings and Minutes <unitdate type="inclusive" normal="1942">1942</unitdate>, <unitdate type="inclusive" normal="1946">1946</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7765228640817122754265]">1</container>
+            <unittitle>Board Meetings and Minutes</unittitle><unitdate type="inclusive" normal="1942">1942</unitdate><unitdate type="inclusive" normal="1946">1946</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0824261603487816703654705]">1</container>
-            <unittitle>Fundraiser Mailings <unitdate type="inclusive" normal="2001" certainty="approximate">2001 undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7765228640817122754265]">1</container>
+            <unittitle>Fundraiser Mailings</unittitle><unitdate type="inclusive" normal="2001" certainty="approximate">2001 undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0824261603487816703654705]">1</container>
-            <unittitle>Scholarship Funds <unitdate type="inclusive" normal="1945/1974">1945-1974</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7765228640817122754265]">1</container>
+            <unittitle>Scholarship Funds</unittitle><unitdate type="inclusive" normal="1945/1974">1945-1974</unitdate></did>
           <odd>
             <p>(<genreform normal="Photographs">Photograph</genreform> of chairperson and scholarship fund founder Osias Zwerdling)</p>
           </odd>
@@ -172,51 +165,43 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0824261603487816703654705]">1</container>
-            <unittitle>Hillel Scrap Book <unitdate type="inclusive" normal="1936/1937">1936-1937</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7765228640817122754265]">1</container>
+            <unittitle>Hillel Scrap Book</unittitle><unitdate type="inclusive" normal="1936/1937">1936-1937</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0824261603487816703654705]">1</container>
-            <unittitle>Hillel Players' Scrap Book <unitdate type="inclusive" normal="1939">1939</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7765228640817122754265]">1</container>
+            <unittitle>Hillel Players' Scrap Book</unittitle><unitdate type="inclusive" normal="1939">1939</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0824261603487816703654705]">1</container>
-            <unittitle>Loose Material from Hillel Scrap Book <unitdate type="inclusive" normal="1937">1937</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7765228640817122754265]">1</container>
+            <unittitle>Loose Material from Hillel Scrap Book</unittitle><unitdate type="inclusive" normal="1937">1937</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0824261603487816703654705]">1</container>
-            <unittitle>B'nai B'rith Hillel Foundation Log <unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7765228640817122754265]">1</container>
+            <unittitle>B'nai B'rith Hillel Foundation Log</unittitle><unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [60008024548834683303]">2</container>
-            <unittitle>Hillel Scrap Book <unitdate type="inclusive" normal="1935/1936">1935-1936</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [20365680542298639672]">2</container>
+            <unittitle>Hillel Scrap Book</unittitle><unitdate type="inclusive" normal="1935/1936">1935-1936</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [60008024548834683303]">2</container>
-            <unittitle>Hillel Scrap Book <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [20365680542298639672]">2</container>
+            <unittitle>Hillel Scrap Book</unittitle><unitdate type="inclusive" normal="1940">1940</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [60008024548834683303]">2</container>
-            <unittitle>Hillel Players' Scrap Book <unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [20365680542298639672]">2</container>
+            <unittitle>Hillel Players' Scrap Book</unittitle><unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [60008024548834683303]">2</container>
-            <unittitle>Hillel Players' Scrap Book <unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [20365680542298639672]">2</container>
+            <unittitle>Hillel Players' Scrap Book</unittitle><unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -228,42 +213,36 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0824261603487816703654705]">1</container>
-            <unittitle>Newspaper Clippings <unitdate type="inclusive" normal="1936/1961">1936-1961</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7765228640817122754265]">1</container>
+            <unittitle>Newspaper Clippings</unittitle><unitdate type="inclusive" normal="1936/1961">1936-1961</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0824261603487816703654705]">1</container>
-            <unittitle>News Releases <unitdate type="inclusive" normal="1961/1963">1961-1963</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7765228640817122754265]">1</container>
+            <unittitle>News Releases</unittitle><unitdate type="inclusive" normal="1961/1963">1961-1963</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0824261603487816703654705]">1</container>
-            <unittitle><title render="italic">Hillel Bulletin</title>, <unitdate type="inclusive" normal="1945">1945</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7765228640817122754265]">1</container>
+            <unittitle><title render="italic">Hillel Bulletin</title></unittitle><unitdate type="inclusive" normal="1945">1945</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0824261603487816703654705]">1</container>
-            <unittitle><title render="italic">Friends Newsletter</title>, <unitdate type="inclusive" normal="1990/1998">1990-1998</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7765228640817122754265]">1</container>
+            <unittitle><title render="italic">Friends Newsletter</title></unittitle><unitdate type="inclusive" normal="1990/1998">1990-1998</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0824261603487816703654705]">1</container>
-            <unittitle><title render="italic">UM Hillel</title> Newsletter, <unitdate type="inclusive" normal="2000/2009" certainty="approximate">2000s</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [7765228640817122754265]">1</container>
+            <unittitle><title render="italic">UM Hillel</title> Newsletter</unittitle><unitdate type="inclusive" normal="2000/2009" certainty="approximate">2000s</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0824261603487816703654705]">1</container>
-            <unittitle>Miscellaneous Bulletins and Publications <unitdate type="inclusive" normal="1941">1941</unitdate>, <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7765228640817122754265]">1</container>
+            <unittitle>Miscellaneous Bulletins and Publications</unittitle><unitdate type="inclusive" normal="1941">1941</unitdate><unitdate type="inclusive" normal="1988">1988</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -275,51 +254,44 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0824261603487816703654705]">1</container>
-            <unittitle>Hillel Calendar of Events <unitdate type="inclusive" normal="1984/2008">1984-2008</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [7765228640817122754265]">1</container>
+            <unittitle>Hillel Calendar of Events</unittitle><unitdate type="inclusive" normal="1984/2008">1984-2008</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">6 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0824261603487816703654705]">1</container>
-            <unittitle>Event Announcements and Flyers <unitdate type="inclusive" normal="1940/1977">1940-1977</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7765228640817122754265]">1</container>
+            <unittitle>Event Announcements and Flyers</unittitle><unitdate type="inclusive" normal="1940/1977">1940-1977</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0824261603487816703654705]">1</container>
-            <unittitle>Programs, general <unitdate type="inclusive" normal="1942/1996">1942-1996</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7765228640817122754265]">1</container>
+            <unittitle>Programs, general</unittitle><unitdate type="inclusive" normal="1942/1996">1942-1996</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0824261603487816703654705]">1</container>
-            <unittitle>Annual Conference on the Holocaust, Programs <unitdate type="inclusive" normal="1984/2007">1984-2007</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [7765228640817122754265]">1</container>
+            <unittitle>Annual Conference on the Holocaust, Programs</unittitle><unitdate type="inclusive" normal="1984/2007">1984-2007</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0824261603487816703654705]">1</container>
-            <unittitle>Israel Conference Day <unitdate type="inclusive" normal="1989/1994">1989-1994</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7765228640817122754265]">1</container>
+            <unittitle>Israel Conference Day</unittitle><unitdate type="inclusive" normal="1989/1994">1989-1994</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [8690244348990648]">3</container>
-            <unittitle><genreform normal="Posters">Posters</genreform>, general, <unitdate type="inclusive" normal="1980/2009" certainty="approximate">1980s-2000s</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [892014046967800892]">3</container>
+            <unittitle><genreform normal="Posters">Posters</genreform>, general</unittitle><unitdate type="inclusive" normal="1980/2009" certainty="approximate">1980s-2000s</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [8690244348990648]">3</container>
-            <unittitle><genreform normal="Posters">Posters</genreform>, Annual Conference on the Holocaust, <unitdate type="inclusive" normal="1980/2009" certainty="approximate">1980s-2000s</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [892014046967800892]">3</container>
+            <unittitle><genreform normal="Posters">Posters</genreform>, Annual Conference on the Holocaust</unittitle><unitdate type="inclusive" normal="1980/2009" certainty="approximate">1980s-2000s</unitdate></did>
         </c02>
       </c01>
     </dsc>

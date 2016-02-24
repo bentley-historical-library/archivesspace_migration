@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Tower Family</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/3">Tower Family</famname>
       </origination>
-      <unittitle encodinganalog="245">Tower Family papers <unitdate type="inclusive" encodinganalog="245$f" normal="1841/1937">1841-1937</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">86127 Aa 2</unitid>
+      <unittitle encodinganalog="245">Tower Family papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1841/1937">1841-1937</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">86127 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Business and commercial family of Ionia, Michigan; correspondence and financial records of Angelo E. Tower and Osmond S. Tower; correspondence and business records of Louis S. Lovell, W.B. Heath, and George Webber, Ionia, Michigan, businessmen.</abstract>
       <physdesc altrender="whole">
@@ -79,28 +79,28 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Banks--Michigan--Ionia.</subject>
-        <subject source="lcsh" encodinganalog="650">Business records.</subject>
-        <geogname source="lcsh" encodinganalog="651">Ionia (Mich.)--Commerce.</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091943">Ionia County (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Lumber trade--Michigan--Ionia.</subject>
-        <subject source="lcsh" encodinganalog="650">Lumber trade--Washington (State)</subject>
-        <geogname source="lcsh" encodinganalog="651">United States--History--Civil War, 1861-1865.</geogname>
-        <subject source="lcsh" encodinganalog="650">Veterans--Michigan--Ionia.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87891115">United States. Army. Michigan Cavalry Regiment, 6th (1862-1865). Company E.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10409">Banks--Michigan--Ionia.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5789">Business records.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2976">Ionia (Mich.)--Commerce.</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091943" ref="/subjects/2089">Ionia County (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10410">Lumber trade--Michigan--Ionia.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10411">Lumber trade--Washington (State)</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/905">United States--History--Civil War, 1861-1865.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10412">Veterans--Michigan--Ionia.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87891115" ref="/agents/corporate_entities/1295">United States. Army. Michigan Cavalry Regiment, 6th (1862-1865). Company E.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Heath, William B.</persname>
-        <persname source="lcnaf" encodinganalog="700">Lovell, Louis S., b. 1816.</persname>
-        <persname source="lcnaf" encodinganalog="700">Morse, Allen Benton, 1839-1921.</persname>
-        <persname source="lcnaf" encodinganalog="700">Tower, Angelo Emery.</persname>
-        <persname source="lcnaf" encodinganalog="700">Tower, Osmond Selwyn, 1839-1910.</persname>
-        <persname source="lcnaf" encodinganalog="700">Webber, George W., b. 1825.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/6386">Heath, William B.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/2268">Lovell, Louis S., b. 1816.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/8587">Morse, Allen Benton, 1839-1921.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/955">Tower, Angelo Emery.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/6921">Tower, Osmond Selwyn, 1839-1910.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/1867">Webber, George W., b. 1825.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Scrapbooks.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3133">Scrapbooks.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -110,12 +110,8 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [786389496426756240]">1</container>
-            <unittitle>
-              <unitdate type="inclusive">Undated</unitdate>
-              <unitdate type="inclusive" normal="1855/1936">1855-1936</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [776988942159227564]">1</container>
+            <unitdate type="inclusive">Undated</unitdate><unitdate type="inclusive" normal="1855/1936">1855-1936</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">23 folders</extent>
             </physdesc>
           </did>
@@ -127,25 +123,21 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [786389496426756240]">1</container>
-            <unittitle>
-              <unitdate type="inclusive">Undated</unitdate>
-              <unitdate type="inclusive" normal="1861/1936">1861-1936</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [776988942159227564]">1</container>
+            <unitdate type="inclusive">Undated</unitdate><unitdate type="inclusive" normal="1861/1936">1861-1936</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [786389496426756240]">1</container>
+            <container type="box" label="Box [776988942159227564]">1</container>
             <unittitle>Publications</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [786389496426756240]">1</container>
+            <container type="box" label="Box [776988942159227564]">1</container>
             <unittitle>A.E. Tower account books</unittitle>
           </did>
           <odd>
@@ -154,37 +146,36 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [794123944269236802299]">2</container>
+            <container type="box" label="Box [049972093480729613205]">2</container>
             <unittitle>Lumber book</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [794123944269236802299]">2</container>
+            <container type="box" label="Box [049972093480729613205]">2</container>
             <unittitle>Louis Lovell account books and office book</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [794123944269236802299]">2</container>
+            <container type="box" label="Box [049972093480729613205]">2</container>
             <unittitle>Webber and Wilson daybook</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [794123944269236802299]">2</container>
+            <container type="box" label="Box [049972093480729613205]">2</container>
             <unittitle>George Webber <genreform normal="Scrapbooks">scrapbook</genreform></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [794123944269236802299]">2</container>
-            <unittitle>Ada Heath Owsley Emergency Relief Administration file <unitdate type="inclusive" normal="1930/1939" certainty="approximate">1930s</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [049972093480729613205]">2</container>
+            <unittitle>Ada Heath Owsley Emergency Relief Administration file</unittitle><unitdate type="inclusive" normal="1930/1939" certainty="approximate">1930s</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [794123944269236802299]">2</container>
+            <container type="box" label="Box [049972093480729613205]">2</container>
             <unittitle>Account books and journals (miscellaneous)</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 volumes</extent>

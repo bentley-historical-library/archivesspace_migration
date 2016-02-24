@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Crawford family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/133">Crawford family.</famname>
       </origination>
-      <unittitle encodinganalog="245">Crawford Family papers <unitdate type="inclusive" encodinganalog="245$f" normal="1898">1898</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="1917/1919">1917-1919</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">91460 Aa 2</unitid>
+      <unittitle encodinganalog="245">Crawford Family papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1898">1898</unitdate><unitdate type="inclusive" encodinganalog="245$f" normal="1917/1919">1917-1919</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">91460 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Pontiac, Michigan family. Biographical information; letters exchanged between Harry Crawford and his family and friends relating to his experiences in the Spanish-American War and World War I; memorabilia; and photographs.</abstract>
       <physdesc altrender="whole">
@@ -81,21 +81,21 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Crawford, Harry M.</persname>
-        <famname source="lcnaf" encodinganalog="600">Crawford family.</famname>
-        <geogname source="lcsh" encodinganalog="651">Pontiac (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
-        <subject source="lcsh" encodinganalog="650">Spanish-American War, 1898.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6004">Crawford, Harry M.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/133">Crawford family.</famname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1200">Pontiac (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5715">World War, 1914-1918.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6016">Spanish-American War, 1898.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600">Crawford, Harry M.</persname>
-        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6004">Crawford, Harry M.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5715">World War, 1914-1918.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="gmgpc" encodinganalog="655">Postcards.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3476">Postcards.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -105,7 +105,7 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [59546168845297820946]">1</container>
+            <container type="box" label="Box [86542154796634719729]">1</container>
             <unittitle>Biographical Information</unittitle>
           </did>
         </c02>
@@ -119,18 +119,16 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [59546168845297820946]">1</container>
-                <unittitle>From Harry Crawford to family and friends <unitdate type="inclusive" normal="1898-05/1898-09">May-September 1898</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [86542154796634719729]">1</container>
+                <unittitle>From Harry Crawford to family and friends</unittitle><unitdate type="inclusive" normal="1898-05/1898-09">May-September 1898</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">5 folders</extent>
                 </physdesc>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [59546168845297820946]">1</container>
-                <unittitle>From family and friends to Harry Crawford <unitdate type="inclusive" normal="1898-05/1898-09">May-September 1898</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [86542154796634719729]">1</container>
+                <unittitle>From family and friends to Harry Crawford</unittitle><unitdate type="inclusive" normal="1898-05/1898-09">May-September 1898</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">5 folders</extent>
                 </physdesc>
               </did>
@@ -142,9 +140,8 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [59546168845297820946]">1</container>
-                <unittitle>From Harry Crawford to family and friends <unitdate type="inclusive" normal="1917-08/1919-04">August 1917-April 1919</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [86542154796634719729]">1</container>
+                <unittitle>From Harry Crawford to family and friends</unittitle><unitdate type="inclusive" normal="1917-08/1919-04">August 1917-April 1919</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">8 folders</extent>
                 </physdesc>
               </did>
@@ -157,19 +154,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [59546168845297820946]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1898">1898</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [86542154796634719729]">1</container>
+              <unitdate type="inclusive" normal="1898">1898</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [59546168845297820946]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1917/1919">1917-1919</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [86542154796634719729]">1</container>
+              <unitdate type="inclusive" normal="1917/1919">1917-1919</unitdate></did>
             <odd>
               <p>(include rough-drawn map of northern France, probably sketched by Crawford, showing the places he had been)</p>
             </odd>
@@ -177,9 +168,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [59546168845297820946]">1</container>
-            <unittitle><genreform normal="Photographs">Photographs</genreform>, <unitdate type="inclusive" normal="1917/1919">1917-1919</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [86542154796634719729]">1</container>
+            <unittitle><genreform normal="Photographs">Photographs</genreform></unittitle><unitdate type="inclusive" normal="1917/1919">1917-1919</unitdate></did>
           <odd>
             <p>(Studio portrait of Harry Crawford taken in France; also <genreform normal="Postcards">postcards</genreform> of the villages where Crawford was stationed in France as well as photographs of Crawford's company taken at Fort Sheridan and aboard transport ships)</p>
           </odd>

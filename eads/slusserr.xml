@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Slusser, Robert M., 1916-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/1438">Slusser, Robert M., 1916-</persname>
       </origination>
-      <unittitle encodinganalog="245">Robert M. Slusser research files <unitdate type="inclusive" encodinganalog="245$f" normal="1940/1980" certainty="approximate">circa 1940-1980</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">89362 Aa 2</unitid>
+      <unittitle encodinganalog="245">Robert M. Slusser research files</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1940/1980" certainty="approximate">circa 1940-1980</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">89362 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Professor of Russian and Soviet history at Michigan State University. Research and bibliographic note cards used in his study and teaching of Russian history, particularly relating to the study of the Soviet Union; also publications and dissertation.</abstract>
       <physdesc altrender="whole">
@@ -79,10 +79,10 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651">Russia--History.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Russia--Study and teaching.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Soviet Union--History.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Soviet Union--Study and teaching.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2806">Russia--History.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2807">Russia--Study and teaching.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2808">Soviet Union--History.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2809">Soviet Union--Study and teaching.</geogname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -96,54 +96,38 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [215857414708402639112]">12</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1903/1917">1903-1917</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [5430735848193686096]">12</container>
+              <unitdate type="inclusive" normal="1903/1917">1903-1917</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1826624449155661852]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1918/1958">1918-1958</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [81747949729647190]">1</container>
+              <unitdate type="inclusive" normal="1918/1958">1918-1958</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [257794947976242375]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [54414535844883161692]">2</container>
+              <unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [894375439924316317218]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [000519548530458219]">3</container>
+              <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [45354433827685264]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1963/1984">1963-1984</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [424969284306625869260]">4</container>
+              <unitdate type="inclusive" normal="1963/1984">1963-1984</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9132165654603518405002]">5</container>
-            <unittitle><unitdate type="inclusive" normal="1905">1905</unitdate> revolution bibliography</unittitle>
-          </did>
+            <container type="box" label="Box [1270439494961772921]">5</container>
+            <unittitle>Revolution bibliography</unittitle><unitdate type="inclusive" normal="1905">1905</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9132165654603518405002]">5</container>
+            <container type="box" label="Box [1270439494961772921]">5</container>
             <unittitle>Laos notes/bibliography</unittitle>
           </did>
         </c02>
@@ -153,164 +137,163 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5851089047242887653223790]">6</container>
+              <container type="box" label="Box [29244744675]">6</container>
               <unittitle>Biographies</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [57812353479572172931]">7</container>
+              <container type="box" label="Box [180222464536862527765347]">7</container>
               <unittitle>Bibliography, A-S</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2405964069377895918]">8</container>
+              <container type="box" label="Box [24455733428277561400]">8</container>
               <unittitle>Bibliography, T-Z</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2405964069377895918]">8</container>
+              <container type="box" label="Box [24455733428277561400]">8</container>
               <unittitle>Bibliography (general)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2405964069377895918]">8</container>
+              <container type="box" label="Box [24455733428277561400]">8</container>
               <unittitle>Laws and decrees</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2405964069377895918]">8</container>
+            <container type="box" label="Box [24455733428277561400]">8</container>
             <unittitle>Disarmament</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [94403912147893238346]">9</container>
+            <container type="box" label="Box [21970009498919306471]">9</container>
             <unittitle>USSR bibliography</unittitle>
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94403912147893238346]">9</container>
+              <container type="box" label="Box [21970009498919306471]">9</container>
               <unittitle>A-S</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7125874829302686196]">10</container>
+              <container type="box" label="Box [0068421124639399388775]">10</container>
               <unittitle>S-V</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7125874829302686196]">10</container>
-            <unittitle><unitdate type="inclusive" normal="1957/1964">1957-1964</unitdate> bibliography</unittitle>
-          </did>
+            <container type="box" label="Box [0068421124639399388775]">10</container>
+            <unittitle>Bibliography</unittitle><unitdate type="inclusive" normal="1957/1964">1957-1964</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7125874829302686196]">10</container>
+            <container type="box" label="Box [0068421124639399388775]">10</container>
             <unittitle>Berlin (since 1945)</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [8113471438817879]">11</container>
+            <container type="box" label="Box [81158264542628483669]">11</container>
             <unittitle>1917 bibliography</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [8113471438817879]">11</container>
+            <container type="box" label="Box [81158264542628483669]">11</container>
             <unittitle>Miscellanea</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [215857414708402639112]">12</container>
+            <container type="box" label="Box [5430735848193686096]">12</container>
             <unittitle>Foreign policy</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [215857414708402639112]">12</container>
+            <container type="box" label="Box [5430735848193686096]">12</container>
             <unittitle>World War II</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [215857414708402639112]">12</container>
+            <container type="box" label="Box [5430735848193686096]">12</container>
             <unittitle>Dissidents/samizdat</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [160520694314148]">13</container>
+            <container type="box" label="Box [8756974034925370341080]">13</container>
             <unittitle>Biographies, A-P</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [484486748269266102300]">14</container>
+            <container type="box" label="Box [52686572514296816944599]">14</container>
             <unittitle>Biographies, R-Z</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [484486748269266102300]">14</container>
+            <container type="box" label="Box [52686572514296816944599]">14</container>
             <unittitle>Kennedy/JFK assassination</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [826466425827902656237]">15</container>
+            <container type="box" label="Box [877826475822851253]">15</container>
             <unittitle>Russia (origins to 1917)</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [826466425827902656237]">15</container>
+            <container type="box" label="Box [877826475822851253]">15</container>
             <unittitle>Far East</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [826466425827902656237]">15</container>
+            <container type="box" label="Box [877826475822851253]">15</container>
             <unittitle>Cuba</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [202009048132195188]">16</container>
+            <container type="box" label="Box [58694072104928201714372]">16</container>
             <unittitle>Miscellaneous</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83178611478829157344602]">17</container>
+            <container type="box" label="Box [4017729540548931977237]">17</container>
             <unittitle>Research notes (various)</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [099046340830571475123]">18</container>
+            <container type="box" label="Box [6046180448943657626]">18</container>
             <unittitle>Research notes</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [099046340830571475123]">18</container>
+            <container type="box" label="Box [6046180448943657626]">18</container>
             <unittitle>Clippings</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [099046340830571475123]">18</container>
+            <container type="box" label="Box [6046180448943657626]">18</container>
             <unittitle>Lists</unittitle>
           </did>
         </c02>
@@ -321,33 +304,32 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1962914449413602366]">19</container>
+            <container type="box" label="Box [0835196249087932070541957]">19</container>
             <unittitle>Reviews, articles, etc.</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [43847749854880]">20</container>
+            <container type="box" label="Box [54982349401956330116015]">20</container>
             <unittitle>Reviews, articles, etc.</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [874446395387103171]">21</container>
+            <container type="box" label="Box [2029649614606937564015361]">21</container>
             <unittitle>Reviews, articles, etc.</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [874446395387103171]">21</container>
+            <container type="box" label="Box [2029649614606937564015361]">21</container>
             <unittitle>Dissertation</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [874446395387103171]">21</container>
-            <unittitle>Diary <unitdate type="inclusive" normal="1953/1955">1953-1955</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [2029649614606937564015361]">21</container>
+            <unittitle>Diary</unittitle><unitdate type="inclusive" normal="1953/1955">1953-1955</unitdate></did>
         </c02>
       </c01>
     </dsc>

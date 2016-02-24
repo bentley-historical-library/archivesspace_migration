@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">O’Brien Family</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/277">O’Brien Family</famname>
       </origination>
-      <unittitle encodinganalog="245">O’Brien Family (Detroit, Mich.) papers <unitdate type="inclusive" encodinganalog="245$f" normal="1932/1965" certainty="approximate">circa 1932-1965</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85401 Aa 2; AC</unitid>
+      <unittitle encodinganalog="245">O’Brien Family (Detroit, Mich.) papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1932/1965" certainty="approximate">circa 1932-1965</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85401 Aa 2; AC</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>O'Brien family of northern Michigan and Detroit, Michigan; family papers of Patrick H. O'Brien and other family members.</abstract>
       <physdesc altrender="part">
@@ -84,31 +84,31 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539">Detroit (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Menominee (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Women--Michigan--Detroit.</subject>
-        <geogname source="lcsh" encodinganalog="651">Upper Peninsula (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">American newspapers.</subject>
-        <famname source="lcnaf" encodinganalog="600">O'Brien family.</famname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539" ref="/subjects/929">Detroit (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1667">Menominee (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8345">Women--Michigan--Detroit.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/934">Upper Peninsula (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8162">American newspapers.</subject>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/382">O'Brien family.</famname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600">O'Brien, Gerald.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2009002837">O'Brien, Patrick H. (Patrick Henry), 1868-1959</persname>
-        <famname source="lcnaf" encodinganalog="600">O'Brien family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2179">O'Brien, Gerald.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2009002837" ref="/agents/people/1737">O'Brien, Patrick H. (Patrick Henry), 1868-1959</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/382">O'Brien family.</famname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">O'Brien, Eleanor Lawton.</persname>
-        <persname source="lcnaf" encodinganalog="700">O'Brien, John H.</persname>
-        <persname source="lcnaf" encodinganalog="700">O'Brien, Michael.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2009002837">O'Brien, Patrick H. (Patrick Henry), 1868-1959</persname>
-        <persname source="lcnaf" encodinganalog="700">Worth, Jean, 1904-1987.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/3801">O'Brien, Eleanor Lawton.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/151">O'Brien, John H.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/996">O'Brien, Michael.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2009002837" ref="/agents/people/1737">O'Brien, Patrick H. (Patrick Henry), 1868-1959</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/7872">Worth, Jean, 1904-1987.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="aat" encodinganalog="655">Scrapbooks.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3133">Scrapbooks.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -122,15 +122,14 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [60000034702869826185183]">1</container>
+              <container type="box" label="Box [28005932459993431007093]">1</container>
               <unittitle>Miscellaneous clippings and political matter</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [60000034702869826185183]">1</container>
-              <unittitle>Campaign literature, Detroit mayoral election <unitdate type="inclusive" normal="1937">1937</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [28005932459993431007093]">1</container>
+              <unittitle>Campaign literature, Detroit mayoral election</unittitle><unitdate type="inclusive" normal="1937">1937</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -139,7 +138,7 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [60000034702869826185183]">1</container>
+              <container type="box" label="Box [28005932459993431007093]">1</container>
               <unittitle>Clippings and memorabilia</unittitle>
             </did>
           </c03>
@@ -150,21 +149,19 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [60000034702869826185183]">1</container>
+              <container type="box" label="Box [28005932459993431007093]">1</container>
               <unittitle>Clippings and biographical material</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [60000034702869826185183]">1</container>
-              <unittitle><genreform normal="Scrapbooks">Scrapbook</genreform> concerning in part political career of Patrick H. O'Brien, <unitdate type="inclusive" normal="1932/1936">1932-1936</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [28005932459993431007093]">1</container>
+              <unittitle><genreform normal="Scrapbooks">Scrapbook</genreform> concerning in part political career of Patrick H. O'Brien</unittitle><unitdate type="inclusive" normal="1932/1936">1932-1936</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [60000034702869826185183]">1</container>
-              <unittitle><genreform normal="Scrapbooks">Scrapbook</genreform> largely containing advertising publicity for his insurance firm, <unitdate type="inclusive" normal="1932/1937">1932-1937</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [28005932459993431007093]">1</container>
+              <unittitle><genreform normal="Scrapbooks">Scrapbook</genreform> largely containing advertising publicity for his insurance firm</unittitle><unitdate type="inclusive" normal="1932/1937">1932-1937</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -173,28 +170,26 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [60000034702869826185183]">1</container>
+              <container type="box" label="Box [28005932459993431007093]">1</container>
               <unittitle><title render="italic">Detroit Times</title> miscellanea</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [299627871463293588146794915]">1</container>
-              <unittitle><genreform normal="Scrapbooks">Scrapbook</genreform> concerning campaign for better highways, <unitdate type="inclusive" normal="1952/1957">1952-1957</unitdate></unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [626089943229115558612]">1</container>
+              <unittitle><genreform normal="Scrapbooks">Scrapbook</genreform> concerning campaign for better highways</unittitle><unitdate type="inclusive" normal="1952/1957">1952-1957</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [60000034702869826185183]">1</container>
-              <unittitle><genreform normal="Scrapbooks">Scrapbook</genreform> concerning campaign for better highways, <unitdate type="inclusive" normal="1955/1956">1955-1956</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [28005932459993431007093]">1</container>
+              <unittitle><genreform normal="Scrapbooks">Scrapbook</genreform> concerning campaign for better highways</unittitle><unitdate type="inclusive" normal="1955/1956">1955-1956</unitdate></did>
             <odd>
               <p>(volume was intended as entry in the Ted V. Rodgers annual journalism awards prize)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [60000034702869826185183]">1</container>
+              <container type="box" label="Box [28005932459993431007093]">1</container>
               <unittitle>Miscellanea re. good roads campaign</unittitle>
             </did>
           </c03>
@@ -205,9 +200,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [60000034702869826185183]">1</container>
-              <unittitle>Legislative work for family planning clinics in Michigan <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [28005932459993431007093]">1</container>
+              <unittitle>Legislative work for family planning clinics in Michigan</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -216,14 +210,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [60000034702869826185183]">1</container>
-              <unittitle>Reminiscences of boyhood in Menominee, Michigan <unitdate type="inclusive" normal="1944">1944</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [28005932459993431007093]">1</container>
+              <unittitle>Reminiscences of boyhood in Menominee, Michigan</unittitle><unitdate type="inclusive" normal="1944">1944</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [60000034702869826185183]">1</container>
+            <container type="box" label="Box [28005932459993431007093]">1</container>
             <unittitle><genreform normal="Photographs">Photographs</genreform> of Gerald and Patrick O'Brien</unittitle>
           </did>
         </c02>

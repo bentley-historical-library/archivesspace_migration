@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Brown, Douglas S., 1914-1956.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/3503">Brown, Douglas S., 1914-1956.</persname>
       </origination>
-      <unittitle encodinganalog="245">Douglas S. Brown papers <unitdate type="inclusive" encodinganalog="245$f" normal="1924/1954" certainty="approximate">1924-circa 1954</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">8899 Aa 2</unitid>
+      <unittitle encodinganalog="245">Douglas S. Brown papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1924/1954" certainty="approximate">1924-circa 1954</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">8899 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Economist, instructor in economics at the University of Michigan. Correspondence, diaries, and miscellanea.</abstract>
       <physdesc altrender="whole">
@@ -78,12 +78,12 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Economics.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1476">University of Michigan. Dept. of Economics.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Diaries.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3145">Diaries.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -93,17 +93,13 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2240628428433866]">1</container>
-            <unittitle><unitdate type="inclusive" normal="1941/1954" certainty="approximate">circa 1941-1954</unitdate>, A-Z</unittitle>
-          </did>
+            <container type="box" label="Box [561920604514920274186493750]">1</container>
+            <unittitle>, A-Z</unittitle><unitdate type="inclusive" normal="1941/1954" certainty="approximate">circa 1941-1954</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [323904425852290812]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1931/1942-10">1931-October 1942</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [198270447896261373485]">2</container>
+            <unitdate type="inclusive" normal="1931/1942-10">1931-October 1942</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -112,13 +108,13 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [323904425852290812]">2</container>
+            <container type="box" label="Box [198270447896261373485]">2</container>
             <unittitle>Employment records</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [323904425852290812]">2</container>
+            <container type="box" label="Box [198270447896261373485]">2</container>
             <unittitle>Re. work with sororities and fraternities</unittitle>
           </did>
         </c02>
@@ -131,11 +127,8 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [323904425852290812]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1924/1933">1924-1933</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [198270447896261373485]">2</container>
+            <unitdate type="inclusive" normal="1924/1933">1924-1933</unitdate></did>
         </c02>
       </c01>
     </dsc>

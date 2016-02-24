@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Frost, Wallace, 1892-1962.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/1801">Frost, Wallace, 1892-1962.</persname>
       </origination>
-      <unittitle encodinganalog="245">Wallace Frost papers <unitdate type="inclusive" encodinganalog="245$f" normal="1939/1962" certainty="approximate">circa 1939-1962</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85162 Aa 2; AA microcopy</unitid>
+      <unittitle encodinganalog="245">Wallace Frost papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1939/1962" certainty="approximate">circa 1939-1962</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85162 Aa 2; AA microcopy</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Detroit area architect. Blueprints of selected buildings, biographical materials, advertising and financial material relating to Pittsfield Village, Ann Arbor, Mich., and photographs.</abstract>
       <physdesc altrender="part">
@@ -85,30 +85,30 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Architects.</subject>
-        <subject source="lcsh" encodinganalog="650">Architecture.</subject>
-        <persname source="lcnaf" encodinganalog="600">Frost, Wallace, 1892-1962.</persname>
-        <geogname source="lcsh" encodinganalog="651">Pittsfield Village (Ann Arbor, Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6271">Architects.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5837">Architecture.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1801">Frost, Wallace, 1892-1962.</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1881">Pittsfield Village (Ann Arbor, Mich.)</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <geogname source="lctgm" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)--Apartment houses.</geogname>
-        <geogname source="lctgm" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)--Schools.</geogname>
-        <subject source="lctgm" encodinganalog="650">Apartment houses--Michigan--Ann Arbor.</subject>
-        <subject source="lctgm" encodinganalog="650">Architecture.</subject>
-        <geogname source="lctgm" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81104604">Birmingham (Mich.)--Buildings.</geogname>
-        <subject source="lctgm" encodinganalog="650">Buildings--Michigan--Birmingham.</subject>
-        <subject source="lctgm" encodinganalog="650">Buildings--Michigan--Detroit.</subject>
-        <geogname source="lctgm" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539">Detroit (Mich.)--Buildings.</geogname>
-        <subject source="lctgm" encodinganalog="650">Interiors.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Pittsfield School (Ann Arbor, Mich.)</corpname>
-        <geogname source="lcsh" encodinganalog="651">Pittsfield Village (Ann Arbor, Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Schools--Michigan--Ann Arbor.</subject>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/295">Ann Arbor (Mich.)--Apartment houses.</geogname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/209">Ann Arbor (Mich.)--Schools.</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4345">Apartment houses--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3867">Architecture.</subject>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/296">Birmingham (Mich.)--Buildings.</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4346">Buildings--Michigan--Birmingham.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4030">Buildings--Michigan--Detroit.</subject>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/235">Detroit (Mich.)--Buildings.</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3687">Interiors.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3242">Pittsfield School (Ann Arbor, Mich.)</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1881">Pittsfield Village (Ann Arbor, Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3601">Schools--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Architectural drawings.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3170">Architectural drawings.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -118,7 +118,7 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [12890651420840878898]">1</container>
+            <container type="box" label="Box [698704590818792515]">1</container>
             <unittitle>Biographical materials</unittitle>
           </did>
         </c02>
@@ -128,15 +128,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [12890651420840878898]">1</container>
-              <unittitle>Advertising <unitdate type="inclusive" normal="1950/1959" certainty="approximate">1950s</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [698704590818792515]">1</container>
+              <unittitle>Advertising</unittitle><unitdate type="inclusive" normal="1950/1959" certainty="approximate">1950s</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [12890651420840878898]">1</container>
-              <unittitle>Financial <unitdate type="inclusive" normal="1958/1959">1958-1959</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [698704590818792515]">1</container>
+              <unittitle>Financial</unittitle><unitdate type="inclusive" normal="1958/1959">1958-1959</unitdate></did>
           </c03>
         </c02>
       </c01>
@@ -148,76 +146,68 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [2076564370432296348]">1</container>
-            <unittitle>Miscellaneous <unitdate type="inclusive" normal="1950/1959" certainty="approximate">1950s</unitdate></unittitle>
-          </did>
+            <container type="reel" label="Roll [86143364120481670034]">1</container>
+            <unittitle>Miscellaneous</unittitle><unitdate type="inclusive" normal="1950/1959" certainty="approximate">1950s</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [2076564370432296348]">1</container>
-            <unittitle>Sadler Residence, Birmingham, Mich. (?) <unitdate type="inclusive" normal="1950-06-08">June 8, 1950</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="reel" label="Roll [86143364120481670034]">1</container>
+            <unittitle>Sadler Residence, Birmingham, Mich. (?)</unittitle><unitdate type="inclusive" normal="1950-06-08">June 8, 1950</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 photographs</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [2076564370432296348]">1</container>
-            <unittitle>Hagerman Residence, Birmingham, Mich. (?) <unitdate type="inclusive" normal="1950-06-08">June 8, 1950</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="reel" label="Roll [86143364120481670034]">1</container>
+            <unittitle>Hagerman Residence, Birmingham, Mich. (?)</unittitle><unitdate type="inclusive" normal="1950-06-08">June 8, 1950</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 photographs</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [2076564370432296348]">1</container>
-            <unittitle>Frost Studio, Birmingham, Mich. <unitdate type="inclusive" normal="1950-06-08">June 8, 1950</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="reel" label="Roll [86143364120481670034]">1</container>
+            <unittitle>Frost Studio, Birmingham, Mich.</unittitle><unitdate type="inclusive" normal="1950-06-08">June 8, 1950</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 photographs</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [2076564370432296348]">1</container>
-            <unittitle>Frost Residence, Birmingham, Mich. <unitdate type="inclusive" normal="1950-06-08">June 8, 1950</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="reel" label="Roll [86143364120481670034]">1</container>
+            <unittitle>Frost Residence, Birmingham, Mich.</unittitle><unitdate type="inclusive" normal="1950-06-08">June 8, 1950</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">1 photographs</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [2076564370432296348]">1</container>
-            <unittitle>Jon's Ranch (Jon Frost house), Colorado Springs, Colorado <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="reel" label="Roll [86143364120481670034]">1</container>
+            <unittitle>Jon's Ranch (Jon Frost house), Colorado Springs, Colorado</unittitle><unitdate type="inclusive" normal="1959">1959</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">12 photographs</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [2076564370432296348]">1</container>
-            <unittitle>Fred Blow house, West Los Angeles <unitdate type="inclusive" normal="1944">1944</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="reel" label="Roll [86143364120481670034]">1</container>
+            <unittitle>Fred Blow house, West Los Angeles</unittitle><unitdate type="inclusive" normal="1944">1944</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">44 photographs</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [2076564370432296348]">1</container>
-            <unittitle>Pittsfield Village, Ann Arbor <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="reel" label="Roll [86143364120481670034]">1</container>
+            <unittitle>Pittsfield Village, Ann Arbor</unittitle><unitdate type="inclusive" normal="1953">1953</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">8 photographs</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [2076564370432296348]">1</container>
+            <container type="reel" label="Roll [86143364120481670034]">1</container>
             <unittitle>C.B. Burdick house, Kalamazoo</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 photographs</extent>
@@ -226,7 +216,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [2076564370432296348]">1</container>
+            <container type="reel" label="Roll [86143364120481670034]">1</container>
             <unittitle>Unknown House</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 photographs</extent>
@@ -239,43 +229,39 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [2076564370432296348]">1</container>
-              <unittitle>Frost House, 404 Bonnie Briar, Birmingham, Mich. <unitdate type="inclusive" normal="1942">1942</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="reel" label="Roll [86143364120481670034]">1</container>
+              <unittitle>Frost House, 404 Bonnie Briar, Birmingham, Mich.</unittitle><unitdate type="inclusive" normal="1942">1942</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">11 photographs</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [2076564370432296348]">1</container>
-              <unittitle>McDonald House (?), 420 Bonnie Briar, Birmingham, Mich. <unitdate type="inclusive" normal="1942">1942</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="reel" label="Roll [86143364120481670034]">1</container>
+              <unittitle>McDonald House (?), 420 Bonnie Briar, Birmingham, Mich.</unittitle><unitdate type="inclusive" normal="1942">1942</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">1 photographs</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [2076564370432296348]">1</container>
-              <unittitle>Burlingame House, 436 Bonnie Briar, Birmingham, Mich. <unitdate type="inclusive" normal="1942">1942</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="reel" label="Roll [86143364120481670034]">1</container>
+              <unittitle>Burlingame House, 436 Bonnie Briar, Birmingham, Mich.</unittitle><unitdate type="inclusive" normal="1942">1942</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">4 photographs</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [2076564370432296348]">1</container>
-              <unittitle>Murphy-Ellis House, 444 Bonnie Briar, Birmingham, Mich. <unitdate type="inclusive" normal="1942">1942</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="reel" label="Roll [86143364120481670034]">1</container>
+              <unittitle>Murphy-Ellis House, 444 Bonnie Briar, Birmingham, Mich.</unittitle><unitdate type="inclusive" normal="1942">1942</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">4 photographs</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [2076564370432296348]">1</container>
+              <container type="reel" label="Roll [86143364120481670034]">1</container>
               <unittitle>Loose photos from album, one of Burlingame House and three of Murphy-Ellis house</unittitle>
             </did>
           </c03>
@@ -286,7 +272,7 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [2076564370432296348]">1</container>
+              <container type="reel" label="Roll [86143364120481670034]">1</container>
               <unittitle>Mr. &amp; Mrs. Wallace Frost house, Ladera Lane, Montecito, Calif.</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">46 photographs</extent>
@@ -304,118 +290,103 @@
         </did>
         <c02 level="file">
           <did>
-            <container label="Drawer [0500824598914008454]" type="map-case" id="f0c2574e-9d75-4f1b-9235-b8f3d5f05981">1</container>
-            <container type="folder" label="Folder" parent="f0c2574e-9d75-4f1b-9235-b8f3d5f05981">1</container>
-            <unittitle>Clarence G. Clohset residence <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
-          </did>
+            <container label="Drawer [490985444288958030]" type="map-case" id="f35fa833-7f41-4770-9a4f-87d65b8c539c">1</container>
+            <container type="folder" label="Folder" parent="f35fa833-7f41-4770-9a4f-87d65b8c539c">1</container>
+            <unittitle>Clarence G. Clohset residence</unittitle><unitdate type="inclusive" normal="1950">1950</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Drawer [0500824598914008454]" type="map-case" id="6fbc8061-3451-4ec8-b378-b5cd43abf6de">1</container>
-            <container type="folder" label="Folder" parent="6fbc8061-3451-4ec8-b378-b5cd43abf6de">1</container>
-            <unittitle>Sperry residence. Port Huron, Mich. <unitdate type="inclusive" normal="1949">1949</unitdate></unittitle>
-          </did>
+            <container label="Drawer [490985444288958030]" type="map-case" id="ff20d811-0b45-48e7-a9c6-7053abb26ab9">1</container>
+            <container type="folder" label="Folder" parent="ff20d811-0b45-48e7-a9c6-7053abb26ab9">1</container>
+            <unittitle>Sperry residence. Port Huron, Mich.</unittitle><unitdate type="inclusive" normal="1949">1949</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Drawer [0500824598914008454]" type="map-case" id="83616442-8eb3-4a7e-9fa3-fe169b7d1a19">1</container>
-            <container type="folder" label="Folder" parent="83616442-8eb3-4a7e-9fa3-fe169b7d1a19">1</container>
-            <unittitle>Frank Roby residence. Dunstan Road, Bloomfield Hills, Mich. (Cranbrook Quarton estates) <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
-          </did>
+            <container label="Drawer [490985444288958030]" type="map-case" id="f3087d62-30c7-4fe8-9307-9f2c5b04e199">1</container>
+            <container type="folder" label="Folder" parent="f3087d62-30c7-4fe8-9307-9f2c5b04e199">1</container>
+            <unittitle>Frank Roby residence. Dunstan Road, Bloomfield Hills, Mich. (Cranbrook Quarton estates)</unittitle><unitdate type="inclusive" normal="1955">1955</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Drawer [0500824598914008454]" type="map-case" id="91a0cdf3-3e43-418d-9c8a-50059f9632e6">1</container>
-            <container type="folder" label="Folder" parent="91a0cdf3-3e43-418d-9c8a-50059f9632e6">2</container>
-            <unittitle>Jeremy T. Ball residence. 1390 Northlawn Ave., Birmingham, Mich. <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
-          </did>
+            <container label="Drawer [490985444288958030]" type="map-case" id="ba4f686b-4024-443b-88af-84e0c88e212d">1</container>
+            <container type="folder" label="Folder" parent="ba4f686b-4024-443b-88af-84e0c88e212d">2</container>
+            <unittitle>Jeremy T. Ball residence. 1390 Northlawn Ave., Birmingham, Mich.</unittitle><unitdate type="inclusive" normal="1951">1951</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Drawer [0500824598914008454]" type="map-case" id="3825d66f-355f-449c-ae47-6a0571d39846">1</container>
-            <container type="folder" label="Folder" parent="3825d66f-355f-449c-ae47-6a0571d39846">2</container>
-            <unittitle>Wilkinson residence. 515 Lake Shore Road, Grosse Pointe Shores, Mich. <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
-          </did>
+            <container label="Drawer [490985444288958030]" type="map-case" id="3afe3b22-19c2-4c05-a163-88428222a84f">1</container>
+            <container type="folder" label="Folder" parent="3afe3b22-19c2-4c05-a163-88428222a84f">2</container>
+            <unittitle>Wilkinson residence. 515 Lake Shore Road, Grosse Pointe Shores, Mich.</unittitle><unitdate type="inclusive" normal="1954">1954</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Drawer [0500824598914008454]" type="map-case" id="2c0f02ce-82ab-4a0f-bafa-8d976564b61c">1</container>
-            <container type="folder" label="Folder" parent="2c0f02ce-82ab-4a0f-bafa-8d976564b61c">2</container>
-            <unittitle>L.B. Burdick residence. Gull Lake, Yorkville, Mich. <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
-            <physdesc>
+            <container label="Drawer [490985444288958030]" type="map-case" id="e7ff1ad0-855e-48f0-9095-22f0407d5b2a">1</container>
+            <container type="folder" label="Folder" parent="e7ff1ad0-855e-48f0-9095-22f0407d5b2a">2</container>
+            <unittitle>L.B. Burdick residence. Gull Lake, Yorkville, Mich.</unittitle><unitdate type="inclusive" normal="1954">1954</unitdate><physdesc>
               <physfacet>also negative photostat</physfacet>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Drawer [0500824598914008454]" type="map-case" id="144bc064-f927-4ffb-a0a1-5e8320667e5b">1</container>
-            <container type="folder" label="Folder" parent="144bc064-f927-4ffb-a0a1-5e8320667e5b">3</container>
-            <unittitle>MacDonald residence. 420 Bonnie Brier, Birmingham, Mich. <unitdate type="inclusive" normal="1941">1941</unitdate></unittitle>
-          </did>
+            <container label="Drawer [490985444288958030]" type="map-case" id="ab3b1d56-c55c-4ece-9feb-a6a56b791a25">1</container>
+            <container type="folder" label="Folder" parent="ab3b1d56-c55c-4ece-9feb-a6a56b791a25">3</container>
+            <unittitle>MacDonald residence. 420 Bonnie Brier, Birmingham, Mich.</unittitle><unitdate type="inclusive" normal="1941">1941</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Drawer [0500824598914008454]" type="map-case" id="c2e88154-ea01-48e5-b72d-2c2941da4178">1</container>
-            <container type="folder" label="Folder" parent="c2e88154-ea01-48e5-b72d-2c2941da4178">3</container>
-            <unittitle>C. Conn residence. Riverside Drive, Beverly Hills, Mich. <unitdate type="inclusive" normal="1949">1949</unitdate></unittitle>
-          </did>
+            <container label="Drawer [490985444288958030]" type="map-case" id="ffa6ee32-5b05-4448-bff2-340861b1ef9d">1</container>
+            <container type="folder" label="Folder" parent="ffa6ee32-5b05-4448-bff2-340861b1ef9d">3</container>
+            <unittitle>C. Conn residence. Riverside Drive, Beverly Hills, Mich.</unittitle><unitdate type="inclusive" normal="1949">1949</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Drawer [0500824598914008454]" type="map-case" id="6017699d-ad73-4af5-b40c-cce5fda66344">1</container>
-            <container type="folder" label="Folder" parent="6017699d-ad73-4af5-b40c-cce5fda66344">3</container>
-            <unittitle>Wallace Frost Studio. Bates St., Birmingham, Mich. <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
-          </did>
+            <container label="Drawer [490985444288958030]" type="map-case" id="838b971b-a5fd-45b8-ad4d-34a824cf7775">1</container>
+            <container type="folder" label="Folder" parent="838b971b-a5fd-45b8-ad4d-34a824cf7775">3</container>
+            <unittitle>Wallace Frost Studio. Bates St., Birmingham, Mich.</unittitle><unitdate type="inclusive" normal="1950">1950</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Drawer [0500824598914008454]" type="map-case" id="d82ebf74-6695-4b87-a244-fb293f9c84a5">1</container>
-            <container type="folder" label="Folder" parent="d82ebf74-6695-4b87-a244-fb293f9c84a5">3</container>
-            <unittitle>G.L. Buhrman residence. Geddes Road, Ann Arbor, Mich. <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
-          </did>
+            <container label="Drawer [490985444288958030]" type="map-case" id="846d1649-fda6-450a-8ce4-52337e8285f0">1</container>
+            <container type="folder" label="Folder" parent="846d1649-fda6-450a-8ce4-52337e8285f0">3</container>
+            <unittitle>G.L. Buhrman residence. Geddes Road, Ann Arbor, Mich.</unittitle><unitdate type="inclusive" normal="1950">1950</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Drawer [0500824598914008454]" type="map-case" id="2806d621-1ebf-42a5-817f-5881245d2d0b">1</container>
-            <container type="folder" label="Folder" parent="2806d621-1ebf-42a5-817f-5881245d2d0b">4</container>
-            <unittitle>Dr. John Smillie residence. Forest Rd., Barton Hills, Ann Arbor, Mich. <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
-          </did>
+            <container label="Drawer [490985444288958030]" type="map-case" id="b274ebdb-85a3-4fd4-9b44-47a7e3594c9c">1</container>
+            <container type="folder" label="Folder" parent="b274ebdb-85a3-4fd4-9b44-47a7e3594c9c">4</container>
+            <unittitle>Dr. John Smillie residence. Forest Rd., Barton Hills, Ann Arbor, Mich.</unittitle><unitdate type="inclusive" normal="1954">1954</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Drawer [0500824598914008454]" type="map-case" id="f5b59de9-695c-4a68-a1d7-6cf52bcf65ac">1</container>
-            <container type="folder" label="Folder" parent="f5b59de9-695c-4a68-a1d7-6cf52bcf65ac">4</container>
-            <unittitle>Pierson residence. Grosse Pointe Farms, Mich. <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
-          </did>
+            <container label="Drawer [490985444288958030]" type="map-case" id="f49a4bd3-5b53-49bc-ad6f-e85ac1dc519c">1</container>
+            <container type="folder" label="Folder" parent="f49a4bd3-5b53-49bc-ad6f-e85ac1dc519c">4</container>
+            <unittitle>Pierson residence. Grosse Pointe Farms, Mich.</unittitle><unitdate type="inclusive" normal="1954">1954</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Drawer [0500824598914008454]" type="map-case" id="08972b6f-7137-41de-8819-dd235dec5526">1</container>
-            <container type="folder" label="Folder" parent="08972b6f-7137-41de-8819-dd235dec5526">4</container>
-            <unittitle>Pittsfield Rental Housing development. Ann Arbor, Mich. <unitdate type="inclusive" normal="1943">1943</unitdate></unittitle>
-          </did>
+            <container label="Drawer [490985444288958030]" type="map-case" id="cb6edb91-ccb6-4535-896a-10a8133d6c2a">1</container>
+            <container type="folder" label="Folder" parent="cb6edb91-ccb6-4535-896a-10a8133d6c2a">4</container>
+            <unittitle>Pittsfield Rental Housing development. Ann Arbor, Mich.</unittitle><unitdate type="inclusive" normal="1943">1943</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Drawer [0500824598914008454]" type="map-case" id="8dce4ebd-0997-4a4a-b584-1faf1b54c802">1</container>
-            <container type="folder" label="Folder" parent="8dce4ebd-0997-4a4a-b584-1faf1b54c802">5</container>
-            <unittitle>Sober residence. Oxford Rd., Riverside Homes, Lansing, Mich. <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
-          </did>
+            <container label="Drawer [490985444288958030]" type="map-case" id="258439c0-c2f5-4c7b-8b49-efb54600bf80">1</container>
+            <container type="folder" label="Folder" parent="258439c0-c2f5-4c7b-8b49-efb54600bf80">5</container>
+            <unittitle>Sober residence. Oxford Rd., Riverside Homes, Lansing, Mich.</unittitle><unitdate type="inclusive" normal="1958">1958</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Drawer [0500824598914008454]" type="map-case" id="aaab5d1e-88e9-4332-a276-93e8c82491f9">1</container>
-            <container type="folder" label="Folder" parent="aaab5d1e-88e9-4332-a276-93e8c82491f9">5</container>
+            <container label="Drawer [490985444288958030]" type="map-case" id="6534035f-7dd9-43b6-8895-36cab5195824">1</container>
+            <container type="folder" label="Folder" parent="6534035f-7dd9-43b6-8895-36cab5195824">5</container>
             <unittitle>Charles F. Adams residence. 6139 Dakota Circle, Wing Lake, Mich.</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Drawer [0500824598914008454]" type="map-case" id="e8e2d572-e36c-4160-a4af-7848f9f37a13">1</container>
-            <container type="folder" label="Folder" parent="e8e2d572-e36c-4160-a4af-7848f9f37a13">5</container>
-            <unittitle>T.M. Ball residence. Orchard Ridge Rd., Bloomfield Hills, Mich. <unitdate type="inclusive" normal="1950/1955">1950-1955</unitdate></unittitle>
-          </did>
+            <container label="Drawer [490985444288958030]" type="map-case" id="75b8692c-2866-43ba-a347-494960ca5c12">1</container>
+            <container type="folder" label="Folder" parent="75b8692c-2866-43ba-a347-494960ca5c12">5</container>
+            <unittitle>T.M. Ball residence. Orchard Ridge Rd., Bloomfield Hills, Mich.</unittitle><unitdate type="inclusive" normal="1950/1955">1950-1955</unitdate></did>
         </c02>
       </c01>
     </dsc>

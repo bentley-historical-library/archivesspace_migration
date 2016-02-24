@@ -24,7 +24,8 @@
         <item>Original encoding from Word 10.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library<lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100"> Pratt, Randy. </persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/5601"> Pratt, Randy. </persname>
       </origination>
-      <unittitle encodinganalog="245"> Randy Pratt sound recording <unitdate type="inclusive" encodinganalog="245$f" normal="1954"> 1954 </unitdate> </unittitle>
-      <physdesc altrender="whole">
+      <unittitle encodinganalog="245">Randy Pratt sound recording</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1954"> 1954 </unitdate><physdesc altrender="whole">
         <extent altrender="materialtype spaceoccupied">129 MB </extent>
       </physdesc>
       <physdesc altrender="part">
@@ -88,13 +88,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Pratt, Randy.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008189557">Bentley, Alvin M. (Alvin Morell), 1918-1969.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79107874">United States. Congress. House.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5601">Pratt, Randy.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008189557" ref="/agents/people/1747">Bentley, Alvin M. (Alvin Morell), 1918-1969.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79107874" ref="/agents/corporate_entities/1829">United States. Congress. House.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Sound recordings.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3137">Sound recordings.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -104,8 +104,7 @@
         </did>
         <c02 level="otherlevel" otherlevel="item-main">
           <did>
-            <unittitle>Recording recounting the shooting on the floor of Congress., <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
-            <physdesc>
+            <unittitle>Recording recounting the shooting on the floor of Congress.</unittitle><unitdate type="inclusive" normal="1954">1954</unitdate><physdesc>
               <physfacet>Audio Reel-to-Reel, 5 inch, 7.5 ips</physfacet>
             </physdesc>
           </did>
@@ -117,7 +116,7 @@
               <physdesc>
                 <physfacet>mp3 file</physfacet>
               </physdesc>
-              <dao href="9594-SR-1-1" show="new" actuate="onRequest">
+              <dao href="9594-SR-1-1" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15060">
                 <daodesc>
                   <p>[access item]</p>
                 </daodesc>

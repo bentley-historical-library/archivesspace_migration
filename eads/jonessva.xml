@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Jones, Sarah Van Hoosen.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/2097">Jones, Sarah Van Hoosen.</persname>
       </origination>
-      <unittitle encodinganalog="245">Sarah Van Hoosen Jones papers <unitdate type="inclusive" encodinganalog="245$f" normal="1898/1972">1898-1972</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851589 Aa 2</unitid>
+      <unittitle encodinganalog="245">Sarah Van Hoosen Jones papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1898/1972">1898-1972</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851589 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Stony Creek and Rochester, Michigan, farmer and cattle breeder; president of the Association of Governing Boards of State Universities and Allied Institutions and member of the Committee for the White House Conference on Education. Professional and family correspondence, including letters from her mother, Alice Van Hoosen Jones, relating to everyday life, particularly in the period, 1900-1930.</abstract>
       <physdesc altrender="whole">
@@ -79,23 +79,23 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Agriculture--Michigan--Oakland County.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Association of Governing Boards of State Universities and Allied Institutions.</corpname>
-        <subject source="lcsh" encodinganalog="650">Farmers--Michigan--Oakland County.</subject>
-        <geogname source="local" encodinganalog="691">Michigan--Social life and customs--1901-1910.</geogname>
-        <geogname source="local" encodinganalog="691">Michigan--Social life and customs--1911-1920.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Rochester (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Stony Creek (Oakland County, Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2009137707">White House Conference on Education (1955 : Washington, D.C.)</corpname>
-        <subject source="lcsh" encodinganalog="650">Women civic leaders--Michigan--Oakland County.</subject>
-        <subject source="lcsh" encodinganalog="650">Women in agriculture--Michigan--Oakland County.</subject>
-        <subject source="lcsh" encodinganalog="650">Civic leaders--Michigan--Oakland County.</subject>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Social life and customs--20th century.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8501">Agriculture--Michigan--Oakland County.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3777">Association of Governing Boards of State Universities and Allied Institutions.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8502">Farmers--Michigan--Oakland County.</subject>
+        <geogname source="local" encodinganalog="691" ref="/subjects/811">Michigan--Social life and customs--1901-1910.</geogname>
+        <geogname source="local" encodinganalog="691" ref="/subjects/814">Michigan--Social life and customs--1911-1920.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1208">Rochester (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2134">Stony Creek (Oakland County, Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2009137707" ref="/agents/corporate_entities/3335">White House Conference on Education (1955 : Washington, D.C.)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8503">Women civic leaders--Michigan--Oakland County.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8504">Women in agriculture--Michigan--Oakland County.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8505">Civic leaders--Michigan--Oakland County.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/847">Michigan--Social life and customs--20th century.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Jones, Alice Van Hoosen, 1855-1950.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80009746">Van Hoosen, Bertha, 1863-1952</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/3394">Jones, Alice Van Hoosen, 1855-1950.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80009746" ref="/agents/people/1433">Van Hoosen, Bertha, 1863-1952</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -105,179 +105,113 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [56675276479724741711631]">1</container>
-            <unittitle>
-              <unitdate type="inclusive">Undated</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [03369847498808368574]">1</container>
+            <unitdate type="inclusive">Undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [56675276479724741711631]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1898/1900">1898-1900</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [03369847498808368574]">1</container>
+            <unitdate type="inclusive" normal="1898/1900">1898-1900</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [56675276479724741711631]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1901/1910">1901-1910</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [03369847498808368574]">1</container>
+            <unitdate type="inclusive" normal="1901/1910">1901-1910</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [56675276479724741711631]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1911/1912">1911-1912</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [03369847498808368574]">1</container>
+            <unitdate type="inclusive" normal="1911/1912">1911-1912</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [56675276479724741711631]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1913">1913</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [03369847498808368574]">1</container>
+            <unitdate type="inclusive" normal="1913">1913</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [56675276479724741711631]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1914">1914</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [03369847498808368574]">1</container>
+            <unitdate type="inclusive" normal="1914">1914</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [56675276479724741711631]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1915">1915</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [03369847498808368574]">1</container>
+            <unitdate type="inclusive" normal="1915">1915</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [56675276479724741711631]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1916">1916</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [03369847498808368574]">1</container>
+            <unitdate type="inclusive" normal="1916">1916</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [56675276479724741711631]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1917">1917</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [03369847498808368574]">1</container>
+            <unitdate type="inclusive" normal="1917">1917</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [56675276479724741711631]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1918">1918</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [03369847498808368574]">1</container>
+            <unitdate type="inclusive" normal="1918">1918</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [56675276479724741711631]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1919/1920">1919-1920</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [03369847498808368574]">1</container>
+            <unitdate type="inclusive" normal="1919/1920">1919-1920</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [56675276479724741711631]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1921/1923">1921-1923</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [03369847498808368574]">1</container>
+            <unitdate type="inclusive" normal="1921/1923">1921-1923</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [56675276479724741711631]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1923/1925">1923-1925</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [03369847498808368574]">1</container>
+            <unitdate type="inclusive" normal="1923/1925">1923-1925</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [56675276479724741711631]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1926/1930">1926-1930</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [03369847498808368574]">1</container>
+            <unitdate type="inclusive" normal="1926/1930">1926-1930</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [56675276479724741711631]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1931/1940">1931-1940</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [03369847498808368574]">1</container>
+            <unitdate type="inclusive" normal="1931/1940">1931-1940</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [56675276479724741711631]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1941/1950">1941-1950</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [03369847498808368574]">1</container>
+            <unitdate type="inclusive" normal="1941/1950">1941-1950</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [56675276479724741711631]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1951">1951</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [03369847498808368574]">1</container>
+            <unitdate type="inclusive" normal="1951">1951</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [56675276479724741711631]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1952">1952</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [03369847498808368574]">1</container>
+            <unitdate type="inclusive" normal="1952">1952</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [56675276479724741711631]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1953/1955">1953-1955</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [03369847498808368574]">1</container>
+            <unitdate type="inclusive" normal="1953/1955">1953-1955</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [56675276479724741711631]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1956/1960">1956-1960</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [03369847498808368574]">1</container>
+            <unitdate type="inclusive" normal="1956/1960">1956-1960</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [56675276479724741711631]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1961/1970">1961-1970</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [03369847498808368574]">1</container>
+            <unitdate type="inclusive" normal="1961/1970">1961-1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [56675276479724741711631]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [03369847498808368574]">1</container>
+            <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -290,15 +224,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [56675276479724741711631]">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1954/1955">1954-1955</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [03369847498808368574]">1</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1954/1955">1954-1955</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [56675276479724741711631]">1</container>
-              <unittitle>Other papers <unitdate type="inclusive" normal="1954/1955">1954-1955</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [03369847498808368574]">1</container>
+              <unittitle>Other papers</unittitle><unitdate type="inclusive" normal="1954/1955">1954-1955</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -306,19 +238,18 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [56675276479724741711631]">1</container>
-            <unittitle>Committee for the White House Conference on Education <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [03369847498808368574]">1</container>
+            <unittitle>Committee for the White House Conference on Education</unittitle><unitdate type="inclusive" normal="1955">1955</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [56675276479724741711631]">1</container>
+            <container type="box" label="Box [03369847498808368574]">1</container>
             <unittitle>Newspaper clippings and obituaries</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [56675276479724741711631]">1</container>
+            <container type="box" label="Box [03369847498808368574]">1</container>
             <unittitle>Miscellanea</unittitle>
           </did>
         </c02>

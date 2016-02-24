@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">O’Brien, Thomas James, 1842-1933.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/5847">O’Brien, Thomas James, 1842-1933.</persname>
       </origination>
-      <unittitle encodinganalog="245">Thomas James O’Brien papers <unitdate type="inclusive" encodinganalog="245$f" normal="1877/1933">1877-1933</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851950 Aa 2; AC; Ac; UAm</unitid>
+      <unittitle encodinganalog="245">Thomas James O’Brien papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1877/1933">1877-1933</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851950 Aa 2; AC; Ac; UAm</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>U.S. Ambassador to Japan, 1907-1911, and Italy, 1911-1913. Ledgers and journals, scrapbooks/photograph albums containing clippings, photographs and mementos from his diplomatic career, and miscellaneous correspondence, clippings, and speech material.</abstract>
       <physdesc altrender="part">
@@ -86,32 +86,32 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651">Denmark.</geogname>
-        <subject source="lcsh" encodinganalog="650">Diplomats.</subject>
-        <geogname source="lcsh" encodinganalog="651">Italy.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Japan.</geogname>
-        <persname source="lcnaf" encodinganalog="600">O'Brien, Thomas James, 1842-1933.</persname>
-        <geogname source="lcsh" encodinganalog="651">United States--Foreign relations--Italy.</geogname>
-        <geogname source="lcsh" encodinganalog="651">United States--Foreign relations--Japan.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1279">Denmark.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9361">Diplomats.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/999">Italy.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/944">Japan.</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3217">O'Brien, Thomas James, 1842-1933.</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2436">United States--Foreign relations--Italy.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/984">United States--Foreign relations--Japan.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <geogname source="lcsh" encodinganalog="651">China--History--1861-1912.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Denmark.</geogname>
-        <subject source="lctgm" encodinganalog="650">Diplomats.</subject>
-        <subject source="lctgm" encodinganalog="650">International relations.</subject>
-        <geogname source="lcsh" encodinganalog="651">Japan.</geogname>
-        <persname source="lcnaf" encodinganalog="600">O'Brien, Thomas James, 1842-1933.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79022244">Taft, William H. (William Howard), 1857-1930.</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/926">China--History--1861-1912.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1279">Denmark.</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4756">Diplomats.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5083">International relations.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/944">Japan.</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3217">O'Brien, Thomas James, 1842-1933.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79022244" ref="/agents/people/2887">Taft, William H. (William Howard), 1857-1930.</persname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr93009208">Howard, William Alanson, 1813-1880.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr93009208" ref="/agents/people/5555">Howard, William Alanson, 1813-1880.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="aat" encodinganalog="655">Scrapbooks.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3133">Scrapbooks.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -125,18 +125,16 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6394459934630512990]">1</container>
-              <unittitle>[Vol. A] <unitdate type="inclusive" normal="1870/1880" certainty="approximate">circa 1870-1880</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [1541276884211861459]">1</container>
+              <unittitle>[Vol. A]</unittitle><unitdate type="inclusive" normal="1870/1880" certainty="approximate">circa 1870-1880</unitdate></did>
             <odd>
               <p>(volume of obituaries of William A. Howard, father of Delia Howard, Mrs. Thomas J. O'Brien; also materials related to O'Brien)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6394459934630512990]">1</container>
-              <unittitle>[Vol. B] <unitdate type="inclusive" normal="1930/1939" certainty="approximate">1930s</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [1541276884211861459]">1</container>
+              <unittitle>[Vol. B]</unittitle><unitdate type="inclusive" normal="1930/1939" certainty="approximate">1930s</unitdate></did>
             <odd>
               <p>(Unorganized scrapbook including clippings about O'Brien and his family, obituaries, some early photographs of O'Brien, some photographs of Japan including photos of a fourth of July banquet at Yokohama, 1910)</p>
             </odd>
@@ -148,9 +146,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6394459934630512990]">1</container>
-              <unittitle>[Vol. C] <unitdate type="inclusive" normal="1905">1905</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [1541276884211861459]">1</container>
+              <unittitle>[Vol. C]</unittitle><unitdate type="inclusive" normal="1905">1905</unitdate></did>
             <odd>
               <p>(Newspaper clippings and correspondence regarding his appointment as minister to Denmark (appointed March 5, 1905); letters of congratulations, letters from O'Brien to his son Howard, photographs of Denmark)</p>
             </odd>
@@ -165,7 +162,7 @@
           </odd>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6394459934630512990]">1</container>
+              <container type="box" label="Box [1541276884211861459]">1</container>
               <unittitle>[Vol. D] Photograph Album, undated</unittitle>
             </did>
             <odd>
@@ -174,81 +171,72 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [695418874689227638595]">1</container>
-              <unittitle>[Vol. 1] <unitdate type="inclusive" normal="1907">1907</unitdate></unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [817114468402141180649553]">1</container>
+              <unittitle>[Vol. 1]</unittitle><unitdate type="inclusive" normal="1907">1907</unitdate></did>
             <odd>
               <p>(Newspaper clippings regarding his appointment as ambassador to Japan (appointed June 11, 1907) and his activities in Japan)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [79026466849345738]">2</container>
-              <unittitle>[Vol. 2] <unitdate type="inclusive" normal="1907">1907</unitdate></unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [962849148156170032]">2</container>
+              <unittitle>[Vol. 2]</unittitle><unitdate type="inclusive" normal="1907">1907</unitdate></did>
             <odd>
               <p>(Photographs of the trip to Japan with William Howard Taft, reception at court and other Japanese scenes; also many calling cards, menus, programs, invitations and other memorabilia.)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [8183468621400069899029]">3</container>
-              <unittitle>[Vol. 3] <unitdate type="inclusive" normal="1908-01/1908-05">January-May 1908</unitdate></unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [832445174479162427430]">3</container>
+              <unittitle>[Vol. 3]</unittitle><unitdate type="inclusive" normal="1908-01/1908-05">January-May 1908</unitdate></did>
             <odd>
               <p>(Programs, calling cards, invitations and occasional photographs of Japan.)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [24450948286832]">8</container>
-              <unittitle>[Vol. 8] <unitdate type="inclusive" normal="1908-06/1908-12">June-December 1908</unitdate></unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [18616374652557479184272]">8</container>
+              <unittitle>[Vol. 8]</unittitle><unitdate type="inclusive" normal="1908-06/1908-12">June-December 1908</unitdate></did>
             <odd>
               <p>(Photographs of Russia and England and of the coming of the U.S. Fleet to Yokohama, Japan in October 1908 also memorabilia (organized in reverse chronological order))</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [090975244450860400]">7</container>
-              <unittitle>[Vol. 7] <unitdate type="inclusive" normal="1908-01/1909-10">January 1908-October 1909</unitdate></unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [354044192547977159]">7</container>
+              <unittitle>[Vol. 7]</unittitle><unitdate type="inclusive" normal="1908-01/1909-10">January 1908-October 1909</unitdate></did>
             <odd>
               <p>(Newspaper clippings regarding O'Brien's activities as Ambassador to Japan)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [788026484143791642937413]">9</container>
-              <unittitle>[Vol. 9] <unitdate type="inclusive" normal="1909-01/1909-06">January-June 1909</unitdate></unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [3455892486796125433085]">9</container>
+              <unittitle>[Vol. 9]</unittitle><unitdate type="inclusive" normal="1909-01/1909-06">January-June 1909</unitdate></did>
             <odd>
               <p>(Photographs of England, Siberia, and Japan and memorabilia)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [785503432875748381]">10</container>
-              <unittitle>[Vol. 10] <unitdate type="inclusive" normal="1909">1909</unitdate></unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [5297669641158139485719]">10</container>
+              <unittitle>[Vol. 10]</unittitle><unitdate type="inclusive" normal="1909">1909</unitdate></did>
             <odd>
               <p>(Primarily photographs of Japan, including excellent interior views of the American Embassy and good candid shots of the Ambassador's life and scenes of Japanese life; also photographs of a trip to China, March 1909)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [56363740944835873784]">4</container>
-              <unittitle>[Vol. 4] <unitdate type="inclusive" normal="1910">1910</unitdate></unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [983114984780887]">4</container>
+              <unittitle>[Vol. 4]</unittitle><unitdate type="inclusive" normal="1910">1910</unitdate></did>
             <odd>
               <p>(Programs, invitations, menus, and occasional postcards of Japanese scenes)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [10191284478235963288]">5</container>
-              <unittitle>[Vol. 5] <unitdate type="inclusive" normal="1911-01/1911-03">January-March 1911</unitdate></unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [15637364344583085481361696]">5</container>
+              <unittitle>[Vol. 5]</unittitle><unitdate type="inclusive" normal="1911-01/1911-03">January-March 1911</unitdate></did>
             <odd>
               <p>(Programs, invitations, menus, and photographs, including photographs of the Imperial Duck Hunt in March 1911)</p>
             </odd>
@@ -265,59 +253,38 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7792992468731835726]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1880-04-27/1883">April 27, 1880-1883</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [7634765792499367419581]">2</container>
+              <unitdate type="inclusive" normal="1880-04-27/1883">April 27, 1880-1883</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7792992468731835726]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1883/1886-05">1883-May 1886</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [7634765792499367419581]">2</container>
+              <unitdate type="inclusive" normal="1883/1886-05">1883-May 1886</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7792992468731835726]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1886-06/1889-01">June 1886-January 1889</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [7634765792499367419581]">2</container>
+              <unitdate type="inclusive" normal="1886-06/1889-01">June 1886-January 1889</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7792992468731835726]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1889-01/1892">January 1889-1892</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [7634765792499367419581]">2</container>
+              <unitdate type="inclusive" normal="1889-01/1892">January 1889-1892</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7792992468731835726]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1893/1896-06">1893-June 1896</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [7634765792499367419581]">2</container>
+              <unitdate type="inclusive" normal="1893/1896-06">1893-June 1896</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7792992468731835726]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1896-07/1897-02">July 1896-February 1897</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [7634765792499367419581]">2</container>
+              <unitdate type="inclusive" normal="1896-07/1897-02">July 1896-February 1897</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [764155359374271184369011]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1902/1912-12">1902-December 1912</unitdate>
-              </unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [02468154887464928]">6</container>
+              <unitdate type="inclusive" normal="1902/1912-12">1902-December 1912</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -326,27 +293,18 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8640435962254510554]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1877/1883">1877-1883</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [537194630621227213]">3</container>
+              <unitdate type="inclusive" normal="1877/1883">1877-1883</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8640435962254510554]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1883/1885">1883-1885</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [537194630621227213]">3</container>
+              <unitdate type="inclusive" normal="1883/1885">1883-1885</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8640435962254510554]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1893/1896">1893-1896</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [537194630621227213]">3</container>
+              <unitdate type="inclusive" normal="1893/1896">1893-1896</unitdate></did>
           </c03>
         </c02>
       </c01>
@@ -356,49 +314,46 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [8640435962254510554]">3</container>
-            <unittitle>Correspondence largely of Mrs. T.J. O'Brien <unitdate type="inclusive" normal="1889/1898">1889-1898</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [537194630621227213]">3</container>
+            <unittitle>Correspondence largely of Mrs. T.J. O'Brien</unittitle><unitdate type="inclusive" normal="1889/1898">1889-1898</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [8640435962254510554]">3</container>
-            <unittitle>Correspondence of O'Brien and others <unitdate type="inclusive" normal="1905/1909">1905-1909</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [537194630621227213]">3</container>
+            <unittitle>Correspondence of O'Brien and others</unittitle><unitdate type="inclusive" normal="1905/1909">1905-1909</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [8640435962254510554]">3</container>
-            <unittitle>Correspondence concerning in part change in positions from Japan, and Italian controversy over the use of benzine <unitdate type="inclusive" normal="1909/1922">1909-1922</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [537194630621227213]">3</container>
+            <unittitle>Correspondence concerning in part change in positions from Japan, and Italian controversy over the use of benzine</unittitle><unitdate type="inclusive" normal="1909/1922">1909-1922</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [8640435962254510554]">3</container>
+            <container type="box" label="Box [537194630621227213]">3</container>
             <unittitle>Miscellaneous correspondence</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [8640435962254510554]">3</container>
+            <container type="box" label="Box [537194630621227213]">3</container>
             <unittitle>Miscellaneous letters to the editor and interviews</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [8640435962254510554]">3</container>
+            <container type="box" label="Box [537194630621227213]">3</container>
             <unittitle>Notes for speeches</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [8640435962254510554]">3</container>
+            <container type="box" label="Box [537194630621227213]">3</container>
             <unittitle>Papers re. Japan and U.S.-Japanese relations</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [8640435962254510554]">3</container>
+            <container type="box" label="Box [537194630621227213]">3</container>
             <unittitle>Clippings</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -407,7 +362,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [8640435962254510554]">3</container>
+            <container type="box" label="Box [537194630621227213]">3</container>
             <unittitle>Miscellaneous</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -416,7 +371,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [8640435962254510554]">3</container>
+            <container type="box" label="Box [537194630621227213]">3</container>
             <unittitle>Photographs</unittitle>
           </did>
           <odd>
@@ -425,7 +380,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container label="Oversize Folder [4353119572481884275252]" type="folder">AC</container>
+            <container label="Oversize Folder [49356249466097064242]" type="folder">AC</container>
             <unittitle>Citations and diplomas</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 items</extent>

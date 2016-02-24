@@ -12,7 +12,8 @@ def normalize_dates(ead_dir):
     yyyys_yyyys = re.compile(r'^\d{4}s\-\d{4}s$') # Ex: 1920s-1930s
     undated = re.compile(r'^[Uu]ndated$')
 
-    for filename in os.listdir(ead_dir):
+    filenames = [filename for filename in os.listdir(ead_dir) if filename.endswith('.xml')]
+    for filename in filenames:
         print "Normalizing dates in {0}".format(filename)
         tree = etree.parse(join(ead_dir, filename))
         unitdates = tree.xpath('//unitdate')

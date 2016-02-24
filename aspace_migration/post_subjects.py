@@ -14,13 +14,13 @@ def post_subjects(ead_dir, subjects_agents_dir, aspace_url, username, password):
         for row in reader:
             sub_text = row[0]
             authfilenumber = row[1]
-            text_to_authfilenumber[sub_text] = authfilenumber]
+            text_to_authfilenumber[sub_text] = authfilenumber
 
     auth = requests.post(aspace_url + '/users/'+username+'/login?password='+password).json()
     session = auth["session"]
     headers = {'X-ArchivesSpace-Session':session}
 
-    data = []
+    subjects_data = []
     with open(subjects_csv,'rb') as csvfile:
         reader = csv.reader(csvfile)
         for row in reader:
@@ -42,16 +42,17 @@ def post_subjects(ead_dir, subjects_agents_dir, aspace_url, username, password):
                 terms_list.append(terms_dict)
 
             data = json.dumps({"authority_id":authfilenumber,"source":source,"vocabulary":"/vocabularies/1","terms":[i for i in terms_list]})
-            subjects = requests.post(baseURL+'/subjects', headers=headers, data=data).json()
+            subjects = requests.post(aspace_url+'/subjects', headers=headers, data=data).json()
             if 'status' in subjects:
                 if subjects['status'] == 'Created':
+                    print subjects
                     subject_uri = subjects['uri']
                     row.append(subject_uri)
-                    data.append(row)
+                    subjects_data.append(row)
 
     with open(posted_csv,'ab') as csv_out:
         writer = csv.writer(csv_out)
-        writer.writerows(data)
+        writer.writerows(subjects_data)
 
 def main():
     project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Eta Kappa Nu. Beta Epsilon Chapter (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/2968">Eta Kappa Nu. Beta Epsilon Chapter (University of Michigan)</corpname>
       </origination>
-      <unittitle encodinganalog="245">Eta Kappa Nu. Beta Epsilon Chapter records <unitdate type="inclusive" encodinganalog="245$f" normal="1937/2008">1937-2008</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0270 Bimu 2</unitid>
+      <unittitle encodinganalog="245">Eta Kappa Nu. Beta Epsilon Chapter records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1937/2008">1937-2008</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0270 Bimu 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>University of Michigan's chapter of national honor society Eta Kappa Nu for computer and electrical engineering students. Established in 1937, still active. Larry Page, co-founder of Google, was a member of the Michigan chapter. Minutes, membership records, accounts books, awards, photo albums, and artifacts.</abstract>
       <physdesc altrender="whole">
@@ -82,24 +82,24 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Eta Kappa Nu. Beta Epsilon Chapter (University of Michigan)</corpname>
-        <subject source="lcsh" encodinganalog="650">Electric engineering.</subject>
-        <subject source="lcsh" encodinganalog="650">Greek letter societies--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Electrical Engineering--Students.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Societies, etc.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2968">Eta Kappa Nu. Beta Epsilon Chapter (University of Michigan)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7288">Electric engineering.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5839">Greek letter societies--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2945">University of Michigan. Dept. of Electrical Engineering--Students.<term type="topical">Students.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Societies, etc.<term type="topical">Students</term><term type="topical">Societies, etc.</term></corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname source="lcnaf" encodinganalog="610">Eta Kappa Nu. Beta Epsilon Chapter (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Electrical Engineering--Students.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Societies, etc.</corpname>
-        <subject source="lcsh" encodinganalog="650">Greek letter societies--Michigan--Ann Arbor.</subject>
-        <subject source="lctgm" encodinganalog="650">Fraternities and sororities.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n2005086596">Page, Larry, 1973-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2968">Eta Kappa Nu. Beta Epsilon Chapter (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2945">University of Michigan. Dept. of Electrical Engineering--Students.<term type="topical">Students.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Societies, etc.<term type="topical">Students</term><term type="topical">Societies, etc.</term></corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5839">Greek letter societies--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3686">Fraternities and sororities.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n2005086596" ref="/agents/people/5677">Page, Larry, 1973-</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -112,21 +112,18 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [383944224491899746780515]">1</container>
-            <unittitle>Minutes Book <unitdate type="inclusive" normal="1937/1950">1937-1950</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [972249857045506]">1</container>
+            <unittitle>Minutes Book</unittitle><unitdate type="inclusive" normal="1937/1950">1937-1950</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [383944224491899746780515]">1</container>
-            <unittitle>Minutes Book <unitdate type="inclusive" normal="1958/1968">1958-1968</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [972249857045506]">1</container>
+            <unittitle>Minutes Book</unittitle><unitdate type="inclusive" normal="1958/1968">1958-1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [383944224491899746780515]">1</container>
-            <unittitle>Minutes Book <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [972249857045506]">1</container>
+            <unittitle>Minutes Book</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -138,21 +135,18 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [383944224491899746780515]">1</container>
-            <unittitle>Constitution and By-Laws: Beta Epsilon Chapter, Eta Kappa Nu Association <unitdate type="inclusive" normal="1937/1962">1937-1962</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [972249857045506]">1</container>
+            <unittitle>Constitution and By-Laws: Beta Epsilon Chapter, Eta Kappa Nu Association</unittitle><unitdate type="inclusive" normal="1937/1962">1937-1962</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [383944224491899746780515]">1</container>
-            <unittitle>Meeting Attendance Book <unitdate type="inclusive" normal="1993/1997">1993-1997</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [972249857045506]">1</container>
+            <unittitle>Meeting Attendance Book</unittitle><unitdate type="inclusive" normal="1993/1997">1993-1997</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [383944224491899746780515]">1</container>
-            <unittitle>Meeting Attendance Book <unitdate type="inclusive" normal="2005/2008">2005-2008</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [972249857045506]">1</container>
+            <unittitle>Meeting Attendance Book</unittitle><unitdate type="inclusive" normal="2005/2008">2005-2008</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -164,15 +158,13 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [383944224491899746780515]">1</container>
-            <unittitle>Account Book <unitdate type="inclusive" normal="1937/1958">1937-1958</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [972249857045506]">1</container>
+            <unittitle>Account Book</unittitle><unitdate type="inclusive" normal="1937/1958">1937-1958</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [383944224491899746780515]">1</container>
-            <unittitle>Treasurer's Journal <unitdate type="inclusive" normal="1957/1971">1957-1971</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [972249857045506]">1</container>
+            <unittitle>Treasurer's Journal</unittitle><unitdate type="inclusive" normal="1957/1971">1957-1971</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -184,69 +176,58 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [090378313465387324789512]">2</container>
-            <unittitle>Certificates <unitdate type="inclusive" normal="1951/1990">1951-1990</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [70724989288678501]">2</container>
+            <unittitle>Certificates</unittitle><unitdate type="inclusive" normal="1951/1990">1951-1990</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [090378313465387324789512]">2</container>
-            <unittitle>Award for Achievement <unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [70724989288678501]">2</container>
+            <unittitle>Award for Achievement</unittitle><unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [090378313465387324789512]">2</container>
-            <unittitle>College Chapter Activities East Central Regional Award <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [70724989288678501]">2</container>
+            <unittitle>College Chapter Activities East Central Regional Award</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [090378313465387324789512]">2</container>
-            <unittitle>Outstanding Student Organization <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [70724989288678501]">2</container>
+            <unittitle>Outstanding Student Organization</unittitle><unitdate type="inclusive" normal="1994">1994</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [090378313465387324789512]">2</container>
-            <unittitle>Certificate of Merit <unitdate type="inclusive" normal="1997/1998">1997-1998</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [70724989288678501]">2</container>
+            <unittitle>Certificate of Merit</unittitle><unitdate type="inclusive" normal="1997/1998">1997-1998</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [090378313465387324789512]">2</container>
-            <unittitle>Certificate of Merit <unitdate type="inclusive" normal="2002/2003">2002-2003</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [70724989288678501]">2</container>
+            <unittitle>Certificate of Merit</unittitle><unitdate type="inclusive" normal="2002/2003">2002-2003</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [090378313465387324789512]">2</container>
-            <unittitle>Certificate of Merit <unitdate type="inclusive" normal="2003/2004">2003-2004</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [70724989288678501]">2</container>
+            <unittitle>Certificate of Merit</unittitle><unitdate type="inclusive" normal="2003/2004">2003-2004</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1889131086439154568753]">3</container>
-            <unittitle>Eta Kappa Nu Presidents <unitdate type="inclusive" normal="1982/1988">1982-1988</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [15486784642921513704]">3</container>
+            <unittitle>Eta Kappa Nu Presidents</unittitle><unitdate type="inclusive" normal="1982/1988">1982-1988</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1889131086439154568753]">3</container>
-            <unittitle>Eta Kappa Nu Presidents <unitdate type="inclusive" normal="1988/1993">1988-1993</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [15486784642921513704]">3</container>
+            <unittitle>Eta Kappa Nu Presidents</unittitle><unitdate type="inclusive" normal="1988/1993">1988-1993</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1889131086439154568753]">3</container>
-            <unittitle>Eta Kappa Nu Presidents <unitdate type="inclusive" normal="1994/1999">1994-1999</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [15486784642921513704]">3</container>
+            <unittitle>Eta Kappa Nu Presidents</unittitle><unitdate type="inclusive" normal="1994/1999">1994-1999</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1889131086439154568753]">3</container>
-            <unittitle>Eta Kappa Nu Presidents <unitdate type="inclusive" normal="2000/2005">2000-2005</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [15486784642921513704]">3</container>
+            <unittitle>Eta Kappa Nu Presidents</unittitle><unitdate type="inclusive" normal="2000/2005">2000-2005</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -258,33 +239,28 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [793518492598670525]">4</container>
-            <unittitle>Photo Album 1, early <unitdate type="inclusive" normal="1990/1999" certainty="approximate">1990s</unitdate> (<unitdate normal="1993/1994" type="inclusive" certainty="approximate">ca. 1993-1994</unitdate>)</unittitle>
-          </did>
+            <container type="box" label="Box [144757054249522502245326]">4</container>
+            <unittitle>Photo Album 1, early ()</unittitle><unitdate type="inclusive" normal="1990/1999" certainty="approximate">1990s</unitdate><unitdate normal="1993/1994" type="inclusive" certainty="approximate">ca. 1993-1994</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [793518492598670525]">4</container>
-            <unittitle>Photo Album 2 <unitdate type="inclusive" normal="1986/1989">1986-1989</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [144757054249522502245326]">4</container>
+            <unittitle>Photo Album 2</unittitle><unitdate type="inclusive" normal="1986/1989">1986-1989</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [793518492598670525]">4</container>
-            <unittitle>Photo Album 3 <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [144757054249522502245326]">4</container>
+            <unittitle>Photo Album 3</unittitle><unitdate type="inclusive" normal="1981">1981</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [793518492598670525]">4</container>
-            <unittitle>Photo Album 4 <unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [144757054249522502245326]">4</container>
+            <unittitle>Photo Album 4</unittitle><unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [793518492598670525]">4</container>
-            <unittitle>Photo Album 5 <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [144757054249522502245326]">4</container>
+            <unittitle>Photo Album 5</unittitle><unitdate type="inclusive" normal="1990">1990</unitdate></did>
         </c02>
       </c01>
     </dsc>

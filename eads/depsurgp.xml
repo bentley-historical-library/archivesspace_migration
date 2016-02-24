@@ -31,7 +31,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,10 +43,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Department of Surgery.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/3594">University of Michigan. Department of Surgery.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Department of Surgery (University of Michigan) publications <unitdate type="inclusive" encodinganalog="245$f" normal="1975/2006">1975-2006</unitdate></unittitle>
-      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">9944 Bimu 2</unitid>
+      <unittitle encodinganalog="245">Department of Surgery (University of Michigan) publications</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1975/2006">1975-2006</unitdate><unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">9944 Bimu 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Includes annual reports, brochures, faculty directories, prospectuses and reports. Also contains programs from the William Mayo lectures and the Advances in Surgery Conference, development brochures, and an annual report from the Section of Neurosurgery.</abstract>
       <physdesc altrender="whole">
@@ -100,23 +100,23 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Surgery.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2015183833">University of Michigan. Section of Neurosurgery.</corpname>
-        <corpname source="lcnaf" encodinganalog="630">William Mayo lecture.</corpname>
-        <corpname source="lcnaf" encodinganalog="611">Advances in Surgery Conference.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4643">University of Michigan. Dept. of Surgery.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2015183833" ref="/agents/corporate_entities/1436">University of Michigan. Section of Neurosurgery.</corpname>
+        <corpname source="lcnaf" encodinganalog="630" ref="/agents/corporate_entities/3946">William Mayo lecture.</corpname>
+        <corpname source="lcnaf" encodinganalog="611" ref="/agents/corporate_entities/4608">Advances in Surgery Conference.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n2015183833">University of Michigan. Section of Neurosurgery.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n2015183833" ref="/agents/corporate_entities/1436">University of Michigan. Section of Neurosurgery.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Annual reports.</genreform>
-        <genreform source="aat" encodinganalog="655">Brochures.</genreform>
-        <genreform source="aat" encodinganalog="655">Directories.</genreform>
-        <genreform source="aat" encodinganalog="655">Programs.</genreform>
-        <genreform source="aat" encodinganalog="655">Prospectuses.</genreform>
-        <genreform source="aat" encodinganalog="655">Reports.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3191">Annual reports.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3154">Brochures.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3195">Directories.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3211">Programs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3149">Prospectuses.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3150">Reports.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -133,18 +133,16 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6597278246848946801784]">1</container>
-              <unittitle><title render="italic">Annual Report</title>, <unitdate type="inclusive" normal="1982/1997">1982/83-1996/97</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [97816524526410121715]">1</container>
+              <unittitle><title render="italic">Annual Report</title></unittitle><unitdate type="inclusive" normal="1982/1997">1982/83-1996/97</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">14 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6597278246848946801784]">1</container>
-              <unittitle><title render="italic">Annual Report: Executive Summary</title>, <unitdate type="inclusive" normal="1983/1984">1983/84</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [97816524526410121715]">1</container>
+              <unittitle><title render="italic">Annual Report: Executive Summary</title></unittitle><unitdate type="inclusive" normal="1983/1984">1983/84</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -153,21 +151,18 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6597278246848946801784]">1</container>
-              <unittitle><title render="italic">Graduate Training in Surgery</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [97816524526410121715]">1</container>
+              <unittitle><title render="italic">Graduate Training in Surgery</title></unittitle><unitdate type="inclusive">undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6597278246848946801784]">1</container>
-              <unittitle><title render="italic">Residency Training Program</title>, <unitdate type="inclusive" normal="1975">1975</unitdate>, <unitdate type="inclusive" normal="1980" certainty="approximate">circa 1980</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [97816524526410121715]">1</container>
+              <unittitle><title render="italic">Residency Training Program</title></unittitle><unitdate type="inclusive" normal="1975">1975</unitdate><unitdate type="inclusive" normal="1980" certainty="approximate">circa 1980</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6597278246848946801784]">1</container>
-              <unittitle><title render="italic">Resident Education Program</title>, <unitdate type="inclusive" normal="1983" certainty="approximate">circa 1983</unitdate>, <unitdate type="inclusive" normal="1985" certainty="approximate">circa 1985</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [97816524526410121715]">1</container>
+              <unittitle><title render="italic">Resident Education Program</title></unittitle><unitdate type="inclusive" normal="1983" certainty="approximate">circa 1983</unitdate><unitdate type="inclusive" normal="1985" certainty="approximate">circa 1985</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -179,16 +174,14 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6597278246848946801784]">1</container>
-              <unittitle><title render="italic">Faculty</title>, <unitdate type="inclusive" normal="1988/1989">1988/89</unitdate>, <unitdate type="inclusive" normal="1988/1997">1992/93-1996/97</unitdate>, <unitdate type="inclusive" normal="2004/2005">2004/05</unitdate>,</unittitle>
-            </did>
+              <container type="box" label="Box [97816524526410121715]">1</container>
+              <unittitle><title render="italic">Faculty</title></unittitle><unitdate type="inclusive" normal="1988/1989">1988/89</unitdate><unitdate type="inclusive" normal="1988/1997">1992/93-1996/97</unitdate><unitdate type="inclusive" normal="2004/2005">2004/05</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6597278246848946801784]">1</container>
-            <unittitle>Invitations <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [97816524526410121715]">1</container>
+            <unittitle>Invitations</unittitle><unitdate type="inclusive" normal="1987">1987</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -196,16 +189,14 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6597278246848946801784]">1</container>
-              <unittitle><title render="italic">Surgeons and HIV Exposure</title>, <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [97816524526410121715]">1</container>
+              <unittitle><title render="italic">Surgeons and HIV Exposure</title></unittitle><unitdate type="inclusive" normal="1991">1991</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6597278246848946801784]">1</container>
-            <unittitle>Programs <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [97816524526410121715]">1</container>
+            <unittitle>Programs</unittitle><unitdate type="inclusive" normal="1989">1989</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -213,9 +204,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6597278246848946801784]">1</container>
-              <unittitle><title render="italic">Research Prospectus</title>, <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [97816524526410121715]">1</container>
+              <unittitle><title render="italic">Research Prospectus</title></unittitle><unitdate type="inclusive" normal="1996">1996</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -224,9 +214,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6597278246848946801784]">1</container>
-              <unittitle><title render="italic">Report to the Graduate Medical Education Committee on Proposed Emergency Medical Training Program</title>, <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [97816524526410121715]">1</container>
+              <unittitle><title render="italic">Report to the Graduate Medical Education Committee on Proposed Emergency Medical Training Program</title></unittitle><unitdate type="inclusive" normal="1990">1990</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -235,9 +224,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6597278246848946801784]">1</container>
-              <unittitle><title render="italic">House Officers</title>, <unitdate type="inclusive" normal="1981/1983">1981-1983</unitdate>, <unitdate type="inclusive" normal="1986/2006">1986/87-2005/06</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [97816524526410121715]">1</container>
+              <unittitle><title render="italic">House Officers</title></unittitle><unitdate type="inclusive" normal="1981/1983">1981-1983</unitdate><unitdate type="inclusive" normal="1986/2006">1986/87-2005/06</unitdate></did>
           </c03>
         </c02>
       </c01>
@@ -254,9 +242,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6597278246848946801784]">1</container>
-              <unittitle>Programs <unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [97816524526410121715]">1</container>
+              <unittitle>Programs</unittitle><unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -265,9 +252,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6597278246848946801784]">1</container>
-              <unittitle>Brochures <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [97816524526410121715]">1</container>
+              <unittitle>Brochures</unittitle><unitdate type="inclusive" normal="1991">1991</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -275,9 +261,8 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6597278246848946801784]">1</container>
-                <unittitle><title render="italic">Program Proposal for Expanded Burn Center</title>, <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [97816524526410121715]">1</container>
+                <unittitle><title render="italic">Program Proposal for Expanded Burn Center</title></unittitle><unitdate type="inclusive" normal="1978">1978</unitdate></did>
             </c04>
           </c03>
         </c02>
@@ -291,9 +276,8 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6597278246848946801784]">1</container>
-                <unittitle><title render="italic">Surgery 2000</title>, <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [97816524526410121715]">1</container>
+                <unittitle><title render="italic">Surgery 2000</title></unittitle><unitdate type="inclusive" normal="1988">1988</unitdate></did>
             </c04>
           </c03>
         </c02>
@@ -303,9 +287,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6597278246848946801784]">1</container>
-              <unittitle>Programs <unitdate type="inclusive" normal="1985/1988">1985-1988</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [97816524526410121715]">1</container>
+              <unittitle>Programs</unittitle><unitdate type="inclusive" normal="1985/1988">1985-1988</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -318,9 +301,8 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6597278246848946801784]">1</container>
-                <unittitle><title render="italic">Annual Report of Academic Activities</title>, <unitdate type="inclusive" normal="1990/1991">1990/91</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [97816524526410121715]">1</container>
+                <unittitle><title render="italic">Annual Report of Academic Activities</title></unittitle><unitdate type="inclusive" normal="1990/1991">1990/91</unitdate></did>
             </c04>
           </c03>
         </c02>

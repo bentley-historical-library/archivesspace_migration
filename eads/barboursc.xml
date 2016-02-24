@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Barbour Scholarship for Oriental Women Committee.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/1312">University of Michigan. Barbour Scholarship for Oriental Women Committee.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Barbour Scholarship for Oriental Women Committee (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1914/1983">1914-1983</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">861142 UBImum BImu B17 2</unitid>
+      <unittitle encodinganalog="245">Barbour Scholarship for Oriental Women Committee (University of Michigan) records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1914/1983">1914-1983</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">861142 UBImum BImu B17 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Records, 1914-1983, of the Barbour Scholarship for Oriental Women Committee, founded by University of Michigan alumnus and regent Levi L. Barbour. Include minutes (1918-1946), complete lists of recipients (1914-1983), newsletters (1927-1946), photographs, and correspondence (1918-1983).</abstract>
       <physdesc altrender="part">
@@ -85,24 +85,24 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Scholarships, fellowships, etc.</corpname>
-        <subject source="lcsh" encodinganalog="650">Women--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Students, Foreign--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Women college students--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students.<term type="topical">Students.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Scholarships, fellowships, etc.<term type="topical">Students</term><term type="topical">Scholarships, fellowships, etc.</term></corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5746">Women--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6092">Students, Foreign--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5842">Women college students--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85809443">Barbour, Levi L. (Levi Lewis), 1840-1925.</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Barbour Scholarships for Oriental Women Committee.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students.</corpname>
-        <subject source="lctgm" encodinganalog="650">Women.</subject>
-        <subject source="lcsh" encodinganalog="650">Students, Foreign--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Women college students--Michigan--Ann Arbor.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85809443" ref="/agents/people/5922">Barbour, Levi L. (Levi Lewis), 1840-1925.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3138">University of Michigan. Barbour Scholarships for Oriental Women Committee.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students.<term type="topical">Students.</term></corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3617">Women.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6092">Students, Foreign--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5842">Women college students--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -112,49 +112,44 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [99556664886055043969]">1</container>
+            <container type="box" label="Box [296399548489527830896]">1</container>
             <unittitle>History</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [99556664886055043969]">1</container>
-            <unittitle>Recipients <unitdate type="inclusive" normal="1914/1983">1914-1983</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [296399548489527830896]">1</container>
+            <unittitle>Recipients</unittitle><unitdate type="inclusive" normal="1914/1983">1914-1983</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [99556664886055043969]">1</container>
-            <unittitle>Minutes <unitdate type="inclusive" normal="1918/1946">1918-1946</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [296399548489527830896]">1</container>
+            <unittitle>Minutes</unittitle><unitdate type="inclusive" normal="1918/1946">1918-1946</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [99556664886055043969]">1</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1918/1983">1918-1983</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [296399548489527830896]">1</container>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1918/1983">1918-1983</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [99556664886055043969]">1</container>
-            <unittitle>Newsletters <unitdate type="inclusive" normal="1927/1946">1927-1946</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [296399548489527830896]">1</container>
+            <unittitle>Newsletters</unittitle><unitdate type="inclusive" normal="1927/1946">1927-1946</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [99556664886055043969]">1</container>
+            <container type="box" label="Box [296399548489527830896]">1</container>
             <unittitle>Printed</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [99556664886055043969]">1</container>
-            <unittitle>Scrapbook <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [296399548489527830896]">1</container>
+            <unittitle>Scrapbook</unittitle><unitdate type="inclusive" normal="1958">1958</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [99556664886055043969]">1</container>
+            <container type="box" label="Box [296399548489527830896]">1</container>
             <unittitle>Medallion (artifacts)</unittitle>
           </did>
         </c02>
@@ -165,19 +160,19 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [99556664886055043969]">1</container>
+            <container type="box" label="Box [296399548489527830896]">1</container>
             <unittitle>Levi Barbour and Scholarship Committee</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [99556664886055043969]">1</container>
+            <container type="box" label="Box [296399548489527830896]">1</container>
             <unittitle>Frank Huntley and Mrs. Huntley with Barbour Scholars</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [99556664886055043969]">1</container>
+            <container type="box" label="Box [296399548489527830896]">1</container>
             <unittitle>Barbour Scholars</unittitle>
           </did>
           <odd>
@@ -186,24 +181,21 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Oversize Folder [81019549891759688558217]">UBImum B17</container>
-            <unittitle>Recipients <unitdate type="inclusive" normal="1924/1950">1924-1950</unitdate></unittitle>
-          </did>
+            <container type="folder" label="Oversize Folder [0911298374898897068322663]">UBImum B17</container>
+            <unittitle>Recipients</unittitle><unitdate type="inclusive" normal="1924/1950">1924-1950</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Oversize Folder [81019549891759688558217]">UBImum B17</container>
-            <unittitle>Recipients <unitdate type="inclusive" normal="1924/1950">1924-1950</unitdate></unittitle>
-          </did>
+            <container type="folder" label="Oversize Folder [0911298374898897068322663]">UBImum B17</container>
+            <unittitle>Recipients</unittitle><unitdate type="inclusive" normal="1924/1950">1924-1950</unitdate></did>
           <odd>
             <p>(continued)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Oversize Folder [81019549891759688558217]">UBImum B17</container>
-            <unittitle>Recipients <unitdate type="inclusive" normal="1924/1950">1924-1950</unitdate></unittitle>
-          </did>
+            <container type="folder" label="Oversize Folder [0911298374898897068322663]">UBImum B17</container>
+            <unittitle>Recipients</unittitle><unitdate type="inclusive" normal="1924/1950">1924-1950</unitdate></did>
           <odd>
             <p>(continued)</p>
           </odd>

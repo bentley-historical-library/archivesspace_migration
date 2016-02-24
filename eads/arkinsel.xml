@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,10 +47,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Arkins, Edwin L.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/1462">Arkins, Edwin L.</persname>
       </origination>
-      <unittitle encodinganalog="245">Edwin L. Arkins diary and scrapbook <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1922">1918-1922</unitdate></unittitle>
-      <abstract>Soldier from Hart, Mich., member of Co. C, 339th U.S. Infantry who served in the Allied intervention in Russia, 1918-1920, the "Polar Bear Expedition." Collection includes shorthand diary with newspaper clippings attached concerning the activities of the Polar Bear Expedition.</abstract>
+      <unittitle encodinganalog="245">Edwin L. Arkins diary and scrapbook</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1918/1922">1918-1922</unitdate><abstract>Soldier from Hart, Mich., member of Co. C, 339th U.S. Infantry who served in the Allied intervention in Russia, 1918-1920, the "Polar Bear Expedition." Collection includes shorthand diary with newspaper clippings attached concerning the activities of the Polar Bear Expedition.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">86517 AA</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -83,22 +83,20 @@
       </p>
       <controlaccess>
         <head>Subjects</head>
-        <persname source="lcnaf" encodinganalog="600">Arkins, Edwin L.</persname>
-        <geogname source="lcsh" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
-        <subject source="local" encodinganalog="690">Polar Bear Expedition.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1462">Arkins, Edwin L.</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/879">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5715">World War, 1914-1918.</subject>
+        <subject source="local" encodinganalog="690" ref="/subjects/3516">Polar Bear Expedition.</subject>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Papers <unitdate type="inclusive" normal="1918/1922">1918-1922</unitdate></unittitle>
-        </did>
+          <unittitle>Papers</unittitle><unitdate type="inclusive" normal="1918/1922">1918-1922</unitdate></did>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [2132238544915669488549]">1</container>
-            <unittitle>Diary <unitdate type="inclusive" normal="1918-07-14/1919-04-16">July 14, 1918-April 16, 1919</unitdate>, Diary, <unitdate type="inclusive" normal="1919-04-16/1919-07-19">April 16, 1919-July 19, 1919</unitdate>, Diary, transcription, <unitdate type="inclusive" normal="1918-07-14/1919-07-19">July 14, 1918-July 19, 1919</unitdate> and miscellaneous papers</unittitle>
-            <physdesc altrender="whole">
+            <container type="folder" label="Folder [69364741472981252993486691]">1</container>
+            <unittitle>Diary July 14, 1918-April 16, 1919, Diary, April 16, 1919-July 19, 1919, Diary, transcription, July 14, 1918-July 19, 1919 and miscellaneous papers</unittitle><unitdate type="inclusive" normal="1918-07-14/1919-04-16">July 14, 1918-April 16, 1919</unitdate><unitdate type="inclusive" normal="1919-04-16/1919-07-19">April 16, 1919-July 19, 1919</unitdate><unitdate type="inclusive" normal="1918-07-14/1919-07-19">July 14, 1918-July 19, 1919</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">1 volumes</extent>
             </physdesc>
           </did>

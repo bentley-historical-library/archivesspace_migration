@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/no2009099844">United States. Army. Michigan Infantry Regiment, 1st (1861-1865). Company F.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/no2009099844" ref="/agents/corporate_entities/4233">United States. Army. Michigan Infantry Regiment, 1st (1861-1865). Company F.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Michigan Infantry Regiment, 1st (1861-1865), Co. F. quartermaster records <unitdate type="inclusive" encodinganalog="245$f" normal="1861/1865">1861-1865</unitdate></unittitle>
-      <abstract>Microfilm copy of records of quartermaster of Michigan Civil War unit of U.S. Army. Includes reports, muster rolls, equipment inventories, payrolls and other administrative records.</abstract>
+      <unittitle encodinganalog="245">Michigan Infantry Regiment, 1st (1861-1865), Co. F. quartermaster records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1861/1865">1861-1865</unitdate><abstract>Microfilm copy of records of quartermaster of Michigan Civil War unit of U.S. Army. Includes reports, muster rolls, equipment inventories, payrolls and other administrative records.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">mf362c</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -83,8 +83,8 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651">United States--History--Civil War, 1861-1865.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2009099844">United States. Army. Michigan Infantry Regiment, 1st (1861-1865). Company F.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/905">United States--History--Civil War, 1861-1865.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2009099844" ref="/agents/corporate_entities/4233">United States. Army. Michigan Infantry Regiment, 1st (1861-1865). Company F.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -94,51 +94,33 @@
         </did>
         <c02 level="file">
           <did>
-            <container label="Roll [75262207764392275649]" type="reel">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1861/1862">1861-1862</unitdate>
-            </unittitle>
-          </did>
+            <container label="Roll [919483219456954106140]" type="reel">1</container>
+            <unitdate type="inclusive" normal="1861/1862">1861-1862</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Roll [75262207764392275649]" type="reel">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1863-01/1863-06">January-June 1863</unitdate>
-            </unittitle>
-          </did>
+            <container label="Roll [919483219456954106140]" type="reel">1</container>
+            <unitdate type="inclusive" normal="1863-01/1863-06">January-June 1863</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Roll [75262207764392275649]" type="reel">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1863-07/1863-09">July-September 1863</unitdate>
-            </unittitle>
-          </did>
+            <container label="Roll [919483219456954106140]" type="reel">1</container>
+            <unitdate type="inclusive" normal="1863-07/1863-09">July-September 1863</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Roll [75262207764392275649]" type="reel">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1863-10/1863-12">October-December 1863</unitdate>
-            </unittitle>
-          </did>
+            <container label="Roll [919483219456954106140]" type="reel">1</container>
+            <unitdate type="inclusive" normal="1863-10/1863-12">October-December 1863</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Roll [75262207764392275649]" type="reel">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1864-01/1864-03">January-March 1864</unitdate>
-            </unittitle>
-          </did>
+            <container label="Roll [919483219456954106140]" type="reel">1</container>
+            <unitdate type="inclusive" normal="1864-01/1864-03">January-March 1864</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Roll [75262207764392275649]" type="reel">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1864-04/1865">April 1864-1865</unitdate>
-            </unittitle>
-          </did>
+            <container label="Roll [919483219456954106140]" type="reel">1</container>
+            <unitdate type="inclusive" normal="1864-04/1865">April 1864-1865</unitdate></did>
         </c02>
       </c01>
     </dsc>

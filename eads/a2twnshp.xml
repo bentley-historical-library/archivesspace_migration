@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Ann Arbor (Mich. : Township)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/4276">Ann Arbor (Mich. : Township)</corpname>
       </origination>
-      <unittitle encodinganalog="245">Ann Arbor Township Records <unitdate type="inclusive" encodinganalog="245$f" normal="1820/1996" certainty="approximate">1820s-1996</unitdate></unittitle>
-      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">0472 Cb 2; CB outsize</unitid>
+      <unittitle encodinganalog="245">Ann Arbor Township Records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1820/1996" certainty="approximate">1820s-1996</unitdate><unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">0472 Cb 2; CB outsize</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Township record books, 1845-1902; registers of births, 1906-1943; registers of deaths, 1897-1912; poll books, tally sheets, and statement of votes from polls within township; records relating to surveys, repairs, etc. of township roads; reports and compiled statistics pertaining to township schools; property assessment roll books; and other miscellaneous records.</abstract>
       <physdesc altrender="part">
@@ -91,167 +91,116 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n95065924">Ann Arbor (Mich. : Township)</geogname>
-        <subject source="lcsh" encodinganalog="650">Elections--Michigan--Ann Arbor (Township)</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n95065924">Ann Arbor (Mich. : Township)--Genealogy.</geogname>
-        <subject source="lcsh" encodinganalog="650">Registers of births, etc.--Michigan--Ann Arbor (Township)</subject>
-        <subject source="lcsh" encodinganalog="650">Roads--Michigan--Ann Arbor (Township)</subject>
-        <subject source="lcsh" encodinganalog="650">Schools--Michigan--Ann Arbor (Township)</subject>
-        <subject source="lcsh" encodinganalog="650">Taxation--Michigan--Ann Arbor (Township)</subject>
-        <geogname source="lcsh" encodinganalog="651">Washtenaw County (Mich.)</geogname>
+        <geogname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n95065924" ref="/subjects/755">Ann Arbor (Mich. : Township)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5646">Elections--Michigan--Ann Arbor (Township)</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/842">Ann Arbor (Mich. : Township)--Genealogy.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5647">Registers of births, etc.--Michigan--Ann Arbor (Township)</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5648">Roads--Michigan--Ann Arbor (Township)</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5649">Schools--Michigan--Ann Arbor (Township)</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5650">Taxation--Michigan--Ann Arbor (Township)</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/843">Washtenaw County (Mich.)</geogname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Township Record Books <unitdate type="inclusive" normal="1845/1902">1845-1902</unitdate></unittitle>
-        </did>
+          <unittitle>Township Record Books</unittitle><unitdate type="inclusive" normal="1845/1902">1845-1902</unitdate></did>
         <scopecontent>
           <p>Township Record Books includes minutes of annual and township board meetings. Also variously includes election results; motions and agreements; oaths of office; reports of Highway Commissioners' and minutes of the Board of Health.)</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7505884940595750866586112]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1845/1858">1845-1858</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2773244148409487]">1</container>
+            <unitdate type="inclusive" normal="1845/1858">1845-1858</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7505884940595750866586112]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1858/1889">1858-1889</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2773244148409487]">1</container>
+            <unitdate type="inclusive" normal="1858/1889">1858-1889</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7505884940595750866586112]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1889/1902">1889-1902</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2773244148409487]">1</container>
+            <unitdate type="inclusive" normal="1889/1902">1889-1902</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Registers of Births <unitdate type="inclusive" normal="1906/1943">1906-1943</unitdate></unittitle>
-        </did>
+          <unittitle>Registers of Births</unittitle><unitdate type="inclusive" normal="1906/1943">1906-1943</unitdate></did>
         <scopecontent>
           <p>Registers of Births records babies born in (or registered) in the Ann Arbor township. Information in each entry includes place and date of birth; the infants name, sex, birth order, and legitimacy; the father's and mother's name, residence, race, age, birthplace, and occupation; as well as a certification of the attending physician or midwife and the date of registration.)</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7505884940595750866586112]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1906/1914">1906-1914</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2773244148409487]">1</container>
+            <unitdate type="inclusive" normal="1906/1914">1906-1914</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7505884940595750866586112]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1914/1919">1914-1919</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2773244148409487]">1</container>
+            <unitdate type="inclusive" normal="1914/1919">1914-1919</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7505884940595750866586112]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1919/1924">1919-1924</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2773244148409487]">1</container>
+            <unitdate type="inclusive" normal="1919/1924">1919-1924</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7505884940595750866586112]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1925/1929">1925-1929</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2773244148409487]">1</container>
+            <unitdate type="inclusive" normal="1925/1929">1925-1929</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7505884940595750866586112]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1930/1943">1930-1943</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2773244148409487]">1</container>
+            <unitdate type="inclusive" normal="1930/1943">1930-1943</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Registers of Deaths <unitdate type="inclusive" normal="1897/1912">1897-1912</unitdate></unittitle>
-        </did>
+          <unittitle>Registers of Deaths</unittitle><unitdate type="inclusive" normal="1897/1912">1897-1912</unitdate></did>
         <scopecontent>
           <p>Registers of Deaths records deaths Ann Arbor township residents and other deaths that occurred in the township. Information includes place and date of death; the name of the deceased and often his sex, date of birth, age, marital status, age at marriage, number of children, birthplace, name of father, his birthplace, maiden name of mother, her birthplace, occupation of deceased and name of informant; as well as the cause of death, a certification of a physician or coroner, and the date of registration.)</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7505884940595750866586112]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1897/1900">1897-1900</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2773244148409487]">1</container>
+            <unitdate type="inclusive" normal="1897/1900">1897-1900</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7505884940595750866586112]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1900/1905">1900-1905</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2773244148409487]">1</container>
+            <unitdate type="inclusive" normal="1900/1905">1900-1905</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7505884940595750866586112]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1905/1909">1905-1909</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2773244148409487]">1</container>
+            <unitdate type="inclusive" normal="1905/1909">1905-1909</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7505884940595750866586112]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1909/1912">1909-1912</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2773244148409487]">1</container>
+            <unitdate type="inclusive" normal="1909/1912">1909-1912</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7505884940595750866586112]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1912/1919">1912-1919</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2773244148409487]">1</container>
+            <unitdate type="inclusive" normal="1912/1919">1912-1919</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7505884940595750866586112]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1919/1925">1919-1925</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2773244148409487]">1</container>
+            <unitdate type="inclusive" normal="1919/1925">1919-1925</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7505884940595750866586112]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1925/1932">1925-1932</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2773244148409487]">1</container>
+            <unitdate type="inclusive" normal="1925/1932">1925-1932</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7505884940595750866586112]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1932/1943">1932-1943</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2773244148409487]">1</container>
+            <unitdate type="inclusive" normal="1932/1943">1932-1943</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -267,54 +216,42 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [917624889681372442]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1892/1919">1892-1919</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [27302794489273410978]">2</container>
+              <unitdate type="inclusive" normal="1892/1919">1892-1919</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [40358514453239271]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1920/1938">1920-1938</unitdate>
-                <unitdate type="inclusive" normal="1941">1941</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [78992480986213221]">3</container>
+              <unitdate type="inclusive" normal="1920/1938">1920-1938</unitdate><unitdate type="inclusive" normal="1941">1941</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [66396588394242856580896]">4</container>
-            <unittitle>Poll lists <unitdate type="inclusive" normal="1830/1929" certainty="approximate">1830s-1920s</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [902138028491621737380]">4</container>
+            <unittitle>Poll lists</unittitle><unitdate type="inclusive" normal="1830/1929" certainty="approximate">1830s-1920s</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [66396588394242856580896]">4</container>
-            <unittitle>Voter Registration Book <unitdate type="inclusive" normal="1882/1901">1882-1901</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [902138028491621737380]">4</container>
+            <unittitle>Voter Registration Book</unittitle><unitdate type="inclusive" normal="1882/1901">1882-1901</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [66396588394242856580896]">4</container>
-            <unittitle>Oaths Of Office; Acceptances <unitdate type="inclusive" normal="1830/1889" certainty="approximate">1830s-1880s</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [902138028491621737380]">4</container>
+            <unittitle>Oaths Of Office; Acceptances</unittitle><unitdate type="inclusive" normal="1830/1889" certainty="approximate">1830s-1880s</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [66396588394242856580896]">4</container>
-            <unittitle>Official oaths <unitdate type="inclusive" normal="1883/1885">1883-1885</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [902138028491621737380]">4</container>
+            <unittitle>Official oaths</unittitle><unitdate type="inclusive" normal="1883/1885">1883-1885</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5013679664631164932]">5</container>
-            <unittitle>Official Bonds And Oaths Of Office <unitdate type="inclusive" normal="1908/1942">1908-1942 (scattered)</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [81857456924090578044]">5</container>
+            <unittitle>Official Bonds And Oaths Of Office</unittitle><unitdate type="inclusive" normal="1908/1942">1908-1942 (scattered)</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">12 volumes</extent>
               <physfacet>booklets</physfacet>
             </physdesc>
@@ -322,9 +259,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5013679664631164932]">5</container>
-            <unittitle>Election Returns; statement of votes <unitdate type="inclusive" normal="1870/1899" certainty="approximate">1870s-1890s</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [81857456924090578044]">5</container>
+            <unittitle>Election Returns; statement of votes</unittitle><unitdate type="inclusive" normal="1870/1899" certainty="approximate">1870s-1890s</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -335,59 +271,49 @@
           </odd>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5013679664631164932]">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1906/1910">1906-1910</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [81857456924090578044]">5</container>
+              <unitdate type="inclusive" normal="1906/1910">1906-1910</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5013679664631164932]">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1912">1912</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [81857456924090578044]">5</container>
+              <unitdate type="inclusive" normal="1912">1912</unitdate></did>
           </c03>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Highway Records <unitdate type="inclusive" normal="1820/1929" certainty="approximate">1820s-1920s</unitdate></unittitle>
-        </did>
+          <unittitle>Highway Records</unittitle><unitdate type="inclusive" normal="1820/1929" certainty="approximate">1820s-1920s</unitdate></did>
         <scopecontent>
           <p>Highway Records include proceedings of the Commissioners of Highways, descriptions of the highway districts, petitions and orders for road construction and repair, and road surveys.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5013679664631164932]">5</container>
-            <unittitle>Commissioners of Highways Record book <unitdate type="inclusive" normal="1842/1889">1842-1889</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [81857456924090578044]">5</container>
+            <unittitle>Commissioners of Highways Record book</unittitle><unitdate type="inclusive" normal="1842/1889">1842-1889</unitdate></did>
           <odd>
             <p>(contains descriptions of road districts)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5013679664631164932]">5</container>
-            <unittitle>Proceedings of Commissioners of Highways <unitdate type="inclusive" normal="1846/1877">1846-1877</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [81857456924090578044]">5</container>
+            <unittitle>Proceedings of Commissioners of Highways</unittitle><unitdate type="inclusive" normal="1846/1877">1846-1877</unitdate></did>
           <odd>
             <p>(includes minutes of meetings)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5013679664631164932]">5</container>
-            <unittitle>Mixed records <unitdate type="inclusive" normal="1820/1929" certainty="approximate">1820s-1920s</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [81857456924090578044]">5</container>
+            <unittitle>Mixed records</unittitle><unitdate type="inclusive" normal="1820/1929" certainty="approximate">1820s-1920s</unitdate></did>
           <odd>
             <p>(includes annual reports of the Commissioners of Highways, petitions and orders, road survey records; and road repair vouchers)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5013679664631164932]">5</container>
+            <container type="box" label="Box [81857456924090578044]">5</container>
             <unittitle>Record of roads</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 volumes</extent>
@@ -400,15 +326,14 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5013679664631164932]">5</container>
+            <container type="box" label="Box [81857456924090578044]">5</container>
             <unittitle>Miscellaneous</unittitle>
           </did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Treasurer's records <unitdate type="inclusive" normal="1830/1923" certainty="approximate">1830s-1923</unitdate></unittitle>
-        </did>
+          <unittitle>Treasurer's records</unittitle><unitdate type="inclusive" normal="1830/1923" certainty="approximate">1830s-1923</unitdate></did>
         <c02 level="file">
           <did>
             <unittitle>Account Books</unittitle>
@@ -418,46 +343,35 @@
           </scopecontent>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [12635604828116566051]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1850/1888">1850-1888</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [17726654454844509874030]">6</container>
+              <unitdate type="inclusive" normal="1850/1888">1850-1888</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [12635604828116566051]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1891/1900">1891-1900</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [17726654454844509874030]">6</container>
+              <unitdate type="inclusive" normal="1891/1900">1891-1900</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [65498640493199733688]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1901/1923">1901-1923</unitdate>
-              </unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [1823431004331737756448]">1</container>
+              <unitdate type="inclusive" normal="1901/1923">1901-1923</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [12635604828116566051]">6</container>
-            <unittitle>Audited account book <unitdate type="inclusive" normal="1837/1845">1837-1845</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [17726654454844509874030]">6</container>
+            <unittitle>Audited account book</unittitle><unitdate type="inclusive" normal="1837/1845">1837-1845</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [12635604828116566051]">6</container>
+            <container type="box" label="Box [17726654454844509874030]">6</container>
             <unittitle>Audited accounts</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [12635604828116566051]">6</container>
-            <unittitle>Journeyman's book <unitdate type="inclusive" normal="1830/1849" certainty="approximate">1830s-1840s</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [17726654454844509874030]">6</container>
+            <unittitle>Journeyman's book</unittitle><unitdate type="inclusive" normal="1830/1849" certainty="approximate">1830s-1840s</unitdate></did>
           <odd>
             <p>(purpose uncertain)</p>
           </odd>
@@ -465,37 +379,32 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>School Records <unitdate type="inclusive" normal="1840/1939" certainty="approximate">1840s-1930s</unitdate></unittitle>
-        </did>
+          <unittitle>School Records</unittitle><unitdate type="inclusive" normal="1840/1939" certainty="approximate">1840s-1930s</unitdate></did>
         <scopecontent>
           <p>The School Records series, 1840s-1930s, files of the Board of School Inspectors annual statistical reports of school districts 1890s-1920s and miscellaneous reports.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [970995983347788099021]">7</container>
-            <unittitle>Board of School Inspectors <unitdate type="inclusive" normal="1883/1890">1883-1890</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [170022137534468730130564]">7</container>
+            <unittitle>Board of School Inspectors</unittitle><unitdate type="inclusive" normal="1883/1890">1883-1890</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [970995983347788099021]">7</container>
-            <unittitle>Annual Statistical Report Of School Districts, ca. <unitdate type="inclusive" normal="1890/1929" certainty="approximate">1890s-1920s</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [170022137534468730130564]">7</container>
+            <unittitle>Annual Statistical Report Of School Districts, ca.</unittitle><unitdate type="inclusive" normal="1890/1929" certainty="approximate">1890s-1920s</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [970995983347788099021]">7</container>
-            <unittitle>Township Clerk's Annual Report Of School Districts, ca. <unitdate type="inclusive" normal="1910/1929" certainty="approximate">1910s-1920s</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [170022137534468730130564]">7</container>
+            <unittitle>Township Clerk's Annual Report Of School Districts, ca.</unittitle><unitdate type="inclusive" normal="1910/1929" certainty="approximate">1910s-1920s</unitdate></did>
           <odd>
             <p>(includes uniform annual statistics for each school district. Information includes student census; financial accounts; and number of graduates)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [66960058428157704276]">8</container>
-            <unittitle>Miscellaneous School District Records, circa <unitdate type="inclusive" normal="1840/1939" certainty="approximate">1840s-1930s</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [76855399437089257965]">8</container>
+            <unittitle>Miscellaneous School District Records, circa</unittitle><unitdate type="inclusive" normal="1840/1939" certainty="approximate">1840s-1930s</unitdate></did>
           <odd>
             <p>(includes school orders and vouchers; apportionments for school districts; school inspectors reports; school district directors reports; and school census reports.)</p>
           </odd>
@@ -503,95 +412,85 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Miscellaneous <unitdate type="inclusive" normal="1827/1929" certainty="approximate">1827-1920s</unitdate></unittitle>
-        </did>
+          <unittitle>Miscellaneous</unittitle><unitdate type="inclusive" normal="1827/1929" certainty="approximate">1827-1920s</unitdate></did>
         <scopecontent>
           <p>The Miscellaneous records series a registry of Marks and Estrays, 1827-1834 (brands used to mark cattle and sheep); a Record of Strays (stray livestock and the damage they caused), Chattle Mortgage records, 1830s-1920s; and an assortment of petitions, meeting notices, and grand jury lists.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [66960058428157704276]">8</container>
-            <unittitle>Marks And Estrays <unitdate type="inclusive" normal="1827/1834">1827-1834</unitdate>, <unitdate type="inclusive" normal="1844">1844</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [76855399437089257965]">8</container>
+            <unittitle>Marks And Estrays</unittitle><unitdate type="inclusive" normal="1827/1834">1827-1834</unitdate><unitdate type="inclusive" normal="1844">1844</unitdate></did>
           <odd>
             <p>(includes drawings of marks (brands) for sheep and the name of the township resident registering the mark)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [66960058428157704276]">8</container>
-            <unittitle>Township Record of Strays <unitdate type="inclusive" normal="1845/1894">1845-1894</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [76855399437089257965]">8</container>
+            <unittitle>Township Record of Strays</unittitle><unitdate type="inclusive" normal="1845/1894">1845-1894</unitdate></did>
           <odd>
             <p>(includes notarized accounts of damages or costs incurred by stray sheep and cows; includes slight board of health material at end of volume)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [66960058428157704276]">8</container>
-            <unittitle>Supervisors report of dogs in assessing district <unitdate type="inclusive" normal="1918">1918</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [76855399437089257965]">8</container>
+            <unittitle>Supervisors report of dogs in assessing district</unittitle><unitdate type="inclusive" normal="1918">1918</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [66960058428157704276]">8</container>
-            <unittitle>Methodist Episcopal Church miscellanea <unitdate type="inclusive" normal="1845">1845</unitdate>, <unitdate type="inclusive" normal="1852">1852</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [76855399437089257965]">8</container>
+            <unittitle>Methodist Episcopal Church miscellanea</unittitle><unitdate type="inclusive" normal="1845">1845</unitdate><unitdate type="inclusive" normal="1852">1852</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [66960058428157704276]">8</container>
-            <unittitle>Ann Arbor Peech Yellows Record <unitdate type="inclusive" normal="1891/1900">1891-1900</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [76855399437089257965]">8</container>
+            <unittitle>Ann Arbor Peech Yellows Record</unittitle><unitdate type="inclusive" normal="1891/1900">1891-1900</unitdate></did>
           <odd>
             <p>(includes a list of orchards examined and the percentage of trees affected by the disease)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [66960058428157704276]">8</container>
-            <unittitle>Sparrow Bounty Book <unitdate type="inclusive" normal="1909/1921">1909-1921</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [76855399437089257965]">8</container>
+            <unittitle>Sparrow Bounty Book</unittitle><unitdate type="inclusive" normal="1909/1921">1909-1921</unitdate></did>
           <odd>
             <p>(includes receipts for bounties paid on sparrows)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [66960058428157704276]">8</container>
-            <unittitle>Board of Health proceedings <unitdate type="inclusive" normal="1877/1889">1877-1889</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [76855399437089257965]">8</container>
+            <unittitle>Board of Health proceedings</unittitle><unitdate type="inclusive" normal="1877/1889">1877-1889</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [66960058428157704276]">8</container>
+            <container type="box" label="Box [76855399437089257965]">8</container>
             <unittitle>List of potential jurors??</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [725141754564711877190]">2</container>
-            <unittitle>Chattel Mortgages Book <unitdate type="inclusive" normal="1889">1889</unitdate></unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [1138174489669930395]">2</container>
+            <unittitle>Chattel Mortgages Book</unittitle><unitdate type="inclusive" normal="1889">1889</unitdate></did>
           <odd>
             <p>(Includes name of mortgagee and mortgagor and dates of the mortgage)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4244589577149589498703]">9</container>
-            <unittitle>Chattel Mortgages Records, circa <unitdate type="inclusive" normal="1830/1929" certainty="approximate">1830s-1920s</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [065474448057642879]">9</container>
+            <unittitle>Chattel Mortgages Records, circa</unittitle><unitdate type="inclusive" normal="1830/1929" certainty="approximate">1830s-1920s</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [98480184422971957666541]">10</container>
+            <container type="box" label="Box [9707294090861768609]">10</container>
             <unittitle>Various unprocessed records, including notices of meetings, sundry petitions, grand jury lists, contracts, etc.</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [641179848298199583610795]">11</container>
+            <container type="box" label="Box [5219668943795464743107]">11</container>
             <unittitle>Various unprocessed records, including notices of meetings, sundry petitions, grand jury lists, contracts, etc.</unittitle>
           </did>
           <odd>
@@ -601,8 +500,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Assessment Roll Books <unitdate type="inclusive" normal="1872/1996">1872-1996</unitdate></unittitle>
-          <physdesc altrender="whole">
+          <unittitle>Assessment Roll Books</unittitle><unitdate type="inclusive" normal="1872/1996">1872-1996</unitdate><physdesc altrender="whole">
             <extent altrender="materialtype spaceoccupied">98 volumes</extent>
           </physdesc>
         </did>
@@ -611,27 +509,18 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1872/1887">1872-1887</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="1872/1887">1872-1887</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">14 volumes</extent>
             </physdesc>
           </did>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1872/1887">1872-1887</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [3982742244047179221]">3</container>
+              <unitdate type="inclusive" normal="1872/1887">1872-1887</unitdate><container type="volume" label="Oversize Volume [632471948052710571661]">3</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1872/1887">1872-1887</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [7082015449199241388914]">4</container>
+              <unitdate type="inclusive" normal="1872/1887">1872-1887</unitdate><container type="volume" label="Oversize Volume [2042250487409426348]">4</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -639,10 +528,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1872/1887">1872-1887</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [58813593439814728898]">5</container>
+              <unitdate type="inclusive" normal="1872/1887">1872-1887</unitdate><container type="volume" label="Oversize Volume [93484451095349440815]">5</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -650,10 +536,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1872/1887">1872-1887</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [105895425989426223]">6</container>
+              <unitdate type="inclusive" normal="1872/1887">1872-1887</unitdate><container type="volume" label="Oversize Volume [3889164409168638732]">6</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -661,10 +544,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1872/1887">1872-1887</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [343247283491264234786]">7</container>
+              <unitdate type="inclusive" normal="1872/1887">1872-1887</unitdate><container type="volume" label="Oversize Volume [1293304710863536716]">7</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -672,10 +552,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1872/1887">1872-1887</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [28488775664494339317]">8</container>
+              <unitdate type="inclusive" normal="1872/1887">1872-1887</unitdate><container type="volume" label="Oversize Volume [6496084888973893]">8</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -683,10 +560,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1872/1887">1872-1887</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [9186414149378334078]">9</container>
+              <unitdate type="inclusive" normal="1872/1887">1872-1887</unitdate><container type="volume" label="Oversize Volume [383163634221808856]">9</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -694,10 +568,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1872/1887">1872-1887</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [89758377041978436258]">10</container>
+              <unitdate type="inclusive" normal="1872/1887">1872-1887</unitdate><container type="volume" label="Oversize Volume [578860405783362226517]">10</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -705,10 +576,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1872/1887">1872-1887</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [9893992794254096742]">11</container>
+              <unitdate type="inclusive" normal="1872/1887">1872-1887</unitdate><container type="volume" label="Oversize Volume [4223468286981053321]">11</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -716,10 +584,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1872/1887">1872-1887</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [373057474353102029209]">12</container>
+              <unitdate type="inclusive" normal="1872/1887">1872-1887</unitdate><container type="volume" label="Oversize Volume [079134121782228174]">12</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -727,10 +592,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1872/1887">1872-1887</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [6569845564649705]">13</container>
+              <unitdate type="inclusive" normal="1872/1887">1872-1887</unitdate><container type="volume" label="Oversize Volume [54960928846677711509]">13</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -738,10 +600,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1872/1887">1872-1887</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [60041766205427907602653]">14</container>
+              <unitdate type="inclusive" normal="1872/1887">1872-1887</unitdate><container type="volume" label="Oversize Volume [91418444588138320870]">14</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -749,10 +608,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1872/1887">1872-1887</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [4253504509646496697218]">15</container>
+              <unitdate type="inclusive" normal="1872/1887">1872-1887</unitdate><container type="volume" label="Oversize Volume [761929881488329680953]">15</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -760,10 +616,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1872/1887">1872-1887</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [07150864868824106373800]">16</container>
+              <unitdate type="inclusive" normal="1872/1887">1872-1887</unitdate><container type="volume" label="Oversize Volume [51662541582906568333]">16</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -772,27 +625,18 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">61 volumes</extent>
             </physdesc>
           </did>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [91682494841463757022]">17</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [320294514510891441353]">17</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [2972596415483728303821]">18</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [2794554096145725]">18</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -800,10 +644,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [425891814996966746086730]">19</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [6925283459899633054303]">19</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -811,10 +652,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [440294264299820942145]">20</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [977587476927157216]">20</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -822,10 +660,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [77423536751487905091569]">21</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [1286424799858679756]">21</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -833,10 +668,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [77915977242035583699023]">22</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [825757014898124228132]">22</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -844,10 +676,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [42015542870659832]">23</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [4770694414831181297962]">23</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -855,10 +684,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [02560556459977974379]">24</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [105691404849705227]">24</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -866,10 +692,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [51693096438104878144385]">25</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [803249145881767411]">25</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -877,10 +700,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [13393514708316953]">26</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [88625524424948571374]">26</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -888,10 +708,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [926184549815090885]">27</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [402635824049635621]">27</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -899,10 +716,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [75364330734577800223457]">28</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [9047889842188144866]">28</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -910,10 +724,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [611178144279877602779867]">29</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [2650437453149]">29</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -921,10 +732,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [440043424979206688]">30</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [813083757341889778472244033]">30</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -932,10 +740,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [92877484747189326]">31</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [66677075488112215827641]">31</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -943,10 +748,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [28387095545428494821599]">32</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [6505466187485794847]">32</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -954,10 +756,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [6325864411176]">33</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [34167297240897601124985]">33</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -965,10 +764,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [675517734892252585076]">34</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [90697145830689034]">34</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -976,10 +772,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [1572144734978397175740122]">35</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [532589345780558013]">35</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -987,10 +780,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [1118881004012949214236]">36</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [114631945249033480370]">36</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -998,10 +788,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [4788074591353805573]">37</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [1886694828497702373531]">37</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1009,10 +796,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [0973377644982693221793]">38</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [598547691546659072]">38</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1020,10 +804,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [738129147003785595781]">39</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [24115294217996068495]">39</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1031,10 +812,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [892439746899489405295]">40</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [1695244824547282740402]">40</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1042,10 +820,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [522780147187151413811]">41</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [22348864077455716712]">41</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1053,10 +828,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [995638492280286097647310]">42</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [94544294739085748132360]">42</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1064,10 +836,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [13567084778440425382]">43</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [432362447871298432336]">43</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1075,10 +844,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [15347855416512976]">44</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [930889194457843146943]">44</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1086,10 +852,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [330971472819362144026]">45</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [20105594726758506999]">45</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1097,10 +860,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [3594609641443618275116]">46</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [311891751482461700004]">46</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1108,10 +868,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [9213214254859919554154]">47</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [82376540909405]">47</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1119,10 +876,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [08917674409294090]">48</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [087162443940008427493]">48</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1130,10 +884,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [15645626437914441847]">49</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [4750690725574407877245735]">49</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1141,10 +892,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [076543448553612002397]">50</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [28483854759611541739]">50</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1152,10 +900,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [590617647082625193891]">51</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [47406499948476726059]">51</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1163,10 +908,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [3449584294150527296]">52</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [0845656512942979630618]">52</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1174,10 +916,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [063000171424468550]">53</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [4847902240743612922]">53</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1185,10 +924,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [5738787436986202147]">54</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [64327218452942673407315]">54</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1196,10 +932,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [94611469551591019]">55</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [65282577490330247327590]">55</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1207,10 +940,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [9211002280489084790]">56</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [160499024891235151078]">56</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1218,10 +948,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [8219916499018166938]">57</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [8718031154280077498518]">57</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1229,10 +956,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [5539609242838382093106]">58</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [9136352534080894319098]">58</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1240,10 +964,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [56541902469868268572]">59</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [36619527974254243751904]">59</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1251,10 +972,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [2521428474209228395]">60</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [778774798286515209]">60</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1262,10 +980,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [58544510118056370022]">61</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [90974446043929750241510]">61</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1273,10 +988,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [708753894440568213980]">62</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [4134344048140101567]">62</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1284,10 +996,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [28078892419476478131875]">63</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [0493000341399447412866]">63</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1295,10 +1004,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [39973364540913414258]">64</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [938676044901017818685]">64</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1306,10 +1012,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [2273027444913676178]">65</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [6158819842489889875083]">65</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1317,10 +1020,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [644083400075150599]">66</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [344116428405851102]">66</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1328,10 +1028,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [35924727117566]">67</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [9028987484723046145718]">67</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1339,10 +1036,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [643590411822773187936]">68</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [3929660694930291851784]">68</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1350,10 +1044,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [47048861640945965835441]">69</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [2599191354989806792247]">69</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1361,10 +1052,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [663569446135185687161]">70</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [064414934262109230]">70</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1372,10 +1060,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [5581405654997930665]">71</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [225075069439802310]">71</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1383,10 +1068,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [32661654108718218225]">72</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [97926480958324612]">72</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1394,10 +1076,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [4153244194483002775]">73</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [73066186547137621925859]">73</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1405,10 +1084,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [40238245747073249976]">74</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [5339338454922384948087]">74</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1416,10 +1092,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [48204828748029]">75</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [222217672348993297253974]">75</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1427,10 +1100,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [8677365364069830022264]">76</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [8541872957434906491707]">76</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1438,10 +1108,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [1114194372810988]">77</container>
+              <unitdate type="inclusive" normal="1900/1960">1900-1960</unitdate><container type="volume" label="Oversize Volume [047984461920689921]">77</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1450,27 +1117,18 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1962">1962</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="1962">1962</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 volumes</extent>
             </physdesc>
           </did>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1962">1962</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [51407045540505731]">78</container>
+              <unitdate type="inclusive" normal="1962">1962</unitdate><container type="volume" label="Oversize Volume [15980346523750088267]">78</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1962">1962</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [121523644984279845189]">79</container>
+              <unitdate type="inclusive" normal="1962">1962</unitdate><container type="volume" label="Oversize Volume [24283102948193004836191096]">79</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1479,59 +1137,38 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [03718260429726092906]">80</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1964">1964</unitdate>
-            </unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [38341548548461901035129]">80</container>
+            <unitdate type="inclusive" normal="1964">1964</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [7077940045299087402955082]">81</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1966">1966</unitdate>
-            </unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [1563122349330922753193]">81</container>
+            <unitdate type="inclusive" normal="1966">1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [4986776374998819171873]">82</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1968">1968</unitdate>
-            </unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [3235384105454281864809521238]">82</container>
+            <unitdate type="inclusive" normal="1968">1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [6118584929955697030]">83</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1970">1970</unitdate>
-            </unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [99386462604069839796772]">83</container>
+            <unitdate type="inclusive" normal="1970">1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1972">1972</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="1972">1972</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 volumes</extent>
             </physdesc>
           </did>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1972">1972</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [65993418649123635255]">84</container>
+              <unitdate type="inclusive" normal="1972">1972</unitdate><container type="volume" label="Oversize Volume [7032648682277167147419]">84</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1972">1972</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [394597472487477150821]">85</container>
+              <unitdate type="inclusive" normal="1972">1972</unitdate><container type="volume" label="Oversize Volume [0606459920837029]">85</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1540,35 +1177,23 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [4290528449192828822956]">86</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1974">1974</unitdate>
-            </unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [49257824196955141151]">86</container>
+            <unitdate type="inclusive" normal="1974">1974</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1976">1976</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="1976">1976</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 volumes</extent>
             </physdesc>
           </did>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1976">1976</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [8098883448644792]">87</container>
+              <unitdate type="inclusive" normal="1976">1976</unitdate><container type="volume" label="Oversize Volume [06184054686278]">87</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1976">1976</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [363966534358871061835917]">88</container>
+              <unitdate type="inclusive" normal="1976">1976</unitdate><container type="volume" label="Oversize Volume [873046215043990737216287]">88</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1577,27 +1202,18 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1978">1978</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="1978">1978</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 volumes</extent>
             </physdesc>
           </did>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1978">1978</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [1714139174427549997926]">89</container>
+              <unitdate type="inclusive" normal="1978">1978</unitdate><container type="volume" label="Oversize Volume [448484746238458159839]">89</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1978">1978</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [955811544469478898]">90</container>
+              <unitdate type="inclusive" normal="1978">1978</unitdate><container type="volume" label="Oversize Volume [1545422294634628106633027]">90</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1606,27 +1222,18 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1980">1980</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <unitdate type="inclusive" normal="1980">1980</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 volumes</extent>
             </physdesc>
           </did>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1980">1980</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [6991494559606450712]">91</container>
+              <unitdate type="inclusive" normal="1980">1980</unitdate><container type="volume" label="Oversize Volume [16512044095896527286]">91</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1980">1980</unitdate>
-              </unittitle>
-              <container type="volume" label="Oversize Volume [2265513542485306000371]">92</container>
+              <unitdate type="inclusive" normal="1980">1980</unitdate><container type="volume" label="Oversize Volume [59014941004984262237]">92</container>
             </did>
             <odd>
               <p>(continued)</p>
@@ -1635,67 +1242,43 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [29410965314725652039597]">93</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1982">1982</unitdate>
-            </unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [26604885464541993380]">93</container>
+            <unitdate type="inclusive" normal="1982">1982</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [4320954733556649]">94</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1984">1984</unitdate>
-            </unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [88538500248692297352]">94</container>
+            <unitdate type="inclusive" normal="1984">1984</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [182013349877850593301]">95</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1986">1986</unitdate>
-            </unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [378603047559767966493]">95</container>
+            <unitdate type="inclusive" normal="1986">1986</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [3754686445862126206341]">96</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1988">1988</unitdate>
-            </unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [79584826480433504578671]">96</container>
+            <unitdate type="inclusive" normal="1988">1988</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [7282941673786186]">97</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1990">1990</unitdate>
-            </unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [626899476972]">97</container>
+            <unitdate type="inclusive" normal="1990">1990</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [3796431414104453]">98</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1992">1992</unitdate>
-            </unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [965477624388302370]">98</container>
+            <unitdate type="inclusive" normal="1992">1992</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [611488344789122585407]">99</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1994">1994</unitdate>
-            </unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [10232755489087030231364]">99</container>
+            <unitdate type="inclusive" normal="1994">1994</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [134056341109937103]">100</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1996">1996</unitdate>
-            </unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [2009948441124536524]">100</container>
+            <unitdate type="inclusive" normal="1996">1996</unitdate></did>
         </c02>
       </c01>
     </dsc>

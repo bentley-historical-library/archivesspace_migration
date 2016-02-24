@@ -11,10 +11,19 @@ import uuid
 import getpass
 import time
 
-def post_digital_objects(ead_dir, digital_objects_dir, dspace_mets_dir, aspace_url, username, password):
+def post_digital_objects(ead_dir, digital_objects_dir, dspace_mets_dir, aspace_url, username, password,delete_csvs=False):
+
+    if not os.path.exists(digital_objects_dir):
+        os.makedirs(digital_objects_dir)
 
     posted_objects = join(digital_objects_dir, 'posted_digital_objects.csv')
     error_file = join(digital_objects_dir, 'digital_object_errors.txt')
+    skipped_items_file = join(digital_objects_dir, 'skipped_items.txt')
+
+    if delete_csvs:
+        for csvfile in [posted_objects, error_file, skipped_items_file]:
+            if os.path.exists(csvfile):
+                os.remove(csvfile)
 
     already_posted = []
 
@@ -40,6 +49,7 @@ def post_digital_objects(ead_dir, digital_objects_dir, dspace_mets_dir, aspace_u
      # Then, grab the uri from the posted digital object to set as the parent for each component and post those
 
     posted_dig_objs = {}
+    skipped_items = []
 
     for filename in os.listdir(ead_dir):
         print "Posting digital objects from {0}".format(filename)
@@ -61,89 +71,82 @@ def post_digital_objects(ead_dir, digital_objects_dir, dspace_mets_dir, aspace_u
             if href.startswith('http://hdl.handle.net/2027.42') and href not in already_posted:
                 handlepath = urlparse.urlparse(href).path
                 the_id = handlepath.split('/')[-1]
-                if the_id + '.xml' not in os.listdir(dspace_mets_dir):
-                    print "Downloading", href
-                    dspace_mets = "http://deepblue.lib.umich.edu/metadata/handle" + handlepath + "/mets.xml"
-                    page = urllib2.urlopen(dspace_mets)
-                    dspace_metstree = etree.parse(page)
+                if the_id + '.xml' in os.listdir(dspace_mets_dir):
+                    print "Parsing DSpace METS for", href
+                    metstree = etree.parse(join(dspace_mets_dir, the_id + '.xml'))
+                    ns = {'mets':'http://www.loc.gov/METS/','dim': 'http://www.dspace.org/xmlns/dspace/dim','xlink':'http://www.w3.org/TR/xlink/'}
+                    XLINK = 'http://www.w3.org/TR/xlink/'
 
-                    with open(join(dspace_mets_dir,the_id+'.xml'),'w') as mets_out:
-                        mets_out.write(etree.tostring(dspace_metstree))
-
-                    time.sleep(15)
-
-
-                print "Parsing DSpace METS for", href
-                metstree = etree.parse(join(dspace_mets_dir, the_id + '.xml'))
-                ns = {'mets':'http://www.loc.gov/METS/','dim': 'http://www.dspace.org/xmlns/dspace/dim','xlink':'http://www.w3.org/TR/xlink/'}
-                XLINK = 'http://www.w3.org/TR/xlink/'
-
-                daodesc = dao.xpath('./daodesc/p')
-                if daodesc:
-                    digital_object_note = re.sub(r'^\[|\]$','',daodesc[0].text)
-                else:
-                    digital_object_note = False
-                if did.xpath('./unittitle'):
-                    component_title = etree.tostring(did.xpath('./unittitle')[0])
-                else:
-                    component_title = 'OOPS THERES NO TITLE HERE'
-                digital_object_title = re.sub(r'<(.*?)>','',component_title)
-
-                digital_object = {}
-                digital_object_components = []
-                digital_object['title'] = digital_object_title.strip()
-                digital_object['digital_object_id'] = str(uuid.uuid4())
-                digital_object['publish'] = True
-                digital_object['file_versions'] = [{'file_uri':href,'xlink_show_attribute':show,'xlink_actuate_attribute':xlink_actuate}]
-                if digital_object_note:
-                    digital_object['notes'] = [{'type':'note','content':[digital_object_note],'jsonmodel_type':'note_digital_object'}]
-                digital_object_post = requests.post(aspace_url+'/repositories/2/digital_objects',headers=headers,data=json.dumps(digital_object)).json()
-
-                print digital_object_post
-
-                if 'error' in digital_object_post:
-                    with open(error_file,'a') as f:
-                        f.write(digital_object_post)
-
-                digital_object_uri = digital_object_post['uri']
-
-                with open(posted_objects,'ab') as csvfile:
-                    writer = csv.writer(csvfile)
-                    writer.writerow([href,digital_object_uri])
-
-                posted_dig_objs[href] = digital_object_uri
-
-                fileGrp = metstree.xpath("//mets:fileGrp[@USE='CONTENT']",namespaces=ns)[0]
-                bitstreams = fileGrp.xpath('.//mets:file',namespaces=ns)
-                position = 0
-                for bitstream in bitstreams:
-                    FLocat = bitstream.xpath('./mets:FLocat',namespaces=ns)[0]
-                    # This was originally being added to each file_version as file_size_bytes, but the max integer allowed is 2,147,483,647
-                    # Still storing this for now in case we want to turn it into something else (like an extent) later
-                    component_size = bitstream.attrib['SIZE']
-                    if '{%s}label' % (XLINK) in FLocat.attrib:
-                        component_label = FLocat.attrib['{%s}label' % (XLINK)].strip()[:255]
+                    daodesc = dao.xpath('./daodesc/p')
+                    if daodesc:
+                        digital_object_note = re.sub(r'^\[|\]$','',daodesc[0].text)
                     else:
-                        component_label = None
-                    component_href = 'http://deepblue.lib.umich.edu' + FLocat.attrib['{%s}href' % (XLINK)] 
-                    component_title = FLocat.attrib['{%s}title' % (XLINK)].strip()
-                    digital_object_component = {
-                        'digital_object':{'ref':digital_object_uri},
-                        'title':component_title,
-                        'label':component_label,
-                        'position':position,
-                        'file_versions':[{'file_uri':component_href}],
-                        }
-                    digital_object_components.append(digital_object_component)
-                    position += 1
+                        digital_object_note = False
+                    if did.xpath('./unittitle'):
+                        component_title = etree.tostring(did.xpath('./unittitle')[0])
+                    else:
+                        component_title = 'OOPS THERES NO TITLE HERE'
+                    digital_object_title = re.sub(r'<(.*?)>','',component_title)
 
-                for component in digital_object_components:
-                    digital_object_component_post = requests.post(aspace_url+'/repositories/2/digital_object_components',headers=headers,data=json.dumps(component)).json()
-                    print digital_object_component_post
+                    digital_object = {}
+                    digital_object_components = []
+                    digital_object['title'] = digital_object_title.strip()
+                    digital_object['digital_object_id'] = str(uuid.uuid4())
+                    digital_object['publish'] = True
+                    digital_object['file_versions'] = [{'file_uri':href,'xlink_show_attribute':show,'xlink_actuate_attribute':xlink_actuate}]
+                    if digital_object_note:
+                        digital_object['notes'] = [{'type':'note','content':[digital_object_note],'jsonmodel_type':'note_digital_object'}]
+                    digital_object_post = requests.post(aspace_url+'/repositories/2/digital_objects',headers=headers,data=json.dumps(digital_object)).json()
 
-                    if 'error' in digital_object_component_post:
+                    print digital_object_post
+
+                    if 'error' in digital_object_post:
                         with open(error_file,'a') as f:
-                            f.write(digital_object_component_post)
+                            f.write(digital_object_post)
+
+                    digital_object_uri = digital_object_post['uri']
+
+                    with open(posted_objects,'ab') as csvfile:
+                        writer = csv.writer(csvfile)
+                        writer.writerow([href,digital_object_uri])
+
+                    posted_dig_objs[href] = digital_object_uri
+
+                    fileGrp = metstree.xpath("//mets:fileGrp[@USE='CONTENT']",namespaces=ns)[0]
+                    bitstreams = fileGrp.xpath('.//mets:file',namespaces=ns)
+                    position = 0
+                    for bitstream in bitstreams:
+                        FLocat = bitstream.xpath('./mets:FLocat',namespaces=ns)[0]
+                        # This was originally being added to each file_version as file_size_bytes, but the max integer allowed is 2,147,483,647
+                        # Still storing this for now in case we want to turn it into something else (like an extent) later
+                        component_size = bitstream.attrib['SIZE']
+                        if '{%s}label' % (XLINK) in FLocat.attrib:
+                            component_label = FLocat.attrib['{%s}label' % (XLINK)].strip()[:255]
+                        else:
+                            component_label = None
+                        component_href = 'http://deepblue.lib.umich.edu' + FLocat.attrib['{%s}href' % (XLINK)] 
+                        component_title = FLocat.attrib['{%s}title' % (XLINK)].strip()
+                        digital_object_component = {
+                            'digital_object':{'ref':digital_object_uri},
+                            'title':component_title,
+                            'label':component_label,
+                            'position':position,
+                            'file_versions':[{'file_uri':component_href}],
+                            }
+                        digital_object_components.append(digital_object_component)
+                        position += 1
+
+                    for component in digital_object_components:
+                        digital_object_component_post = requests.post(aspace_url+'/repositories/2/digital_object_components',headers=headers,data=json.dumps(component)).json()
+                        print digital_object_component_post
+
+                        if 'error' in digital_object_component_post:
+                            with open(error_file,'a') as f:
+                                f.write(digital_object_component_post)
+                else:
+                    skipped_items.append(href)
+                    with open(skipped_items_file,'a') as f:
+                        f.write(href+'\n')
 
             elif href not in already_posted:
 

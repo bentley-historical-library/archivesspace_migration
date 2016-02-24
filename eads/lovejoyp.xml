@@ -35,7 +35,8 @@
         <item>Converted to EAD version 1.0 using WORD 6 macro and some hand tagging.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,10 +47,9 @@
   <archdesc level="collection" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Lovejoy, Parrish Storrs, 1884-1992</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/2649">Lovejoy, Parrish Storrs, 1884-1992</persname>
       </origination>
-      <unittitle encodinganalog="245">P.S. Lovejoy Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1941">1918-1941</unitdate></unittitle>
-      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">851738 Aa 2</unitid>
+      <unittitle encodinganalog="245">P.S. Lovejoy Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1918/1941">1918-1941</unitdate><unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">851738 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <abstract>Professor of forestry in the School of Natural Resources at the University of Michigan, active in conservation movement, first head of the Michigan Game Division and a popular writer on conservation topics; papers consist of correspondence (including Aldo Leopold and Gifford Pinchot and leading conservationists), reports, writings and photographs.</abstract>
       <physdesc altrender="whole">
@@ -94,32 +94,32 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Agriculture--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Conservation of natural resources--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Forests and forestry--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n89651495">Michigan Farm Bureau.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81003782">University of Michigan. School of Natural Resources.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6038">Agriculture--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6195">Conservation of natural resources--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6737">Forests and forestry--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n89651495" ref="/agents/corporate_entities/2679">Michigan Farm Bureau.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81003782" ref="/agents/corporate_entities/1961">University of Michigan. School of Natural Resources.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50049888">Leopold, Aldo, 1886-1948.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n78097059">Pinchot, Gifford, 1865-1946.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50049888" ref="/agents/people/6837">Leopold, Aldo, 1886-1948.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n78097059" ref="/agents/people/5671">Pinchot, Gifford, 1865-1946.</persname>
       </controlaccess>
       <controlaccess>
         <head>Visual Materials - Subjects:</head>
-        <subject source="lctgm" encodinganalog="650">Agriculture--Michigan.</subject>
-        <subject source="lctgm" encodinganalog="650">Alfalfa.</subject>
-        <subject source="lctgm" encodinganalog="650">Farming.</subject>
-        <subject source="lctgm" encodinganalog="650">Farms--Michigan.</subject>
-        <subject source="lctgm" encodinganalog="650">Fences.</subject>
-        <subject source="lctgm" encodinganalog="650">Forests.</subject>
-        <subject source="lctgm" encodinganalog="650">Orchards.</subject>
-        <subject source="lcsh" encodinganalog="650">Raspberries.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3780">Agriculture--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4709">Alfalfa.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3658">Farming.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4710">Farms--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4426">Fences.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4183">Forests.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4711">Orchards.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8870">Raspberries.</subject>
       </controlaccess>
       <controlaccess>
         <head>Form and Genre:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -132,47 +132,34 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9631457818658490117]">1</container>
-            <unittitle>Volume containing copies of correspondence exchanged between PSL and Aldo Leopold <unitdate type="inclusive" normal="1933/1942">1933-1942</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0452829533448487599743]">1</container>
+            <unittitle>Volume containing copies of correspondence exchanged between PSL and Aldo Leopold</unittitle><unitdate type="inclusive" normal="1933/1942">1933-1942</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Box [9631457818658490117]" type="box">1</container>
-            <unittitle>
-              <unitdate normal="1918/1924">1918-1924</unitdate>
-            </unittitle>
-          </did>
+            <container label="Box [0452829533448487599743]" type="box">1</container>
+            <unitdate normal="1918/1924">1918-1924</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9631457818658490117]">1</container>
-            <unittitle>
-              <unitdate normal="1931/1937">1931-1937</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [0452829533448487599743]">1</container>
+            <unitdate normal="1931/1937">1931-1937</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">27 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Box [64061368148304941742226]" type="box">2</container>
-            <unittitle>
-              <unitdate normal="1937/1938">1937-1938</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container label="Box [2551085474688110696364]" type="box">2</container>
+            <unitdate normal="1937/1938">1937-1938</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">13 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [64061368148304941742226]">2</container>
-            <unittitle>
-              <unitdate normal="1933/1938">1933-1938</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [2551085474688110696364]">2</container>
+            <unitdate normal="1933/1938">1933-1938</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 folders</extent>
             </physdesc>
           </did>
@@ -182,7 +169,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [64061368148304941742226]">2</container>
+            <container type="box" label="Box [2551085474688110696364]">2</container>
             <unittitle>1939</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">10 folders</extent>
@@ -191,49 +178,40 @@
         </c02>
         <c02 level="file">
           <did>
-            <container label="Box [955522443932245552]" type="box">3</container>
-            <unittitle>
-              <unitdate normal="1939/1941">1939-1941</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container label="Box [476992342688297288671]" type="box">3</container>
+            <unitdate normal="1939/1941">1939-1941</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">31 folders</extent>
             </physdesc>
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [955522443932245552]">3</container>
-              <unittitle><geogname>Isle Royale</geogname> (Davenport manuscript), <unitdate normal="1940">1940</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [476992342688297288671]">3</container>
+              <unittitle><geogname>Isle Royale</geogname> (Davenport manuscript)</unittitle><unitdate normal="1940">1940</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [955522443932245552]">3</container>
-              <unittitle>Bulletin production bottlenecks <unitdate normal="1941">1941</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [476992342688297288671]">3</container>
+              <unittitle>Bulletin production bottlenecks</unittitle><unitdate normal="1941">1941</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [955522443932245552]">3</container>
-              <unittitle>Leopold, Aldo <unitdate normal="1941">1941</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [476992342688297288671]">3</container>
+              <unittitle>Leopold, Aldo</unittitle><unitdate normal="1941">1941</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [955522443932245552]">3</container>
-              <unittitle>Pittman-Robertson Report <unitdate normal="1941">1941</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [476992342688297288671]">3</container>
+              <unittitle>Pittman-Robertson Report</unittitle><unitdate normal="1941">1941</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [955522443932245552]">3</container>
-              <unittitle>Schoenmann, L.R. <unitdate normal="1941">1941</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [476992342688297288671]">3</container>
+              <unittitle>Schoenmann, L.R.</unittitle><unitdate normal="1941">1941</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [955522443932245552]">3</container>
-              <unittitle>Waterloo <unitdate normal="1941">1941</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [476992342688297288671]">3</container>
+              <unittitle>Waterloo</unittitle><unitdate normal="1941">1941</unitdate></did>
           </c03>
         </c02>
       </c01>
@@ -246,17 +224,14 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1921">1921</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1921">1921</unitdate></did>
           <c03 level="file">
             <did>
               <unittitle>"Farmer and Forest Fight,"</unittitle>
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [502278842642402593052]">4</container>
+                <container type="box" label="Box [41852546863669786]">4</container>
                 <unittitle>Correspondence between Lovejoy and editor of Country Gentleman</unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">6 folders</extent>
@@ -265,7 +240,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [502278842642402593052]">4</container>
+                <container type="box" label="Box [41852546863669786]">4</container>
                 <unittitle>Correspondence re. article, May-December</unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">3 folders</extent>
@@ -274,7 +249,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [502278842642402593052]">4</container>
+                <container type="box" label="Box [41852546863669786]">4</container>
                 <unittitle>Miscellaneous</unittitle>
               </did>
             </c04>
@@ -285,7 +260,7 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [502278842642402593052]">4</container>
+                <container type="box" label="Box [41852546863669786]">4</container>
                 <unittitle>Drafts</unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -294,7 +269,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [502278842642402593052]">4</container>
+                <container type="box" label="Box [41852546863669786]">4</container>
                 <unittitle>Correspondence between Lovejoy and editor of Country Gentleman</unittitle>
               </did>
             </c04>
@@ -304,32 +279,25 @@
               </did>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [502278842642402593052]">4</container>
-                  <unittitle>
-                    <unitdate type="inclusive">undated</unitdate>
-                    <unitdate type="inclusive" normal="1921-12/1922-02">December 1921-February 1922</unitdate>
-                  </unittitle>
-                </did>
+                  <container type="box" label="Box [41852546863669786]">4</container>
+                  <unitdate type="inclusive">undated</unitdate><unitdate type="inclusive" normal="1921-12/1922-02">December 1921-February 1922</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [502278842642402593052]">4</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1922-03/1923-03">March 1922-March 1923</unitdate>
-                  </unittitle>
-                </did>
+                  <container type="box" label="Box [41852546863669786]">4</container>
+                  <unitdate type="inclusive" normal="1922-03/1923-03">March 1922-March 1923</unitdate></did>
               </c05>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [502278842642402593052]">4</container>
+              <container type="box" label="Box [41852546863669786]">4</container>
               <unittitle>"Splitting the Department"</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [502278842642402593052]">4</container>
+              <container type="box" label="Box [41852546863669786]">4</container>
               <unittitle>Building series</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">4 folders</extent>
@@ -338,7 +306,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [502278842642402593052]">4</container>
+              <container type="box" label="Box [41852546863669786]">4</container>
               <unittitle>American Association of Nurserymen article</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -347,7 +315,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [502278842642402593052]">4</container>
+              <container type="box" label="Box [41852546863669786]">4</container>
               <unittitle>Michigan State Farm Bureau article</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
@@ -357,13 +325,10 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate normal="1922">1922</unitdate>
-            </unittitle>
-          </did>
+            <unitdate normal="1922">1922</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [502278842642402593052]">4</container>
+              <container type="box" label="Box [41852546863669786]">4</container>
               <unittitle>"Woodlot Taxation"</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -372,7 +337,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [502278842642402593052]">4</container>
+              <container type="box" label="Box [41852546863669786]">4</container>
               <unittitle>"State Land Policy in Michigan"</unittitle>
             </did>
             <odd>
@@ -381,25 +346,25 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [502278842642402593052]">4</container>
+              <container type="box" label="Box [41852546863669786]">4</container>
               <unittitle>Editorials in Country Gentleman</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [502278842642402593052]">4</container>
+              <container type="box" label="Box [41852546863669786]">4</container>
               <unittitle>"State Fair Affairs"</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [502278842642402593052]">4</container>
+              <container type="box" label="Box [41852546863669786]">4</container>
               <unittitle>"Present and Future Soil Surveys"</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [502278842642402593052]">4</container>
+              <container type="box" label="Box [41852546863669786]">4</container>
               <unittitle>American Association of Nurserymen article</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
@@ -408,19 +373,19 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [98387234619099289188975]">5</container>
+              <container type="box" label="Box [9821494118726582280010]">5</container>
               <unittitle>Chicago Produce Market article</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [98387234619099289188975]">5</container>
+              <container type="box" label="Box [9821494118726582280010]">5</container>
               <unittitle>"Forestry in Michigan"</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [98387234619099289188975]">5</container>
+              <container type="box" label="Box [9821494118726582280010]">5</container>
               <unittitle>"Ecology and Economics of Forest Fires in Michigan"</unittitle>
             </did>
             <odd>
@@ -429,19 +394,19 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [98387234619099289188975]">5</container>
+              <container type="box" label="Box [9821494118726582280010]">5</container>
               <unittitle>"Good Seed and Tares"</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [98387234619099289188975]">5</container>
+              <container type="box" label="Box [9821494118726582280010]">5</container>
               <unittitle>"Taxes and County Business"</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [98387234619099289188975]">5</container>
+              <container type="box" label="Box [9821494118726582280010]">5</container>
               <unittitle>Land series</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
@@ -450,26 +415,23 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [98387234619099289188975]">5</container>
+              <container type="box" label="Box [9821494118726582280010]">5</container>
               <unittitle>"A Bad Leak in Orcharding"</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [98387234619099289188975]">5</container>
+              <container type="box" label="Box [9821494118726582280010]">5</container>
               <unittitle>New York Produce Markets series</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate normal="1923">1923</unitdate>
-            </unittitle>
-          </did>
+            <unitdate normal="1923">1923</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [98387234619099289188975]">5</container>
+              <container type="box" label="Box [9821494118726582280010]">5</container>
               <unittitle>"Soil as Compared with Land Classification"</unittitle>
             </did>
             <odd>
@@ -478,19 +440,19 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [98387234619099289188975]">5</container>
+              <container type="box" label="Box [9821494118726582280010]">5</container>
               <unittitle>"What Junked Old Hort Mill"</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [98387234619099289188975]">5</container>
+              <container type="box" label="Box [9821494118726582280010]">5</container>
               <unittitle>"Is Uncle Sam Rich Enough to Give Us All a Farm?"</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [98387234619099289188975]">5</container>
+              <container type="box" label="Box [9821494118726582280010]">5</container>
               <unittitle>Raspberry disease article</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -499,7 +461,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [98387234619099289188975]">5</container>
+              <container type="box" label="Box [9821494118726582280010]">5</container>
               <unittitle>Alfalfa campaign article</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -508,13 +470,13 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [98387234619099289188975]">5</container>
+              <container type="box" label="Box [9821494118726582280010]">5</container>
               <unittitle>"Why I'm Sore at Farmers"</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [98387234619099289188975]">5</container>
+              <container type="box" label="Box [9821494118726582280010]">5</container>
               <unittitle>"The Status of Lake State Forest Affairs"</unittitle>
             </did>
             <odd>
@@ -523,7 +485,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [98387234619099289188975]">5</container>
+              <container type="box" label="Box [9821494118726582280010]">5</container>
               <unittitle>Seed series</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
@@ -532,13 +494,13 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [98387234619099289188975]">5</container>
+              <container type="box" label="Box [9821494118726582280010]">5</container>
               <unittitle>"In the Name of Development"</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [98387234619099289188975]">5</container>
+              <container type="box" label="Box [9821494118726582280010]">5</container>
               <unittitle>"Farm and Forest Development in the Cutover"</unittitle>
             </did>
             <odd>
@@ -548,25 +510,22 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate normal="1924">1924</unitdate>
-            </unittitle>
-          </did>
+            <unitdate normal="1924">1924</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [98387234619099289188975]">5</container>
+              <container type="box" label="Box [9821494118726582280010]">5</container>
               <unittitle>"Land Grab" editorial</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [98387234619099289188975]">5</container>
+              <container type="box" label="Box [9821494118726582280010]">5</container>
               <unittitle>Soil article</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [98387234619099289188975]">5</container>
+              <container type="box" label="Box [9821494118726582280010]">5</container>
               <unittitle>"Progress of the Land Economic Survey"</unittitle>
             </did>
             <odd>
@@ -575,13 +534,13 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [98387234619099289188975]">5</container>
+              <container type="box" label="Box [9821494118726582280010]">5</container>
               <unittitle>"Hijacking Among the Idle Lands"</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [98387234619099289188975]">5</container>
+              <container type="box" label="Box [9821494118726582280010]">5</container>
               <unittitle>Fence post article</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -595,7 +554,7 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [98387234619099289188975]">5</container>
+              <container type="box" label="Box [9821494118726582280010]">5</container>
               <unittitle>"Study of Spread of Forest Cover into Wild Land Openings"</unittitle>
             </did>
           </c03>
@@ -610,13 +569,13 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container label="Box [98387234619099289188975]" type="box">5</container>
+            <container label="Box [9821494118726582280010]" type="box">5</container>
             <unittitle>History of Game Management (one chapter)</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [98387234619099289188975]">5</container>
+            <container type="box" label="Box [9821494118726582280010]">5</container>
             <unittitle>Game Protection Fund statistics</unittitle>
           </did>
         </c02>
@@ -632,7 +591,7 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container label="Box [98387234619099289188975]" type="box">5</container>
+            <container label="Box [9821494118726582280010]" type="box">5</container>
             <unittitle>Photographs</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">7 envelopes</extent>

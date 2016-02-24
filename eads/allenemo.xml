@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,10 +35,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Allen, Emmet O. (Emmet Oliver), 1846-1933.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/2095">Allen, Emmet O. (Emmet Oliver), 1846-1933.</persname>
       </origination>
-      <unittitle encodinganalog="245">Emmet O. Allen papers <unitdate type="inclusive" encodinganalog="245$f" normal="1867/1931">1867-1931</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85588 Aa 2</unitid>
+      <unittitle encodinganalog="245">Emmet O. Allen papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1867/1931">1867-1931</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85588 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Emmet O. and Elizabeth Howell Allen family of Bridgewater Township, Washtenaw County, Michigan. Correspondence concerning daily activities and pioneer life in Kansas and Clinton, Michigan.</abstract>
       <physdesc altrender="whole">
@@ -74,21 +74,21 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651">Bridgewater (Mich. : Township)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85189101">Clinton (Lenawee County, Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Farm life--Michigan--Washtenaw County.</subject>
-        <geogname source="lcsh" encodinganalog="651">Kansas.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Washtenaw County (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Women in agriculture--Michigan--Washtenaw County.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/912">Bridgewater (Mich. : Township)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85189101" ref="/subjects/913">Clinton (Lenawee County, Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5828">Farm life--Michigan--Washtenaw County.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/914">Kansas.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/843">Washtenaw County (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5829">Women in agriculture--Michigan--Washtenaw County.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Allen, Elizabeth Howell.</persname>
-        <persname source="lcnaf" encodinganalog="700">Linden, Judson.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/2987">Allen, Elizabeth Howell.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/2712">Linden, Judson.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -101,9 +101,8 @@
         </odd>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [467270948605937373]">1</container>
-            <unittitle>Letters to his brother Oliver Allen of East Bethany, Genesee County, New York <unitdate type="inclusive" normal="1841/1857">1841-1857</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [99206178874277791864060]">1</container>
+            <unittitle>Letters to his brother Oliver Allen of East Bethany, Genesee County, New York</unittitle><unitdate type="inclusive" normal="1841/1857">1841-1857</unitdate></did>
           <odd>
             <p>(the letters are written from Tecumseh and Clinton)</p>
           </odd>
@@ -115,18 +114,16 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [467270948605937373]">1</container>
-            <unittitle>Reminiscences, letters, and essays <unitdate type="inclusive" normal="1867/1875">1867-1875</unitdate></unittitle>
-            <physdesc>
+            <container type="box" label="Box [99206178874277791864060]">1</container>
+            <unittitle>Reminiscences, letters, and essays</unittitle><unitdate type="inclusive" normal="1867/1875">1867-1875</unitdate><physdesc>
               <physfacet>photocopy</physfacet>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [467270948605937373]">1</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1860/1931">1860-1931</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [99206178874277791864060]">1</container>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1860/1931">1860-1931</unitdate><unitdate type="inclusive">undated</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">12 folders</extent>
             </physdesc>
           </did>
@@ -136,9 +133,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [467270948605937373]">1</container>
-            <unittitle>Letters from friend Judson Linden <unitdate type="inclusive" normal="1872/1888">1872-1888</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [99206178874277791864060]">1</container>
+            <unittitle>Letters from friend Judson Linden</unittitle><unitdate type="inclusive" normal="1872/1888">1872-1888</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
               <physfacet>includes some transcriptions of letters</physfacet>
             </physdesc>
@@ -154,9 +150,8 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [467270948605937373]">1</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1868/1936">1868-1936</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [99206178874277791864060]">1</container>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1868/1936">1868-1936</unitdate><unitdate type="inclusive">undated</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">11 folders</extent>
             </physdesc>
           </did>
@@ -166,9 +161,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [467270948605937373]">1</container>
-            <unittitle>Essays <unitdate type="inclusive" normal="1869/1900">1869-1900</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [99206178874277791864060]">1</container>
+            <unittitle>Essays</unittitle><unitdate type="inclusive" normal="1869/1900">1869-1900</unitdate><unitdate type="inclusive">undated</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -183,9 +177,8 @@
         </odd>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [467270948605937373]">1</container>
-            <unittitle>Letter received <unitdate type="inclusive" normal="1846/1898">1846-1898</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [99206178874277791864060]">1</container>
+            <unittitle>Letter received</unittitle><unitdate type="inclusive" normal="1846/1898">1846-1898</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -196,7 +189,7 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [467270948605937373]">1</container>
+            <container type="box" label="Box [99206178874277791864060]">1</container>
             <unittitle>Portraits of family members</unittitle>
           </did>
         </c02>

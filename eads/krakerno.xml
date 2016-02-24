@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Kraker, Norma F.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/1785">Kraker, Norma F.</persname>
       </origination>
-      <unittitle encodinganalog="245">Norma F. Kraker Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1961/1972">1961-1972</unitdate></unittitle>
-      <abstract>Ann Arbor, Michigan, civic activist involved with housing and civil rights issues and organizations. Subject files relating to her work with the Ann Arbor Citizens Committee for Fair Housing Legislation and its successor organization, the Ann Arbor Committee for Housing Legislation; also files relating to the Ann Arbor Housing Commission, the Ann Arbor Human Relations Commission, and the Off-Campus Housing Bureau of the University of Michigan Office of Student Community Relations.</abstract>
+      <unittitle encodinganalog="245">Norma F. Kraker Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1961/1972">1961-1972</unitdate><abstract>Ann Arbor, Michigan, civic activist involved with housing and civil rights issues and organizations. Subject files relating to her work with the Ann Arbor Citizens Committee for Fair Housing Legislation and its successor organization, the Ann Arbor Committee for Housing Legislation; also files relating to the Ann Arbor Housing Commission, the Ann Arbor Human Relations Commission, and the Off-Campus Housing Bureau of the University of Michigan Office of Student Community Relations.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">89358 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -78,17 +78,17 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">African Americans--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Committee for Housing Legislation (Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor (Mich.). Housing Commission.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor (Mich.). Human Relations Commission.</corpname>
-        <subject source="lcsh" encodinganalog="650">Civil rights--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Discrimination in housing--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Social reformers--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Student housing.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Off-Campus Housing Bureau.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Office of Student Community Relations.</corpname>
-        <subject source="lcsh" encodinganalog="650">Women social reformers--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5763">African Americans--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3521">Ann Arbor Committee for Housing Legislation (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5783">Ann Arbor (Mich.). Housing Commission.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4571">Ann Arbor (Mich.). Human Relations Commission.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6578">Civil rights--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5681">Discrimination in housing--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8682">Social reformers--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Student housing.<term type="topical">Student housing.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1303">University of Michigan. Off-Campus Housing Bureau.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1085">University of Michigan. Office of Student Community Relations.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8681">Women social reformers--Michigan--Ann Arbor.</subject>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -104,15 +104,13 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [12152240369957735]">1</container>
-            <unittitle>Minutes <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [24501629240389150226801]">1</container>
+            <unittitle>Minutes</unittitle><unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [12152240369957735]">1</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [24501629240389150226801]">1</container>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -124,51 +122,45 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [12152240369957735]">1</container>
-            <unittitle>Minutes <unitdate type="inclusive" normal="1968/1972">1968-1972</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [24501629240389150226801]">1</container>
+            <unittitle>Minutes</unittitle><unitdate type="inclusive" normal="1968/1972">1968-1972</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [12152240369957735]">1</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1968/1972">1968-1972</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [24501629240389150226801]">1</container>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1968/1972">1968-1972</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [12152240369957735]">1</container>
-            <unittitle>Contracts <unitdate type="inclusive" normal="1968/1972">1968-1972</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [24501629240389150226801]">1</container>
+            <unittitle>Contracts</unittitle><unitdate type="inclusive" normal="1968/1972">1968-1972</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [12152240369957735]">1</container>
-            <unittitle>Financial Statements <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate>, <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [24501629240389150226801]">1</container>
+            <unittitle>Financial Statements</unittitle><unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate><unitdate type="inclusive" normal="1972">1972</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [12152240369957735]">1</container>
-            <unittitle>Miller Manor Publications <unitdate type="inclusive" normal="1972" certainty="approximate">circa 1972</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [24501629240389150226801]">1</container>
+            <unittitle>Miller Manor Publications</unittitle><unitdate type="inclusive" normal="1972" certainty="approximate">circa 1972</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [12152240369957735]">1</container>
-            <unittitle>Public Housing Sites Papers <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [24501629240389150226801]">1</container>
+            <unittitle>Public Housing Sites Papers</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -180,25 +172,23 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [12152240369957735]">1</container>
-            <unittitle>Minutes <unitdate type="inclusive" normal="1962/1967">1962-1967</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [24501629240389150226801]">1</container>
+            <unittitle>Minutes</unittitle><unitdate type="inclusive" normal="1962/1967">1962-1967</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">6 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [12152240369957735]">1</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1962/1967">1962-1967</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [24501629240389150226801]">1</container>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1962/1967">1962-1967</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">6 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [12152240369957735]">1</container>
+            <container type="box" label="Box [24501629240389150226801]">1</container>
             <unittitle>"The Population Distribution of Racial Minorities in Ann Arbor, Michigan, 1950-1960"</unittitle>
           </did>
         </c02>
@@ -209,9 +199,8 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [12152240369957735]">1</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [24501629240389150226801]">1</container>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -223,9 +212,8 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [12152240369957735]">1</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1963/1971">1963-1971</unitdate>, <unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [24501629240389150226801]">1</container>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1963/1971">1963-1971</unitdate><unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>

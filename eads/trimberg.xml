@@ -31,7 +31,8 @@
         <item>Original encoding in EAD2002 using manual tagging.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,10 +43,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Trimberger, Frank P.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/5029">Trimberger, Frank P.</persname>
       </origination>
-      <unittitle encodinganalog="245">Frank P. Trimberger photograph collection <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1919" certainty="approximate">circa 1918-1919</unitdate></unittitle>
-      <abstract>Scanned copy of photographs of Frank P. Trimberger, who served as a private in Company B, 310th Engineers, during the American intervention at Archangel, Russia, the "Polar Bear Expedition."</abstract>
+      <unittitle encodinganalog="245">Frank P. Trimberger photograph collection</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1918/1919" certainty="approximate">circa 1918-1919</unitdate><abstract>Scanned copy of photographs of Frank P. Trimberger, who served as a private in Company B, 310th Engineers, during the American intervention at Archangel, Russia, the "Polar Bear Expedition."</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">2011072 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -85,16 +85,16 @@
       </p>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Trimberger, Frank P.</persname>
-        <geogname source="lcnaf" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Engineer Regiment, 310th. Company B.</corpname>
-        <subject source="local" encodinganalog="690">Polar Bear Expedition.</subject>
-        <subject source="lctgm" encodinganalog="650">Soldiers--American.</subject>
-        <subject source="lctgm" encodinganalog="650">Barracks--American.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5029">Trimberger, Frank P.</persname>
+        <geogname source="lcnaf" encodinganalog="651" ref="/subjects/756">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2209">United States. Army. Engineer Regiment, 310th. Company B.</corpname>
+        <subject source="local" encodinganalog="690" ref="/subjects/3516">Polar Bear Expedition.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3672">Soldiers--American.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5450">Barracks--American.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -104,12 +104,12 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [812645485434154]">1</container>
+            <container type="folder" label="Folder [88099643424588136848168]">1</container>
             <unittitle>Photographs</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 digital files</extent>
             </physdesc>
-            <dao show="new" actuate="onRequest" href="trimberger0001">
+            <dao show="new" actuate="onRequest" href="trimberger0001" ref="/repositories/2/digital_objects/15848">
               <daodesc>
                 <p>[view items]</p>
               </daodesc>

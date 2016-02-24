@@ -41,7 +41,8 @@ def get_subjects(ead_dir, subjects_agents_dir):
                 for term in terms:
                     row.append(term)
                 subject_data.append(row)
-    with open(unique_subject_csv,'ab') as csvfile:
+
+    with open(unique_subject_csv,'wb') as csvfile:
         writer = csv.writer(csvfile)
         writer.writerows(subject_data)
 
@@ -50,7 +51,7 @@ def get_subjects(ead_dir, subjects_agents_dir):
         row = [subject_text, text_to_authfilenumber[subject_text]]
         authfilenumber_data.append(row)
 
-    with open(text_to_authfilenumber_csv,'ab') as csvfile:
+    with open(text_to_authfilenumber_csv,'wb') as csvfile:
         writer = csv.writer(csvfile)
         writer.writerows(authfilenumber_data)
 

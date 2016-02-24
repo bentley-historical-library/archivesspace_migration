@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,10 +47,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">McKenzie, Walter I. (Walter Ingles), 1888-1962.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/6688">McKenzie, Walter I. (Walter Ingles), 1888-1962.</persname>
       </origination>
-      <unittitle encodinganalog="245">Walter I. McKenzie Polar Bear Expedition papers <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1945">1918-1945</unitdate></unittitle>
-      <abstract>Detroit attorney who served in 1918 and 1919 with the 339th U.S. Infantry during the American intervention in Archangel, Russia, the "Polar Bear Expedition." Selections from McKenzie's papers including correspondence, photographs, and other items relating to service in Polar Bear Expedition to northern Russia.</abstract>
+      <unittitle encodinganalog="245">Walter I. McKenzie Polar Bear Expedition papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1918/1945">1918-1945</unitdate><abstract>Detroit attorney who served in 1918 and 1919 with the 339th U.S. Infantry during the American intervention in Archangel, Russia, the "Polar Bear Expedition." Selections from McKenzie's papers including correspondence, photographs, and other items relating to service in Polar Bear Expedition to northern Russia.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">85307</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="part">
@@ -90,23 +90,23 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">McKenzie, Walter I. (Walter Ingles), 1888-1962.</persname>
-        <subject source="local" encodinganalog="690">Polar Bear Expedition.</subject>
-        <geogname source="lcsh" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6688">McKenzie, Walter I. (Walter Ingles), 1888-1962.</persname>
+        <subject source="local" encodinganalog="690" ref="/subjects/3516">Polar Bear Expedition.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/879">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5715">World War, 1914-1918.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539">Detroit (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600">McKenzie, Walter I. (Walter Ingles), 1888-1962.</persname>
-        <subject source="lctgm" encodinganalog="650">Military art and science.</subject>
-        <subject source="local" encodinganalog="690">Polar Bear Expedition.</subject>
-        <geogname source="lcsh" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81094908">Veterans of Foreign Wars of the United States.</corpname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539" ref="/subjects/929">Detroit (Mich.)</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6688">McKenzie, Walter I. (Walter Ingles), 1888-1962.</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3771">Military art and science.</subject>
+        <subject source="local" encodinganalog="690" ref="/subjects/3516">Polar Bear Expedition.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/879">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81094908" ref="/agents/corporate_entities/1078">Veterans of Foreign Wars of the United States.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -116,7 +116,7 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [920180647444698252896030715]">1</container>
+            <container type="folder" label="Folder [10975114918618729923]">1</container>
             <unittitle>Introductory Materials</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 items</extent>
@@ -125,9 +125,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [45802637546997489187232]">2</container>
-            <unittitle>Diary of experiences in Russia <unitdate type="inclusive" normal="1918/1919">1918-1919</unitdate></unittitle>
-            <physdesc altrender="part">
+            <container type="folder" label="Folder [6408523174618592034888]">2</container>
+            <unittitle>Diary of experiences in Russia</unittitle><unitdate type="inclusive" normal="1918/1919">1918-1919</unitdate><physdesc altrender="part">
               <extent altrender="materialtype spaceoccupied">1 items</extent>
             </physdesc>
             <physdesc altrender="part">
@@ -137,77 +136,55 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1918-01/1919-07">January 1918-July 1919</unitdate></unittitle>
-          </did>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1918-01/1919-07">January 1918-July 1919</unitdate></did>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1918-01/1918-06">January-June 1918</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1918-01/1918-06">January-June 1918</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">7 items</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="folder" label="Folder [3291397421920659612584]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1918-07">July 1918</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="folder" label="Folder [321616898430242892845]">4</container>
+              <unitdate type="inclusive" normal="1918-07">July 1918</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">30 items</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="folder" label="Folder [8215896471896421522]">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1918-08/1918-09">August-September, 1918</unitdate>
-              </unittitle>
-            </did>
+              <container type="folder" label="Folder [1359052040946932199]">5</container>
+              <unitdate type="inclusive" normal="1918-08/1918-09">August-September, 1918</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="folder" label="Folder [4474524947954624650622]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1918-10/1918-12">October-December 1918</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="folder" label="Folder [38116156400925693628650]">6</container>
+              <unitdate type="inclusive" normal="1918-10/1918-12">October-December 1918</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">31 items</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="folder" label="Folder [851515484417894217271120]">7</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1919-01/1919-03">January-March, 1919</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="folder" label="Folder [303277621347838501780776]">7</container>
+              <unitdate type="inclusive" normal="1919-01/1919-03">January-March, 1919</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">19 items</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="folder" label="Folder [7830624247633776]">8</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1919-04/1919-05">April-May, 1919</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="folder" label="Folder [29120852314308461436583]">8</container>
+              <unitdate type="inclusive" normal="1919-04/1919-05">April-May, 1919</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">20 items</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="folder" label="Folder [468102444149494175129]">9</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1919-06/1919-07">June-July, 1919</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="folder" label="Folder [63602469738835308308]">9</container>
+              <unitdate type="inclusive" normal="1919-06/1919-07">June-July, 1919</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">15 items</extent>
               </physdesc>
             </did>
@@ -215,7 +192,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [10514480142148335729965]">10</container>
+            <container type="folder" label="Folder [71166047406901389764]">10</container>
             <unittitle>Polar Bear Association Reunion Programs</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">6 items</extent>
@@ -224,7 +201,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [04116840494881978486870]">11</container>
+            <container type="folder" label="Folder [1042222844419873623866]">11</container>
             <unittitle>Printed Material</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">7 items</extent>
@@ -243,7 +220,7 @@
           </odd>
           <c03 level="file">
             <did>
-              <container type="folder" label="Folder [88986224898394329]">12</container>
+              <container type="folder" label="Folder [7635151443583879163033]">12</container>
               <unittitle>[Bentley Library material]</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">22 items</extent>
@@ -252,7 +229,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="folder" label="Folder [54719704849755635658]">13</container>
+              <container type="folder" label="Folder [231997194770731693]">13</container>
               <unittitle>[Loaned Material]</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">17 items</extent>
@@ -262,7 +239,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [8591060139421445063564]">14</container>
+            <container type="folder" label="Folder [65846730949294695134]">14</container>
             <unittitle>Newspaper clippings</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">6 items</extent>
@@ -271,7 +248,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [911594408005854]">15</container>
+            <container type="folder" label="Folder [65230027495072254219]">15</container>
             <unittitle>Photocopies of other clippings</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">41 items</extent>
@@ -280,7 +257,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [6307316874751818109]">16</container>
+            <container type="folder" label="Folder [176260724457801698686]">16</container>
             <unittitle>Post-cards of Russia</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">33 items</extent>
@@ -293,7 +270,7 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="folder" label="Folder [819077814744836897064]">17</container>
+              <container type="folder" label="Folder [03870742492949051]">17</container>
               <unittitle>Portraits of McKenzie, Draftees Marching, and Miscellaneous</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">7 items</extent>
@@ -302,7 +279,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="folder" label="Folder [11169542145871834]">18</container>
+              <container type="folder" label="Folder [82860709814949460264]">18</container>
               <unittitle>Reunion group photos and Miscellaneous</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">7 items</extent>
@@ -311,7 +288,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="folder" label="Folder [6196110941745147321219]">19</container>
+              <container type="folder" label="Folder [085528344493183465254]">19</container>
               <unittitle>Souvenir Folders: Life in the U.S. Army, Camp Mills, and New York City, Night Views</unittitle>
             </did>
             <odd>
@@ -320,9 +297,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="folder" label="Oversize Folder [8175485794883968301410]">1</container>
-              <unittitle>Group photos, 339th Infantry, Camp Devens <unitdate type="inclusive" normal="1919-07-14">July 14, 1919</unitdate> and Reunion photos, <unitdate type="inclusive" normal="1921/1945">1921-1945</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="folder" label="Oversize Folder [8373491649991456731]">1</container>
+              <unittitle>Group photos, 339th Infantry, Camp Devens July 14, 1919 and Reunion photos, 1921-1945</unittitle><unitdate type="inclusive" normal="1919-07-14">July 14, 1919</unitdate><unitdate type="inclusive" normal="1921/1945">1921-1945</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">6 items</extent>
               </physdesc>
             </did>

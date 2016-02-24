@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,10 +43,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Ramsey, Leon, 1897-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/8856">Ramsey, Leon, 1897-</persname>
       </origination>
-      <unittitle encodinganalog="245">Leon Ramsey papers <unitdate type="inclusive" encodinganalog="245$f" normal="1917/1919">1917-1919</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="1960/1969" certainty="approximate">1960s</unitdate></unittitle>
-      <abstract>Soldier from Armada, Mich., member of Headquarters Company, 339th U.S. Infantry who served in the Allied intervention in Russia, 1918-1920, the "Polar Bear Expedition." Collection includes correspondence describing his experiences in the army during training at Camp Custer, Mich., and during his service in Russia; also miscellanea, photographs, and a paper based on Ramsey's correspondence, probably written by John O. Ramsey.</abstract>
+      <unittitle encodinganalog="245">Leon Ramsey papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1917/1919">1917-1919</unitdate><unitdate type="inclusive" encodinganalog="245$f" normal="1960/1969" certainty="approximate">1960s</unitdate><abstract>Soldier from Armada, Mich., member of Headquarters Company, 339th U.S. Infantry who served in the Allied intervention in Russia, 1918-1920, the "Polar Bear Expedition." Collection includes correspondence describing his experiences in the army during training at Camp Custer, Mich., and during his service in Russia; also miscellanea, photographs, and a paper based on Ramsey's correspondence, probably written by John O. Ramsey.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">9526 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -79,15 +79,15 @@
       </p>
       <controlaccess>
         <head>Subjects</head>
-        <persname source="lcnaf" encodinganalog="600">Ramsey, Leon, 1897-</persname>
-        <geogname source="lcsh" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n94064669">Fort Custer (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
-        <subject source="local" encodinganalog="690">Polar Bear Expedition.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/8856">Ramsey, Leon, 1897-</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/879">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n94064669" ref="/subjects/901">Fort Custer (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5715">World War, 1914-1918.</subject>
+        <subject source="local" encodinganalog="690" ref="/subjects/3516">Polar Bear Expedition.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -97,66 +97,48 @@
         </did>
         <c02 level="file">
           <did>
-            <container label="Folder [0325298264898350026787]" type="folder">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1917-09/1917-12">September-December 1917</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container label="Folder [303341121130620]" type="folder">1</container>
+            <unitdate type="inclusive" normal="1917-09/1917-12">September-December 1917</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">17 items</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Folder [28314656457588901]" type="folder">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1918-01/1918-04">January-April 1918</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container label="Folder [369505189490045574215406]" type="folder">2</container>
+            <unitdate type="inclusive" normal="1918-01/1918-04">January-April 1918</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">18 items</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Folder [18392643739583]" type="folder">3</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1918-05/1918-08">May-August 1918</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container label="Folder [48277940879556324283]" type="folder">3</container>
+            <unitdate type="inclusive" normal="1918-05/1918-08">May-August 1918</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">18 items</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Folder [280076640180577]" type="folder">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1918-09/1918-12">September-December 1918</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container label="Folder [166945154728764321909]" type="folder">4</container>
+            <unitdate type="inclusive" normal="1918-09/1918-12">September-December 1918</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">13 items</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Folder [004643818640381]" type="folder">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1919-01/1919-04">January-April 1919</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container label="Folder [026955407695401094]" type="folder">5</container>
+            <unitdate type="inclusive" normal="1919-01/1919-04">January-April 1919</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">16 items</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Folder [48298147340852729772507]" type="folder">6</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1919-05/1919-12">May-December 1919</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container label="Folder [39897266541454300954]" type="folder">6</container>
+            <unitdate type="inclusive" normal="1919-05/1919-12">May-December 1919</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">6 items</extent>
             </physdesc>
           </did>
@@ -168,7 +150,7 @@
         </did>
         <c02 level="file">
           <did>
-            <container label="Folder [6572131740837303]" type="folder">7</container>
+            <container label="Folder [514874760027311112]" type="folder">7</container>
             <unittitle>Miscellanea</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">17 items</extent>
@@ -177,7 +159,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container label="Folder [31242454757150442632]" type="folder">8</container>
+            <container label="Folder [2024165984820181055123]" type="folder">8</container>
             <unittitle>Service record</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">7 items</extent>
@@ -186,9 +168,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container label="Folder [0775225246729048401454]" type="folder">10</container>
-            <unittitle>Paper, by <persname normal="Ramsey, John O.">John O. Ramsey?</persname>, <unitdate type="inclusive" normal="1960/1969" certainty="approximate">1960s</unitdate></unittitle>
-            <physdesc altrender="part">
+            <container label="Folder [9417824915172306526]" type="folder">10</container>
+            <unittitle>Paper, by <persname normal="Ramsey, John O.">John O. Ramsey?</persname></unittitle><unitdate type="inclusive" normal="1960/1969" certainty="approximate">1960s</unitdate><physdesc altrender="part">
               <extent altrender="materialtype spaceoccupied">1 items</extent>
             </physdesc>
             <physdesc altrender="part">
@@ -206,7 +187,7 @@
         </did>
         <c02 level="file">
           <did>
-            <container label="Folder [283691684187689433524737]" type="folder">9</container>
+            <container label="Folder [85497941449716678537]" type="folder">9</container>
             <unittitle>Photographs and postcards</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">6 items</extent>

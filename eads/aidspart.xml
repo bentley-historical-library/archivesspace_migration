@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">AIDS Partnership Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/1864">AIDS Partnership Michigan.</corpname>
       </origination>
-      <unittitle encodinganalog="245">AIDS Partnership Michigan Records <unitdate type="inclusive" encodinganalog="245$f" normal="1983/2005">1983-2005</unitdate></unittitle>
-      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">0560 Bj 2</unitid>
+      <unittitle encodinganalog="245">AIDS Partnership Michigan Records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1983/2005">1983-2005</unitdate><unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">0560 Bj 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>AIDS Partnership Michigan is a Detroit-based organization that provides education about HIV/AIDS and also provides services for those affected by HIV. The organization was formed in 1996 through a merger between Wellness Networks, Inc. (founded 1983) and AIDS Care Connection (founded 1989). The record group is comprised mainly of board meeting minutes of Wellness Networks, Inc., but also included are annual reports, financial reports and educational pamphlets of AIDS Partnership Michigan and Wellness Networks, Inc.</abstract>
       <physdesc altrender="whole">
@@ -80,16 +80,16 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">AIDS Partnership Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">AIDS Care Connection.</corpname>
-        <subject source="lcsh" encodinganalog="650">AIDS (Disease)--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">AIDS (Disease)--Patients--Services for.</subject>
-        <subject source="lcsh" encodinganalog="650">HIV-positive persons--Services for.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no91004755">Wellness Networks (Organization)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1864">AIDS Partnership Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1186">AIDS Care Connection.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5769">AIDS (Disease)--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5770">AIDS (Disease)--Patients--Services for.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5771">HIV-positive persons--Services for.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no91004755" ref="/agents/corporate_entities/5354">Wellness Networks (Organization)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/no91004755">Wellness Networks (Organization)</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/no91004755" ref="/agents/corporate_entities/5354">Wellness Networks (Organization)</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -106,29 +106,23 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0417453805491025855665668]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1983/1986-05">1983-May 1986</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [487296447848385728]">1</container>
+              <unitdate type="inclusive" normal="1983/1986-05">1983-May 1986</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">16 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33969847088753395]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1986/1988">June 1986-1988</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [4819523434916186437]">2</container>
+              <unitdate type="inclusive" normal="1986/1988">June 1986-1988</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">15 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1132420489430853427435]">3</container>
+              <container type="box" label="Box [361684541649897065]">3</container>
               <unittitle>1989-March 1996</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">12 folders</extent>
@@ -138,15 +132,13 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1132420489430853427435]">3</container>
-            <unittitle>Educational Pamphlets <unitdate type="inclusive" normal="1991">1991</unitdate>, <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [361684541649897065]">3</container>
+            <unittitle>Educational Pamphlets</unittitle><unitdate type="inclusive" normal="1991">1991</unitdate><unitdate type="inclusive" normal="1994">1994</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1132420489430853427435]">3</container>
-            <unittitle>Financial Reports <unitdate type="inclusive" normal="1991/1995">1991-1995</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [361684541649897065]">3</container>
+            <unittitle>Financial Reports</unittitle><unitdate type="inclusive" normal="1991/1995">1991-1995</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -158,48 +150,43 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1132420489430853427435]">3</container>
-            <unittitle>Annual Reports <unitdate type="inclusive" normal="1997/2003">1997-2003</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [361684541649897065]">3</container>
+            <unittitle>Annual Reports</unittitle><unitdate type="inclusive" normal="1997/2003">1997-2003</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1132420489430853427435]">3</container>
+            <container type="box" label="Box [361684541649897065]">3</container>
             <unittitle>Board and Committee Meeting Minutes, April 1996-June 1997</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1132420489430853427435]">3</container>
+            <container type="box" label="Box [361684541649897065]">3</container>
             <unittitle>Educational Advertisements and Pamphlets</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1132420489430853427435]">3</container>
-            <unittitle>Financial Reports <unitdate type="inclusive" normal="1996/2004">1996-2004</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [361684541649897065]">3</container>
+            <unittitle>Financial Reports</unittitle><unitdate type="inclusive" normal="1996/2004">1996-2004</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1132420489430853427435]">3</container>
-            <unittitle>Fundraising Gala Programs <unitdate type="inclusive" normal="2000/2004">2000-2004</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [361684541649897065]">3</container>
+            <unittitle>Fundraising Gala Programs</unittitle><unitdate type="inclusive" normal="2000/2004">2000-2004</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1132420489430853427435]">3</container>
-            <unittitle>Strategic Plans <unitdate type="inclusive" normal="1999/2005">1999-2005</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [361684541649897065]">3</container>
+            <unittitle>Strategic Plans</unittitle><unitdate type="inclusive" normal="1999/2005">1999-2005</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1132420489430853427435]">3</container>
-            <unittitle>25th Anniversary Gala <unitdate type="inclusive" normal="2008">2008</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [361684541649897065]">3</container>
+            <unittitle>25th Anniversary Gala</unittitle><unitdate type="inclusive" normal="2008">2008</unitdate></did>
           <odd>
             <p>(includes history)</p>
           </odd>

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Grand Rapids Kindergarten Training School.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/402">Grand Rapids Kindergarten Training School.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Grand Rapids Kindergarten Training School records <unitdate type="inclusive" encodinganalog="245$f" normal="1891/1919">1891-1919</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851349 Bi 2</unitid>
+      <unittitle encodinganalog="245">Grand Rapids Kindergarten Training School records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1891/1919">1891-1919</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851349 Bi 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Articles of incorporation and minutes; student registers and alumni rosters; performance records of students; student and teacher's notebooks, mostly those of Clara Wheeler; patterns and other teaching devices; and financial records.</abstract>
       <physdesc altrender="whole">
@@ -78,18 +78,18 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Education--Michigan--Grand Rapids.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79133151">Grand Rapids (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Kindergarten--Michigan--Grand Rapids.</subject>
-        <subject source="lcsh" encodinganalog="650">Kindergarten teachers--Michigan--Grand Rapids.</subject>
-        <subject source="lcsh" encodinganalog="650">Women teachers--Michigan--Grand Rapids.</subject>
-        <subject source="lcsh" encodinganalog="650">Teachers--Michigan--Grand Rapids.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Grand Rapids Kindergarten Training School.</corpname>
-        <persname source="lcnaf" encodinganalog="700">Wheeler, Clara Marian, 1861-1946.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7057">Education--Michigan--Grand Rapids.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79133151" ref="/subjects/1098">Grand Rapids (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8076">Kindergarten--Michigan--Grand Rapids.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8077">Kindergarten teachers--Michigan--Grand Rapids.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7061">Women teachers--Michigan--Grand Rapids.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7060">Teachers--Michigan--Grand Rapids.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/402">Grand Rapids Kindergarten Training School.</corpname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/5256">Wheeler, Clara Marian, 1861-1946.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -99,15 +99,14 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [682143429353917]">1</container>
+            <container type="box" label="Box [9633334494984603991]">1</container>
             <unittitle>Articles of incorporation</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [682143429353917]">1</container>
-            <unittitle>Minutes <unitdate type="inclusive" normal="1892/1916">1892-1916</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [9633334494984603991]">1</container>
+            <unittitle>Minutes</unittitle><unitdate type="inclusive" normal="1892/1916">1892-1916</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 volumes</extent>
             </physdesc>
           </did>
@@ -119,15 +118,13 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [682143429353917]">1</container>
-            <unittitle>Notebook of clippings and background information <unitdate type="inclusive" normal="1890/1899" certainty="approximate">1890s</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9633334494984603991]">1</container>
+            <unittitle>Notebook of clippings and background information</unittitle><unitdate type="inclusive" normal="1890/1899" certainty="approximate">1890s</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [682143429353917]">1</container>
-            <unittitle>Scrapbooks / <genreform normal="Photographs">Photograph</genreform> albums detailing the history of the association and of the training school, <unitdate type="inclusive" normal="1893/1919">1893-1919</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [9633334494984603991]">1</container>
+            <unittitle>Scrapbooks / <genreform normal="Photographs">Photograph</genreform> albums detailing the history of the association and of the training school</unittitle><unitdate type="inclusive" normal="1893/1919">1893-1919</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 volumes</extent>
             </physdesc>
           </did>
@@ -139,61 +136,61 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0235422814415924029068]">2</container>
+            <container type="box" label="Box [59676634504771184688]">2</container>
             <unittitle>Registers of marks received by students</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [783593140897239508]">3</container>
+            <container type="box" label="Box [8885317486972748]">3</container>
             <unittitle>Registers of marks received by students</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [783593140897239508]">3</container>
+            <container type="box" label="Box [8885317486972748]">3</container>
             <unittitle>Alumni registers</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [38365484643630]">4</container>
+            <container type="box" label="Box [1987822049828222549]">4</container>
             <unittitle>Financial records</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [567724703939752]">5</container>
+            <container type="box" label="Box [930905764405066431550]">5</container>
             <unittitle>Record of certificates issued</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [567724703939752]">5</container>
+            <container type="box" label="Box [930905764405066431550]">5</container>
             <unittitle>Guest registers</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [567724703939752]">5</container>
+            <container type="box" label="Box [930905764405066431550]">5</container>
             <unittitle>Library record book</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [567724703939752]">5</container>
+            <container type="box" label="Box [930905764405066431550]">5</container>
             <unittitle>Record of personal property</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [567724703939752]">5</container>
+            <container type="box" label="Box [930905764405066431550]">5</container>
             <unittitle>Examples of projects</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [033937482497416235434]">6</container>
+            <container type="box" label="Box [886995614868832907]">6</container>
             <unittitle>Miscellaneous notebooks</unittitle>
           </did>
         </c02>

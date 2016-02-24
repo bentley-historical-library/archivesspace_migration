@@ -38,7 +38,8 @@
         <item>Converted to EAD version 1.0 using WORD 6 macro and some hand tagging.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -49,10 +50,9 @@
   <archdesc level="collection" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Hampton, Will E., 1864-1959.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/6429">Hampton, Will E., 1864-1959.</persname>
       </origination>
-      <unittitle encodinganalog="245">Will E. Hampton papers [microform] <unitdate type="inclusive" encodinganalog="245$g" normal="1839/1959">1839-1959</unitdate></unittitle>
-      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">851396 Aa 2</unitid>
+      <unittitle encodinganalog="245">Will E. Hampton papers [microform]</unittitle><unitdate type="inclusive" encodinganalog="245$g" normal="1839/1959">1839-1959</unitdate><unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">851396 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <abstract>Mayor of Charlevoix, Michigan, editor and publisher of the <title render="italic">Charlevoix Courier</title> 1890-1920, secretary of the state lodge of the Knights of Pythias; correspondence and miscellaneous paper relating to the Knights of Pythias, and Civil War reminiscences and letters of his father, Carlos Hampton, surgeon with the Michigan 4th Infantry and his mother's account of her civil war experiences in Hunt County, Texas.</abstract>
       <physdesc altrender="whole">
@@ -100,27 +100,27 @@
       </p>
       <controlaccess>
         <head>Subject Terms</head>
-        <persname source="lcnaf" encodinganalog="600">Hampton, Will E., 1864-1959.</persname>
-        <persname source="lcnaf" encodinganalog="600">Hampton, Carlos D.</persname>
-        <persname source="lcnaf" encodinganalog="600">Hampton, Corneia C.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80014436">Knights of Pythias.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Michigan Regiment, 4th (1862-1866)</corpname>
-        <subject source="lcsh" encodinganalog="650">Indians of North America.</subject>
-        <subject source="lcsh" encodinganalog="650">Physicians--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Women--History.</subject>
-        <geogname source="lcsh" encodinganalog="651">Charlevoix (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83187817">Harbor Springs (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Texas.</geogname>
-        <subject encodinganalog="651" source="lcsh">United States--History--Civil War, 1861-1865--Medical care.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6429">Hampton, Will E., 1864-1959.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5246">Hampton, Carlos D.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1145">Hampton, Corneia C.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80014436" ref="/agents/corporate_entities/336">Knights of Pythias.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/773">United States. Army. Michigan Regiment, 4th (1862-1866)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6751">Indians of North America.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5840">Physicians--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8106">Women--History.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1053">Charlevoix (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83187817" ref="/subjects/1349">Harbor Springs (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1826">Texas.</geogname>
+        <subject encodinganalog="651" source="lcsh" ref="/subjects/8107">United States--History--Civil War, 1861-1865--Medical care.</subject>
       </controlaccess>
       <controlaccess>
         <head>Form and Genre Terms</head>
-        <genreform source="aat" encodinganalog="655">Poetry.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3166">Poetry.</genreform>
       </controlaccess>
       <controlaccess>
         <head>Contributors</head>
-        <persname source="lcnaf" encodinganalog="700">Hampton, Carlos D.</persname>
-        <persname source="lcnaf" encodinganalog="700">Hampton, Cornelia D.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/5246">Hampton, Carlos D.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/5855">Hampton, Cornelia D.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -130,147 +130,105 @@
         </did>
         <c02 level="file">
           <did>
-            <container label="Roll [088212942048009663111]" type="reel">1</container>
+            <container label="Roll [5955976854021901464731314]" type="reel">1</container>
             <unittitle>Reminiscences by Mrs. C. C. Hampton of Texas in the Civil War</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Roll [088212942048009663111]" type="reel">1</container>
-            <unittitle>Poetry and Letters <unitdate normal="1839/1860" certainty="approximate">1839-circa 1860</unitdate></unittitle>
-          </did>
+            <container label="Roll [5955976854021901464731314]" type="reel">1</container>
+            <unittitle>Poetry and Letters</unittitle><unitdate normal="1839/1860" certainty="approximate">1839-circa 1860</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Carlos D. Hampton <unitdate normal="1862/1898">1862-1898</unitdate></unittitle>
-        </did>
+          <unittitle>Carlos D. Hampton</unittitle><unitdate normal="1862/1898">1862-1898</unitdate></did>
         <c02 level="file">
           <did>
-            <unittitle>Correspondence and miscellaneous <unitdate normal="1862/1898">1862-1898</unitdate></unittitle>
-          </did>
+            <unittitle>Correspondence and miscellaneous</unittitle><unitdate normal="1862/1898">1862-1898</unitdate></did>
           <c03 level="file">
             <did>
-              <container label="Roll [088212942048009663111]" type="reel">1</container>
-              <unittitle>
-                <unitdate normal="1862/1898">1862-1898</unitdate>
-              </unittitle>
-            </did>
+              <container label="Roll [5955976854021901464731314]" type="reel">1</container>
+              <unitdate normal="1862/1898">1862-1898</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container label="Roll [088212942048009663111]" type="reel">1</container>
-              <unittitle>
-                <unitdate normal="1865">1865</unitdate>
-              </unittitle>
-            </did>
+              <container label="Roll [5955976854021901464731314]" type="reel">1</container>
+              <unitdate normal="1865">1865</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container label="Roll [088212942048009663111]" type="reel">1</container>
-              <unittitle>
-                <unitdate normal="1866">1866</unitdate>
-              </unittitle>
-            </did>
+              <container label="Roll [5955976854021901464731314]" type="reel">1</container>
+              <unitdate normal="1866">1866</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container label="Roll [088212942048009663111]" type="reel">1</container>
-              <unittitle>
-                <unitdate normal="1867/1898">1867-1898</unitdate>
-              </unittitle>
-            </did>
+              <container label="Roll [5955976854021901464731314]" type="reel">1</container>
+              <unitdate normal="1867/1898">1867-1898</unitdate></did>
           </c03>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Will E. Hampton <unitdate normal="1894/1959">1894-1959</unitdate></unittitle>
-        </did>
+          <unittitle>Will E. Hampton</unittitle><unitdate normal="1894/1959">1894-1959</unitdate></did>
         <c02 level="file">
           <did>
-            <unittitle>Correspondence and Miscellaneous papers <unitdate normal="1894/1959">1894-1959</unitdate></unittitle>
-          </did>
+            <unittitle>Correspondence and Miscellaneous papers</unittitle><unitdate normal="1894/1959">1894-1959</unitdate></did>
           <c03 level="file">
             <did>
-              <container label="Roll [088212942048009663111]" type="reel">1</container>
-              <unittitle>
-                <unitdate normal="1894/1909">1894-1909</unitdate>
-              </unittitle>
-            </did>
+              <container label="Roll [5955976854021901464731314]" type="reel">1</container>
+              <unitdate normal="1894/1909">1894-1909</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container label="Roll [088212942048009663111]" type="reel">1</container>
-              <unittitle>
-                <unitdate normal="1910/1935">1910-1935</unitdate>
-              </unittitle>
-            </did>
+              <container label="Roll [5955976854021901464731314]" type="reel">1</container>
+              <unitdate normal="1910/1935">1910-1935</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container label="Roll [088212942048009663111]" type="reel">1</container>
-              <unittitle>
-                <unitdate normal="1936/1953">1936-1953</unitdate>
-              </unittitle>
-            </did>
+              <container label="Roll [5955976854021901464731314]" type="reel">1</container>
+              <unitdate normal="1936/1953">1936-1953</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container label="Roll [088212942048009663111]" type="reel">1</container>
-              <unittitle>
-                <unitdate normal="1954/1955-08">1954-August 1955</unitdate>
-              </unittitle>
-            </did>
+              <container label="Roll [5955976854021901464731314]" type="reel">1</container>
+              <unitdate normal="1954/1955-08">1954-August 1955</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container label="Roll [088212942048009663111]" type="reel">1</container>
-              <unittitle>
-                <unitdate normal="1955-09/1956-05">September 1955-May 1956</unitdate>
-              </unittitle>
-            </did>
+              <container label="Roll [5955976854021901464731314]" type="reel">1</container>
+              <unitdate normal="1955-09/1956-05">September 1955-May 1956</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container label="Roll [088212942048009663111]" type="reel">1</container>
-              <unittitle>
-                <unitdate normal="1956-06/1956-07">June 1956-July 1956</unitdate>
-              </unittitle>
-            </did>
+              <container label="Roll [5955976854021901464731314]" type="reel">1</container>
+              <unitdate normal="1956-06/1956-07">June 1956-July 1956</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container label="Roll [088212942048009663111]" type="reel">1</container>
-              <unittitle>
-                <unitdate normal="1956-08/1956-12">August 1956-December 1956</unitdate>
-              </unittitle>
-            </did>
+              <container label="Roll [5955976854021901464731314]" type="reel">1</container>
+              <unitdate normal="1956-08/1956-12">August 1956-December 1956</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container label="Roll [088212942048009663111]" type="reel">1</container>
-              <unittitle>
-                <unitdate normal="1957/1959">1957-1959</unitdate>
-              </unittitle>
-            </did>
+              <container label="Roll [5955976854021901464731314]" type="reel">1</container>
+              <unitdate normal="1957/1959">1957-1959</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Roll [088212942048009663111]" type="reel">1</container>
-            <unittitle>Newspaper Obituaries <unitdate normal="1959">1959</unitdate></unittitle>
-          </did>
+            <container label="Roll [5955976854021901464731314]" type="reel">1</container>
+            <unittitle>Newspaper Obituaries</unittitle><unitdate normal="1959">1959</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Roll [6770044888955544562]" type="reel">2</container>
+            <container label="Roll [22156694283076189598]" type="reel">2</container>
             <unittitle>Memoirs of Charlevoix</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Roll [6770044888955544562]" type="reel">2</container>
+            <container label="Roll [22156694283076189598]" type="reel">2</container>
             <unittitle>
               <genreform>Poems</genreform>
             </unittitle>
@@ -281,25 +239,25 @@
         </c02>
         <c02 level="file">
           <did>
-            <container label="Roll [6770044888955544562]" type="reel">2</container>
+            <container label="Roll [22156694283076189598]" type="reel">2</container>
             <unittitle>Undated speeches and miscellaneous</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Roll [6770044888955544562]" type="reel">2</container>
+            <container label="Roll [22156694283076189598]" type="reel">2</container>
             <unittitle>Miscellaneous papers dealing with <subject>Indians</subject></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Roll [6770044888955544562]" type="reel">2</container>
+            <container label="Roll [22156694283076189598]" type="reel">2</container>
             <unittitle>Memoirs of Harbor Springs</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Roll [6770044888955544562]" type="reel">2</container>
+            <container label="Roll [22156694283076189598]" type="reel">2</container>
             <unittitle>
               <genreform>Photographs</genreform>
             </unittitle>
@@ -313,19 +271,19 @@
           </did>
           <c03 level="item">
             <did>
-              <container label="Roll [6770044888955544562]" type="reel">2</container>
+              <container label="Roll [22156694283076189598]" type="reel">2</container>
               <unittitle>Verses by Will Hampton</unittitle>
             </did>
           </c03>
           <c03 level="item">
             <did>
-              <container label="Roll [6770044888955544562]" type="reel">2</container>
+              <container label="Roll [22156694283076189598]" type="reel">2</container>
               <unittitle>Collected <genreform>Verse</genreform> and Commonplace Book</unittitle>
             </did>
           </c03>
           <c03 level="item">
             <did>
-              <container label="Roll [6770044888955544562]" type="reel">2</container>
+              <container label="Roll [22156694283076189598]" type="reel">2</container>
               <unittitle><genreform normal="Photographs">Photographs</genreform>, Clippings and <genreform>Verse</genreform></unittitle>
             </did>
           </c03>

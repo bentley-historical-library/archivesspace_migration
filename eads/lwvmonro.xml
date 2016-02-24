@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">League of Women Voters of Monroe (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/1226">League of Women Voters of Monroe (Mich.)</corpname>
       </origination>
-      <unittitle encodinganalog="245">League of Women Voters of Monroe (Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1959/1963">1959-1963</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851658 Bm 2</unitid>
+      <unittitle encodinganalog="245">League of Women Voters of Monroe (Mich.) records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1959/1963">1959-1963</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851658 Bm 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Monroe, Michigan branch of the League of Women Voters; correspondence, reports, and newsletters relating to League activities.</abstract>
       <physdesc altrender="whole">
@@ -75,9 +75,9 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651">Monroe (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Municipal government--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Women--Michigan--Monroe--Societies and clubs.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1160">Monroe (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7030">Municipal government--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8920">Women--Michigan--Monroe--Societies and clubs.</subject>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -87,12 +87,8 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [538115843903006265]">1</container>
-            <unittitle>
-              <unitdate type="inclusive">Undated</unitdate>
-              <unitdate type="inclusive" normal="1959/1963">1959-1963</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [3267648445384235112]">1</container>
+            <unitdate type="inclusive">Undated</unitdate><unitdate type="inclusive" normal="1959/1963">1959-1963</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">19 folders</extent>
             </physdesc>
           </did>
@@ -104,11 +100,8 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [538115843903006265]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1960/1963">1960-1963</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [3267648445384235112]">1</container>
+            <unitdate type="inclusive" normal="1960/1963">1960-1963</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>

@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,10 +43,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Liddicoat, Richard T. (Richard Thomas), b. 1891.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/6407">Liddicoat, Richard T. (Richard Thomas), b. 1891.</persname>
       </origination>
-      <unittitle encodinganalog="245">Richard T. Liddicoat Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1890/1960">1890-1960</unitdate></unittitle>
-      <abstract>University of Michigan professor of engineering mechanics; papers include biographical information, writings, visual materials, and World War II letters of his two sons.</abstract>
+      <unittitle encodinganalog="245">Richard T. Liddicoat Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1890/1960">1890-1960</unitdate><abstract>University of Michigan professor of engineering mechanics; papers include biographical information, writings, visual materials, and World War II letters of his two sons.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">9948 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="part">
@@ -87,27 +87,27 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Liddicoat, Richard T. (Richard Thomas), b. 1891.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Engineering Mechanics.</corpname>
-        <subject source="lcsh" encodinganalog="650">World War, 1939-1945--Personal narratives, American.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80094504">University of Michigan. College of Engineering.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6407">Liddicoat, Richard T. (Richard Thomas), b. 1891.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1356">University of Michigan. Dept. of Engineering Mechanics.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7423">World War, 1939-1945--Personal narratives, American.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80094504" ref="/agents/corporate_entities/304">University of Michigan. College of Engineering.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Liddicoat, Richard T. (Richard Thomas), b. 1891.</persname>
-        <subject source="lctgm" encodinganalog="650">Classrooms--Michigan--Ann Arbor.</subject>
-        <subject source="lctgm" encodinganalog="650">Helicopters--American.</subject>
-        <subject source="lctgm" encodinganalog="650">Teachers--Michigan--Ann Arbor.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6407">Liddicoat, Richard T. (Richard Thomas), b. 1891.</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3591">Classrooms--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4700">Helicopters--American.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4091">Teachers--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87944966">Liddicoat, Richard T. (Richard Thomas), 1918-2002</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87944966" ref="/agents/people/8831">Liddicoat, Richard T. (Richard Thomas), 1918-2002</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Motion pictures.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3162">Motion pictures.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -120,7 +120,7 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [23921344254383311558954]">1</container>
+            <container type="box" label="Box [260514348377512804]">1</container>
             <unittitle>Biographical citation, etc.</unittitle>
           </did>
         </c02>
@@ -134,21 +134,18 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [23921344254383311558954]">1</container>
-            <unittitle>Dissertation <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [260514348377512804]">1</container>
+            <unittitle>Dissertation</unittitle><unitdate type="inclusive" normal="1940">1940</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [23921344254383311558954]">1</container>
-            <unittitle>Research Papers <unitdate type="inclusive" normal="1931">1931</unitdate>, <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [260514348377512804]">1</container>
+            <unittitle>Research Papers</unittitle><unitdate type="inclusive" normal="1931">1931</unitdate><unitdate type="inclusive" normal="1952">1952</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [23921344254383311558954]">1</container>
-            <unittitle>Laboratory Manual <unitdate type="inclusive" normal="1946">1946</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [260514348377512804]">1</container>
+            <unittitle>Laboratory Manual</unittitle><unitdate type="inclusive" normal="1946">1946</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -168,34 +165,29 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [23921344254383311558954]">1</container>
-              <unittitle>Red Album, Liddicoat family in Kearsarge, Michigan <unitdate type="inclusive" normal="1918">1918</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [260514348377512804]">1</container>
+              <unittitle>Red Album, Liddicoat family in Kearsarge, Michigan</unittitle><unitdate type="inclusive" normal="1918">1918</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [23921344254383311558954]">1</container>
-              <unittitle>Family Portrait <unitdate>undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [260514348377512804]">1</container>
+              <unittitle>Family Portrait</unittitle><unitdate>undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [23921344254383311558954]">1</container>
-              <unittitle>West Engineering <unitdate>undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [260514348377512804]">1</container>
+              <unittitle>West Engineering</unittitle><unitdate>undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [23921344254383311558954]">1</container>
-              <unittitle>Helicopter Research, <unitdate normal="1920/1927" type="inclusive">1920-1927</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [260514348377512804]">1</container>
+              <unittitle>Helicopter Research</unittitle><unitdate normal="1920/1927" type="inclusive">1920-1927</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="map-case" label="Drawer [0385833694918527670928]">11</container>
-            <unittitle><genreform source="aat" normal="Motion pictures">Motion picture</genreform> of helicopter demonstration, <unitdate type="inclusive" normal="1930" certainty="approximate">circa 1930</unitdate></unittitle>
-            <physdesc>
+            <container type="map-case" label="Drawer [184861416898482159]">11</container>
+            <unittitle><genreform source="aat" normal="Motion pictures">Motion picture</genreform> of helicopter demonstration</unittitle><unitdate type="inclusive" normal="1930" certainty="approximate">circa 1930</unitdate><physdesc>
               <physfacet>16 mm; ca. 10 minutes</physfacet>
             </physdesc>
           </did>
@@ -205,9 +197,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Oversize Folder [443848443965862]">1</container>
-            <unittitle>Engineering drawings of helicopter <unitdate type="inclusive" normal="1923-06">June 1923</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="folder" label="Oversize Folder [8115583469621773575]">1</container>
+            <unittitle>Engineering drawings of helicopter</unittitle><unitdate type="inclusive" normal="1923-06">June 1923</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 items</extent>
             </physdesc>
           </did>
@@ -225,7 +216,7 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [23921344254383311558954]">1</container>
+            <container type="box" label="Box [260514348377512804]">1</container>
             <unittitle>Letters written to parents by William and Richard Liddicoat during the war</unittitle>
           </did>
         </c02>

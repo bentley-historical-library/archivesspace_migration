@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,10 +35,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Carpenter, Charles William, 1886-1971.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/3142">Carpenter, Charles William, 1886-1971.</persname>
       </origination>
-      <unittitle encodinganalog="245">Charles William Carpenter Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1909/1970">1909-1970</unitdate></unittitle>
-      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">85877 Aa 2; UAm; UAl</unitid>
+      <unittitle encodinganalog="245">Charles William Carpenter Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1909/1970">1909-1970</unitdate><unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">85877 Aa 2; UAm; UAl</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Graduate of Tuskegee Institute in 1909, later pastor of the Second Baptist Church of Ann Arbor, Michigan. Correspondence, including letters from Mr. and Mrs. Booker T. Washington, 1909-1915; and miscellaneous sermons, prayers, church bulletins, reports of the Second Baptist Church and other materials concerning his work with the Ann Arbor Human Relations Commission, the Citizens Advisory Committee for a Workable Program, and the Ann Arbor Bus Committee.</abstract>
       <physdesc altrender="part">
@@ -77,29 +77,29 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">African Americans--Michigan.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Clergy--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Second Baptist Church (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Tuskegee Institute.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5763">African Americans--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219" ref="/subjects/856">Ann Arbor (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6446">Clergy--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1879">Second Baptist Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/922">Tuskegee Institute.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <subject source="lctgm" encodinganalog="650">African Americans--Spiritual life.</subject>
-        <geogname source="lctgm" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)--Churches.</geogname>
-        <persname source="lcnaf" encodinganalog="600">Carpenter, Charles William, 1886-1971.</persname>
-        <subject source="lctgm" encodinganalog="650">Churches--Michigan--Ann Arbor.</subject>
-        <subject source="lctgm" encodinganalog="650">Interiors.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Second Baptist Church (Ann Arbor, Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4020">African Americans--Spiritual life.</subject>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/207">Ann Arbor (Mich.)--Churches.</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3142">Carpenter, Charles William, 1886-1971.</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3589">Churches--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3687">Interiors.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1879">Second Baptist Church (Ann Arbor, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79063604">Washington, Booker T., 1856-1915.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85307536">Washington, Margaret James Murray, 1861-1925.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79063604" ref="/agents/people/346">Washington, Booker T., 1856-1915.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85307536" ref="/agents/people/4231">Washington, Margaret James Murray, 1861-1925.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -109,27 +109,18 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63346957385245105223708927]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1909/1950">1909-1950</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [1185514204541639]">1</container>
+            <unitdate type="inclusive" normal="1909/1950">1909-1950</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63346957385245105223708927]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1951/1960">1951-1960</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [1185514204541639]">1</container>
+            <unitdate type="inclusive" normal="1951/1960">1951-1960</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63346957385245105223708927]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1961/1966">1961-1966</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [1185514204541639]">1</container>
+            <unitdate type="inclusive" normal="1961/1966">1961-1966</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -138,27 +129,23 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63346957385245105223708927]">1</container>
-            <unittitle>Ann Arbor Human Relations Commission <unitdate type="inclusive" normal="1963/1965">1963-1965</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [1185514204541639]">1</container>
+            <unittitle>Ann Arbor Human Relations Commission</unittitle><unitdate type="inclusive" normal="1963/1965">1963-1965</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63346957385245105223708927]">1</container>
-            <unittitle>Citizens Advisory Committee for Workable Program <unitdate type="inclusive" normal="1963/1970">1963-1970</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [1185514204541639]">1</container>
+            <unittitle>Citizens Advisory Committee for Workable Program</unittitle><unitdate type="inclusive" normal="1963/1970">1963-1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63346957385245105223708927]">1</container>
-            <unittitle>Ann Arbor "Fair Housing" ordinance <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [1185514204541639]">1</container>
+            <unittitle>Ann Arbor "Fair Housing" ordinance</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63346957385245105223708927]">1</container>
-            <unittitle>Ann Arbor Bus Committee <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [1185514204541639]">1</container>
+            <unittitle>Ann Arbor Bus Committee</unittitle><unitdate type="inclusive" normal="1956">1956</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -167,22 +154,21 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63346957385245105223708927]">1</container>
-            <unittitle>Sermons <unitdate type="inclusive">undated</unitdate>, <unitdate type="inclusive" normal="1929/1966">1929-1966</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [1185514204541639]">1</container>
+            <unittitle>Sermons</unittitle><unitdate type="inclusive">undated</unitdate><unitdate type="inclusive" normal="1929/1966">1929-1966</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">11 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63346957385245105223708927]">1</container>
+            <container type="box" label="Box [1185514204541639]">1</container>
             <unittitle>Christmas sermons</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63346957385245105223708927]">1</container>
+            <container type="box" label="Box [1185514204541639]">1</container>
             <unittitle>Radio sermons</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -191,13 +177,13 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63346957385245105223708927]">1</container>
+            <container type="box" label="Box [1185514204541639]">1</container>
             <unittitle>Sermons by guest speakers</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63346957385245105223708927]">1</container>
+            <container type="box" label="Box [1185514204541639]">1</container>
             <unittitle>Prayers</unittitle>
           </did>
         </c02>
@@ -208,55 +194,51 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63346957385245105223708927]">1</container>
-            <unittitle>Sessions minutes of the Ontario Annual Conference of the African Methodist Episcopal Church <unitdate type="inclusive" normal="1925/1926">1925-1926</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [1185514204541639]">1</container>
+            <unittitle>Sessions minutes of the Ontario Annual Conference of the African Methodist Episcopal Church</unittitle><unitdate type="inclusive" normal="1925/1926">1925-1926</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63346957385245105223708927]">1</container>
-            <unittitle>National Baptist Convention <unitdate type="inclusive" normal="1957/1965">1957-1965</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [1185514204541639]">1</container>
+            <unittitle>National Baptist Convention</unittitle><unitdate type="inclusive" normal="1957/1965">1957-1965</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63346957385245105223708927]">1</container>
-            <unittitle>Financial reports of the Ann Arbor Second Baptist Church <unitdate type="inclusive" normal="1942/1961">1942-1961</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [1185514204541639]">1</container>
+            <unittitle>Financial reports of the Ann Arbor Second Baptist Church</unittitle><unitdate type="inclusive" normal="1942/1961">1942-1961</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63346957385245105223708927]">1</container>
+            <container type="box" label="Box [1185514204541639]">1</container>
             <unittitle>Miscellaneous programs of services, Ann Arbor Second Baptist Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63346957385245105223708927]">1</container>
+            <container type="box" label="Box [1185514204541639]">1</container>
             <unittitle>Harvest Home Celebration, Ann Arbor Second Baptist Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63346957385245105223708927]">1</container>
+            <container type="box" label="Box [1185514204541639]">1</container>
             <unittitle>Constitution and by-laws, Ann Arbor Second Baptist Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63346957385245105223708927]">1</container>
+            <container type="box" label="Box [1185514204541639]">1</container>
             <unittitle>Miscellaneous Sunday School material</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63346957385245105223708927]">1</container>
-            <unittitle>Report to the General Baptist State Convention on the depression with particular reference to the Negro <unitdate type="inclusive" normal="1933-08">August 1933</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [1185514204541639]">1</container>
+            <unittitle>Report to the General Baptist State Convention on the depression with particular reference to the Negro</unittitle><unitdate type="inclusive" normal="1933-08">August 1933</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63346957385245105223708927]">1</container>
+            <container type="box" label="Box [1185514204541639]">1</container>
             <unittitle>Miscellanea</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -265,13 +247,13 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63346957385245105223708927]">1</container>
+            <container type="box" label="Box [1185514204541639]">1</container>
             <unittitle>Church bulletins</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63346957385245105223708927]">1</container>
+            <container type="box" label="Box [1185514204541639]">1</container>
             <unittitle>Miscellaneous printed materials</unittitle>
           </did>
         </c02>
@@ -284,7 +266,7 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [63346957385245105223708927]">1</container>
+            <container type="box" label="Box [1185514204541639]">1</container>
             <unittitle>Photos of Second Baptist Church and church functions; also photos of Carpenter at other ceremonies</unittitle>
           </did>
           <odd>

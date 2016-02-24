@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Eskimo Art, Inc.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/3054">Eskimo Art, Inc.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Eskimo Art, Inc. Records <unitdate type="inclusive" encodinganalog="245$f" normal="1953/1994">1953-1994</unitdate></unittitle>
-      <abstract>Agency established by Eugene Power to provide market for Inuit art, also gallery for Inuit art. Correspondence, scrapbooks, and office files detailing the company's activities.</abstract>
+      <unittitle encodinganalog="245">Eskimo Art, Inc. Records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1953/1994">1953-1994</unitdate><abstract>Agency established by Eugene Power to provide market for Inuit art, also gallery for Inuit art. Correspondence, scrapbooks, and office files detailing the company's activities.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">861010 Bp 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -83,18 +83,18 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Art.</subject>
-        <subject source="lcsh" encodinganalog="650">Eskimo art.</subject>
-        <subject source="lcsh" encodinganalog="650">Artists.</subject>
-        <subject source="lcsh" encodinganalog="650">Eskimo artists.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Eskimo Art, Inc.</corpname>
-        <subject source="lcsh" encodinganalog="650">Eskimo sculpture.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n90608817">Power, Eugene B., 1905-</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6569">Art.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7557">Eskimo art.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6570">Artists.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7558">Eskimo artists.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3054">Eskimo Art, Inc.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7559">Eskimo sculpture.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n90608817" ref="/agents/people/975">Power, Eugene B., 1905-</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat">Photographs.</genreform>
-        <genreform source="aat" encodinganalog="655">Scrapbooks.</genreform>
+        <genreform source="aat" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3133">Scrapbooks.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -107,39 +107,34 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [499142525418985622301]">1</container>
-            <unittitle>Canada. Department of Northern Affairs and National Resources <unitdate type="inclusive" normal="1954/1964">1954-1964</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [63974248028840678374]">1</container>
+            <unittitle>Canada. Department of Northern Affairs and National Resources</unittitle><unitdate type="inclusive" normal="1954/1964">1954-1964</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [499142525418985622301]">1</container>
-            <unittitle>Gow (Col. and Mrs. Harry Gow) (sales representatives) <unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [63974248028840678374]">1</container>
+            <unittitle>Gow (Col. and Mrs. Harry Gow) (sales representatives)</unittitle><unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [499142525418985622301]">1</container>
-            <unittitle>Houston (James and Alma) <unitdate type="inclusive" normal="1953/1963">1953-1963</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [63974248028840678374]">1</container>
+            <unittitle>Houston (James and Alma)</unittitle><unitdate type="inclusive" normal="1953/1963">1953-1963</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [499142525418985622301]">1</container>
-            <unittitle>Jaffe, Lilly Weil (dealer) <unitdate type="inclusive" normal="1962/1966">1962-1966</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [63974248028840678374]">1</container>
+            <unittitle>Jaffe, Lilly Weil (dealer)</unittitle><unitdate type="inclusive" normal="1962/1966">1962-1966</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [499142525418985622301]">1</container>
-            <unittitle>Povungnetok Cooperative (supplier) <unitdate type="inclusive" normal="1958/1961">1958-1961</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [63974248028840678374]">1</container>
+            <unittitle>Povungnetok Cooperative (supplier)</unittitle><unitdate type="inclusive" normal="1958/1961">1958-1961</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -151,27 +146,23 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [499142525418985622301]">1</container>
-            <unittitle>Newspaper clippings and articles <unitdate type="inclusive" normal="1961/1994">1961-1994</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [63974248028840678374]">1</container>
+            <unittitle>Newspaper clippings and articles</unittitle><unitdate type="inclusive" normal="1961/1994">1961-1994</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [499142525418985622301]">1</container>
-            <unittitle>Brochures and advertisements <unitdate type="inclusive" normal="1981/1990">1981-1990</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [63974248028840678374]">1</container>
+            <unittitle>Brochures and advertisements</unittitle><unitdate type="inclusive" normal="1981/1990">1981-1990</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [499142525418985622301]">1</container>
-            <unittitle>Press releases <unitdate type="inclusive" normal="1986/1993">1986-1993</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [63974248028840678374]">1</container>
+            <unittitle>Press releases</unittitle><unitdate type="inclusive" normal="1986/1993">1986-1993</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [499142525418985622301]">1</container>
-            <unittitle>Publicity information <unitdate type="inclusive" normal="1985/1986">1985-1986</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [63974248028840678374]">1</container>
+            <unittitle>Publicity information</unittitle><unitdate type="inclusive" normal="1985/1986">1985-1986</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -185,33 +176,28 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [40977129304764174870]">2</container>
-            <unittitle>Vol. 1 <unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [32456166469913111370863]">2</container>
+            <unittitle>Vol. 1</unittitle><unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [40977129304764174870]">2</container>
-            <unittitle>Vol. 2 <unitdate type="inclusive" normal="1955/1962">1955-1962</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [32456166469913111370863]">2</container>
+            <unittitle>Vol. 2</unittitle><unitdate type="inclusive" normal="1955/1962">1955-1962</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9412172482939234828]">3</container>
-            <unittitle>Vol. 3 <unitdate type="inclusive" normal="1962/1967">1962-1967</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [351257474580734690566]">3</container>
+            <unittitle>Vol. 3</unittitle><unitdate type="inclusive" normal="1962/1967">1962-1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9412172482939234828]">3</container>
-            <unittitle>Vol. 4 <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [351257474580734690566]">3</container>
+            <unittitle>Vol. 4</unittitle><unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [40977129304764174870]">2</container>
-            <unittitle>Vol. 5 <unitdate type="inclusive" normal="1981/1989">1981-1989</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [32456166469913111370863]">2</container>
+            <unittitle>Vol. 5</unittitle><unitdate type="inclusive" normal="1981/1989">1981-1989</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -223,19 +209,13 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [40977129304764174870]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1988">1988</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [32456166469913111370863]">2</container>
+            <unitdate type="inclusive" normal="1988">1988</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [40977129304764174870]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1989">1989</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [32456166469913111370863]">2</container>
+            <unitdate type="inclusive" normal="1989">1989</unitdate></did>
         </c02>
       </c01>
     </dsc>

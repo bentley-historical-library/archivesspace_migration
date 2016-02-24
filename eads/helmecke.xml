@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Helmecke family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/378">Helmecke family.</famname>
       </origination>
-      <unittitle encodinganalog="245">Helmecke family papers <unitdate type="inclusive" encodinganalog="245$f" normal="1908/1914">1908-1914</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">861026 Aa 2</unitid>
+      <unittitle encodinganalog="245">Helmecke family papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1908/1914">1908-1914</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">861026 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Helmecke family of Grand Rapids, Michigan. Letters from Carl Albert Helmecke and his sister Marie Gertrud Helmecke while students at the University of Michigan; and photographs.</abstract>
       <physdesc altrender="whole">
@@ -78,27 +78,27 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Deutscher Verein (University of Michigan)</corpname>
-        <subject source="lcsh" encodinganalog="650">Women--Michigan--Grand Rapids.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Cercle Français.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Correspondence.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Social life and customs--1901-1910.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Social life and customs--1911-1920.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3950">Deutscher Verein (University of Michigan)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6457">Women--Michigan--Grand Rapids.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3873">University of Michigan. Cercle Français.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Correspondence.<term type="topical">Students</term><term type="genre_form">Correspondence.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Social life and customs--1901-1910.<term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1901-1910.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Social life and customs--1911-1920.<term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1911-1920.</term></corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600">Helmecke, Carl Albert.</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Cross Country Club.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Engineering. Class of 1912.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/7415">Helmecke, Carl Albert.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3924">University of Michigan. Cross Country Club.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5771">University of Michigan. Dept. of Engineering. Class of 1912.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Helmecke, Carl Albert.</persname>
-        <persname source="lcnaf" encodinganalog="700">Helmecke, Marie Gertrud.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/7415">Helmecke, Carl Albert.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/3715">Helmecke, Marie Gertrud.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -112,33 +112,24 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1353947916636062490]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1908/1912">1908-1912</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [5662884783845374]">1</container>
+              <unitdate type="inclusive" normal="1908/1912">1908-1912</unitdate></did>
             <odd>
               <p>(52 letters written while a student at the University of Michigan)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1353947916636062490]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1911-07/1911-08">July-August 1911</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [5662884783845374]">1</container>
+              <unitdate type="inclusive" normal="1911-07/1911-08">July-August 1911</unitdate></did>
             <odd>
               <p>(13 letters regarding summer term at Dijon, France)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1353947916636062490]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1913-01/1913-04">January-April 1913</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [5662884783845374]">1</container>
+              <unitdate type="inclusive" normal="1913-01/1913-04">January-April 1913</unitdate></did>
             <odd>
               <p>(16 letters written while tutoring a wealthy young man in Florida)</p>
             </odd>
@@ -150,22 +141,16 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1353947916636062490]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1911/1912">1911-1912</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [5662884783845374]">1</container>
+              <unitdate type="inclusive" normal="1911/1912">1911-1912</unitdate></did>
             <odd>
               <p>(ca. 70 letters written while a student at the University of Michigan)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1353947916636062490]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1913/1914">1913-1914</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [5662884783845374]">1</container>
+              <unitdate type="inclusive" normal="1913/1914">1913-1914</unitdate></did>
             <odd>
               <p>(ca. 70 letters written while a student at the University of Michigan)</p>
             </odd>
@@ -178,43 +163,41 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1353947916636062490]">1</container>
-            <unittitle>Photograph of Carl Helmecke <unitdate type="inclusive" normal="1913">1913</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [5662884783845374]">1</container>
+            <unittitle>Photograph of Carl Helmecke</unittitle><unitdate type="inclusive" normal="1913">1913</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1353947916636062490]">1</container>
-            <unittitle>Postcards of University of Michigan, Country Club <unitdate type="inclusive" normal="1908/1909">1908/09</unitdate> and Engineering Class of <unitdate type="inclusive" normal="1912">1912</unitdate> taken in <unitdate type="inclusive" normal="1908">1908</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [5662884783845374]">1</container>
+            <unittitle>Postcards of University of Michigan, Country Club 1908/09 and Engineering Class of 1912 taken in 1908</unittitle><unitdate type="inclusive" normal="1908/1909">1908/09</unitdate><unitdate type="inclusive" normal="1912">1912</unitdate><unitdate type="inclusive" normal="1908">1908</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1353947916636062490]">1</container>
+            <container type="box" label="Box [5662884783845374]">1</container>
             <unittitle>Anthropometric charts</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1353947916636062490]">1</container>
+            <container type="box" label="Box [5662884783845374]">1</container>
             <unittitle>YMCA handbook</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1353947916636062490]">1</container>
+            <container type="box" label="Box [5662884783845374]">1</container>
             <unittitle>Cloth flag with numerals "47" in University of Michigan colors</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1353947916636062490]">1</container>
+            <container type="box" label="Box [5662884783845374]">1</container>
             <unittitle>Membership cards</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1353947916636062490]">1</container>
+            <container type="box" label="Box [5662884783845374]">1</container>
             <unittitle>Newspaper clippings</unittitle>
           </did>
         </c02>

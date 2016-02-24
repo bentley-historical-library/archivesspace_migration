@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Pattengill family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/220">Pattengill family.</famname>
       </origination>
-      <unittitle encodinganalog="245">Pattengill Family papers <unitdate type="inclusive" encodinganalog="245$f" normal="1767/1963">1767-1963</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">852141 Aa 2</unitid>
+      <unittitle encodinganalog="245">Pattengill Family papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1767/1963">1767-1963</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">852141 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Lansing and Ann Arbor, Michigan families; correspondence, photographs, clippings, and other family documents.</abstract>
       <physdesc altrender="whole">
@@ -79,25 +79,25 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Antislavery movements--United States.</subject>
-        <subject source="lcsh" encodinganalog="650">Education--Michigan.</subject>
-        <geogname source="lcsh" encodinganalog="651">Lansing (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Women--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Women--Michigan--Lansing.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219" ref="/subjects/856">Ann Arbor (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5786">Antislavery movements--United States.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5734">Education--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1136">Lansing (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5746">Women--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8899">Women--Michigan--Lansing.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Foster, Margaret Irene Pattengill.</persname>
-        <persname source="lcnaf" encodinganalog="700">Foster, Seymour, 1845-1935.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86018377">Foster, Theodore, 1752-1828.</persname>
-        <persname source="lcnaf" encodinganalog="700">Foster, Theodore, 1812-1865.</persname>
-        <persname source="lcnaf" encodinganalog="700">Foster, Theodore George, 1888-1960.</persname>
-        <famname source="lcnaf" encodinganalog="700">Foster family.</famname>
-        <persname source="lcnaf" encodinganalog="700">Pattengill, Craig L.</persname>
-        <persname source="lcnaf" encodinganalog="700">Pattengill, Victor Romaine, 1887-1943.</persname>
-        <famname source="lcnaf" encodinganalog="700">Sharpsteen family.</famname>
-        <famname source="lcnaf" encodinganalog="700">Woodward family.</famname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/3558">Foster, Margaret Irene Pattengill.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/4204">Foster, Seymour, 1845-1935.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86018377" ref="/agents/people/6535">Foster, Theodore, 1752-1828.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/5125">Foster, Theodore, 1812-1865.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/79">Foster, Theodore George, 1888-1960.</persname>
+        <famname source="lcnaf" encodinganalog="700" ref="/agents/families/335">Foster family.</famname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/7786">Pattengill, Craig L.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/5754">Pattengill, Victor Romaine, 1887-1943.</persname>
+        <famname source="lcnaf" encodinganalog="700" ref="/agents/families/171">Sharpsteen family.</famname>
+        <famname source="lcnaf" encodinganalog="700" ref="/agents/families/349">Woodward family.</famname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -111,9 +111,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [81538891449948524584640369]">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1767/1819">1767-1819</unitdate></unittitle>
-              <physdesc>
+              <container type="box" label="Box [22246790486681062775]">1</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1767/1819">1767-1819</unitdate><physdesc>
                 <physfacet>typescript copies transcribed from letter book</physfacet>
               </physdesc>
             </did>
@@ -128,9 +127,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [81538891449948524584640369]">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1851/1865">1851-1865</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [22246790486681062775]">1</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1851/1865">1851-1865</unitdate></did>
             <odd>
               <p>(as published in Michigan History Magazine; includes <genreform normal="Photographs">photograph</genreform> of the home and store in Scio Township which served as a station on the underground railroad)</p>
             </odd>
@@ -142,24 +140,21 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [81538891449948524584640369]">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1923/1931">1923-1931</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [22246790486681062775]">1</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1923/1931">1923-1931</unitdate></did>
             <odd>
               <p>(include some typescript excerpts)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [81538891449948524584640369]">1</container>
-              <unittitle>Business and political matters <unitdate type="inclusive" normal="1875/1935">1875-1935</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [22246790486681062775]">1</container>
+              <unittitle>Business and political matters</unittitle><unitdate type="inclusive" normal="1875/1935">1875-1935</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [81538891449948524584640369]">1</container>
-              <unittitle>Post office matters <unitdate type="inclusive" normal="1889/1914">1889-1914</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [22246790486681062775]">1</container>
+              <unittitle>Post office matters</unittitle><unitdate type="inclusive" normal="1889/1914">1889-1914</unitdate></did>
             <odd>
               <p>(Foster was postmaster of Lansing)</p>
             </odd>
@@ -169,27 +164,23 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [81538891449948524584640369]">1</container>
-              <unittitle>Early life and activities <unitdate type="inclusive" normal="1860/1939" certainty="approximate">1860s-1930s</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [22246790486681062775]">1</container>
+              <unittitle>Early life and activities</unittitle><unitdate type="inclusive" normal="1860/1939" certainty="approximate">1860s-1930s</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [81538891449948524584640369]">1</container>
-              <unittitle>Regarding Charles T. Foster Post of the G.A.R., including some letters of his brother Charles T. Foster, who died in the Civil War <unitdate type="inclusive" normal="1861/1922">1861-1922</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [22246790486681062775]">1</container>
+              <unittitle>Regarding Charles T. Foster Post of the G.A.R., including some letters of his brother Charles T. Foster, who died in the Civil War</unittitle><unitdate type="inclusive" normal="1861/1922">1861-1922</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [81538891449948524584640369]">1</container>
-              <unittitle>Newspaper clippings <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [22246790486681062775]">1</container>
+              <unittitle>Newspaper clippings</unittitle><unitdate type="inclusive">undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [81538891449948524584640369]">1</container>
-              <unittitle>Miscellanea <unitdate type="inclusive" normal="1921/1935">1921-1935</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [22246790486681062775]">1</container>
+              <unittitle>Miscellanea</unittitle><unitdate type="inclusive" normal="1921/1935">1921-1935</unitdate><unitdate type="inclusive">undated</unitdate></did>
             <odd>
               <p>(<genreform normal="Photographs">photographs</genreform> and obituary)</p>
             </odd>
@@ -201,27 +192,24 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [81538891449948524584640369]">1</container>
+              <container type="box" label="Box [22246790486681062775]">1</container>
               <unittitle>Correspondence.1902-1952</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [81538891449948524584640369]">1</container>
-              <unittitle>Essays <unitdate type="inclusive" normal="1910" certainty="approximate">circa 1910</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [22246790486681062775]">1</container>
+              <unittitle>Essays</unittitle><unitdate type="inclusive" normal="1910" certainty="approximate">circa 1910</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [81538891449948524584640369]">1</container>
-              <unittitle>Newspaper clippings <unitdate type="inclusive" normal="1938/1960">1938-1960</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [22246790486681062775]">1</container>
+              <unittitle>Newspaper clippings</unittitle><unitdate type="inclusive" normal="1938/1960">1938-1960</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [81538891449948524584640369]">1</container>
-              <unittitle>Miscellanea <unitdate type="inclusive" normal="1903/1945">1903-1945</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [22246790486681062775]">1</container>
+              <unittitle>Miscellanea</unittitle><unitdate type="inclusive" normal="1903/1945">1903-1945</unitdate></did>
             <odd>
               <p>(mementos and <genreform normal="Photographs">photographs</genreform>)</p>
             </odd>
@@ -233,9 +221,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [81538891449948524584640369]">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1903/1954">1903-1954</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [22246790486681062775]">1</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1903/1954">1903-1954</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -244,15 +231,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [81538891449948524584640369]">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1932/1951">1932-1951</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [22246790486681062775]">1</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1932/1951">1932-1951</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [81538891449948524584640369]">1</container>
-              <unittitle>Daughters of the American Revolution applications <genreform normal="Photographs">photographs</genreform>, and miscellaneous, <unitdate type="inclusive" normal="1919/1941">1919-1941</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [22246790486681062775]">1</container>
+              <unittitle>Daughters of the American Revolution applications <genreform normal="Photographs">photographs</genreform>, and miscellaneous</unittitle><unitdate type="inclusive" normal="1919/1941">1919-1941</unitdate></did>
           </c03>
         </c02>
       </c01>
@@ -266,21 +251,18 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [81538891449948524584640369]">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1898/1936">1898-1936</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [22246790486681062775]">1</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1898/1936">1898-1936</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [81538891449948524584640369]">1</container>
-              <unittitle>Essays <unitdate type="inclusive" normal="1939">1939</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [22246790486681062775]">1</container>
+              <unittitle>Essays</unittitle><unitdate type="inclusive" normal="1939">1939</unitdate><unitdate type="inclusive">undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [81538891449948524584640369]">1</container>
-              <unittitle>Newspaper clippings and <genreform normal="Photographs">photographs</genreform>, <unitdate type="inclusive" normal="1943/1961">1943-1961</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [22246790486681062775]">1</container>
+              <unittitle>Newspaper clippings and <genreform normal="Photographs">photographs</genreform></unittitle><unitdate type="inclusive" normal="1943/1961">1943-1961</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -289,15 +271,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [81538891449948524584640369]">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1911/1947">1911-1947</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [22246790486681062775]">1</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1911/1947">1911-1947</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [81538891449948524584640369]">1</container>
-              <unittitle>Newspaper clippings and <genreform normal="Photographs">photographs</genreform>, <unitdate type="inclusive" normal="1908/1952">1908-1952</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [22246790486681062775]">1</container>
+              <unittitle>Newspaper clippings and <genreform normal="Photographs">photographs</genreform></unittitle><unitdate type="inclusive" normal="1908/1952">1908-1952</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -306,48 +286,41 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [81538891449948524584640369]">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1860/1944">1860-1944</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [22246790486681062775]">1</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1860/1944">1860-1944</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [81538891449948524584640369]">1</container>
-              <unittitle>Newspaper clippings <unitdate type="inclusive" normal="1891/1963">1891-1963</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [22246790486681062775]">1</container>
+              <unittitle>Newspaper clippings</unittitle><unitdate type="inclusive" normal="1891/1963">1891-1963</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [81538891449948524584640369]">1</container>
-              <unittitle>Photographs <unitdate type="inclusive" normal="1909">1909</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [22246790486681062775]">1</container>
+              <unittitle>Photographs</unittitle><unitdate type="inclusive" normal="1909">1909</unitdate><unitdate type="inclusive">undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [81538891449948524584640369]">1</container>
-              <unittitle>Correspondence and legal papers <unitdate type="inclusive" normal="1778/1875">1778-1875</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [22246790486681062775]">1</container>
+              <unittitle>Correspondence and legal papers</unittitle><unitdate type="inclusive" normal="1778/1875">1778-1875</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [81538891449948524584640369]">1</container>
-              <unittitle>Speeches and business papers <unitdate type="inclusive" normal="1813/1952">1813-1952</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [22246790486681062775]">1</container>
+              <unittitle>Speeches and business papers</unittitle><unitdate type="inclusive" normal="1813/1952">1813-1952</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [81538891449948524584640369]">1</container>
-              <unittitle>Material on vacations of the Pattengill family <unitdate type="inclusive" normal="1906/1950">1906-1950</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [22246790486681062775]">1</container>
+              <unittitle>Material on vacations of the Pattengill family</unittitle><unitdate type="inclusive" normal="1906/1950">1906-1950</unitdate><unitdate type="inclusive">undated</unitdate></did>
             <odd>
               <p>(mainly <genreform normal="Photographs">photographs</genreform>)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [81538891449948524584640369]">1</container>
-              <unittitle>Genealogies of the Pattengill and Sharpsteen families <unitdate type="inclusive" normal="1920">1920</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [22246790486681062775]">1</container>
+              <unittitle>Genealogies of the Pattengill and Sharpsteen families</unittitle><unitdate type="inclusive" normal="1920">1920</unitdate><unitdate type="inclusive">undated</unitdate></did>
           </c03>
         </c02>
       </c01>
@@ -357,21 +330,19 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [16165094702674878959]">2</container>
+            <container type="box" label="Box [54681695445709764757914]">2</container>
             <unittitle>Correspondence,1856-1951</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [16165094702674878959]">2</container>
-            <unittitle>Sharpsteen genealogy papers <unitdate type="inclusive" normal="1891/1952">1891-1952</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [54681695445709764757914]">2</container>
+            <unittitle>Sharpsteen genealogy papers</unittitle><unitdate type="inclusive" normal="1891/1952">1891-1952</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [16165094702674878959]">2</container>
-            <unittitle>Newspaper clippings <genreform normal="Photographs">photographs</genreform>, and miscellaneous, <unitdate type="inclusive" normal="1884/1934">1884-1934</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [54681695445709764757914]">2</container>
+            <unittitle>Newspaper clippings <genreform normal="Photographs">photographs</genreform>, and miscellaneous</unittitle><unitdate type="inclusive" normal="1884/1934">1884-1934</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -380,51 +351,45 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [16165094702674878959]">2</container>
-            <unittitle>Pattengill and Foster families <genreform normal="Photographs">photographs</genreform>, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [54681695445709764757914]">2</container>
+            <unittitle>Pattengill and Foster families <genreform normal="Photographs">photographs</genreform></unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [16165094702674878959]">2</container>
-            <unittitle>Genealogy <genreform normal="Photographs">photographs</genreform>, and newspaper clippings of the Woodward family, <unitdate type="inclusive" normal="1828/1909">1828-1909</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [54681695445709764757914]">2</container>
+            <unittitle>Genealogy <genreform normal="Photographs">photographs</genreform>, and newspaper clippings of the Woodward family</unittitle><unitdate type="inclusive" normal="1828/1909">1828-1909</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [16165094702674878959]">2</container>
+            <container type="box" label="Box [54681695445709764757914]">2</container>
             <unittitle>Miscellaneous, including <genreform normal="Photographs">photographs</genreform> of residences</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [16165094702674878959]">2</container>
+            <container type="box" label="Box [54681695445709764757914]">2</container>
             <unittitle>"Behind the Name: Note cards with clippings and notes on origin of Michigan place names</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [16165094702674878959]">2</container>
-            <unittitle>Mary Pattengill album of sentiments in appreciation of her work as teacher in Bible class <unitdate type="inclusive" normal="1860">1860</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [54681695445709764757914]">2</container>
+            <unittitle>Mary Pattengill album of sentiments in appreciation of her work as teacher in Bible class</unittitle><unitdate type="inclusive" normal="1860">1860</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [16165094702674878959]">2</container>
-            <unittitle>Clarence Bement diary <unitdate type="inclusive" normal="1890">1890</unitdate> and grammar exercise book</unittitle>
-          </did>
+            <container type="box" label="Box [54681695445709764757914]">2</container>
+            <unittitle>Clarence Bement diary and grammar exercise book</unittitle><unitdate type="inclusive" normal="1890">1890</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [16165094702674878959]">2</container>
-            <unittitle>Diary (author unknown) <unitdate type="inclusive" normal="1907">1907</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [54681695445709764757914]">2</container>
+            <unittitle>Diary (author unknown)</unittitle><unitdate type="inclusive" normal="1907">1907</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [16165094702674878959]">2</container>
-            <unittitle>Miniature Bible <unitdate type="inclusive" normal="1865">1865</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [54681695445709764757914]">2</container>
+            <unittitle>Miniature Bible</unittitle><unitdate type="inclusive" normal="1865">1865</unitdate></did>
         </c02>
       </c01>
     </dsc>

@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,10 +40,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n86866497">Michigan Nature Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n86866497" ref="/agents/corporate_entities/3163">Michigan Nature Association.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Michigan Nature Association records <unitdate type="inclusive" encodinganalog="245$f" normal="1945/2013">1945-2013</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1961/1999">1961-1999</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">93844 Aa 2</unitid>
+      <unittitle encodinganalog="245">Michigan Nature Association records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1945/2013">1945-2013</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1961/1999">1961-1999</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">93844 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>The Michigan Nature Association is a non-profit organization concerned with nature education and the purchase and maintenance of land throughout the state for the establishment of natural sanctuaries. The record group includes early papers of the organization, administrative files, correspondence, property and land files, topical files, publications, some visual materials, and legal materials associated with their opposition to the construction of transmission lines in a nature sanctuary.</abstract>
       <physdesc altrender="whole">
@@ -84,60 +84,56 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Conservation of natural resources--Michigan.</subject>
-        <persname encodinganalog="600" source="lcnaf">Daubendiek, Bertha A. (Bertha Antoine)</persname>
-        <subject source="lcsh" encodinganalog="650">Environmental protection--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86866497">Michigan Nature Association.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50001776">Detroit Edison Company.</corpname>
-        <subject source="lcsh" encodinganalog="650">Natural areas--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="710">Eastern Michigan Nature Association.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">Macomb Nature Association.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6195">Conservation of natural resources--Michigan.</subject>
+        <persname encodinganalog="600" source="lcnaf" ref="/agents/people/1714">Daubendiek, Bertha A. (Bertha Antoine)</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6632">Environmental protection--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86866497" ref="/agents/corporate_entities/3163">Michigan Nature Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50001776" ref="/agents/corporate_entities/848">Detroit Edison Company.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9336">Natural areas--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/841">Eastern Michigan Nature Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/4525">Macomb Nature Association.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <subject source="lctgm" encodinganalog="650">Land--Michigan.</subject>
-        <geogname source="lctgm" encodinganalog="651">Michigan--Land.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86866497">Michigan Nature Association.</corpname>
-        <geogname source="lctgm" encodinganalog="651">Michigan--Parks.</geogname>
-        <subject source="lcsh" encodinganalog="650">Natural areas--Michigan.</subject>
-        <subject source="lctgm" encodinganalog="650">Parks--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4931">Land--Michigan.</subject>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/584">Michigan--Land.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86866497" ref="/agents/corporate_entities/3163">Michigan Nature Association.</corpname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/585">Michigan--Parks.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9336">Natural areas--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4482">Parks--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Videotapes.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3134">Videotapes.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Early papers <unitdate type="inclusive" normal="1952/1969">1952-1969</unitdate></unittitle>
-        </did>
+          <unittitle>Early papers</unittitle><unitdate type="inclusive" normal="1952/1969">1952-1969</unitdate></did>
         <scopecontent>
           <p>The Early Papers series (0.5 linear feet) contains the records created by the Association as it was first the St. Clair Metropolitan Beach Sanctuary Association, then the Macomb Nature Association, and then the Eastern Michigan Nature Association. These records provide a comprehensive portrait of the organization during each period. They include financial reports, correspondence, meeting minutes, announcements, and memoranda.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7584693684429687489381]">1</container>
-            <unittitle>St. Clair Metropolitan Beach Sanctuary Association <unitdate type="inclusive" normal="1952/1954">1952-1954</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [2704304417743521768]">1</container>
+            <unittitle>St. Clair Metropolitan Beach Sanctuary Association</unittitle><unitdate type="inclusive" normal="1952/1954">1952-1954</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7584693684429687489381]">1</container>
-            <unittitle>Macomb Nature Association <unitdate type="inclusive" normal="1955/1964">1955-1964</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [2704304417743521768]">1</container>
+            <unittitle>Macomb Nature Association</unittitle><unitdate type="inclusive" normal="1955/1964">1955-1964</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7584693684429687489381]">1</container>
-            <unittitle>Eastern Michigan Nature Association <unitdate type="inclusive" normal="1965/1969">1965-1969</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [2704304417743521768]">1</container>
+            <unittitle>Eastern Michigan Nature Association</unittitle><unitdate type="inclusive" normal="1965/1969">1965-1969</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -152,104 +148,89 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7584693684429687489381]">1</container>
+            <container type="box" label="Box [2704304417743521768]">1</container>
             <unittitle>Articles of Incorporation</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7584693684429687489381]">1</container>
+            <container type="box" label="Box [2704304417743521768]">1</container>
             <unittitle>Bylaws</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7584693684429687489381]">1</container>
-            <unittitle>Policy Handbook <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [2704304417743521768]">1</container>
+            <unittitle>Policy Handbook</unittitle><unitdate type="inclusive" normal="2002">2002</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7584693684429687489381]">1</container>
-            <unittitle>Legal Papers <unitdate type="inclusive" normal="1979">1979</unitdate>, <unitdate type="inclusive" normal="1992/2000">1992-2000</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [2704304417743521768]">1</container>
+            <unittitle>Legal Papers</unittitle><unitdate type="inclusive" normal="1979">1979</unitdate><unitdate type="inclusive" normal="1992/2000">1992-2000</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7584693684429687489381]">1</container>
-            <unittitle>Meeting Minutes <unitdate type="inclusive" normal="1969/2004">1969-2004</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [2704304417743521768]">1</container>
+            <unittitle>Meeting Minutes</unittitle><unitdate type="inclusive" normal="1969/2004">1969-2004</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7584693684429687489381]">1</container>
-            <unittitle>Financial Reports <unitdate type="inclusive" normal="1964/1979">1964-1979</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [2704304417743521768]">1</container>
+            <unittitle>Financial Reports</unittitle><unitdate type="inclusive" normal="1964/1979">1964-1979</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7584693684429687489381]">1</container>
+            <container type="box" label="Box [2704304417743521768]">1</container>
             <unittitle>Land Donations</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7584693684429687489381]">1</container>
+            <container type="box" label="Box [2704304417743521768]">1</container>
             <unittitle>Monetary Donations</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7584693684429687489381]">1</container>
+            <container type="box" label="Box [2704304417743521768]">1</container>
             <unittitle>Membership Lists</unittitle>
           </did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Correspondence and other papers <unitdate type="inclusive">undated</unitdate>, <unitdate type="inclusive" normal="1970/2005">1970-2005</unitdate></unittitle>
-        </did>
+          <unittitle>Correspondence and other papers</unittitle><unitdate type="inclusive">undated</unitdate><unitdate type="inclusive" normal="1970/2005">1970-2005</unitdate></did>
         <scopecontent>
           <p>The Correspondence series (1.5 linear feet) dates from 1960-2005, with the bulk from 1993-1999. It consists of letters to and from volunteers, potential donors and MNA employees, and illustrate the day-to-day operations of the Association. The bulk of the records were written by and addressed to the founder and long-time executive secretary Bertha Daubendiek.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7584693684429687489381]">1</container>
-            <unittitle><unitdate type="inclusive">Undated</unitdate> and fragmentary</unittitle>
-          </did>
+            <container type="box" label="Box [2704304417743521768]">1</container>
+            <unittitle>And fragmentary</unittitle><unitdate type="inclusive">Undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7584693684429687489381]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1970/1973">1970-1973</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [2704304417743521768]">1</container>
+            <unitdate type="inclusive" normal="1970/1973">1970-1973</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [88693824589115640221]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1974/1997">1974-1997</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [6619759104319492668767]">2</container>
+            <unitdate type="inclusive" normal="1974/1997">1974-1997</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">30 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [891270415950365988638]">3</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1998/2005">1998-2005</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [019018785472859350374652]">3</container>
+            <unitdate type="inclusive" normal="1998/2005">1998-2005</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">15 folders</extent>
             </physdesc>
           </did>
@@ -264,19 +245,19 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [891270415950365988638]">3</container>
+            <container type="box" label="Box [019018785472859350374652]">3</container>
             <unittitle>Chronological List of Blooms</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [891270415950365988638]">3</container>
+            <container type="box" label="Box [019018785472859350374652]">3</container>
             <unittitle>Land Contracts</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [891270415950365988638]">3</container>
+            <container type="box" label="Box [019018785472859350374652]">3</container>
             <unittitle>Property Reports</unittitle>
           </did>
         </c02>
@@ -286,109 +267,101 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [891270415950365988638]">3</container>
-              <unittitle>Avrill Williams Property (St. Clair County) <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [019018785472859350374652]">3</container>
+              <unittitle>Avrill Williams Property (St. Clair County)</unittitle><unitdate type="inclusive" normal="1992">1992</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [891270415950365988638]">3</container>
+              <container type="box" label="Box [019018785472859350374652]">3</container>
               <unittitle>Cass Lake (Oakland County)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [891270415950365988638]">3</container>
-              <unittitle>Colic Root Prairie <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [019018785472859350374652]">3</container>
+              <unittitle>Colic Root Prairie</unittitle><unitdate type="inclusive" normal="1997">1997</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [891270415950365988638]">3</container>
+              <container type="box" label="Box [019018785472859350374652]">3</container>
               <unittitle>Dutchman's Breeches (Genesee County)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [891270415950365988638]">3</container>
-              <unittitle>Klimowicz Property (St. Clair County) <unitdate type="inclusive" normal="2003">2003</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [019018785472859350374652]">3</container>
+              <unittitle>Klimowicz Property (St. Clair County)</unittitle><unitdate type="inclusive" normal="2003">2003</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [891270415950365988638]">3</container>
-              <unittitle>McKinley Park (Genesee County) <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [019018785472859350374652]">3</container>
+              <unittitle>McKinley Park (Genesee County)</unittitle><unitdate type="inclusive" normal="1997">1997</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [891270415950365988638]">3</container>
+              <container type="box" label="Box [019018785472859350374652]">3</container>
               <unittitle>Miscellaneous</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [891270415950365988638]">3</container>
+              <container type="box" label="Box [019018785472859350374652]">3</container>
               <unittitle>Mitten Lake (Mackinac County)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [891270415950365988638]">3</container>
+              <container type="box" label="Box [019018785472859350374652]">3</container>
               <unittitle>Mud Lake (St. Clair County)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [891270415950365988638]">3</container>
-              <unittitle>Mulligan Plains (Marquette County) <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [019018785472859350374652]">3</container>
+              <unittitle>Mulligan Plains (Marquette County)</unittitle><unitdate type="inclusive" normal="1996">1996</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [891270415950365988638]">3</container>
+              <container type="box" label="Box [019018785472859350374652]">3</container>
               <unittitle>Pine Run Creek</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [891270415950365988638]">3</container>
+              <container type="box" label="Box [019018785472859350374652]">3</container>
               <unittitle>Ronald Joseph Property (Genesee County)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [891270415950365988638]">3</container>
-              <unittitle>Scappiticci Property (Genesee County) <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [019018785472859350374652]">3</container>
+              <unittitle>Scappiticci Property (Genesee County)</unittitle><unitdate type="inclusive" normal="1996">1996</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [891270415950365988638]">3</container>
+              <container type="box" label="Box [019018785472859350374652]">3</container>
               <unittitle>Sibley Road (Wayne County)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [891270415950365988638]">3</container>
-              <unittitle>Slater Road (Oakland County) <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [019018785472859350374652]">3</container>
+              <unittitle>Slater Road (Oakland County)</unittitle><unitdate type="inclusive" normal="1997">1997</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [891270415950365988638]">3</container>
-              <unittitle>Thompson Road (Genesee County) <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [019018785472859350374652]">3</container>
+              <unittitle>Thompson Road (Genesee County)</unittitle><unitdate type="inclusive" normal="1997">1997</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [891270415950365988638]">3</container>
+              <container type="box" label="Box [019018785472859350374652]">3</container>
               <unittitle>Troy Schools (Oakland County)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [891270415950365988638]">3</container>
+              <container type="box" label="Box [019018785472859350374652]">3</container>
               <unittitle>Zucker Property (Lapeer County)</unittitle>
             </did>
           </c03>
@@ -399,56 +372,51 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [891270415950365988638]">3</container>
-              <unittitle>Harsens Island <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [019018785472859350374652]">3</container>
+              <unittitle>Harsens Is</unittitle><unitdate type="inclusive" normal="1996">1996</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [891270415950365988638]">3</container>
+              <container type="box" label="Box [019018785472859350374652]">3</container>
               <unittitle>Moore Woods (St. Clair County)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [891270415950365988638]">3</container>
+              <container type="box" label="Box [019018785472859350374652]">3</container>
               <unittitle>Port Huron Game Area (St. Clair County)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [891270415950365988638]">3</container>
-              <unittitle>McLaughlin Prairie <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [019018785472859350374652]">3</container>
+              <unittitle>McLaughlin Prairie</unittitle><unitdate type="inclusive" normal="1979">1979</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [891270415950365988638]">3</container>
-              <unittitle>St. Clair County Sanctuaries <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [019018785472859350374652]">3</container>
+              <unittitle>St. Clair County Sanctuaries</unittitle><unitdate type="inclusive" normal="1985">1985</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [891270415950365988638]">3</container>
-              <unittitle>Sanctuaries <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [019018785472859350374652]">3</container>
+              <unittitle>Sanctuaries</unittitle><unitdate type="inclusive" normal="1985">1985</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [891270415950365988638]">3</container>
+              <container type="box" label="Box [019018785472859350374652]">3</container>
               <unittitle>Miscellaneous</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [891270415950365988638]">3</container>
-              <unittitle>Monthly Field Goals <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [019018785472859350374652]">3</container>
+              <unittitle>Monthly Field Goals</unittitle><unitdate type="inclusive">undated</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [891270415950365988638]">3</container>
+            <container type="box" label="Box [019018785472859350374652]">3</container>
             <unittitle>
               <title render="italic">Michigan's Special Plants</title>
             </unittitle>
@@ -456,7 +424,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [891270415950365988638]">3</container>
+            <container type="box" label="Box [019018785472859350374652]">3</container>
             <unittitle>
               <title render="italic">A Scientific Look at the Native Flora and Fauna of Genesee Country as of February 28, 1997</title>
             </unittitle>
@@ -464,13 +432,13 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [891270415950365988638]">3</container>
+            <container type="box" label="Box [019018785472859350374652]">3</container>
             <unittitle>Sanctuary Lists</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [891270415950365988638]">3</container>
+            <container type="box" label="Box [019018785472859350374652]">3</container>
             <unittitle>Want Lists</unittitle>
           </did>
         </c02>
@@ -484,81 +452,70 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [891270415950365988638]">3</container>
-            <unittitle>Chevron Conservation Award <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [019018785472859350374652]">3</container>
+            <unittitle>Chevron Conservation Award</unittitle><unitdate type="inclusive" normal="2001">2001</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [891270415950365988638]">3</container>
-            <unittitle>Diary, MNA Activities performed by John Sohlden, Oakland Co. <unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [019018785472859350374652]">3</container>
+            <unittitle>Diary, MNA Activities performed by John Sohlden, Oakland Co.</unittitle><unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [891270415950365988638]">3</container>
-            <unittitle>Explorers Group Memoranda <unitdate type="inclusive" normal="1992/1995">1992-1995</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [019018785472859350374652]">3</container>
+            <unittitle>Explorers Group Memoranda</unittitle><unitdate type="inclusive" normal="1992/1995">1992-1995</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [891270415950365988638]">3</container>
-            <unittitle>Fiftieth Anniversary <unitdate type="inclusive" normal="2003">2003</unitdate> (description of slide presentation)</unittitle>
-          </did>
+            <container type="box" label="Box [019018785472859350374652]">3</container>
+            <unittitle>Fiftieth Anniversary (description of slide presentation)</unittitle><unitdate type="inclusive" normal="2003">2003</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [891270415950365988638]">3</container>
-            <unittitle>Junior Nature Patrol <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [019018785472859350374652]">3</container>
+            <unittitle>Junior Nature Patrol</unittitle><unitdate type="inclusive" normal="1952">1952</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [52004175484850543932780904]">4</container>
+            <container type="box" label="Box [65252478424188]">4</container>
             <unittitle>Maps, miscellaneous</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [52004175484850543932780904]">4</container>
-            <unittitle>Michigan Endangered Species proposal <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [65252478424188]">4</container>
+            <unittitle>Michigan Endangered Species proposal</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [52004175484850543932780904]">4</container>
-            <unittitle>Pigeon River Defense Coalition <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [65252478424188]">4</container>
+            <unittitle>Pigeon River Defense Coalition</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [52004175484850543932780904]">4</container>
+            <container type="box" label="Box [65252478424188]">4</container>
             <unittitle>Sanctuary Dedications</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [52004175484850543932780904]">4</container>
-            <unittitle>Spray survey <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [65252478424188]">4</container>
+            <unittitle>Spray survey</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [52004175484850543932780904]">4</container>
-            <unittitle>Tenth Anniversary study course <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [65252478424188]">4</container>
+            <unittitle>Tenth Anniversary study course</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [52004175484850543932780904]">4</container>
-            <unittitle>Travel report and expenses <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [65252478424188]">4</container>
+            <unittitle>Travel report and expenses</unittitle><unitdate type="inclusive" normal="1988">1988</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [52004175484850543932780904]">4</container>
-            <unittitle>Van Dusen Endowment Challenge <unitdate type="inclusive" normal="1991/1994">1991-1994</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [65252478424188]">4</container>
+            <unittitle>Van Dusen Endowment Challenge</unittitle><unitdate type="inclusive" normal="1991/1994">1991-1994</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -573,25 +530,23 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [52004175484850543932780904]">4</container>
-            <unittitle>Membership Mailings <unitdate type="inclusive" normal="1971/2013">1971-2013</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [65252478424188]">4</container>
+            <unittitle>Membership Mailings</unittitle><unitdate type="inclusive" normal="1971/2013">1971-2013</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">6 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [52004175484850543932780904]">4</container>
-            <unittitle>Newsletters <unitdate type="inclusive" normal="1964/2013">1964-2013</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [65252478424188]">4</container>
+            <unittitle>Newsletters</unittitle><unitdate type="inclusive" normal="1964/2013">1964-2013</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [52004175484850543932780904]">4</container>
+            <container type="box" label="Box [65252478424188]">4</container>
             <unittitle>Newspaper Articles</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -600,52 +555,45 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [52004175484850543932780904]">4</container>
-            <unittitle>Press Releases <unitdate type="inclusive" normal="1992/1998">1992-1998</unitdate> <unitdate type="bulk" normal="1995">1995</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [65252478424188]">4</container>
+            <unittitle>Press Releases</unittitle><unitdate type="inclusive" normal="1992/1998">1992-1998</unitdate><unitdate type="bulk" normal="1995">1995</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5452034685745653]">5</container>
-            <unittitle>Sanctuary Guides <unitdate type="inclusive" normal="1968">1968</unitdate>, <unitdate type="inclusive" normal="1977">1977</unitdate>, <unitdate type="inclusive" normal="1983">1983</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [2187064441083498887]">5</container>
+            <unittitle>Sanctuary Guides</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate><unitdate type="inclusive" normal="1977">1977</unitdate><unitdate type="inclusive" normal="1983">1983</unitdate><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5452034685745653]">5</container>
-            <unittitle><title render="italic">The Birds of St. Clair Metropolitan Beach Wildlife Sanctuary</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [2187064441083498887]">5</container>
+            <unittitle><title render="italic">The Birds of St. Clair Metropolitan Beach Wildlife Sanctuary</title></unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5452034685745653]">5</container>
-            <unittitle><title render="italic">The Nature Year in Macomb and St. Clair Counties, Michigan</title>, <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [2187064441083498887]">5</container>
+            <unittitle><title render="italic">The Nature Year in Macomb and St. Clair Counties, Michigan</title></unittitle><unitdate type="inclusive" normal="1963">1963</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5452034685745653]">5</container>
-            <unittitle><title render="italic">From Sawmill to Sanctuary: The Estivant Pines Story</title> by Charles Eshbach, <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [2187064441083498887]">5</container>
+            <unittitle><title render="italic">From Sawmill to Sanctuary: The Estivant Pines Story</title> by Charles Eshbach</unittitle><unitdate type="inclusive" normal="1976">1976</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5452034685745653]">5</container>
-            <unittitle><title render="italic">Walking Paths in Keweenaw</title>, <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [2187064441083498887]">5</container>
+            <unittitle><title render="italic">Walking Paths in Keweenaw</title></unittitle><unitdate type="inclusive" normal="1990">1990</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5452034685745653]">5</container>
-            <unittitle>Wing Lake Road <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [2187064441083498887]">5</container>
+            <unittitle>Wing Lake Road</unittitle><unitdate type="inclusive" normal="1978">1978</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5452034685745653]">5</container>
+            <container type="box" label="Box [2187064441083498887]">5</container>
             <unittitle>Informational and promotional</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
@@ -654,13 +602,13 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5452034685745653]">5</container>
+            <container type="box" label="Box [2187064441083498887]">5</container>
             <unittitle>Brochures</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5452034685745653]">5</container>
+            <container type="box" label="Box [2187064441083498887]">5</container>
             <unittitle>Miscellaneous</unittitle>
           </did>
         </c02>
@@ -674,15 +622,14 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5452034685745653]">5</container>
+            <container type="box" label="Box [2187064441083498887]">5</container>
             <unittitle>Photographs</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5452034685745653]">5</container>
-            <unittitle><genreform normal="Videotape">Videocassette</genreform>: <title render="italic">In Our Trust; A Look at the Michigan Nature Association</title>, <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [2187064441083498887]">5</container>
+            <unittitle><genreform normal="Videotape">Videocassette</genreform>: <title render="italic">In Our Trust; A Look at the Michigan Nature Association</title></unittitle><unitdate type="inclusive" normal="1991">1991</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -694,31 +641,30 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5452034685745653]">5</container>
+            <container type="box" label="Box [2187064441083498887]">5</container>
             <unittitle>Scrapbook</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5452034685745653]">5</container>
-            <unittitle>"Life and History of W. H. Daubendiek from <unitdate type="inclusive" normal="1868-10-18">October 18, 1868</unitdate> to August 10, 1897"</unittitle>
-          </did>
+            <container type="box" label="Box [2187064441083498887]">5</container>
+            <unittitle>"Life and History of W. H. Daubendiek from to August 10, 1897"</unittitle><unitdate type="inclusive" normal="1868-10-18">October 18, 1868</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5452034685745653]">5</container>
+            <container type="box" label="Box [2187064441083498887]">5</container>
             <unittitle>Citations and awards</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5452034685745653]">5</container>
+            <container type="box" label="Box [2187064441083498887]">5</container>
             <unittitle>Correspondence to family and friends (selection)</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5452034685745653]">5</container>
+            <container type="box" label="Box [2187064441083498887]">5</container>
             <unittitle>Miscellaneous</unittitle>
           </did>
         </c02>
@@ -732,18 +678,16 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [50827044791409528]">6</container>
-            <unittitle>In the Matter of the Detroit Edison Company (Greenwood Energy Center Units 2 and 3) <unitdate type="inclusive" normal="1973/1978">1973-1978</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [4744319490038]">6</container>
+            <unittitle>In the Matter of the Detroit Edison Company (Greenwood Energy Center Units 2 and 3)</unittitle><unitdate type="inclusive" normal="1973/1978">1973-1978</unitdate></did>
           <odd>
             <p>(regarding opposition of MNA to placement through a nature sanctuary of transmission lines)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [000880074003540750]">7</container>
-            <unittitle>In the Matter of the Detroit Edison Company (Greenwood Energy Center Units 2 and 3) <unitdate type="inclusive" normal="1973/1978">1973-1978</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [98772141186470]">7</container>
+            <unittitle>In the Matter of the Detroit Edison Company (Greenwood Energy Center Units 2 and 3)</unittitle><unitdate type="inclusive" normal="1973/1978">1973-1978</unitdate></did>
           <odd>
             <p>(regarding opposition of MNA to placement through a nature sanctuary of transmission lines)</p>
           </odd>

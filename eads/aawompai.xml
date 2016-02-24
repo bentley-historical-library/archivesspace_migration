@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,10 +40,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Ann Arbor Women Painters.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/4604">Ann Arbor Women Painters.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Ann Arbor Women Painters records <unitdate type="inclusive" encodinganalog="245$f" normal="1951/2001">1951-2001</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">8554 Bp 2</unitid>
+      <unittitle encodinganalog="245">Ann Arbor Women Painters records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1951/2001">1951-2001</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">8554 Bp 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Formerly known as the Women Painters' Group and affiliated, 1951-1960, with the Ann Arbor Art Association and the Women's City Club. In 2002, the name of the organization was changed to Ann Arbor Women Artists. Historian's books containing yearbooks, newspaper clippings, membership lists, officer reports, and exhibition material.</abstract>
       <repository>
@@ -85,12 +85,12 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Art--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Artists--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Arts--Michigan--Ann Arbor--Societies, etc.</subject>
-        <subject source="lcsh" encodinganalog="650">Women--Michigan--Ann Arbor--Societies and clubs.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Art Association.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Women Painters.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5651">Art--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5652">Artists--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5653">Arts--Michigan--Ann Arbor--Societies, etc.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5675">Women--Michigan--Ann Arbor--Societies and clubs.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5082">Ann Arbor Art Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4604">Ann Arbor Women Painters.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -100,55 +100,40 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [139434393341134594]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1952/1964">1952-1964</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [246662893142390232710]">1</container>
+            <unitdate type="inclusive" normal="1952/1964">1952-1964</unitdate></did>
           <odd>
             <p>(binder contains clippings, programs, directory)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [139434393341134594]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1964/1973">1964-1973</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [246662893142390232710]">1</container>
+            <unitdate type="inclusive" normal="1964/1973">1964-1973</unitdate></did>
           <odd>
             <p>(binder contains clippings, programs, directory)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [139434393341134594]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1973/1981">1973-1981</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [246662893142390232710]">1</container>
+            <unitdate type="inclusive" normal="1973/1981">1973-1981</unitdate></did>
           <odd>
             <p>(binder contains clippings, programs, directory)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [94401364908956436961607]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1981/1986">1981-1986</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [811758436766077724]">2</container>
+            <unitdate type="inclusive" normal="1981/1986">1981-1986</unitdate></did>
           <odd>
             <p>(binder contains clippings, programs, directory)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [94401364908956436961607]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1987/1991">1987-1991</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [811758436766077724]">2</container>
+            <unitdate type="inclusive" normal="1987/1991">1987-1991</unitdate></did>
           <odd>
             <p>(binder contains clippings, programs, photographs)</p>
           </odd>
@@ -163,35 +148,23 @@
         </odd>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [436781974099724278868]">3</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1951/1966">1951-1966</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [3962617842288292600877]">3</container>
+            <unitdate type="inclusive" normal="1951/1966">1951-1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [436781974099724278868]">3</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1966/1981">1966-1981</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [3962617842288292600877]">3</container>
+            <unitdate type="inclusive" normal="1966/1981">1966-1981</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [436781974099724278868]">3</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1981/1986">1981-1986</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [3962617842288292600877]">3</container>
+            <unitdate type="inclusive" normal="1981/1986">1981-1986</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [436781974099724278868]">3</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1986/1993">1986-1993</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [3962617842288292600877]">3</container>
+            <unitdate type="inclusive" normal="1986/1993">1986-1993</unitdate></did>
           <odd>
             <p>(continued in Historian's books)</p>
           </odd>
@@ -203,44 +176,32 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [05636526408949768368]">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1986/1990">1986-1990</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [4594583543925328423113]">4</container>
+            <unitdate type="inclusive" normal="1986/1990">1986-1990</unitdate></did>
           <odd>
             <p>(binder contains clippings, programs, directories, and business records)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [05636526408949768368]">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1990/1994">1990-1994</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [4594583543925328423113]">4</container>
+            <unitdate type="inclusive" normal="1990/1994">1990-1994</unitdate></did>
           <odd>
             <p>(binder contains clippings, programs, directories, and business records)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [05636526408949768368]">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1994/1997">1994-1997</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [4594583543925328423113]">4</container>
+            <unitdate type="inclusive" normal="1994/1997">1994-1997</unitdate></did>
           <odd>
             <p>(contains programs, newsletters, minutes, treasurer's reports, etc.)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [05636526408949768368]">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1997/1999">1997-1999</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [4594583543925328423113]">4</container>
+            <unitdate type="inclusive" normal="1997/1999">1997-1999</unitdate></did>
           <odd>
             <p>(contains programs, newsletters, minutes, treasurer's reports, etc.)</p>
           </odd>
@@ -252,35 +213,23 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [56601448715361580]">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1979/1989">1979-1989</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [198360464968761361]">5</container>
+            <unitdate type="inclusive" normal="1979/1989">1979-1989</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [56601448715361580]">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1989/1996">1989-1996</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [198360464968761361]">5</container>
+            <unitdate type="inclusive" normal="1989/1996">1989-1996</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [56601448715361580]">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1996/1997">1996-1997</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [198360464968761361]">5</container>
+            <unitdate type="inclusive" normal="1996/1997">1996-1997</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [56601448715361580]">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1997/1998">1997-1998</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [198360464968761361]">5</container>
+            <unitdate type="inclusive" normal="1997/1998">1997-1998</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -289,39 +238,33 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [084044491081468]">6</container>
-            <unittitle>Newsletters <unitdate type="inclusive" normal="1990/2000">1990-2000</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9863719344749252367]">6</container>
+            <unittitle>Newsletters</unittitle><unitdate type="inclusive" normal="1990/2000">1990-2000</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [084044491081468]">6</container>
-            <unittitle>Directories <unitdate type="inclusive" normal="1961/2001">1961-2001</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9863719344749252367]">6</container>
+            <unittitle>Directories</unittitle><unitdate type="inclusive" normal="1961/2001">1961-2001</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [084044491081468]">6</container>
-            <unittitle>Treasurer's book <unitdate type="inclusive" normal="1989/1992">1989-1992</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9863719344749252367]">6</container>
+            <unittitle>Treasurer's book</unittitle><unitdate type="inclusive" normal="1989/1992">1989-1992</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [084044491081468]">6</container>
-            <unittitle>Ledger and dues book <unitdate type="inclusive" normal="1951/1962">1951-1962</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9863719344749252367]">6</container>
+            <unittitle>Ledger and dues book</unittitle><unitdate type="inclusive" normal="1951/1962">1951-1962</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [084044491081468]">6</container>
-            <unittitle>Miscellaneous directories, clippings and informational materials <unitdate type="inclusive" normal="1950/1959" certainty="approximate">1950s</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9863719344749252367]">6</container>
+            <unittitle>Miscellaneous directories, clippings and informational materials</unittitle><unitdate type="inclusive" normal="1950/1959" certainty="approximate">1950s</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [084044491081468]">6</container>
-            <unittitle>Mary Bachman (?) (nominating committee chair, newsletter editor) record book <unitdate type="inclusive" normal="1983/1993">1983-1993</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9863719344749252367]">6</container>
+            <unittitle>Mary Bachman (?) (nominating committee chair, newsletter editor) record book</unittitle><unitdate type="inclusive" normal="1983/1993">1983-1993</unitdate></did>
           <odd>
             <p>(contains programs, newsletters, etc.)</p>
           </odd>

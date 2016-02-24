@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Murphy, John Francis, 1849-1926.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/4865">Murphy, John Francis, 1849-1926.</persname>
       </origination>
-      <unittitle encodinganalog="245">John Francis Murphy papers <unitdate type="inclusive" encodinganalog="245$f" normal="1883/1940">1883-1940</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">852024 Aa 2</unitid>
+      <unittitle encodinganalog="245">John Francis Murphy papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1883/1940">1883-1940</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">852024 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Father of Frank and George Murphy; correspondence and other papers.</abstract>
       <physdesc altrender="whole">
@@ -75,46 +75,38 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731">Democratic Party (Mich.)</corpname>
-        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1886.</subject>
-        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1888.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85115336">Harbor Beach (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Lawyers--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Taxation--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Law School.</corpname>
-        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731" ref="/agents/corporate_entities/3762">Democratic Party (Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6155">Elections--Michigan--1886.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9481">Elections--Michigan--1888.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85115336" ref="/subjects/1105">Harbor Beach (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5740">Lawyers--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6194">Taxation--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Law School.<term type="topical">Law School.</term></corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5715">World War, 1914-1918.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86025928">Murphy, Frank, 1890-1949.</persname>
-        <persname source="lcnaf" encodinganalog="700">Murphy, George, 1897-1961.</persname>
-        <persname source="lcnaf" encodinganalog="700">Murphy, Mary Brennan, d. 1924.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86025928" ref="/agents/people/5322">Murphy, Frank, 1890-1949.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/490">Murphy, George, 1897-1961.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/1908">Murphy, Mary Brennan, d. 1924.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Correspondence <unitdate type="inclusive" normal="1883/1940">1883-1940</unitdate></unittitle>
-        </did>
+          <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1883/1940">1883-1940</unitdate></did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3261154038776133210974]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1883/1918">1883-1918</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [537484842]">1</container>
+            <unitdate type="inclusive" normal="1883/1918">1883-1918</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">15 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0992174945977900887856]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1919/1940">1919-1940</unitdate>
-              <unitdate type="inclusive">undated</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [7596401944787765764]">2</container>
+            <unitdate type="inclusive" normal="1919/1940">1919-1940</unitdate><unitdate type="inclusive">undated</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">17 folders</extent>
             </physdesc>
           </did>
@@ -122,25 +114,21 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Other papers <unitdate type="inclusive" normal="1883/1920">1883-1920</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-        </did>
+          <unittitle>Other papers</unittitle><unitdate type="inclusive" normal="1883/1920">1883-1920</unitdate><unitdate type="inclusive">undated</unitdate></did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0992174945977900887856]">2</container>
-            <unittitle>Clippings, certificates, flyers, etc. <unitdate type="inclusive" normal="1889/1920">1889-1920</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7596401944787765764]">2</container>
+            <unittitle>Clippings, certificates, flyers, etc.</unittitle><unitdate type="inclusive" normal="1889/1920">1889-1920</unitdate><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0992174945977900887856]">2</container>
-            <unittitle>Miscellanea: docket book <unitdate type="inclusive" normal="1885">1885</unitdate> prayer book, picture of Mary Brennan Murphy, etc.</unittitle>
-          </did>
+            <container type="box" label="Box [7596401944787765764]">2</container>
+            <unittitle>Miscellanea: docket book prayer book, picture of Mary Brennan Murphy, etc.</unittitle><unitdate type="inclusive" normal="1885">1885</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0992174945977900887856]">2</container>
-            <unittitle>Miscellanea <unitdate type="inclusive">undated</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [7596401944787765764]">2</container>
+            <unittitle>Miscellanea</unittitle><unitdate type="inclusive">undated</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>

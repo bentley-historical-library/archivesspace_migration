@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,10 +40,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Martin, Julia Bird.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/7512">Martin, Julia Bird.</persname>
       </origination>
-      <unittitle encodinganalog="245">Julia Bird Martin papers <unitdate type="inclusive" encodinganalog="245$f" normal="1796/1965">1796-1965</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851848 Aa 2; Ac; UAx</unitid>
+      <unittitle encodinganalog="245">Julia Bird Martin papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1796/1965">1796-1965</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851848 Aa 2; Ac; UAx</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>The Slatford Bird families were residents of Ann Arbor, Michigan. Correspondence and family papers, including letters, 1851-1853, of John Slatford written from the California gold fields describing his activities.</abstract>
       <physdesc altrender="part">
@@ -88,33 +88,33 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">California--Gold discoveries.</geogname>
-        <geogname source="lcsh" encodinganalog="651">California--Social life and customs.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Washtenaw County (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Women--Michigan--Ann Arbor.</subject>
-        <persname source="lcnaf" encodinganalog="600">Martin, Julia Bird.</persname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219" ref="/subjects/856">Ann Arbor (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1294">California--Gold discoveries.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2290">California--Social life and customs.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/843">Washtenaw County (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5746">Women--Michigan--Ann Arbor.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/7512">Martin, Julia Bird.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600">Martin, Julia Bird.</persname>
-        <famname source="lcnaf" encodinganalog="600">Martin family.</famname>
-        <persname source="lcnaf" encodinganalog="600">Slatford, Hannah, 1796 or 97-1872.</persname>
-        <famname source="lcnaf" encodinganalog="600">Slatford family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/7512">Martin, Julia Bird.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/154">Martin family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2455">Slatford, Hannah, 1796 or 97-1872.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/384">Slatford family.</famname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Bird, John Chambres, 1822-1887.</persname>
-        <persname source="lcnaf" encodinganalog="700">Bird, Judson S., d. 1882.</persname>
-        <famname source="lcnaf" encodinganalog="700">Bird family.</famname>
-        <persname source="lcnaf" encodinganalog="700">Slatford, Job, 1795-1851.</persname>
-        <persname source="lcnaf" encodinganalog="700">Slatford, John, b. 1817.</persname>
-        <famname source="lcnaf" encodinganalog="700">Slatford family.</famname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/5944">Bird, John Chambres, 1822-1887.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/3897">Bird, Judson S., d. 1882.</persname>
+        <famname source="lcnaf" encodinganalog="700" ref="/agents/families/100">Bird family.</famname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/840">Slatford, Job, 1795-1851.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/5481">Slatford, John, b. 1817.</persname>
+        <famname source="lcnaf" encodinganalog="700" ref="/agents/families/384">Slatford family.</famname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="gmgpc" encodinganalog="655">Daguerreotypes.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3478">Daguerreotypes.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -131,114 +131,88 @@
           </odd>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5721041458748342]">1</container>
-              <unittitle>
-                <unitdate type="inclusive">Undated</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [491622021417141872541]">1</container>
+              <unitdate type="inclusive">Undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5721041458748342]">1</container>
-              <unittitle><unitdate type="inclusive">Undated</unitdate> fragments</unittitle>
-            </did>
+              <container type="box" label="Box [491622021417141872541]">1</container>
+              <unittitle>Fragments</unittitle><unitdate type="inclusive">Undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5721041458748342]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1796/1840">1796-1840</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [491622021417141872541]">1</container>
+              <unitdate type="inclusive" normal="1796/1840">1796-1840</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5721041458748342]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1841/1860">1841-1860</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [491622021417141872541]">1</container>
+              <unitdate type="inclusive" normal="1841/1860">1841-1860</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5721041458748342]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1861/1870">1861-1870</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [491622021417141872541]">1</container>
+              <unitdate type="inclusive" normal="1861/1870">1861-1870</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5721041458748342]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1871/1875">1871-1875</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [491622021417141872541]">1</container>
+              <unitdate type="inclusive" normal="1871/1875">1871-1875</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5721041458748342]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1876/1880">1876-1880</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [491622021417141872541]">1</container>
+              <unitdate type="inclusive" normal="1876/1880">1876-1880</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5721041458748342]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1881/1890">1881-1890</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [491622021417141872541]">1</container>
+              <unitdate type="inclusive" normal="1881/1890">1881-1890</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5721041458748342]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1891/1965">1891-1965</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [491622021417141872541]">1</container>
+              <unitdate type="inclusive" normal="1891/1965">1891-1965</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [14920740343276812074264]">2</container>
-            <unittitle>Correspondence and papers <unitdate type="inclusive" normal="1875/1898">1875-1898</unitdate> concerning Northern Pacific Railroad Company</unittitle>
-          </did>
+            <container type="box" label="Box [4129446087498092]">2</container>
+            <unittitle>Correspondence and papers concerning Northern Pacific Railroad Company</unittitle><unitdate type="inclusive" normal="1875/1898">1875-1898</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [14920740343276812074264]">2</container>
+            <container type="box" label="Box [4129446087498092]">2</container>
             <unittitle>Clippings concerning the Slatford Bird family of Ann Arbor</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [14920740343276812074264]">2</container>
+            <container type="box" label="Box [4129446087498092]">2</container>
             <unittitle>Clippings: largely newspaper front pages with announcements of assassinations of Lincoln, Garfield, etc.</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [14920740343276812074264]">2</container>
+            <container type="box" label="Box [4129446087498092]">2</container>
             <unittitle>Christmas cards and miscellaneous postcards</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [14920740343276812074264]">2</container>
+            <container type="box" label="Box [4129446087498092]">2</container>
             <unittitle>Miscellanea; include printed material</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [14920740343276812074264]">2</container>
+            <container type="box" label="Box [4129446087498092]">2</container>
             <unittitle>Notes and enlarged copies of selected family letters used by Professor Russell Bidlack in his research</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [14920740343276812074264]">2</container>
+            <container type="box" label="Box [4129446087498092]">2</container>
             <unittitle>James William Martin genealogical print-outs</unittitle>
           </did>
           <odd>
@@ -253,14 +227,14 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14920740343276812074264]">2</container>
+              <container type="box" label="Box [4129446087498092]">2</container>
               <unittitle>Family portraits</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <physloc>Vault</physloc>
-              <unittitle>daguerreotype of Hannah Slatford</unittitle>
+              <unittitle>Daguerreotype of Hannah Slatford</unittitle>
             </did>
           </c03>
         </c02>

@@ -18,8 +18,8 @@ def convert_ead_to_aspace_json(ead_dir, json_dir, migration_stats_dir, aspace_ur
         os.makedirs(migration_stats_dir)
         
     start_time = datetime.now()
-    converter_stats_file = join(migration_dir, 'ead_to_json_converter_stats.txt')
-    ead_to_json_errors = join(migration_dir, 'ead_to_json_errors.txt')
+    converter_stats_file = join(migration_stats_dir, 'ead_to_json_converter_stats.txt')
+    ead_to_json_errors = join(migration_stats_dir, 'ead_to_json_errors.txt')
     for txt_document in [converter_stats_file, ead_to_json_errors]:
         if os.path.exists(txt_document):
             os.remove(txt_document)
@@ -49,9 +49,9 @@ def convert_ead_to_aspace_json(ead_dir, json_dir, migration_stats_dir, aspace_ur
     converter_stats = """
 Script start time: {0}
 Script end time: {1}
-Script running time: {3}
-Conversion attempted on: {4} files
-Errors encountered in: {5} files""".format(script_start_time, script_end_time, script_running_time, str(attempts), str(errors))
+Script running time: {2}
+Conversion attempted on: {3} files
+Errors encountered in: {4} files""".format(script_start_time, script_end_time, script_running_time, attempts, errors)
     
     with open(converter_stats_file, 'w') as f:
         f.write(converter_stats)

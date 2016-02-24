@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">First Presbyterian Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/1416">First Presbyterian Church (Ann Arbor, Mich.)</corpname>
       </origination>
-      <unittitle encodinganalog="245">First Presbyterian Church (Ann Arbor, Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1872/1972">1872-1972</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">86799 Ba 2; UBAm; Ba Microcopy</unitid>
+      <unittitle encodinganalog="245">First Presbyterian Church (Ann Arbor, Mich.) records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1872/1972">1872-1972</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">86799 Ba 2; UBAm; Ba Microcopy</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Presbyterian church established in Ann Arbor, Michigan in 1826; session minutes, correspondence, miscellaneous other record books.</abstract>
       <physdesc altrender="part">
@@ -84,47 +84,40 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">United Presbyterian Church in the U.S.A.--Michigan--Ann Arbor.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Presbyterian Corporation of the University of Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Religion.</corpname>
-        <subject source="lcsh" encodinganalog="650">Women--Michigan--Ann Arbor--Societies and clubs.</subject>
-        <subject source="lcsh" encodinganalog="650">Youth--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Women--Religious life--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Youth--Religious life--Michigan--Ann Arbor.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219" ref="/subjects/856">Ann Arbor (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/84">United Presbyterian Church in the U.S.A.--Michigan--Ann Arbor.<term type="geographic">Michigan</term><term type="geographic">Ann Arbor.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4020">Presbyterian Corporation of the University of Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Religion.<term type="topical">Religion.</term></corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5675">Women--Michigan--Ann Arbor--Societies and clubs.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6305">Youth--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6306">Women--Religious life--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6307">Youth--Religious life--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <geogname source="lctgm" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)--Churches.</geogname>
-        <subject source="lctgm" encodinganalog="650">Churches--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">First Presbyterian Church (Ann Arbor, Mich.)</corpname>
-        <subject source="lctgm" encodinganalog="650">Presbyterian churches--Michigan--Ann Arbor.</subject>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/207">Ann Arbor (Mich.)--Churches.</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3589">Churches--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1416">First Presbyterian Church (Ann Arbor, Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4338">Presbyterian churches--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Session minutes <unitdate type="inclusive" normal="1872/1972">1872-1972</unitdate></unittitle>
-        </did>
+          <unittitle>Session minutes</unittitle><unitdate type="inclusive" normal="1872/1972">1872-1972</unitdate></did>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [07669204639811038366]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1872-05-03/1957-01-08">May 3, 1872-January 8, 1957</unitdate>
-            </unittitle>
-          </did>
+            <container type="reel" label="Roll [3588388664042635334626]">1</container>
+            <unitdate type="inclusive" normal="1872-05-03/1957-01-08">May 3, 1872-January 8, 1957</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [00646840448982736568421]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1957-01-31/1972-01-13">January 31, 1957-January 13, 1972</unitdate>
-            </unittitle>
-          </did>
+            <container type="reel" label="Roll [7122876499506321613567]">2</container>
+            <unitdate type="inclusive" normal="1957-01-31/1972-01-13">January 31, 1957-January 13, 1972</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -133,26 +126,21 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [11313481494128453]">1</container>
-            <unittitle>Historical sketch <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [941546148449195608]">1</container>
+            <unittitle>Historical sketch</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [11313481494128453]">1</container>
-            <unittitle>Papers, undated <unitdate type="inclusive" normal="1887/1895">1887-1895</unitdate>, <unitdate type="inclusive" normal="1903/1929-06">1903-June 1929</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [941546148449195608]">1</container>
+            <unittitle>Papers, undated</unittitle><unitdate type="inclusive" normal="1887/1895">1887-1895</unitdate><unitdate type="inclusive" normal="1903/1929-06">1903-June 1929</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">17 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2106040589346227118]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1929-07/1959">July 1929-1959</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [481665747680456959]">2</container>
+            <unitdate type="inclusive" normal="1929-07/1959">July 1929-1959</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">24 folders</extent>
             </physdesc>
           </did>
@@ -164,21 +152,18 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2106040589346227118]">2</container>
-            <unittitle>Minute book of the First Presbyterian Society <unitdate type="inclusive" normal="1883/1908">1883-1908</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [481665747680456959]">2</container>
+            <unittitle>Minute book of the First Presbyterian Society</unittitle><unitdate type="inclusive" normal="1883/1908">1883-1908</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2106040589346227118]">2</container>
-            <unittitle>Secretary's Record of the Women's Foreign Missionary Society <unitdate type="inclusive" normal="1915/1926">1915-1926</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [481665747680456959]">2</container>
+            <unittitle>Secretary's Record of the Women's Foreign Missionary Society</unittitle><unitdate type="inclusive" normal="1915/1926">1915-1926</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2106040589346227118]">2</container>
-            <unittitle>Christian Endeavor Society records <unitdate type="inclusive" normal="1897/1910">1897-1910</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [481665747680456959]">2</container>
+            <unittitle>Christian Endeavor Society records</unittitle><unitdate type="inclusive" normal="1897/1910">1897-1910</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -186,28 +171,24 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [00766886442813360046538456]">3</container>
-              <unittitle>Minute book <unitdate type="inclusive" normal="1890/1917">1890-1917</unitdate> (TPHA)</unittitle>
-            </did>
+              <container type="box" label="Box [544249688677985376]">3</container>
+              <unittitle>Minute book (TPHA)</unittitle><unitdate type="inclusive" normal="1890/1917">1890-1917</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [00766886442813360046538456]">3</container>
-              <unittitle>Minute book <unitdate type="inclusive" normal="1917/1923">1917-1923</unitdate> (TPHA)</unittitle>
-            </did>
+              <container type="box" label="Box [544249688677985376]">3</container>
+              <unittitle>Minute book (TPHA)</unittitle><unitdate type="inclusive" normal="1917/1923">1917-1923</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [00766886442813360046538456]">3</container>
-              <unittitle>Records <unitdate type="inclusive" normal="1922/1933">1922-1933</unitdate> (UMPC)</unittitle>
-            </did>
+              <container type="box" label="Box [544249688677985376]">3</container>
+              <unittitle>Records (UMPC)</unittitle><unitdate type="inclusive" normal="1922/1933">1922-1933</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [00766886442813360046538456]">3</container>
-            <unittitle>Westminster Guild records <unitdate type="inclusive" normal="1949/1953">1949-1953</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [544249688677985376]">3</container>
+            <unittitle>Westminster Guild records</unittitle><unitdate type="inclusive" normal="1949/1953">1949-1953</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -218,13 +199,13 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [00766886442813360046538456]">3</container>
+            <container type="box" label="Box [544249688677985376]">3</container>
             <unittitle>Photographs of exterior of church buildings and miscellaneous</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Oversize Folder [61125439686769402]" type="folder">UBAm</container>
+            <container label="Oversize Folder [6836416477939595927]" type="folder">UBAm</container>
             <unittitle>Church personalities</unittitle>
           </did>
         </c02>

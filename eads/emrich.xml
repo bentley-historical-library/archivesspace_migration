@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,10 +43,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n85347137">Emrich, Richard S. M. (Richard Stanley Merrill), 1910-</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n85347137" ref="/agents/people/244">Emrich, Richard S. M. (Richard Stanley Merrill), 1910-</persname>
       </origination>
-      <unittitle encodinganalog="245">Richard S. M. Emrich Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1940/1990" certainty="approximate">1940s-1990</unitdate></unittitle>
-      <abstract>Episcopal bishop of Michigan. Scrapbooks and notebooks containing newspaper clippings; photographs relating to his church career, clippings of newspaper columns containing his views on current events, and copies of addresses and sermons.</abstract>
+      <unittitle encodinganalog="245">Richard S. M. Emrich Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1940/1990" certainty="approximate">1940s-1990</unitdate><abstract>Episcopal bishop of Michigan. Scrapbooks and notebooks containing newspaper clippings; photographs relating to his church career, clippings of newspaper columns containing his views on current events, and copies of addresses and sermons.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">851214 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -85,28 +85,28 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Clergy--Michigan--Detroit.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85347137">Emrich, Richard S. M. (Richard Stanley Merrill), 1910-</persname>
-        <corpname source="lcnaf" encodinganalog="610">Episcopal Church.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Episcopal Church--Michigan.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7418">Clergy--Michigan--Detroit.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85347137" ref="/agents/people/244">Emrich, Richard S. M. (Richard Stanley Merrill), 1910-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/805">Episcopal Church.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/805">Episcopal Church--Michigan.<term type="geographic">Michigan.</term></corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <subject source="lctgm" encodinganalog="650">Anglican churches.</subject>
-        <subject source="lctgm" encodinganalog="650">Church schools--Michigan.</subject>
-        <subject source="lctgm" encodinganalog="650">Churches.</subject>
-        <subject source="lctgm" encodinganalog="650">Clergymen.</subject>
-        <famname source="lcnaf" encodinganalog="600">Emrich family.</famname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85347137">Emrich, Richard S. M. (Richard Stanley Merrill), 1910-</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85813454">Episcopal Church. Diocese of Michigan.</corpname>
-        <geogname source="lcsh" encodinganalog="651">Japan.</geogname>
-        <subject source="lctgm" encodinganalog="650">Religious services.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4259">Anglican churches.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4260">Church schools--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3947">Churches.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3739">Clergymen.</subject>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/29">Emrich family.</famname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85347137" ref="/agents/people/244">Emrich, Richard S. M. (Richard Stanley Merrill), 1910-</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85813454" ref="/agents/corporate_entities/2433">Episcopal Church. Diocese of Michigan.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/944">Japan.</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4261">Religious services.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">DVDs.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="aat" encodinganalog="655">Scrapbooks.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3155">DVDs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3133">Scrapbooks.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -116,13 +116,13 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [80558014681681511770]">1</container>
+            <container type="box" label="Box [304964044149850409161]">1</container>
             <unittitle>Awards, citations, and personal</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [80558014681681511770]">1</container>
+            <container type="box" label="Box [304964044149850409161]">1</container>
             <unittitle>Correspondence</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -131,13 +131,13 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [80558014681681511770]">1</container>
+            <container type="box" label="Box [304964044149850409161]">1</container>
             <unittitle>Lambeth Conference</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [80558014681681511770]">1</container>
+            <container type="box" label="Box [304964044149850409161]">1</container>
             <unittitle>Newspaper Clippings</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
@@ -150,19 +150,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [80558014681681511770]">1</container>
-              <unittitle>
-                <unitdate>undated</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [304964044149850409161]">1</container>
+              <unitdate>undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [80558014681681511770]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1974/1979">1974-1979</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [304964044149850409161]">1</container>
+              <unitdate type="inclusive" normal="1974/1979">1974-1979</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">5 folders</extent>
               </physdesc>
             </did>
@@ -170,7 +164,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [80558014681681511770]">1</container>
+            <container type="box" label="Box [304964044149850409161]">1</container>
             <unittitle>Miscellaneous</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
@@ -179,21 +173,19 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [80558014681681511770]">1</container>
+            <container type="box" label="Box [304964044149850409161]">1</container>
             <unittitle>Pastoral letters</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [80558014681681511770]">1</container>
-            <unittitle>Report from the Bishop, European Tour <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [304964044149850409161]">1</container>
+            <unittitle>Report from the Bishop, European Tour</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [80558014681681511770]">1</container>
-            <unittitle>West Branch Trinity Church <unitdate type="inclusive" normal="1946">1946</unitdate>, <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [304964044149850409161]">1</container>
+            <unittitle>West Branch Trinity Church</unittitle><unitdate type="inclusive" normal="1946">1946</unitdate><unitdate type="inclusive" normal="1968">1968</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -205,7 +197,7 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [80558014681681511770]">1</container>
+            <container type="box" label="Box [304964044149850409161]">1</container>
             <unittitle>
               <genreform source="aat" normal="Photographs">Photographs</genreform>
             </unittitle>
@@ -213,7 +205,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [80558014681681511770]">1</container>
+            <container type="box" label="Box [304964044149850409161]">1</container>
             <unittitle>Photographs of Michigan P. E. Churches</unittitle>
           </did>
         </c02>
@@ -223,8 +215,7 @@
           </did>
           <c03 level="item">
             <did>
-              <unittitle>Bishop Emrich on WWJ-TV <unitdate type="inclusive" normal="1961-09-22">September 22, 1961</unitdate></unittitle>
-              <unitid>851214-1</unitid>
+              <unittitle>Bishop Emrich on WWJ-TV</unittitle><unitdate type="inclusive" normal="1961-09-22">September 22, 1961</unitdate><unitid>851214-1</unitid>
             </did>
             <c04 level="otherlevel" otherlevel="item-part">
               <did>
@@ -239,7 +230,7 @@
             </c04>
             <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <container type="box" label="DVD Box [127738747759571]">1</container>
+                <container type="box" label="DVD Box [02434070491619292780017]">1</container>
                 <unittitle>Use Copy:</unittitle>
                 <physdesc>
                   <physfacet>DVD</physfacet>
@@ -266,15 +257,13 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [572549447295185808164]">6</container>
-            <unittitle>Articles and Commentaries <unitdate type="inclusive" normal="1950/1969" certainty="approximate">1950s-1960s</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [8111154938967425931607]">6</container>
+            <unittitle>Articles and Commentaries</unittitle><unitdate type="inclusive" normal="1950/1969" certainty="approximate">1950s-1960s</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [572549447295185808164]">6</container>
-            <unittitle>Journal <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [8111154938967425931607]">6</container>
+            <unittitle>Journal</unittitle><unitdate type="inclusive" normal="1951">1951</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -286,38 +275,30 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [572549447295185808164]">6</container>
-                <unittitle>
-                  <unitdate>Undated</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [8111154938967425931607]">6</container>
+                <unitdate>Undated</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [572549447295185808164]">6</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1951/1971">1951-1971</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [8111154938967425931607]">6</container>
+                <unitdate type="inclusive" normal="1951/1971">1951-1971</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">5 folders</extent>
                 </physdesc>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [572549447295185808164]">6</container>
-                <unittitle>Civil Rights <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [8111154938967425931607]">6</container>
+                <unittitle>Civil Rights</unittitle><unitdate type="inclusive" normal="1957">1957</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [572549447295185808164]">6</container>
-                <unittitle>Reinecker Lectures <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [8111154938967425931607]">6</container>
+                <unittitle>Reinecker Lectures</unittitle><unitdate type="inclusive" normal="1951">1951</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [572549447295185808164]">6</container>
+                <container type="box" label="Box [8111154938967425931607]">6</container>
                 <unittitle>Addresses, various dates</unittitle>
               </did>
             </c04>
@@ -328,22 +309,16 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [572549447295185808164]">6</container>
-                <unittitle>
-                  <unitdate>undated</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [8111154938967425931607]">6</container>
+                <unitdate>undated</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [572549447295185808164]">6</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1949/1990">1949-1990</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [8111154938967425931607]">6</container>
+                <unitdate type="inclusive" normal="1949/1990">1949-1990</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">8 folders</extent>
                 </physdesc>
               </did>
@@ -352,7 +327,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [572549447295185808164]">6</container>
+            <container type="box" label="Box [8111154938967425931607]">6</container>
             <unittitle>Pamphlets</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -368,54 +343,47 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [202461477497143724717296]">2</container>
-            <unittitle>Newspaper Column <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [097240453472728081011]">2</container>
+            <unittitle>Newspaper Column</unittitle><unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">8 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5965622024087234900173]">3</container>
-            <unittitle>Newspaper Column <unitdate type="inclusive" normal="1971/1973">1971-1973</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [4082615140182728561082]">3</container>
+            <unittitle>Newspaper Column</unittitle><unitdate type="inclusive" normal="1971/1973">1971-1973</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">8 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5100026865477928961401]">4</container>
-            <unittitle>General career and newspaper column <unitdate type="inclusive" normal="1957/1967">1957-1967</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [39203331447339313]">4</container>
+            <unittitle>General career and newspaper column</unittitle><unitdate type="inclusive" normal="1957/1967">1957-1967</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">8 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2192389241565267791517]">5</container>
-            <unittitle>Gift of Osaka, Japan, Diocese <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7278504683964970962073]">5</container>
+            <unittitle>Gift of Osaka, Japan, Diocese</unittitle><unitdate type="inclusive" normal="1951">1951</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2192389241565267791517]">5</container>
-            <unittitle>Gift of All Saints of Brooklyn, Michigan <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7278504683964970962073]">5</container>
+            <unittitle>Gift of All Saints of Brooklyn, Michigan</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2192389241565267791517]">5</container>
-            <unittitle>Newspaper Column <unitdate type="inclusive" normal="1967">1967</unitdate> and other</unittitle>
-          </did>
+            <container type="box" label="Box [7278504683964970962073]">5</container>
+            <unittitle>Newspaper Column and other</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2192389241565267791517]">5</container>
-            <unittitle>Personal <unitdate type="inclusive" normal="1946/1951">1946-1951</unitdate></unittitle>
-            <physdesc altrender="part">
+            <container type="box" label="Box [7278504683964970962073]">5</container>
+            <unittitle>Personal</unittitle><unitdate type="inclusive" normal="1946/1951">1946-1951</unitdate><physdesc altrender="part">
               <extent altrender="materialtype spaceoccupied">1 volumes</extent>
             </physdesc>
             <physdesc altrender="part">
@@ -435,9 +403,8 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2192389241565267791517]">5</container>
-            <unittitle>Cassette sound tape of oral interview <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
-            <physdesc altrender="part">
+            <container type="box" label="Box [7278504683964970962073]">5</container>
+            <unittitle>Cassette sound tape of oral interview</unittitle><unitdate type="inclusive" normal="1984">1984</unitdate><physdesc altrender="part">
               <extent altrender="materialtype spaceoccupied">1 audiocassettes</extent>
             </physdesc>
             <physdesc altrender="part">

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Cudlip, William B., 1904-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/3148">Cudlip, William B., 1904-</persname>
       </origination>
-      <unittitle encodinganalog="245">William B. Cudlip papers <unitdate type="inclusive" encodinganalog="245$f" normal="1922/1985">1922-1985</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851032 Aa 2</unitid>
+      <unittitle encodinganalog="245">William B. Cudlip papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1922/1985">1922-1985</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851032 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Detroit, Michigan, attorney, Republican regent of University of Michigan; regent’s files; political materials; and personal miscellanea.</abstract>
       <physdesc altrender="whole">
@@ -78,162 +78,130 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Banks and banking--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Depressions--1929--Michigan.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539">Detroit (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no89013050">Fleming, R. W. (Robben Wright), 1916-2010.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50033375">Hatcher, Harlan, 1898-1998.</persname>
-        <subject source="lcsh" encodinganalog="650">Lawyers--Michigan--Detroit.</subject>
-        <subject source="lcsh" encodinganalog="650">Logging--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87943886">Michigan Bankers Association.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n91059253">Michigan. Constitutional Convention (1961-1962)</corpname>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1929-1938.</geogname>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1939-1945.</geogname>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1946-1960.</geogname>
-        <subject source="lcsh" encodinganalog="650">Presidents--United States--Election--1940.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
-        <geogname source="lcsh" encodinganalog="651">United States--Politics and government--1933-1945.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998">University of Michigan. Board of Regents.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Law School. Class of 1926.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Student notebooks.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008089479">Cudlip, William B., 1904-1988</persname>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Politics and government--1837-1950.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Politics and government--1951-</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6504">Banks and banking--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5946">Depressions--1929--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539" ref="/subjects/929">Detroit (Mich.)</geogname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no89013050" ref="/agents/people/1273">Fleming, R. W. (Robben Wright), 1916-2010.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50033375" ref="/agents/people/2154">Hatcher, Harlan, 1898-1998.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6440">Lawyers--Michigan--Detroit.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6776">Logging--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87943886" ref="/agents/corporate_entities/2867">Michigan Bankers Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n91059253" ref="/agents/corporate_entities/767">Michigan. Constitutional Convention (1961-1962)</corpname>
+        <geogname source="local" encodinganalog="691" ref="/subjects/799">Michigan--Politics and government--1929-1938.</geogname>
+        <geogname source="local" encodinganalog="691" ref="/subjects/808">Michigan--Politics and government--1939-1945.</geogname>
+        <geogname source="local" encodinganalog="691" ref="/subjects/805">Michigan--Politics and government--1946-1960.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7028">Presidents--United States--Election--1940.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4055">Republican Party (Mich.)</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/961">United States--Politics and government--1933-1945.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998" ref="/agents/corporate_entities/858">University of Michigan. Board of Regents.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3691">University of Michigan. Law School. Class of 1926.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Student notebooks.<term type="topical">Student notebooks.</term></corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008089479" ref="/agents/people/4871">Cudlip, William B., 1904-1988</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/880">Michigan--Politics and government--1837-1950.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/906">Michigan--Politics and government--1951-</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname source="lcnaf" encodinganalog="610">Barristers Society (University of Michigan)</corpname>
-        <subject source="lctgm" encodinganalog="650">Buildings--Michigan--Marquette.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008089479">Cudlip, William B., 1904-1988</persname>
-        <corpname source="lcnaf" encodinganalog="610">Detroit Club.</corpname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79034579">Iron Mountain (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85166852">Lake Shore, inc.</corpname>
-        <geogname source="lctgm" encodinganalog="650">Marquette (Mich.)--Buildings.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n91059253">Michigan. Constitutional Convention (1961-1962)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998">University of Michigan. Board of Regents.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Law School. Class of 1926.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3508">Barristers Society (University of Michigan)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4136">Buildings--Michigan--Marquette.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008089479" ref="/agents/people/4871">Cudlip, William B., 1904-1988</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2194">Detroit Club.</corpname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79034579" ref="/subjects/1126">Iron Mountain (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85166852" ref="/agents/corporate_entities/4589">Lake Shore, inc.</corpname>
+        <geogname source="lctgm" encodinganalog="650" ref="/subjects/272">Marquette (Mich.)--Buildings.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n91059253" ref="/agents/corporate_entities/767">Michigan. Constitutional Convention (1961-1962)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998" ref="/agents/corporate_entities/858">University of Michigan. Board of Regents.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3691">University of Michigan. Law School. Class of 1926.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50045033">Vandenberg, Arthur H. (Arthur Hendrick), 1884-1951.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50045033" ref="/agents/people/3635">Vandenberg, Arthur H. (Arthur Hendrick), 1884-1951.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Regental papers <unitdate type="inclusive" normal="1963/1972">1963-1972</unitdate></unittitle>
-        </did>
+          <unittitle>Regental papers</unittitle><unitdate type="inclusive" normal="1963/1972">1963-1972</unitdate></did>
         <c02 level="file">
           <did>
             <unittitle>Yearly files</unittitle>
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6293315974593450124432810]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1963">1963</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [1603546494265005652]">1</container>
+              <unitdate type="inclusive" normal="1963">1963</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6293315974593450124432810]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1964">1964</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [1603546494265005652]">1</container>
+              <unitdate type="inclusive" normal="1964">1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6293315974593450124432810]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1965">1965</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [1603546494265005652]">1</container>
+              <unitdate type="inclusive" normal="1965">1965</unitdate></did>
             <odd>
               <p>(folder 1 of 2)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [21251065824099660702583]">2</container>
-              <unittitle><unitdate type="inclusive" normal="1965">1965</unitdate> (folder 2 of 2)</unittitle>
-            </did>
+              <container type="box" label="Box [0842769842387570782051]">2</container>
+              <unittitle>(folder 2 of 2)</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [21251065824099660702583]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1966">1966</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [0842769842387570782051]">2</container>
+              <unitdate type="inclusive" normal="1966">1966</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [21251065824099660702583]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1967">1967</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [0842769842387570782051]">2</container>
+              <unitdate type="inclusive" normal="1967">1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [01130034844194109068886]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1968">1968</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [50908505694514170]">3</container>
+              <unitdate type="inclusive" normal="1968">1968</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [01130034844194109068886]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1969">1969</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [50908505694514170]">3</container>
+              <unitdate type="inclusive" normal="1969">1969</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [69861821752471808368043]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1970">1970</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [75768343897858205]">4</container>
+              <unitdate type="inclusive" normal="1970">1970</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [69861821752471808368043]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1971">1971</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [75768343897858205]">4</container>
+              <unitdate type="inclusive" normal="1971">1971</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [005181812944482360739808]">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1972">1972</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [288903044592960650669641]">5</container>
+              <unitdate type="inclusive" normal="1972">1972</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -249,39 +217,33 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [005181812944482360739808]">5</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1967">1967</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [288903044592960650669641]">5</container>
+                <unitdate type="inclusive" normal="1967">1967</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [005181812944482360739808]">5</container>
+                <container type="box" label="Box [288903044592960650669641]">5</container>
                 <unittitle>Special Assignments</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [005181812944482360739808]">5</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1968">1968</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [288903044592960650669641]">5</container>
+                <unitdate type="inclusive" normal="1968">1968</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [005181812944482360739808]">5</container>
+              <container type="box" label="Box [288903044592960650669641]">5</container>
               <unittitle>University of Michigan-Hospital Study and Advisory Committee</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [005181812944482360739808]">5</container>
+              <container type="box" label="Box [288903044592960650669641]">5</container>
               <unittitle>University of Michigan By-laws</unittitle>
             </did>
             <odd>
@@ -290,7 +252,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6723665497941564963]">6</container>
+              <container type="box" label="Box [64026644704970396594]">6</container>
               <unittitle>University of Michigan By-laws</unittitle>
             </did>
             <odd>
@@ -299,56 +261,52 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6723665497941564963]">6</container>
-              <unittitle>Lawyers Club <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [64026644704970396594]">6</container>
+              <unittitle>Lawyers Club</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6723665497941564963]">6</container>
+              <container type="box" label="Box [64026644704970396594]">6</container>
               <unittitle>Regental Committee on Administrative Salaries</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6723665497941564963]">6</container>
-              <unittitle>Regents Salary Committee <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [64026644704970396594]">6</container>
+              <unittitle>Regents Salary Committee</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6723665497941564963]">6</container>
+              <container type="box" label="Box [64026644704970396594]">6</container>
               <unittitle>Johnson v. The University of Michigan (Indian Treaty Case)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6723665497941564963]">6</container>
+              <container type="box" label="Box [64026644704970396594]">6</container>
               <unittitle>Flint College</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Selection of president <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-            </did>
+              <unittitle>Selection of president</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6723665497941564963]">6</container>
+                <container type="box" label="Box [64026644704970396594]">6</container>
                 <unittitle>General</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6723665497941564963]">6</container>
+                <container type="box" label="Box [64026644704970396594]">6</container>
                 <unittitle>Candidates file</unittitle>
               </did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6723665497941564963]">6</container>
-              <unittitle>BAM strike <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [64026644704970396594]">6</container>
+              <unittitle>BAM strike</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -357,44 +315,36 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6723665497941564963]">6</container>
-              <unittitle>Candidacy <unitdate type="inclusive" normal="1944/1945">1944-1945</unitdate> (letters)</unittitle>
-            </did>
+              <container type="box" label="Box [64026644704970396594]">6</container>
+              <unittitle>Candidacy (letters)</unittitle><unitdate type="inclusive" normal="1944/1945">1944-1945</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6723665497941564963]">6</container>
-              <unittitle>Campaign flyers/mailings <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [64026644704970396594]">6</container>
+              <unittitle>Campaign flyers/mailings</unittitle><unitdate type="inclusive" normal="1955">1955</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6723665497941564963]">6</container>
-              <unittitle>Candidacy for regent of The University of Michigan <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [64026644704970396594]">6</container>
+              <unittitle>Candidacy for regent of The University of Michigan</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6723665497941564963]">6</container>
-              <unittitle>Congratulatory letters <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [64026644704970396594]">6</container>
+              <unittitle>Congratulatory letters</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate></did>
           </c03>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Personal correspondence <unitdate type="inclusive" normal="1922/1985">1922-1985</unitdate></unittitle>
-        </did>
+          <unittitle>Personal correspondence</unittitle><unitdate type="inclusive" normal="1922/1985">1922-1985</unitdate></did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2000842727418463]">7</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1922/1985">1922-1985</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [356205449386981454494]">7</container>
+            <unitdate type="inclusive" normal="1922/1985">1922-1985</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">11 folders</extent>
             </physdesc>
           </did>
@@ -402,13 +352,11 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Michigan Constitutional Convention material <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></unittitle>
-        </did>
+          <unittitle>Michigan Constitutional Convention material</unittitle><unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2000842727418463]">7</container>
-            <unittitle>Printed material and election data <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [356205449386981454494]">7</container>
+            <unittitle>Printed material and election data</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -416,34 +364,24 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2000842727418463]">7</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1961-02/1961-09">February-September, 1961</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [356205449386981454494]">7</container>
+              <unitdate type="inclusive" normal="1961-02/1961-09">February-September, 1961</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2000842727418463]">7</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1961-10/1961-12">October-December, 1961</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [356205449386981454494]">7</container>
+              <unitdate type="inclusive" normal="1961-10/1961-12">October-December, 1961</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2000842727418463]">7</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1962/1964">1962-1964</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [356205449386981454494]">7</container>
+              <unitdate type="inclusive" normal="1962/1964">1962-1964</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2000842727418463]">7</container>
-            <unittitle>Style and Drafting Committee <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [356205449386981454494]">7</container>
+            <unittitle>Style and Drafting Committee</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -451,19 +389,19 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2000842727418463]">7</container>
+              <container type="box" label="Box [356205449386981454494]">7</container>
               <unittitle>Anti-constitutional Convention</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2000842727418463]">7</container>
+              <container type="box" label="Box [356205449386981454494]">7</container>
               <unittitle>Republican Party delegates</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2000842727418463]">7</container>
+              <container type="box" label="Box [356205449386981454494]">7</container>
               <unittitle>General</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">5 folders</extent>
@@ -473,13 +411,13 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2000842727418463]">7</container>
+            <container type="box" label="Box [356205449386981454494]">7</container>
             <unittitle>Paper, "The Function of the States"</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2000842727418463]">7</container>
+            <container type="box" label="Box [356205449386981454494]">7</container>
             <unittitle>Miscellaneous speeches (include related correspondence)</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
@@ -489,13 +427,11 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Republican politics <unitdate type="inclusive" normal="1931/1951">1931-1951</unitdate></unittitle>
-        </did>
+          <unittitle>Republican politics</unittitle><unitdate type="inclusive" normal="1931/1951">1931-1951</unitdate></did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [273913134649775143206]">8</container>
-            <unittitle>Political correspondence <unitdate type="inclusive" normal="1936/1947">1936-1947</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [4861595048156469472332]">8</container>
+            <unittitle>Political correspondence</unittitle><unitdate type="inclusive" normal="1936/1947">1936-1947</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
             </physdesc>
           </did>
@@ -509,11 +445,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [273913134649775143206]">8</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1932/1951">1932-1951</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [4861595048156469472332]">8</container>
+              <unitdate type="inclusive" normal="1932/1951">1932-1951</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">4 folders</extent>
               </physdesc>
             </did>
@@ -526,79 +459,74 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [273913134649775143206]">8</container>
+            <container type="box" label="Box [4861595048156469472332]">8</container>
             <unittitle>Biographical/personal</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [273913134649775143206]">8</container>
+            <container type="box" label="Box [4861595048156469472332]">8</container>
             <unittitle>Clippings</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [273913134649775143206]">8</container>
-            <unittitle>Speeches <unitdate type="inclusive" normal="1926/1969" certainty="approximate">1926-1960s</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [4861595048156469472332]">8</container>
+            <unittitle>Speeches</unittitle><unitdate type="inclusive" normal="1926/1969" certainty="approximate">1926-1960s</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [273913134649775143206]">8</container>
-            <unittitle>Speech <unitdate type="inclusive" normal="1970">1970</unitdate>: Iron Mountain Man of the Year award (and related papers)</unittitle>
-          </did>
+            <container type="box" label="Box [4861595048156469472332]">8</container>
+            <unittitle>Speech : Iron Mountain Man of the Year award (and related papers)</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [273913134649775143206]">8</container>
-            <unittitle>Articles and statements <unitdate type="inclusive" normal="1930/1939" certainty="approximate">1930s</unitdate> (primarily concerning banking)</unittitle>
-          </did>
+            <container type="box" label="Box [4861595048156469472332]">8</container>
+            <unittitle>Articles and statements (primarily concerning banking)</unittitle><unitdate type="inclusive" normal="1930/1939" certainty="approximate">1930s</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [273913134649775143206]">8</container>
-            <unittitle>Article <unitdate type="inclusive" normal="1942">1942</unitdate>: "Some legal aspects of guaranteed war loans" (and related correspondence)</unittitle>
-          </did>
+            <container type="box" label="Box [4861595048156469472332]">8</container>
+            <unittitle>Article : "Some legal aspects of guaranteed war loans" (and related correspondence)</unittitle><unitdate type="inclusive" normal="1942">1942</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [273913134649775143206]">8</container>
+            <container type="box" label="Box [4861595048156469472332]">8</container>
             <unittitle>Essay: "Pages from the diary of a lumberjack"</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [273913134649775143206]">8</container>
+            <container type="box" label="Box [4861595048156469472332]">8</container>
             <unittitle>Essays (miscellaneous)</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [273913134649775143206]">8</container>
+            <container type="box" label="Box [4861595048156469472332]">8</container>
             <unittitle>Michigan Bankers Association (programs and miscellaneous)</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [273913134649775143206]">8</container>
+            <container type="box" label="Box [4861595048156469472332]">8</container>
             <unittitle>Swarthmore College student papers</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [273913134649775143206]">8</container>
+            <container type="box" label="Box [4861595048156469472332]">8</container>
             <unittitle>University of Michigan student paper</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [273913134649775143206]">8</container>
-            <unittitle><genreform normal="Photographs">Photographs</genreform> relating to Cudlip's activities as regent of the University of Michigan, <unitdate type="inclusive" normal="1963/1972">1963-1972</unitdate>, to his work as delegate to Michigan's Constitutional Convention, <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate>, and to other professional interests.</unittitle>
-          </did>
+            <container type="box" label="Box [4861595048156469472332]">8</container>
+            <unittitle><genreform normal="Photographs">Photographs</genreform> relating to Cudlip's activities as regent of the University of Michigan, 1963-1972, to his work as delegate to Michigan's Constitutional Convention, 1961-1962, and to other professional interests.</unittitle><unitdate type="inclusive" normal="1963/1972">1963-1972</unitdate><unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2565826410903314783]">9</container>
+            <container type="box" label="Box [98283593394448990278]">9</container>
             <unittitle>University of Michigan Law School notebooks</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>

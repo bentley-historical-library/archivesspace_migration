@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Mielke, William R.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/6414">Mielke, William R.</persname>
       </origination>
-      <unittitle encodinganalog="245">William R. Mielke papers <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1919">1918-1919</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="2013">2013</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2013163 Aa3</unitid>
+      <unittitle encodinganalog="245">William R. Mielke papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1918/1919">1918-1919</unitdate><unitdate type="inclusive" encodinganalog="245$f" normal="2013">2013</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2013163 Aa3</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Michigan-born member of U.S. Army Co. I, 339th Infantry; served with the U.S. Polar Bear Expedition in Archangel, Russia. Collection includes Mielke's service records, a digital photograph of his grave marker, and digitized images of his service diary</abstract>
       <physdesc altrender="whole">
@@ -84,23 +84,23 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Mielke, William R.</persname>
-        <subject source="lcsh" encodinganalog="650">Soldiers--American--Russia (Federation)</subject>
-        <geogname source="lcsh" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2013088921">United States. Army. Infantry, 339th. Company I.</corpname>
-        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
-        <subject source="local" encodinganalog="690">Polar Bear Expedition.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6414">Mielke, William R.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6132">Soldiers--American--Russia (Federation)</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/879">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2013088921" ref="/agents/corporate_entities/3593">United States. Army. Infantry, 339th. Company I.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5715">World War, 1914-1918.</subject>
+        <subject source="local" encodinganalog="690" ref="/subjects/3516">Polar Bear Expedition.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Diaries.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3145">Diaries.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
           <unittitle>Military Service</unittitle>
-          <dao href="mielke0001">
+          <dao href="mielke0001" ref="/repositories/2/digital_objects/10518">
             <daodesc>
               <p>[view items]</p>
             </daodesc>
@@ -109,13 +109,11 @@
         <c02 level="file">
           <did>
             <physloc>Online</physloc>
-            <unittitle>Diary <unitdate type="inclusive" normal="1918/1919">1918-1919</unitdate></unittitle>
-          </did>
+            <unittitle>Diary</unittitle><unitdate type="inclusive" normal="1918/1919">1918-1919</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Gravesite <unitdate type="inclusive" normal="2013">2013</unitdate></unittitle>
-          </did>
+            <unittitle>Gravesite</unittitle><unitdate type="inclusive" normal="2013">2013</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -123,13 +121,11 @@
           </did>
           <c03 level="file">
             <did>
-              <unittitle>Enlistment papers <unitdate type="inclusive" normal="1918">1918</unitdate></unittitle>
-            </did>
+              <unittitle>Enlistment papers</unittitle><unitdate type="inclusive" normal="1918">1918</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Honorable discharge <unitdate type="inclusive" normal="1919">1919</unitdate></unittitle>
-            </did>
+              <unittitle>Honorable discharge</unittitle><unitdate type="inclusive" normal="1919">1919</unitdate></did>
           </c03>
         </c02>
       </c01>

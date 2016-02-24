@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Applegate, Albert A.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/2947">Applegate, Albert A.</persname>
       </origination>
-      <unittitle encodinganalog="245">Albert A. Applegate papers <unitdate type="inclusive" encodinganalog="245$f" normal="1963/1973">1963-1973</unitdate></unittitle>
-      <abstract>Administrative assistant to George Romney, governor of Michigan and U. S. Secretary of Housing and Urban Development. papers include correspondence, personnel reports, memoranda, and background files concerning Applegate's work as Romney's aide and speech writer.</abstract>
+      <unittitle encodinganalog="245">Albert A. Applegate papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1963/1973">1963-1973</unitdate><abstract>Administrative assistant to George Romney, governor of Michigan and U. S. Secretary of Housing and Urban Development. papers include correspondence, personnel reports, memoranda, and background files concerning Applegate's work as Romney's aide and speech writer.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">85656 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physloc>Stored off-site, two days notice required for retrieval.</physloc>
@@ -82,13 +82,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Applegate, Albert A.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50048290">Romney, George W., 1907-1995.</persname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Dept. of Housing and Urban Development.</corpname>
-        <subject source="lcsh" encodinganalog="650">Voluntarism.</subject>
-        <subject source="lcsh" encodinganalog="650">Governors--Michigan.</subject>
-        <geogname source="lcsh" encodinganalog="651">United States--Politics and government--1969-1974.</geogname>
-        <geogname source="lcsh" encodinganalog="650">United States--Politics and government--1963-1969.</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2947">Applegate, Albert A.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50048290" ref="/agents/people/4407">Romney, George W., 1907-1995.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4938">United States. Dept. of Housing and Urban Development.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5933">Voluntarism.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5934">Governors--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/908">United States--Politics and government--1969-1974.</geogname>
+        <geogname source="lcsh" encodinganalog="650" ref="/subjects/938">United States--Politics and government--1963-1969.</geogname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -105,22 +105,16 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [37889134247368099693]">11</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1963/1966">1963-1966</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [7320788047189190391041]">11</container>
+              <unitdate type="inclusive" normal="1963/1966">1963-1966</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [45033917405830344]">12</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [1064847793373186206962]">12</container>
+              <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">1 folders</extent>
               </physdesc>
             </did>
@@ -132,22 +126,16 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5153049223244283]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1969/1972">1969-1972</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [4128306479501618601]">1</container>
+              <unitdate type="inclusive" normal="1969/1972">1969-1972</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">4 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [98595372485612172502]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1971">1971</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [61938487474810069712]">2</container>
+              <unitdate type="inclusive" normal="1971">1971</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">4 folders</extent>
               </physdesc>
             </did>
@@ -156,8 +144,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Background Files <unitdate type="inclusive" normal="1963/1973">1963-1973</unitdate>, <unitdate type="bulk" normal="1969/1973">1969-1973</unitdate></unittitle>
-          <physdesc altrender="whole">
+          <unittitle>Background Files</unittitle><unitdate type="inclusive" normal="1963/1973">1963-1973</unitdate><unitdate type="bulk" normal="1969/1973">1969-1973</unitdate><physdesc altrender="whole">
             <extent altrender="materialtype spaceoccupied">10 linear feet</extent>
           </physdesc>
         </did>
@@ -166,73 +153,70 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [98595372485612172502]">2</container>
+            <container type="box" label="Box [61938487474810069712]">2</container>
             <unittitle>ABM</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [98595372485612172502]">2</container>
+            <container type="box" label="Box [61938487474810069712]">2</container>
             <unittitle>ACTION</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [98595372485612172502]">2</container>
+            <container type="box" label="Box [61938487474810069712]">2</container>
             <unittitle>Advisory Commission on Intergovernmental Relations</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [98595372485612172502]">2</container>
-            <unittitle>Airlie House--HUD Summer Seminar <unitdate type="inclusive" normal="1970-08-06/1970-08-07">August 6-7, 1970</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [61938487474810069712]">2</container>
+            <unittitle>Airlie House--HUD Summer Seminar</unittitle><unitdate type="inclusive" normal="1970-08-06/1970-08-07">August 6-7, 1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [98595372485612172502]">2</container>
+            <container type="box" label="Box [61938487474810069712]">2</container>
             <unittitle>Alinsky, Saul</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [98595372485612172502]">2</container>
+            <container type="box" label="Box [61938487474810069712]">2</container>
             <unittitle>Amendatory Policy (Urban renewal)</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [98595372485612172502]">2</container>
+            <container type="box" label="Box [61938487474810069712]">2</container>
             <unittitle>American Revolution Bicentennial</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [98595372485612172502]">2</container>
-            <unittitle>Audit reports (Sections 235-236) <unitdate type="inclusive" normal="1972-01/1972-02">January-February 1972</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [61938487474810069712]">2</container>
+            <unittitle>Audit reports (Sections 235-236)</unittitle><unitdate type="inclusive" normal="1972-01/1972-02">January-February 1972</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [98595372485612172502]">2</container>
+            <container type="box" label="Box [61938487474810069712]">2</container>
             <unittitle>Aumente, Jerome</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [98595372485612172502]">2</container>
+            <container type="box" label="Box [61938487474810069712]">2</container>
             <unittitle>Beecher School District, Flint, Michigan</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [98595372485612172502]">2</container>
-            <unittitle>Black Caucus Response <unitdate type="inclusive" normal="1971-05">May 1971</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [61938487474810069712]">2</container>
+            <unittitle>Black Caucus Response</unittitle><unitdate type="inclusive" normal="1971-05">May 1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [98595372485612172502]">2</container>
+            <container type="box" label="Box [61938487474810069712]">2</container>
             <unittitle>Boyer, Gay</unittitle>
           </did>
         </c02>
@@ -242,19 +226,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [98595372485612172502]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [61938487474810069712]">2</container>
+              <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3523550424891045706]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [593994615468115572711]">3</container>
+              <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -262,115 +240,109 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3523550424891045706]">3</container>
+            <container type="box" label="Box [593994615468115572711]">3</container>
             <unittitle>Cabinet Committee on Construction</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3523550424891045706]">3</container>
-            <unittitle>Camp David--HUD meeting <unitdate type="inclusive" normal="1969-05">May 1969</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [593994615468115572711]">3</container>
+            <unittitle>Camp David--HUD meeting</unittitle><unitdate type="inclusive" normal="1969-05">May 1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3523550424891045706]">3</container>
-            <unittitle>Camp David <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [593994615468115572711]">3</container>
+            <unittitle>Camp David</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3523550424891045706]">3</container>
-            <unittitle>Camp David--Regional administrators meeting <unitdate type="inclusive" normal="1972-04">April 1972</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [593994615468115572711]">3</container>
+            <unittitle>Camp David--Regional administrators meeting</unittitle><unitdate type="inclusive" normal="1972-04">April 1972</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3523550424891045706]">3</container>
+            <container type="box" label="Box [593994615468115572711]">3</container>
             <unittitle>Civil Rights</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3523550424891045706]">3</container>
+            <container type="box" label="Box [593994615468115572711]">3</container>
             <unittitle>Community Self-Determination Act</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3523550424891045706]">3</container>
+            <container type="box" label="Box [593994615468115572711]">3</container>
             <unittitle>Consumer protection</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3523550424891045706]">3</container>
+            <container type="box" label="Box [593994615468115572711]">3</container>
             <unittitle>Counseling (235) Task Force</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3523550424891045706]">3</container>
-            <unittitle>Current reading and review for GR <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [593994615468115572711]">3</container>
+            <unittitle>Current reading and review for GR</unittitle><unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3523550424891045706]">3</container>
+            <container type="box" label="Box [593994615468115572711]">3</container>
             <unittitle>DeJonge, Herbert C</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3523550424891045706]">3</container>
+            <container type="box" label="Box [593994615468115572711]">3</container>
             <unittitle>Departmental Communications Meetings with Assistant Secretaries</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3523550424891045706]">3</container>
+            <container type="box" label="Box [593994615468115572711]">3</container>
             <unittitle>Detroit, Michigan</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3523550424891045706]">3</container>
+            <container type="box" label="Box [593994615468115572711]">3</container>
             <unittitle>Domestic Council</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3523550424891045706]">3</container>
+            <container type="box" label="Box [593994615468115572711]">3</container>
             <unittitle>Downs, Anthony</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3523550424891045706]">3</container>
+            <container type="box" label="Box [593994615468115572711]">3</container>
             <unittitle>Duke, Dorothy S</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3523550424891045706]">3</container>
-            <unittitle>Economists meeting <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [593994615468115572711]">3</container>
+            <unittitle>Economists meeting</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3523550424891045706]">3</container>
-            <unittitle>Education--Federal aid <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [593994615468115572711]">3</container>
+            <unittitle>Education--Federal aid</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3523550424891045706]">3</container>
+            <container type="box" label="Box [593994615468115572711]">3</container>
             <unittitle>Federal Housing Opportunity guidelines</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3523550424891045706]">3</container>
+            <container type="box" label="Box [593994615468115572711]">3</container>
             <unittitle>Esch, Marvin</unittitle>
           </did>
         </c02>
@@ -380,26 +352,19 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3523550424891045706]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [593994615468115572711]">3</container>
+              <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3523550424891045706]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1971">1971</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [593994615468115572711]">3</container>
+              <unitdate type="inclusive" normal="1971">1971</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3523550424891045706]">3</container>
-            <unittitle>Farmer, Gene (Life Magazine) <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [593994615468115572711]">3</container>
+            <unittitle>Farmer, Gene (Life Magazine)</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -407,154 +372,146 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3523550424891045706]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1964">1964</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [593994615468115572711]">3</container>
+              <unitdate type="inclusive" normal="1964">1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3523550424891045706]">3</container>
-              <unittitle><unitdate type="inclusive" normal="1969">1969</unitdate> (Spiro Agnew paper)</unittitle>
-            </did>
+              <container type="box" label="Box [593994615468115572711]">3</container>
+              <unittitle>(Spiro Agnew paper)</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3523550424891045706]">3</container>
+            <container type="box" label="Box [593994615468115572711]">3</container>
             <unittitle>Financial staff and procedures</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3523550424891045706]">3</container>
+            <container type="box" label="Box [593994615468115572711]">3</container>
             <unittitle>Fisher, Max M</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3523550424891045706]">3</container>
+            <container type="box" label="Box [593994615468115572711]">3</container>
             <unittitle>Fitzwater, John</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3523550424891045706]">3</container>
-            <unittitle>Foreign policy briefings <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [593994615468115572711]">3</container>
+            <unittitle>Foreign policy briefings</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [785159162249800421895]">4</container>
+            <container type="box" label="Box [7505448960479860104811105]">4</container>
             <unittitle>Forrester, Jay W</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [785159162249800421895]">4</container>
+            <container type="box" label="Box [7505448960479860104811105]">4</container>
             <unittitle>Freedom of Information</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [785159162249800421895]">4</container>
+            <container type="box" label="Box [7505448960479860104811105]">4</container>
             <unittitle>Friedman, Milton</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [785159162249800421895]">4</container>
-            <unittitle>"Future of the City" meeting <unitdate type="inclusive" normal="1971-09">September 1971</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7505448960479860104811105]">4</container>
+            <unittitle>"Future of the City" meeting</unittitle><unitdate type="inclusive" normal="1971-09">September 1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [785159162249800421895]">4</container>
+            <container type="box" label="Box [7505448960479860104811105]">4</container>
             <unittitle>Garrity, Margaret</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [785159162249800421895]">4</container>
+            <container type="box" label="Box [7505448960479860104811105]">4</container>
             <unittitle>Gottehrer, Dean</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [785159162249800421895]">4</container>
+            <container type="box" label="Box [7505448960479860104811105]">4</container>
             <unittitle>Government spending</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [785159162249800421895]">4</container>
+            <container type="box" label="Box [7505448960479860104811105]">4</container>
             <unittitle>Hanna, Willard</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [785159162249800421895]">4</container>
+            <container type="box" label="Box [7505448960479860104811105]">4</container>
             <unittitle>Harris, T. George (Look Magazine)</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [785159162249800421895]">4</container>
+            <container type="box" label="Box [7505448960479860104811105]">4</container>
             <unittitle>Hart, Philip A</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [785159162249800421895]">4</container>
+            <container type="box" label="Box [7505448960479860104811105]">4</container>
             <unittitle>Home Furnishings Council</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [785159162249800421895]">4</container>
+            <container type="box" label="Box [7505448960479860104811105]">4</container>
             <unittitle>Housing</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [785159162249800421895]">4</container>
+            <container type="box" label="Box [7505448960479860104811105]">4</container>
             <unittitle>Housing Allowance Review Group</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [785159162249800421895]">4</container>
-            <unittitle>Housing and Urban Development Act of <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7505448960479860104811105]">4</container>
+            <unittitle>Housing and Urban Development Act of</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [785159162249800421895]">4</container>
-            <unittitle>Housing and Urban Development Act of <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7505448960479860104811105]">4</container>
+            <unittitle>Housing and Urban Development Act of</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [785159162249800421895]">4</container>
+            <container type="box" label="Box [7505448960479860104811105]">4</container>
             <unittitle>Housing Finance</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [785159162249800421895]">4</container>
+            <container type="box" label="Box [7505448960479860104811105]">4</container>
             <unittitle>Housing Management</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [785159162249800421895]">4</container>
+            <container type="box" label="Box [7505448960479860104811105]">4</container>
             <unittitle>Housing Management (and training) Review Group</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [785159162249800421895]">4</container>
+            <container type="box" label="Box [7505448960479860104811105]">4</container>
             <unittitle>Housing Production</unittitle>
           </did>
         </c02>
@@ -568,259 +525,236 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [785159162249800421895]">4</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1970">1970</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [7505448960479860104811105]">4</container>
+                <unitdate type="inclusive" normal="1970">1970</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [785159162249800421895]">4</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1971">1971</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [7505448960479860104811105]">4</container>
+                <unitdate type="inclusive" normal="1971">1971</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [785159162249800421895]">4</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1972">1972</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [7505448960479860104811105]">4</container>
+                <unitdate type="inclusive" normal="1972">1972</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [785159162249800421895]">4</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1973">1973</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [7505448960479860104811105]">4</container>
+                <unitdate type="inclusive" normal="1973">1973</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [785159162249800421895]">4</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1974">1974</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [7505448960479860104811105]">4</container>
+                <unitdate type="inclusive" normal="1974">1974</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2214702348056393296]">5</container>
+              <container type="box" label="Box [49744604065560]">5</container>
               <unittitle>Central Office Organization Stage II</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2214702348056393296]">5</container>
+              <container type="box" label="Box [49744604065560]">5</container>
               <unittitle>Departmental staff meetings</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2214702348056393296]">5</container>
+              <container type="box" label="Box [49744604065560]">5</container>
               <unittitle>Departmental Voluntary Action Projects</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2214702348056393296]">5</container>
+              <container type="box" label="Box [49744604065560]">5</container>
               <unittitle>Elderly programs</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2214702348056393296]">5</container>
+              <container type="box" label="Box [49744604065560]">5</container>
               <unittitle>Employees Task Force Against Racism</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2214702348056393296]">5</container>
+              <container type="box" label="Box [49744604065560]">5</container>
               <unittitle>Issue papers</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2214702348056393296]">5</container>
-              <unittitle>Legislation <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [49744604065560]">5</container>
+              <unittitle>Legislation</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2214702348056393296]">5</container>
+              <container type="box" label="Box [49744604065560]">5</container>
               <unittitle>Mail procedures</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2214702348056393296]">5</container>
-              <unittitle>Operating Committee working file and agendas <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [49744604065560]">5</container>
+              <unittitle>Operating Committee working file and agendas</unittitle><unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2214702348056393296]">5</container>
-              <unittitle>Organization <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [49744604065560]">5</container>
+              <unittitle>Organization</unittitle><unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5447588420992805170300]">6</container>
-              <unittitle>Posture papers <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [634477250814859097726]">6</container>
+              <unittitle>Posture papers</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5447588420992805170300]">6</container>
+              <container type="box" label="Box [634477250814859097726]">6</container>
               <unittitle>Procurement contracting study</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5447588420992805170300]">6</container>
+              <container type="box" label="Box [634477250814859097726]">6</container>
               <unittitle>Program management</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5447588420992805170300]">6</container>
+              <container type="box" label="Box [634477250814859097726]">6</container>
               <unittitle>Regional administrators meetings</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5447588420992805170300]">6</container>
+              <container type="box" label="Box [634477250814859097726]">6</container>
               <unittitle>Transition</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5447588420992805170300]">6</container>
+              <container type="box" label="Box [634477250814859097726]">6</container>
               <unittitle>Secretary's office organization</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5447588420992805170300]">6</container>
+              <container type="box" label="Box [634477250814859097726]">6</container>
               <unittitle>Summaries</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5447588420992805170300]">6</container>
+            <container type="box" label="Box [634477250814859097726]">6</container>
             <unittitle>Hudson Institute</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5447588420992805170300]">6</container>
-            <unittitle>Humphrey, Hubert H. <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [634477250814859097726]">6</container>
+            <unittitle>Humphrey, Hubert H.</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           <odd>
             <p>(re position on Vietnam)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5447588420992805170300]">6</container>
-            <unittitle>Hunger <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [634477250814859097726]">6</container>
+            <unittitle>Hunger</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5447588420992805170300]">6</container>
+            <container type="box" label="Box [634477250814859097726]">6</container>
             <unittitle>Indian affairs</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5447588420992805170300]">6</container>
+            <container type="box" label="Box [634477250814859097726]">6</container>
             <unittitle>Industrialized housing</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5447588420992805170300]">6</container>
+            <container type="box" label="Box [634477250814859097726]">6</container>
             <unittitle>Inflation</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5447588420992805170300]">6</container>
+            <container type="box" label="Box [634477250814859097726]">6</container>
             <unittitle>Interest rates</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5447588420992805170300]">6</container>
-            <unittitle>Interagency meetings <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [634477250814859097726]">6</container>
+            <unittitle>Interagency meetings</unittitle><unitdate type="inclusive" normal="1972">1972</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5447588420992805170300]">6</container>
+            <container type="box" label="Box [634477250814859097726]">6</container>
             <unittitle>Intergovernmental Personnel Act</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5447588420992805170300]">6</container>
+            <container type="box" label="Box [634477250814859097726]">6</container>
             <unittitle>Kelly, John M</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5447588420992805170300]">6</container>
-            <unittitle>Kissinger, Henry <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [634477250814859097726]">6</container>
+            <unittitle>Kissinger, Henry</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5447588420992805170300]">6</container>
+            <container type="box" label="Box [634477250814859097726]">6</container>
             <unittitle>Land policy</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5447588420992805170300]">6</container>
+            <container type="box" label="Box [634477250814859097726]">6</container>
             <unittitle>Latin America</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5447588420992805170300]">6</container>
+            <container type="box" label="Box [634477250814859097726]">6</container>
             <unittitle>Leadership</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5447588420992805170300]">6</container>
+            <container type="box" label="Box [634477250814859097726]">6</container>
             <unittitle>Leadership Council for Metropolitan Open Communities</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5447588420992805170300]">6</container>
+            <container type="box" label="Box [634477250814859097726]">6</container>
             <unittitle>Lincoln Day--proposed inserts to speeches</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5447588420992805170300]">6</container>
+            <container type="box" label="Box [634477250814859097726]">6</container>
             <unittitle>Lodge, George C</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5791358814628891588512]">7</container>
+            <container type="box" label="Box [26671264947443505519]">7</container>
             <unittitle>McKinney, Harold (memoranda)</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -829,355 +763,339 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5791358814628891588512]">7</container>
-            <unittitle>Michigan City (Ind.)--All-American City Award <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [26671264947443505519]">7</container>
+            <unittitle>Michigan City (Ind.)--All-American City Award</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5791358814628891588512]">7</container>
+            <container type="box" label="Box [26671264947443505519]">7</container>
             <unittitle>Minority enterprise</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5791358814628891588512]">7</container>
+            <container type="box" label="Box [26671264947443505519]">7</container>
             <unittitle>Model cities</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5791358814628891588512]">7</container>
+            <container type="box" label="Box [26671264947443505519]">7</container>
             <unittitle>Modernizing state government materials</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5791358814628891588512]">7</container>
+            <container type="box" label="Box [26671264947443505519]">7</container>
             <unittitle>Mould, Christopher M</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5791358814628891588512]">7</container>
+            <container type="box" label="Box [26671264947443505519]">7</container>
             <unittitle>Nader, Ralph</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5791358814628891588512]">7</container>
+            <container type="box" label="Box [26671264947443505519]">7</container>
             <unittitle>National Growth Policy</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5791358814628891588512]">7</container>
-            <unittitle>National Growth Policy presentation and memoranda <unitdate type="inclusive" normal="1970-11/1970-12">November-December 1970</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [26671264947443505519]">7</container>
+            <unittitle>National Growth Policy presentation and memoranda</unittitle><unitdate type="inclusive" normal="1970-11/1970-12">November-December 1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7249977654818163597369]">8</container>
+            <container type="box" label="Box [610612427892551656213]">8</container>
             <unittitle>National Growth Policy Report--Chapter VII--New Initiatives</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7249977654818163597369]">8</container>
-            <unittitle>National Growth Policy Report <unitdate type="inclusive" normal="1970-12">December 1970</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [610612427892551656213]">8</container>
+            <unittitle>National Growth Policy Report</unittitle><unitdate type="inclusive" normal="1970-12">December 1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7249977654818163597369]">8</container>
+            <container type="box" label="Box [610612427892551656213]">8</container>
             <unittitle>Negative Income Tax</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7249977654818163597369]">8</container>
+            <container type="box" label="Box [610612427892551656213]">8</container>
             <unittitle>Neighborhood Development Program</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7249977654818163597369]">8</container>
-            <unittitle>Nixon Administration program <unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [610612427892551656213]">8</container>
+            <unittitle>Nixon Administration program</unittitle><unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7249977654818163597369]">8</container>
-            <unittitle>Nixon-Romney conference re self-help, private enterprise and voluntary urban programs <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [610612427892551656213]">8</container>
+            <unittitle>Nixon-Romney conference re self-help, private enterprise and voluntary urban programs</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7249977654818163597369]">8</container>
-            <unittitle>O'Brien, Thomas <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [610612427892551656213]">8</container>
+            <unittitle>O'Brien, Thomas</unittitle><unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7249977654818163597369]">8</container>
+            <container type="box" label="Box [610612427892551656213]">8</container>
             <unittitle>Pianin, Eric</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7249977654818163597369]">8</container>
+            <container type="box" label="Box [610612427892551656213]">8</container>
             <unittitle>Press matters</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7249977654818163597369]">8</container>
-            <unittitle>Pruitt-Igoe, St. Louis, Missouri <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [610612427892551656213]">8</container>
+            <unittitle>Pruitt-Igoe, St. Louis, Missouri</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7249977654818163597369]">8</container>
+            <container type="box" label="Box [610612427892551656213]">8</container>
             <unittitle>Public housing</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7249977654818163597369]">8</container>
+            <container type="box" label="Box [610612427892551656213]">8</container>
             <unittitle>Public Housing Management Review Group</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7249977654818163597369]">8</container>
+            <container type="box" label="Box [610612427892551656213]">8</container>
             <unittitle>Public order</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7249977654818163597369]">8</container>
-            <unittitle>Reagan, Ronald: Letter and comments about campaign brochure <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [610612427892551656213]">8</container>
+            <unittitle>Reagan, Ronald: Letter and comments about campaign brochure</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7249977654818163597369]">8</container>
+            <container type="box" label="Box [610612427892551656213]">8</container>
             <unittitle>Rehabilitation</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7249977654818163597369]">8</container>
-            <unittitle>Republican Task Forces--Michigan <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [610612427892551656213]">8</container>
+            <unittitle>Republican Task Forces--Michigan</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6099646399200464]">9</container>
+            <container type="box" label="Box [7606179429486180585708]">9</container>
             <unittitle>Research Project Review Groups</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6099646399200464]">9</container>
+            <container type="box" label="Box [7606179429486180585708]">9</container>
             <unittitle>Right to work</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6099646399200464]">9</container>
+            <container type="box" label="Box [7606179429486180585708]">9</container>
             <unittitle>Romney interviews</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6099646399200464]">9</container>
+            <container type="box" label="Box [7606179429486180585708]">9</container>
             <unittitle>Romney presidential eligibility</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6099646399200464]">9</container>
-            <unittitle>Romney--possible senate candidacy <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7606179429486180585708]">9</container>
+            <unittitle>Romney--possible senate candidacy</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6099646399200464]">9</container>
-            <unittitle>Romney, Lenore--campaign organization <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7606179429486180585708]">9</container>
+            <unittitle>Romney, Lenore--campaign organization</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6099646399200464]">9</container>
+            <container type="box" label="Box [7606179429486180585708]">9</container>
             <unittitle>Rubin, Marvin R</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6099646399200464]">9</container>
+            <container type="box" label="Box [7606179429486180585708]">9</container>
             <unittitle>Rutledge, Aaron</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6099646399200464]">9</container>
+            <container type="box" label="Box [7606179429486180585708]">9</container>
             <unittitle>Saginaw, Michigan, urban renewal</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6099646399200464]">9</container>
+            <container type="box" label="Box [7606179429486180585708]">9</container>
             <unittitle>Self-help housing</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6099646399200464]">9</container>
+            <container type="box" label="Box [7606179429486180585708]">9</container>
             <unittitle>Seneca, Martin</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6099646399200464]">9</container>
-            <unittitle>Senior citizens <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7606179429486180585708]">9</container>
+            <unittitle>Senior citizens</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6099646399200464]">9</container>
+            <container type="box" label="Box [7606179429486180585708]">9</container>
             <unittitle>Speech assignment schedules</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6099646399200464]">9</container>
+            <container type="box" label="Box [7606179429486180585708]">9</container>
             <unittitle>Speech drafts (non-Applegate)</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6099646399200464]">9</container>
+            <container type="box" label="Box [7606179429486180585708]">9</container>
             <unittitle>Speech notes and ideas</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6099646399200464]">9</container>
+            <container type="box" label="Box [7606179429486180585708]">9</container>
             <unittitle>Speechwriter meetings</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6099646399200464]">9</container>
+            <container type="box" label="Box [7606179429486180585708]">9</container>
             <unittitle>Staff notes (Michigan)</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6099646399200464]">9</container>
+            <container type="box" label="Box [7606179429486180585708]">9</container>
             <unittitle>Staff reduction implementation (HUD)</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6099646399200464]">9</container>
+            <container type="box" label="Box [7606179429486180585708]">9</container>
             <unittitle>State housing programs</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6099646399200464]">9</container>
+            <container type="box" label="Box [7606179429486180585708]">9</container>
             <unittitle>Streit, Clarence K</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6099646399200464]">9</container>
-            <unittitle>Tenant selection and assignment policy <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7606179429486180585708]">9</container>
+            <unittitle>Tenant selection and assignment policy</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6099646399200464]">9</container>
+            <container type="box" label="Box [7606179429486180585708]">9</container>
             <unittitle>Thomas, Nicholas P</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6099646399200464]">9</container>
-            <unittitle>TOP (The Optional Process) meetings <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7606179429486180585708]">9</container>
+            <unittitle>TOP (The Optional Process) meetings</unittitle><unitdate type="inclusive" normal="1972">1972</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6099646399200464]">9</container>
+            <container type="box" label="Box [7606179429486180585708]">9</container>
             <unittitle>Troilo, Arthur C</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6099646399200464]">9</container>
+            <container type="box" label="Box [7606179429486180585708]">9</container>
             <unittitle>United Republicans of America</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6099646399200464]">9</container>
-            <unittitle>Urban crisis project inventory <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7606179429486180585708]">9</container>
+            <unittitle>Urban crisis project inventory</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6099646399200464]">9</container>
+            <container type="box" label="Box [7606179429486180585708]">9</container>
             <unittitle>Urban dynamics</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6099646399200464]">9</container>
+            <container type="box" label="Box [7606179429486180585708]">9</container>
             <unittitle>Urban dynamics--Morgan Doughton</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6099646399200464]">9</container>
+            <container type="box" label="Box [7606179429486180585708]">9</container>
             <unittitle>Urban dynamics--Chris Sower</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6099646399200464]">9</container>
+            <container type="box" label="Box [7606179429486180585708]">9</container>
             <unittitle>Urban and racial material</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6099646399200464]">9</container>
+            <container type="box" label="Box [7606179429486180585708]">9</container>
             <unittitle>Urban Grant University</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6099646399200464]">9</container>
+            <container type="box" label="Box [7606179429486180585708]">9</container>
             <unittitle>Urban projects</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [841474948394769695062]">10</container>
-            <unittitle>Urban Tour <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [217135200458509155]">10</container>
+            <unittitle>Urban Tour</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
           <odd>
             <p>(George Romney's tour of urban areas in the United States as part of his presidential campaign)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [37889134247368099693]">11</container>
+            <container type="box" label="Box [7320788047189190391041]">11</container>
             <unittitle>Urban University working file</unittitle>
           </did>
         </c02>
@@ -1187,80 +1105,72 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [37889134247368099693]">11</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1965">1965</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [7320788047189190391041]">11</container>
+              <unitdate type="inclusive" normal="1965">1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [37889134247368099693]">11</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1966">1966</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [7320788047189190391041]">11</container>
+              <unitdate type="inclusive" normal="1966">1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [37889134247368099693]">11</container>
+              <container type="box" label="Box [7320788047189190391041]">11</container>
               <unittitle>Quakers</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [37889134247368099693]">11</container>
+            <container type="box" label="Box [7320788047189190391041]">11</container>
             <unittitle>Volunteer planning</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [37889134247368099693]">11</container>
+            <container type="box" label="Box [7320788047189190391041]">11</container>
             <unittitle>Walsh, E.F</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [37889134247368099693]">11</container>
+            <container type="box" label="Box [7320788047189190391041]">11</container>
             <unittitle>Wilhoite, Ken</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [37889134247368099693]">11</container>
-            <unittitle>World concept <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7320788047189190391041]">11</container>
+            <unittitle>World concept</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [37889134247368099693]">11</container>
+            <container type="box" label="Box [7320788047189190391041]">11</container>
             <unittitle>Yoh, Bernard</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [37889134247368099693]">11</container>
+            <container type="box" label="Box [7320788047189190391041]">11</container>
             <unittitle>Youth lectures</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [37889134247368099693]">11</container>
+            <container type="box" label="Box [7320788047189190391041]">11</container>
             <unittitle>Youth programs-Summer</unittitle>
           </did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>U.S. Department of Housing and Urban Development <unitdate type="inclusive" normal="1969/1972">1969-1972</unitdate></unittitle>
-          <physdesc altrender="whole">
+          <unittitle>U.S. Department of Housing and Urban Development</unittitle><unitdate type="inclusive" normal="1969/1972">1969-1972</unitdate><physdesc altrender="whole">
             <extent altrender="materialtype spaceoccupied">0.5 linear feet</extent>
           </physdesc>
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [45033917405830344]">12</container>
+            <container type="box" label="Box [1064847793373186206962]">12</container>
             <unittitle>Subject files (unprocessed)</unittitle>
           </did>
         </c02>
@@ -1274,54 +1184,48 @@
         </odd>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [717343413440664266367]">13</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1969/1973">1969-1973</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [4381263346102297]">13</container>
+            <unitdate type="inclusive" normal="1969/1973">1969-1973</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Voluntary Action Background Files <unitdate type="inclusive" normal="1969/1973">1969-1973</unitdate></unittitle>
-          <physdesc altrender="whole">
+          <unittitle>Voluntary Action Background Files</unittitle><unitdate type="inclusive" normal="1969/1973">1969-1973</unitdate><physdesc altrender="whole">
             <extent altrender="materialtype spaceoccupied">1 linear feet</extent>
           </physdesc>
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [67258184947380463827144]">14</container>
+            <container type="box" label="Box [3268994190985787172078]">14</container>
             <unittitle>A-M</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [8573587154501717820424]">15</container>
+            <container type="box" label="Box [90511299441830243246]">15</container>
             <unittitle>N-S</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [8200409132183326]">16</container>
+            <container type="box" label="Box [8022904863028929017]">16</container>
             <unittitle>S-Y</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [8200409132183326]">16</container>
+            <container type="box" label="Box [8022904863028929017]">16</container>
             <unittitle>[unprocessed] .5 linear ft</unittitle>
           </did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>European Trip <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-        </did>
+          <unittitle>European Trip</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [19520143895044]">17</container>
-            <unittitle>Romney's inspection of European housing programs <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [987969945345972224508932]">17</container>
+            <unittitle>Romney's inspection of European housing programs</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
         </c02>
       </c01>
     </dsc>

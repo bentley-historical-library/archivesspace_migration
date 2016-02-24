@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Washtenaw Abstract Company (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/5138">Washtenaw Abstract Company (Ann Arbor, Mich.)</corpname>
       </origination>
-      <unittitle encodinganalog="245">Washtenaw Abstract Company records <unitdate type="inclusive" encodinganalog="245$f" normal="1824/1954" certainty="approximate">circa 1824-1954</unitdate></unittitle>
-      <abstract>Land title company based in Ann Arbor, Michigan. Abstracts of mortgages, deeds, and other legal papers recorded in Washtenaw County; and plat maps for Washtenaw County additions and subdivisions.</abstract>
+      <unittitle encodinganalog="245">Washtenaw Abstract Company records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1824/1954" certainty="approximate">circa 1824-1954</unitdate><abstract>Land title company based in Ann Arbor, Michigan. Abstracts of mortgages, deeds, and other legal papers recorded in Washtenaw County; and plat maps for Washtenaw County additions and subdivisions.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">8544 Bb.2 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="part">
@@ -85,19 +85,18 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)--History.</geogname>
-        <subject source="lcsh" encodinganalog="650">Real property--Michigan--Washtenaw County.</subject>
-        <subject source="lcsh" encodinganalog="650">Land use--Michigan--Washtenaw County.</subject>
-        <geogname source="lcsh" encodinganalog="651">Washtenaw County (Mich.)--Maps.</geogname>
-        <subject source="lcsh" encodinganalog="650">Real property--Michigan--Washtenaw County--Maps.</subject>
-        <corpname source="lcnaf" encodinganalog="710">Peoples Abstract Company.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/846">Ann Arbor (Mich.)--History.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6730">Real property--Michigan--Washtenaw County.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10624">Land use--Michigan--Washtenaw County.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/952">Washtenaw County (Mich.)--Maps.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5988">Real property--Michigan--Washtenaw County--Maps.</subject>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/2420">Peoples Abstract Company.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Abstracts of mortgages <unitdate type="inclusive" normal="1825/1954">1825-1954</unitdate></unittitle>
-        </did>
+          <unittitle>Abstracts of mortgages</unittitle><unitdate type="inclusive" normal="1825/1954">1825-1954</unitdate></did>
         <scopecontent>
           <p>The Abstract of Mortgages series (volumes numbered for storage vol. 24-42) contains abstracts of mortgages from 1825 through 1954. This series covers Ann Arbor, Ypsilanti, the villages in the county, and the townships, with the exception of Salem and Superior Townships. These volumes seem to have been first compiled in the early 1880s. They were kept up-to-date with later mortgages until 1954.</p>
         </scopecontent>
@@ -107,31 +106,31 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [900657814388068525535]">24</container>
+              <container type="volume" label="Oversize Volume [161023576473350449]">24</container>
               <unittitle>"Abstract Book 1"</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [7285244080124173627985]">25</container>
+              <container type="volume" label="Oversize Volume [6001106840783273014]">25</container>
               <unittitle>"Ann Arbor Mortgages 2"</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [99363347488704202]">26</container>
+              <container type="volume" label="Oversize Volume [98390393043791552916781]">26</container>
               <unittitle>"Abstracts 3"</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [227394492334908070]">27</container>
+              <container type="volume" label="Oversize Volume [04795963644978632969]">27</container>
               <unittitle>"Ann Arbor Mortgage Record 4"</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [039368642438024050428]">28</container>
+              <container type="volume" label="Oversize Volume [575671840806541738]">28</container>
               <unittitle>"Mortgages 5"</unittitle>
             </did>
           </c03>
@@ -142,19 +141,19 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [2086824264823619151284748]">29</container>
+              <container type="volume" label="Oversize Volume [1997554681301590072]">29</container>
               <unittitle>"Mortgages Ypsilanti City"</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [040054578898615101]">30</container>
+              <container type="volume" label="Oversize Volume [62814954794161117]">30</container>
               <unittitle>"Ypsilanti Mortgages"</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [07543523469891557615120630]">31</container>
+              <container type="volume" label="Oversize Volume [29570814399359515850]">31</container>
               <unittitle>"Ypsilanti Mortgages 3"</unittitle>
             </did>
           </c03>
@@ -165,13 +164,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [5446161942197738896017]">32</container>
+              <container type="volume" label="Oversize Volume [335658984489943815]">32</container>
               <unittitle>"Mortgages Ann Arbor City, Villages"</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [384339114591549242199]">33</container>
+              <container type="volume" label="Oversize Volume [715936740036351788]">33</container>
               <unittitle>"Village Mortgages No. 2"</unittitle>
             </did>
           </c03>
@@ -182,55 +181,55 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [324283326441189490465]">34</container>
+              <container type="volume" label="Oversize Volume [8044255458491888033]">34</container>
               <unittitle>Dexter/Lima</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [510635405839594549]">35</container>
+              <container type="volume" label="Oversize Volume [647651075641618018642583]">35</container>
               <unittitle>Freedom/Bridgewater</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [31081784278580879509]">36</container>
+              <container type="volume" label="Oversize Volume [5178126540861622030]">36</container>
               <unittitle>Lodi/Saline</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [05288918479640185925]">37</container>
+              <container type="volume" label="Oversize Volume [0225043519700713292]">37</container>
               <unittitle>Lyndon/Sylvan</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [73607248069267703458824]">38</container>
+              <container type="volume" label="Oversize Volume [87207689345855404025313]">38</container>
               <unittitle>Northfield/Ann Arbor</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [34318951433781860315019]">39</container>
+              <container type="volume" label="Oversize Volume [11827964403650285821463516]">39</container>
               <unittitle>Pittsfield/York</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [53940343480942188490234]">40</container>
+              <container type="volume" label="Oversize Volume [76085216452870498175]">40</container>
               <unittitle>Scio/Webster</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [96971794412396737015470]">41</container>
+              <container type="volume" label="Oversize Volume [8869227043517571587]">41</container>
               <unittitle>Sharon/Manchester</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [0709362433444357370]">42</container>
+              <container type="volume" label="Oversize Volume [6770769604985239457613]">42</container>
               <unittitle>Ypsilanti/Augusta</unittitle>
             </did>
           </c03>
@@ -238,22 +237,19 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Miscellaneous volumes, chiefly <unitdate type="inclusive" normal="1825/1882">1825-1882</unitdate></unittitle>
-        </did>
+          <unittitle>Miscellaneous volumes, chiefly</unittitle><unitdate type="inclusive" normal="1825/1882">1825-1882</unitdate></did>
         <scopecontent>
           <p>The second abstract series, titled Miscellaneous Volumes, (volumes numbered for storage vol. 1-23) includes abstracts of deeds, mortgages, and other legal papers from the earliest years of the county's existence to about 1882. The last items in the series were created around 1912, about the time the company moved its offices. This series is made up of three groups of material: <list type="simple"><item>Volumes 1-8 include miscellaneous abstracts, on a countywide basis, and do not seem well organized.</item><item>Volumes 9-15 include abstracts of mortgages for the period 1829-1882, for each city, village, and township in Washtenaw County.</item><item>Volumes 16-23 include separate lists of abstracts of deeds and of mortgages for the period ca. 1825 to 1882, for cities, villages, and townships. The collection is not complete, with Ann Arbor city and township missing, along with several other townships and villages.</item></list></p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [94772386413166400]">1</container>
-            <unittitle>Index to early deeds[?] and mortgages of Ann Arbor and deeds[?] of Ypsilanti, arranged by addition <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [6224304119457695449263]">1</container>
+            <unittitle>Index to early deeds[?] and mortgages of Ann Arbor and deeds[?] of Ypsilanti, arranged by addition</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [0271809214360916232514689]">2</container>
-            <unittitle>Index to deeds for lands sold for unpaid taxes, arranged by township <unitdate type="inclusive" normal="1831/1834">1831-1834</unitdate></unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [721402884228498122709]">2</container>
+            <unittitle>Index to deeds for lands sold for unpaid taxes, arranged by township</unittitle><unitdate type="inclusive" normal="1831/1834">1831-1834</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -261,15 +257,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [041977749980678274979]">3</container>
-              <unittitle>Arranged by township <unitdate type="inclusive" normal="1825/1851">1825-1851</unitdate></unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [827516384639566158630]">3</container>
+              <unittitle>Arranged by township</unittitle><unitdate type="inclusive" normal="1825/1851">1825-1851</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [64998147794886318578]">4</container>
-              <unittitle>Arranged roughly chronologically <unitdate type="inclusive" normal="1873/1874">1873-1874</unitdate></unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [21240409548616310270915]">4</container>
+              <unittitle>Arranged roughly chronologically</unittitle><unitdate type="inclusive" normal="1873/1874">1873-1874</unitdate></did>
             <odd>
               <p>(with a few earlier items 1867-1872 and a few property histories)</p>
             </odd>
@@ -281,22 +275,16 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [854158789941193625803032]">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1873/1876">1873-1876</unitdate>
-              </unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [89944143244419415760]">5</container>
+              <unitdate type="inclusive" normal="1873/1876">1873-1876</unitdate></did>
             <odd>
               <p>(with a few property histories and earlier items, 1836-1872)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [96996996423912957303]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1824/1869" certainty="approximate">circa 1824-1869</unitdate>
-              </unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [404752943635168452554]">6</container>
+              <unitdate type="inclusive" normal="1824/1869" certainty="approximate">circa 1824-1869</unitdate></did>
             <odd>
               <p>(includes some wills, powers of attorney, and liens)</p>
             </odd>
@@ -304,9 +292,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [624602944589301148]">7</container>
-            <unittitle>Abstracts of wills recorded <unitdate type="inclusive" normal="1840/1912" certainty="approximate">1840s-circa 1912</unitdate></unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [0722352844480911756127]">7</container>
+            <unittitle>Abstracts of wills recorded</unittitle><unitdate type="inclusive" normal="1840/1912" certainty="approximate">1840s-circa 1912</unitdate></did>
           <odd>
             <p>(arranged alphabetically, letter A missing)</p>
           </odd>
@@ -316,94 +303,91 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [379844076154618569992]">8</container>
-            <unittitle>Tract book of village plats, with property histories for some lots <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [03181442121656744]">8</container>
+            <unittitle>Tract book of village plats, with property histories for some lots</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Abstracts of mortgages recorded <unitdate type="inclusive" normal="1829/1882">1829-1882</unitdate></unittitle>
-          </did>
+            <unittitle>Abstracts of mortgages recorded</unittitle><unitdate type="inclusive" normal="1829/1882">1829-1882</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [11786084138455542336]">9</container>
+              <container type="volume" label="Oversize Volume [6545294768910481260337]">9</container>
               <unittitle>Ann Arbor City, arranged by addition</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [16824014810492813988060]">10</container>
+              <container type="volume" label="Oversize Volume [6409481846089415202125]">10</container>
               <unittitle>Ypsilanti City and Saline, Manchester, Milan, Mooreville, and Rawsonville Villages, arranged by addition</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [093047888445069398627114]">11</container>
+              <container type="volume" label="Oversize Volume [46633524938037]">11</container>
               <unittitle>Lyndon, Sylvan, Sharon, and Manchester Townships</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [9554824442897814606]">12</container>
+              <container type="volume" label="Oversize Volume [925946546005410942285]">12</container>
               <unittitle>Dexter, Lima, Freedom, and Bridgewater Townships</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [5958267347377976595753]">13</container>
+              <container type="volume" label="Oversize Volume [81992397434282107220075]">13</container>
               <unittitle>Webster, Scio, Lodi, and Saline Townships</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [043544788907441675]">14</container>
+              <container type="volume" label="Oversize Volume [239286439082267]">14</container>
               <unittitle>Northfield, Pittsfield, Ann Arbor, and York Townships</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [92458160554968667263291698]">15</container>
+              <container type="volume" label="Oversize Volume [18039874931868071038]">15</container>
               <unittitle>Salem, Superior, Ypsilanti, and Augusta Townships</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Abstracts of deeds and mortgages recorded <unitdate type="inclusive" normal="1825/1882" certainty="approximate">circa 1825-1882</unitdate></unittitle>
-          </did>
+            <unittitle>Abstracts of deeds and mortgages recorded</unittitle><unitdate type="inclusive" normal="1825/1882" certainty="approximate">circa 1825-1882</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [38751902374585078]">16</container>
+              <container type="volume" label="Oversize Volume [258450674810071971860]">16</container>
               <unittitle>Dexter Village and Lima and Scio Townships</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [520499494792664352575]">17</container>
+              <container type="volume" label="Oversize Volume [01943664266065]">17</container>
               <unittitle>Dexter and Webster Townships</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [256349470455984441559824]">18</container>
+              <container type="volume" label="Oversize Volume [197244764593990028456]">18</container>
               <unittitle>Freedom and Bridgewater Townships</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [0026435042200672014]">19</container>
+              <container type="volume" label="Oversize Volume [74243404497776750351]">19</container>
               <unittitle>Manchester Village and Sharon and Manchester Townships</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [66201441047884]">20</container>
+              <container type="volume" label="Oversize Volume [466389494090319156768554]">20</container>
               <unittitle>Saline Village and Saline and York Townships</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [39444131414085568647]">21</container>
+              <container type="volume" label="Oversize Volume [1036248576283604]">21</container>
               <unittitle>Saline No. 2</unittitle>
             </did>
             <odd>
@@ -412,13 +396,13 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [2228301848182576007]">22</container>
+              <container type="volume" label="Oversize Volume [6994822467273193674460]">22</container>
               <unittitle>Superior and Augusta Townships</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [68215075646179416343553]">23</container>
+              <container type="volume" label="Oversize Volume [00868411751267387]">23</container>
               <unittitle>Ypsilanti City and Township</unittitle>
             </did>
           </c03>
@@ -434,23 +418,22 @@
         </scopecontent>
         <c02 level="subseries">
           <did>
-            <unittitle>Plat Maps <unitdate type="inclusive" normal="1825/1957" certainty="approximate">circa 1825-1957</unitdate> (Outsize unbound material)</unittitle>
-          </did>
+            <unittitle>Plat Maps (Outsize unbound material)</unittitle><unitdate type="inclusive" normal="1825/1957" certainty="approximate">circa 1825-1957</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Oversize Box [910941484863546]">1</container>
+              <container type="box" label="Oversize Box [8641309845852484992677]">1</container>
               <unittitle>Alphabet deed maps</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Oversize Box [910941484863546]">1</container>
+              <container type="box" label="Oversize Box [8641309845852484992677]">1</container>
               <unittitle>Assessor's plats</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Oversize Box [910941484863546]">1</container>
+              <container type="box" label="Oversize Box [8641309845852484992677]">1</container>
               <unittitle>Plats A-Z</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">13 folders</extent>
@@ -459,15 +442,14 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Oversize Box [910941484863546]">1</container>
+              <container type="box" label="Oversize Box [8641309845852484992677]">1</container>
               <unittitle>Deed maps and Liber maps</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Plat maps <unitdate type="inclusive" normal="1825/1912" certainty="approximate">circa 1825-1912</unitdate></unittitle>
-          </did>
+            <unittitle>Plat maps</unittitle><unitdate type="inclusive" normal="1825/1912" certainty="approximate">circa 1825-1912</unitdate></did>
           <odd>
             <p>(includes hand-drawn and blueprint maps of city and village plats and additions)</p>
           </odd>
@@ -487,37 +469,37 @@
               </did>
               <c05 level="file">
                 <did>
-                  <container type="folder" label="Oversize Folder [46688714705843334609]">1</container>
+                  <container type="folder" label="Oversize Folder [663846196074665660]">1</container>
                   <unittitle>A-B</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="folder" label="Oversize Folder [197098824415687252968948]">2</container>
+                  <container type="folder" label="Oversize Folder [196159869614375682506305]">2</container>
                   <unittitle>C-E</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="folder" label="Oversize Folder [539120483044571718]">3</container>
+                  <container type="folder" label="Oversize Folder [5980834149971936999]">3</container>
                   <unittitle>F-L</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="folder" label="Oversize Folder [630513834218531803707568]">4</container>
+                  <container type="folder" label="Oversize Folder [2535735084887981401719918]">4</container>
                   <unittitle>M-R</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="folder" label="Oversize Folder [4316280842545326809908]">5</container>
+                  <container type="folder" label="Oversize Folder [2564685446964892561]">5</container>
                   <unittitle>S-T</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="folder" label="Oversize Folder [420780545796069091075]">6</container>
+                  <container type="folder" label="Oversize Folder [2009841468876348547465]">6</container>
                   <unittitle>U-Z</unittitle>
                 </did>
               </c05>
@@ -531,13 +513,13 @@
               </odd>
               <c05 level="file">
                 <did>
-                  <container type="folder" label="Oversize Folder [2100670404832707909]">7</container>
+                  <container type="folder" label="Oversize Folder [110779173649368309533309]">7</container>
                   <unittitle>East of Main Street</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="folder" label="Oversize Folder [407615004775841329911]">8</container>
+                  <container type="folder" label="Oversize Folder [21251446987229774930]">8</container>
                   <unittitle>West of Main Street and plats showing both east and west sides</unittitle>
                 </did>
               </c05>
@@ -545,31 +527,31 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="folder" label="Oversize Folder [97425243495911308]">9</container>
+              <container type="folder" label="Oversize Folder [81510941693223904826]">9</container>
               <unittitle>Chelsea</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="folder" label="Oversize Folder [90498566421542]">10</container>
+              <container type="folder" label="Oversize Folder [63076244444828806743417]">10</container>
               <unittitle>Dexter</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="folder" label="Oversize Folder [86351274305974093248]">11</container>
+              <container type="folder" label="Oversize Folder [48144381954623807463647]">11</container>
               <unittitle>Manchester</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="folder" label="Oversize Folder [35459447715985748]">12</container>
+              <container type="folder" label="Oversize Folder [0518107454590048160]">12</container>
               <unittitle>Milan</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="folder" label="Oversize Folder [3763749434806657731]">13</container>
+              <container type="folder" label="Oversize Folder [4514619368725808]">13</container>
               <unittitle>Saline</unittitle>
             </did>
           </c03>
@@ -579,13 +561,13 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="folder" label="Oversize Folder [2637266204433102100]">14</container>
+                <container type="folder" label="Oversize Folder [5955244909066105102]">14</container>
                 <unittitle>Named plats A-Loriginal plat, and miscellaneous</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="folder" label="Oversize Folder [93956742402387243238487]">15</container>
+                <container type="folder" label="Oversize Folder [1630403754729795793139]">15</container>
                 <unittitle>Named plats M-Z</unittitle>
               </did>
             </c04>
@@ -596,25 +578,25 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="folder" label="Oversize Folder [121084133820469864724288697]">16</container>
+                <container type="folder" label="Oversize Folder [941043045243553719]">16</container>
                 <unittitle>Townships 1 South (Lyndon, Dexter, Webster, Northfield, and Salem Townships)</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="folder" label="Oversize Folder [73093923643818761558922]">17</container>
+                <container type="folder" label="Oversize Folder [777659324478884746752]">17</container>
                 <unittitle>Townships 2 South (Sylvan, Lima, Scio, Ann Arbor, and Superior Townships)</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="folder" label="Oversize Folder [10439549547112451545433]">18</container>
+                <container type="folder" label="Oversize Folder [797245884560301211]">18</container>
                 <unittitle>Townships 3 South (Sharon, Freedom, Lodi, Pittsfield, and Ypsilanti Townships)</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="folder" label="Oversize Folder [95056307848449257613100]">19</container>
+                <container type="folder" label="Oversize Folder [6513896724878906070172]">19</container>
                 <unittitle>Townships 4 South (Manchester, Bridgewater, Saline, York, and Augusta Townships)</unittitle>
               </did>
             </c04>

@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,10 +40,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Life Financial Research Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/3122">Life Financial Research Center.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Mitsui Life Financial Research Center (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1990/2010">1990-2010</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2013159 Bimu 2</unitid>
+      <unittitle encodinganalog="245">Mitsui Life Financial Research Center (University of Michigan) records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1990/2010">1990-2010</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2013159 Bimu 2</unitid>
       <langmaterial>The material is primarily in <language langcode="eng" encodinganalog="041">English</language>, but includes some <language langcode="jap" encodinganalog="041">Japanese</language> and <language langcode="kor" encodinganalog="041">Korean</language>.</langmaterial>
       <abstract>Research center established in 1990 to encourage and support research in global financial market. Center is part of the Stephen M. Ross School of Business at the University of Michigan. Includes founding documents, annual reports, records of symposiums and lectures, particularly the Mitsui Life Symposium on Global Financial Markets; also photographs and scrapbook.</abstract>
       <physdesc altrender="part">
@@ -89,26 +89,26 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no95005547">Mitsui Life Financial Research Center.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Ross School of Business.</corpname>
-        <subject source="lcsh" encodinganalog="650">International economic relations.</subject>
-        <subject source="lcsh" encodinganalog="650">International finance.</subject>
-        <subject source="lcsh" encodinganalog="650">Finance.</subject>
-        <subject source="lcsh" encodinganalog="650">Markets.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no95005547" ref="/agents/corporate_entities/1512">Mitsui Life Financial Research Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3078">Michigan Ross School of Business.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10471">International economic relations.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10472">International finance.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10473">Finance.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10474">Markets.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no95005547">Mitsui Life Financial Research Center.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Ross School of Business.</corpname>
-        <subject source="lcsh" encodinganalog="650">International economic relations.</subject>
-        <subject source="lcsh" encodinganalog="650">International finance.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n84033115">Kim, U-jung.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82077061">Prahalad, C. K.</persname>
-        <persname source="lcnaf" encodinganalog="600">Sakata, Koshiro.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no95005547" ref="/agents/corporate_entities/1512">Mitsui Life Financial Research Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3078">Michigan Ross School of Business.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10471">International economic relations.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10472">International finance.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n84033115" ref="/agents/people/1351">Kim, U-jung.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82077061" ref="/agents/people/6879">Prahalad, C. K.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6140">Sakata, Koshiro.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -121,76 +121,65 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [46179545412823968557]">1</container>
-            <unittitle>Advisory Board Meeting <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [452224548490123790137012]">1</container>
+            <unittitle>Advisory Board Meeting</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [46179545412823968557]">1</container>
-            <unittitle>Agreement with U.M. School of Business <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [452224548490123790137012]">1</container>
+            <unittitle>Agreement with U.M. School of Business</unittitle><unitdate type="inclusive" normal="1990">1990</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [46179545412823968557]">1</container>
-            <unittitle>Annual Activity Report <unitdate type="inclusive" normal="1997/1999">1997-1999</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [452224548490123790137012]">1</container>
+            <unittitle>Annual Activity Report</unittitle><unitdate type="inclusive" normal="1997/1999">1997-1999</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [46179545412823968557]">1</container>
-            <unittitle>Annual Report <unitdate type="inclusive" normal="1990/1995">1990-1995</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [452224548490123790137012]">1</container>
+            <unittitle>Annual Report</unittitle><unitdate type="inclusive" normal="1990/1995">1990-1995</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [46179545412823968557]">1</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1990/1998">1990-1998</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [452224548490123790137012]">1</container>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1990/1998">1990-1998</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [46179545412823968557]">1</container>
-            <unittitle>Council for Better Citizenship Study <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [452224548490123790137012]">1</container>
+            <unittitle>Council for Better Citizenship Study</unittitle><unitdate type="inclusive" normal="1991">1991</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [46179545412823968557]">1</container>
-            <unittitle>First Center Payment <unitdate type="inclusive" normal="1990/1994">1990-1994</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [452224548490123790137012]">1</container>
+            <unittitle>First Center Payment</unittitle><unitdate type="inclusive" normal="1990/1994">1990-1994</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [46179545412823968557]">1</container>
-            <unittitle>History and Start-up Material <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [452224548490123790137012]">1</container>
+            <unittitle>History and Start-up Material</unittitle><unitdate type="inclusive" normal="1990">1990</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [46179545412823968557]">1</container>
-            <unittitle>Korean Economic Institute of America <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [452224548490123790137012]">1</container>
+            <unittitle>Korean Economic Institute of America</unittitle><unitdate type="inclusive" normal="1995">1995</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [46179545412823968557]">1</container>
-            <unittitle>Korean Exchange Program <unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [452224548490123790137012]">1</container>
+            <unittitle>Korean Exchange Program</unittitle><unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [46179545412823968557]">1</container>
-            <unittitle>Korean Foundation <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [452224548490123790137012]">1</container>
+            <unittitle>Korean Foundation</unittitle><unitdate type="inclusive" normal="1995">1995</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [46179545412823968557]">1</container>
+            <container type="box" label="Box [452224548490123790137012]">1</container>
             <unittitle>Media Coverage</unittitle>
           </did>
         </c02>
@@ -208,27 +197,24 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [46179545412823968557]">1</container>
-              <unittitle>Symposium Nos. 1-6 <unitdate type="inclusive" normal="1991/1999">1991-1999</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [452224548490123790137012]">1</container>
+              <unittitle>Symposium Nos. 1-6</unittitle><unitdate type="inclusive" normal="1991/1999">1991-1999</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">10 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [93297824442874108662056384]">2</container>
-              <unittitle>Symposium Nos. 7-13 <unitdate type="inclusive" normal="2000/2007">2000-2007</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [30325552479852448580]">2</container>
+              <unittitle>Symposium Nos. 7-13</unittitle><unitdate type="inclusive" normal="2000/2007">2000-2007</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">16 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [642494768698]">3</container>
-              <unittitle>Symposium Nos. 15-18 <unitdate type="inclusive" normal="2008/2010">2008-2010</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [98724291428005207482]">3</container>
+              <unittitle>Symposium Nos. 15-18</unittitle><unitdate type="inclusive" normal="2008/2010">2008-2010</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">9 folders</extent>
               </physdesc>
             </did>
@@ -236,33 +222,28 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [642494768698]">3</container>
-            <unittitle>7th U.S.-Korea Academic Symposium <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [98724291428005207482]">3</container>
+            <unittitle>7th U.S.-Korea Academic Symposium</unittitle><unitdate type="inclusive" normal="1996">1996</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [642494768698]">3</container>
-            <unittitle>Ambassador Lee Hong-Koo Visit <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [98724291428005207482]">3</container>
+            <unittitle>Ambassador Lee Hong-Koo Visit</unittitle><unitdate type="inclusive" normal="1998">1998</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [642494768698]">3</container>
-            <unittitle>Distinguished Lecture Series <unitdate type="inclusive" normal="1994/1998">1994-1998</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [98724291428005207482]">3</container>
+            <unittitle>Distinguished Lecture Series</unittitle><unitdate type="inclusive" normal="1994/1998">1994-1998</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [642494768698]">3</container>
-            <unittitle>Korean Studies Lecture <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [98724291428005207482]">3</container>
+            <unittitle>Korean Studies Lecture</unittitle><unitdate type="inclusive" normal="1998">1998</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [642494768698]">3</container>
-            <unittitle>Mini-Conferences and Workshops <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [98724291428005207482]">3</container>
+            <unittitle>Mini-Conferences and Workshops</unittitle><unitdate type="inclusive" normal="1999">1999</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -278,50 +259,46 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [642494768698]">3</container>
-              <unittitle>Symposium Nos. 1-3 <unitdate type="inclusive" normal="1991/1994">1991-1994</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [98724291428005207482]">3</container>
+              <unittitle>Symposium Nos. 1-3</unittitle><unitdate type="inclusive" normal="1991/1994">1991-1994</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [642494768698]">3</container>
-              <unittitle>Symposium Nos. 7-8 <unitdate type="inclusive" normal="2000/2002">2000-2002</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [98724291428005207482]">3</container>
+              <unittitle>Symposium Nos. 7-8</unittitle><unitdate type="inclusive" normal="2000/2002">2000-2002</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [642494768698]">3</container>
+              <container type="box" label="Box [98724291428005207482]">3</container>
               <unittitle>Symposium No. 14th</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [642494768698]">3</container>
-            <unittitle>7th U.S.-Korea Academic Symposium <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [98724291428005207482]">3</container>
+            <unittitle>7th U.S.-Korea Academic Symposium</unittitle><unitdate type="inclusive" normal="1996">1996</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [642494768698]">3</container>
+            <container type="box" label="Box [98724291428005207482]">3</container>
             <unittitle>Chairman Kim Daewoo</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [642494768698]">3</container>
-            <unittitle>Phelps Hall Dedication <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [98724291428005207482]">3</container>
+            <unittitle>Phelps Hall Dedication</unittitle><unitdate type="inclusive" normal="1990">1990</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [642494768698]">3</container>
+            <container type="box" label="Box [98724291428005207482]">3</container>
             <unittitle>Miscellaneous</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -330,15 +307,14 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [642494768698]">3</container>
+            <container type="box" label="Box [98724291428005207482]">3</container>
             <unittitle>Scrapbook Material</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [90146494062946575168]">1</container>
-            <unittitle>Scrapbook <unitdate type="inclusive" normal="1993/1998" certainty="approximate">circa 1993-1998</unitdate> (Outsized)</unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [503642076484886359313909]">1</container>
+            <unittitle>Scrapbook (Outsized)</unittitle><unitdate type="inclusive" normal="1993/1998" certainty="approximate">circa 1993-1998</unitdate></did>
         </c02>
       </c01>
     </dsc>

@@ -23,7 +23,8 @@
         <item>Original encoding in EAD2002 using manual tagging.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,10 +35,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Kean, James E.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/2473">Kean, James E.</persname>
       </origination>
-      <unittitle encodinganalog="245">James E. Kean photograph collection <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1919">1918-1919</unitdate></unittitle>
-      <abstract>Copies of photographs and other documents of James E. Kean, who served with the 167th Company Transportation Corps, sent to Murmansk, Russia at the end of World War I, part of the "Polar Bear Expedition."</abstract>
+      <unittitle encodinganalog="245">James E. Kean photograph collection</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1918/1919">1918-1919</unitdate><abstract>Copies of photographs and other documents of James E. Kean, who served with the 167th Company Transportation Corps, sent to Murmansk, Russia at the end of World War I, part of the "Polar Bear Expedition."</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">2010222 Aa 1</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -71,15 +71,15 @@
       </p>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Kean, James E.</persname>
-        <geogname source="lcnaf" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <subject source="local" encodinganalog="690">Polar Bear Expedition.</subject>
-        <subject source="lctgm" encodinganalog="650">Railroads--Soviet Union.</subject>
-        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2473">Kean, James E.</persname>
+        <geogname source="lcnaf" encodinganalog="651" ref="/subjects/756">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <subject source="local" encodinganalog="690" ref="/subjects/3516">Polar Bear Expedition.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4606">Railroads--Soviet Union.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5715">World War, 1914-1918.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -89,7 +89,7 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [420042218471817792539]">1</container>
+            <container type="folder" label="Folder [448877014208643292]">1</container>
             <unittitle>Photographs</unittitle>
           </did>
         </c02>

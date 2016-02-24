@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,10 +43,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no2008182100">Comstock, William Alfred, 1877-1949.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no2008182100" ref="/agents/people/355">Comstock, William Alfred, 1877-1949.</persname>
       </origination>
-      <unittitle encodinganalog="245">William A. Comstock Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1899/1949">1899-1949</unitdate></unittitle>
-      <abstract>Alpena, Michigan, businessman, University of Michigan regent and Democratic governor of Michigan, 1933-1934; correspondence, diaries, business papers, and other items, concerning Democratic party affairs, state and national elections, real estate and financial transactions, and photographs.</abstract>
+      <unittitle encodinganalog="245">William A. Comstock Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1899/1949">1899-1949</unitdate><abstract>Alpena, Michigan, businessman, University of Michigan regent and Democratic governor of Michigan, 1933-1934; correspondence, diaries, business papers, and other items, concerning Democratic party affairs, state and national elections, real estate and financial transactions, and photographs.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">85995 Aa 2, Ac, UAm</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="part">
@@ -90,202 +90,165 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651">Alpena (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83030499">Alpena County (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008182100">Comstock, William Alfred, 1877-1949.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731">Democratic Party (Mich.)</corpname>
-        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1928.</subject>
-        <subject source="lcsh" encodinganalog="650">Governors--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n84192953">Michigan. Civil Service Commission.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. Governor (1933-1934 : Comstock)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2011177139">Michigan. Liquor Control Commission.</corpname>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1917-1921.</geogname>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1922-1928.</geogname>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1929-1938.</geogname>
-        <subject source="lcsh" encodinganalog="650">Presidents--United States--Election--1928.</subject>
-        <subject source="lcsh" encodinganalog="650">Prohibition--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Real estate business--Michigan.</subject>
-        <geogname source="lcsh" encodinganalog="651">United States--Politics and government--1913-1921.</geogname>
-        <geogname source="lcsh" encodinganalog="651">United States--Politics and government--1923-1929.</geogname>
-        <geogname source="lcsh" encodinganalog="651">United States--Politics and government--1921-1923.</geogname>
-        <geogname source="lcsh" encodinganalog="651">United States--Politics and government--1933-1945.</geogname>
-        <geogname source="lcsh" encodinganalog="651">United States--Politics and government--1929-1933.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998">University of Michigan. Board of Regents.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1029">Alpena (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83030499" ref="/subjects/1621">Alpena County (Mich.)</geogname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008182100" ref="/agents/people/355">Comstock, William Alfred, 1877-1949.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731" ref="/agents/corporate_entities/3762">Democratic Party (Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6207">Elections--Michigan--1928.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5934">Governors--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n84192953" ref="/agents/corporate_entities/1612">Michigan. Civil Service Commission.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3734">Michigan. Governor (1933-1934 : Comstock)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2011177139" ref="/agents/corporate_entities/5042">Michigan. Liquor Control Commission.</corpname>
+        <geogname source="local" encodinganalog="691" ref="/subjects/803">Michigan--Politics and government--1917-1921.</geogname>
+        <geogname source="local" encodinganalog="691" ref="/subjects/804">Michigan--Politics and government--1922-1928.</geogname>
+        <geogname source="local" encodinganalog="691" ref="/subjects/799">Michigan--Politics and government--1929-1938.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6642">Presidents--United States--Election--1928.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6503">Prohibition--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6972">Real estate business--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1622">United States--Politics and government--1913-1921.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1403">United States--Politics and government--1923-1929.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1623">United States--Politics and government--1921-1923.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/961">United States--Politics and government--1933-1945.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/962">United States--Politics and government--1929-1933.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998" ref="/agents/corporate_entities/858">University of Michigan. Board of Regents.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <geogname source="lctgm" encodinganalog="651">Alpena (Mich.)--Brewing industry.</geogname>
-        <geogname source="lctgm" encodinganalog="651">Alpena (Mich.)--Business enterprises.</geogname>
-        <geogname source="lctgm" encodinganalog="651">Alpena (Mich.)--Lumber industry.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Beck Brewery (Alpena, Mich.)</corpname>
-        <subject source="lctgm" encodinganalog="650">Brewing industry--Michigan--Alpena.</subject>
-        <subject source="lctgm" encodinganalog="650">Business enterprises--Michigan--Alpena.</subject>
-        <subject source="lctgm" encodinganalog="650">Capitols--Michigan--Lansing.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008182100">Comstock, William Alfred, 1877-1949.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Comstock Brothers Lumber Mill.</corpname>
-        <subject source="lctgm" encodinganalog="650">Fishing.</subject>
-        <subject source="lcsh" encodinganalog="650">Governors--Michigan.</subject>
-        <subject source="lctgm" encodinganalog="650">Hospitals--Michigan.</subject>
-        <geogname source="lctgm" encodinganalog="651">Lansing (Mich.)--Capitols.</geogname>
-        <subject source="lctgm" encodinganalog="650">Lumber industry--Michigan--Alpena.</subject>
-        <subject source="lctgm" encodinganalog="650">Prison facilities.</subject>
-        <subject source="lctgm" encodinganalog="650">Street-railroads--Ohio.</subject>
-        <subject source="lctgm" encodinganalog="650">Street-railroads--Wisconsin.</subject>
-        <subject source="lctgm" encodinganalog="650">Universities and colleges--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Football.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Zeta Psi Fraternity. Xi Chapter (University of Michigan)</corpname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/257">Alpena (Mich.)--Brewing industry.</geogname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/258">Alpena (Mich.)--Business enterprises.</geogname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/259">Alpena (Mich.)--Lumber industry.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1539">Beck Brewery (Alpena, Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4081">Brewing industry--Michigan--Alpena.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4082">Business enterprises--Michigan--Alpena.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4083">Capitols--Michigan--Lansing.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008182100" ref="/agents/people/355">Comstock, William Alfred, 1877-1949.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1866">Comstock Brothers Lumber Mill.</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4084">Fishing.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5934">Governors--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3788">Hospitals--Michigan.</subject>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/260">Lansing (Mich.)--Capitols.</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4085">Lumber industry--Michigan--Alpena.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4079">Prison facilities.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4086">Street-railroads--Ohio.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4087">Street-railroads--Wisconsin.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3799">Universities and colleges--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Football.<term type="topical">Football.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/746">Zeta Psi Fraternity. Xi Chapter (University of Michigan)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Holsaple, R. N.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86025578">Jones, Jesse H. (Jesse Holman), 1874-1956.</persname>
-        <persname source="lcnaf" encodinganalog="700">Miller, Sidney Trowbridge, 1864-1940.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n89103733">New, Harry S. (Harry Stewart), 1858-1937.</persname>
-        <persname source="lcnaf" encodinganalog="700">Osborn, Chase S. (Chase Salmon), b. 1860.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79022932">Roosevelt, Franklin D. (Franklin Delano), 1882-1945.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50016436">Smith, Alfred Emanuel, 1873-1944.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/4360">Holsaple, R. N.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86025578" ref="/agents/people/3937">Jones, Jesse H. (Jesse Holman), 1874-1956.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/1394">Miller, Sidney Trowbridge, 1864-1940.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n89103733" ref="/agents/people/5882">New, Harry S. (Harry Stewart), 1858-1937.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/2456">Osborn, Chase S. (Chase Salmon), b. 1860.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79022932" ref="/agents/people/6807">Roosevelt, Franklin D. (Franklin Delano), 1882-1945.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50016436" ref="/agents/people/7066">Smith, Alfred Emanuel, 1873-1944.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="gmgpc" encodinganalog="655">Cyanotypes.</genreform>
-        <genreform source="gmgpc" encodinganalog="655">Diaries.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="aat" encodinganalog="655">Scrapbooks.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3472">Cyanotypes.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3474">Diaries.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3133">Scrapbooks.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Correspondence <unitdate type="inclusive" normal="1908/1949">1908-1949</unitdate>, <unitdate type="bulk" normal="1920/1929">1920-1929</unitdate></unittitle>
-        </did>
+          <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1908/1949">1908-1949</unitdate><unitdate type="bulk" normal="1920/1929">1920-1929</unitdate></did>
         <scopecontent>
           <p>The largest series in the collection is the Correspondence which dates from 1908 to 1949 with most of the files falling in the period of the 1920s when Comstock was active in business and in the affairs of the state Democratic Party. Correspondence for the period when he was governor and after are slight. The series, although labeled as Correspondence, also includes a mixture of other types of business and legal documentation. The correspondence is of most importance for its documentation of Comstock as a successful man of business.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [00702491947529188952]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1908/1909">1908-1909</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [70305827834328051516473]">1</container>
+            <unitdate type="inclusive" normal="1908/1909">1908-1909</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [00702491947529188952]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1914/1921">1914-1921</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [70305827834328051516473]">1</container>
+            <unitdate type="inclusive" normal="1914/1921">1914-1921</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">36 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [84724898724799600490149284]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1922/1923">1922-1923</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [92439449483532816]">2</container>
+            <unitdate type="inclusive" normal="1922/1923">1922-1923</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">34 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [92581814679003471715]">3</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1924/1925-03">1924-March 1925</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [804864739976825729]">3</container>
+            <unitdate type="inclusive" normal="1924/1925-03">1924-March 1925</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">23 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9992502964458991968621]">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1925-04/1926-05">April 1925-May 1926</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [7026382841159103671607]">4</container>
+            <unitdate type="inclusive" normal="1925-04/1926-05">April 1925-May 1926</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">28 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [50846891534441067182]">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1926-06/1927-07">June 1926-July 1927</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [950879496099516842]">5</container>
+            <unitdate type="inclusive" normal="1926-06/1927-07">June 1926-July 1927</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">29 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9902904042692758716420]">6</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1927-08/1928-04">August 1927-April 1928</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [427070651484442788619]">6</container>
+            <unitdate type="inclusive" normal="1927-08/1928-04">August 1927-April 1928</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">27 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [27786934887267753901]">7</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1928-05/1928-11">May 1928-November 1928</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [3092444493726843633]">7</container>
+            <unitdate type="inclusive" normal="1928-05/1928-11">May 1928-November 1928</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">23 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [698513410463761716]">8</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1928-12/1929">December 1928-1929</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [91163442327206777]">8</container>
+            <unitdate type="inclusive" normal="1928-12/1929">December 1928-1929</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">27 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [96996772429590232272757935]">9</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1930-01/1930-09">January 1930-September 1930</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [73293442688940505264]">9</container>
+            <unitdate type="inclusive" normal="1930-01/1930-09">January 1930-September 1930</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">19 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2408426430967772640]">10</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1930-10/1931-06">October 1930-June 1931</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [68947846821028]">10</container>
+            <unitdate type="inclusive" normal="1930-10/1931-06">October 1930-June 1931</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">19 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [64276236439885126088754]">11</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1931-07/1949">July 1931-1949</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [428788446988134760156]">11</container>
+            <unitdate type="inclusive" normal="1931-07/1949">July 1931-1949</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">27 folders</extent>
             </physdesc>
           </did>
@@ -300,7 +263,7 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [02441216145200803626]">12</container>
+            <container type="box" label="Box [02872883184315020736]">12</container>
             <unittitle>Business agreements and real estate affairs</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 folders</extent>
@@ -309,7 +272,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [02441216145200803626]">12</container>
+            <container type="box" label="Box [02872883184315020736]">12</container>
             <unittitle>Citations, commissions, blueprints, and political banner</unittitle>
           </did>
           <odd>
@@ -322,62 +285,57 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [02441216145200803626]">12</container>
+              <container type="box" label="Box [02872883184315020736]">12</container>
               <unittitle>General</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [02441216145200803626]">12</container>
-              <unittitle>Detroit-Windsor Tunnel Scrapbook <unitdate type="inclusive" normal="1927">1927</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [02872883184315020736]">12</container>
+              <unittitle>Detroit-Windsor Tunnel Scrapbook</unittitle><unitdate type="inclusive" normal="1927">1927</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [02441216145200803626]">12</container>
+              <container type="box" label="Box [02872883184315020736]">12</container>
               <unittitle>Campaign and gubernatorial administration (scrapbook)</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [02441216145200803626]">12</container>
-            <unittitle><genreform source="aat" normal="Diaries">Diary</genreform> of trip west by Henry A. Haigh to examine mining properties for possible purchase, <unitdate type="inclusive" normal="1901">1901</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [02872883184315020736]">12</container>
+            <unittitle><genreform source="aat" normal="Diaries">Diary</genreform> of trip west by Henry A. Haigh to examine mining properties for possible purchase</unittitle><unitdate type="inclusive" normal="1901">1901</unitdate></did>
           <odd>
             <p>(Haigh was accompanied by W. B. Comstock and his son William A. Comstock)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [02441216145200803626]">12</container>
-            <unittitle>Michigan Civil Service Commission materials <unitdate type="inclusive" normal="1939/1940">1939-1940</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [02872883184315020736]">12</container>
+            <unittitle>Michigan Civil Service Commission materials</unittitle><unitdate type="inclusive" normal="1939/1940">1939-1940</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [02441216145200803626]">12</container>
-            <unittitle>Michigan Liquor Control Commission, Report on Audit, December 16, 1933 to November 20, 1934 <unitdate type="inclusive" normal="1934">1934</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [02872883184315020736]">12</container>
+            <unittitle>Michigan Liquor Control Commission, Report on Audit, December 16, 1933 to November 20, 1934</unittitle><unitdate type="inclusive" normal="1934">1934</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [02441216145200803626]">12</container>
-            <unittitle>Natural Gas: report of the Michigan Public Utilities Commission Engineering Department entitled "The Market for and Supply of Natural Gas in Michigan," <unitdate type="inclusive" normal="1934-10-25">October 25, 1934</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [02872883184315020736]">12</container>
+            <unittitle>Natural Gas: report of the Michigan Public Utilities Commission Engineering Department entitled "The Market for and Supply of Natural Gas in Michigan,"</unittitle><unitdate type="inclusive" normal="1934-10-25">October 25, 1934</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [02441216145200803626]">12</container>
+            <container type="box" label="Box [02872883184315020736]">12</container>
             <unittitle>Politics and campaign issues</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [02441216145200803626]">12</container>
+            <container type="box" label="Box [02872883184315020736]">12</container>
             <unittitle>Tax returns and tax matters</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -386,7 +344,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [02441216145200803626]">12</container>
+            <container type="box" label="Box [02872883184315020736]">12</container>
             <unittitle>Various topics</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 folders</extent>
@@ -403,45 +361,38 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5730163573492879423]">13</container>
-            <unittitle>Comstock Farm-Green and Wilson Townships (Alpena County) Journal <unitdate type="inclusive" normal="1907/1908">1907-1908</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [438534367546412145]">13</container>
+            <unittitle>Comstock Farm-Green and Wilson Townships (Alpena County) Journal</unittitle><unitdate type="inclusive" normal="1907/1908">1907-1908</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5730163573492879423]">13</container>
-            <unittitle>Democratic Party cash book <unitdate type="inclusive" normal="1924/1928-10">1924-October 1928</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [438534367546412145]">13</container>
+            <unittitle>Democratic Party cash book</unittitle><unitdate type="inclusive" normal="1924/1928-10">1924-October 1928</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5730163573492879423]">13</container>
-            <unittitle>Democratic Party ledger <unitdate type="inclusive" normal="1924/1928-10">1924-October 1928</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [438534367546412145]">13</container>
+            <unittitle>Democratic Party ledger</unittitle><unitdate type="inclusive" normal="1924/1928-10">1924-October 1928</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5730163573492879423]">13</container>
-            <unittitle>Comstock-Haigh-Walker Co. record book <unitdate type="inclusive" normal="1902-04/1919">April 1902-1919</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [438534367546412145]">13</container>
+            <unittitle>Comstock-Haigh-Walker Co. record book</unittitle><unitdate type="inclusive" normal="1902-04/1919">April 1902-1919</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5730163573492879423]">13</container>
-            <unittitle>LaSalle Building Co. trustees record book <unitdate type="inclusive" normal="1922-12/1932-01">December 1922-January 1932</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [438534367546412145]">13</container>
+            <unittitle>LaSalle Building Co. trustees record book</unittitle><unitdate type="inclusive" normal="1922-12/1932-01">December 1922-January 1932</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5730163573492879423]">13</container>
-            <unittitle>Comstock Land Co. corporate record book <unitdate type="inclusive" normal="1928-10/1929-02">October 1928-February 1929</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [438534367546412145]">13</container>
+            <unittitle>Comstock Land Co. corporate record book</unittitle><unitdate type="inclusive" normal="1928-10/1929-02">October 1928-February 1929</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5730163573492879423]">13</container>
-            <unittitle>Griswold Building Co. record book <unitdate type="inclusive" normal="1927-09/1932-01">September 1927-January 1932</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [438534367546412145]">13</container>
+            <unittitle>Griswold Building Co. record book</unittitle><unitdate type="inclusive" normal="1927-09/1932-01">September 1927-January 1932</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -455,9 +406,8 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3644562247679783452854]">14</container>
-            <unittitle><unitdate type="inclusive" normal="1902/1912">1902-1912</unitdate>, <unitdate type="inclusive" normal="1916">1916</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [62693645844855264288229]">14</container>
+            <unitdate type="inclusive" normal="1902/1912">1902-1912</unitdate><unitdate type="inclusive" normal="1916">1916</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">12 volumes</extent>
             </physdesc>
           </did>
@@ -474,7 +424,7 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3644562247679783452854]">14</container>
+            <container type="box" label="Box [62693645844855264288229]">14</container>
             <unittitle>Portraits</unittitle>
           </did>
           <odd>
@@ -483,7 +433,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3644562247679783452854]">14</container>
+            <container type="box" label="Box [62693645844855264288229]">14</container>
             <unittitle>WAC with others</unittitle>
           </did>
           <odd>
@@ -492,31 +442,31 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3644562247679783452854]">14</container>
+            <container type="box" label="Box [62693645844855264288229]">14</container>
             <unittitle>Beck Brewery (Alpena, Mich.)</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3644562247679783452854]">14</container>
+            <container type="box" label="Box [62693645844855264288229]">14</container>
             <unittitle>Bullfight (Mexico, 1902)</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3644562247679783452854]">14</container>
+            <container type="box" label="Box [62693645844855264288229]">14</container>
             <unittitle>Comstock Bros. Lumber Camp and Mill (Alpena, Mich. area)</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3644562247679783452854]">14</container>
+            <container type="box" label="Box [62693645844855264288229]">14</container>
             <unittitle>Fishing</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3644562247679783452854]">14</container>
+            <container type="box" label="Box [62693645844855264288229]">14</container>
             <unittitle>Fremont, Ohio</unittitle>
             <physdesc altrender="part">
               <extent altrender="materialtype spaceoccupied">1 folders</extent>
@@ -528,27 +478,25 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3644562247679783452854]">14</container>
+            <container type="box" label="Box [62693645844855264288229]">14</container>
             <unittitle>Interurbans (Wisconsin)</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3644562247679783452854]">14</container>
+            <container type="box" label="Box [62693645844855264288229]">14</container>
             <unittitle>Miscellaneous</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3644562247679783452854]">14</container>
-            <unittitle>University of Michigan football game and Zeta Psi House <unitdate type="inclusive" normal="1890/1899" certainty="approximate">1890s</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [62693645844855264288229]">14</container>
+            <unittitle>University of Michigan football game and Zeta Psi House</unittitle><unitdate type="inclusive" normal="1890/1899" certainty="approximate">1890s</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3644562247679783452854]">14</container>
-            <unittitle>"Michigan from the Air; Michigan State Institutions," prepared by the Abrams Aerial Survey <unitdate type="inclusive" normal="1931/1932" certainty="approximate">circa 1931-1932</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [62693645844855264288229]">14</container>
+            <unittitle>"Michigan from the Air; Michigan State Institutions," prepared by the Abrams Aerial Survey</unittitle><unitdate type="inclusive" normal="1931/1932" certainty="approximate">circa 1931-1932</unitdate></did>
         </c02>
       </c01>
     </dsc>

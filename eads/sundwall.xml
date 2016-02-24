@@ -35,7 +35,8 @@
         <item>Original encoding from Word 6.0 file in EAD vers. 1.0 using Word macros and hand tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,10 +47,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Sundwall, John, 1880-1950.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/1109">Sundwall, John, 1880-1950.</persname>
       </origination>
-      <unittitle encodinganalog="245">John Sundwall Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1921/1944">1921-1944</unitdate></unittitle>
-      <abstract>Public health physician and director of the Division of Hygiene, Public Health, and Physical Education at the University of Michigan, 1921-1941, papers include correspondence, administrative reports and studies, working files, minutes of meetings attended, manuscripts of writings, and photographs.</abstract>
+      <unittitle encodinganalog="245">John Sundwall Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1921/1944">1921-1944</unitdate><abstract>Public health physician and director of the Division of Hygiene, Public Health, and Physical Education at the University of Michigan, 1921-1941, papers include correspondence, administrative reports and studies, working files, minutes of meetings attended, manuscripts of writings, and photographs.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">86167 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physloc>Photographs located in Box 5.</physloc>
@@ -99,37 +99,37 @@
         <extptr href="accnote" show="embed" actuate="onload"/>
       </p>
       <controlaccess>
-        <persname source="lcnaf" encodinganalog="600">Sundwall, John, 1880-1950.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50054148">Committee on the Costs of Medical Care.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Good Teeth Council for Children.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2003069746">Presidents' Committee of Fifty on College Hygiene.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50054148">Committee on the Costs of Medical Care.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79096730">United States. Public Health Service.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Division of the Health Sciences.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81098940">University of Michigan. Division of Hygiene and Public Health.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. University Health Service.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80020716">University of Michigan. School of Public Health.</corpname>
-        <subject source="lcsh" encodinganalog="650">Children--Health and hygiene--United States.</subject>
-        <subject source="lcsh" encodinganalog="650">Health education.</subject>
-        <subject source="lcsh" encodinganalog="650">Hygiene.</subject>
-        <subject source="lcsh" encodinganalog="650">Physical education and training.</subject>
-        <subject source="lcsh" encodinganalog="650">Public health--United States.</subject>
-        <subject source="lcsh" encodinganalog="650">Tuberculosis.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1109">Sundwall, John, 1880-1950.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50054148" ref="/agents/corporate_entities/5698">Committee on the Costs of Medical Care.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2537">Good Teeth Council for Children.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2003069746" ref="/agents/corporate_entities/1911">Presidents' Committee of Fifty on College Hygiene.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50054148" ref="/agents/corporate_entities/5698">Committee on the Costs of Medical Care.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79096730" ref="/agents/corporate_entities/3665">United States. Public Health Service.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/526">University of Michigan. Division of the Health Sciences.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81098940" ref="/agents/corporate_entities/647">University of Michigan. Division of Hygiene and Public Health.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4448">University of Michigan. University Health Service.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80020716" ref="/agents/corporate_entities/4832">University of Michigan. School of Public Health.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10298">Children--Health and hygiene--United States.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10199">Health education.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6186">Hygiene.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7303">Physical education and training.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6000">Public health--United States.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9211">Tuberculosis.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <famname source="lcnaf">Sundwall family.</famname>
-        <persname source="lcnaf">Sundwall, John, 1880-1950.</persname>
-        <persname source="lcnaf">Sundwall, Mary.</persname>
-        <geogname source="lcsh">Germany.</geogname>
-        <geogname source="lcsh" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)</geogname>
+        <famname source="lcnaf" ref="/agents/families/172">Sundwall family.</famname>
+        <persname source="lcnaf" ref="/agents/people/1109">Sundwall, John, 1880-1950.</persname>
+        <persname source="lcnaf" ref="/agents/people/7632">Sundwall, Mary.</persname>
+        <geogname source="lcsh" ref="/subjects/915">Germany.</geogname>
+        <geogname source="lcsh" authfilenumber="http://id.loc.gov/authorities/names/n79022219" ref="/subjects/856">Ann Arbor (Mich.)</geogname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat">Photographs.</genreform>
-        <genreform source="aat">Portraits.</genreform>
-        <genreform source="aat">Sound recordings.</genreform>
+        <genreform source="aat" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="aat" ref="/subjects/3209">Portraits.</genreform>
+        <genreform source="aat" ref="/subjects/3137">Sound recordings.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -142,7 +142,7 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container label="Box [32888744531125611]" type="box">1</container>
+            <container label="Box [983367442809639308]" type="box">1</container>
             <unittitle>Various</unittitle>
           </did>
           <odd>
@@ -151,15 +151,13 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [32888744531125611]">1</container>
-            <unittitle>Correspondence regarding appointment to the University <unitdate type="inclusive" normal="1921">1921</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [983367442809639308]">1</container>
+            <unittitle>Correspondence regarding appointment to the University</unittitle><unitdate type="inclusive" normal="1921">1921</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Correspondence <unitdate type="inclusive" normal="1921/1939">1921-1939</unitdate></unittitle>
-          <physdesc altrender="whole">
+          <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1921/1939">1921-1939</unitdate><physdesc altrender="whole">
             <extent altrender="materialtype spaceoccupied">1 linear feet</extent>
           </physdesc>
         </did>
@@ -168,33 +166,24 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container label="Box [32888744531125611]" type="box">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1921/1922">1921-1922</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container label="Box [983367442809639308]" type="box">1</container>
+            <unitdate type="inclusive" normal="1921/1922">1921-1922</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [32888744531125611]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1923">1923</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [983367442809639308]">1</container>
+            <unitdate type="inclusive" normal="1923">1923</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [32888744531125611]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1924/1925">1924-1925</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [983367442809639308]">1</container>
+            <unitdate type="inclusive" normal="1924/1925">1924-1925</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
             </physdesc>
           </did>
@@ -204,69 +193,50 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [32888744531125611]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1926">1926</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [983367442809639308]">1</container>
+            <unitdate type="inclusive" normal="1926">1926</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [32888744531125611]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1928/1929">1928-1929</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [983367442809639308]">1</container>
+            <unitdate type="inclusive" normal="1928/1929">1928-1929</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [32888744531125611]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1932/1933">1932-1933</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [983367442809639308]">1</container>
+            <unitdate type="inclusive" normal="1932/1933">1932-1933</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [32888744531125611]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1933/1934">1933-1934</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [983367442809639308]">1</container>
+            <unitdate type="inclusive" normal="1933/1934">1933-1934</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [32888744531125611]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1935/1936">1935-1936</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [983367442809639308]">1</container>
+            <unitdate type="inclusive" normal="1935/1936">1935-1936</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [32888744531125611]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1938/1939">1938-1939</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [983367442809639308]">1</container>
+            <unitdate type="inclusive" normal="1938/1939">1938-1939</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>University of Michigan Division of Hygiene and Public Health <unitdate type="inclusive" normal="1922/1941">1922-1941</unitdate></unittitle>
-        </did>
+          <unittitle>University of Michigan Division of Hygiene and Public Health</unittitle><unitdate type="inclusive" normal="1922/1941">1922-1941</unitdate></did>
         <odd>
           <p>(formerly the Division of Hygiene, Public Health, and Physical Education)</p>
         </odd>
@@ -275,33 +245,28 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container label="Box [906267048899858677]" type="box">2</container>
-            <unittitle>Building plans <unitdate type="inclusive" normal="1922/1936">1922-1936</unitdate></unittitle>
-          </did>
+            <container label="Box [017440220702124]" type="box">2</container>
+            <unittitle>Building plans</unittitle><unitdate type="inclusive" normal="1922/1936">1922-1936</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [906267048899858677]">2</container>
-            <unittitle>Correspondence, etc. <unitdate type="inclusive" normal="1932/1939">1932-1939</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [017440220702124]">2</container>
+            <unittitle>Correspondence, etc.</unittitle><unitdate type="inclusive" normal="1932/1939">1932-1939</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [906267048899858677]">2</container>
-            <unittitle>History of its establishment <unitdate type="inclusive" normal="1928" certainty="approximate">circa 1928</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [017440220702124]">2</container>
+            <unittitle>History of its establishment</unittitle><unitdate type="inclusive" normal="1928" certainty="approximate">circa 1928</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [906267048899858677]">2</container>
-            <unittitle>Industrial Hygiene, Second Annual Conference on (1941) <unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [017440220702124]">2</container>
+            <unittitle>Industrial Hygiene, Second Annual Conference on (1941)</unittitle><unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [906267048899858677]">2</container>
-            <unittitle>Minutes of staff meetings <unitdate type="inclusive" normal="1937/1941">1937-1941</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [017440220702124]">2</container>
+            <unittitle>Minutes of staff meetings</unittitle><unitdate type="inclusive" normal="1937/1941">1937-1941</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
@@ -312,40 +277,35 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [906267048899858677]">2</container>
-              <unittitle>Chope, H.D. <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [017440220702124]">2</container>
+              <unittitle>Chope, H.D.</unittitle><unitdate type="inclusive" normal="1940">1940</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [906267048899858677]">2</container>
-              <unittitle>Hall, Marguerite <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [017440220702124]">2</container>
+              <unittitle>Hall, Marguerite</unittitle><unitdate type="inclusive" normal="1940">1940</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [906267048899858677]">2</container>
-              <unittitle>McLaughlin, Allan <unitdate type="inclusive" normal="1936/1937">1936-1937</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [017440220702124]">2</container>
+              <unittitle>McLaughlin, Allan</unittitle><unitdate type="inclusive" normal="1936/1937">1936-1937</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [906267048899858677]">2</container>
-            <unittitle>Survey of college registrars re organization of sciences in their colleges <unitdate type="inclusive" normal="1936">1936</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [017440220702124]">2</container>
+            <unittitle>Survey of college registrars re organization of sciences in their colleges</unittitle><unitdate type="inclusive" normal="1936">1936</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [906267048899858677]">2</container>
+            <container type="box" label="Box [017440220702124]">2</container>
             <unittitle>Miscellaneous</unittitle>
           </did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>University of Michigan Topical <unitdate type="inclusive" normal="1926/1944">1926-1944</unitdate></unittitle>
-          <physdesc altrender="whole">
+          <unittitle>University of Michigan Topical</unittitle><unitdate type="inclusive" normal="1926/1944">1926-1944</unitdate><physdesc altrender="whole">
             <extent altrender="materialtype spaceoccupied">1 linear feet</extent>
           </physdesc>
         </did>
@@ -354,13 +314,13 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container label="Box [906267048899858677]" type="box">2</container>
+            <container label="Box [017440220702124]" type="box">2</container>
             <unittitle>Course descriptions and approval for courses</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [906267048899858677]">2</container>
+            <container type="box" label="Box [017440220702124]">2</container>
             <unittitle>Course syllabi</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -369,21 +329,19 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [906267048899858677]">2</container>
+            <container type="box" label="Box [017440220702124]">2</container>
             <unittitle>Curricula-Hygiene, public health, etc.</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [906267048899858677]">2</container>
-            <unittitle>Curricula (proposed course in public health engineering) <unitdate type="inclusive" normal="1937">1937</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [017440220702124]">2</container>
+            <unittitle>Curricula (proposed course in public health engineering)</unittitle><unitdate type="inclusive" normal="1937">1937</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [906267048899858677]">2</container>
-            <unittitle>re Day Report <unitdate type="inclusive" normal="1926/1930">1926-1930</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [017440220702124]">2</container>
+            <unittitle>Re Day Report</unittitle><unitdate type="inclusive" normal="1926/1930">1926-1930</unitdate></did>
           <odd>
             <p>(removal of intramural athletics from the Division of Hygiene ...)</p>
           </odd>
@@ -394,34 +352,29 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [906267048899858677]">2</container>
-              <unittitle>Correspondence, etc. <unitdate type="inclusive" normal="1932/1939">1932-1939</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [017440220702124]">2</container>
+              <unittitle>Correspondence, etc.</unittitle><unitdate type="inclusive" normal="1932/1939">1932-1939</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [906267048899858677]">2</container>
-              <unittitle>Undergraduate Activities and Programs Committee <unitdate type="inclusive" normal="1942/1943">1942-1943</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [017440220702124]">2</container>
+              <unittitle>Undergraduate Activities and Programs Committee</unittitle><unitdate type="inclusive" normal="1942/1943">1942-1943</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [906267048899858677]">2</container>
-            <unittitle>Extension Division <unitdate type="inclusive" normal="1932/1939">1932-1939</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [017440220702124]">2</container>
+            <unittitle>Extension Division</unittitle><unitdate type="inclusive" normal="1932/1939">1932-1939</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [906267048899858677]">2</container>
-            <unittitle>Extramural Services, Division of (include wartime physical preparedness) <unitdate type="inclusive" normal="1941">1941</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [017440220702124]">2</container>
+            <unittitle>Extramural Services, Division of (include wartime physical preparedness)</unittitle><unitdate type="inclusive" normal="1941">1941</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [906267048899858677]">2</container>
-            <unittitle>Graduate School <unitdate type="inclusive" normal="1938/1944">1938-1944</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [017440220702124]">2</container>
+            <unittitle>Graduate School</unittitle><unitdate type="inclusive" normal="1938/1944">1938-1944</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -429,51 +382,40 @@
           </did>
           <c03 level="file">
             <did>
-              <unittitle>Minutes of the meetings <unitdate type="inclusive" normal="1935/1942">1935-1942</unitdate></unittitle>
-            </did>
+              <unittitle>Minutes of the meetings</unittitle><unitdate type="inclusive" normal="1935/1942">1935-1942</unitdate></did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [906267048899858677]">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1935/1940">1935-1940</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [017440220702124]">2</container>
+                <unitdate type="inclusive" normal="1935/1940">1935-1940</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">4 folders</extent>
                 </physdesc>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [2146800489612655412219]">3</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [9982480081546450]">3</container>
+                <unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2146800489612655412219]">3</container>
-              <unittitle>Auxiliary Health Sciences <unitdate type="inclusive" normal="1938">1938</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9982480081546450]">3</container>
+              <unittitle>Auxiliary Health Sciences</unittitle><unitdate type="inclusive" normal="1938">1938</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2146800489612655412219]">3</container>
-              <unittitle>re Organization of School of Public Health, and relation of University's Health Service to the Division <unitdate type="inclusive" normal="1941">1941</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9982480081546450]">3</container>
+              <unittitle>Re Organization of School of Public Health, and relation of University's Health Service to the Division</unittitle><unitdate type="inclusive" normal="1941">1941</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2146800489612655412219]">3</container>
-              <unittitle>Summary of transactions <unitdate type="inclusive" normal="1935/1942">1935-1942</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9982480081546450]">3</container>
+              <unittitle>Summary of transactions</unittitle><unitdate type="inclusive" normal="1935/1942">1935-1942</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2146800489612655412219]">3</container>
-              <unittitle>Miscellaneous <unitdate type="inclusive" normal="1937/1940">1937-1940</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9982480081546450]">3</container>
+              <unittitle>Miscellaneous</unittitle><unitdate type="inclusive" normal="1937/1940">1937-1940</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -482,88 +424,75 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2146800489612655412219]">3</container>
-              <unittitle>Criticism and evaluation <unitdate type="inclusive" normal="1927/1928" certainty="approximate">circa 1927-1928</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9982480081546450]">3</container>
+              <unittitle>Criticism and evaluation</unittitle><unitdate type="inclusive" normal="1927/1928" certainty="approximate">circa 1927-1928</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2146800489612655412219]">3</container>
-              <unittitle>Correspondence, etc. <unitdate type="inclusive" normal="1932/1939">1932-1939</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9982480081546450]">3</container>
+              <unittitle>Correspondence, etc.</unittitle><unitdate type="inclusive" normal="1932/1939">1932-1939</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2146800489612655412219]">3</container>
+              <container type="box" label="Box [9982480081546450]">3</container>
               <unittitle>Miscellaneous</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2146800489612655412219]">3</container>
-              <unittitle>Monthly reports <unitdate type="inclusive" normal="1933/1944">1933-1944</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9982480081546450]">3</container>
+              <unittitle>Monthly reports</unittitle><unitdate type="inclusive" normal="1933/1944">1933-1944</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2146800489612655412219]">3</container>
-              <unittitle>Procedures <unitdate type="inclusive" normal="1928/1934">1928/29-1933/34</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9982480081546450]">3</container>
+              <unittitle>Procedures</unittitle><unitdate type="inclusive" normal="1928/1934">1928/29-1933/34</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2146800489612655412219]">3</container>
-            <unittitle>Honorary degrees <unitdate type="inclusive" normal="1936/1942">1936-1942</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9982480081546450]">3</container>
+            <unittitle>Honorary degrees</unittitle><unitdate type="inclusive" normal="1936/1942">1936-1942</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2146800489612655412219]">3</container>
-            <unittitle>Institute of Public Policy and Social Administration <unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9982480081546450]">3</container>
+            <unittitle>Institute of Public Policy and Social Administration</unittitle><unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2146800489612655412219]">3</container>
-            <unittitle>Intramural Athletics, Dept. of <unitdate type="inclusive" normal="1933">1933</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9982480081546450]">3</container>
+            <unittitle>Intramural Athletics, Dept. of</unittitle><unitdate type="inclusive" normal="1933">1933</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2146800489612655412219]">3</container>
-            <unittitle>Medical School <unitdate type="inclusive" normal="1932/1943">1932-1943</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9982480081546450]">3</container>
+            <unittitle>Medical School</unittitle><unitdate type="inclusive" normal="1932/1943">1932-1943</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2146800489612655412219]">3</container>
-            <unittitle>Mental hygiene <unitdate type="inclusive" normal="1928/1930">1928-1930</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9982480081546450]">3</container>
+            <unittitle>Mental hygiene</unittitle><unitdate type="inclusive" normal="1928/1930">1928-1930</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2146800489612655412219]">3</container>
-            <unittitle>Physical therapy <unitdate type="inclusive" normal="1938">1938</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9982480081546450]">3</container>
+            <unittitle>Physical therapy</unittitle><unitdate type="inclusive" normal="1938">1938</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2146800489612655412219]">3</container>
-            <unittitle>Postgraduate public health education <unitdate type="inclusive" normal="1933">1933</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9982480081546450]">3</container>
+            <unittitle>Postgraduate public health education</unittitle><unitdate type="inclusive" normal="1933">1933</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2146800489612655412219]">3</container>
-            <unittitle>Public Health Assembly <unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9982480081546450]">3</container>
+            <unittitle>Public Health Assembly</unittitle><unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2146800489612655412219]">3</container>
-            <unittitle>Public health laboratory/sanitary biology courses <unitdate type="inclusive" normal="1935/1939">1935-1939</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9982480081546450]">3</container>
+            <unittitle>Public health laboratory/sanitary biology courses</unittitle><unitdate type="inclusive" normal="1935/1939">1935-1939</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -571,58 +500,49 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2146800489612655412219]">3</container>
-              <unittitle>Establishment of <unitdate type="inclusive" normal="1938/1940">1938-1940</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9982480081546450]">3</container>
+              <unittitle>Establishment of</unittitle><unitdate type="inclusive" normal="1938/1940">1938-1940</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2146800489612655412219]">3</container>
-              <unittitle>General <unitdate type="inclusive" normal="1942">1942</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9982480081546450]">3</container>
+              <unittitle>General</unittitle><unitdate type="inclusive" normal="1942">1942</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2146800489612655412219]">3</container>
-            <unittitle>Public Health Training courses <unitdate type="inclusive" normal="1926/1931">1926-1931</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9982480081546450]">3</container>
+            <unittitle>Public Health Training courses</unittitle><unitdate type="inclusive" normal="1926/1931">1926-1931</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2146800489612655412219]">3</container>
-            <unittitle>Rockefeller Foundation, Parran-Farrand study of schools of public health <unitdate type="inclusive" normal="1938/1939">1938-1939</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9982480081546450]">3</container>
+            <unittitle>Rockefeller Foundation, Parran-Farrand study of schools of public health</unittitle><unitdate type="inclusive" normal="1938/1939">1938-1939</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2146800489612655412219]">3</container>
-            <unittitle>Summer Session <unitdate type="inclusive" normal="1933/1934">1933-1934</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9982480081546450]">3</container>
+            <unittitle>Summer Session</unittitle><unitdate type="inclusive" normal="1933/1934">1933-1934</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2146800489612655412219]">3</container>
-            <unittitle>Survey undertaken regarding doctorate in public health <unitdate type="inclusive" normal="1926/1930">1926-1930</unitdate> (papers about)</unittitle>
-          </did>
+            <container type="box" label="Box [9982480081546450]">3</container>
+            <unittitle>Survey undertaken regarding doctorate in public health (papers about)</unittitle><unitdate type="inclusive" normal="1926/1930">1926-1930</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2146800489612655412219]">3</container>
-            <unittitle>Training of Teachers, Joint Committee on <unitdate type="inclusive" normal="1938/1941">1938-1941</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9982480081546450]">3</container>
+            <unittitle>Training of Teachers, Joint Committee on</unittitle><unitdate type="inclusive" normal="1938/1941">1938-1941</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2146800489612655412219]">3</container>
-            <unittitle>Venereal Disease Control Program <unitdate type="inclusive" normal="1938/1940">1938-1940</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9982480081546450]">3</container>
+            <unittitle>Venereal Disease Control Program</unittitle><unitdate type="inclusive" normal="1938/1940">1938-1940</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Organizations <unitdate type="inclusive" normal="1921/1942">1921-1942</unitdate></unittitle>
-          <physdesc altrender="whole">
+          <unittitle>Organizations</unittitle><unitdate type="inclusive" normal="1921/1942">1921-1942</unitdate><physdesc altrender="whole">
             <extent altrender="materialtype spaceoccupied">2 linear feet</extent>
           </physdesc>
         </did>
@@ -631,21 +551,18 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container label="Box [2146800489612655412219]" type="box">3</container>
-            <unittitle>American Association of School Physicians <unitdate type="inclusive" normal="1932/1934">1932-1934</unitdate></unittitle>
-          </did>
+            <container label="Box [9982480081546450]" type="box">3</container>
+            <unittitle>American Association of School Physicians</unittitle><unitdate type="inclusive" normal="1932/1934">1932-1934</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2146800489612655412219]">3</container>
-            <unittitle>American Association of University Professors <unitdate type="inclusive" normal="1938">1938</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9982480081546450]">3</container>
+            <unittitle>American Association of University Professors</unittitle><unitdate type="inclusive" normal="1938">1938</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2146800489612655412219]">3</container>
-            <unittitle>American Child Health Association <unitdate type="inclusive" normal="1923/1934">1923-1934</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [9982480081546450]">3</container>
+            <unittitle>American Child Health Association</unittitle><unitdate type="inclusive" normal="1923/1934">1923-1934</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 folders</extent>
             </physdesc>
           </did>
@@ -659,34 +576,24 @@
           </did>
           <c03 level="file">
             <did>
-              <unittitle>Correspondence, etc. <unitdate type="inclusive" normal="1924/1934">1924-1934</unitdate></unittitle>
-            </did>
+              <unittitle>Correspondence, etc.</unittitle><unitdate type="inclusive" normal="1924/1934">1924-1934</unitdate></did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [2146800489612655412219]">3</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1924/1925">1924-1925</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [9982480081546450]">3</container>
+                <unitdate type="inclusive" normal="1924/1925">1924-1925</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [2146800489612655412219]">3</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1928/1929">1928-1929</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [9982480081546450]">3</container>
+                <unitdate type="inclusive" normal="1928/1929">1928-1929</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [28894324192619221]">4</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1932/1934">1932-1934</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [2972222495813376235]">4</container>
+                <unitdate type="inclusive" normal="1932/1934">1932-1934</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
@@ -698,9 +605,8 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [28894324192619221]">4</container>
-                <unittitle>Correspondence, etc. <unitdate type="inclusive" normal="1935/1942">1935-1942</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [2972222495813376235]">4</container>
+                <unittitle>Correspondence, etc.</unittitle><unitdate type="inclusive" normal="1935/1942">1935-1942</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
@@ -711,126 +617,109 @@
               </did>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [28894324192619221]">4</container>
-                  <unittitle>Dated files <unitdate type="inclusive" normal="1935/1937">1935-1937</unitdate>, <unitdate type="inclusive" normal="1939/1942">1939-1942</unitdate></unittitle>
-                  <physdesc altrender="whole">
+                  <container type="box" label="Box [2972222495813376235]">4</container>
+                  <unittitle>Dated files</unittitle><unitdate type="inclusive" normal="1935/1937">1935-1937</unitdate><unitdate type="inclusive" normal="1939/1942">1939-1942</unitdate><physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">2 folders</extent>
                   </physdesc>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [28894324192619221]">4</container>
-                  <unittitle>Public Health Dentists <unitdate type="inclusive" normal="1937/1942">1937-1942</unitdate></unittitle>
-                  <physdesc altrender="whole">
+                  <container type="box" label="Box [2972222495813376235]">4</container>
+                  <unittitle>Public Health Dentists</unittitle><unitdate type="inclusive" normal="1937/1942">1937-1942</unitdate><physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">2 folders</extent>
                   </physdesc>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [28894324192619221]">4</container>
-                  <unittitle>Public Health Nutritionists <unitdate type="inclusive" normal="1937/1940">1937-1940</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [2972222495813376235]">4</container>
+                  <unittitle>Public Health Nutritionists</unittitle><unitdate type="inclusive" normal="1937/1940">1937-1940</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [28894324192619221]">4</container>
-                  <unittitle>Public Health Statisticians <unitdate type="inclusive" normal="1935/1940">1935-1940</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [2972222495813376235]">4</container>
+                  <unittitle>Public Health Statisticians</unittitle><unitdate type="inclusive" normal="1935/1940">1935-1940</unitdate></did>
               </c05>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [28894324192619221]">4</container>
-                <unittitle>Subcommittees on Professional Education and Training of School Health Educators/Adult Health Educators <unitdate type="inclusive" normal="1936">1936</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [2972222495813376235]">4</container>
+                <unittitle>Subcommittees on Professional Education and Training of School Health Educators/Adult Health Educators</unittitle><unitdate type="inclusive" normal="1936">1936</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [28894324192619221]">4</container>
-                <unittitle>Joint Committee on Qualifications of School Health Educators and Adult Health Educators <unitdate type="inclusive" normal="1940/1942">1940-1942</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [2972222495813376235]">4</container>
+                <unittitle>Joint Committee on Qualifications of School Health Educators and Adult Health Educators</unittitle><unitdate type="inclusive" normal="1940/1942">1940-1942</unitdate></did>
             </c04>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [28894324192619221]">4</container>
+            <container type="box" label="Box [2972222495813376235]">4</container>
             <unittitle>American Social Hygiene Association, 1924-25, 1932-33, 1941-42</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [28894324192619221]">4</container>
-            <unittitle>American Society for the Hard of Hearing <unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [2972222495813376235]">4</container>
+            <unittitle>American Society for the Hard of Hearing</unittitle><unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [28894324192619221]">4</container>
-            <unittitle>American Student Health Association <unitdate type="inclusive" normal="1924/1935">1924-1935</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [2972222495813376235]">4</container>
+            <unittitle>American Student Health Association</unittitle><unitdate type="inclusive" normal="1924/1935">1924-1935</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [28894324192619221]">4</container>
-            <unittitle>Cleveland Health Museum <unitdate type="inclusive" normal="1941">1941</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [2972222495813376235]">4</container>
+            <unittitle>Cleveland Health Museum</unittitle><unitdate type="inclusive" normal="1941">1941</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [28894324192619221]">4</container>
-            <unittitle>Committee on the Cost of Medical Care <unitdate type="inclusive" normal="1930/1932">1930-1932</unitdate>, <unitdate type="inclusive" normal="1940" certainty="approximate">circa 1940</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [2972222495813376235]">4</container>
+            <unittitle>Committee on the Cost of Medical Care</unittitle><unitdate type="inclusive" normal="1930/1932">1930-1932</unitdate><unitdate type="inclusive" normal="1940" certainty="approximate">circa 1940</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [28894324192619221]">4</container>
-            <unittitle>Community Relations of the Curriculum, Committee on <unitdate type="inclusive" normal="1938/1941">1938-1941</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [2972222495813376235]">4</container>
+            <unittitle>Community Relations of the Curriculum, Committee on</unittitle><unitdate type="inclusive" normal="1938/1941">1938-1941</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [28894324192619221]">4</container>
-            <unittitle>Conference of State and Provincial Health Authorities of North America <unitdate type="inclusive" normal="1937">1937</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [2972222495813376235]">4</container>
+            <unittitle>Conference of State and Provincial Health Authorities of North America</unittitle><unitdate type="inclusive" normal="1937">1937</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [28894324192619221]">4</container>
-            <unittitle>Conference: Professional Education and Training for Personnel for Health Education in Teachers Colleges <unitdate type="inclusive" normal="1938">1938</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [2972222495813376235]">4</container>
+            <unittitle>Conference: Professional Education and Training for Personnel for Health Education in Teachers Colleges</unittitle><unitdate type="inclusive" normal="1938">1938</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [28894324192619221]">4</container>
-            <unittitle>County Health Units <unitdate type="inclusive" normal="1938">1938</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [2972222495813376235]">4</container>
+            <unittitle>County Health Units</unittitle><unitdate type="inclusive" normal="1938">1938</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [28894324192619221]">4</container>
-            <unittitle>Delta Omega <unitdate type="inclusive" normal="1937/1939">1937-1939</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [2972222495813376235]">4</container>
+            <unittitle>Delta Omega</unittitle><unitdate type="inclusive" normal="1937/1939">1937-1939</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Box [16828404970747908985]" type="box">5</container>
-            <unittitle>Good Teeth Council <unitdate type="inclusive" normal="1934/1937">1934-1937</unitdate>, <unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container label="Box [6800329040952522717028]" type="box">5</container>
+            <unittitle>Good Teeth Council</unittitle><unitdate type="inclusive" normal="1934/1937">1934-1937</unitdate><unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [16828404970747908985]">5</container>
-            <unittitle>Merrill-Palmer Institute, Family Advisory Service <unitdate type="inclusive" normal="1939">1939</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6800329040952522717028]">5</container>
+            <unittitle>Merrill-Palmer Institute, Family Advisory Service</unittitle><unitdate type="inclusive" normal="1939">1939</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -838,141 +727,120 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [16828404970747908985]">5</container>
-              <unittitle>Advisory Education Group <unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [6800329040952522717028]">5</container>
+              <unittitle>Advisory Education Group</unittitle><unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [16828404970747908985]">5</container>
-              <unittitle>Committee on Health Essentials <unitdate type="inclusive" normal="1927/1929">1927-1929</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [6800329040952522717028]">5</container>
+              <unittitle>Committee on Health Essentials</unittitle><unitdate type="inclusive" normal="1927/1929">1927-1929</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [16828404970747908985]">5</container>
-            <unittitle>Michigan Association of School Physicians <unitdate type="inclusive" normal="1934/1935">1934-1935</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6800329040952522717028]">5</container>
+            <unittitle>Michigan Association of School Physicians</unittitle><unitdate type="inclusive" normal="1934/1935">1934-1935</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [16828404970747908985]">5</container>
-            <unittitle>Michigan Dept. of Health <unitdate type="inclusive" normal="1923">1923</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6800329040952522717028]">5</container>
+            <unittitle>Michigan Dept. of Health</unittitle><unitdate type="inclusive" normal="1923">1923</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [16828404970747908985]">5</container>
-            <unittitle>Michigan Dept. of Public Instruction <unitdate type="inclusive" normal="1923">1923</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6800329040952522717028]">5</container>
+            <unittitle>Michigan Dept. of Public Instruction</unittitle><unitdate type="inclusive" normal="1923">1923</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [16828404970747908985]">5</container>
-            <unittitle>Michigan Hospital Association <unitdate type="inclusive" normal="1931">1931</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6800329040952522717028]">5</container>
+            <unittitle>Michigan Hospital Association</unittitle><unitdate type="inclusive" normal="1931">1931</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [16828404970747908985]">5</container>
-            <unittitle>Michigan State Medical Society <unitdate type="inclusive" normal="1931">1931</unitdate>, <unitdate type="inclusive" normal="1943">1943</unitdate>, <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6800329040952522717028]">5</container>
+            <unittitle>Michigan State Medical Society</unittitle><unitdate type="inclusive" normal="1931">1931</unitdate><unitdate type="inclusive" normal="1943">1943</unitdate><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [16828404970747908985]">5</container>
-            <unittitle>Michigan Tuberculosis Association <unitdate type="inclusive" normal="1923/1926">1923-1926</unitdate>, <unitdate type="inclusive" normal="1932/1934">1932-1934</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [6800329040952522717028]">5</container>
+            <unittitle>Michigan Tuberculosis Association</unittitle><unitdate type="inclusive" normal="1923/1926">1923-1926</unitdate><unitdate type="inclusive" normal="1932/1934">1932-1934</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [16828404970747908985]">5</container>
-            <unittitle>National Committee of Health Council Executives <unitdate type="inclusive" normal="1933/1937">1933-1937</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6800329040952522717028]">5</container>
+            <unittitle>National Committee of Health Council Executives</unittitle><unitdate type="inclusive" normal="1933/1937">1933-1937</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [16828404970747908985]">5</container>
-            <unittitle>President's Committee of Fifty on College Hygiene <unitdate type="inclusive" normal="1925/1926">1925-1926</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6800329040952522717028]">5</container>
+            <unittitle>President's Committee of Fifty on College Hygiene</unittitle><unitdate type="inclusive" normal="1925/1926">1925-1926</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [16828404970747908985]">5</container>
-            <unittitle>Public Health Institute <unitdate type="inclusive" normal="1933">1933</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6800329040952522717028]">5</container>
+            <unittitle>Public Health Institute</unittitle><unitdate type="inclusive" normal="1933">1933</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [16828404970747908985]">5</container>
-            <unittitle>Research Council on the Problems of Alcohol <unitdate type="inclusive" normal="1938/1941">1938-1941</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6800329040952522717028]">5</container>
+            <unittitle>Research Council on the Problems of Alcohol</unittitle><unitdate type="inclusive" normal="1938/1941">1938-1941</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [16828404970747908985]">5</container>
-            <unittitle>U.S. Public Health Service <unitdate type="inclusive" normal="1921/1926">1921-1926</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6800329040952522717028]">5</container>
+            <unittitle>U.S. Public Health Service</unittitle><unitdate type="inclusive" normal="1921/1926">1921-1926</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Topical file <unitdate type="inclusive" normal="1926/1941">1926-1941</unitdate></unittitle>
-        </did>
+          <unittitle>Topical file</unittitle><unitdate type="inclusive" normal="1926/1941">1926-1941</unitdate></did>
         <scopecontent>
           <p>Topical file (1926-1941; .2 linear ft.) consists of subject files on a variety of topics, such as medical preparedness during World War II and the proposed selection of V.A. Van Valkenberg to be Michigan Commissioner of Health.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container label="Box [16828404970747908985]" type="box">5</container>
-            <unittitle>Health education outline <unitdate type="inclusive" normal="1930" certainty="approximate">circa 1930</unitdate></unittitle>
-          </did>
+            <container label="Box [6800329040952522717028]" type="box">5</container>
+            <unittitle>Health education outline</unittitle><unitdate type="inclusive" normal="1930" certainty="approximate">circa 1930</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [16828404970747908985]">5</container>
-            <unittitle>Laymen as public health officials (resolutions about) <unitdate type="inclusive" normal="1926">1926</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6800329040952522717028]">5</container>
+            <unittitle>Laymen as public health officials (resolutions about)</unittitle><unitdate type="inclusive" normal="1926">1926</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [16828404970747908985]">5</container>
+            <container type="box" label="Box [6800329040952522717028]">5</container>
             <unittitle>Maternity/child hygiene program</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [16828404970747908985]">5</container>
-            <unittitle>Medical practices act <unitdate type="inclusive" normal="1930">1930</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6800329040952522717028]">5</container>
+            <unittitle>Medical practices act</unittitle><unitdate type="inclusive" normal="1930">1930</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [16828404970747908985]">5</container>
-            <unittitle>Medical preparedness (World War II) <unitdate type="inclusive" normal="1942">1942</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6800329040952522717028]">5</container>
+            <unittitle>Medical preparedness (World War II)</unittitle><unitdate type="inclusive" normal="1942">1942</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [16828404970747908985]">5</container>
-            <unittitle>Public health engineering <unitdate type="inclusive" normal="1936" certainty="approximate">circa 1936</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6800329040952522717028]">5</container>
+            <unittitle>Public health engineering</unittitle><unitdate type="inclusive" normal="1936" certainty="approximate">circa 1936</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [16828404970747908985]">5</container>
-            <unittitle>Senate bills <unitdate type="inclusive" normal="1927/1933">1927-1933</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6800329040952522717028]">5</container>
+            <unittitle>Senate bills</unittitle><unitdate type="inclusive" normal="1927/1933">1927-1933</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [16828404970747908985]">5</container>
-            <unittitle>Van Valkenberg, V.A. (prospective commissioner of health for Michigan) <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6800329040952522717028]">5</container>
+            <unittitle>Van Valkenberg, V.A. (prospective commissioner of health for Michigan)</unittitle><unitdate type="inclusive" normal="1940">1940</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -984,7 +852,7 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container label="Box [16828404970747908985]" type="box">5</container>
+            <container label="Box [6800329040952522717028]" type="box">5</container>
             <unittitle>Reprints of articles</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">1 folders</extent>
@@ -993,7 +861,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [16828404970747908985]">5</container>
+            <container type="box" label="Box [6800329040952522717028]">5</container>
             <unittitle>JS reviews of manuscripts and books</unittitle>
           </did>
         </c02>
@@ -1009,7 +877,7 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [16828404970747908985]">5</container>
+            <container type="box" label="Box [6800329040952522717028]">5</container>
             <unittitle>
               <genreform normal="Photographs">Portraits</genreform>
             </unittitle>

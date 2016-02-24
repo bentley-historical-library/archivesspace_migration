@@ -17,6 +17,10 @@ def subject_term_identification(ead_dir, subjects_agents_dir):
 
     type_dict = {'title':'uniform_title','t':'uniform_title','v':'genre_form','b':'topical','x':'topical','d':'temporal','y':'temporal','z':'geographic','subject':'topical','geogname':'geographic','genreform':'genre_form','655':'genre_form','650':'topical','651':'geographic'}
 
+    for csvfile in [aspace_subjects, compound_agents_fix]:
+        if os.path.exists(csvfile):
+            os.remove(csvfile)
+
     fixed_term_types = {}
     terms_dict = {}
 

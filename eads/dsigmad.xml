@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,10 +40,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Delta Sigma Delta.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/3305">Delta Sigma Delta.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Delta Sigma Delta records <unitdate type="inclusive" encodinganalog="245$f" normal="1882/1982">1882-1982</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851133 Bd 2</unitid>
+      <unittitle encodinganalog="245">Delta Sigma Delta records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1882/1982">1882-1982</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851133 Bd 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>National dental fraternity founded at University of Michigan. Constitution and by-laws, minutes, financial records, fraternity newsletter, memorabilia and artifacts, textbooks, citations and plaques, photographs, and miscellaneous manuscripts.</abstract>
       <physdesc altrender="part">
@@ -90,23 +90,23 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Delta Sigma Delta.</corpname>
-        <subject source="lcsh" encodinganalog="650">Dentistry--United States.</subject>
-        <subject source="lcsh" encodinganalog="650">Dentists--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Societies, etc.</corpname>
-        <subject source="lcsh" encodinganalog="650">Greek letter societies--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3305">Delta Sigma Delta.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7324">Dentistry--United States.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7325">Dentists--United States.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Societies, etc.<term type="topical">Students</term><term type="topical">Societies, etc.</term></corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5839">Greek letter societies--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname source="lcnaf" encodinganalog="610">Delta Sigma Delta.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Delta Sigma Delta. Alpha Chapter (University of Michigan)</corpname>
-        <subject source="lctgm" encodinganalog="650">Dentistry--Michigan--Ann Arbor.</subject>
-        <subject source="lctgm" encodinganalog="650">Fraternities and sororities.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3305">Delta Sigma Delta.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1302">Delta Sigma Delta. Alpha Chapter (University of Michigan)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4213">Dentistry--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3686">Fraternities and sororities.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="gmgpc" encodinganalog="655">Slides.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3464">Slides.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -121,46 +121,37 @@
           <did>
             <physloc>DSD Room</physloc>
             <unittitle>
-              <title render="italic">History of Delta Sigma Delta Fraternity, 1882-1946</title>
-              <unitdate type="inclusive" normal="1950">1950</unitdate>
-            </unittitle>
-          </did>
+              <title render="italic">History of Delta Sigma Delta Fraternity, 1882-1946</title></unittitle><unitdate type="inclusive" normal="1950">1950</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0229927449642571]">1</container>
-            <unittitle><title render="italic">Campus Prospectus</title>, <unitdate type="inclusive" normal="1951">1951</unitdate> containing history and description of the fraternity's organizational structure</unittitle>
-          </did>
+            <container type="box" label="Box [8657971245683988859249]">1</container>
+            <unittitle><title render="italic">Campus Prospectus</title>,  containing history and description of the fraternity's organizational structure</unittitle><unitdate type="inclusive" normal="1951">1951</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0229927449642571]">1</container>
-            <unittitle>Collected correspondence of L.L. Davis and F.O. Clifford relating to the history and establishment of a DSD library/museum and to the fraternity's records <unitdate type="inclusive" normal="1918/1974">1918-1974</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [8657971245683988859249]">1</container>
+            <unittitle>Collected correspondence of L.L. Davis and F.O. Clifford relating to the history and establishment of a DSD library/museum and to the fraternity's records</unittitle><unitdate type="inclusive" normal="1918/1974">1918-1974</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0229927449642571]">1</container>
-            <unittitle>Delta Sigma Delta Library/Museum Planning <unitdate type="inclusive" normal="1968/1972">1968-1972</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [8657971245683988859249]">1</container>
+            <unittitle>Delta Sigma Delta Library/Museum Planning</unittitle><unitdate type="inclusive" normal="1968/1972">1968-1972</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0229927449642571]">1</container>
-            <unittitle>Delta Sigma Delta Symbol History <unitdate type="inclusive" normal="1882/1937">1882-1937</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [8657971245683988859249]">1</container>
+            <unittitle>Delta Sigma Delta Symbol History</unittitle><unitdate type="inclusive" normal="1882/1937">1882-1937</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0229927449642571]">1</container>
-            <unittitle>Constitutions and Bylaws <unitdate type="inclusive" normal="1882/1922">1882-1922</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [8657971245683988859249]">1</container>
+            <unittitle>Constitutions and Bylaws</unittitle><unitdate type="inclusive" normal="1882/1922">1882-1922</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0229927449642571]">1</container>
-            <unittitle>Fraternity Rituals and Handbooks <unitdate type="inclusive" normal="1910/1966">1910-1966</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [8657971245683988859249]">1</container>
+            <unittitle>Fraternity Rituals and Handbooks</unittitle><unitdate type="inclusive" normal="1910/1966">1910-1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -168,18 +159,16 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0229927449642571]">1</container>
-              <unittitle>Undergraduate Chapters reports and related <unitdate type="inclusive" normal="1954/1959">1954-1959</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [8657971245683988859249]">1</container>
+              <unittitle>Undergraduate Chapters reports and related</unittitle><unitdate type="inclusive" normal="1954/1959">1954-1959</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">6 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0229927449642571]">1</container>
-              <unittitle>Graduate Chapters reports and related <unitdate type="inclusive" normal="1954/1959">1954-1959</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [8657971245683988859249]">1</container>
+              <unittitle>Graduate Chapters reports and related</unittitle><unitdate type="inclusive" normal="1954/1959">1954-1959</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">6 folders</extent>
               </physdesc>
             </did>
@@ -187,7 +176,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2368614445717960597]">16</container>
+            <container type="box" label="Box [067994408933750384]">16</container>
             <unittitle>Miscellaneous: include diplomas and chapter charters</unittitle>
           </did>
         </c02>
@@ -202,8 +191,7 @@
         <c02 level="file">
           <did>
             <physloc>DSD Room</physloc>
-            <unittitle><title render="italic">Desmos</title>, <unitdate type="inclusive" normal="1894/1975">1894-1975</unitdate>, <unitdate type="inclusive" normal="1981/1983">1981-1983</unitdate></unittitle>
-            <physdesc altrender="part">
+            <unittitle><title render="italic">Desmos</title></unittitle><unitdate type="inclusive" normal="1894/1975">1894-1975</unitdate><unitdate type="inclusive" normal="1981/1983">1981-1983</unitdate><physdesc altrender="part">
               <extent altrender="materialtype spaceoccupied">27 volumes</extent>
             </physdesc>
             <physdesc altrender="part">
@@ -231,15 +219,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0229927449642571]">1</container>
-              <unittitle>Supreme Chapter: Minutes <unitdate type="inclusive" normal="1884/1898">1884-1898</unitdate> and history written by L.L. Davis in <unitdate type="inclusive" normal="1927">1927</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8657971245683988859249]">1</container>
+              <unittitle>Supreme Chapter: Minutes 1884-1898 and history written by L.L. Davis in 1927</unittitle><unitdate type="inclusive" normal="1884/1898">1884-1898</unitdate><unitdate type="inclusive" normal="1927">1927</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0229927449642571]">1</container>
-              <unittitle>Council of Graduate Chapters Minutes <unitdate type="inclusive" normal="1951/1963">1951-1963</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8657971245683988859249]">1</container>
+              <unittitle>Council of Graduate Chapters Minutes</unittitle><unitdate type="inclusive" normal="1951/1963">1951-1963</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -247,15 +233,13 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [0229927449642571]">1</container>
-                <unittitle>Papers <unitdate type="inclusive" normal="1929">1929</unitdate>, <unitdate type="inclusive" normal="1944">1944</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [8657971245683988859249]">1</container>
+                <unittitle>Papers</unittitle><unitdate type="inclusive" normal="1929">1929</unitdate><unitdate type="inclusive" normal="1944">1944</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [0229927449642571]">1</container>
-                <unittitle>Papers <unitdate type="inclusive" normal="1930/1931">1930-1931</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [8657971245683988859249]">1</container>
+                <unittitle>Papers</unittitle><unitdate type="inclusive" normal="1930/1931">1930-1931</unitdate></did>
               <odd>
                 <p>(include speech of L.J. Mitchell, 1931)</p>
               </odd>
@@ -263,27 +247,24 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0229927449642571]">1</container>
-              <unittitle>Supreme Scribe Correspondence <unitdate type="inclusive" normal="1951/1963">1951-1963</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8657971245683988859249]">1</container>
+              <unittitle>Supreme Scribe Correspondence</unittitle><unitdate type="inclusive" normal="1951/1963">1951-1963</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0229927449642571]">1</container>
-              <unittitle>Life Membership Committee <unitdate type="inclusive" normal="1938">1938</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8657971245683988859249]">1</container>
+              <unittitle>Life Membership Committee</unittitle><unitdate type="inclusive" normal="1938">1938</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0229927449642571]">1</container>
+              <container type="box" label="Box [8657971245683988859249]">1</container>
               <unittitle>Delta Sigma Delta Educational Foundation</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0229927449642571]">1</container>
-              <unittitle>Council of Deputies Proceedings <unitdate type="inclusive" normal="1935/1964">1935-1964 (scattered dates)</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [8657971245683988859249]">1</container>
+              <unittitle>Council of Deputies Proceedings</unittitle><unitdate type="inclusive" normal="1935/1964">1935-1964 (scattered dates)</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">23 volumes</extent>
                 <physfacet>booklets</physfacet>
               </physdesc>
@@ -291,9 +272,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0229927449642571]">1</container>
-              <unittitle>National Conclave Proceedings and comments re first conclave <unitdate type="inclusive" normal="1948">1948</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8657971245683988859249]">1</container>
+              <unittitle>National Conclave Proceedings and comments re first conclave</unittitle><unitdate type="inclusive" normal="1948">1948</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -302,13 +282,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [709897474184608917]">2</container>
+              <container type="box" label="Box [21027446625941111]">2</container>
               <unittitle>Alabama Auxiliary</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [709897474184608917]">2</container>
+              <container type="box" label="Box [21027446625941111]">2</container>
               <unittitle>Boston Auxiliary</unittitle>
             </did>
           </c03>
@@ -318,61 +298,54 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [709897474184608917]">2</container>
-                <unittitle>Minutes <unitdate type="inclusive" normal="1893/1914">1893-1914</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [21027446625941111]">2</container>
+                <unittitle>Minutes</unittitle><unitdate type="inclusive" normal="1893/1914">1893-1914</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">1 volumes</extent>
                 </physdesc>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [709897474184608917]">2</container>
-                <unittitle>Minutes <unitdate type="inclusive" normal="1927/1937">1927-1937</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [21027446625941111]">2</container>
+                <unittitle>Minutes</unittitle><unitdate type="inclusive" normal="1927/1937">1927-1937</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">1 volumes</extent>
                 </physdesc>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [709897474184608917]">2</container>
-                <unittitle>Minutes <unitdate type="inclusive" normal="1937/1942">1937-1942</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [21027446625941111]">2</container>
+                <unittitle>Minutes</unittitle><unitdate type="inclusive" normal="1937/1942">1937-1942</unitdate></did>
               <odd>
                 <p>(includes obituaries of members)</p>
               </odd>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [709897474184608917]">2</container>
-                <unittitle>Proceedings of regular meeting <unitdate type="inclusive" normal="1912">1912</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [21027446625941111]">2</container>
+                <unittitle>Proceedings of regular meeting</unittitle><unitdate type="inclusive" normal="1912">1912</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [709897474184608917]">2</container>
+                <container type="box" label="Box [21027446625941111]">2</container>
                 <unittitle>Miscellaneous</unittitle>
               </did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [709897474184608917]">2</container>
-              <unittitle>Cincinnati Auxiliary Minute book <unitdate type="inclusive" normal="1916/1929">1916-1929</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [21027446625941111]">2</container>
+              <unittitle>Cincinnati Auxiliary Minute book</unittitle><unitdate type="inclusive" normal="1916/1929">1916-1929</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2368614445717960597]">16</container>
-              <unittitle>Detroit Auxiliary Chapter Charter <unitdate type="inclusive" normal="1895">1895</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [067994408933750384]">16</container>
+              <unittitle>Detroit Auxiliary Chapter Charter</unittitle><unitdate type="inclusive" normal="1895">1895</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
               <physloc>DSD Room</physloc>
-              <unittitle>Detroit Ladies Auxiliary minute book <unitdate type="inclusive" normal="1949/1963">1949-1963</unitdate></unittitle>
-            </did>
+              <unittitle>Detroit Ladies Auxiliary minute book</unittitle><unitdate type="inclusive" normal="1949/1963">1949-1963</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -381,37 +354,36 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [709897474184608917]">2</container>
+              <container type="box" label="Box [21027446625941111]">2</container>
               <unittitle>Arkansas Graduate Chapter Biographies of members</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <physloc>DSD Room</physloc>
-              <unittitle>Detroit Graduate Chapter Minutes <unitdate type="inclusive" normal="1895/1946">1895-1946</unitdate></unittitle>
-            </did>
+              <unittitle>Detroit Graduate Chapter Minutes</unittitle><unitdate type="inclusive" normal="1895/1946">1895-1946</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [709897474184608917]">2</container>
+              <container type="box" label="Box [21027446625941111]">2</container>
               <unittitle>London Graduate Chapter</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [709897474184608917]">2</container>
+              <container type="box" label="Box [21027446625941111]">2</container>
               <unittitle>New Zealand Graduate Chapter</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [709897474184608917]">2</container>
+              <container type="box" label="Box [21027446625941111]">2</container>
               <unittitle>Pittsburgh Graduate Chapter</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [709897474184608917]">2</container>
+              <container type="box" label="Box [21027446625941111]">2</container>
               <unittitle>Victorian Graduate Chapter, Victoria Australia, History and Biographies</unittitle>
             </did>
           </c03>
@@ -422,25 +394,25 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [709897474184608917]">2</container>
+              <container type="box" label="Box [21027446625941111]">2</container>
               <unittitle>Harvard University, Gamma Chapter.</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [709897474184608917]">2</container>
+              <container type="box" label="Box [21027446625941111]">2</container>
               <unittitle>Tufts University, Mu Chapter.</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [709897474184608917]">2</container>
+              <container type="box" label="Box [21027446625941111]">2</container>
               <unittitle>University of Detroit, Pi Pi Chapter.</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [709897474184608917]">2</container>
+              <container type="box" label="Box [21027446625941111]">2</container>
               <unittitle>University of Illinois, Rho Chapter.</unittitle>
             </did>
           </c03>
@@ -457,14 +429,12 @@
             <c04 level="file">
               <did>
                 <physloc>DSD Room</physloc>
-                <unittitle>Record from organization to <unitdate type="inclusive" normal="1885-10">October 1885</unitdate></unittitle>
-              </did>
+                <unittitle>Record from organization to</unittitle><unitdate type="inclusive" normal="1885-10">October 1885</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <physloc>DSD Room</physloc>
-                <unittitle>Minutes of meetings <unitdate type="inclusive" normal="1885/1930">1885-1930</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>Minutes of meetings</unittitle><unitdate type="inclusive" normal="1885/1930">1885-1930</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">9 volumes</extent>
                 </physdesc>
               </did>
@@ -472,49 +442,43 @@
             <c04 level="file">
               <did>
                 <physloc>DSD Room</physloc>
-                <unittitle>Account book <unitdate type="inclusive" normal="1885/1889">1885-1889</unitdate></unittitle>
-              </did>
+                <unittitle>Account book</unittitle><unitdate type="inclusive" normal="1885/1889">1885-1889</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
                 <physloc>DSD Room</physloc>
-                <unittitle>Financial Records <unitdate type="inclusive" normal="1893/1949">1893-1949 (scattered dates)</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <unittitle>Financial Records</unittitle><unitdate type="inclusive" normal="1893/1949">1893-1949 (scattered dates)</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">5 volumes</extent>
                 </physdesc>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [709897474184608917]">2</container>
-                <unittitle>Alpha Chapter Building Association records <unitdate type="inclusive" normal="1914/1968">1914-1968</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [21027446625941111]">2</container>
+                <unittitle>Alpha Chapter Building Association records</unittitle><unitdate type="inclusive" normal="1914/1968">1914-1968</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [709897474184608917]">2</container>
-                <unittitle>Guest Book <unitdate type="inclusive" normal="1930/1964">1930-1964</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [21027446625941111]">2</container>
+                <unittitle>Guest Book</unittitle><unitdate type="inclusive" normal="1930/1964">1930-1964</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [709897474184608917]">2</container>
-                <unittitle>"Political Book," <unitdate type="inclusive" normal="1907">1907</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [21027446625941111]">2</container>
+                <unittitle>"Political Book,"</unittitle><unitdate type="inclusive" normal="1907">1907</unitdate></did>
               <odd>
                 <p>(contains agreements between U-M fraternities)</p>
               </odd>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [709897474184608917]">2</container>
-                <unittitle>75th Anniversary file <unitdate type="inclusive" normal="1955/1957">1955-1957</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [21027446625941111]">2</container>
+                <unittitle>75th Anniversary file</unittitle><unitdate type="inclusive" normal="1955/1957">1955-1957</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [709897474184608917]">2</container>
+              <container type="box" label="Box [21027446625941111]">2</container>
               <unittitle>University of Minnesota, Theta Chapter.</unittitle>
             </did>
           </c03>
@@ -529,13 +493,13 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [26887670749839564371852]">20</container>
+            <container type="box" label="Box [506287259456885326597]">20</container>
             <unittitle>Anderson, W. St. Clair <genreform normal="Photographs">photo album</genreform> and miscellaneous</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [26887670749839564371852]">20</container>
+            <container type="box" label="Box [506287259456885326597]">20</container>
             <unittitle>Cleland, William</unittitle>
           </did>
           <odd>
@@ -544,7 +508,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [26887670749839564371852]">20</container>
+            <container type="box" label="Box [506287259456885326597]">20</container>
             <unittitle>Frank O. Clifford</unittitle>
           </did>
         </c02>
@@ -554,71 +518,67 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [26887670749839564371852]">20</container>
+              <container type="box" label="Box [506287259456885326597]">20</container>
               <unittitle>General.</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [26887670749839564371852]">20</container>
-              <unittitle>Annual Meeting <unitdate type="inclusive" normal="1934">1934</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [506287259456885326597]">20</container>
+              <unittitle>Annual Meeting</unittitle><unitdate type="inclusive" normal="1934">1934</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [26887670749839564371852]">20</container>
-              <unittitle>Speech <unitdate type="inclusive" normal="1936">1936</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [506287259456885326597]">20</container>
+              <unittitle>Speech</unittitle><unitdate type="inclusive" normal="1936">1936</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [26887670749839564371852]">20</container>
-            <unittitle>Furnas, L.L. (President, Council of Deputies) correspondence <unitdate type="inclusive" normal="1925/1926">1925-1926</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [506287259456885326597]">20</container>
+            <unittitle>Furnas, L.L. (President, Council of Deputies) correspondence</unittitle><unitdate type="inclusive" normal="1925/1926">1925-1926</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [26887670749839564371852]">20</container>
+            <container type="box" label="Box [506287259456885326597]">20</container>
             <unittitle>Gentilly, James V.</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [26887670749839564371852]">20</container>
+            <container type="box" label="Box [506287259456885326597]">20</container>
             <unittitle>Hillenbrand, Harold</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [26887670749839564371852]">20</container>
+            <container type="box" label="Box [506287259456885326597]">20</container>
             <unittitle>Knudtzon, Kermit</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [26887670749839564371852]">20</container>
-            <unittitle>S.G.M. (diary of visit with various chapters <unitdate type="inclusive" normal="1924">1924</unitdate>)</unittitle>
-          </did>
+            <container type="box" label="Box [506287259456885326597]">20</container>
+            <unittitle>S.G.M. (diary of visit with various chapters )</unittitle><unitdate type="inclusive" normal="1924">1924</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [26887670749839564371852]">20</container>
+            <container type="box" label="Box [506287259456885326597]">20</container>
             <unittitle>Parr, Leonard A. (Honorary Member)</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [26887670749839564371852]">20</container>
+            <container type="box" label="Box [506287259456885326597]">20</container>
             <unittitle>Rogers, Lloyd</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [26887670749839564371852]">20</container>
+            <container type="box" label="Box [506287259456885326597]">20</container>
             <unittitle>Weinrich, C.P.</unittitle>
           </did>
         </c02>
@@ -637,99 +597,87 @@
         </odd>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1440434904446611461908]">3</container>
-            <unittitle>Founders <unitdate type="inclusive" normal="1883">1883</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [90612904974575938208]">3</container>
+            <unittitle>Founders</unittitle><unitdate type="inclusive" normal="1883">1883</unitdate></did>
           <odd>
             <p>(include comments on doctored portrait)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1440434904446611461908]">3</container>
-            <unittitle>Founders <unitdate type="inclusive" normal="1884">1884</unitdate> (graduation portraits)</unittitle>
-          </did>
+            <container type="box" label="Box [90612904974575938208]">3</container>
+            <unittitle>Founders (graduation portraits)</unittitle><unitdate type="inclusive" normal="1884">1884</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1440434904446611461908]">3</container>
+            <container type="box" label="Box [90612904974575938208]">3</container>
             <unittitle>Dental school faculty portraits</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1440434904446611461908]">3</container>
-            <unittitle>Class of <unitdate type="inclusive" normal="1886">1886</unitdate> class portraits</unittitle>
-          </did>
+            <container type="box" label="Box [90612904974575938208]">3</container>
+            <unittitle>Class of class portraits</unittitle><unitdate type="inclusive" normal="1886">1886</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1440434904446611461908]">3</container>
-            <unittitle>Other dental school portraits of graduates <unitdate type="inclusive" normal="1880/1889" certainty="approximate">1880s</unitdate>, <unitdate type="inclusive" normal="1890/1899" certainty="approximate">1890s</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [90612904974575938208]">3</container>
+            <unittitle>Other dental school portraits of graduates</unittitle><unitdate type="inclusive" normal="1880/1889" certainty="approximate">1880s</unitdate><unitdate type="inclusive" normal="1890/1899" certainty="approximate">1890s</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1440434904446611461908]">3</container>
-            <unittitle>U-M campus views <unitdate type="inclusive" normal="1880/1889" certainty="approximate">1880s</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [90612904974575938208]">3</container>
+            <unittitle>U-M campus views</unittitle><unitdate type="inclusive" normal="1880/1889" certainty="approximate">1880s</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1440434904446611461908]">3</container>
-            <unittitle>Ward Howlett album <unitdate type="inclusive" normal="1899" certainty="approximate">circa 1899</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [90612904974575938208]">3</container>
+            <unittitle>Ward Howlett album</unittitle><unitdate type="inclusive" normal="1899" certainty="approximate">circa 1899</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1440434904446611461908]">3</container>
-            <unittitle>Paris Organizing Group <unitdate type="inclusive" normal="1906">1906</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [90612904974575938208]">3</container>
+            <unittitle>Paris Organizing Group</unittitle><unitdate type="inclusive" normal="1906">1906</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1440434904446611461908]">3</container>
-            <unittitle>Classes of <unitdate type="inclusive" normal="1906/1909">1906-1909</unitdate> at Delta House</unittitle>
-          </did>
+            <container type="box" label="Box [90612904974575938208]">3</container>
+            <unittitle>Classes of at Delta House</unittitle><unitdate type="inclusive" normal="1906/1909">1906-1909</unitdate></did>
           <odd>
             <p>(including exterior view of house at 807 S. State Street)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1440434904446611461908]">3</container>
+            <container type="box" label="Box [90612904974575938208]">3</container>
             <unittitle>Delta Sigma Delta houses</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1440434904446611461908]">3</container>
-            <unittitle>History Committee <unitdate type="inclusive" normal="1945">1945</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [90612904974575938208]">3</container>
+            <unittitle>History Committee</unittitle><unitdate type="inclusive" normal="1945">1945</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1440434904446611461908]">3</container>
-            <unittitle>Oldsters Reunion <unitdate type="inclusive" normal="1946">1946</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [90612904974575938208]">3</container>
+            <unittitle>Oldsters Reunion</unittitle><unitdate type="inclusive" normal="1946">1946</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1440434904446611461908]">3</container>
-            <unittitle>C.P. Weinrich, William Cleland, 68th Organization Day Anniversary <unitdate type="inclusive" normal="1951-03-05">March 5, 1951</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [90612904974575938208]">3</container>
+            <unittitle>C.P. Weinrich, William Cleland, 68th Organization Day Anniversary</unittitle><unitdate type="inclusive" normal="1951-03-05">March 5, 1951</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1440434904446611461908]">3</container>
+            <container type="box" label="Box [90612904974575938208]">3</container>
             <unittitle>Banquets and reunions</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1440434904446611461908]">3</container>
-            <unittitle>Jackie Jungman Party <unitdate type="inclusive" normal="1934" certainty="approximate">circa 1934</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [90612904974575938208]">3</container>
+            <unittitle>Jackie Jungman Party</unittitle><unitdate type="inclusive" normal="1934" certainty="approximate">circa 1934</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 volumes</extent>
               <extent altrender="carrier">in 1 envelope</extent>
             </physdesc>
@@ -737,13 +685,12 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1440434904446611461908]">3</container>
-            <unittitle>Album compiled by Dr. Alfred Grob of various Delta functions <unitdate type="inclusive" normal="1960/1969" certainty="approximate">circa 1960s</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [90612904974575938208]">3</container>
+            <unittitle>Album compiled by Dr. Alfred Grob of various Delta functions</unittitle><unitdate type="inclusive" normal="1960/1969" certainty="approximate">circa 1960s</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1440434904446611461908]">3</container>
+            <container type="box" label="Box [90612904974575938208]">3</container>
             <unittitle>Photographs originally located in Delta Sigma Delta Room</unittitle>
           </did>
           <odd>
@@ -752,19 +699,19 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1440434904446611461908]">3</container>
+            <container type="box" label="Box [90612904974575938208]">3</container>
             <unittitle>Negatives</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1440434904446611461908]">3</container>
+            <container type="box" label="Box [90612904974575938208]">3</container>
             <unittitle><genreform normal="Slides">Glass slides</genreform> of portraits of founders and other early dental school graduates</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1440434904446611461908]">3</container>
+            <container type="box" label="Box [90612904974575938208]">3</container>
             <unittitle>Miscellaneous</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -773,7 +720,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2368614445717960597]">16</container>
+            <container type="box" label="Box [067994408933750384]">16</container>
             <unittitle>Class Photographs</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
@@ -785,13 +732,12 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2368614445717960597]">16</container>
-            <unittitle>Photograph: Beta Chapter, Chicago College of Dental Surgery <unitdate type="inclusive" normal="1915">1915</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [067994408933750384]">16</container>
+            <unittitle>Photograph: Beta Chapter, Chicago College of Dental Surgery</unittitle><unitdate type="inclusive" normal="1915">1915</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2368614445717960597]">16</container>
+            <container type="box" label="Box [067994408933750384]">16</container>
             <unittitle>Miscellaneous photos</unittitle>
           </did>
         </c02>
@@ -805,45 +751,40 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [16527851743470199261993]">4</container>
-            <unittitle>Scrapbook A, Alpha Cabinet Card Photos <unitdate type="inclusive" normal="1882/1897">1882-1897</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [26904437642595719]">4</container>
+            <unittitle>Scrapbook A, Alpha Cabinet Card Photos</unittitle><unitdate type="inclusive" normal="1882/1897">1882-1897</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [16527851743470199261993]">4</container>
-            <unittitle>Scrapbook B, Memorabilia, Alpha Chapter <unitdate type="inclusive" normal="1897/1907">1897-1907</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [26904437642595719]">4</container>
+            <unittitle>Scrapbook B, Memorabilia, Alpha Chapter</unittitle><unitdate type="inclusive" normal="1897/1907">1897-1907</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [16527851743470199261993]">4</container>
+            <container type="box" label="Box [26904437642595719]">4</container>
             <unittitle>Scrapbook C, Banquet and Dance Programs</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [16527851743470199261993]">4</container>
+            <container type="box" label="Box [26904437642595719]">4</container>
             <unittitle>Scrapbook D, General Memorabilia, Banquet and Dance Programs, Supreme, Graduate, and Undergraduate</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5240304747918470669071]">5</container>
-            <unittitle>Cleland, William. Album of class portraits <unitdate type="inclusive" normal="1880/1889" certainty="approximate">1880s</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7780069146439888168425834]">5</container>
+            <unittitle>Cleland, William. Album of class portraits</unittitle><unitdate type="inclusive" normal="1880/1889" certainty="approximate">1880s</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5240304747918470669071]">5</container>
-            <unittitle>68th Anniversary of DSD. Scrapbook of cards and letters presented to William Cleland <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7780069146439888168425834]">5</container>
+            <unittitle>68th Anniversary of DSD. Scrapbook of cards and letters presented to William Cle</unittitle><unitdate type="inclusive" normal="1951">1951</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5240304747918470669071]">5</container>
-            <unittitle>72th Anniversary of DSD. Volume of letters presented to William Cleland and C.P. Weinrich <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7780069146439888168425834]">5</container>
+            <unittitle>72th Anniversary of DSD. Volume of letters presented to William Cleland and C.P. Weinrich</unittitle><unitdate type="inclusive" normal="1954">1954</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -905,20 +846,18 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [62812993774195362867]">6</container>
+            <container type="box" label="Box [67033227844216577464983]">6</container>
             <unittitle>Russell Bunting and F.O. Clifford.</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Plaques <unitdate type="inclusive" normal="1954/1975">1954-1975</unitdate></unittitle>
-            <container type="box" label="Box [04663725469692801847701556]">7</container>
+            <unittitle>Plaques</unittitle><unitdate type="inclusive" normal="1954/1975">1954-1975</unitdate><container type="box" label="Box [64267440845346188]">7</container>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Plaques <unitdate type="inclusive" normal="1954/1975">1954-1975</unitdate></unittitle>
-            <container type="box" label="Box [4285544822812112381363]">8</container>
+            <unittitle>Plaques</unittitle><unitdate type="inclusive" normal="1954/1975">1954-1975</unitdate><container type="box" label="Box [41626172247625720905501]">8</container>
           </did>
           <odd>
             <p>(continued)</p>
@@ -931,25 +870,22 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [823614489771540897554]">9</container>
-            <unittitle>Textbooks <unitdate type="inclusive" normal="1854/1887">1854-1887</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [843962342798586161967]">9</container>
+            <unittitle>Textbooks</unittitle><unitdate type="inclusive" normal="1854/1887">1854-1887</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [90117646956770580]">10</container>
-            <unittitle>Textbooks <unitdate type="inclusive" normal="1890/1904">1890-1904</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [068612886474786819413]">10</container>
+            <unittitle>Textbooks</unittitle><unitdate type="inclusive" normal="1890/1904">1890-1904</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [669390051640835921055]">11</container>
-            <unittitle>Dentistry Books <unitdate type="inclusive" normal="1913/1932">1913-1932</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [851430245396062865582]">11</container>
+            <unittitle>Dentistry Books</unittitle><unitdate type="inclusive" normal="1913/1932">1913-1932</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [95871896548252888704405]">12</container>
+            <container type="box" label="Box [87989280432850754643]">12</container>
             <unittitle>Fraternity Bibles</unittitle>
           </did>
         </c02>
@@ -963,25 +899,24 @@
         </odd>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [56558413334694782962232]">19</container>
-            <unittitle>National Programs <unitdate type="inclusive" normal="1929/1982">1929-1982</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [88401670406969643643]">19</container>
+            <unittitle>National Programs</unittitle><unitdate type="inclusive" normal="1929/1982">1929-1982</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [56558413334694782962232]">19</container>
+            <container type="box" label="Box [88401670406969643643]">19</container>
             <unittitle>Pins, Ribbons, Michigan Flag.</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [56558413334694782962232]">19</container>
+            <container type="box" label="Box [88401670406969643643]">19</container>
             <unittitle>Fraternity pins</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [56558413334694782962232]">19</container>
+            <container type="box" label="Box [88401670406969643643]">19</container>
             <unittitle>Dance Cards</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 envelopes</extent>
@@ -990,25 +925,24 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [56558413334694782962232]">19</container>
-            <unittitle>Banquet Programs <unitdate type="inclusive" normal="1916/1952">1916-1952</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [88401670406969643643]">19</container>
+            <unittitle>Banquet Programs</unittitle><unitdate type="inclusive" normal="1916/1952">1916-1952</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [56558413334694782962232]">19</container>
+            <container type="box" label="Box [88401670406969643643]">19</container>
             <unittitle>Songbooks.</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [56558413334694782962232]">19</container>
+            <container type="box" label="Box [88401670406969643643]">19</container>
             <unittitle>Scrolls</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [56558413334694782962232]">19</container>
+            <container type="box" label="Box [88401670406969643643]">19</container>
             <unittitle>Ties</unittitle>
           </did>
         </c02>
@@ -1019,19 +953,19 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [37368713485409089858]">13</container>
+            <container type="box" label="Box [28049975044954583023]">13</container>
             <unittitle>Watches, Dental Instruments.</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [53031029841476897477082]">14</container>
+            <container type="box" label="Box [8753953408320420043]">14</container>
             <unittitle>Casting Machines, Dental Equipment.</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [758049294348979559172]">15</container>
+            <container type="box" label="Box [93456941043892963882]">15</container>
             <unittitle>Delta Sigma Delta dishes</unittitle>
           </did>
           <odd>
@@ -1040,7 +974,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6431542843080788]">17</container>
+            <container type="box" label="Box [2144292466329427514]">17</container>
             <unittitle>Cleveland Graduate chapter ceremonial cups</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 cups</extent>
@@ -1049,31 +983,31 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6431542843080788]">17</container>
+            <container type="box" label="Box [2144292466329427514]">17</container>
             <unittitle>Sigma chapter mortgage burning glass</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6431542843080788]">17</container>
+            <container type="box" label="Box [2144292466329427514]">17</container>
             <unittitle>Spoon set from Australian chapter</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7023937640326593402823755]">18</container>
+            <container type="box" label="Box [735480830062588]">18</container>
             <unittitle>Memorabilia belonging to Dr. Quentin Ringenberg</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Oversize Item [176772465797740593]" type="item">1</container>
+            <container label="Oversize Item [34750054598360734]" type="item">1</container>
             <unittitle>University of Pennsylvania Dental School class portrait</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Oversize Item [803001121441366161823578]" type="item">2</container>
+            <container label="Oversize Item [375908055451021787059192]" type="item">2</container>
             <unittitle>Oil painting of unidentified gentleman</unittitle>
           </did>
         </c02>

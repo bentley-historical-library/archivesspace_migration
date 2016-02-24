@@ -27,7 +27,8 @@
         <item>Edited to reflect migration of content from CD-ROM to Deep Blue JMBG</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">O'Brien, James F.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/7729">O'Brien, James F.</persname>
       </origination>
-      <unittitle encodinganalog="245">James F. O'Brien papers <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1945">1918-1945</unitdate></unittitle>
-      <abstract>Digital copies of materials relating to the military service of James F. O'Brien, who served as 2nd lieutenant in Company E, 339th Infantry, sent to Archangel, Russia at the end of World War I, the "Polar Bear Expedition."</abstract>
+      <unittitle encodinganalog="245">James F. O'Brien papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1918/1945">1918-1945</unitdate><abstract>Digital copies of materials relating to the military service of James F. O'Brien, who served as 2nd lieutenant in Company E, 339th Infantry, sent to Archangel, Russia at the end of World War I, the "Polar Bear Expedition."</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">2011070 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -81,25 +81,25 @@
       </p>
       <controlaccess>
         <head>Subjects</head>
-        <persname source="lcnaf" encodinganalog="600">O'Brien, James F.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Polar Bear Association.</corpname>
-        <geogname source="lcsh" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Infantry, 339th. Company E.</corpname>
-        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
-        <subject source="local" encodinganalog="690">Polar Bear Expedition.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/7729">O'Brien, James F.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1596">Polar Bear Association.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/879">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4845">United States. Army. Infantry, 339th. Company E.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5715">World War, 1914-1918.</subject>
+        <subject source="local" encodinganalog="690" ref="/subjects/3516">Polar Bear Expedition.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Ordnance Dept. Detroit Ordnance District.</corpname>
-        <persname source="lcnaf" encodinganalog="600">O'Brien, James F.</persname>
-        <persname source="lcnaf" encodinganalog="600">Odjard, Otto Arthur.</persname>
-        <geogname source="lcnaf" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <subject source="local" encodinganalog="690">Polar Bear Expedition.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2188">United States. Army. Ordnance Dept. Detroit Ordnance District.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/7729">O'Brien, James F.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3976">Odjard, Otto Arthur.</persname>
+        <geogname source="lcnaf" encodinganalog="651" ref="/subjects/756">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <subject source="local" encodinganalog="690" ref="/subjects/3516">Polar Bear Expedition.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Diaries.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3145">Diaries.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -109,12 +109,12 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [7305136422126699]">1</container>
+            <container type="folder" label="Folder [71796594682052989092521]">1</container>
             <unittitle>Papers</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">11 digital files</extent>
             </physdesc>
-            <dao show="new" actuate="onRequest" href="obrien0001">
+            <dao show="new" actuate="onRequest" href="obrien0001" ref="/repositories/2/digital_objects/14771">
               <daodesc>
                 <p>[view items]</p>
               </daodesc>
@@ -128,12 +128,12 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [74508289241272829159637]">2</container>
+            <container type="folder" label="Folder [87055412470869575356448]">2</container>
             <unittitle>Photographs</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 digital files</extent>
             </physdesc>
-            <dao show="new" actuate="onRequest" href="obrien0002">
+            <dao show="new" actuate="onRequest" href="obrien0002" ref="/repositories/2/digital_objects/14772">
               <daodesc>
                 <p>[view items]</p>
               </daodesc>

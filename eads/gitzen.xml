@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,10 +40,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Gitzen, Joseph A.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/6203">Gitzen, Joseph A.</persname>
       </origination>
-      <unittitle encodinganalog="245">Joseph A. Gitzen papers <unitdate type="inclusive" encodinganalog="245$f" normal="1917/1919">1917-1919</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2010178 Aa 2; UAl</unitid>
+      <unittitle encodinganalog="245">Joseph A. Gitzen papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1917/1919">1917-1919</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2010178 Aa 2; UAl</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Papers of Corporal Joseph A. Gitzen, resident of Houghton, Mich., member of Co. A., 310th U.S. Engineers who served in the Allied intervention in Russia, 1918-1920, the "Polar Bear Expedition." Collection includes Gitzen's personal and military papers, as well as Company A records, printed materials, maps, and an armband.</abstract>
       <physdesc altrender="part">
@@ -88,15 +88,15 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Gitzen, Joseph A.</persname>
-        <geogname source="lcsh" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Engineer Regiment, 310th. Company A.</corpname>
-        <subject source="local" encodinganalog="690">Polar Bear Expedition.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6203">Gitzen, Joseph A.</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/879">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5236">United States. Army. Engineer Regiment, 310th. Company A.</corpname>
+        <subject source="local" encodinganalog="690" ref="/subjects/3516">Polar Bear Expedition.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Diaries.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3145">Diaries.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -109,33 +109,28 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [28888894999201146569313]">1</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1918/1919">1918-1919</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6801290641990782869925]">1</container>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1918/1919">1918-1919</unitdate><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [28888894999201146569313]">1</container>
-            <unittitle><genreform normal="Diaries">Diaries</genreform>, <unitdate type="inclusive" normal="1918/1919">1918-1919</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6801290641990782869925]">1</container>
+            <unittitle><genreform normal="Diaries">Diaries</genreform></unittitle><unitdate type="inclusive" normal="1918/1919">1918-1919</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [28888894999201146569313]">1</container>
-            <unittitle>Military papers <unitdate type="inclusive" normal="1917/1919">1917-1919</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6801290641990782869925]">1</container>
+            <unittitle>Military papers</unittitle><unitdate type="inclusive" normal="1917/1919">1917-1919</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [28888894999201146569313]">1</container>
-            <unittitle>Poems <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6801290641990782869925]">1</container>
+            <unittitle>Poems</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [28888894999201146569313]">1</container>
-            <unittitle><genreform normal="Photographs">Photographs</genreform>, <unitdate type="inclusive" normal="1918" certainty="approximate">1918 undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6801290641990782869925]">1</container>
+            <unittitle><genreform normal="Photographs">Photographs</genreform></unittitle><unitdate type="inclusive" normal="1918" certainty="approximate">1918 undated</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -147,15 +142,13 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [28888894999201146569313]">1</container>
-            <unittitle>Company A rosters <unitdate type="inclusive" normal="1919">1919</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6801290641990782869925]">1</container>
+            <unittitle>Company A rosters</unittitle><unitdate type="inclusive" normal="1919">1919</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [28888894999201146569313]">1</container>
-            <unittitle>Company A histories <unitdate type="inclusive" normal="1919">1919</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6801290641990782869925]">1</container>
+            <unittitle>Company A histories</unittitle><unitdate type="inclusive" normal="1919">1919</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -167,33 +160,28 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [28888894999201146569313]">1</container>
-            <unittitle><title render="italic">Catholic Prayer Book for the Army and Navy</title>, <unitdate type="inclusive" normal="1918">1918</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6801290641990782869925]">1</container>
+            <unittitle><title render="italic">Catholic Prayer Book for the Army and Navy</title></unittitle><unitdate type="inclusive" normal="1918">1918</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [28888894999201146569313]">1</container>
-            <unittitle><title render="italic">Litany of the Saints</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6801290641990782869925]">1</container>
+            <unittitle><title render="italic">Litany of the Saints</title></unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [28888894999201146569313]">1</container>
-            <unittitle><title render="italic">The Midnight Sun</title>, <unitdate type="inclusive" normal="1919-07">July 1919</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6801290641990782869925]">1</container>
+            <unittitle><title render="italic">The Midnight Sun</title></unittitle><unitdate type="inclusive" normal="1919-07">July 1919</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [28888894999201146569313]">1</container>
-            <unittitle><title render="italic">Where Do We Go From Here?</title> [<unitdate type="inclusive" normal="1919" certainty="approximate">1919</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6801290641990782869925]">1</container>
+            <unittitle><title render="italic">Where Do We Go From Here?</title> [</unittitle><unitdate type="inclusive" normal="1919" certainty="approximate">1919</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [28888894999201146569313]">1</container>
-            <unittitle><title render="italic">Why Don't You Sing?</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6801290641990782869925]">1</container>
+            <unittitle><title render="italic">Why Don't You Sing?</title></unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -205,19 +193,16 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="folder" label="Oversize Folder [064696359644300839494991]">1</container>
-            <unittitle><title render="italic">Sketch of Shenkursk Showing Fortifications</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="folder" label="Oversize Folder [4449931444046855957]">1</container>
+            <unittitle><title render="italic">Sketch of Shenkursk Showing Fortifications</title></unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle><title render="italic">Archangel Government</title> 5th Series, Sheet 1, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <unittitle><title render="italic">Archangel Government</title> 5th Series, Sheet 1</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle><title render="italic">Archangel Government</title> 5th Series, Sheet 2, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <unittitle><title render="italic">Archangel Government</title> 5th Series, Sheet 2</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -229,9 +214,8 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="folder" label="Oversize Folder [064696359644300839494991]">1</container>
-            <unittitle>"One Hundred and Sixty Boys of St. Ignatius Congregation in Service of United States," clipping from <title render="italic">The Daily Mining Gazette</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="folder" label="Oversize Folder [4449931444046855957]">1</container>
+            <unittitle>"One Hundred and Sixty Boys of St. Ignatius Congregation in Service of United States," clipping from <title render="italic">The Daily Mining Gazette</title></unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>

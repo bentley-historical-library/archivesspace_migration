@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,10 +43,9 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Center for Middle Eastern and North African Studies.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/3870">University of Michigan. Center for Middle Eastern and North African Studies.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Center for Middle Eastern and North African Studies (University of Michigan) Publications <unitdate type="inclusive" encodinganalog="245$f" normal="1961/1999">1961-1999</unitdate></unittitle>
-      <abstract>Interdisciplinary area studies center at the University of Michigan. Publications miscellaneous annual reports, brochures, calendars, catalogs listing scholarly publications from the center, flyers, and newsletters which describe the activities of the faculty and students. Also includes publications from the Curriculum Development Group, Middle East Outreach Council, and the Middle East Studies Association of North America.</abstract>
+      <unittitle encodinganalog="245">Center for Middle Eastern and North African Studies (University of Michigan) Publications</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1961/1999">1961-1999</unitdate><abstract>Interdisciplinary area studies center at the University of Michigan. Publications miscellaneous annual reports, brochures, calendars, catalogs listing scholarly publications from the center, flyers, and newsletters which describe the activities of the faculty and students. Also includes publications from the Curriculum Development Group, Middle East Outreach Council, and the Middle East Studies Association of North America.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">9925 Bimu 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -88,22 +88,22 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Center for Near Eastern &amp; North African Studies.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Social life and customs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4439">University of Michigan. Center for Near Eastern &amp; North African Studies.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Social life and customs.<term type="topical">Students</term><term type="topical">Social life and customs.</term></corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Center for Near Eastern &amp; North African Studies.</corpname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n50049401">Middle East Studies Association of North America.</corpname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n82223916">Middle East Outreach Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/4439">University of Michigan. Center for Near Eastern &amp; North African Studies.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n50049401" ref="/agents/corporate_entities/1394">Middle East Studies Association of North America.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n82223916" ref="/agents/corporate_entities/3247">Middle East Outreach Council.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Calendars.</genreform>
-        <genreform source="aat" encodinganalog="655">Newsletters.</genreform>
-        <genreform source="aat" encodinganalog="655">Annual reports.</genreform>
-        <genreform source="aat" encodinganalog="655">Reports.</genreform>
-        <genreform source="lcsh" encodinganalog="655">Study guides.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3173">Calendars.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3152">Newsletters.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3191">Annual reports.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3150">Reports.</genreform>
+        <genreform source="lcsh" encodinganalog="655" ref="/subjects/3435">Study guides.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -117,18 +117,16 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1814618405070866412867]">1</container>
-              <unittitle><title render="italic">Final Performance Report</title>, <unitdate type="inclusive" normal="1985/1994">1985/86-1993/94</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [699689427824734551]">1</container>
+              <unittitle><title render="italic">Final Performance Report</title></unittitle><unitdate type="inclusive" normal="1985/1994">1985/86-1993/94</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">5 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1814618405070866412867]">1</container>
-              <unittitle><title render="italic">Project Performance Report</title>, <unitdate type="inclusive" normal="1994/1996">1994/95-1995/96</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [699689427824734551]">1</container>
+              <unittitle><title render="italic">Project Performance Report</title></unittitle><unitdate type="inclusive" normal="1994/1996">1994/95-1995/96</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -137,27 +135,23 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1814618405070866412867]">1</container>
-              <unittitle><title render="italic">Center for Near/Middle Eastern and North African Studies</title>, <unitdate type="inclusive" normal="1974/1995">1974/75-1994/95</unitdate>, <unitdate type="inclusive" normal="2000/2001">2000-2001</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [699689427824734551]">1</container>
+              <unittitle><title render="italic">Center for Near/Middle Eastern and North African Studies</title></unittitle><unitdate type="inclusive" normal="1974/1995">1974/75-1994/95</unitdate><unitdate type="inclusive" normal="2000/2001">2000-2001</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1814618405070866412867]">1</container>
-              <unittitle><title render="italic">Master of Arts Program in Modern Middle Eastern and North African Studies</title>, <unitdate type="inclusive" normal="1983/1997">1983/84-1996/97</unitdate>, <unitdate>undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [699689427824734551]">1</container>
+              <unittitle><title render="italic">Master of Arts Program in Modern Middle Eastern and North African Studies</title></unittitle><unitdate type="inclusive" normal="1983/1997">1983/84-1996/97</unitdate><unitdate>undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1814618405070866412867]">1</container>
-              <unittitle>Miscellaneous <unitdate type="inclusive" normal="1967/1985">1967-1985</unitdate>, <unitdate>undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [699689427824734551]">1</container>
+              <unittitle>Miscellaneous</unittitle><unitdate type="inclusive" normal="1967/1985">1967-1985</unitdate><unitdate>undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1814618405070866412867]">1</container>
-              <unittitle><title render="italic">Near East and North Africa</title>, <unitdate type="inclusive" normal="1964/1972">1964/65-1971/72</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [699689427824734551]">1</container>
+              <unittitle><title render="italic">Near East and North Africa</title></unittitle><unitdate type="inclusive" normal="1964/1972">1964/65-1971/72</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -166,9 +160,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1814618405070866412867]">1</container>
-              <unittitle><title render="italic">Schedule of Events</title>, <unitdate type="inclusive" normal="1989/1999">1989-1999</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [699689427824734551]">1</container>
+              <unittitle><title render="italic">Schedule of Events</title></unittitle><unitdate type="inclusive" normal="1989/1999">1989-1999</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">10 folders</extent>
               </physdesc>
             </did>
@@ -180,16 +173,14 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1814618405070866412867]">1</container>
-              <unittitle><title render="italic">Publications of the CNEA</title>, <unitdate type="inclusive" normal="1967/1987">1967-1987</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [699689427824734551]">1</container>
+              <unittitle><title render="italic">Publications of the CNEA</title></unittitle><unitdate type="inclusive" normal="1967/1987">1967-1987</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1814618405070866412867]">1</container>
-            <unittitle>Flyers <unitdate type="inclusive" normal="1989/2002">1989-2002</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [699689427824734551]">1</container>
+            <unittitle>Flyers</unittitle><unitdate type="inclusive" normal="1989/2002">1989-2002</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">10 folders</extent>
             </physdesc>
           </did>
@@ -200,15 +191,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1814618405070866412867]">1</container>
-              <unittitle><title render="italic">Alumni Newsletter</title>, <unitdate type="inclusive" normal="1989">1989</unitdate>, <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [699689427824734551]">1</container>
+              <unittitle><title render="italic">Alumni Newsletter</title></unittitle><unitdate type="inclusive" normal="1989">1989</unitdate><unitdate type="inclusive" normal="1993">1993</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4959638424022648433]">2</container>
-              <unittitle><title render="italic">Newsletter</title>, <unitdate type="inclusive" normal="1980/1999">1980-1999</unitdate>, <unitdate type="inclusive" normal="2001/2002">2001-2002</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [0564124278024655440]">2</container>
+              <unittitle><title render="italic">Newsletter</title></unittitle><unitdate type="inclusive" normal="1980/1999">1980-1999</unitdate><unitdate type="inclusive" normal="2001/2002">2001-2002</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">18 folders</extent>
               </physdesc>
             </did>
@@ -216,9 +205,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4959638424022648433]">2</container>
-            <unittitle>Posters <unitdate type="inclusive" normal="1984">1984</unitdate>, <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0564124278024655440]">2</container>
+            <unittitle>Posters</unittitle><unitdate type="inclusive" normal="1984">1984</unitdate><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -226,12 +214,9 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4959638424022648433]">2</container>
+              <container type="box" label="Box [0564124278024655440]">2</container>
               <unittitle>
-                <title render="italic">The Development Choices Model</title>
-                <unitdate type="inclusive" normal="1992">1992</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+                <title render="italic">The Development Choices Model</title></unittitle><unitdate type="inclusive" normal="1992">1992</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">1 floppy disks</extent>
                 <physfacet>3.5"</physfacet>
               </physdesc>
@@ -248,9 +233,8 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [4959638424022648433]">2</container>
-                <unittitle>Nos. 1,2,4 <unitdate type="inclusive" normal="1989/1991">1989-1991</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [0564124278024655440]">2</container>
+                <unittitle>Nos. 1,2,4</unittitle><unitdate type="inclusive" normal="1989/1991">1989-1991</unitdate></did>
             </c04>
           </c03>
         </c02>
@@ -266,9 +250,8 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [4959638424022648433]">2</container>
-                <unittitle><title render="italic">Armed Rivalry in the Middle East</title>, <unitdate type="inclusive" normal="1992" certainty="approximate">circa 1992</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [0564124278024655440]">2</container>
+                <unittitle><title render="italic">Armed Rivalry in the Middle East</title></unittitle><unitdate type="inclusive" normal="1992" certainty="approximate">circa 1992</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">1 floppy disks</extent>
                   <physfacet>3.5"</physfacet>
                 </physdesc>
@@ -279,40 +262,34 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [4959638424022648433]">2</container>
-                <unittitle><title render="italic">Economic Inequality and Political Violence in the Middle East and North Africa</title>, <unitdate type="inclusive" normal="1992" certainty="approximate">circa 1992</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [0564124278024655440]">2</container>
+                <unittitle><title render="italic">Economic Inequality and Political Violence in the Middle East and North Africa</title></unittitle><unitdate type="inclusive" normal="1992" certainty="approximate">circa 1992</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [4959638424022648433]">2</container>
-                <unittitle><title render="italic">Human Rights and Democratization in the Middle East</title>, <unitdate type="inclusive" normal="1992" certainty="approximate">circa 1992</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [0564124278024655440]">2</container>
+                <unittitle><title render="italic">Human Rights and Democratization in the Middle East</title></unittitle><unitdate type="inclusive" normal="1992" certainty="approximate">circa 1992</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [4959638424022648433]">2</container>
-                <unittitle><title render="italic">The Israeli-Palestinian Conflict</title> (2nd edition), <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [0564124278024655440]">2</container>
+                <unittitle><title render="italic">The Israeli-Palestinian Conflict</title> (2nd edition)</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [4959638424022648433]">2</container>
-                <unittitle><title render="italic">Religious Tensions in the Middle East</title>, <unitdate type="inclusive" normal="1992" certainty="approximate">circa 1992</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [0564124278024655440]">2</container>
+                <unittitle><title render="italic">Religious Tensions in the Middle East</title></unittitle><unitdate type="inclusive" normal="1992" certainty="approximate">circa 1992</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [4959638424022648433]">2</container>
-                <unittitle><title render="italic">Water Scarcity in the Middle East</title>, <unitdate type="inclusive" normal="1992" certainty="approximate">circa 1992</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [0564124278024655440]">2</container>
+                <unittitle><title render="italic">Water Scarcity in the Middle East</title></unittitle><unitdate type="inclusive" normal="1992" certainty="approximate">circa 1992</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4959638424022648433]">2</container>
-              <unittitle><title render="italic">Women in the Middle East: A Handbook for Secondary Schools</title>, <unitdate type="inclusive" normal="1993" certainty="approximate">circa 1993</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [0564124278024655440]">2</container>
+              <unittitle><title render="italic">Women in the Middle East: A Handbook for Secondary Schools</title></unittitle><unitdate type="inclusive" normal="1993" certainty="approximate">circa 1993</unitdate></did>
           </c03>
         </c02>
       </c01>
@@ -330,9 +307,8 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [4959638424022648433]">2</container>
-                <unittitle><title render="italic">Petroleum and National Development in the Middle East: The Case of Saudi Arabia</title>, <unitdate type="inclusive" normal="1980">1980</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [0564124278024655440]">2</container>
+                <unittitle><title render="italic">Petroleum and National Development in the Middle East: The Case of Saudi Arabia</title></unittitle><unitdate type="inclusive" normal="1980">1980</unitdate></did>
             </c04>
           </c03>
         </c02>
@@ -346,9 +322,8 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [4959638424022648433]">2</container>
-                <unittitle><title render="italic">Middle East Outreach Council Newsletter</title>, <unitdate type="inclusive" normal="1979">1979</unitdate>, <unitdate type="inclusive" normal="1994/1997">1994-1997</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [0564124278024655440]">2</container>
+                <unittitle><title render="italic">Middle East Outreach Council Newsletter</title></unittitle><unitdate type="inclusive" normal="1979">1979</unitdate><unitdate type="inclusive" normal="1994/1997">1994-1997</unitdate></did>
             </c04>
           </c03>
         </c02>
@@ -362,15 +337,13 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [4959638424022648433]">2</container>
-                <unittitle><title render="italic">Evaluation of Secondary-Level Textbooks for Coverage of the Middle East and North Africa</title>, <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [0564124278024655440]">2</container>
+                <unittitle><title render="italic">Evaluation of Secondary-Level Textbooks for Coverage of the Middle East and North Africa</title></unittitle><unitdate type="inclusive" normal="1994">1994</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [4959638424022648433]">2</container>
-                <unittitle><title render="italic">Middle East Studies Association/Middle East Outreach Council Text Evaluation Project</title>, <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [0564124278024655440]">2</container>
+                <unittitle><title render="italic">Middle East Studies Association/Middle East Outreach Council Text Evaluation Project</title></unittitle><unitdate type="inclusive" normal="1992">1992</unitdate></did>
             </c04>
           </c03>
         </c02>
@@ -393,17 +366,15 @@
               </did>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [4959638424022648433]">2</container>
-                  <unittitle><title render="italic">Beyond the Thousand and One Nights: A Sampler of Literature from Muslim Civilization</title>, <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [0564124278024655440]">2</container>
+                  <unittitle><title render="italic">Beyond the Thousand and One Nights: A Sampler of Literature from Muslim Civilization</title></unittitle><unitdate type="inclusive" normal="1996">1996</unitdate></did>
               </c05>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4959638424022648433]">2</container>
-              <unittitle>Programs <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [0564124278024655440]">2</container>
+              <unittitle>Programs</unittitle><unitdate type="inclusive" normal="1991">1991</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -416,9 +387,8 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [4959638424022648433]">2</container>
-                <unittitle><title render="italic">Cases and Contexts in Islamic Law</title>, <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [0564124278024655440]">2</container>
+                <unittitle><title render="italic">Cases and Contexts in Islamic Law</title></unittitle><unitdate type="inclusive" normal="1994">1994</unitdate></did>
             </c04>
           </c03>
         </c02>

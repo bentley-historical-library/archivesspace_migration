@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no97017949">Grigaut, Paul L.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no97017949" ref="/agents/people/2773">Grigaut, Paul L.</persname>
       </origination>
-      <unittitle encodinganalog="245">Paul L. Grigaut Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1929/1969">1929-1969</unitdate></unittitle>
-      <abstract>Art museum curator, professor of history of art at the University of Michigan; correspondence, photographs and slides, printed ephemera, administrative materials and lecture notes.</abstract>
+      <unittitle encodinganalog="245">Paul L. Grigaut Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1929/1969">1929-1969</unitdate><abstract>Art museum curator, professor of history of art at the University of Michigan; correspondence, photographs and slides, printed ephemera, administrative materials and lecture notes.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">9983 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -81,107 +81,95 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no97017949">Grigaut, Paul L.</persname>
-        <subject source="lcsh" encodinganalog="650">Art--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79045542">Detroit Institute of Arts.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Richmond Museum of Fine Arts.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80040326">University of Michigan. Museum of Art.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no97017949" ref="/agents/people/2773">Grigaut, Paul L.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6805">Art--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79045542" ref="/agents/corporate_entities/3543">Detroit Institute of Arts.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1121">Richmond Museum of Fine Arts.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80040326" ref="/agents/corporate_entities/824">University of Michigan. Museum of Art.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no97017949">Grigaut, Paul L.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79045542">Detroit Institute of Arts.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no97017949" ref="/agents/people/2773">Grigaut, Paul L.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79045542" ref="/agents/corporate_entities/3543">Detroit Institute of Arts.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Academic Affiliations <unitdate type="inclusive" normal="1945/1969">1945-1969</unitdate></unittitle>
-        </did>
+          <unittitle>Academic Affiliations</unittitle><unitdate type="inclusive" normal="1945/1969">1945-1969</unitdate></did>
         <scopecontent>
           <p>The Academic Affiliations series (1945-1969; .3 lin. ft.) consists of three subseries: Detroit Institute of Arts (1945-1963), Richmond Museum of Fine Arts (1963-1965) and University of Michigan Museum of Art (1965-1969). The three subseries contain materials related to Grigaut's tenure at these institutions. The Detroit Institute of Arts subseries consists of four folders and contains typed and written correspondence, materials published by the Institute during Grigaut's tenure, memoranda regarding Grigaut's position as acting director and miscellaneous items. The Richmond Museum of Fine Arts subseries consists of four folders and contains typed and written correspondence, memoranda, an annual report and a few miscellaneous items. The University of Michigan Museum of Art subseries consists of three folders and contains memoranda, typed and written correspondence and miscellaneous items.</p>
         </scopecontent>
         <c02 level="subseries">
           <did>
-            <unittitle>Detroit Institute of Arts <unitdate type="inclusive" normal="1945/1963">1945-1963</unitdate></unittitle>
-          </did>
+            <unittitle>Detroit Institute of Arts</unittitle><unitdate type="inclusive" normal="1945/1963">1945-1963</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [892916214129981556243]">1</container>
-              <unittitle>Administrative Materials <unitdate type="inclusive" normal="1962/1965">1962-1965</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [04414413428400756341]">1</container>
+              <unittitle>Administrative Materials</unittitle><unitdate type="inclusive" normal="1962/1965">1962-1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [892916214129981556243]">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1955-12/1963-07">December 1955-July 1963</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [04414413428400756341]">1</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1955-12/1963-07">December 1955-July 1963</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [892916214129981556243]">1</container>
-              <unittitle>Institute Publications <unitdate type="inclusive" normal="1953/1965">1953-1965</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [04414413428400756341]">1</container>
+              <unittitle>Institute Publications</unittitle><unitdate type="inclusive" normal="1953/1965">1953-1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [892916214129981556243]">1</container>
+              <container type="box" label="Box [04414413428400756341]">1</container>
               <unittitle>Miscellaneous</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Richmond Museum of Fine Arts <unitdate type="inclusive" normal="1963/1965">1963-1965</unitdate></unittitle>
-          </did>
+            <unittitle>Richmond Museum of Fine Arts</unittitle><unitdate type="inclusive" normal="1963/1965">1963-1965</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [892916214129981556243]">1</container>
-              <unittitle>Administrative Materials <unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [04414413428400756341]">1</container>
+              <unittitle>Administrative Materials</unittitle><unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [892916214129981556243]">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1963-08/1965-05">August 1963-May 1965</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [04414413428400756341]">1</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1963-08/1965-05">August 1963-May 1965</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [892916214129981556243]">1</container>
+              <container type="box" label="Box [04414413428400756341]">1</container>
               <unittitle>Miscellaneous</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>University of Michigan Museum of Art <unitdate type="inclusive" normal="1965/1969">1965-1969</unitdate></unittitle>
-          </did>
+            <unittitle>University of Michigan Museum of Art</unittitle><unitdate type="inclusive" normal="1965/1969">1965-1969</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [892916214129981556243]">1</container>
-              <unittitle>Administrative Materials <unitdate type="inclusive" normal="1964-10/1968-04">October 1964-April 1968</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [04414413428400756341]">1</container>
+              <unittitle>Administrative Materials</unittitle><unitdate type="inclusive" normal="1964-10/1968-04">October 1964-April 1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [892916214129981556243]">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1965-07/1969-03">July 1965-March 1969</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [04414413428400756341]">1</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1965-07/1969-03">July 1965-March 1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [892916214129981556243]">1</container>
-              <unittitle>Miscellaneous <unitdate type="inclusive" normal="1965/1969">1965-1969</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [04414413428400756341]">1</container>
+              <unittitle>Miscellaneous</unittitle><unitdate type="inclusive" normal="1965/1969">1965-1969</unitdate></did>
           </c03>
         </c02>
       </c01>
@@ -194,73 +182,65 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [892916214129981556243]">1</container>
-            <unittitle>Biographic Materials <unitdate type="inclusive" normal="1929/1965">1929-1965</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [04414413428400756341]">1</container>
+            <unittitle>Biographic Materials</unittitle><unitdate type="inclusive" normal="1929/1965">1929-1965</unitdate></did>
           <odd>
             <p>(Includes photographic portraits and negatives)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [892916214129981556243]">1</container>
-            <unittitle>Correspondence Regarding Grigaut's Death <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [04414413428400756341]">1</container>
+            <unittitle>Correspondence Regarding Grigaut's Death</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [892916214129981556243]">1</container>
-            <unittitle>Estate Correspondence <unitdate type="inclusive" normal="1969/1973">1969-1973</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [04414413428400756341]">1</container>
+            <unittitle>Estate Correspondence</unittitle><unitdate type="inclusive" normal="1969/1973">1969-1973</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [892916214129981556243]">1</container>
-            <unittitle>Estate Inventory <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [04414413428400756341]">1</container>
+            <unittitle>Estate Inventory</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           <odd>
             <p>(includes slides)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [892916214129981556243]">1</container>
-            <unittitle>Exhibition Catalogues <unitdate type="inclusive" normal="1930/1969">1930-1969</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [04414413428400756341]">1</container>
+            <unittitle>Exhibition Catalogues</unittitle><unitdate type="inclusive" normal="1930/1969">1930-1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [892916214129981556243]">1</container>
+            <container type="box" label="Box [04414413428400756341]">1</container>
             <unittitle>French Silver</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [892916214129981556243]">1</container>
-            <unittitle>Lecture Materials <unitdate type="inclusive" normal="1956">1956</unitdate>, <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [04414413428400756341]">1</container>
+            <unittitle>Lecture Materials</unittitle><unitdate type="inclusive" normal="1956">1956</unitdate><unitdate type="inclusive" normal="1957">1957</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [892916214129981556243]">1</container>
-            <unittitle>Newspaper Articles <unitdate type="inclusive" normal="1962/1969">1962-1969</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [04414413428400756341]">1</container>
+            <unittitle>Newspaper Articles</unittitle><unitdate type="inclusive" normal="1962/1969">1962-1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [892916214129981556243]">1</container>
-            <unittitle>Obituaries <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [04414413428400756341]">1</container>
+            <unittitle>Obituaries</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [892916214129981556243]">1</container>
+            <container type="box" label="Box [04414413428400756341]">1</container>
             <unittitle>
               <genreform>Photographs</genreform>
             </unittitle>
@@ -268,15 +248,13 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [892916214129981556243]">1</container>
-            <unittitle>Publication Materials <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [04414413428400756341]">1</container>
+            <unittitle>Publication Materials</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [892916214129981556243]">1</container>
-            <unittitle>Silversmiths <unitdate type="inclusive" normal="1945/1952">1945-1952</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [04414413428400756341]">1</container>
+            <unittitle>Silversmiths</unittitle><unitdate type="inclusive" normal="1945/1952">1945-1952</unitdate></did>
         </c02>
       </c01>
     </dsc>

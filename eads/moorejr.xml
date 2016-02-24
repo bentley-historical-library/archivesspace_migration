@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,10 +47,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n2008021912">Moore, Joel Roscoe, 1879-</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n2008021912" ref="/agents/people/5200">Moore, Joel Roscoe, 1879-</persname>
       </origination>
-      <unittitle encodinganalog="245">Joel Roscoe Moore papers <unitdate type="inclusive" encodinganalog="245$f" normal="1917/1929">1917-1929</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="1940">1940</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="1949/1952">1949-1952</unitdate></unittitle>
-      <abstract>Soldier from LaCrosse, Wisc., captain of Co. M, 339th U.S. Infantry who served in the Allied intervention in Russia, 1918-1920, the "Polar Bear Expedition." Collection includes miscellaneous citations, orders, and correspondence relating to his activities with the Polar Bear regiment; also photographs.</abstract>
+      <unittitle encodinganalog="245">Joel Roscoe Moore papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1917/1929">1917-1929</unitdate><unitdate type="inclusive" encodinganalog="245$f" normal="1940">1940</unitdate><unitdate type="inclusive" encodinganalog="245$f" normal="1949/1952">1949-1952</unitdate><abstract>Soldier from LaCrosse, Wisc., captain of Co. M, 339th U.S. Infantry who served in the Allied intervention in Russia, 1918-1920, the "Polar Bear Expedition." Collection includes miscellaneous citations, orders, and correspondence relating to his activities with the Polar Bear regiment; also photographs.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">86586 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -83,21 +83,21 @@
       </p>
       <controlaccess>
         <head>Subjects</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n2008021912">Moore, Joel Roscoe, 1879-</persname>
-        <geogname source="lcsh" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
-        <subject source="local" encodinganalog="690">Polar Bear Expedition.</subject>
-        <subject source="lctgm" encodinganalog="650">Memorial rites and ceremonies.</subject>
-        <subject source="lctgm" encodinganalog="650">Military parades and ceremonies.</subject>
-        <subject source="lctgm" encodinganalog="650">Monuments and memorials.</subject>
-        <subject source="lctgm" encodinganalog="650">Ships.</subject>
-        <subject source="lctgm" encodinganalog="650">Soldiers--American--Russia (Federation)</subject>
-        <subject source="lctgm" encodinganalog="650">Veterans--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Polar Bear Association.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n2008021912" ref="/agents/people/5200">Moore, Joel Roscoe, 1879-</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/879">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5715">World War, 1914-1918.</subject>
+        <subject source="local" encodinganalog="690" ref="/subjects/3516">Polar Bear Expedition.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4986">Memorial rites and ceremonies.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3982">Military parades and ceremonies.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3861">Monuments and memorials.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3916">Ships.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3768">Soldiers--American--Russia (Federation)</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3767">Veterans--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1596">Polar Bear Association.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -107,9 +107,8 @@
         </did>
         <c02 level="file">
           <did>
-            <container label="Folder [19843775474891968676575]" type="folder">1</container>
-            <unittitle><unitdate type="inclusive" normal="1917/1929">1917-1929</unitdate>, <unitdate type="inclusive" normal="1940">1940</unitdate>, <unitdate type="inclusive" normal="1949/1952">1949-1952</unitdate></unittitle>
-          </did>
+            <container label="Folder [5481201616456878480096622]" type="folder">1</container>
+            <unitdate type="inclusive" normal="1917/1929">1917-1929</unitdate><unitdate type="inclusive" normal="1940">1940</unitdate><unitdate type="inclusive" normal="1949/1952">1949-1952</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -118,49 +117,49 @@
         </did>
         <c02 level="file">
           <did>
-            <container label="Folder [7712700149434118081]" type="folder">2</container>
+            <container label="Folder [9537774325642949880]" type="folder">2</container>
             <unittitle>Family and personal</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Folder [4805756742086815]" type="folder">3</container>
+            <container label="Folder [56074647967258]" type="folder">3</container>
             <unittitle>Individuals, Military</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Folder [2335064259305948652]" type="folder">4</container>
+            <container label="Folder [97358557742352982667360]" type="folder">4</container>
             <unittitle>Military scenes</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Folder [326017448798037679]" type="folder">5</container>
+            <container label="Folder [14957674785265868092]" type="folder">5</container>
             <unittitle>Polar Bear Association and postwar activities</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Folder [77167543282823598339]" type="folder">6</container>
+            <container label="Folder [310241793473780598921]" type="folder">6</container>
             <unittitle>Portraits, etc., of Joel R. Moore</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Folder [91814848407603399]" type="folder">7</container>
+            <container label="Folder [23404174717]" type="folder">7</container>
             <unittitle>Russian people</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Folder [464254940637239243]" type="folder">8</container>
+            <container label="Folder [052744644615205589652]" type="folder">8</container>
             <unittitle>Russian scenes</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Folder [936418440294468373]" type="folder">9</container>
+            <container label="Folder [1929158848933982755430]" type="folder">9</container>
             <unittitle>Ships and waterfront scenes</unittitle>
           </did>
         </c02>

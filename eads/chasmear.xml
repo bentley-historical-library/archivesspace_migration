@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Charles B. Mears Lumber Company (Ludington, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/3389">Charles B. Mears Lumber Company (Ludington, Mich.)</corpname>
       </origination>
-      <unittitle encodinganalog="245">Charles B. Mears Lumber Company (Ludington, Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1837/1895">1837-1895</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851815 Bb.2; BB.2 Outsize</unitid>
+      <unittitle encodinganalog="245">Charles B. Mears Lumber Company (Ludington, Mich.) records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1837/1895">1837-1895</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851815 Bb.2; BB.2 Outsize</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Ludington, Michigan lumber company; business records, including day books, inventories, time books, and ledgers.</abstract>
       <physdesc altrender="part">
@@ -82,22 +82,22 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Mears, Charles B., 1814-1895.</persname>
-        <subject source="lcsh" encodinganalog="650">Business records.</subject>
-        <geogname source="lcsh" encodinganalog="651">Duck Lake (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">General stores--Michigan.</subject>
-        <geogname source="lcsh" encodinganalog="651">Lincoln (Mason County, Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81056721">Ludington (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Logging--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Lumbering--Michigan.</subject>
-        <geogname source="lcsh" encodinganalog="651">Mason County (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/no2010149865">Mears (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80149302">Muskegon County (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091879">Oceana County (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/no2009014946">Pentwater (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Silver Lake (Oceana County, Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">White Lake (Muskegon County, Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Charles B. Mears Lumber Company (Ludington, Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5015">Mears, Charles B., 1814-1895.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5789">Business records.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1538">Duck Lake (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6775">General stores--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1539">Lincoln (Mason County, Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81056721" ref="/subjects/1147">Ludington (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6776">Logging--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6777">Lumbering--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1540">Mason County (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/no2010149865" ref="/subjects/1541">Mears (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80149302" ref="/subjects/1445">Muskegon County (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091879" ref="/subjects/1542">Oceana County (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/no2009014946" ref="/subjects/1543">Pentwater (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1544">Silver Lake (Oceana County, Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1545">White Lake (Muskegon County, Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3389">Charles B. Mears Lumber Company (Ludington, Mich.)</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -107,117 +107,99 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [89261346722299717101]">1</container>
-            <unittitle>Duck Lake Day Book <unitdate type="inclusive" normal="1871/1872">1871-1872</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [28701408486234]">1</container>
+            <unittitle>Duck Lake Day Book</unittitle><unitdate type="inclusive" normal="1871/1872">1871-1872</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [89261346722299717101]">1</container>
-            <unittitle>Time Book [Mears, Mich.] <unitdate type="inclusive" normal="1879/1892">1879-1892</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [28701408486234]">1</container>
+            <unittitle>Time Book [Mears, Mich.]</unittitle><unitdate type="inclusive" normal="1879/1892">1879-1892</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [89261346722299717101]">1</container>
-            <unittitle>Inventory of Mears Store <unitdate type="inclusive" normal="1895">1895</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [28701408486234]">1</container>
+            <unittitle>Inventory of Mears Store</unittitle><unitdate type="inclusive" normal="1895">1895</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [89261346722299717101]">1</container>
-            <unittitle>Inventory of Pentwater Store <unitdate type="inclusive" normal="1895">1895</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [28701408486234]">1</container>
+            <unittitle>Inventory of Pentwater Store</unittitle><unitdate type="inclusive" normal="1895">1895</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [89261346722299717101]">1</container>
-            <unittitle>Cash Blotter <unitdate type="inclusive" normal="1862/1866">1862-1866</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [28701408486234]">1</container>
+            <unittitle>Cash Blotter</unittitle><unitdate type="inclusive" normal="1862/1866">1862-1866</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [89261346722299717101]">1</container>
-            <unittitle>Duck Lake Cash Account <unitdate type="inclusive" normal="1863/1869">1863-1869</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [28701408486234]">1</container>
+            <unittitle>Duck Lake Cash Account</unittitle><unitdate type="inclusive" normal="1863/1869">1863-1869</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [89261346722299717101]">1</container>
-            <unittitle>Duck Lake Cash Blotter <unitdate type="inclusive" normal="1859/1862">1859-1862</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [28701408486234]">1</container>
+            <unittitle>Duck Lake Cash Blotter</unittitle><unitdate type="inclusive" normal="1859/1862">1859-1862</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [89261346722299717101]">1</container>
-            <unittitle>Hamline Mills Time Book <unitdate type="inclusive" normal="1860/1863">1860-1863</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [28701408486234]">1</container>
+            <unittitle>Hamline Mills Time Book</unittitle><unitdate type="inclusive" normal="1860/1863">1860-1863</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [89261346722299717101]">1</container>
-            <unittitle>Time Book <unitdate type="inclusive" normal="1868/1883">1868-1883</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [28701408486234]">1</container>
+            <unittitle>Time Book</unittitle><unitdate type="inclusive" normal="1868/1883">1868-1883</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [89261346722299717101]">1</container>
-            <unittitle>Duck Lake Sales Book <unitdate type="inclusive" normal="1880/1882">1880-1882</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [28701408486234]">1</container>
+            <unittitle>Duck Lake Sales Book</unittitle><unitdate type="inclusive" normal="1880/1882">1880-1882</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [991591469449684749]">5</container>
-            <unittitle>Duck Lake Ledger <unitdate type="inclusive" normal="1865/1868">1865-1868</unitdate></unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [577339719841651258620]">5</container>
+            <unittitle>Duck Lake Ledger</unittitle><unitdate type="inclusive" normal="1865/1868">1865-1868</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [84942584438495398954]">1</container>
-            <unittitle>White River Day Book <unitdate type="inclusive" normal="1850/1853">1850-1853</unitdate></unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [551805467469838293951]">1</container>
+            <unittitle>White River Day Book</unittitle><unitdate type="inclusive" normal="1850/1853">1850-1853</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [57253256041082871693635]">7</container>
-            <unittitle>Account book <unitdate type="inclusive" normal="1837/1845">1837-1845</unitdate></unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [23570577469596826757854]">7</container>
+            <unittitle>Account book</unittitle><unitdate type="inclusive" normal="1837/1845">1837-1845</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [390801594578422420673934]">2</container>
-            <unittitle>Middlesex Ledger <unitdate type="inclusive" normal="1864/1865">1864-1865</unitdate></unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [483561356048027211591035]">2</container>
+            <unittitle>Middlesex Ledger</unittitle><unitdate type="inclusive" normal="1864/1865">1864-1865</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [4550564419725736244]">6</container>
-            <unittitle>Middlesex Day Book <unitdate type="inclusive" normal="1866/1867">1866-1867</unitdate></unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [1084854349493476262]">6</container>
+            <unittitle>Middlesex Day Book</unittitle><unitdate type="inclusive" normal="1866/1867">1866-1867</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [559142438979948926]">4</container>
-            <unittitle>Middlesex Day Book <unitdate type="inclusive" normal="1867/1869">1867-1869</unitdate></unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [288259446378917046640]">4</container>
+            <unittitle>Middlesex Day Book</unittitle><unitdate type="inclusive" normal="1867/1869">1867-1869</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [8319269294621366328080488]">8</container>
-            <unittitle>Lincoln, Mason County Day Book <unitdate type="inclusive" normal="1861/1863">1861-1863</unitdate></unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [672623904114677295334496]">8</container>
+            <unittitle>Lincoln, Mason County Day Book</unittitle><unitdate type="inclusive" normal="1861/1863">1861-1863</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [62073694488855838280]">3</container>
-            <unittitle>Lincoln, Mason County, Day Book <unitdate type="inclusive" normal="1868/1870">1868-1870</unitdate></unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [550202178492784319148]">3</container>
+            <unittitle>Lincoln, Mason County, Day Book</unittitle><unitdate type="inclusive" normal="1868/1870">1868-1870</unitdate></did>
         </c02>
       </c01>
     </dsc>

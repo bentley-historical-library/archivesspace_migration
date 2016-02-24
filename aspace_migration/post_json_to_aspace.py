@@ -19,7 +19,7 @@ def post_json_to_aspace(json_dir, resources_dir, migration_stats_dir, aspace_url
     json_to_aspace_successes = join(migration_stats_dir, 'json_to_aspace_successes.txt')
 
     for txt_document in [importer_stats_file, json_to_aspace_successes, json_to_aspace_errors]:
-        if os.path.exist(txt_document):
+        if os.path.exists(txt_document):
             os.remove(txt_document)
 
     start_time = datetime.now()
@@ -42,6 +42,10 @@ def post_json_to_aspace(json_dir, resources_dir, migration_stats_dir, aspace_url
                         errors.append(filename)
             with open(join(resources_dir,filename),'w') as json_out:
                 json_out.write(json.dumps(jsontoresource))
+            if filename in errors:
+                print "Error posting {0}".format(filename)
+            elif filename in successes:
+                print "{0} posted successfully".format(filename)
 
     with open(json_to_aspace_errors,'w') as f:
         f.write("\n".join(errors))
@@ -60,9 +64,9 @@ def post_json_to_aspace(json_dir, resources_dir, migration_stats_dir, aspace_url
     importer_stats = """
 Script start time: {0}
 Script end time: {1}
-Script running time: {3}
-Successfully imported: {4} files
-Errors encountered in: {5} files""".format(script_start_time, script_end_time, script_running_time, str(len(successes)), str(len(errors)))
+Script running time: {2}
+Successfully imported: {3} files
+Errors encountered in: {4} files""".format(script_start_time, script_end_time, script_running_time, str(len(successes)), str(len(errors)))
     
     with open(importer_stats_file,'w') as f:
         f.write(importer_stats)
@@ -75,6 +79,9 @@ def main():
     aspace_url = 'http://localhost:8089'
     username = 'admin'
     password = 'admin'
-    post_json_to_aspace(aspace_ead_dir, json_dir, aspace_url, username, password)
+    post_json_to_aspace(json_dir, resources_dir, migration_stats_dir, aspace_url, username, password)
+
+if __name__ == "__main__":
+    main()
 
     

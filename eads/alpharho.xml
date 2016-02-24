@@ -24,7 +24,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Alpha Rho Chi (Fraternity). Iktinos Chapter (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/405">Alpha Rho Chi (Fraternity). Iktinos Chapter (University of Michigan)</corpname>
       </origination>
-      <unittitle encodinganalog="245">Alpha Rho Chi (Fraternity) Iktinos Chapter records <unitdate type="inclusive" encodinganalog="245$f" normal="1909/1993">1909-1993</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">90167 Bimu 41; UBImum F41</unitid>
+      <unittitle encodinganalog="245">Alpha Rho Chi (Fraternity) Iktinos Chapter records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1909/1993">1909-1993</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">90167 Bimu 41; UBImum F41</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>University of Michigan chapter of an architecture student fraternity. Minutes, 1909-1931, of Architectural Society, a University of Michigan group; minutes, newsletters, and other materials of Iktinos Chapter of Alpha Rho Chi; and collected material relating to activities of national office.</abstract>
       <physdesc altrender="part">
@@ -85,20 +85,20 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname encodinganalog="610" source="lcnaf">Alpha Rho Chi (Fraternity). Iktinos Chapter (University of Michigan)</corpname>
-        <corpname encodinganalog="610" source="lcnaf">University of Michigan Architectural Society.</corpname>
-        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Societies, etc.</corpname>
-        <subject normal="650" source="lcsh">Architecture.</subject>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/405">Alpha Rho Chi (Fraternity). Iktinos Chapter (University of Michigan)</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/3204">University of Michigan Architectural Society.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Societies, etc.<term type="topical">Students</term><term type="topical">Societies, etc.</term></corpname>
+        <subject normal="650" source="lcsh" ref="/subjects/5837">Architecture.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname encodinganalog="610" source="lcnaf">Alpha Rho Chi (Fraternity). Iktinos Chapter (University of Michigan)</corpname>
-        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students.</corpname>
-        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Buildings.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/405">Alpha Rho Chi (Fraternity). Iktinos Chapter (University of Michigan)</corpname>
+        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students.<term type="topical">Students.</term></corpname>
+        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Buildings.<term type="topical">Buildings.</term></corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform encodinganalog="655" source="aat">Photographs.</genreform>
+        <genreform encodinganalog="655" source="aat" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -111,9 +111,8 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6863966524943112464531]">1</container>
-            <unittitle>Architectural Society minutes <unitdate type="inclusive" normal="1909/1931">1909-1931</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [31082541864833933]">1</container>
+            <unittitle>Architectural Society minutes</unittitle><unitdate type="inclusive" normal="1909/1931">1909-1931</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -128,9 +127,8 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6863966524943112464531]">1</container>
-            <unittitle>"Archi" (national magazine) <unitdate type="inclusive" normal="1918/1986">1918-1986</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [31082541864833933]">1</container>
+            <unittitle>"Archi" (national magazine)</unittitle><unitdate type="inclusive" normal="1918/1986">1918-1986</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 folders</extent>
             </physdesc>
           </did>
@@ -140,42 +138,34 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6863966524943112464531]">1</container>
-            <unittitle>Grand Council of Alpha Rho Chi Financial Reports <unitdate type="inclusive" normal="1956/1970">1956-1970</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31082541864833933]">1</container>
+            <unittitle>Grand Council of Alpha Rho Chi Financial Reports</unittitle><unitdate type="inclusive" normal="1956/1970">1956-1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6863966524943112464531]">1</container>
-            <unittitle>Guest Books (bound) <unitdate type="inclusive" normal="1919/1965">1919-1965</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [31082541864833933]">1</container>
+            <unittitle>Guest Books (bound)</unittitle><unitdate type="inclusive" normal="1919/1965">1919-1965</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6863966524943112464531]">1</container>
-            <unittitle>House Fund <unitdate type="inclusive" normal="1919/1922">1919-1922</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31082541864833933]">1</container>
+            <unittitle>House Fund</unittitle><unitdate type="inclusive" normal="1919/1922">1919-1922</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6863966524943112464531]">1</container>
-            <unittitle>"Iktinews" chapter newsletter (incomplete) <unitdate type="inclusive" normal="1948/1993">1948-1993</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31082541864833933]">1</container>
+            <unittitle>"Iktinews" chapter newsletter (incomplete)</unittitle><unitdate type="inclusive" normal="1948/1993">1948-1993</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Minutes <unitdate type="inclusive" normal="1914/1971">1914-1971</unitdate></unittitle>
-          </did>
+            <unittitle>Minutes</unittitle><unitdate type="inclusive" normal="1914/1971">1914-1971</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6863966524943112464531]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1914/1948-05">1914-May 1948</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [31082541864833933]">1</container>
+              <unitdate type="inclusive" normal="1914/1948-05">1914-May 1948</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">5 folders</extent>
               </physdesc>
             </did>
@@ -185,11 +175,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7333602486996716794]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1948-09/1971-05">September 1948-May 1971</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [95243624895755202819]">2</container>
+              <unitdate type="inclusive" normal="1948-09/1971-05">September 1948-May 1971</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">7 folders</extent>
               </physdesc>
             </did>
@@ -197,7 +184,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7333602486996716794]">2</container>
+            <container type="box" label="Box [95243624895755202819]">2</container>
             <unittitle>Pledge Manuals</unittitle>
           </did>
           <odd>
@@ -206,9 +193,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7333602486996716794]">2</container>
-            <unittitle>Reports of the Annual National Convention (1st to 34th) <unitdate type="inclusive" normal="1915/1972">1915-1972</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [95243624895755202819]">2</container>
+            <unittitle>Reports of the Annual National Convention (1st to 34th)</unittitle><unitdate type="inclusive" normal="1915/1972">1915-1972</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">10 folders</extent>
             </physdesc>
           </did>
@@ -218,9 +204,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7333602486996716794]">2</container>
-            <unittitle>Financial Records (includes membership dues) <unitdate type="inclusive" normal="1913/1915">1913-1915</unitdate> (2 bound volumes)</unittitle>
-          </did>
+            <container type="box" label="Box [95243624895755202819]">2</container>
+            <unittitle>Financial Records (includes membership dues) (2 bound volumes)</unittitle><unitdate type="inclusive" normal="1913/1915">1913-1915</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -228,13 +213,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [720973685046093646471584302]">3</container>
+              <container type="box" label="Box [1714982420986295831873]">3</container>
               <unittitle>Bert Trowell file (miscellaneous materials)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [720973685046093646471584302]">3</container>
+              <container type="box" label="Box [1714982420986295831873]">3</container>
               <unittitle>Amy Reineri file (miscellaneous materials)</unittitle>
             </did>
           </c03>
@@ -249,31 +234,31 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [720973685046093646471584302]">3</container>
+            <container type="box" label="Box [1714982420986295831873]">3</container>
             <unittitle>Fraternity house</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [720973685046093646471584302]">3</container>
+            <container type="box" label="Box [1714982420986295831873]">3</container>
             <unittitle>Group portraits</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [720973685046093646471584302]">3</container>
+            <container type="box" label="Box [1714982420986295831873]">3</container>
             <unittitle>Miscellaneous</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [720973685046093646471584302]">3</container>
+            <container type="box" label="Box [1714982420986295831873]">3</container>
             <unittitle>Social activities</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [720973685046093646471584302]">3</container>
+            <container type="box" label="Box [1714982420986295831873]">3</container>
             <unittitle>Various groupings</unittitle>
           </did>
         </c02>
@@ -284,9 +269,8 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [720973685046093646471584302]">3</container>
-            <unittitle>Bertil Lindblad tape discussing in part the history of APX for <unitdate type="inclusive" normal="1936/1940">1936-1940</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [1714982420986295831873]">3</container>
+            <unittitle>Bertil Lindblad tape discussing in part the history of APX for</unittitle><unitdate type="inclusive" normal="1936/1940">1936-1940</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">1 audiocassettes</extent>
             </physdesc>
           </did>

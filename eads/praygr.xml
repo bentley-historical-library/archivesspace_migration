@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Pray, George R. (George Raymond), 1878-1967.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/3098">Pray, George R. (George Raymond), 1878-1967.</persname>
       </origination>
-      <unittitle encodinganalog="245">George R. Pray Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1879/1941">1879-1941</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1879/1899">1879-1899</unitdate></unittitle>
-      <abstract>Jackson, Michigan physician; medical practice records, correspondence, school materials, personal, and photographs</abstract>
+      <unittitle encodinganalog="245">George R. Pray Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1879/1941">1879-1941</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1879/1899">1879-1899</unitdate><abstract>Jackson, Michigan physician; medical practice records, correspondence, school materials, personal, and photographs</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">9424 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -78,20 +78,20 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Physicians--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Physicians--Michigan--Jackson.</subject>
-        <persname source="lcnaf" encodinganalog="600">Pray, George R. (George Raymond), 1878-1967.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85250563">University of Michigan. Dept. of Medicine and Surgery.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Outlines, syllabi, etc.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6036">Physicians--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9828">Physicians--Michigan--Jackson.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3098">Pray, George R. (George Raymond), 1878-1967.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85250563" ref="/agents/corporate_entities/3804">University of Michigan. Dept. of Medicine and Surgery.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Outlines, syllabi, etc.<term type="topical">Students</term><term type="topical">Outlines, syllabi, etc.</term></corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <subject source="lctgm" encodinganalog="650">Medical education.</subject>
-        <subject source="lctgm" encodinganalog="650">Medicine--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3974">Medical education.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3896">Medicine--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -104,24 +104,19 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <unittitle>Financial Diaries <unitdate type="inclusive" normal="1916/1939">1916-1939</unitdate></unittitle>
-          </did>
+            <unittitle>Financial Diaries</unittitle><unitdate type="inclusive" normal="1916/1939">1916-1939</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [75131574529383858549]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1916/1935">1916-1935</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [3579264918033693]">1</container>
+              <unitdate type="inclusive" normal="1916/1935">1916-1935</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">20 volumes</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1341114132990740319]">2</container>
-              <unittitle>Financial Diaries <unitdate type="inclusive" normal="1936/1939">1936-1939</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [0017177251419898356683156]">2</container>
+              <unittitle>Financial Diaries</unittitle><unitdate type="inclusive" normal="1936/1939">1936-1939</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">4 volumes</extent>
               </physdesc>
             </did>
@@ -129,31 +124,31 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1341114132990740319]">2</container>
+            <container type="box" label="Box [0017177251419898356683156]">2</container>
             <unittitle>Phonograph Record List</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1341114132990740319]">2</container>
+            <container type="box" label="Box [0017177251419898356683156]">2</container>
             <unittitle><title render="italic">Pharmacology and Therapeutics</title> by S.A. Matthews</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1341114132990740319]">2</container>
+            <container type="box" label="Box [0017177251419898356683156]">2</container>
             <unittitle><title render="italic">Practical Notes on Urinary Analysis</title> by W.B. Canfield</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1341114132990740319]">2</container>
+            <container type="box" label="Box [0017177251419898356683156]">2</container>
             <unittitle><title render="italic">Outlines of Anatomy</title> by William A. Campbell</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1341114132990740319]">2</container>
+            <container type="box" label="Box [0017177251419898356683156]">2</container>
             <unittitle>
               <title render="italic">Calendar of the University of Michigan for 1896-1897</title>
             </unittitle>
@@ -161,113 +156,98 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1341114132990740319]">2</container>
+            <container type="box" label="Box [0017177251419898356683156]">2</container>
             <unittitle><title render="italic">Palatable Prescribing</title> by B.W. Palmer</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1341114132990740319]">2</container>
+            <container type="box" label="Box [0017177251419898356683156]">2</container>
             <unittitle><title render="italic">Directions for Laboratory Work in Bacteriology</title> by Frederick G. Novy</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1341114132990740319]">2</container>
+            <container type="box" label="Box [0017177251419898356683156]">2</container>
             <unittitle>Lecture notebook-Bacteriology/General Anatomy</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1341114132990740319]">2</container>
-            <unittitle>Chronic cases notebook <unitdate type="inclusive" normal="1941" certainty="approximate">circa 1941</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0017177251419898356683156]">2</container>
+            <unittitle>Chronic cases notebook</unittitle><unitdate type="inclusive" normal="1941" certainty="approximate">circa 1941</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1341114132990740319]">2</container>
+            <container type="box" label="Box [0017177251419898356683156]">2</container>
             <unittitle><title render="italic">A List of the Birds and Mammals Collected by the Steere Expedition to the Philippines</title> by J.B. Steere</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1341114132990740319]">2</container>
+            <container type="box" label="Box [0017177251419898356683156]">2</container>
             <unittitle><title render="italic">The Distribution of Genera and Species of Non-Migratory Land Birds in the Philippines</title> by J.B. Steere</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1341114132990740319]">2</container>
-            <unittitle><title render="italic">Michigan Medical Journal</title>, <unitdate type="inclusive" normal="1902/1903">1902-1903</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0017177251419898356683156]">2</container>
+            <unittitle><title render="italic">Michigan Medical Journal</title></unittitle><unitdate type="inclusive" normal="1902/1903">1902-1903</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1341114132990740319]">2</container>
-            <unittitle>Prescription book <unitdate type="inclusive" normal="1901/1910">1901-1910</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0017177251419898356683156]">2</container>
+            <unittitle>Prescription book</unittitle><unitdate type="inclusive" normal="1901/1910">1901-1910</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1341114132990740319]">2</container>
-            <unittitle>Account books <unitdate type="inclusive" normal="1911/1916">1911-1916</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [0017177251419898356683156]">2</container>
+            <unittitle>Account books</unittitle><unitdate type="inclusive" normal="1911/1916">1911-1916</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1341114132990740319]">2</container>
-            <unittitle>Local newspapers and publications-miscellaneous <unitdate type="inclusive" normal="1892/1899">1892-1899</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0017177251419898356683156]">2</container>
+            <unittitle>Local newspapers and publications-miscellaneous</unittitle><unitdate type="inclusive" normal="1892/1899">1892-1899</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Correspondence <unitdate type="inclusive" normal="1879/1899">1879-1899</unitdate></unittitle>
-        </did>
+          <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1879/1899">1879-1899</unitdate></did>
         <scopecontent>
           <p>The Correspondence series (0.6 linear feet) includes letters from friends and family received by Pray while in Ionia, Ann Arbor, and at Woodard Lake. Most concern school, health, and life back home. These letters span the years 1879-1899.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [50036923941447233849469]">3</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1879/1899">1879-1899</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [086003345445803680294]">3</container>
+            <unitdate type="inclusive" normal="1879/1899">1879-1899</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">19 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [50036923941447233849469]">3</container>
-            <unittitle>Correspondence regarding diary of George W. Pray <unitdate type="inclusive" normal="1924">1924</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [086003345445803680294]">3</container>
+            <unittitle>Correspondence regarding diary of George W. Pray</unittitle><unitdate type="inclusive" normal="1924">1924</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>School Material <unitdate type="inclusive" normal="1880/1900">1880-1900</unitdate></unittitle>
-        </did>
+          <unittitle>School Material</unittitle><unitdate type="inclusive" normal="1880/1900">1880-1900</unitdate></did>
         <scopecontent>
           <p>The School Materials series (0.1 linear foot) spans the years 1880-1900 and consists of miscellaneous materials, including notes, grade reports, account transactions, and graduation announcements, primarily from the University of Michigan, but also from elementary school and Ann Arbor High School.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [50036923941447233849469]">3</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1880/1900">1880-1900</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [086003345445803680294]">3</container>
+            <unitdate type="inclusive" normal="1880/1900">1880-1900</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [50036923941447233849469]">3</container>
-            <unittitle>Medical School material <unitdate type="inclusive" normal="1899" certainty="approximate">circa 1899</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [086003345445803680294]">3</container>
+            <unittitle>Medical School material</unittitle><unitdate type="inclusive" normal="1899" certainty="approximate">circa 1899</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -279,21 +259,18 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [50036923941447233849469]">3</container>
-            <unittitle>Miscellaneous <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [086003345445803680294]">3</container>
+            <unittitle>Miscellaneous</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [50036923941447233849469]">3</container>
-            <unittitle>Invitations <unitdate type="inclusive" normal="1895/1897">1895-1897</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [086003345445803680294]">3</container>
+            <unittitle>Invitations</unittitle><unitdate type="inclusive" normal="1895/1897">1895-1897</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [50036923941447233849469]">3</container>
-            <unittitle>Jackson Conopus Club <unitdate type="inclusive" normal="1921/1922">1921-1922</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [086003345445803680294]">3</container>
+            <unittitle>Jackson Conopus Club</unittitle><unitdate type="inclusive" normal="1921/1922">1921-1922</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -307,13 +284,13 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [50036923941447233849469]">3</container>
+            <container type="box" label="Box [086003345445803680294]">3</container>
             <unittitle>Portraits from Ionia, Owosso, and Ann Arbor</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [50036923941447233849469]">3</container>
+            <container type="box" label="Box [086003345445803680294]">3</container>
             <unittitle>Miscellaneous and Unidentified Photos</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 folders</extent>
@@ -322,7 +299,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [50036923941447233849469]">3</container>
+            <container type="box" label="Box [086003345445803680294]">3</container>
             <unittitle>Taxidermy Photographs</unittitle>
           </did>
         </c02>

@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,10 +43,9 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">St. Alban's Episcopal Church (Highland Park, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/4712">St. Alban's Episcopal Church (Highland Park, Mich.)</corpname>
       </origination>
-      <unittitle encodinganalog="245">St. Alban's Episcopal Church, Highland Park, Mich., Records <unitdate type="inclusive" encodinganalog="245$f" normal="1907/1976">1907-1976</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1940/1976">1940-1976</unitdate></unittitle>
-      <abstract>Church established in 1908 and disbanded in 1976 because of declining membership. Vestry meeting minutes, 1909-1976; registry of church services, 1943-1976; volume containing photographs, clippings, and published materials, 1925-1943 (scattered dates); and registers (1907-1976) of baptisms, burials, marriages, and communicants</abstract>
+      <unittitle encodinganalog="245">St. Alban's Episcopal Church, Highland Park, Mich., Records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1907/1976">1907-1976</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1940/1976">1940-1976</unitdate><abstract>Church established in 1908 and disbanded in 1976 because of declining membership. Vestry meeting minutes, 1909-1976; registry of church services, 1943-1976; volume containing photographs, clippings, and published materials, 1925-1943 (scattered dates); and registers (1907-1976) of baptisms, burials, marriages, and communicants</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">9415 Ba 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="part">
@@ -85,125 +85,90 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Episcopal Church--Michigan--Highland Park.</corpname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83138904">Highland Park (Mich.)--Church history.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">St. Alban's Episcopal Church (Highland Park, Mich.)</corpname>
-        <subject source="lcsh" encodinganalog="650">Registers of births, etc.--Michigan--Highland Park.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/805">Episcopal Church--Michigan--Highland Park.<term type="geographic">Michigan</term><term type="geographic">Highland Park.</term></corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2833">Highland Park (Mich.)--Church history.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4712">St. Alban's Episcopal Church (Highland Park, Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10219">Registers of births, etc.--Michigan--Highland Park.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <subject source="lctgm" encodinganalog="650">Churches--Michigan--Highland Park.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Episcopal Church--Michigan--Highland Park.</corpname>
-        <geogname source="lctgm" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83138904">Highland Park (Mich.)--Churches.</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5376">Churches--Michigan--Highland Park.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/805">Episcopal Church--Michigan--Highland Park.<term type="geographic">Michigan</term><term type="geographic">Highland Park.</term></corpname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/445">Highland Park (Mich.)--Churches.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Vestry Meeting Minutes <unitdate type="inclusive" normal="1909/1976">1909-1976</unitdate></unittitle>
-        </did>
+          <unittitle>Vestry Meeting Minutes</unittitle><unitdate type="inclusive" normal="1909/1976">1909-1976</unitdate></did>
         <scopecontent>
           <p>Vestry Meeting Minutes (1909-1922, 1931-1947, 1963-1976) contains minutes of the vestry, church members who managed the secular affairs of the church.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [95303472439121065]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1909/1913">1909-1913</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [6651904857838013069515]">1</container>
+            <unitdate type="inclusive" normal="1909/1913">1909-1913</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [95303472439121065]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1913/1922">1913-1922</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [6651904857838013069515]">1</container>
+            <unitdate type="inclusive" normal="1913/1922">1913-1922</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [95303472439121065]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1931/1938">1931-1938</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [6651904857838013069515]">1</container>
+            <unitdate type="inclusive" normal="1931/1938">1931-1938</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [95303472439121065]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1939/1947">1939-1947</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [6651904857838013069515]">1</container>
+            <unitdate type="inclusive" normal="1939/1947">1939-1947</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [95303472439121065]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1963/1970">1963-1970</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [6651904857838013069515]">1</container>
+            <unitdate type="inclusive" normal="1963/1970">1963-1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [95303472439121065]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1970/1976">1970-1976</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [6651904857838013069515]">1</container>
+            <unitdate type="inclusive" normal="1970/1976">1970-1976</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Registers of Church Services <unitdate type="inclusive" normal="1943/1976">1943-1976</unitdate></unittitle>
-        </did>
+          <unittitle>Registers of Church Services</unittitle><unitdate type="inclusive" normal="1943/1976">1943-1976</unitdate></did>
         <scopecontent>
           <p>Registry of Church Services (1943-1976) contains the listings of all church services, including what services were performed, location, attendance, number of communions, offerings, celebrant or officiate, preacher, server, and memoranda.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5063134794569880836]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1943/1953">1943-1953</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [9545768465787360468]">2</container>
+            <unitdate type="inclusive" normal="1943/1953">1943-1953</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5063134794569880836]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1953/1959">1953-1959</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [9545768465787360468]">2</container>
+            <unitdate type="inclusive" normal="1953/1959">1953-1959</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5063134794569880836]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1959/1970">1959-1970</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [9545768465787360468]">2</container>
+            <unitdate type="inclusive" normal="1959/1970">1959-1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5063134794569880836]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1970/1974">1970-1974</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [9545768465787360468]">2</container>
+            <unitdate type="inclusive" normal="1970/1974">1970-1974</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5063134794569880836]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1974/1976">1974-1976</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [9545768465787360468]">2</container>
+            <unitdate type="inclusive" normal="1974/1976">1974-1976</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -212,66 +177,57 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [2854548374426289056]">1</container>
-            <unittitle>Comprehensive volume No.1 <unitdate type="inclusive" normal="1907/1958">1907-1958</unitdate></unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [506451412725367594]">1</container>
+            <unittitle>Comprehensive volume No.1</unittitle><unitdate type="inclusive" normal="1907/1958">1907-1958</unitdate></did>
           <odd>
             <p>(contains baptisms, 1907-1916; confirmations, 1908-1915; burials, 1909-1914 and 1956-1958; marriages, 1907-1919)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [58225605447185410558469]">2</container>
-            <unittitle>Comprehensive volume No. 2 <unitdate type="inclusive" normal="1920/1930">1920-1930</unitdate></unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [323418794033852233529]">2</container>
+            <unittitle>Comprehensive volume No. 2</unittitle><unitdate type="inclusive" normal="1920/1930">1920-1930</unitdate></did>
           <odd>
             <p>(includes contains baptisms, 1920-1931; confirmations, 1920-1931; burials, 1920-1930; marriages, 1920-1929)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [35847407691882626]">3</container>
-            <unittitle>Comprehensive volume No. 3 <unitdate type="inclusive" normal="1930/1975">1930-1975</unitdate></unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [59630194917168510]">3</container>
+            <unittitle>Comprehensive volume No. 3</unittitle><unitdate type="inclusive" normal="1930/1975">1930-1975</unitdate></did>
           <odd>
             <p>(contains baptisms, 1930-1967; confirmations, 1932-1975; burials, 1930-1956)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5063134794569880836]">2</container>
-            <unittitle>Register of baptisms <unitdate type="inclusive" normal="1968/1975">1968-1975</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9545768465787360468]">2</container>
+            <unittitle>Register of baptisms</unittitle><unitdate type="inclusive" normal="1968/1975">1968-1975</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5063134794569880836]">2</container>
-            <unittitle>Register of burials <unitdate type="inclusive" normal="1958/1976">1958-1976</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9545768465787360468]">2</container>
+            <unittitle>Register of burials</unittitle><unitdate type="inclusive" normal="1958/1976">1958-1976</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5063134794569880836]">2</container>
-            <unittitle>Register of marriages <unitdate type="inclusive" normal="1927/1938">1927-1938</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9545768465787360468]">2</container>
+            <unittitle>Register of marriages</unittitle><unitdate type="inclusive" normal="1927/1938">1927-1938</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5063134794569880836]">2</container>
-            <unittitle>Register of marriages <unitdate type="inclusive" normal="1938/1945">1938-1945</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9545768465787360468]">2</container>
+            <unittitle>Register of marriages</unittitle><unitdate type="inclusive" normal="1938/1945">1938-1945</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5063134794569880836]">2</container>
-            <unittitle>Register of marriages <unitdate type="inclusive" normal="1945/1949">1945-1949</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9545768465787360468]">2</container>
+            <unittitle>Register of marriages</unittitle><unitdate type="inclusive" normal="1945/1949">1945-1949</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [844769468356815027]">4</container>
-            <unittitle>Register of marriages <unitdate type="inclusive" normal="1949/1974">1949-1974</unitdate></unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [00674794696204250625]">4</container>
+            <unittitle>Register of marriages</unittitle><unitdate type="inclusive" normal="1949/1974">1949-1974</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -280,22 +236,20 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5063134794569880836]">2</container>
-            <unittitle>Scrapbook/ <genreform source="aat" normal="Photographs">photograph</genreform> album <unitdate type="inclusive" normal="1925/1940" certainty="approximate">circa 1925-1940</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9545768465787360468]">2</container>
+            <unittitle>Scrapbook/ <genreform source="aat" normal="Photographs">photograph</genreform> album</unittitle><unitdate type="inclusive" normal="1925/1940" certainty="approximate">circa 1925-1940</unitdate></did>
           <odd>
             <p>(contains scattered photographs of the church building and church groups, and published miscellanea)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5063134794569880836]">2</container>
-            <unittitle>Lists of church members, Sunday school teachers, students, and other church related associates <unitdate type="inclusive" normal="1941/1947">1941-1947</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9545768465787360468]">2</container>
+            <unittitle>Lists of church members, Sunday school teachers, students, and other church related associates</unittitle><unitdate type="inclusive" normal="1941/1947">1941-1947</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5063134794569880836]">2</container>
+            <container type="box" label="Box [9545768465787360468]">2</container>
             <unittitle>Mortgage and property files</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">6 folders</extent>
@@ -304,13 +258,13 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5063134794569880836]">2</container>
+            <container type="box" label="Box [9545768465787360468]">2</container>
             <unittitle>Contents of cornerstone</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5063134794569880836]">2</container>
+            <container type="box" label="Box [9545768465787360468]">2</container>
             <unittitle>
               <genreform>Photographs</genreform>
             </unittitle>

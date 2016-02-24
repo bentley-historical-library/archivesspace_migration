@@ -24,7 +24,8 @@
         <item>Original encoding.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Henkelman, William, 1894-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/1518">Henkelman, William, 1894-</persname>
       </origination>
-      <unittitle encodinganalog="245">This being a suppliment [sic] of the Barracks bladder, of Co. B 339th Inf. ... / drawn by Wm. Henkelman. <unitdate type="inclusive" encodinganalog="260$c" normal="1920/1929" certainty="approximate">circa 1920s</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">M7004.T6S67 1918 H4(2010008)</unitid>
+      <unittitle encodinganalog="245">This being a suppliment [sic] of the Barracks bladder, of Co. B 339th Inf. ... / drawn by Wm. Henkelman.</unittitle><unitdate type="inclusive" encodinganalog="260$c" normal="1920/1929" certainty="approximate">circa 1920s</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">M7004.T6S67 1918 H4(2010008)</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Map created by a soldier in the Allied intervention in Russia, 1918-1919, the "Polar Bear Expedition."</abstract>
       <physdesc altrender="whole">
@@ -80,14 +80,14 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcnaf" encodinganalog="651">Tulgas (Russia)--Maps.</geogname>
-        <geogname source="lcnaf" encodinganalog="651.">Soviet Union--History--Allied intervention, 1918-1920--Maps.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Infantry, 339th. Company B--Maps.</corpname>
-        <corpname encodinganalog="611" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n2008059426">Polar Bear Expedition (1918-1919)--Maps.</corpname>
+        <geogname source="lcnaf" encodinganalog="651" ref="/subjects/766">Tulgas (Russia)--Maps.</geogname>
+        <geogname source="lcnaf" encodinganalog="651." ref="/subjects/763">Soviet Union--History--Allied intervention, 1918-1920--Maps.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1744">United States. Army. Infantry, 339th. Company B--Maps.<term type="genre_form">Maps.</term></corpname>
+        <corpname encodinganalog="611" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n2008059426" ref="/agents/corporate_entities/4142">Polar Bear Expedition (1918-1919)--Maps.<term type="genre_form">Maps.</term></corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Maps.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3136">Maps.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -97,7 +97,7 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [8933914058378957546]">1</container>
+            <container type="folder" label="Folder [99749147806089787479]">1</container>
             <unittitle>Maps</unittitle>
           </did>
         </c02>

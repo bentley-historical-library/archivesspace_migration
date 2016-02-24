@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">St. Paul’s Episcopal Church (Grand Rapids, Mich.).</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/1020">St. Paul’s Episcopal Church (Grand Rapids, Mich.).</corpname>
       </origination>
-      <unittitle encodinganalog="245">St. Paul’s Episcopal Church (Grand Rapids, Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1870/2005">1870-2005</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2008009 Ba 2</unitid>
+      <unittitle encodinganalog="245">St. Paul’s Episcopal Church (Grand Rapids, Mich.) records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1870/2005">1870-2005</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2008009 Ba 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Episcopal church established in 1869 and defunct as of 2005. The record group includes registers of baptisms, marriages, burials, etc.; vestry minute books; historical and background information; and topical files.</abstract>
       <physdesc altrender="part">
@@ -84,14 +84,14 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Episcopal Church--Michigan--Grand Rapids.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79133151">Grand Rapids (Mich.)--Church history.</geogname>
-        <subject source="lcsh" encodinganalog="650">Registers of births, etc.--Michigan--Grand Rapids.</subject>
-        <corpname source="lcnaf" encodinganalog="610">St. Paul's Episcopal Church (Grand Rapids, Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10278">Episcopal Church--Michigan--Grand Rapids.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1905">Grand Rapids (Mich.)--Church history.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10279">Registers of births, etc.--Michigan--Grand Rapids.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1358">St. Paul's Episcopal Church (Grand Rapids, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -101,57 +101,43 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [589914466878491]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1870-08/1883-07">August 1870-July 1883</unitdate>
-            </unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [18455727439474662800177]">1</container>
+            <unitdate type="inclusive" normal="1870-08/1883-07">August 1870-July 1883</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [5578644346614991]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1883-07/1899-12">July 1883-December 1899</unitdate>
-            </unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [3948364769255798691]">2</container>
+            <unitdate type="inclusive" normal="1883-07/1899-12">July 1883-December 1899</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [1841495468935920936]">3</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1900-01/1906-12">January 1900-December 1906</unitdate>
-            </unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [6231920048691812766937]">3</container>
+            <unitdate type="inclusive" normal="1900-01/1906-12">January 1900-December 1906</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [1387604815994]">4</container>
-            <unittitle><unitdate type="inclusive" normal="1907/1942">1907-1942</unitdate>; include baptisms, <unitdate type="inclusive" normal="1907/1940-06">1907-June 1940</unitdate>, confirmations, <unitdate type="inclusive" normal="1907/1940">1907-1940</unitdate>, burials, <unitdate type="inclusive" normal="1907/1942-06">1907-June 1942</unitdate></unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [230108964447579695932]">4</container>
+            <unittitle>1907-1942; include baptisms, 1907-June 1940, confirmations, 1907-1940, burials, 1907-June 1942</unittitle><unitdate type="inclusive" normal="1907/1942">1907-1942</unitdate><unitdate type="inclusive" normal="1907/1940-06">1907-June 1940</unitdate><unitdate type="inclusive" normal="1907/1940">1907-1940</unitdate><unitdate type="inclusive" normal="1907/1942-06">1907-June 1942</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [012447284763364934311]">5</container>
-            <unittitle>Marriages <unitdate type="inclusive" normal="1906-06/1942-05">June 1906-May 1942</unitdate></unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [2205124888425395368513]">5</container>
+            <unittitle>Marriages</unittitle><unitdate type="inclusive" normal="1906-06/1942-05">June 1906-May 1942</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [985775629480189721381676]">1</container>
-            <unittitle><unitdate type="inclusive" normal="1941/1949">1941-1949</unitdate>, <unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate>; include baptisms, <unitdate type="inclusive" normal="1941/1949">1941-1949</unitdate>, confirmations, <unitdate type="inclusive" normal="1941/1947">1941-1947</unitdate>, burials, <unitdate type="inclusive" normal="1941/1948">1941-1948</unitdate>, <unitdate type="inclusive" normal="1956-01/1956-05">January-May 1956</unitdate>, marriages, <unitdate type="inclusive" normal="1943-02/1949-08">February 1943-August 1949</unitdate>, <unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [82179542829485122]">1</container>
+            <unittitle>1941-1949, 1956-1957; include baptisms, 1941-1949, confirmations, 1941-1947, burials, 1941-1948, January-May 1956, marriages, February 1943-August 1949, 1956-1957</unittitle><unitdate type="inclusive" normal="1941/1949">1941-1949</unitdate><unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate><unitdate type="inclusive" normal="1941/1947">1941-1947</unitdate><unitdate type="inclusive" normal="1941/1948">1941-1948</unitdate><unitdate type="inclusive" normal="1956-01/1956-05">January-May 1956</unitdate><unitdate type="inclusive" normal="1943-02/1949-08">February 1943-August 1949</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [72281141892620225368]">6</container>
-            <unittitle><unitdate type="inclusive" normal="1947/1959">1947-1959</unitdate> include baptisms, <unitdate type="inclusive" normal="1948-02/1959-09">February 1948-September 1959</unitdate>, confirmations, <unitdate type="inclusive" normal="1947-05/1959-03">May 1947-March 1959</unitdate>, marriages, <unitdate type="inclusive" normal="1948-04/1953-12">April 1948-December 1953</unitdate>, <unitdate type="inclusive" normal="1958-06/1959-04">June 1958-April 1959</unitdate>, and burials, <unitdate type="inclusive" normal="1948-02/1955-11">February 1948-November 1955</unitdate></unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [57697252437829354769]">6</container>
+            <unittitle>1947-1959 include baptisms, February 1948-September 1959, confirmations, May 1947-March 1959, marriages, April 1948-December 1953, June 1958-April 1959, and burials, February 1948-November 1955</unittitle><unitdate type="inclusive" normal="1947/1959">1947-1959</unitdate><unitdate type="inclusive" normal="1948-02/1959-09">February 1948-September 1959</unitdate><unitdate type="inclusive" normal="1947-05/1959-03">May 1947-March 1959</unitdate><unitdate type="inclusive" normal="1948-04/1953-12">April 1948-December 1953</unitdate><unitdate type="inclusive" normal="1958-06/1959-04">June 1958-April 1959</unitdate><unitdate type="inclusive" normal="1948-02/1955-11">February 1948-November 1955</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [985775629480189721381676]">1</container>
-            <unittitle>Communicants <unitdate type="inclusive" normal="1960/1994">1960-1994</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [82179542829485122]">1</container>
+            <unittitle>Communicants</unittitle><unitdate type="inclusive" normal="1960/1994">1960-1994</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -160,35 +146,23 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [985775629480189721381676]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1923/1959">1923-1959</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [82179542829485122]">1</container>
+            <unitdate type="inclusive" normal="1923/1959">1923-1959</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [985775629480189721381676]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1959/1974">1959-1974</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [82179542829485122]">1</container>
+            <unitdate type="inclusive" normal="1959/1974">1959-1974</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [985775629480189721381676]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1974/1979">1974-1979</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [82179542829485122]">1</container>
+            <unitdate type="inclusive" normal="1974/1979">1974-1979</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [985775629480189721381676]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1979/1989">1979-1989</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [82179542829485122]">1</container>
+            <unitdate type="inclusive" normal="1979/1989">1979-1989</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -201,43 +175,28 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1913976343518402126970]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1934/1941">1934-1941</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [178447216346383829858187]">2</container>
+              <unitdate type="inclusive" normal="1934/1941">1934-1941</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1913976343518402126970]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1941">1941</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [178447216346383829858187]">2</container>
+              <unitdate type="inclusive" normal="1941">1941</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1913976343518402126970]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1954/1959">1954-1959</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [178447216346383829858187]">2</container>
+              <unitdate type="inclusive" normal="1954/1959">1954-1959</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1913976343518402126970]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1960/1965">1960-1965</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [178447216346383829858187]">2</container>
+              <unitdate type="inclusive" normal="1960/1965">1960-1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1913976343518402126970]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1967/1975">1967-1975</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [178447216346383829858187]">2</container>
+              <unitdate type="inclusive" normal="1967/1975">1967-1975</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -246,11 +205,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [75550446686358940]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1952/1997">1952-1997</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [625182449827339484]">3</container>
+              <unitdate type="inclusive" normal="1952/1997">1952-1997</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 volumes</extent>
               </physdesc>
             </did>
@@ -262,19 +218,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [682980949111690765120]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1997-05/2003-12">May 1997-December 2003</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [56286334408945617585]">4</container>
+              <unitdate type="inclusive" normal="1997-05/2003-12">May 1997-December 2003</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [24857374058506013]">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="2004-01/2005-09">January 2004-September 2005</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [540727449619454148259]">5</container>
+              <unitdate type="inclusive" normal="2004-01/2005-09">January 2004-September 2005</unitdate></did>
           </c03>
         </c02>
       </c01>
@@ -284,13 +234,12 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [24857374058506013]">5</container>
-            <unittitle>Annual parish meetings <unitdate type="inclusive" normal="1943/1978" certainty="approximate">circa 1943-1978</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [540727449619454148259]">5</container>
+            <unittitle>Annual parish meetings</unittitle><unitdate type="inclusive" normal="1943/1978" certainty="approximate">circa 1943-1978</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [24857374058506013]">5</container>
+            <container type="box" label="Box [540727449619454148259]">5</container>
             <unittitle>Parochial reports</unittitle>
           </did>
         </c02>
@@ -301,25 +250,25 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [359592042040436589078821]">6</container>
+            <container type="box" label="Box [2690681149791681559748]">6</container>
             <unittitle>Histories and anniversaries</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [359592042040436589078821]">6</container>
+            <container type="box" label="Box [2690681149791681559748]">6</container>
             <unittitle>Background information</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [359592042040436589078821]">6</container>
+            <container type="box" label="Box [2690681149791681559748]">6</container>
             <unittitle>Clippings</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [359592042040436589078821]">6</container>
+            <container type="box" label="Box [2690681149791681559748]">6</container>
             <unittitle>Albums containing photographs and clippings</unittitle>
             <physdesc altrender="part">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
@@ -336,19 +285,19 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [023045394739154909025500]">7</container>
+            <container type="box" label="Box [05979244392896793220]">7</container>
             <unittitle>Alphabetical [A-V] and miscellaneous</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [14449377968404963528614]">8</container>
+            <container type="box" label="Box [481766273745364130328200389]">8</container>
             <unittitle>Church schism and related litigation</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [14449377968404963528614]">8</container>
+            <container type="box" label="Box [481766273745364130328200389]">8</container>
             <unittitle>Church facilities: documents relating to various church buildings</unittitle>
           </did>
         </c02>

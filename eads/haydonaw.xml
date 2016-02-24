@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Haydon, Arthur W., 1844-1918.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/3762">Haydon, Arthur W., 1844-1918.</persname>
       </origination>
-      <unittitle encodinganalog="245">Arthur W. Haydon diaries <unitdate type="inclusive" encodinganalog="245$f" normal="1865/1879">1865-1879</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="1888/1915">1888-1915</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851436 Aa 2</unitid>
+      <unittitle encodinganalog="245">Arthur W. Haydon diaries</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1865/1879">1865-1879</unitdate><unitdate type="inclusive" encodinganalog="245$f" normal="1888/1915">1888-1915</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851436 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Student at the University of Michigan, 1865-1867, later Decatur, Michigan, sheep breeder. Diaries describing student life at the University of Michigan, 1865-1867; later diaries include brief comments on weather and mundane daily events and activities; and photographs.</abstract>
       <physdesc altrender="whole">
@@ -81,28 +81,28 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Agriculture.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/no2008151759">Decatur (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600">Haydon, Arthur W., 1844-1918.</persname>
-        <subject source="lcsh" encodinganalog="650">Horse breeders.</subject>
-        <subject source="lcsh" encodinganalog="650">Sheep.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--1861-1870.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7242">Agriculture.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/no2008151759" ref="/subjects/1999">Decatur (Mich.)</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3762">Haydon, Arthur W., 1844-1918.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8167">Horse breeders.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8168">Sheep.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--1861-1870.<term type="topical">Students</term><term type="temporal">1861-1870.</term></corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <subject source="lctgm" encodinganalog="650">Barns--Michigan--Hamilton (Van Buren County : Township)</subject>
-        <subject source="lctgm" encodinganalog="650">Construction.</subject>
-        <subject source="lctgm" encodinganalog="650">Dwellings--Michigan--Hamilton (Van Buren County : Township)</subject>
-        <geogname source="lctgm" encodinganalog="651">Hamilton (Van Buren County, Mich. : Township)--Barns.</geogname>
-        <geogname source="lctgm" encodinganalog="651">Hamilton (Van Buren County, Mich. : Township)--Dwellings.</geogname>
-        <persname source="lcnaf" encodinganalog="600">Haydon, Arthur W., 1844-1918.</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4491">Barns--Michigan--Hamilton (Van Buren County : Township)</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3759">Construction.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4492">Dwellings--Michigan--Hamilton (Van Buren County : Township)</subject>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/323">Hamilton (Van Buren County, Mich. : Township)--Barns.</geogname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/324">Hamilton (Van Buren County, Mich. : Township)--Dwellings.</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3762">Haydon, Arthur W., 1844-1918.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="gmgpc" encodinganalog="655">Ambrotypes.</genreform>
-        <genreform source="gmgpc" encodinganalog="655">Cyanotypes.</genreform>
-        <genreform source="aat" encodinganalog="655">Diaries.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3467">Ambrotypes.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3472">Cyanotypes.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3145">Diaries.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -114,265 +114,169 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3484062154850833673495]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1864/1867">1864-1867</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [76616245341393747100]">1</container>
+            <unitdate type="inclusive" normal="1864/1867">1864-1867</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3484062154850833673495]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1865/1866">1865-1866</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [76616245341393747100]">1</container>
+            <unitdate type="inclusive" normal="1865/1866">1865-1866</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3484062154850833673495]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1866/1878">1866-1878</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [76616245341393747100]">1</container>
+            <unitdate type="inclusive" normal="1866/1878">1866-1878</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3484062154850833673495]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1879">1879</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [76616245341393747100]">1</container>
+            <unitdate type="inclusive" normal="1879">1879</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3484062154850833673495]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1888">1888</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [76616245341393747100]">1</container>
+            <unitdate type="inclusive" normal="1888">1888</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3484062154850833673495]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1889">1889</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [76616245341393747100]">1</container>
+            <unitdate type="inclusive" normal="1889">1889</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3484062154850833673495]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1890">1890</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [76616245341393747100]">1</container>
+            <unitdate type="inclusive" normal="1890">1890</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3484062154850833673495]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1891">1891</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [76616245341393747100]">1</container>
+            <unitdate type="inclusive" normal="1891">1891</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3484062154850833673495]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1892">1892</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [76616245341393747100]">1</container>
+            <unitdate type="inclusive" normal="1892">1892</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3484062154850833673495]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1893">1893</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [76616245341393747100]">1</container>
+            <unitdate type="inclusive" normal="1893">1893</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3484062154850833673495]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1894">1894</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [76616245341393747100]">1</container>
+            <unitdate type="inclusive" normal="1894">1894</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3484062154850833673495]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1895">1895</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [76616245341393747100]">1</container>
+            <unitdate type="inclusive" normal="1895">1895</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3484062154850833673495]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1896">1896</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [76616245341393747100]">1</container>
+            <unitdate type="inclusive" normal="1896">1896</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3484062154850833673495]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1897">1897</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [76616245341393747100]">1</container>
+            <unitdate type="inclusive" normal="1897">1897</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3484062154850833673495]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1898">1898</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [76616245341393747100]">1</container>
+            <unitdate type="inclusive" normal="1898">1898</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3484062154850833673495]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1899">1899</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [76616245341393747100]">1</container>
+            <unitdate type="inclusive" normal="1899">1899</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3484062154850833673495]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1900">1900</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [76616245341393747100]">1</container>
+            <unitdate type="inclusive" normal="1900">1900</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3484062154850833673495]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1901">1901</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [76616245341393747100]">1</container>
+            <unitdate type="inclusive" normal="1901">1901</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3484062154850833673495]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1902">1902</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [76616245341393747100]">1</container>
+            <unitdate type="inclusive" normal="1902">1902</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3484062154850833673495]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1903">1903</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [76616245341393747100]">1</container>
+            <unitdate type="inclusive" normal="1903">1903</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3484062154850833673495]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1904">1904</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [76616245341393747100]">1</container>
+            <unitdate type="inclusive" normal="1904">1904</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3484062154850833673495]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1905">1905</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [76616245341393747100]">1</container>
+            <unitdate type="inclusive" normal="1905">1905</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3484062154850833673495]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1906">1906</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [76616245341393747100]">1</container>
+            <unitdate type="inclusive" normal="1906">1906</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3484062154850833673495]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1907">1907</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [76616245341393747100]">1</container>
+            <unitdate type="inclusive" normal="1907">1907</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3484062154850833673495]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1908">1908</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [76616245341393747100]">1</container>
+            <unitdate type="inclusive" normal="1908">1908</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3484062154850833673495]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1909">1909</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [76616245341393747100]">1</container>
+            <unitdate type="inclusive" normal="1909">1909</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3484062154850833673495]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1910">1910</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [76616245341393747100]">1</container>
+            <unitdate type="inclusive" normal="1910">1910</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3484062154850833673495]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1911">1911</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [76616245341393747100]">1</container>
+            <unitdate type="inclusive" normal="1911">1911</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [14634284191557481]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1912">1912</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [922811946964828073934]">2</container>
+            <unitdate type="inclusive" normal="1912">1912</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [14634284191557481]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1913">1913</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [922811946964828073934]">2</container>
+            <unitdate type="inclusive" normal="1913">1913</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [14634284191557481]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1914">1914</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [922811946964828073934]">2</container>
+            <unitdate type="inclusive" normal="1914">1914</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [14634284191557481]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1915">1915</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [922811946964828073934]">2</container>
+            <unitdate type="inclusive" normal="1915">1915</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -381,13 +285,13 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [14634284191557481]">2</container>
+            <container type="box" label="Box [922811946964828073934]">2</container>
             <unittitle>Miscellaneous (newspaper clippings, personal letters, graduation invitations, etc.)</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [14634284191557481]">2</container>
+            <container type="box" label="Box [922811946964828073934]">2</container>
             <unittitle><genreform normal="Photographs">Photographs</genreform> of Haydon's house and farm buildings and barn construction</unittitle>
           </did>
           <odd>

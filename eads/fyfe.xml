@@ -37,7 +37,8 @@
         <item>Original encoding in EAD beta, hand tagged by Bill Landis in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -48,10 +49,9 @@
   <archdesc level="collection" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Fyfe family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/282">Fyfe family.</famname>
       </origination>
-      <unittitle encodinganalog="245">Fyfe Family Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1864/1942">1864-1942</unitdate></unittitle>
-      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">851395 Aa/1 UAs</unitid>
+      <unittitle encodinganalog="245">Fyfe Family Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1864/1942">1864-1942</unitdate><unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">851395 Aa/1 UAs</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <abstract>Correspondence and genealogical information concerning the Fyfe family of Lansing, Michigan, including letters from Jennie Fyfe a Civil War nurse and teacher in a Black school in Paducah Kentucky.</abstract>
       <physdesc altrender="whole">
@@ -88,31 +88,31 @@
       </p>
       <controlaccess>
         <head>Subject Terms</head>
-        <persname source="lcnaf" encodinganalog="600">Bertch, Della Miles, 1861-</persname>
-        <famname source="lcnaf" encodinganalog="600">Fyfe family.</famname>
-        <famname source="lcnaf" encodinganalog="600">Gilbert family.</famname>
-        <famname source="lcnaf" encodinganalog="600">Gray family.</famname>
-        <persname source="lcnaf" encodinganalog="100">Miles, Mary A., d. 1904.</persname>
-        <famname source="lcnaf" encodinganalog="600">Miles family.</famname>
-        <famname source="lcnaf" encodinganalog="600">Perry family.</famname>
-        <famname source="lcnaf" encodinganalog="600">Prescott family.</famname>
-        <famname source="lcnaf" encodinganalog="600">Strong family.</famname>
-        <subject source="lcsh" encodinganalog="650">Afro-Americans.</subject>
-        <subject source="lcsh" encodinganalog="650">Nurses--Kentucky.</subject>
-        <subject source="lcsh" encodinganalog="650">Women teachers--Kentucky.</subject>
-        <subject source="lcsh" encodinganalog="650">Teajchers--Kentucky.</subject>
-        <geogname source="lcsh" encodinganalog="651">Kentucky.Lansing (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Paducah (Ky.)</geogname>
-        <subject source="lcsh" encodinganalog="650">United States--History--Civil War, 1861-1865.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1280">Bertch, Della Miles, 1861-</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/282">Fyfe family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/186">Gilbert family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/278">Gray family.</famname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/8353">Miles, Mary A., d. 1904.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/305">Miles family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/173">Perry family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/256">Prescott family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/193">Strong family.</famname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6004">Afro-Americans.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6671">Nurses--Kentucky.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6675">Women teachers--Kentucky.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7888">Teajchers--Kentucky.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1884">Kentucky.Lansing (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1885">Paducah (Ky.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7889">United States--History--Civil War, 1861-1865.</subject>
       </controlaccess>
       <controlaccess>
         <head>Form and Genre Terms</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
       <controlaccess>
         <head>Contributors</head>
-        <persname source="lcnaf" encodinganalog="700">Fyfe, Jennie.</persname>
-        <persname source="lcnaf" encodinganalog="700">Mott, Ellen.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/5067">Fyfe, Jennie.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/7417">Mott, Ellen.</persname>
       </controlaccess>
     </controlaccess>
     <dsc>
@@ -122,7 +122,7 @@
         </did>
         <c02 level="item">
           <did>
-            <container label="Folder [9182459643688596678777]" type="folder">1</container>
+            <container label="Folder [9110104141938917937]" type="folder">1</container>
             <unittitle>Provenancial information</unittitle>
           </did>
           <odd>
@@ -131,15 +131,13 @@
         </c02>
         <c02 level="file">
           <did>
-            <container label="Folder [9182459643688596678777]" type="folder">1</container>
-            <unittitle><genreform>Correspondence</genreform> from <persname>Jennie Fyfe</persname> to her sister, <persname>Ellen Mott</persname>, and to her father and family in general, <unitdate type="inclusive" normal="1864-03-31/1866-06-17">March 31, 1864-June 17, 1866</unitdate></unittitle>
-          </did>
+            <container label="Folder [9110104141938917937]" type="folder">1</container>
+            <unittitle><genreform>Correspondence</genreform> from <persname>Jennie Fyfe</persname> to her sister, <persname>Ellen Mott</persname>, and to her father and family in general</unittitle><unitdate type="inclusive" normal="1864-03-31/1866-06-17">March 31, 1864-June 17, 1866</unitdate></did>
         </c02>
         <c02 level="item">
           <did>
-            <container label="Folder [9182459643688596678777]" type="folder">1</container>
-            <unittitle>Letter to family <unitdate type="inclusive" normal="1864-03-31">March 31, 1864</unitdate></unittitle>
-            <dao href="fyfe1">
+            <container label="Folder [9110104141938917937]" type="folder">1</container>
+            <unittitle>Letter to family</unittitle><unitdate type="inclusive" normal="1864-03-31">March 31, 1864</unitdate><dao href="fyfe1" ref="/repositories/2/digital_objects/8990">
               <daodesc>
                 <p>[view letter]</p>
               </daodesc>
@@ -151,19 +149,17 @@
         </c02>
         <c02 level="file">
           <did>
-            <container label="Folder [4762542181950604]" type="folder">2</container>
-            <unittitle>Papers concerning the genealogy of the families of <persname>John Fyfe</persname>, <persname>John Strong</persname>, <persname>John Perry</persname>, <persname>Robert Gray</persname>, <persname>John Gilbert</persname>, <persname>John Miles</persname>, and <persname>James Prescott</persname>, <unitdate type="inclusive" normal="1899/1923">1899-1923</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container label="Folder [08186203481105122746]" type="folder">2</container>
+            <unittitle>Papers concerning the genealogy of the families of <persname>John Fyfe</persname>, <persname>John Strong</persname>, <persname>John Perry</persname>, <persname>Robert Gray</persname>, <persname>John Gilbert</persname>, <persname>John Miles</persname>, and <persname>James Prescott</persname></unittitle><unitdate type="inclusive" normal="1899/1923">1899-1923</unitdate><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Folder [2387170448898675]" type="folder">3</container>
-            <unittitle>Genealogical materials largely concerning <persname>Della M. Bertch</persname>, <unitdate type="inclusive" normal="1904/1942">1904-1942</unitdate></unittitle>
-          </did>
+            <container label="Folder [64120542688128803325]" type="folder">3</container>
+            <unittitle>Genealogical materials largely concerning <persname>Della M. Bertch</persname></unittitle><unitdate type="inclusive" normal="1904/1942">1904-1942</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Folder [2387170448898675]" type="folder">3</container>
+            <container label="Folder [64120542688128803325]" type="folder">3</container>
             <unittitle>
               <genreform normal="Photographs">Photographs</genreform>
             </unittitle>

@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Haughey Family</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/289">Haughey Family</famname>
       </origination>
-      <unittitle encodinganalog="245">Haughey Family Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1917/1955">1917-1955</unitdate></unittitle>
-      <abstract>Wilfrid H. Haughey family of Battle Creek, Michigan; letters of Haughey to his wife and children written while he was serving as an army surgeon in France during World War I; letters of members of the family attending University of Michigan; extensive correspondence of the Haughey children written from throughout the United States and the world during World War II.</abstract>
+      <unittitle encodinganalog="245">Haughey Family Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1917/1955">1917-1955</unitdate><abstract>Wilfrid H. Haughey family of Battle Creek, Michigan; letters of Haughey to his wife and children written while he was serving as an army surgeon in France during World War I; letters of members of the family attending University of Michigan; extensive correspondence of the Haughey children written from throughout the United States and the world during World War II.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">851444 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -79,18 +79,18 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651">Battle Creek (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Physicians--Michigan--Battle Creek.</subject>
-        <subject source="lcsh" encodinganalog="650">Shipping.</subject>
-        <subject source="lcsh" encodinganalog="650">Ships.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Alumni and alumnae.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Correspondence.</corpname>
-        <subject source="lcsh" encodinganalog="650">World War, 1914-1918--Medical care--France.</subject>
-        <subject source="lcsh" encodinganalog="650">World War, 1939-1945.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/930">Battle Creek (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8148">Physicians--Michigan--Battle Creek.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8149">Shipping.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8150">Ships.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Alumni and alumnae.<term type="topical">Alumni and alumnae.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Correspondence.<term type="topical">Students</term><term type="genre_form">Correspondence.</term></corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8151">World War, 1914-1918--Medical care--France.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5684">World War, 1939-1945.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -107,18 +107,16 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0471325419607191641]">1</container>
-              <unittitle><unitdate type="inclusive" normal="1917/1919">1917-1919</unitdate>, <unitdate type="inclusive" normal="1928/1943">1928-1943</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [0298402280042953]">1</container>
+              <unitdate type="inclusive" normal="1917/1919">1917-1919</unitdate><unitdate type="inclusive" normal="1928/1943">1928-1943</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">43 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94305745389505015387]">2</container>
-              <unittitle><unitdate type="inclusive" normal="1944/1948">1944-1948</unitdate>, <unitdate>undated</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [5397748384211861325719610916]">2</container>
+              <unitdate type="inclusive" normal="1944/1948">1944-1948</unitdate><unitdate>undated</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">15 folders</extent>
               </physdesc>
             </did>
@@ -133,24 +131,21 @@
           </odd>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94305745389505015387]">2</container>
-              <unittitle>Clifton Francis Haughey letters entitled "The Orient; A trip to the Orient and the building of the Schooner Orient" <unitdate type="inclusive" normal="1937/1938">1937-1938</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [5397748384211861325719610916]">2</container>
+              <unittitle>Clifton Francis Haughey letters entitled "The Orient; A trip to the Orient and the building of the Schooner Orient"</unittitle><unitdate type="inclusive" normal="1937/1938">1937-1938</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [94305745389505015387]">2</container>
-              <unittitle>Family letters <unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [5397748384211861325719610916]">2</container>
+              <unittitle>Family letters</unittitle><unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 volumes</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1360199450917341145919]">3</container>
-              <unittitle>Family letters <unitdate type="inclusive" normal="1943/1955-03-28">1943-March 28, 1955</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [80393317439469805289211]">3</container>
+              <unittitle>Family letters</unittitle><unitdate type="inclusive" normal="1943/1955-03-28">1943-March 28, 1955</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">5 volumes</extent>
               </physdesc>
             </did>
@@ -166,7 +161,7 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1360199450917341145919]">3</container>
+            <container type="box" label="Box [80393317439469805289211]">3</container>
             <unittitle>
               <genreform source="aat" normal="Photographs">Photographs</genreform>
             </unittitle>
@@ -180,7 +175,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1360199450917341145919]">3</container>
+            <container type="box" label="Box [80393317439469805289211]">3</container>
             <unittitle>World War I memorabilia</unittitle>
           </did>
         </c02>

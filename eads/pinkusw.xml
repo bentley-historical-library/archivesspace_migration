@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2010 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Pinkus, Walter</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/4142">Pinkus, Walter</persname>
       </origination>
-      <unittitle encodinganalog="245">Walter Pinkus Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1960/2011">1960-2011</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2014146 Aa 2</unitid>
+      <unittitle encodinganalog="245">Walter Pinkus Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1960/2011">1960-2011</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2014146 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Walter Pinkus was an Engineer in Research for the University of Michigan's Atmospheric, Oceanic, and Space Sciences Department's Space Physics Research Laboratory from 1966 to 1996. At the lab he conducted design work on instruments built for various National Aeronautics and Space Administration (NASA) missions. The collection contains correspondence, schematics, project books, and research reports relating to the projects Pinkus worked on. Included in the collection are papers related to the San Marco program, Galileo spacecraft, and the High Resolution Doppler Imager (HRDI).</abstract>
       <physdesc altrender="part">
@@ -89,17 +89,17 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Engineering--Research.</subject>
-        <subject source="lcsh" encodinganalog="650">Engineers--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Space sciences.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr92020254">University of Michigan. Space Physics Research Laboratory.</corpname>
-        <subject source="lcsh" encodinganalog="650" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Staff.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Research.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7291">Engineering--Research.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6404">Engineers--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7263">Space sciences.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr92020254" ref="/agents/corporate_entities/3506">University of Michigan. Space Physics Research Laboratory.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9767">University of Michigan--Staff.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Research.<term type="topical">Research.</term></corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Diagrams.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3350">Diagrams.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -112,11 +112,8 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2358151341966699214317]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1960/1992">1960-1992</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [956114998849302201170]">1</container>
+            <unitdate type="inclusive" normal="1960/1992">1960-1992</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">17 folders</extent>
             </physdesc>
           </did>
@@ -124,13 +121,10 @@
         <c02 level="file">
           <did>
             <physloc>Online</physloc>
-            <unittitle>
-              <unitdate type="inclusive" normal="1986/2011">1986-2011</unitdate>
-            </unittitle>
-            <physdesc>
+            <unitdate type="inclusive" normal="1986/2011">1986-2011</unitdate><physdesc>
               <physfacet>.ZIP file</physfacet>
             </physdesc>
-            <dao href="http://hdl.handle.net/2027.42/109200" show="new" actuate="onRequest">
+            <dao href="http://hdl.handle.net/2027.42/109200" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/14968">
               <daodesc>
                 <p>[view item]</p>
               </daodesc>
@@ -140,94 +134,74 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Research Materials <unitdate type="inclusive" normal="1969/2011">1969-2011</unitdate></unittitle>
-        </did>
+          <unittitle>Research Materials</unittitle><unitdate type="inclusive" normal="1969/2011">1969-2011</unitdate></did>
         <scopecontent>
           <p>The Research Materials series (1969-2011, 6.5 linear feet), contains materials related to the projects Pinkus worked on at the University of Michigan. The series is divided into four subseries that reflect upon Pinkus's personal organization of his records: Atmosphere Explorer, Dynamics Explorer, and San Marco; Galileo Probe and MUADEE; HRDI Balloon Flight Instrument; and TIDI, TOMS, Balloon Rotator, Antarctic Magnetometer, and MFPI.</p>
         </scopecontent>
         <c02 level="subseries">
           <did>
-            <unittitle>Atmosphere Explorer; Dynamics Explorer; and San Marco <unitdate type="inclusive" normal="1969/1986">1969-1986</unitdate></unittitle>
-          </did>
+            <unittitle>Atmosphere Explorer; Dynamics Explorer; and San Marco</unittitle><unitdate type="inclusive" normal="1969/1986">1969-1986</unitdate></did>
           <scopecontent>
             <p>The Atmosphere Explorer, Dynamics Explorer, and San Marco (1969-1986, 2.7 linear feet), subseries contains materials related to the Atmosphere Explorer (AE), Dynamics Explorer (DE), and San Marco projects. The Atmosphere Explorer and Dynamics Explorer programs studied the photochemistry and dynamics of the Earth's upper atmosphere, including the ionosphere. The series contains schematics, drawings, test reports, and research notes on various instruments and instrument components that went into the explorer programs. There is also similar material relating to the San Marco Programme. San Marco was an Italian satellite launch program conducted from the early 1960s into the late 1980s.</p>
           </scopecontent>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2358151341966699214317]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1969/1986">1969-1986</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [956114998849302201170]">1</container>
+              <unitdate type="inclusive" normal="1969/1986">1969-1986</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">12 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7861194456797940]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1966/1979">1966-1979</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [3288043444932689161]">2</container>
+              <unitdate type="inclusive" normal="1966/1979">1966-1979</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">14 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [009342834799215648669]">7</container>
-              <unittitle>San Marco WATE Booklet <unitdate type="inclusive" normal="1977/1978">1977-1978</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [5432016170246953110137]">7</container>
+              <unittitle>San Marco WATE Booklet</unittitle><unitdate type="inclusive" normal="1977/1978">1977-1978</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [009342834799215648669]">7</container>
-              <unittitle>OGO-F Thorad/Acena 11 Operations Summary Booklet <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [5432016170246953110137]">7</container>
+              <unittitle>OGO-F Thorad/Acena 11 Operations Summary Booklet</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Oversize Box [77935102403592926026377]">1</container>
-              <unittitle>OGO F-04 Prototype Units Master Print Booklet <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-            </did>
+              <container type="box" label="Oversize Box [5941019045391993413857]">1</container>
+              <unittitle>OGO F-04 Prototype Units Master Print Booklet</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Oversize Box [77935102403592926026377]">1</container>
-              <unittitle>OGO F-04 Neutral Mass Spectrometer Booklet <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
-            </did>
+              <container type="box" label="Oversize Box [5941019045391993413857]">1</container>
+              <unittitle>OGO F-04 Neutral Mass Spectrometer Booklet</unittitle><unitdate type="inclusive" normal="1978">1978</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Oversize Box [77935102403592926026377]">1</container>
-              <unittitle>Design Verification Unit Signal Processor Pioneer Venus GSFC/OETP "5963-01" As Modified for Dynamics Explorer-B "LANG" Booklet <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
-            </did>
+              <container type="box" label="Oversize Box [5941019045391993413857]">1</container>
+              <unittitle>Design Verification Unit Signal Processor Pioneer Venus GSFC/OETP "5963-01" As Modified for Dynamics Explorer-B "LANG" Booklet</unittitle><unitdate type="inclusive" normal="1981">1981</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Oversize Box [77935102403592926026377]">1</container>
-              <unittitle>Design Verification Unit Signal Processor Pioneer Venus GSFC/OETP "5963-01" Reference Only Copy Booklet <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Oversize Box [5941019045391993413857]">1</container>
+              <unittitle>Design Verification Unit Signal Processor Pioneer Venus GSFC/OETP "5963-01" Reference Only Copy Booklet</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [667766944140973129052]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1976/1980">1976-1980</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [2179220840287214598]">3</container>
+              <unitdate type="inclusive" normal="1976/1980">1976-1980</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">18 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1225697742323245842]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [054930314151836556528]">4</container>
+              <unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">5 folders</extent>
               </physdesc>
             </did>
@@ -235,49 +209,40 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Galileo Probe and MUADEE <unitdate type="inclusive" normal="1974/1995">1974-1995</unitdate></unittitle>
-          </did>
+            <unittitle>Galileo Probe and MUADEE</unittitle><unitdate type="inclusive" normal="1974/1995">1974-1995</unitdate></did>
           <scopecontent>
             <p>The Galileo Probe and MUADEE (1974-1995,1 linear foot), subseries contains information regarding the Galileo Mission and the Mars Upper Atmosphere Dynamics, Energetics, and Evaluation (MUADEE) discovery mission. The Galileo mission, alternately called the Jupiter Probe and the Galileo Probe in Pinkus's notes, was the first mission to measure Jupiter's atmosphere and conduct long-term observations of the Jovian system from orbit. Included are correspondence, meeting notes, schematics, and research notes regarding the building of instruments for the probe. The Mars Upper Atmosphere Dynamics Energetics, and Evaluation discovery mission, abbreviated MUADEE in Pinkus's notes, was a low cost mission to investigate the upper atmosphere of Mars in order to better understand how Mars has evolved over geological time. The series contains notes, cost proposals, and schematics relating to the development of MUADEE.</p>
           </scopecontent>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1225697742323245842]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1978/1995">1978-1995</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [054930314151836556528]">4</container>
+              <unitdate type="inclusive" normal="1978/1995">1978-1995</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">14 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [763965145909377931095]">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1979/1982">1979-1982</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [18255074399863624996]">5</container>
+              <unitdate type="inclusive" normal="1979/1982">1979-1982</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">5 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [009342834799215648669]">7</container>
-              <unittitle>MARS Data System Booklet <unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [5432016170246953110137]">7</container>
+              <unittitle>MARS Data System Booklet</unittitle><unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Oversize Box [77935102403592926026377]">1</container>
-              <unittitle>Galileo Schematics Booklet <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
-            </did>
+              <container type="box" label="Oversize Box [5941019045391993413857]">1</container>
+              <unittitle>Galileo Schematics Booklet</unittitle><unitdate type="inclusive" normal="1979">1979</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
           <did>
-            <container type="box" label="Box [763965145909377931095]">5</container>
+            <container type="box" label="Box [18255074399863624996]">5</container>
             <unittitle>HRDI Balloon Flight Instrument</unittitle>
           </did>
           <scopecontent>
@@ -285,55 +250,44 @@
           </scopecontent>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [763965145909377931095]">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1972/1993">1972-1993</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [18255074399863624996]">5</container>
+              <unitdate type="inclusive" normal="1972/1993">1972-1993</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">21 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [459000392452149041126942]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1978/1985">1978-1985</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [95074846495805064600]">6</container>
+              <unitdate type="inclusive" normal="1978/1985">1978-1985</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">6 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [009342834799215648669]">7</container>
-              <unittitle>GAS Surface EXPT Control Logic Design Booklet <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [5432016170246953110137]">7</container>
+              <unittitle>GAS Surface EXPT Control Logic Design Booklet</unittitle><unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [009342834799215648669]">7</container>
-              <unittitle>UARS Project Data Book Booklet <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [5432016170246953110137]">7</container>
+              <unittitle>UARS Project Data Book Booklet</unittitle><unitdate type="inclusive" normal="1987">1987</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [009342834799215648669]">7</container>
-              <unittitle>Critical Design Review HRDI and UARS Booklet <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [5432016170246953110137]">7</container>
+              <unittitle>Critical Design Review HRDI and UARS Booklet</unittitle><unitdate type="inclusive" normal="1986">1986</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [009342834799215648669]">7</container>
-              <unittitle>Preliminary Design Review HRDI and UARS Booklet <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [5432016170246953110137]">7</container>
+              <unittitle>Preliminary Design Review HRDI and UARS Booklet</unittitle><unitdate type="inclusive" normal="1985">1985</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [009342834799215648669]">7</container>
-              <unittitle>HRDI FLT DWG Book <unitdate type="inclusive" normal="1986/1990">1986-1990</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [5432016170246953110137]">7</container>
+              <unittitle>HRDI FLT DWG Book</unittitle><unitdate type="inclusive" normal="1986/1990">1986-1990</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -345,22 +299,16 @@
           </scopecontent>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [009342834799215648669]">7</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1987/1995">1987-1995</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [5432016170246953110137]">7</container>
+              <unitdate type="inclusive" normal="1987/1995">1987-1995</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">22 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [009342834799215648669]">7</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1982/1996">1982-1996</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [5432016170246953110137]">7</container>
+              <unitdate type="inclusive" normal="1982/1996">1982-1996</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>

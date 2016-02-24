@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Dunn, Gerald R.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/5180">Dunn, Gerald R.</persname>
       </origination>
-      <unittitle encodinganalog="245">Gerald R. Dunn papers <unitdate type="inclusive" encodinganalog="245$f" normal="1969/1984">1969-1984</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">861133 Aa 2</unitid>
+      <unittitle encodinganalog="245">Gerald R. Dunn papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1969/1984">1969-1984</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">861133 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Regent of the University of Michigan. Topical files relating to his activities as a regent and the issues and problems affecting the University of Michigan.</abstract>
       <physdesc altrender="whole">
@@ -78,16 +78,16 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Affirmative action programs--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Black Action Movement (University of Michigan)</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no89013050">Fleming, R. W. (Robben Wright), 1916-2010.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n84041141">Shapiro, Harold T., 1935-</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998">University of Michigan. Board of Regents.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79069136">University of Michigan--Dearborn.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79128281">University of Michigan--Flint.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Research.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Social life and customs--1961-1970.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Social life and customs--1971-1980.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5658">Affirmative action programs--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4081">Black Action Movement (University of Michigan)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no89013050" ref="/agents/people/1273">Fleming, R. W. (Robben Wright), 1916-2010.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n84041141" ref="/agents/people/378">Shapiro, Harold T., 1935-</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998" ref="/agents/corporate_entities/858">University of Michigan. Board of Regents.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79069136" ref="/agents/corporate_entities/1346">University of Michigan--Dearborn.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79128281" ref="/agents/corporate_entities/1346">University of Michigan--Flint.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Research.<term type="topical">Research.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Social life and customs--1961-1970.<term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1961-1970.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Social life and customs--1971-1980.<term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1971-1980.</term></corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -97,521 +97,511 @@
         </did>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1969/1976">1969-1976</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1969/1976">1969-1976</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [9630742419043960084]">1</container>
+              <container type="box" label="Box [611167489752939853054]">1</container>
               <unittitle>Affirmative action (BAM strike)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [9630742419043960084]">1</container>
+              <container type="box" label="Box [611167489752939853054]">1</container>
               <unittitle>Athletics</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [9630742419043960084]">1</container>
+              <container type="box" label="Box [611167489752939853054]">1</container>
               <unittitle>Butterfield Theatres</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [9630742419043960084]">1</container>
+              <container type="box" label="Box [611167489752939853054]">1</container>
               <unittitle>Classified Research</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [9630742419043960084]">1</container>
+              <container type="box" label="Box [611167489752939853054]">1</container>
               <unittitle>Dearborn (U-M)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [9630742419043960084]">1</container>
+              <container type="box" label="Box [611167489752939853054]">1</container>
               <unittitle>Disabled students</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [9630742419043960084]">1</container>
+              <container type="box" label="Box [611167489752939853054]">1</container>
               <unittitle>DNA Research</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [9630742419043960084]">1</container>
+              <container type="box" label="Box [611167489752939853054]">1</container>
               <unittitle>Faculty service to outside parties</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [9630742419043960084]">1</container>
+              <container type="box" label="Box [611167489752939853054]">1</container>
               <unittitle>Finances</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [9630742419043960084]">1</container>
+              <container type="box" label="Box [611167489752939853054]">1</container>
               <unittitle>Financial assistance</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [9630742419043960084]">1</container>
+              <container type="box" label="Box [611167489752939853054]">1</container>
               <unittitle>Fleming, R.W.</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [9630742419043960084]">1</container>
+              <container type="box" label="Box [611167489752939853054]">1</container>
               <unittitle>Flint (U-M)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [942908203646151780252]">2</container>
+              <container type="box" label="Box [6156926447874357233621]">2</container>
               <unittitle>Flint (U-M)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [942908203646151780252]">2</container>
+              <container type="box" label="Box [6156926447874357233621]">2</container>
               <unittitle>Gerontology</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [942908203646151780252]">2</container>
+              <container type="box" label="Box [6156926447874357233621]">2</container>
               <unittitle>Honorary degrees</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [942908203646151780252]">2</container>
+              <container type="box" label="Box [6156926447874357233621]">2</container>
               <unittitle>Housing</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [942908203646151780252]">2</container>
+              <container type="box" label="Box [6156926447874357233621]">2</container>
               <unittitle>Inquiries</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [942908203646151780252]">2</container>
+              <container type="box" label="Box [6156926447874357233621]">2</container>
               <unittitle>Interlochen</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [942908203646151780252]">2</container>
+              <container type="box" label="Box [6156926447874357233621]">2</container>
               <unittitle>Invitations</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [942908203646151780252]">2</container>
+              <container type="box" label="Box [6156926447874357233621]">2</container>
               <unittitle>Labor</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [942908203646151780252]">2</container>
+              <container type="box" label="Box [6156926447874357233621]">2</container>
               <unittitle>Medical Center</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [942908203646151780252]">2</container>
+              <container type="box" label="Box [6156926447874357233621]">2</container>
               <unittitle>Miscellaneous</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [648384248489046391568387]">3</container>
+              <container type="box" label="Box [9048195411636808857]">3</container>
               <unittitle>Miscellaneous</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [648384248489046391568387]">3</container>
+              <container type="box" label="Box [9048195411636808857]">3</container>
               <unittitle>Optometry</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [648384248489046391568387]">3</container>
+              <container type="box" label="Box [9048195411636808857]">3</container>
               <unittitle>PIRGIM</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [648384248489046391568387]">3</container>
+              <container type="box" label="Box [9048195411636808857]">3</container>
               <unittitle>Regents' retreats</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [648384248489046391568387]">3</container>
+              <container type="box" label="Box [9048195411636808857]">3</container>
               <unittitle>ROTC</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [648384248489046391568387]">3</container>
+              <container type="box" label="Box [9048195411636808857]">3</container>
               <unittitle>Salary (disclosure issue)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [648384248489046391568387]">3</container>
+              <container type="box" label="Box [9048195411636808857]">3</container>
               <unittitle>Student unrest</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [648384248489046391568387]">3</container>
+              <container type="box" label="Box [9048195411636808857]">3</container>
               <unittitle>Sugar Island</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [648384248489046391568387]">3</container>
+              <container type="box" label="Box [9048195411636808857]">3</container>
               <unittitle>Tuition</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [648384248489046391568387]">3</container>
+              <container type="box" label="Box [9048195411636808857]">3</container>
               <unittitle>Veterans</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [648384248489046391568387]">3</container>
+              <container type="box" label="Box [9048195411636808857]">3</container>
               <unittitle>Willow Run</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1977/1984">1977-1984</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1977/1984">1977-1984</unitdate></did>
           <odd>
             <p>(include some 1969-1976)</p>
           </odd>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [648384248489046391568387]">3</container>
+              <container type="box" label="Box [9048195411636808857]">3</container>
               <unittitle>Academic Affairs</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [648384248489046391568387]">3</container>
+              <container type="box" label="Box [9048195411636808857]">3</container>
               <unittitle>Affirmative Action</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [648384248489046391568387]">3</container>
+              <container type="box" label="Box [9048195411636808857]">3</container>
               <unittitle>AGB</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [648384248489046391568387]">3</container>
+              <container type="box" label="Box [9048195411636808857]">3</container>
               <unittitle>Alumni</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [648384248489046391568387]">3</container>
+              <container type="box" label="Box [9048195411636808857]">3</container>
               <unittitle>Athletics</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [648384248489046391568387]">3</container>
+              <container type="box" label="Box [9048195411636808857]">3</container>
               <unittitle>Budget Cutbacks</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [648384248489046391568387]">3</container>
+              <container type="box" label="Box [9048195411636808857]">3</container>
               <unittitle>Butterfield</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [648384248489046391568387]">3</container>
+              <container type="box" label="Box [9048195411636808857]">3</container>
               <unittitle>Capital Campaign</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [648384248489046391568387]">3</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1979/1984">1979-1984</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9048195411636808857]">3</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1979/1984">1979-1984</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [69461404182950006889]">4</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1979/1984">1979-1984</unitdate> (cont.)</unittitle>
-            </did>
+              <container type="box" label="Box [3259700456987297139555]">4</container>
+              <unittitle>Correspondence (cont.)</unittitle><unitdate type="inclusive" normal="1979/1984">1979-1984</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [69461404182950006889]">4</container>
+              <container type="box" label="Box [3259700456987297139555]">4</container>
               <unittitle>Classified Research</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [69461404182950006889]">4</container>
+              <container type="box" label="Box [3259700456987297139555]">4</container>
               <unittitle>U of M-Dearborn</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [69461404182950006889]">4</container>
+              <container type="box" label="Box [3259700456987297139555]">4</container>
               <unittitle>Development Steering Committee</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [69461404182950006889]">4</container>
+              <container type="box" label="Box [3259700456987297139555]">4</container>
               <unittitle>Disabled Students</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [69461404182950006889]">4</container>
+              <container type="box" label="Box [3259700456987297139555]">4</container>
               <unittitle>Education (School of Education)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [69461404182950006889]">4</container>
+              <container type="box" label="Box [3259700456987297139555]">4</container>
               <unittitle>Finances</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [69461404182950006889]">4</container>
+              <container type="box" label="Box [3259700456987297139555]">4</container>
               <unittitle>Financial Assistance</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [69461404182950006889]">4</container>
+              <container type="box" label="Box [3259700456987297139555]">4</container>
               <unittitle>R. Fleming-(President)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [69461404182950006889]">4</container>
+              <container type="box" label="Box [3259700456987297139555]">4</container>
               <unittitle>Flint-U of M</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [69461404182950006889]">4</container>
+              <container type="box" label="Box [3259700456987297139555]">4</container>
               <unittitle>High Technology Parks</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [69461404182950006889]">4</container>
+              <container type="box" label="Box [3259700456987297139555]">4</container>
               <unittitle>HMO's</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [69461404182950006889]">4</container>
+              <container type="box" label="Box [3259700456987297139555]">4</container>
               <unittitle>Honorary Degrees</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [69461404182950006889]">4</container>
+              <container type="box" label="Box [3259700456987297139555]">4</container>
               <unittitle>Hospital (U of M)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [675835448484739072]">5</container>
+              <container type="box" label="Box [736430748488955003175]">5</container>
               <unittitle>Hospital (U of M) (cont.)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [675835448484739072]">5</container>
+              <container type="box" label="Box [736430748488955003175]">5</container>
               <unittitle>Housing</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [675835448484739072]">5</container>
+              <container type="box" label="Box [736430748488955003175]">5</container>
               <unittitle>Inquiries</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [675835448484739072]">5</container>
+              <container type="box" label="Box [736430748488955003175]">5</container>
               <unittitle>Investments</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [675835448484739072]">5</container>
+              <container type="box" label="Box [736430748488955003175]">5</container>
               <unittitle>Labor (unions, GEO)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [675835448484739072]">5</container>
+              <container type="box" label="Box [736430748488955003175]">5</container>
               <unittitle>Legal Matters (lawsuits)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [675835448484739072]">5</container>
+              <container type="box" label="Box [736430748488955003175]">5</container>
               <unittitle>Medical School</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [675835448484739072]">5</container>
+              <container type="box" label="Box [736430748488955003175]">5</container>
               <unittitle>Miscellaneous</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [675835448484739072]">5</container>
-              <unittitle>Miscellaneous Correspondence <unitdate type="inclusive" normal="1977-03/1977-11">March-November 1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [736430748488955003175]">5</container>
+              <unittitle>Miscellaneous Correspondence</unittitle><unitdate type="inclusive" normal="1977-03/1977-11">March-November 1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [675835448484739072]">5</container>
+              <container type="box" label="Box [736430748488955003175]">5</container>
               <unittitle>Pirgim</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [675835448484739072]">5</container>
+              <container type="box" label="Box [736430748488955003175]">5</container>
               <unittitle>Preferential Bidding</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [76104454827925188534]">6</container>
+              <container type="box" label="Box [85938985483912611252]">6</container>
               <unittitle>Recommendation Letters</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [76104454827925188534]">6</container>
+              <container type="box" label="Box [85938985483912611252]">6</container>
               <unittitle>Research and Reports</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [76104454827925188534]">6</container>
+              <container type="box" label="Box [85938985483912611252]">6</container>
               <unittitle>Review of Schools</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [76104454827925188534]">6</container>
+              <container type="box" label="Box [85938985483912611252]">6</container>
               <unittitle>R.O.T.C.</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [76104454827925188534]">6</container>
+              <container type="box" label="Box [85938985483912611252]">6</container>
               <unittitle>Salaries</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [76104454827925188534]">6</container>
+              <container type="box" label="Box [85938985483912611252]">6</container>
               <unittitle>President Harold Shapiro</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [76104454827925188534]">6</container>
+              <container type="box" label="Box [85938985483912611252]">6</container>
               <unittitle>Solomon Amendment</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [76104454827925188534]">6</container>
+              <container type="box" label="Box [85938985483912611252]">6</container>
               <unittitle>Student Code</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [76104454827925188534]">6</container>
+              <container type="box" label="Box [85938985483912611252]">6</container>
               <unittitle>Sugar Island</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [76104454827925188534]">6</container>
+              <container type="box" label="Box [85938985483912611252]">6</container>
               <unittitle>Tickets</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [76104454827925188534]">6</container>
+              <container type="box" label="Box [85938985483912611252]">6</container>
               <unittitle>Tuition</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [76104454827925188534]">6</container>
+              <container type="box" label="Box [85938985483912611252]">6</container>
               <unittitle>Divestment-South Africa</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [070327468346903939]">7</container>
+              <container type="box" label="Box [2468744438384437548]">7</container>
               <unittitle>Divestment-South Africa (cont.)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [070327468346903939]">7</container>
+              <container type="box" label="Box [2468744438384437548]">7</container>
               <unittitle>State Supreme Court Cases</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [070327468346903939]">7</container>
-              <unittitle><unitdate type="inclusive" normal="1984">1984</unitdate> Re-election Campaign</unittitle>
-            </did>
+              <container type="box" label="Box [2468744438384437548]">7</container>
+              <unittitle>Re-election Campaign</unittitle><unitdate type="inclusive" normal="1984">1984</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [070327468346903939]">7</container>
+              <container type="box" label="Box [2468744438384437548]">7</container>
               <unittitle>Presidential Selection</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [070327468346903939]">7</container>
+              <container type="box" label="Box [2468744438384437548]">7</container>
               <unittitle>Miscellaneous</unittitle>
             </did>
           </c03>

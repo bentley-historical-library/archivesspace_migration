@@ -7,7 +7,8 @@ import time
 
 def fetch_dspace_mets(ead_dir, dspace_mets_dir):
     print "Fetching DSpace METS"
-    for filename in os.listdir(ead_dir):
+    filenames = [filename for filename in os.listdir(ead_dir) if filename.endswith('.xml')]
+    for filename in filenames:
         tree = etree.parse(join(ead_dir,filename))
         daos = tree.xpath('//dao')
         for dao in daos:

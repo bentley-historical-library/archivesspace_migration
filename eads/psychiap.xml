@@ -28,7 +28,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,10 +40,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n87842574">University of Michigan. Department of Psychiatry.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n87842574" ref="/agents/corporate_entities/1986">University of Michigan. Department of Psychiatry.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Department of Psychiatry (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1959/2013">1959-2013</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1988/2013">1988-2013</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0360 BImu C46 2</unitid>
+      <unittitle encodinganalog="245">Department of Psychiatry (University of Michigan) records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1959/2013">1959-2013</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1988/2013">1988-2013</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0360 BImu C46 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Records of the University of Michigan Department of Psychiatry. The collection contains administrative files and publications. Also includes records and video materials for the Annual Waggoner Lectureship.</abstract>
       <physdesc altrender="part">
@@ -132,39 +132,37 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject encodinganalog="650" source="lcsh">Mental health.</subject>
-        <subject encodinganalog="650" source="lcsh">Psychiatry.</subject>
-        <corpname encodinganalog="630" source="lcnaf">Raymond R. Waggoner Lectureship.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87842574">University of Michigan. Department of Psychiatry.</corpname>
+        <subject encodinganalog="650" source="lcsh" ref="/subjects/6120">Mental health.</subject>
+        <subject encodinganalog="650" source="lcsh" ref="/subjects/6118">Psychiatry.</subject>
+        <corpname encodinganalog="630" source="lcnaf" ref="/agents/corporate_entities/4733">Raymond R. Waggoner Lectureship.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87842574" ref="/agents/corporate_entities/1986">University of Michigan. Department of Psychiatry.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Bulletins.</genreform>
-        <genreform source="aat" encodinganalog="655">Digital moving image formats.</genreform>
-        <genreform source="aat" encodinganalog="655">Pamphlets.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3148">Bulletins.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3304">Digital moving image formats.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3147">Pamphlets.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Raymond W. Waggoner Lectures <unitdate type="inclusive" normal="1996/2013">1996-2013</unitdate></unittitle>
-        </did>
+          <unittitle>Raymond W. Waggoner Lectures</unittitle><unitdate type="inclusive" normal="1996/2013">1996-2013</unitdate></did>
         <scopecontent>
           <p>The Raymond W. Waggoner Lectures series (1.5 linear feet and 47 GB, 1996-2013) contains informational materials, transcripts and video recordings for the Raymond W. Waggoner Lectureship on Ethics and Values in Medicine since its establishment in 1996. Digital video and transcripts can be accessed through links in this finding aid.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [252743442868850644]">1</container>
+            <container type="box" label="Box [98616453954405494415]">1</container>
             <unittitle>About Raymond W. Waggoner</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Robert Michels <title render="italic">Ethics and the Changing Role of the Physician: The Coming Crisis in the Practice of Medicine</title>, <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
-          </did>
+            <unittitle>Robert Michels <title render="italic">Ethics and the Changing Role of the Physician: The Coming Crisis in the Practice of Medicine</title></unittitle><unitdate type="inclusive" normal="1996">1996</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [252743442868850644]">1</container>
+              <container type="box" label="Box [98616453954405494415]">1</container>
               <unittitle>Background material</unittitle>
             </did>
           </c03>
@@ -175,7 +173,7 @@
               <physdesc>
                 <physfacet>.ZIP file</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/110292" show="new" actuate="onRequest">
+              <dao href="http://hdl.handle.net/2027.42/110292" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15064">
                 <daodesc>
                   <p>[view item]</p>
                 </daodesc>
@@ -185,11 +183,10 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Alan Stone <title render="italic">Physician Assisted Suicide: Where Do We Stand?</title>, <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
-          </did>
+            <unittitle>Alan Stone <title render="italic">Physician Assisted Suicide: Where Do We Stand?</title></unittitle><unitdate type="inclusive" normal="1997">1997</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [252743442868850644]">1</container>
+              <container type="box" label="Box [98616453954405494415]">1</container>
               <unittitle>Background materials</unittitle>
             </did>
           </c03>
@@ -200,7 +197,7 @@
               <physdesc>
                 <physfacet>.ZIP file</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/110293" show="new" actuate="onRequest">
+              <dao href="http://hdl.handle.net/2027.42/110293" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15065">
                 <daodesc>
                   <p>[view item]</p>
                 </daodesc>
@@ -210,11 +207,10 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Arthur Caplan <title render="italic">What is Wrong With Human Cloning?: The Ethics of Technological Reproduction</title>, <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
-          </did>
+            <unittitle>Arthur Caplan <title render="italic">What is Wrong With Human Cloning?: The Ethics of Technological Reproduction</title></unittitle><unitdate type="inclusive" normal="1998">1998</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [252743442868850644]">1</container>
+              <container type="box" label="Box [98616453954405494415]">1</container>
               <unittitle>Background material</unittitle>
             </did>
           </c03>
@@ -225,7 +221,7 @@
               <physdesc>
                 <physfacet>.ZIP file</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/110294" show="new" actuate="onRequest">
+              <dao href="http://hdl.handle.net/2027.42/110294" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15066">
                 <daodesc>
                   <p>[view item]</p>
                 </daodesc>
@@ -235,11 +231,10 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Paul S. Applebaum <title render="italic">No Place to Hide: Threats to Confidentiality and Privacy in Medicine</title>, <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
-          </did>
+            <unittitle>Paul S. Applebaum <title render="italic">No Place to Hide: Threats to Confidentiality and Privacy in Medicine</title></unittitle><unitdate type="inclusive" normal="1999">1999</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [252743442868850644]">1</container>
+              <container type="box" label="Box [98616453954405494415]">1</container>
               <unittitle>Background materials</unittitle>
             </did>
           </c03>
@@ -250,7 +245,7 @@
               <physdesc>
                 <physfacet>.ZIP file</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/110295" show="new" actuate="onRequest">
+              <dao href="http://hdl.handle.net/2027.42/110295" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15067">
                 <daodesc>
                   <p>[view item]</p>
                 </daodesc>
@@ -260,11 +255,10 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Catherine D. DeAngelis <title render="italic">Integrity in Scientific Publications: Implications for Research (no video)</title>, <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
-          </did>
+            <unittitle>Catherine D. DeAngelis <title render="italic">Integrity in Scientific Publications: Implications for Research (no video)</title></unittitle><unitdate type="inclusive" normal="2000">2000</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [252743442868850644]">1</container>
+              <container type="box" label="Box [98616453954405494415]">1</container>
               <unittitle>Background material</unittitle>
             </did>
           </c03>
@@ -275,7 +269,7 @@
               <physdesc>
                 <physfacet>.ZIP file</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/110296" show="new" actuate="onRequest">
+              <dao href="http://hdl.handle.net/2027.42/110296" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15068">
                 <daodesc>
                   <p>[view item]</p>
                 </daodesc>
@@ -285,11 +279,10 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Harold T. Shapiro <title render="italic">Ethical Considerations in Research on Human Subjects-Time for Change ... Again</title>, <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
-          </did>
+            <unittitle>Harold T. Shapiro <title render="italic">Ethical Considerations in Research on Human Subjects-Time for Change ... Again</title></unittitle><unitdate type="inclusive" normal="2001">2001</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [252743442868850644]">1</container>
+              <container type="box" label="Box [98616453954405494415]">1</container>
               <unittitle>Background material</unittitle>
             </did>
           </c03>
@@ -300,7 +293,7 @@
               <physdesc>
                 <physfacet>.ZIP file</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/110297" show="new" actuate="onRequest">
+              <dao href="http://hdl.handle.net/2027.42/110297" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15069">
                 <daodesc>
                   <p>[view item]</p>
                 </daodesc>
@@ -310,11 +303,10 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Mary Sue Coleman <title render="italic">Care Without Coverage: Too Little, Too Late</title>, <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
-          </did>
+            <unittitle>Mary Sue Coleman <title render="italic">Care Without Coverage: Too Little, Too Late</title></unittitle><unitdate type="inclusive" normal="2002">2002</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [252743442868850644]">1</container>
+              <container type="box" label="Box [98616453954405494415]">1</container>
               <unittitle>Background material</unittitle>
             </did>
           </c03>
@@ -325,7 +317,7 @@
               <physdesc>
                 <physfacet>.ZIP file</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/110298" show="new" actuate="onRequest">
+              <dao href="http://hdl.handle.net/2027.42/110298" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15070">
                 <daodesc>
                   <p>[view item]</p>
                 </daodesc>
@@ -335,11 +327,10 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Leon R. Kass <title render="italic">Ageless Bodies, Happy Souls: Biotechnology and the Pursuit of Perfection</title>, <unitdate type="inclusive" normal="2003">2003</unitdate></unittitle>
-          </did>
+            <unittitle>Leon R. Kass <title render="italic">Ageless Bodies, Happy Souls: Biotechnology and the Pursuit of Perfection</title></unittitle><unitdate type="inclusive" normal="2003">2003</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [252743442868850644]">1</container>
+              <container type="box" label="Box [98616453954405494415]">1</container>
               <unittitle>Background material</unittitle>
             </did>
           </c03>
@@ -350,7 +341,7 @@
               <physdesc>
                 <physfacet>.ZIP file</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/110299" show="new" actuate="onRequest">
+              <dao href="http://hdl.handle.net/2027.42/110299" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15071">
                 <daodesc>
                   <p>[view item]</p>
                 </daodesc>
@@ -360,11 +351,10 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Sheldon Krimsky <title render="italic">Academic Science and Entrepreneurship: Are the Conflicts Reconcilable?</title>, <unitdate type="inclusive" normal="2004">2004</unitdate></unittitle>
-          </did>
+            <unittitle>Sheldon Krimsky <title render="italic">Academic Science and Entrepreneurship: Are the Conflicts Reconcilable?</title></unittitle><unitdate type="inclusive" normal="2004">2004</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [252743442868850644]">1</container>
+              <container type="box" label="Box [98616453954405494415]">1</container>
               <unittitle>Background material</unittitle>
             </did>
           </c03>
@@ -375,7 +365,7 @@
               <physdesc>
                 <physfacet>.ZIP file</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/110282" show="new" actuate="onRequest">
+              <dao href="http://hdl.handle.net/2027.42/110282" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15072">
                 <daodesc>
                   <p>[view item]</p>
                 </daodesc>
@@ -385,11 +375,10 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Leon Eisenberg <title render="italic">When Good Men and Women Do Nothing-Doctors at Abu Ghraib and Guantanamo</title>, <unitdate type="inclusive" normal="2005">2005</unitdate></unittitle>
-          </did>
+            <unittitle>Leon Eisenberg <title render="italic">When Good Men and Women Do Nothing-Doctors at Abu Ghraib and Guantanamo</title></unittitle><unitdate type="inclusive" normal="2005">2005</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [252743442868850644]">1</container>
+              <container type="box" label="Box [98616453954405494415]">1</container>
               <unittitle>Background material</unittitle>
             </did>
           </c03>
@@ -400,7 +389,7 @@
               <physdesc>
                 <physfacet>.ZIP file</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/110283" show="new" actuate="onRequest">
+              <dao href="http://hdl.handle.net/2027.42/110283" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15073">
                 <daodesc>
                   <p>[view item]</p>
                 </daodesc>
@@ -410,11 +399,10 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Howard Markel <title render="italic">Contemplating Pandemics: The Role of Historical Inquiry in Developing Pandemic Influenza Mitigation Strategies for the 21st Century</title>, <unitdate type="inclusive" normal="2006">2006</unitdate></unittitle>
-          </did>
+            <unittitle>Howard Markel <title render="italic">Contemplating Pandemics: The Role of Historical Inquiry in Developing Pandemic Influenza Mitigation Strategies for the 21st Century</title></unittitle><unitdate type="inclusive" normal="2006">2006</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [252743442868850644]">1</container>
+              <container type="box" label="Box [98616453954405494415]">1</container>
               <unittitle>Background material</unittitle>
             </did>
           </c03>
@@ -425,7 +413,7 @@
               <physdesc>
                 <physfacet>.ZIP file</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/110284" show="new" actuate="onRequest">
+              <dao href="http://hdl.handle.net/2027.42/110284" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15074">
                 <daodesc>
                   <p>[view item]</p>
                 </daodesc>
@@ -435,11 +423,10 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Thomas Murray <title render="italic">Issues Review Panel, World Anti-Doping Agency: Ethics, Genetics, and the Future of Sport</title>, <unitdate type="inclusive" normal="2007">2007</unitdate></unittitle>
-          </did>
+            <unittitle>Thomas Murray <title render="italic">Issues Review Panel, World Anti-Doping Agency: Ethics, Genetics, and the Future of Sport</title></unittitle><unitdate type="inclusive" normal="2007">2007</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [9925738445379343295062]">2</container>
+              <container type="box" label="Box [6506994104594605228]">2</container>
               <unittitle>Background material</unittitle>
             </did>
           </c03>
@@ -450,7 +437,7 @@
               <physdesc>
                 <physfacet>.ZIP file</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/110285" show="new" actuate="onRequest">
+              <dao href="http://hdl.handle.net/2027.42/110285" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15075">
                 <daodesc>
                   <p>[view item]</p>
                 </daodesc>
@@ -460,11 +447,10 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Ezekiel J. Emanuel <title render="italic">Beyond Band-Aids: How to Cure America's Sick Healthcare System</title>, <unitdate type="inclusive" normal="2008">2008</unitdate></unittitle>
-          </did>
+            <unittitle>Ezekiel J. Emanuel <title render="italic">Beyond Band-Aids: How to Cure America's Sick Healthcare System</title></unittitle><unitdate type="inclusive" normal="2008">2008</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [9925738445379343295062]">2</container>
+              <container type="box" label="Box [6506994104594605228]">2</container>
               <unittitle>Background material</unittitle>
             </did>
           </c03>
@@ -475,7 +461,7 @@
               <physdesc>
                 <physfacet>.ZIP file</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/110286" show="new" actuate="onRequest">
+              <dao href="http://hdl.handle.net/2027.42/110286" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15076">
                 <daodesc>
                   <p>[view item]</p>
                 </daodesc>
@@ -485,11 +471,10 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Lawrence O. Gostin <title render="italic">Redressing the Unconscionable Health Gap: A Proposal for a Global Plan for Justice</title>, <unitdate type="inclusive" normal="2010-01">January 2010</unitdate></unittitle>
-          </did>
+            <unittitle>Lawrence O. Gostin <title render="italic">Redressing the Unconscionable Health Gap: A Proposal for a Global Plan for Justice</title></unittitle><unitdate type="inclusive" normal="2010-01">January 2010</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [9925738445379343295062]">2</container>
+              <container type="box" label="Box [6506994104594605228]">2</container>
               <unittitle>Background material</unittitle>
             </did>
           </c03>
@@ -500,7 +485,7 @@
               <physdesc>
                 <physfacet>.ZIP file</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/110287" show="new" actuate="onRequest">
+              <dao href="http://hdl.handle.net/2027.42/110287" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15077">
                 <daodesc>
                   <p>[view item]</p>
                 </daodesc>
@@ -510,11 +495,10 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Bernard Lo <title render="italic">Old and New Ethical Problems in Innovative Stem Cell Research</title>, <unitdate type="inclusive" normal="2010-11">November 2010</unitdate></unittitle>
-          </did>
+            <unittitle>Bernard Lo <title render="italic">Old and New Ethical Problems in Innovative Stem Cell Research</title></unittitle><unitdate type="inclusive" normal="2010-11">November 2010</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [9925738445379343295062]">2</container>
+              <container type="box" label="Box [6506994104594605228]">2</container>
               <unittitle>Background material</unittitle>
             </did>
           </c03>
@@ -525,7 +509,7 @@
               <physdesc>
                 <physfacet>.ZIP file</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/110288" show="new" actuate="onRequest">
+              <dao href="http://hdl.handle.net/2027.42/110288" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15078">
                 <daodesc>
                   <p>[view item]</p>
                 </daodesc>
@@ -535,11 +519,10 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Laura Roberts <title render="italic">On Becoming a Physician: Stresses and strengths of physicians-in-training</title>, <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
-          </did>
+            <unittitle>Laura Roberts <title render="italic">On Becoming a Physician: Stresses and strengths of physicians-in-training</title></unittitle><unitdate type="inclusive" normal="2011">2011</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [9925738445379343295062]">2</container>
+              <container type="box" label="Box [6506994104594605228]">2</container>
               <unittitle>Background material</unittitle>
             </did>
           </c03>
@@ -550,7 +533,7 @@
               <physdesc>
                 <physfacet>.ZIP file</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/110289" show="new" actuate="onRequest">
+              <dao href="http://hdl.handle.net/2027.42/110289" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15079">
                 <daodesc>
                   <p>[view item]</p>
                 </daodesc>
@@ -560,11 +543,10 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Lazarus, Jeremy A., Fixing Healthcare the Ethical Way <unitdate type="inclusive" normal="2012">2012</unitdate></unittitle>
-          </did>
+            <unittitle>Lazarus, Jeremy A., Fixing Healthcare the Ethical Way</unittitle><unitdate type="inclusive" normal="2012">2012</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [9925738445379343295062]">2</container>
+              <container type="box" label="Box [6506994104594605228]">2</container>
               <unittitle>Background material</unittitle>
             </did>
           </c03>
@@ -575,7 +557,7 @@
               <physdesc>
                 <physfacet>.ZIP file</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/110290" show="new" actuate="onRequest">
+              <dao href="http://hdl.handle.net/2027.42/110290" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15080">
                 <daodesc>
                   <p>[view item]</p>
                 </daodesc>
@@ -585,11 +567,10 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Sade, Robert, Myths and Misconceptions in Biomedical Ethics <unitdate type="inclusive" normal="2013">2013</unitdate></unittitle>
-          </did>
+            <unittitle>Sade, Robert, Myths and Misconceptions in Biomedical Ethics</unittitle><unitdate type="inclusive" normal="2013">2013</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [9925738445379343295062]">2</container>
+              <container type="box" label="Box [6506994104594605228]">2</container>
               <unittitle>Background material</unittitle>
             </did>
           </c03>
@@ -600,7 +581,7 @@
               <physdesc>
                 <physfacet>.ZIP file</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/110291" show="new" actuate="onRequest">
+              <dao href="http://hdl.handle.net/2027.42/110291" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15081">
                 <daodesc>
                   <p>[view item]</p>
                 </daodesc>
@@ -618,49 +599,45 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9925738445379343295062]">2</container>
+            <container type="box" label="Box [6506994104594605228]">2</container>
             <unittitle>Annual Reports</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9925738445379343295062]">2</container>
-            <unittitle><title render="italic">Annual Progress Report</title>, <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [6506994104594605228]">2</container>
+            <unittitle><title render="italic">Annual Progress Report</title></unittitle><unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9925738445379343295062]">2</container>
-            <unittitle><title render="italic">Annual Report</title>, <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6506994104594605228]">2</container>
+            <unittitle><title render="italic">Annual Report</title></unittitle><unitdate type="inclusive" normal="1986">1986</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9925738445379343295062]">2</container>
-            <unittitle>Brochures <unitdate type="inclusive" normal="1970">1970</unitdate>, <unitdate type="inclusive" normal="2006">2006</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6506994104594605228]">2</container>
+            <unittitle>Brochures</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate><unitdate type="inclusive" normal="2006">2006</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9925738445379343295062]">2</container>
+            <container type="box" label="Box [6506994104594605228]">2</container>
             <unittitle>Bulletins</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9925738445379343295062]">2</container>
-            <unittitle><title render="italic">Department of Psychiatry</title>, <unitdate type="inclusive" normal="1959">1959</unitdate>, <unitdate type="inclusive" normal="1976" certainty="approximate">circa 1976</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [6506994104594605228]">2</container>
+            <unittitle><title render="italic">Department of Psychiatry</title></unittitle><unitdate type="inclusive" normal="1959">1959</unitdate><unitdate type="inclusive" normal="1976" certainty="approximate">circa 1976</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9925738445379343295062]">2</container>
+            <container type="box" label="Box [6506994104594605228]">2</container>
             <unittitle>
               <title render="italic">Residency Programs in Psychiatry at the University of Michigan Medical Center, c.1966</title>
             </unittitle>
@@ -668,27 +645,23 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9925738445379343295062]">2</container>
-            <unittitle>Programs <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6506994104594605228]">2</container>
+            <unittitle>Programs</unittitle><unitdate type="inclusive" normal="1998">1998</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9925738445379343295062]">2</container>
-            <unittitle>Scientific Publications <unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6506994104594605228]">2</container>
+            <unittitle>Scientific Publications</unittitle><unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9925738445379343295062]">2</container>
-            <unittitle>Sixth Annual Albert J. Silverman Research Conference <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6506994104594605228]">2</container>
+            <unittitle>Sixth Annual Albert J. Silverman Research Conference</unittitle><unitdate type="inclusive" normal="1995">1995</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9925738445379343295062]">2</container>
-            <unittitle>Youth --Nominated Support Team Intervention Manual <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6506994104594605228]">2</container>
+            <unittitle>Youth --Nominated Support Team Intervention Manual</unittitle><unitdate type="inclusive" normal="2001">2001</unitdate></did>
         </c02>
       </c01>
     </dsc>

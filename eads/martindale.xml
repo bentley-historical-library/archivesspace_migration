@@ -32,7 +32,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -43,10 +44,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Martindale, Arthur Ingraham, 1910-1977</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/4464">Martindale, Arthur Ingraham, 1910-1977</persname>
       </origination>
-      <unittitle encodinganalog="245">Arthur Ingraham Martindale collection <unitdate type="inclusive" encodinganalog="245$f" normal="1852/2013">1852-2013</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1861/1880">1861-1880</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2013149 Aa 2 AC</unitid>
+      <unittitle encodinganalog="245">Arthur Ingraham Martindale collection</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1852/2013">1852-2013</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1861/1880">1861-1880</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2013149 Aa 2 AC</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Materials documenting the business transactions and personal communications of the Edward Ingraham family of Bay City, Michigan and Old Saybrook, Connecticut between the years of 1852 and 1881. The collection is particularly strong in legal documentation of the time periods covered, including deeds, agreements, insurance policies, permits and certifications Family and professional correspondence also account for a large portion of the collection.</abstract>
       <physdesc altrender="part">
@@ -92,29 +92,29 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651">Bay County (Mich.)--History.</geogname>
-        <persname source="lcnaf" encodinganalog="600">Ingraham, Amelia P., 1822-1916.</persname>
-        <persname source="lcnaf" encodinganalog="600">Ingraham, Edward W., 1812-1881.</persname>
-        <famname source="lcnaf" encodinganalog="600">Ingram family.</famname>
-        <persname source="lcnaf" encodinganalog="600">Martindale, Arthur Ingraham, 1910-</persname>
-        <famname source="lcnaf" encodinganalog="600">Martindale family.</famname>
-        <subject source="lcsh" encodinganalog="650">Logging--Michigan.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81035814">Old Saybrook (Conn.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Shipping--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Timber--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2286">Bay County (Mich.)--History.</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/8165">Ingraham, Amelia P., 1822-1916.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/8460">Ingraham, Edward W., 1812-1881.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/9">Ingram family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4942">Martindale, Arthur Ingraham, 1910-</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/156">Martindale family.</famname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6776">Logging--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81035814" ref="/subjects/2287">Old Saybrook (Conn.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8954">Shipping--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8955">Timber--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Braden, Marguerite Martindale.</persname>
-        <persname source="lcnaf" encodinganalog="700">Roberts, Helen Martindale.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/4895">Braden, Marguerite Martindale.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/1689">Roberts, Helen Martindale.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Business letters.</genreform>
-        <genreform source="aat" encodinganalog="655">Deeds.</genreform>
-        <genreform source="aat" encodinganalog="655">Insurance policies.</genreform>
-        <genreform source="aat" encodinganalog="655">Legal correspondence.</genreform>
-        <genreform source="aat" encodinganalog="655">Ships' logs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3319">Business letters.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3320">Deeds.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3321">Insurance policies.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3322">Legal correspondence.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3323">Ships' logs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -127,104 +127,89 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1863180649941214426]">1</container>
+            <container type="box" label="Box [716190405850562]">1</container>
             <unittitle>Index and introduction</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1863180649941214426]">1</container>
+            <container type="box" label="Box [716190405850562]">1</container>
             <unittitle>"Inventory of Documents and Letters from Arthur Ingraham Martindale's Collection of Edward Ingraham's Business and Personal Papers with Summaries" [2014]</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1863180649941214426]">1</container>
-            <unittitle>Statement of Partial Loss Case of the Ship Colorado, Geo. E. Ingraham, Master <unitdate type="inclusive" normal="1875">1875</unitdate> (and photocopies)</unittitle>
-          </did>
+            <container type="box" label="Box [716190405850562]">1</container>
+            <unittitle>Statement of Partial Loss Case of the Ship Colorado, Geo. E. Ingraham, Master (and photocopies)</unittitle><unitdate type="inclusive" normal="1875">1875</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1863180649941214426]">1</container>
+            <container type="box" label="Box [716190405850562]">1</container>
             <unittitle>The Steamship Colorado ship's log, 1875 photograph</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1863180649941214426]">1</container>
-            <unittitle>"Martindale's Bevel Angles: Bins, Towers, Hip and Valley Roofs" engineering manual by Frank L. Martindale <unitdate type="inclusive" normal="1948">1948</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [716190405850562]">1</container>
+            <unittitle>"Martindale's Bevel Angles: Bins, Towers, Hip and Valley Roofs" engineering manual by Frank L. Martindale</unittitle><unitdate type="inclusive" normal="1948">1948</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1863180649941214426]">1</container>
+            <container type="box" label="Box [716190405850562]">1</container>
             <unittitle>Remember the Poor and The Tarry Sailor, poetry newspaper clipping</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1863180649941214426]">1</container>
-            <unittitle>Newspaper clippings <unitdate type="inclusive" normal="1905/1912">1905-1912 (scattered)</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [716190405850562]">1</container>
+            <unittitle>Newspaper clippings</unittitle><unitdate type="inclusive" normal="1905/1912">1905-1912 (scattered)</unitdate><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1863180649941214426]">1</container>
+            <container type="box" label="Box [716190405850562]">1</container>
             <unittitle>H.D. Bradock &amp; Co. from Ingraham Martindale Collection</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Letters <unitdate type="inclusive" normal="1861/1882">1861-1882</unitdate>, <unitdate type="inclusive" normal="1937">1937</unitdate></unittitle>
-          </did>
+            <unittitle>Letters</unittitle><unitdate type="inclusive" normal="1861/1882">1861-1882</unitdate><unitdate type="inclusive" normal="1937">1937</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1863180649941214426]">1</container>
-              <unittitle><unitdate type="inclusive" normal="1861/1862">1861-1862</unitdate> from Ingraham Martindale Collection</unittitle>
-            </did>
+              <container type="box" label="Box [716190405850562]">1</container>
+              <unittitle>From Ingraham Martindale Collection</unittitle><unitdate type="inclusive" normal="1861/1862">1861-1862</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1863180649941214426]">1</container>
-              <unittitle><unitdate type="inclusive" normal="1863-01/1863-02">January-February, 1863</unitdate> from Ingraham Martindale Collection</unittitle>
-            </did>
+              <container type="box" label="Box [716190405850562]">1</container>
+              <unittitle>From Ingraham Martindale Collection</unittitle><unitdate type="inclusive" normal="1863-01/1863-02">January-February, 1863</unitdate></did>
             <odd>
               <p>(originals and photocopies)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1863180649941214426]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1863-03/1863-04">March-April, 1863</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [716190405850562]">1</container>
+              <unitdate type="inclusive" normal="1863-03/1863-04">March-April, 1863</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1863180649941214426]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1863-05">May 1863</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [716190405850562]">1</container>
+              <unitdate type="inclusive" normal="1863-05">May 1863</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1863180649941214426]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1863-06">June 1863</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [716190405850562]">1</container>
+              <unitdate type="inclusive" normal="1863-06">June 1863</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1863180649941214426]">1</container>
+              <container type="box" label="Box [716190405850562]">1</container>
               <unittitle>July 1863I</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -233,23 +218,17 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1863180649941214426]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1863-08">August 1863</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [716190405850562]">1</container>
+              <unitdate type="inclusive" normal="1863-08">August 1863</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1863180649941214426]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1863-09/1863-10">September-October, 1863</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [716190405850562]">1</container>
+              <unitdate type="inclusive" normal="1863-09/1863-10">September-October, 1863</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1863180649941214426]">1</container>
+              <container type="box" label="Box [716190405850562]">1</container>
               <unittitle>November-December,1863</unittitle>
             </did>
             <odd>
@@ -258,150 +237,101 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1863180649941214426]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1864/1865">1864-1865</unitdate>
-              </unittitle>
-              <physdesc>
+              <container type="box" label="Box [716190405850562]">1</container>
+              <unitdate type="inclusive" normal="1864/1865">1864-1865</unitdate><physdesc>
                 <physfacet>photocopies</physfacet>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1863180649941214426]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1867-01/1867-07">January-July, 1867</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [716190405850562]">1</container>
+              <unitdate type="inclusive" normal="1867-01/1867-07">January-July, 1867</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1863180649941214426]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1867-08/1867-12">August-December, 1867</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [716190405850562]">1</container>
+              <unitdate type="inclusive" normal="1867-08/1867-12">August-December, 1867</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1863180649941214426]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1876-01/1876-07">January-July, 1876</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [716190405850562]">1</container>
+              <unitdate type="inclusive" normal="1876-01/1876-07">January-July, 1876</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1863180649941214426]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1876-08/1876-12">August-December, 1876</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [716190405850562]">1</container>
+              <unitdate type="inclusive" normal="1876-08/1876-12">August-December, 1876</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1863180649941214426]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1877-01/1877-06">January-June, 1877</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [716190405850562]">1</container>
+              <unitdate type="inclusive" normal="1877-01/1877-06">January-June, 1877</unitdate></did>
             <odd>
               <p>(originals and photocopies)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1863180649941214426]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1877-06/1877-09">June-September, 1877</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [716190405850562]">1</container>
+              <unitdate type="inclusive" normal="1877-06/1877-09">June-September, 1877</unitdate></did>
             <odd>
               <p>(photocopies)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1863180649941214426]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1878-01/1878-03">January-March, 1878</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [716190405850562]">1</container>
+              <unitdate type="inclusive" normal="1878-01/1878-03">January-March, 1878</unitdate></did>
             <odd>
               <p>(originals and photocopies)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1863180649941214426]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1878-03/1878-09">March-September, 1878</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [716190405850562]">1</container>
+              <unitdate type="inclusive" normal="1878-03/1878-09">March-September, 1878</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1863180649941214426]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1878-10/1878-12">October-December, 1878</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [716190405850562]">1</container>
+              <unitdate type="inclusive" normal="1878-10/1878-12">October-December, 1878</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1863180649941214426]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1879-01/1879-09">January-September, 1879</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [716190405850562]">1</container>
+              <unitdate type="inclusive" normal="1879-01/1879-09">January-September, 1879</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1863180649941214426]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1879-10/1879-12">October-December 1879</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [716190405850562]">1</container>
+              <unitdate type="inclusive" normal="1879-10/1879-12">October-December 1879</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1863180649941214426]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1880">1880</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [716190405850562]">1</container>
+              <unitdate type="inclusive" normal="1880">1880</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1863180649941214426]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1881">1881</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [716190405850562]">1</container>
+              <unitdate type="inclusive" normal="1881">1881</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1863180649941214426]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1882-04-21">April 21, 1882</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [716190405850562]">1</container>
+              <unitdate type="inclusive" normal="1882-04-21">April 21, 1882</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1863180649941214426]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1937-08-23">August 23, 1937</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [716190405850562]">1</container>
+              <unitdate type="inclusive" normal="1937-08-23">August 23, 1937</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [986100041442188478733437]">1</container>
-            <unittitle>Oversize original and copies of deeds and mortgages <unitdate type="inclusive" normal="1856/1864">1856-1864</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [792088474880502807]">1</container>
+            <unittitle>Oversize original and copies of deeds and mortgages</unittitle><unitdate type="inclusive" normal="1856/1864">1856-1864</unitdate><unitdate type="inclusive">undated</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -413,79 +343,60 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1863180649941214426]">1</container>
-            <unittitle>Notes to Itemized List, Itemized List, and DVD of Arthur Ingraham Martindale collection documents, compiled by Helen M. Roberts <unitdate type="inclusive" normal="2013-10">October 2013</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [716190405850562]">1</container>
+            <unittitle>Notes to Itemized List, Itemized List, and DVD of Arthur Ingraham Martindale collection documents, compiled by Helen M. Roberts</unittitle><unitdate type="inclusive" normal="2013-10">October 2013</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1863180649941214426]">1</container>
-            <unittitle>Insurance documents and bills of sale <unitdate type="inclusive" normal="1856/1877">1856-1877</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [716190405850562]">1</container>
+            <unittitle>Insurance documents and bills of sale</unittitle><unitdate type="inclusive" normal="1856/1877">1856-1877</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1863180649941214426]">1</container>
-            <unittitle>Release of dower deeds, bill of Sale, and notary public certification <unitdate type="inclusive" normal="1857/1865">1857-1865</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [716190405850562]">1</container>
+            <unittitle>Release of dower deeds, bill of Sale, and notary public certification</unittitle><unitdate type="inclusive" normal="1857/1865">1857-1865</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1863180649941214426]">1</container>
-            <unittitle>Partnership agreements, land division agreements and deed certification <unitdate type="inclusive" normal="1852">1852</unitdate>, <unitdate type="inclusive" normal="1862">1862</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [716190405850562]">1</container>
+            <unittitle>Partnership agreements, land division agreements and deed certification</unittitle><unitdate type="inclusive" normal="1852">1852</unitdate><unitdate type="inclusive" normal="1862">1862</unitdate><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1863180649941214426]">1</container>
-            <unittitle>Letters to H.D. Braddock and Co. <unitdate type="inclusive" normal="1863-11/1863-12">November-December 1863</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [716190405850562]">1</container>
+            <unittitle>Letters to H.D. Braddock and Co.</unittitle><unitdate type="inclusive" normal="1863-11/1863-12">November-December 1863</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Letters to M.J. Baily from Edward W. Ingraham <unitdate type="inclusive" normal="1877/1881">1877-1881</unitdate></unittitle>
-          </did>
+            <unittitle>Letters to M.J. Baily from Edward W. Ingraham</unittitle><unitdate type="inclusive" normal="1877/1881">1877-1881</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1863180649941214426]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1877-04/1877-06">April-June 1877</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [716190405850562]">1</container>
+              <unitdate type="inclusive" normal="1877-04/1877-06">April-June 1877</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1863180649941214426]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1877-07/1877-12">July-December 1877</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [716190405850562]">1</container>
+              <unitdate type="inclusive" normal="1877-07/1877-12">July-December 1877</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1863180649941214426]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1879-01/1879-06">January-June 1879</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [716190405850562]">1</container>
+              <unitdate type="inclusive" normal="1879-01/1879-06">January-June 1879</unitdate></did>
             <odd>
               <p>(includes some letters to Long &amp; Gold)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1863180649941214426]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1879-07/1879-11">July-November 1879</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [716190405850562]">1</container>
+              <unitdate type="inclusive" normal="1879-07/1879-11">July-November 1879</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1863180649941214426]">1</container>
-            <unittitle>Letters to M.J. Baily from Amelia P. Ingraham <unitdate type="inclusive" normal="1880-12/1881-07">December 1880-July 1881</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [716190405850562]">1</container>
+            <unittitle>Letters to M.J. Baily from Amelia P. Ingraham</unittitle><unitdate type="inclusive" normal="1880-12/1881-07">December 1880-July 1881</unitdate></did>
         </c02>
       </c01>
     </dsc>

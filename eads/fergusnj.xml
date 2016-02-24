@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,10 +40,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Ferguson, John W.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/1125">Ferguson, John W.</persname>
       </origination>
-      <unittitle encodinganalog="245">John W. Ferguson photograph collection <unitdate type="inclusive" encodinganalog="245$f" normal="1919" certainty="approximate">circa 1919</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2012081 Aa 2</unitid>
+      <unittitle encodinganalog="245">John W. Ferguson photograph collection</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1919" certainty="approximate">circa 1919</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2012081 Aa 2</unitid>
       <abstract>Papers of a soldier in the Allied intervention in Russia, 1918-1920, the "Polar Bear Expedition."</abstract>
       <physdesc altrender="whole">
         <extent altrender="materialtype spaceoccupied">6.12 MB</extent>
@@ -79,18 +79,18 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname encodinganalog="600" source="lcnaf">Ferguson, John W.</persname>
-        <subject source="lctgm" encodinganalog="650">Horses--Russia.</subject>
-        <subject source="lctgm" encodinganalog="650">Soldiers--American--Russia.</subject>
-        <geogname source="lcsh" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Engineer Regiment, 310th.</corpname>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <subject source="local" encodinganalog="690">Polar Bear Expedition.</subject>
+        <persname encodinganalog="600" source="lcnaf" ref="/agents/people/1125">Ferguson, John W.</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4302">Horses--Russia.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4303">Soldiers--American--Russia.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/879">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1507">United States. Army. Engineer Regiment, 310th.</corpname>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <subject source="local" encodinganalog="690" ref="/subjects/3516">Polar Bear Expedition.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat">Digital files.</genreform>
-        <genreform source="aat">Photographs.</genreform>
+        <genreform source="aat" ref="/subjects/3216">Digital files.</genreform>
+        <genreform source="aat" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -100,9 +100,8 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [843574446822012898]">1</container>
-            <unittitle>Photograph of John W. Ferguson <unitdate type="inclusive" normal="1919" certainty="approximate">circa 1919</unitdate></unittitle>
-            <dao show="new" actuate="onRequest" href="ferguson0001">
+            <container type="folder" label="Folder [1032853540187697269369]">1</container>
+            <unittitle>Photograph of John W. Ferguson</unittitle><unitdate type="inclusive" normal="1919" certainty="approximate">circa 1919</unitdate><dao show="new" actuate="onRequest" href="ferguson0001" ref="/repositories/2/digital_objects/8952">
               <daodesc>
                 <p>[view items]</p>
               </daodesc>

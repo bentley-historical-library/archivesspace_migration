@@ -43,7 +43,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -54,10 +55,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Migrant Health Promotion (Organization)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/4732">Migrant Health Promotion (Organization)</corpname>
       </origination>
-      <unittitle encodinganalog="245">Migrant Health Promotion records <unitdate type="inclusive" encodinganalog="245$f" normal="1982/2012">1982-2012</unitdate></unittitle>
-      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">93812 Bf 2</unitid>
+      <unittitle encodinganalog="245">Migrant Health Promotion records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1982/2012">1982-2012</unitdate><unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">93812 Bf 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Organization established to improve the health and living conditions of migrant farmworkers in six states of the Upper Midwest. Administrative records; program files detailing operation of Camp Health Aide program and publication of Migrant Health Service Directory; topical files, and videotapes publicizing camp health aide program.</abstract>
       <physdesc altrender="whole">
@@ -96,29 +96,29 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Mexican Americans--Health and hygiene.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88211901">Midwest Migrant Health Information Office.</corpname>
-        <subject source="lcsh" encodinganalog="650">Migrant agricultural laborers.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Migrant Health Promotion (Organization)</corpname>
-        <subject source="lcsh" encodinganalog="650">Migrant labor.</subject>
-        <subject source="lcsh" encodinganalog="650">Migrant labor--Medical care.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7191">Mexican Americans--Health and hygiene.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88211901" ref="/agents/corporate_entities/2004">Midwest Migrant Health Information Office.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8745">Migrant agricultural laborers.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4732">Migrant Health Promotion (Organization)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7194">Migrant labor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7195">Migrant labor--Medical care.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <subject source="lcsh" encodinganalog="650">Mexican Americans--Health and hygiene.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88211901">Midwest Migrant Health Information Office.</corpname>
-        <subject source="lctgm" encodinganalog="650">Migrant agricultural laborers.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Migrant Health Promotion (Organization)</corpname>
-        <subject source="lctgm" encodinganalog="650">Migrant laborers.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85207703">Sparta (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7191">Mexican Americans--Health and hygiene.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88211901" ref="/agents/corporate_entities/2004">Midwest Migrant Health Information Office.</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4942">Migrant agricultural laborers.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4732">Migrant Health Promotion (Organization)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4943">Migrant laborers.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85207703" ref="/subjects/2369">Sparta (Mich.)</geogname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">CD-ROMs.</genreform>
-        <genreform source="aat" encodinganalog="655">Color slides.</genreform>
-        <genreform source="aat" encodinganalog="655">DVDs.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="aat" encodinganalog="655">Videotapes.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3146">CD-ROMs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3206">Color slides.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3155">DVDs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3134">Videotapes.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -131,36 +131,30 @@
         </scopecontent>
         <c02 level="subseries">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1982/1989">1982-1989</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1982/1989">1982-1989</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [660318344413082731726]">1</container>
+              <container type="box" label="Box [568686743663806614025957]">1</container>
               <unittitle>Annual Reports/Background materials</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [660318344413082731726]">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1982/1987">1982-1987</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [568686743663806614025957]">1</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1982/1987">1982-1987</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [660318344413082731726]">1</container>
-              <unittitle>Migrant Health Needs Assessment, Midwest Stream <unitdate type="inclusive" normal="1984-02">February 1984</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [568686743663806614025957]">1</container>
+              <unittitle>Migrant Health Needs Assessment, Midwest Stream</unittitle><unitdate type="inclusive" normal="1984-02">February 1984</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [660318344413082731726]">1</container>
-              <unittitle>Study <unitdate type="inclusive" normal="1984" certainty="approximate">circa 1984</unitdate> "Analysis of Parameters Affecting Services to Migrants"</unittitle>
-            </did>
+              <container type="box" label="Box [568686743663806614025957]">1</container>
+              <unittitle>Study "Analysis of Parameters Affecting Services to Migrants"</unittitle><unitdate type="inclusive" normal="1984" certainty="approximate">circa 1984</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -168,21 +162,18 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [660318344413082731726]">1</container>
-                <unittitle>Notebook <unitdate type="inclusive" normal="1983">1983</unitdate> containing purpose and philosophy of MMHIO and the National Migrant Worker Council, study of migration patterns, and state maps showing migrant health project administrative offices and sites of migrant health clinics</unittitle>
-              </did>
+                <container type="box" label="Box [568686743663806614025957]">1</container>
+                <unittitle>Notebook containing purpose and philosophy of MMHIO and the National Migrant Worker Council, study of migration patterns, and state maps showing migrant health project administrative offices and sites of migrant health clinics</unittitle><unitdate type="inclusive" normal="1983">1983</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [660318344413082731726]">1</container>
-                <unittitle>Notebook <unitdate type="inclusive" normal="1983/1984">1983-1984</unitdate> containing policy manual, "anecdotal notes" about various migrant health clinic sites, and site visit analysis forms</unittitle>
-              </did>
+                <container type="box" label="Box [568686743663806614025957]">1</container>
+                <unittitle>Notebook containing policy manual, "anecdotal notes" about various migrant health clinic sites, and site visit analysis forms</unittitle><unitdate type="inclusive" normal="1983/1984">1983-1984</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [660318344413082731726]">1</container>
-                <unittitle>Notebook <unitdate type="inclusive" normal="1983/1984">1983-1984</unitdate> containing site visit and phone interviews with information about the various health clinic services available to migrants, "anecdotal notes," and itineraries of visits to various camp sites</unittitle>
-              </did>
+                <container type="box" label="Box [568686743663806614025957]">1</container>
+                <unittitle>Notebook containing site visit and phone interviews with information about the various health clinic services available to migrants, "anecdotal notes," and itineraries of visits to various camp sites</unittitle><unitdate type="inclusive" normal="1983/1984">1983-1984</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -190,35 +181,23 @@
               </did>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [660318344413082731726]">1</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1983/1986">1983-1986</unitdate>
-                  </unittitle>
-                </did>
+                  <container type="box" label="Box [568686743663806614025957]">1</container>
+                  <unitdate type="inclusive" normal="1983/1986">1983-1986</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [440924199022549340]">2</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate>
-                  </unittitle>
-                </did>
+                  <container type="box" label="Box [40622247580694690]">2</container>
+                  <unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [440924199022549340]">2</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate>
-                  </unittitle>
-                </did>
+                  <container type="box" label="Box [40622247580694690]">2</container>
+                  <unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [440924199022549340]">2</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate>
-                  </unittitle>
-                </did>
+                  <container type="box" label="Box [40622247580694690]">2</container>
+                  <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate></did>
               </c05>
             </c04>
           </c03>
@@ -228,73 +207,59 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [369971417627261]">3</container>
+                <container type="box" label="Box [8261799842588444516304]">3</container>
                 <unittitle>1982/1983-1985/86</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [369971417627261]">3</container>
-                <unittitle><unitdate type="inclusive" normal="1986">1986</unitdate> Michigan Expansion Proposal</unittitle>
-              </did>
+                <container type="box" label="Box [8261799842588444516304]">3</container>
+                <unittitle>Michigan Expansion Proposal</unittitle><unitdate type="inclusive" normal="1986">1986</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [369971417627261]">3</container>
-                <unittitle><unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate> (State)</unittitle>
-              </did>
+                <container type="box" label="Box [8261799842588444516304]">3</container>
+                <unittitle>(State)</unittitle><unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [369971417627261]">3</container>
-                <unittitle><unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate> (Federal)</unittitle>
-              </did>
+                <container type="box" label="Box [8261799842588444516304]">3</container>
+                <unittitle>(Federal)</unittitle><unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [369971417627261]">3</container>
-                <unittitle><unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate> (Federal)</unittitle>
-              </did>
+                <container type="box" label="Box [8261799842588444516304]">3</container>
+                <unittitle>(Federal)</unittitle><unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [369971417627261]">3</container>
-                <unittitle><unitdate type="inclusive" normal="1987/1989">1987/1988-1988/1989</unitdate> (State)</unittitle>
-              </did>
+                <container type="box" label="Box [8261799842588444516304]">3</container>
+                <unittitle>(State)</unittitle><unitdate type="inclusive" normal="1987/1989">1987/1988-1988/1989</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [369971417627261]">3</container>
-                <unittitle><unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate> (Federal)</unittitle>
-              </did>
+                <container type="box" label="Box [8261799842588444516304]">3</container>
+                <unittitle>(Federal)</unittitle><unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [369971417627261]">3</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [8261799842588444516304]">3</container>
+                <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate></did>
             </c04>
           </c03>
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1990/1996">1990-1996</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1990/1996">1990-1996</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [73174182942193195317]">14</container>
-              <unittitle>Annual Report <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [65794814397976278]">14</container>
+              <unittitle>Annual Report</unittitle><unitdate type="inclusive" normal="1992">1992</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [369971417627261]">3</container>
-              <unittitle>Board Development <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8261799842588444516304]">3</container>
+              <unittitle>Board Development</unittitle><unitdate type="inclusive">undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -302,70 +267,60 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [369971417627261]">3</container>
-                <unittitle>Board of Directors Letter Campaign <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [8261799842588444516304]">3</container>
+                <unittitle>Board of Directors Letter Campaign</unittitle><unitdate type="inclusive" normal="1996">1996</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [369971417627261]">3</container>
-                <unittitle>Funding Promotion for Wisconsin CHAP <unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [8261799842588444516304]">3</container>
+                <unittitle>Funding Promotion for Wisconsin CHAP</unittitle><unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [369971417627261]">3</container>
-                <unittitle>Funding Strategy <unitdate type="inclusive" normal="1991/1994">1991-1994</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [8261799842588444516304]">3</container>
+                <unittitle>Funding Strategy</unittitle><unitdate type="inclusive" normal="1991/1994">1991-1994</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [369971417627261]">3</container>
+                <container type="box" label="Box [8261799842588444516304]">3</container>
                 <unittitle>Health Education Training Center Alliance of Texas</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [369971417627261]">3</container>
-                <unittitle>Rural Health Outreach Funds <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [8261799842588444516304]">3</container>
+                <unittitle>Rural Health Outreach Funds</unittitle><unitdate type="inclusive" normal="1991">1991</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [369971417627261]">3</container>
-              <unittitle>Grant Proposal <unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8261799842588444516304]">3</container>
+              <unittitle>Grant Proposal</unittitle><unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [369971417627261]">3</container>
-              <unittitle>Job Descriptions <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8261799842588444516304]">3</container>
+              <unittitle>Job Descriptions</unittitle><unitdate type="inclusive">undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [369971417627261]">3</container>
-              <unittitle>Marketing Workshop <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8261799842588444516304]">3</container>
+              <unittitle>Marketing Workshop</unittitle><unitdate type="inclusive" normal="1995">1995</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [369971417627261]">3</container>
-              <unittitle>Midwest Migrant Health Information Office Incorporation <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8261799842588444516304]">3</container>
+              <unittitle>Midwest Migrant Health Information Office Incorporation</unittitle><unitdate type="inclusive" normal="1992">1992</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [369971417627261]">3</container>
-              <unittitle>National Advisory Council on Migrant Health Award <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8261799842588444516304]">3</container>
+              <unittitle>National Advisory Council on Migrant Health Award</unittitle><unitdate type="inclusive" normal="1995">1995</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [369971417627261]">3</container>
-              <unittitle>Program Coordinators' meeting, Florida <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8261799842588444516304]">3</container>
+              <unittitle>Program Coordinators' meeting, Florida</unittitle><unitdate type="inclusive" normal="1994">1994</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -373,92 +328,78 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [369971417627261]">3</container>
-                <unittitle>Americorps <unitdate type="inclusive" normal="1994/1996">1994-1996</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [8261799842588444516304]">3</container>
+                <unittitle>Americorps</unittitle><unitdate type="inclusive" normal="1994/1996">1994-1996</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [369971417627261]">3</container>
+                <container type="box" label="Box [8261799842588444516304]">3</container>
                 <unittitle>Diabetes Video Project with University of Michigan</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [369971417627261]">3</container>
-                <unittitle>Fannie Mae Foundation <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [8261799842588444516304]">3</container>
+                <unittitle>Fannie Mae Foundation</unittitle><unitdate type="inclusive" normal="1994">1994</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [369971417627261]">3</container>
-                <unittitle>Federal Grant <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [8261799842588444516304]">3</container>
+                <unittitle>Federal Grant</unittitle><unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [369971417627261]">3</container>
-                <unittitle>Healthy Tomorrows for Children <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [8261799842588444516304]">3</container>
+                <unittitle>Healthy Tomorrows for Children</unittitle><unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [369971417627261]">3</container>
+                <container type="box" label="Box [8261799842588444516304]">3</container>
                 <unittitle>Kellogg Foundation</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [369971417627261]">3</container>
-                <unittitle>Levi Strauss Foundation <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [8261799842588444516304]">3</container>
+                <unittitle>Levi Strauss Foundation</unittitle><unitdate type="inclusive" normal="1994">1994</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [369971417627261]">3</container>
-                <unittitle>Robert Wood Johnson "Opening Doors" <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [8261799842588444516304]">3</container>
+                <unittitle>Robert Wood Johnson "Opening Doors"</unittitle><unitdate type="inclusive" normal="1994">1994</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [369971417627261]">3</container>
-                <unittitle>"Travelling Lay Health Advisor Program" Proposal to CDC <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [8261799842588444516304]">3</container>
+                <unittitle>"Travelling Lay Health Advisor Program" Proposal to CDC</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [369971417627261]">3</container>
-              <unittitle>Strategic Planning <unitdate type="inclusive" normal="1992/1995">1992-1995</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8261799842588444516304]">3</container>
+              <unittitle>Strategic Planning</unittitle><unitdate type="inclusive" normal="1992/1995">1992-1995</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [369971417627261]">3</container>
-              <unittitle>Technical assistance log <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8261799842588444516304]">3</container>
+              <unittitle>Technical assistance log</unittitle><unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1997/2007">1997-2007</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1997/2007">1997-2007</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [369971417627261]">3</container>
-              <unittitle>Annual Campaign <unitdate type="inclusive" normal="1997/2001">1997-2001</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [8261799842588444516304]">3</container>
+              <unittitle>Annual Campaign</unittitle><unitdate type="inclusive" normal="1997/2001">1997-2001</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">4 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [73174182942193195317]">14</container>
-              <unittitle>Annual Reports <unitdate type="inclusive" normal="1997/2011">1997-2011</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [65794814397976278]">14</container>
+              <unittitle>Annual Reports</unittitle><unitdate type="inclusive" normal="1997/2011">1997-2011</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -466,76 +407,65 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [369971417627261]">3</container>
-                <unittitle>Border Models of Excellence <unitdate type="inclusive" normal="2002/2004">2002-2004</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [8261799842588444516304]">3</container>
+                <unittitle>Border Models of Excellence</unittitle><unitdate type="inclusive" normal="2002/2004">2002-2004</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [369971417627261]">3</container>
-                <unittitle>Models that Work Strategy Transfer Guide <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [8261799842588444516304]">3</container>
+                <unittitle>Models that Work Strategy Transfer Guide</unittitle><unitdate type="inclusive" normal="1997">1997</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [369971417627261]">3</container>
-              <unittitle>Board of Directors <unitdate type="inclusive" normal="1997/2000">1997, 2000</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8261799842588444516304]">3</container>
+              <unittitle>Board of Directors</unittitle><unitdate type="inclusive" normal="1997/2000">1997, 2000</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [369971417627261]">3</container>
+              <container type="box" label="Box [8261799842588444516304]">3</container>
               <unittitle>Brochures</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [369971417627261]">3</container>
-              <unittitle>Endowment <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8261799842588444516304]">3</container>
+              <unittitle>Endowment</unittitle><unitdate type="inclusive" normal="2002">2002</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [369971417627261]">3</container>
-              <unittitle>Executive Director search <unitdate type="inclusive" normal="2007">2007</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8261799842588444516304]">3</container>
+              <unittitle>Executive Director search</unittitle><unitdate type="inclusive" normal="2007">2007</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [73174182942193195317]">14</container>
-              <unittitle>Executive Director search <unitdate type="inclusive" normal="2007">2007</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [65794814397976278]">14</container>
+              <unittitle>Executive Director search</unittitle><unitdate type="inclusive" normal="2007">2007</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [369971417627261]">3</container>
-              <unittitle>Financial Report <unitdate type="inclusive" normal="2010">2010</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8261799842588444516304]">3</container>
+              <unittitle>Financial Report</unittitle><unitdate type="inclusive" normal="2010">2010</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [369971417627261]">3</container>
-              <unittitle>Personnel Policy Manual <unitdate type="inclusive" normal="1998/2003">1998, 2003</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8261799842588444516304]">3</container>
+              <unittitle>Personnel Policy Manual</unittitle><unitdate type="inclusive" normal="1998/2003">1998, 2003</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [369971417627261]">3</container>
-              <unittitle>Retreats <unitdate type="inclusive" normal="2000">2000</unitdate>, <unitdate type="inclusive" normal="2003">2003</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8261799842588444516304]">3</container>
+              <unittitle>Retreats</unittitle><unitdate type="inclusive" normal="2000">2000</unitdate><unitdate type="inclusive" normal="2003">2003</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [369971417627261]">3</container>
-              <unittitle>Strategic Planning <unitdate type="inclusive" normal="1997/2004">1997-2004</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8261799842588444516304]">3</container>
+              <unittitle>Strategic Planning</unittitle><unitdate type="inclusive" normal="1997/2004">1997-2004</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [369971417627261]">3</container>
-              <unittitle>Webpage Information <unitdate type="inclusive" normal="1997/1999">1997-1999</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8261799842588444516304]">3</container>
+              <unittitle>Webpage Information</unittitle><unitdate type="inclusive" normal="1997/1999">1997-1999</unitdate></did>
           </c03>
         </c02>
       </c01>
@@ -552,27 +482,23 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [369971417627261]">3</container>
-              <unittitle>"Changes in Empowerment: Effects of Participation in a Lay Health Promotion Program" <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8261799842588444516304]">3</container>
+              <unittitle>"Changes in Empowerment: Effects of Participation in a Lay Health Promotion Program"</unittitle><unitdate type="inclusive" normal="1997">1997</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [369971417627261]">3</container>
-              <unittitle>"Effectiveness of Community Health Workers for Promoting Use of Safety Eyewear by Latino Farm Workers," <unitdate type="inclusive" normal="2004">2004</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8261799842588444516304]">3</container>
+              <unittitle>"Effectiveness of Community Health Workers for Promoting Use of Safety Eyewear by Latino Farm Workers,"</unittitle><unitdate type="inclusive" normal="2004">2004</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [369971417627261]">3</container>
-              <unittitle>"Occupational Health Survey of Farm Workers by Camp Health Aides," <unitdate type="inclusive" normal="2006">2006</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8261799842588444516304]">3</container>
+              <unittitle>"Occupational Health Survey of Farm Workers by Camp Health Aides,"</unittitle><unitdate type="inclusive" normal="2006">2006</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [369971417627261]">3</container>
-              <unittitle>"Using Theatrical Presentations as a Means of Disseminating Knowledge of HIV/AIDS Risk Factors to Migrant Farm Workers," <unitdate type="inclusive" normal="2007">2007</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8261799842588444516304]">3</container>
+              <unittitle>"Using Theatrical Presentations as a Means of Disseminating Knowledge of HIV/AIDS Risk Factors to Migrant Farm Workers,"</unittitle><unitdate type="inclusive" normal="2007">2007</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -581,127 +507,107 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [369971417627261]">3</container>
-              <unittitle>CHAP Occupational Health Survey Presentation at Agricultural Health and Safety Conference <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8261799842588444516304]">3</container>
+              <unittitle>CHAP Occupational Health Survey Presentation at Agricultural Health and Safety Conference</unittitle><unitdate type="inclusive" normal="1997">1997</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [369971417627261]">3</container>
-              <unittitle>CHAP Presentation to National Advisory Council on Migrant Health <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8261799842588444516304]">3</container>
+              <unittitle>CHAP Presentation to National Advisory Council on Migrant Health</unittitle><unitdate type="inclusive" normal="1989">1989</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [369971417627261]">3</container>
-              <unittitle>CHAP Workshop at National Farmworker Conference <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8261799842588444516304]">3</container>
+              <unittitle>CHAP Workshop at National Farmworker Conference</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [369971417627261]">3</container>
-              <unittitle>CHAP Presentation at Maternal/Child Health Leadership Conference <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8261799842588444516304]">3</container>
+              <unittitle>CHAP Presentation at Maternal/Child Health Leadership Conference</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [369971417627261]">3</container>
-              <unittitle>CHAP Presentation, Conference on Health Issues for Women of Color <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8261799842588444516304]">3</container>
+              <unittitle>CHAP Presentation, Conference on Health Issues for Women of Color</unittitle><unitdate type="inclusive" normal="1997">1997</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [369971417627261]">3</container>
-              <unittitle>Community Health and Immigrant Women in MI, MI Women's Studies Association Conference <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8261799842588444516304]">3</container>
+              <unittitle>Community Health and Immigrant Women in MI, MI Women's Studies Association Conference</unittitle><unitdate type="inclusive" normal="1997">1997</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [369971417627261]">3</container>
-              <unittitle>Farmworker Men as Peer Health Educators Workshop <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8261799842588444516304]">3</container>
+              <unittitle>Farmworker Men as Peer Health Educators Workshop</unittitle><unitdate type="inclusive" normal="1994">1994</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [369971417627261]">3</container>
-              <unittitle>Fundraising for a CHA Program, Workshop <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8261799842588444516304]">3</container>
+              <unittitle>Fundraising for a CHA Program, Workshop</unittitle><unitdate type="inclusive" normal="1992">1992</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [369971417627261]">3</container>
-              <unittitle>Geographic Comparison of CHA sites, APHA Conference <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8261799842588444516304]">3</container>
+              <unittitle>Geographic Comparison of CHA sites, APHA Conference</unittitle><unitdate type="inclusive" normal="1995">1995</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [369971417627261]">3</container>
-              <unittitle>Lay Health Advisor Workshop at Migrant Health Conference <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8261799842588444516304]">3</container>
+              <unittitle>Lay Health Advisor Workshop at Migrant Health Conference</unittitle><unitdate type="inclusive" normal="1990">1990</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [369971417627261]">3</container>
-              <unittitle>Lay Health Worker Program and Policy Development Workshop, APHA Conference <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8261799842588444516304]">3</container>
+              <unittitle>Lay Health Worker Program and Policy Development Workshop, APHA Conference</unittitle><unitdate type="inclusive" normal="1992">1992</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [369971417627261]">3</container>
-              <unittitle>Listening to and Hearing Your Client, Healthy Mothers Healthy Babies Conference <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8261799842588444516304]">3</container>
+              <unittitle>Listening to and Hearing Your Client, Healthy Mothers Healthy Babies Conference</unittitle><unitdate type="inclusive" normal="1995">1995</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [369971417627261]">3</container>
-              <unittitle><title render="italic">Migrant Health Newsline</title> Article on CHAP, <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8261799842588444516304]">3</container>
+              <unittitle><title render="italic">Migrant Health Newsline</title> Article on CHAP</unittitle><unitdate type="inclusive" normal="1989">1989</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [369971417627261]">3</container>
-              <unittitle>Nutrition Education through CHAP, presented at National Farmworker Conference <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8261799842588444516304]">3</container>
+              <unittitle>Nutrition Education through CHAP, presented at National Farmworker Conference</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [9644298573349]">4</container>
-              <unittitle>Nutrition Guest Lecture, UofM Nutrition Class <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [19582212549087760172219]">4</container>
+              <unittitle>Nutrition Guest Lecture, UofM Nutrition Class</unittitle><unitdate type="inclusive" normal="1990">1990</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [9644298573349]">4</container>
-              <unittitle>Personal Empowerment in CHA's, APHA Conference <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [19582212549087760172219]">4</container>
+              <unittitle>Personal Empowerment in CHA's, APHA Conference</unittitle><unitdate type="inclusive" normal="1996">1996</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [9644298573349]">4</container>
-              <unittitle>Popular Education Workshop at American Public Health Association Conference <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [19582212549087760172219]">4</container>
+              <unittitle>Popular Education Workshop at American Public Health Association Conference</unittitle><unitdate type="inclusive" normal="1995">1995</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [9644298573349]">4</container>
-              <unittitle>Promoting Healthy Lives <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [19582212549087760172219]">4</container>
+              <unittitle>Promoting Healthy Lives</unittitle><unitdate type="inclusive" normal="2001">2001</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [9644298573349]">4</container>
-              <unittitle>Promotores(as): Access to our Communities Workshop <unitdate type="inclusive" normal="2004">2004</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [19582212549087760172219]">4</container>
+              <unittitle>Promotores(as): Access to our Communities Workshop</unittitle><unitdate type="inclusive" normal="2004">2004</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [9644298573349]">4</container>
-              <unittitle>Support Systems for Women through Lay Health Promotion Programs, U.S.-Mexico Border Conference on Women's Health <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [19582212549087760172219]">4</container>
+              <unittitle>Support Systems for Women through Lay Health Promotion Programs, U.S.-Mexico Border Conference on Women's Health</unittitle><unitdate type="inclusive" normal="1995">1995</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [9644298573349]">4</container>
+              <container type="box" label="Box [19582212549087760172219]">4</container>
               <unittitle>Tools for Building Your <title render="italic">Promotor(a)</title> Program (CD-R)</unittitle>
             </did>
           </c03>
@@ -712,33 +618,28 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [9644298573349]">4</container>
-              <unittitle>Farmworker Occupational Health Surveillance <unitdate type="inclusive" normal="1995/1998">1995-1998</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [19582212549087760172219]">4</container>
+              <unittitle>Farmworker Occupational Health Surveillance</unittitle><unitdate type="inclusive" normal="1995/1998">1995-1998</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [9644298573349]">4</container>
-              <unittitle>Migrant Health Needs Assessment <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [19582212549087760172219]">4</container>
+              <unittitle>Migrant Health Needs Assessment</unittitle><unitdate type="inclusive" normal="1984">1984</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [9644298573349]">4</container>
-              <unittitle>Migrant Studies <unitdate type="inclusive" normal="1986/1989">1986-1989</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [19582212549087760172219]">4</container>
+              <unittitle>Migrant Studies</unittitle><unitdate type="inclusive" normal="1986/1989">1986-1989</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [9644298573349]">4</container>
-              <unittitle>Midwest Migrant Health Information Office Provider Survey <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [19582212549087760172219]">4</container>
+              <unittitle>Midwest Migrant Health Information Office Provider Survey</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [9644298573349]">4</container>
-              <unittitle>Outreach Survey <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [19582212549087760172219]">4</container>
+              <unittitle>Outreach Survey</unittitle><unitdate type="inclusive" normal="1988">1988</unitdate></did>
           </c03>
         </c02>
       </c01>
@@ -755,19 +656,18 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [9644298573349]">4</container>
-              <unittitle>Camp Health Aide contact information and bios <unitdate type="inclusive" normal="1985/1994">1985-1994</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [19582212549087760172219]">4</container>
+              <unittitle>Camp Health Aide contact information and bios</unittitle><unitdate type="inclusive" normal="1985/1994">1985-1994</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [9644298573349]">4</container>
+              <container type="box" label="Box [19582212549087760172219]">4</container>
               <unittitle>Camp Health Aide Personal data forms</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [9644298573349]">4</container>
+              <container type="box" label="Box [19582212549087760172219]">4</container>
               <unittitle>Camp Health Aide Daily Logs (sample only) containing services provided to individual patients</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -776,21 +676,19 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [9644298573349]">4</container>
+              <container type="box" label="Box [19582212549087760172219]">4</container>
               <unittitle>Camp Health Aide Program Forms</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [9644298573349]">4</container>
-              <unittitle>Contracts and Financial Information <unitdate type="inclusive" normal="1986/1989">1986-1989</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [19582212549087760172219]">4</container>
+              <unittitle>Contracts and Financial Information</unittitle><unitdate type="inclusive" normal="1986/1989">1986-1989</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [9644298573349]">4</container>
-              <unittitle>Employment Status and Liability of Camp Health Aides <unitdate type="inclusive" normal="1988/1993">1988-1993</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [19582212549087760172219]">4</container>
+              <unittitle>Employment Status and Liability of Camp Health Aides</unittitle><unitdate type="inclusive" normal="1988/1993">1988-1993</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -798,9 +696,8 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [9644298573349]">4</container>
-                <unittitle>Assessment of Program Performance <unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [19582212549087760172219]">4</container>
+                <unittitle>Assessment of Program Performance</unittitle><unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -808,27 +705,23 @@
               </did>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [9644298573349]">4</container>
-                  <unittitle><unitdate type="inclusive" normal="1989">1989</unitdate> (includes photos)</unittitle>
-                </did>
+                  <container type="box" label="Box [19582212549087760172219]">4</container>
+                  <unittitle>(includes photos)</unittitle><unitdate type="inclusive" normal="1989">1989</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [9644298573349]">4</container>
-                  <unittitle>Florida <unitdate type="inclusive" normal="1997/1999">1997-1999</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [19582212549087760172219]">4</container>
+                  <unittitle>Florida</unittitle><unitdate type="inclusive" normal="1997/1999">1997-1999</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [9644298573349]">4</container>
-                  <unittitle>Illinois <unitdate type="inclusive" normal="1996/1999">1996-1999</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [19582212549087760172219]">4</container>
+                  <unittitle>Illinois</unittitle><unitdate type="inclusive" normal="1996/1999">1996-1999</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [9644298573349]">4</container>
-                  <unittitle>Indiana <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [19582212549087760172219]">4</container>
+                  <unittitle>Indiana</unittitle><unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
@@ -836,164 +729,136 @@
                 </did>
                 <c06 level="file">
                   <did>
-                    <container type="box" label="Box [9644298573349]">4</container>
-                    <unittitle>
-                      <unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate>
-                    </unittitle>
-                  </did>
+                    <container type="box" label="Box [19582212549087760172219]">4</container>
+                    <unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate></did>
                 </c06>
                 <c06 level="file">
                   <did>
-                    <container type="box" label="Box [9644298573349]">4</container>
-                    <unittitle>
-                      <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate>
-                    </unittitle>
-                    <physdesc altrender="whole">
+                    <container type="box" label="Box [19582212549087760172219]">4</container>
+                    <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate><physdesc altrender="whole">
                       <extent altrender="materialtype spaceoccupied">2 folders</extent>
                     </physdesc>
                   </did>
                 </c06>
                 <c06 level="file">
                   <did>
-                    <container type="box" label="Box [9644298573349]">4</container>
-                    <unittitle>Anecdotal information and program objectives <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
-                  </did>
+                    <container type="box" label="Box [19582212549087760172219]">4</container>
+                    <unittitle>Anecdotal information and program objectives</unittitle><unitdate type="inclusive" normal="1989">1989</unitdate></did>
                 </c06>
                 <c06 level="file">
                   <did>
-                    <container type="box" label="Box [9644298573349]">4</container>
-                    <unittitle><unitdate type="inclusive" normal="1990">1990</unitdate>, <unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate></unittitle>
-                  </did>
+                    <container type="box" label="Box [19582212549087760172219]">4</container>
+                    <unitdate type="inclusive" normal="1990">1990</unitdate><unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate></did>
                 </c06>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [877569462452857158]">5</container>
-                  <unittitle>Minnesota <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [19987875458421926980575]">5</container>
+                  <unittitle>Minnesota</unittitle><unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [877569462452857158]">5</container>
-                  <unittitle>Ohio <unitdate type="inclusive" normal="1987/1992">1987-1992</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [19987875458421926980575]">5</container>
+                  <unittitle>Ohio</unittitle><unitdate type="inclusive" normal="1987/1992">1987-1992</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [877569462452857158]">5</container>
-                  <unittitle>Wisconsin <unitdate type="inclusive" normal="1989/1995">1989-1995 (scattered)</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [19987875458421926980575]">5</container>
+                  <unittitle>Wisconsin</unittitle><unitdate type="inclusive" normal="1989/1995">1989-1995 (scattered)</unitdate></did>
               </c05>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [877569462452857158]">5</container>
-                <unittitle>Effectiveness Evaluation <unitdate type="inclusive" normal="1989/1995">1989-1995</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [19987875458421926980575]">5</container>
+                <unittitle>Effectiveness Evaluation</unittitle><unitdate type="inclusive" normal="1989/1995">1989-1995</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [877569462452857158]">5</container>
-                <unittitle>Evaluation Questionnaires <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [19987875458421926980575]">5</container>
+                <unittitle>Evaluation Questionnaires</unittitle><unitdate type="inclusive" normal="1992">1992</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [877569462452857158]">5</container>
-                <unittitle>Evaluation Workshop <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [19987875458421926980575]">5</container>
+                <unittitle>Evaluation Workshop</unittitle><unitdate type="inclusive" normal="1992">1992</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [877569462452857158]">5</container>
-                <unittitle>Home Based Health Education Final Report <unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [19987875458421926980575]">5</container>
+                <unittitle>Home Based Health Education Final Report</unittitle><unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [877569462452857158]">5</container>
-                <unittitle>"Preliminary Data Analysis," <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [19987875458421926980575]">5</container>
+                <unittitle>"Preliminary Data Analysis,"</unittitle><unitdate type="inclusive" normal="1986">1986</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [877569462452857158]">5</container>
-                <unittitle>Reporting Notebook <unitdate type="inclusive" normal="2005">2005</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [19987875458421926980575]">5</container>
+                <unittitle>Reporting Notebook</unittitle><unitdate type="inclusive" normal="2005">2005</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [877569462452857158]">5</container>
-                <unittitle>Scholarship Evaluation <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [19987875458421926980575]">5</container>
+                <unittitle>Scholarship Evaluation</unittitle><unitdate type="inclusive" normal="1995">1995</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [877569462452857158]">5</container>
-                <unittitle>Temperance Camp Health Aide Program Report <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [19987875458421926980575]">5</container>
+                <unittitle>Temperance Camp Health Aide Program Report</unittitle><unitdate type="inclusive" normal="1998">1998</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [877569462452857158]">5</container>
-              <unittitle>Field notes <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [19987875458421926980575]">5</container>
+              <unittitle>Field notes</unittitle><unitdate type="inclusive" normal="1992">1992</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [877569462452857158]">5</container>
+              <container type="box" label="Box [19987875458421926980575]">5</container>
               <unittitle>Implementation Guide</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [877569462452857158]">5</container>
-              <unittitle>CHAP implementation information <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [19987875458421926980575]">5</container>
+              <unittitle>CHAP implementation information</unittitle><unitdate type="inclusive" normal="1991">1991</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [877569462452857158]">5</container>
-              <unittitle>Michigan Expansion Proposal <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [19987875458421926980575]">5</container>
+              <unittitle>Michigan Expansion Proposal</unittitle><unitdate type="inclusive" normal="1987">1987</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [877569462452857158]">5</container>
-              <unittitle>National Institute for Occupational Safety and Health <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [19987875458421926980575]">5</container>
+              <unittitle>National Institute for Occupational Safety and Health</unittitle><unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [877569462452857158]">5</container>
-              <unittitle>Program (proposed), rough draft <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [19987875458421926980575]">5</container>
+              <unittitle>Program (proposed), rough draft</unittitle><unitdate type="inclusive" normal="1984">1984</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [877569462452857158]">5</container>
-              <unittitle>Program description <unitdate type="inclusive" normal="1996/1997">1996-1997</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [19987875458421926980575]">5</container>
+              <unittitle>Program description</unittitle><unitdate type="inclusive" normal="1996/1997">1996-1997</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [877569462452857158]">5</container>
-            <unittitle>Anecdotes <unitdate type="inclusive" normal="1996/2002">1996-2002</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [19987875458421926980575]">5</container>
+            <unittitle>Anecdotes</unittitle><unitdate type="inclusive" normal="1996/2002">1996-2002</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [877569462452857158]">5</container>
-            <unittitle>Article that gives an overview of CHAP <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [19987875458421926980575]">5</container>
+            <unittitle>Article that gives an overview of CHAP</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [877569462452857158]">5</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1985/1991">1985-1991</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [19987875458421926980575]">5</container>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1985/1991">1985-1991</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -1004,41 +869,28 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [877569462452857158]">5</container>
-              <unittitle>Final report <unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate> (includes photos and slides)</unittitle>
-            </did>
+              <container type="box" label="Box [19987875458421926980575]">5</container>
+              <unittitle>Final report (includes photos and slides)</unittitle><unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [877569462452857158]">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1990/1992">1990-1992</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [19987875458421926980575]">5</container>
+              <unitdate type="inclusive" normal="1990/1992">1990-1992</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [877569462452857158]">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [19987875458421926980575]">5</container>
+              <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [877569462452857158]">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [19987875458421926980575]">5</container>
+              <unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [877569462452857158]">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [19987875458421926980575]">5</container>
+              <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -1047,79 +899,68 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [877569462452857158]">5</container>
-              <unittitle>CHAP program <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [19987875458421926980575]">5</container>
+              <unittitle>CHAP program</unittitle><unitdate type="inclusive" normal="1991">1991</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [877569462452857158]">5</container>
-              <unittitle>CHA interviews <unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [19987875458421926980575]">5</container>
+              <unittitle>CHA interviews</unittitle><unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [877569462452857158]">5</container>
-              <unittitle>Journal entries <unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [19987875458421926980575]">5</container>
+              <unittitle>Journal entries</unittitle><unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [877569462452857158]">5</container>
-            <unittitle>Indiana CHA profiles (includes photos) <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [19987875458421926980575]">5</container>
+            <unittitle>Indiana CHA profiles (includes photos)</unittitle><unitdate type="inclusive" normal="1989">1989</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [877569462452857158]">5</container>
-            <unittitle>La Esperanza, CHA Newsletter <unitdate type="inclusive" normal="1990/1993">1990-1993 (scattered)</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [19987875458421926980575]">5</container>
+            <unittitle>La Esperanza, CHA Newsletter</unittitle><unitdate type="inclusive" normal="1990/1993">1990-1993 (scattered)</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [877569462452857158]">5</container>
-            <unittitle>Letter from a former CHA <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [19987875458421926980575]">5</container>
+            <unittitle>Letter from a former CHA</unittitle><unitdate type="inclusive" normal="1992">1992</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [877569462452857158]">5</container>
-            <unittitle>Michigan Women's CHAP <unitdate type="inclusive" normal="1996/1997">1996-1997</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [19987875458421926980575]">5</container>
+            <unittitle>Michigan Women's CHAP</unittitle><unitdate type="inclusive" normal="1996/1997">1996-1997</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [877569462452857158]">5</container>
+            <container type="box" label="Box [19987875458421926980575]">5</container>
             <unittitle>Miscellaneous</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [877569462452857158]">5</container>
-            <unittitle>"Models that Work," <unitdate type="inclusive" normal="1996/1997">1996-1997</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [19987875458421926980575]">5</container>
+            <unittitle>"Models that Work,"</unittitle><unitdate type="inclusive" normal="1996/1997">1996-1997</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [877569462452857158]">5</container>
-            <unittitle>Newsletters <unitdate type="inclusive" normal="1990/2012">1990-2012</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [19987875458421926980575]">5</container>
+            <unittitle>Newsletters</unittitle><unitdate type="inclusive" normal="1990/2012">1990-2012</unitdate></did>
           <odd>
             <p>(scattered years)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [877569462452857158]">5</container>
-            <unittitle>Ohio CHAP, Community Health Services <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [19987875458421926980575]">5</container>
+            <unittitle>Ohio CHAP, Community Health Services</unittitle><unitdate type="inclusive" normal="1990">1990</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [877569462452857158]">5</container>
-            <unittitle>Press release <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [19987875458421926980575]">5</container>
+            <unittitle>Press release</unittitle><unitdate type="inclusive" normal="1988">1988</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1127,79 +968,69 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [877569462452857158]">5</container>
+              <container type="box" label="Box [19987875458421926980575]">5</container>
               <unittitle>Capacity Building Assistance Program</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [877569462452857158]">5</container>
-              <unittitle>CHA Education with United Migrant Opportunity Services <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [19987875458421926980575]">5</container>
+              <unittitle>CHA Education with United Migrant Opportunity Services</unittitle><unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [877569462452857158]">5</container>
-              <unittitle>CHA Women's Farmworker Health Program <unitdate type="inclusive" normal="1996/1997">1996-1997</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [19987875458421926980575]">5</container>
+              <unittitle>CHA Women's Farmworker Health Program</unittitle><unitdate type="inclusive" normal="1996/1997">1996-1997</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [877569462452857158]">5</container>
-              <unittitle>CHAP Pesticide Education Project <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [19987875458421926980575]">5</container>
+              <unittitle>CHAP Pesticide Education Project</unittitle><unitdate type="inclusive" normal="2000">2000</unitdate></did>
             <odd>
               <p>(?)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [877569462452857158]">5</container>
-              <unittitle>Colonia Health Workers managed care program <unitdate type="inclusive" normal="1995/1999">1995-1999</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [19987875458421926980575]">5</container>
+              <unittitle>Colonia Health Workers managed care program</unittitle><unitdate type="inclusive" normal="1995/1999">1995-1999</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [877569462452857158]">5</container>
-              <unittitle>Home-Base Health Education Program <unitdate type="inclusive" normal="1993/1995">1993-1995</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [19987875458421926980575]">5</container>
+              <unittitle>Home-Base Health Education Program</unittitle><unitdate type="inclusive" normal="1993/1995">1993-1995</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [877569462452857158]">5</container>
-              <unittitle>Parish Nurse Project <unitdate type="inclusive" normal="1991/1994">1991-1994</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [19987875458421926980575]">5</container>
+              <unittitle>Parish Nurse Project</unittitle><unitdate type="inclusive" normal="1991/1994">1991-1994</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [877569462452857158]">5</container>
-              <unittitle>Photovoice Project -- Season <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [19987875458421926980575]">5</container>
+              <unittitle>Photovoice Project -- Season</unittitle><unitdate type="inclusive" normal="2000">2000</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [877569462452857158]">5</container>
-              <unittitle>Promotora Task Force <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [19987875458421926980575]">5</container>
+              <unittitle>Promotora Task Force</unittitle><unitdate type="inclusive" normal="1996">1996</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [877569462452857158]">5</container>
-              <unittitle>Promotora or Promotor de Salud <unitdate type="inclusive" normal="2005">2005</unitdate>, <unitdate type="inclusive" normal="2008" certainty="approximate">2008 undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [19987875458421926980575]">5</container>
+              <unittitle>Promotora or Promotor de Salud</unittitle><unitdate type="inclusive" normal="2005">2005</unitdate><unitdate type="inclusive" normal="2008" certainty="approximate">2008 undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [877569462452857158]">5</container>
+              <container type="box" label="Box [19987875458421926980575]">5</container>
               <unittitle>Substance Abuse Prevention Program</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [438673693466931106353]">6</container>
-            <unittitle>Promotional Materials <unitdate type="inclusive" normal="1989/1993">1989-1993</unitdate> and undated</unittitle>
-          </did>
+            <container type="box" label="Box [09346947785265419904]">6</container>
+            <unittitle>Promotional Materials and undated</unittitle><unitdate type="inclusive" normal="1989/1993">1989-1993</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1207,32 +1038,29 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [438673693466931106353]">6</container>
-              <unittitle>Belle Glade Outreach <unitdate type="inclusive" normal="1991" certainty="approximate">1991</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [09346947785265419904]">6</container>
+              <unittitle>Belle Glade Outreach</unittitle><unitdate type="inclusive" normal="1991" certainty="approximate">1991</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [438673693466931106353]">6</container>
-              <unittitle>Delmarva Rural Health Outreach <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [09346947785265419904]">6</container>
+              <unittitle>Delmarva Rural Health Outreach</unittitle><unitdate type="inclusive" normal="1991">1991</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [438673693466931106353]">6</container>
-              <unittitle>Parrottsville, Tennessee, CHAP <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [09346947785265419904]">6</container>
+              <unittitle>Parrottsville, Tennessee, CHAP</unittitle><unitdate type="inclusive" normal="1991">1991</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [438673693466931106353]">6</container>
+              <container type="box" label="Box [09346947785265419904]">6</container>
               <unittitle>"Protegete (Protect Yourself) Border Prevention Program"</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [438673693466931106353]">6</container>
+            <container type="box" label="Box [09346947785265419904]">6</container>
             <unittitle>Surveys for outreach nurses</unittitle>
           </did>
         </c02>
@@ -1242,36 +1070,30 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [438673693466931106353]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [09346947785265419904]">6</container>
+              <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [438673693466931106353]">6</container>
-              <unittitle>Infórmate Program <unitdate type="inclusive" normal="1998/2001">1998-2001 (scattered)</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [09346947785265419904]">6</container>
+              <unittitle>Infórmate Program</unittitle><unitdate type="inclusive" normal="1998/2001">1998-2001 (scattered)</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [438673693466931106353]">6</container>
+              <container type="box" label="Box [09346947785265419904]">6</container>
               <unittitle>Responses to Protegete Program for teen participants</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [438673693466931106353]">6</container>
-            <unittitle>Tidwell Family Care Center in El Mirage, AZ <unitdate type="inclusive" normal="1992/1994">1992-1994</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [09346947785265419904]">6</container>
+            <unittitle>Tidwell Family Care Center in El Mirage, AZ</unittitle><unitdate type="inclusive" normal="1992/1994">1992-1994</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [438673693466931106353]">6</container>
-            <unittitle>Timeline of CHAP, Infórmate and Colonia Health Worker Program from <unitdate type="inclusive" normal="1985/2000">1985-2000</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [09346947785265419904]">6</container>
+            <unittitle>Timeline of CHAP, Infórmate and Colonia Health Worker Program from</unittitle><unitdate type="inclusive" normal="1985/2000">1985-2000</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1279,52 +1101,45 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [438673693466931106353]">6</container>
+              <container type="box" label="Box [09346947785265419904]">6</container>
               <unittitle>Orientation Planning</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [438673693466931106353]">6</container>
-              <unittitle>Local Program Coordinator Orientation <unitdate type="inclusive" normal="1898/1990">1898-1990</unitdate>, <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [09346947785265419904]">6</container>
+              <unittitle>Local Program Coordinator Orientation</unittitle><unitdate type="inclusive" normal="1898/1990">1898-1990</unitdate><unitdate type="inclusive" normal="1993">1993</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [438673693466931106353]">6</container>
-              <unittitle>Wisconsin Program Coordinator Orientation <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [09346947785265419904]">6</container>
+              <unittitle>Wisconsin Program Coordinator Orientation</unittitle><unitdate type="inclusive" normal="1992">1992</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [438673693466931106353]">6</container>
-              <unittitle>Michigan Program Coordinator Orientation <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [09346947785265419904]">6</container>
+              <unittitle>Michigan Program Coordinator Orientation</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [438673693466931106353]">6</container>
-              <unittitle>Wisconsin CHA Orientation <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [09346947785265419904]">6</container>
+              <unittitle>Wisconsin CHA Orientation</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [73174182942193195317]">14</container>
-              <unittitle>Final Report <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [65794814397976278]">14</container>
+              <unittitle>Final Report</unittitle><unitdate type="inclusive" normal="1995">1995</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [438673693466931106353]">6</container>
-              <unittitle>CHA Credentialing <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [09346947785265419904]">6</container>
+              <unittitle>CHA Credentialing</unittitle><unitdate type="inclusive" normal="1996">1996</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [438673693466931106353]">6</container>
-            <unittitle>Wisconsin Migrant Health Meeting <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [09346947785265419904]">6</container>
+            <unittitle>Wisconsin Migrant Health Meeting</unittitle><unitdate type="inclusive" normal="1991">1991</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1336,115 +1151,92 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [438673693466931106353]">6</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1985">1985</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [09346947785265419904]">6</container>
+                <unitdate type="inclusive" normal="1985">1985</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [438673693466931106353]">6</container>
-                <unittitle>"Melba's working copy for the original manual," <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [09346947785265419904]">6</container>
+                <unittitle>"Melba's working copy for the original manual,"</unittitle><unitdate type="inclusive" normal="1985">1985</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [438673693466931106353]">6</container>
-                <unittitle>"Melba's working manual," <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [09346947785265419904]">6</container>
+                <unittitle>"Melba's working manual,"</unittitle><unitdate type="inclusive" normal="1986">1986</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [438673693466931106353]">6</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1987">1987</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [09346947785265419904]">6</container>
+                <unitdate type="inclusive" normal="1987">1987</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [438673693466931106353]">6</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1987/1990">1987-1990 (scattered)</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [09346947785265419904]">6</container>
+                <unitdate type="inclusive" normal="1987/1990">1987-1990 (scattered)</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [438673693466931106353]">6</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1991">1991</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [09346947785265419904]">6</container>
+                <unitdate type="inclusive" normal="1991">1991</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [438673693466931106353]">6</container>
-                <unittitle>Final Version <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [09346947785265419904]">6</container>
+                <unittitle>Final Version</unittitle><unitdate type="inclusive" normal="1997">1997</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [438673693466931106353]">6</container>
-                <unittitle>English Version <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [09346947785265419904]">6</container>
+                <unittitle>English Version</unittitle><unitdate type="inclusive" normal="1997">1997</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">3 folders</extent>
                 </physdesc>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [14829059451508582]">7</container>
-                <unittitle>English and Spanish version <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [6331478958441462]">7</container>
+                <unittitle>English and Spanish version</unittitle><unitdate type="inclusive" normal="1997">1997</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">5 folders</extent>
                 </physdesc>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [14829059451508582]">7</container>
-                <unittitle>Spanish Version <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [6331478958441462]">7</container>
+                <unittitle>Spanish Version</unittitle><unitdate type="inclusive" normal="1997">1997</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">3 folders</extent>
                 </physdesc>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [14829059451508582]">7</container>
-                <unittitle>Teaching Notes/Lessons <unitdate type="inclusive" normal="1991/1997">1991-1997</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [6331478958441462]">7</container>
+                <unittitle>Teaching Notes/Lessons</unittitle><unitdate type="inclusive" normal="1991/1997">1991-1997</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14829059451508582]">7</container>
-              <unittitle>Implementation Guide <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [6331478958441462]">7</container>
+              <unittitle>Implementation Guide</unittitle><unitdate type="inclusive" normal="1991">1991</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14829059451508582]">7</container>
-              <unittitle>Lesson Guide <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [6331478958441462]">7</container>
+              <unittitle>Lesson Guide</unittitle><unitdate type="inclusive" normal="1987">1987</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14829059451508582]">7</container>
-              <unittitle>Program volume <unitdate type="inclusive" normal="1985/1988">1985-1988</unitdate> containing forms, communications, interviews with aides, profiles of aides, reports, lists, and related easy access information</unittitle>
-            </did>
+              <container type="box" label="Box [6331478958441462]">7</container>
+              <unittitle>Program volume containing forms, communications, interviews with aides, profiles of aides, reports, lists, and related easy access information</unittitle><unitdate type="inclusive" normal="1985/1988">1985-1988</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14829059451508582]">7</container>
-              <unittitle>Michigan Department of Health agreement for the Camp Health Aide Program <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [6331478958441462]">7</container>
+              <unittitle>Michigan Department of Health agreement for the Camp Health Aide Program</unittitle><unitdate type="inclusive" normal="1990">1990</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14829059451508582]">7</container>
+              <container type="box" label="Box [6331478958441462]">7</container>
               <unittitle>Notebook containing photocopies of articles relating to migrant health care issues</unittitle>
             </did>
           </c03>
@@ -1459,9 +1251,8 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [14829059451508582]">7</container>
-            <unittitle>Family Health/La Clinica, Wisconsin <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6331478958441462]">7</container>
+            <unittitle>Family Health/La Clinica, Wisconsin</unittitle><unitdate type="inclusive" normal="1992">1992</unitdate></did>
         </c02>
         <c02 level="subseries">
           <did>
@@ -1469,43 +1260,40 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [73174182942193195317]">14</container>
-              <unittitle>Articles about <unitdate type="inclusive" normal="1999/2009">1999-2009</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [65794814397976278]">14</container>
+              <unittitle>Articles about</unittitle><unitdate type="inclusive" normal="1999/2009">1999-2009</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14829059451508582]">7</container>
-              <unittitle>Calendar <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [6331478958441462]">7</container>
+              <unittitle>Calendar</unittitle><unitdate type="inclusive" normal="1998">1998</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14829059451508582]">7</container>
-              <unittitle>Grant Applications and Correspondence <unitdate type="inclusive" normal="1997/2000">1997-2000</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [6331478958441462]">7</container>
+              <unittitle>Grant Applications and Correspondence</unittitle><unitdate type="inclusive" normal="1997/2000">1997-2000</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14829059451508582]">7</container>
+              <container type="box" label="Box [6331478958441462]">7</container>
               <unittitle>Implementation Guide</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14829059451508582]">7</container>
+              <container type="box" label="Box [6331478958441462]">7</container>
               <unittitle>Implementation Notes</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14829059451508582]">7</container>
+              <container type="box" label="Box [6331478958441462]">7</container>
               <unittitle>Manual</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14829059451508582]">7</container>
+              <container type="box" label="Box [6331478958441462]">7</container>
               <unittitle>Miscellaneous</unittitle>
             </did>
           </c03>
@@ -1515,21 +1303,18 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [14829059451508582]">7</container>
-                <unittitle>Annual report <unitdate type="inclusive" normal="2003">2003</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [6331478958441462]">7</container>
+                <unittitle>Annual report</unittitle><unitdate type="inclusive" normal="2003">2003</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [14829059451508582]">7</container>
-                <unittitle>Final reports <unitdate type="inclusive" normal="1998/1999">1998-1999</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [6331478958441462]">7</container>
+                <unittitle>Final reports</unittitle><unitdate type="inclusive" normal="1998/1999">1998-1999</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [14829059451508582]">7</container>
-                <unittitle>Quarterly reports <unitdate type="inclusive" normal="1997/2002">1997-2002</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [6331478958441462]">7</container>
+                <unittitle>Quarterly reports</unittitle><unitdate type="inclusive" normal="1997/2002">1997-2002</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
@@ -1537,9 +1322,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14829059451508582]">7</container>
-              <unittitle>Training Curriculum and Toolkit <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [6331478958441462]">7</container>
+              <unittitle>Training Curriculum and Toolkit</unittitle><unitdate type="inclusive" normal="2000">2000</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -1552,58 +1336,50 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [14829059451508582]">7</container>
+                <container type="box" label="Box [6331478958441462]">7</container>
                 <unittitle>Teaching Tips and Tools</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [14829059451508582]">7</container>
-                <unittitle>College and High School Assistance <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [6331478958441462]">7</container>
+                <unittitle>College and High School Assistance</unittitle><unitdate type="inclusive" normal="1989">1989</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [14829059451508582]">7</container>
-                <unittitle>Teaching Low Literates Workshop <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [6331478958441462]">7</container>
+                <unittitle>Teaching Low Literates Workshop</unittitle><unitdate type="inclusive" normal="1990">1990</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [14829059451508582]">7</container>
-                <unittitle>Sisters of Mercy Education Program <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [6331478958441462]">7</container>
+                <unittitle>Sisters of Mercy Education Program</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14829059451508582]">7</container>
-              <unittitle>Booklet on Texas programs <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [6331478958441462]">7</container>
+              <unittitle>Booklet on Texas programs</unittitle><unitdate type="inclusive" normal="2002">2002</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14829059451508582]">7</container>
-              <unittitle>Colonia Health Worker Outreach Program <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [6331478958441462]">7</container>
+              <unittitle>Colonia Health Worker Outreach Program</unittitle><unitdate type="inclusive" normal="2000">2000</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14829059451508582]">7</container>
-              <unittitle>Familias Fuertes y Saludables <unitdate type="inclusive" normal="2005">2005</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [6331478958441462]">7</container>
+              <unittitle>Familias Fuertes y Saludables</unittitle><unitdate type="inclusive" normal="2005">2005</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14829059451508582]">7</container>
-              <unittitle>Madres y Niños <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [6331478958441462]">7</container>
+              <unittitle>Madres y Niños</unittitle><unitdate type="inclusive" normal="1999">1999</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [14829059451508582]">7</container>
-              <unittitle>Program report to the Board of Directors for <unitdate type="inclusive" normal="1999/2000">1999-2000</unitdate>, <unitdate type="inclusive" normal="2007">2007</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [6331478958441462]">7</container>
+              <unittitle>Program report to the Board of Directors for</unittitle><unitdate type="inclusive" normal="1999/2000">1999-2000</unitdate><unitdate type="inclusive" normal="2007">2007</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1611,9 +1387,8 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [95271539494219915221]">8</container>
-                <unittitle>Directories <unitdate type="inclusive" normal="1984/2007">1984-2007</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [242441409958217686335]">8</container>
+                <unittitle>Directories</unittitle><unitdate type="inclusive" normal="1984/2007">1984-2007</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">3 folders</extent>
                 </physdesc>
                 <physdesc altrender="whole">
@@ -1627,34 +1402,29 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [95271539494219915221]">8</container>
-                <unittitle>Directory Evaluation <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [242441409958217686335]">8</container>
+                <unittitle>Directory Evaluation</unittitle><unitdate type="inclusive" normal="1992">1992</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [95271539494219915221]">8</container>
-                <unittitle>Final Report on Evaluation <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [242441409958217686335]">8</container>
+                <unittitle>Final Report on Evaluation</unittitle><unitdate type="inclusive" normal="1987">1987</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [95271539494219915221]">8</container>
-                <unittitle>History of Discontinuation <unitdate type="inclusive" normal="2002/2006">2002-2006</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [242441409958217686335]">8</container>
+                <unittitle>History of Discontinuation</unittitle><unitdate type="inclusive" normal="2002/2006">2002-2006</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [95271539494219915221]">8</container>
-              <unittitle>Reducing Eye Injuries and Illnesses in Latino Farmworkers Progress Report <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [242441409958217686335]">8</container>
+              <unittitle>Reducing Eye Injuries and Illnesses in Latino Farmworkers Progress Report</unittitle><unitdate type="inclusive" normal="2000">2000</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [95271539494219915221]">8</container>
-              <unittitle>Salud Para Todos Implementation Guide <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [242441409958217686335]">8</container>
+              <unittitle>Salud Para Todos Implementation Guide</unittitle><unitdate type="inclusive" normal="2000">2000</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -1663,88 +1433,75 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [95271539494219915221]">8</container>
-              <unittitle>"Changes in Empowerment" comments <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [242441409958217686335]">8</container>
+              <unittitle>"Changes in Empowerment" comments</unittitle><unitdate type="inclusive" normal="1996">1996</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [95271539494219915221]">8</container>
-              <unittitle>Community Health Aide Project, Texarkana, AR <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [242441409958217686335]">8</container>
+              <unittitle>Community Health Aide Project, Texarkana, AR</unittitle><unitdate type="inclusive" normal="1994">1994</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [95271539494219915221]">8</container>
-              <unittitle>Community Health Management Corporation <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [242441409958217686335]">8</container>
+              <unittitle>Community Health Management Corporation</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [95271539494219915221]">8</container>
-              <unittitle>Final Report <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [242441409958217686335]">8</container>
+              <unittitle>Final Report</unittitle><unitdate type="inclusive" normal="1998">1998</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [95271539494219915221]">8</container>
-              <unittitle>La Familia Sana <unitdate type="inclusive" normal="1991">1991</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [242441409958217686335]">8</container>
+              <unittitle>La Familia Sana</unittitle><unitdate type="inclusive" normal="1991">1991</unitdate><unitdate type="inclusive">undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [95271539494219915221]">8</container>
-              <unittitle>Lay Health Advisors Curriculum <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [242441409958217686335]">8</container>
+              <unittitle>Lay Health Advisors Curriculum</unittitle><unitdate type="inclusive" normal="1987">1987</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [95271539494219915221]">8</container>
-              <unittitle>Maternal and Child Health Migrant Project, North Carolina <unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [242441409958217686335]">8</container>
+              <unittitle>Maternal and Child Health Migrant Project, North Carolina</unittitle><unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [95271539494219915221]">8</container>
+              <container type="box" label="Box [242441409958217686335]">8</container>
               <unittitle>Migrant Farmworker Lay Health Promotion Program</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [95271539494219915221]">8</container>
-              <unittitle>National Community Health Advisor Study <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [242441409958217686335]">8</container>
+              <unittitle>National Community Health Advisor Study</unittitle><unitdate type="inclusive" normal="1994">1994</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [95271539494219915221]">8</container>
-              <unittitle>Prevention Project <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [242441409958217686335]">8</container>
+              <unittitle>Prevention Project</unittitle><unitdate type="inclusive" normal="1996">1996</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [95271539494219915221]">8</container>
-              <unittitle>Progress Reports <unitdate type="inclusive" normal="1992/1997">1992-1997</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [242441409958217686335]">8</container>
+              <unittitle>Progress Reports</unittitle><unitdate type="inclusive" normal="1992/1997">1992-1997</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [95271539494219915221]">8</container>
-              <unittitle>Teen Programs <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [242441409958217686335]">8</container>
+              <unittitle>Teen Programs</unittitle><unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [95271539494219915221]">8</container>
-              <unittitle>Village Health Worker Program, Detroit, MI <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [242441409958217686335]">8</container>
+              <unittitle>Village Health Worker Program, Detroit, MI</unittitle><unitdate type="inclusive" normal="1994">1994</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [95271539494219915221]">8</container>
-            <unittitle>REACH Promotora Community Coalition <unitdate type="inclusive" normal="2003">2003</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [242441409958217686335]">8</container>
+            <unittitle>REACH Promotora Community Coalition</unittitle><unitdate type="inclusive" normal="2003">2003</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -1756,13 +1513,12 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [95271539494219915221]">8</container>
-            <unittitle>Annual reports <unitdate type="inclusive" normal="2002/2008">2002-2008 (scattered)</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [242441409958217686335]">8</container>
+            <unittitle>Annual reports</unittitle><unitdate type="inclusive" normal="2002/2008">2002-2008 (scattered)</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [95271539494219915221]">8</container>
+            <container type="box" label="Box [242441409958217686335]">8</container>
             <unittitle><title render="italic">Catalyst</title> Newsletter</unittitle>
           </did>
         </c02>
@@ -1772,15 +1528,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [95271539494219915221]">8</container>
-              <unittitle>Breakfast meeting <unitdate type="inclusive" normal="1997">1997</unitdate>, <unitdate type="inclusive" normal="2000/2001">2000-2001</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [242441409958217686335]">8</container>
+              <unittitle>Breakfast meeting</unittitle><unitdate type="inclusive" normal="1997">1997</unitdate><unitdate type="inclusive" normal="2000/2001">2000-2001</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [95271539494219915221]">8</container>
-              <unittitle>Conference call minutes and agendas <unitdate type="inclusive" normal="1986/1996">1986-1996 (scattered)</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [242441409958217686335]">8</container>
+              <unittitle>Conference call minutes and agendas</unittitle><unitdate type="inclusive" normal="1986/1996">1986-1996 (scattered)</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1788,94 +1542,79 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [95271539494219915221]">8</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1986/1989">1986-1989</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [242441409958217686335]">8</container>
+                <unitdate type="inclusive" normal="1986/1989">1986-1989</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [95271539494219915221]">8</container>
-                <unittitle><unitdate type="inclusive" normal="1990/2000">1990-2000 (scattered)</unitdate>, <unitdate type="inclusive" normal="2009">2009</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [242441409958217686335]">8</container>
+                <unitdate type="inclusive" normal="1990/2000">1990-2000 (scattered)</unitdate><unitdate type="inclusive" normal="2009">2009</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [95271539494219915221]">8</container>
-              <unittitle>Cover letter template <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [242441409958217686335]">8</container>
+              <unittitle>Cover letter template</unittitle><unitdate type="inclusive" normal="1988">1988</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [95271539494219915221]">8</container>
-              <unittitle>Grant proposal/invitation to become a member <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [242441409958217686335]">8</container>
+              <unittitle>Grant proposal/invitation to become a member</unittitle><unitdate type="inclusive" normal="1991">1991</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [95271539494219915221]">8</container>
-              <unittitle>Meeting minutes and agendas <unitdate type="inclusive" normal="1984/1998">1984-1998 (scattered)</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [242441409958217686335]">8</container>
+              <unittitle>Meeting minutes and agendas</unittitle><unitdate type="inclusive" normal="1984/1998">1984-1998 (scattered)</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [95271539494219915221]">8</container>
-              <unittitle>Membership and potential members <unitdate type="inclusive" normal="1986/1998">1986-1998 (scattered)</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [242441409958217686335]">8</container>
+              <unittitle>Membership and potential members</unittitle><unitdate type="inclusive" normal="1986/1998">1986-1998 (scattered)</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [95271539494219915221]">8</container>
-              <unittitle>Memos <unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [242441409958217686335]">8</container>
+              <unittitle>Memos</unittitle><unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [95271539494219915221]">8</container>
-              <unittitle>Reports from CCMH <unitdate type="inclusive" normal="1991/1994">1991-1994 (scattered)</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [242441409958217686335]">8</container>
+              <unittitle>Reports from CCMH</unittitle><unitdate type="inclusive" normal="1991/1994">1991-1994 (scattered)</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [95271539494219915221]">8</container>
-              <unittitle>Reports to CCMH from Michigan Health Promotion <unitdate type="inclusive" normal="1990">1990</unitdate>, <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [242441409958217686335]">8</container>
+              <unittitle>Reports to CCMH from Michigan Health Promotion</unittitle><unitdate type="inclusive" normal="1990">1990</unitdate><unitdate type="inclusive" normal="2000">2000</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [95271539494219915221]">8</container>
-              <unittitle>Strategic plans, priorities and overview of responsibilities <unitdate type="inclusive" normal="1991/1995">1991-1995 (scattered)</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [242441409958217686335]">8</container>
+              <unittitle>Strategic plans, priorities and overview of responsibilities</unittitle><unitdate type="inclusive" normal="1991/1995">1991-1995 (scattered)</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [95271539494219915221]">8</container>
+              <container type="box" label="Box [242441409958217686335]">8</container>
               <unittitle>Miscellaneous</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [73174182942193195317]">14</container>
-            <unittitle>Clippings <unitdate type="inclusive" normal="1991/2003">1991-2003</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [65794814397976278]">14</container>
+            <unittitle>Clippings</unittitle><unitdate type="inclusive" normal="1991/2003">1991-2003</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [95271539494219915221]">8</container>
-            <unittitle>Correspondence to and from government officials <unitdate type="inclusive" normal="1995/2002">1995-2002 (scattered)</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [242441409958217686335]">8</container>
+            <unittitle>Correspondence to and from government officials</unittitle><unitdate type="inclusive" normal="1995/2002">1995-2002 (scattered)</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [95271539494219915221]">8</container>
-            <unittitle>Farmworker Advisory Council <unitdate type="inclusive" normal="1991/1999">1991-1999 (scattered)</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [242441409958217686335]">8</container>
+            <unittitle>Farmworker Advisory Council</unittitle><unitdate type="inclusive" normal="1991/1999">1991-1999 (scattered)</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1883,45 +1622,38 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [95271539494219915221]">8</container>
-              <unittitle>Coordination of Migrant and Seasonal Farmworker Service Programs <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [242441409958217686335]">8</container>
+              <unittitle>Coordination of Migrant and Seasonal Farmworker Service Programs</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [95271539494219915221]">8</container>
-              <unittitle>Environmental Effects on Migrant Health <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [242441409958217686335]">8</container>
+              <unittitle>Environmental Effects on Migrant Health</unittitle><unitdate type="inclusive" normal="1989">1989</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2870542716483555808466]">9</container>
-              <unittitle>Federal Funding Guidelines <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [622013472813894777929]">9</container>
+              <unittitle>Federal Funding Guidelines</unittitle><unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2870542716483555808466]">9</container>
-              <unittitle>Federal Migrant Health Program Strategic Work Plan <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [622013472813894777929]">9</container>
+              <unittitle>Federal Migrant Health Program Strategic Work Plan</unittitle><unitdate type="inclusive" normal="1988">1988</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2870542716483555808466]">9</container>
-              <unittitle>National Advisory Council on Migrant Health Recommendations <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [622013472813894777929]">9</container>
+              <unittitle>National Advisory Council on Migrant Health Recommendations</unittitle><unitdate type="inclusive" normal="1989">1989</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2870542716483555808466]">9</container>
-              <unittitle>Personal Responsibility and Work Opportunity Act of <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [622013472813894777929]">9</container>
+              <unittitle>Personal Responsibility and Work Opportunity Act of</unittitle><unitdate type="inclusive" normal="1996">1996</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2870542716483555808466]">9</container>
-              <unittitle>Self-Help Health Promotion <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [622013472813894777929]">9</container>
+              <unittitle>Self-Help Health Promotion</unittitle><unitdate type="inclusive" normal="1989">1989</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -1930,52 +1662,45 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2870542716483555808466]">9</container>
-              <unittitle>Health Care Reform <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [622013472813894777929]">9</container>
+              <unittitle>Health Care Reform</unittitle><unitdate type="inclusive" normal="1994">1994</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2870542716483555808466]">9</container>
-              <unittitle>Managed Care and Migrant Workers <unitdate type="inclusive" normal="1995/1996">1995-1996</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [622013472813894777929]">9</container>
+              <unittitle>Managed Care and Migrant Workers</unittitle><unitdate type="inclusive" normal="1995/1996">1995-1996</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2870542716483555808466]">9</container>
-            <unittitle><title render="italic">Health for the Nation's Harvesters: A History of the Migrant Health Program in its Economic and Social Setting</title>, <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [622013472813894777929]">9</container>
+            <unittitle><title render="italic">Health for the Nation's Harvesters: A History of the Migrant Health Program in its Economic and Social Setting</title></unittitle><unitdate type="inclusive" normal="1985">1985</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2870542716483555808466]">9</container>
+            <container type="box" label="Box [622013472813894777929]">9</container>
             <unittitle>HIV/AIDS</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2870542716483555808466]">9</container>
-            <unittitle>"Interviews with Migrant Women," <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [622013472813894777929]">9</container>
+            <unittitle>"Interviews with Migrant Women,"</unittitle><unitdate type="inclusive" normal="1986">1986</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2870542716483555808466]">9</container>
-            <unittitle>Labor Camp Sanitation Guidelines <unitdate type="inclusive" normal="1989/1995">1989-1995</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [622013472813894777929]">9</container>
+            <unittitle>Labor Camp Sanitation Guidelines</unittitle><unitdate type="inclusive" normal="1989/1995">1989-1995</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2870542716483555808466]">9</container>
-            <unittitle>Michigan-Texas Organizational development <unitdate type="inclusive" normal="2004">2004</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [622013472813894777929]">9</container>
+            <unittitle>Michigan-Texas Organizational development</unittitle><unitdate type="inclusive" normal="2004">2004</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2870542716483555808466]">9</container>
-            <unittitle>Midwest Migrant Health Information Office <unitdate type="inclusive" normal="1993">1993</unitdate>, <unitdate type="inclusive" normal="1997">1997</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [622013472813894777929]">9</container>
+            <unittitle>Midwest Migrant Health Information Office</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate><unitdate type="inclusive" normal="1997">1997</unitdate><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1983,46 +1708,40 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2870542716483555808466]">9</container>
+              <container type="box" label="Box [622013472813894777929]">9</container>
               <unittitle>Children's Health</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2870542716483555808466]">9</container>
-              <unittitle>Latinos and HIV <unitdate type="inclusive" normal="1996">1996</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [622013472813894777929]">9</container>
+              <unittitle>Latinos and HIV</unittitle><unitdate type="inclusive" normal="1996">1996</unitdate><unitdate type="inclusive">undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2870542716483555808466]">9</container>
-              <unittitle>Spanish/English Medical Terms <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [622013472813894777929]">9</container>
+              <unittitle>Spanish/English Medical Terms</unittitle><unitdate type="inclusive" normal="1981">1981</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2870542716483555808466]">9</container>
-              <unittitle>Folk Healing <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [622013472813894777929]">9</container>
+              <unittitle>Folk Healing</unittitle><unitdate type="inclusive">undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2870542716483555808466]">9</container>
-              <unittitle>Nutrition Education Materials, Spanish/English <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [622013472813894777929]">9</container>
+              <unittitle>Nutrition Education Materials, Spanish/English</unittitle><unitdate type="inclusive">undated</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2870542716483555808466]">9</container>
-            <unittitle>National Migrant Resource Program, Inc. <unitdate type="inclusive" normal="1991">1991</unitdate> Migrant Health Centers Referral Directory</unittitle>
-          </did>
+            <container type="box" label="Box [622013472813894777929]">9</container>
+            <unittitle>National Migrant Resource Program, Inc. Migrant Health Centers Referral Directory</unittitle><unitdate type="inclusive" normal="1991">1991</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2870542716483555808466]">9</container>
-            <unittitle>Outreach Guidance <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [622013472813894777929]">9</container>
+            <unittitle>Outreach Guidance</unittitle><unitdate type="inclusive" normal="1992">1992</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -2030,46 +1749,40 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2870542716483555808466]">9</container>
-              <unittitle>"The Migration of Mexican-American Agricultural Labor into Wood County, Ohio", Wade A. Chio <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [622013472813894777929]">9</container>
+              <unittitle>"The Migration of Mexican-American Agricultural Labor into Wood County, Ohio", Wade A. Chio</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2870542716483555808466]">9</container>
-              <unittitle>"Seven Families", Joy Hintz <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [622013472813894777929]">9</container>
+              <unittitle>"Seven Families", Joy Hintz</unittitle><unitdate type="inclusive" normal="1976">1976</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2870542716483555808466]">9</container>
-              <unittitle>"Minority Health in Michigan; Closing the Gap", Michigan Department of Public Health <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [622013472813894777929]">9</container>
+              <unittitle>"Minority Health in Michigan; Closing the Gap", Michigan Department of Public Health</unittitle><unitdate type="inclusive" normal="1988">1988</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2870542716483555808466]">9</container>
-              <unittitle>"The Politics of Health Policy on Migrants", Rosemary Berchem <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [622013472813894777929]">9</container>
+              <unittitle>"The Politics of Health Policy on Migrants", Rosemary Berchem</unittitle><unitdate type="inclusive" normal="1984">1984</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2870542716483555808466]">9</container>
+            <container type="box" label="Box [622013472813894777929]">9</container>
             <unittitle>"Short Biographies of the MMHIO Advisory Council Members" (includes <genreform normal="Photographs">photos</genreform>)</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2870542716483555808466]">9</container>
-            <unittitle>"Task Force on Collaboration in Migrant Health," <unitdate type="inclusive" normal="1984/1987">1984-1987</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [622013472813894777929]">9</container>
+            <unittitle>"Task Force on Collaboration in Migrant Health,"</unittitle><unitdate type="inclusive" normal="1984/1987">1984-1987</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2870542716483555808466]">9</container>
-            <unittitle>Miscellaneous <unitdate type="inclusive" normal="1984">1984</unitdate>, <unitdate type="inclusive" normal="2009" certainty="approximate">2009 undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [622013472813894777929]">9</container>
+            <unittitle>Miscellaneous</unittitle><unitdate type="inclusive" normal="1984">1984</unitdate><unitdate type="inclusive" normal="2009" certainty="approximate">2009 undated</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -2083,31 +1796,28 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2870542716483555808466]">9</container>
-            <unittitle>La Voz Latina Program <unitdate type="inclusive" normal="2008">2008</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [622013472813894777929]">9</container>
+            <unittitle>La Voz Latina Program</unittitle><unitdate type="inclusive" normal="2008">2008</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2870542716483555808466]">9</container>
-            <unittitle>Migrant Health Promotion <unitdate type="inclusive" normal="1993/2000">1993-2000</unitdate></unittitle>
-            <physdesc>
+            <container type="box" label="Box [622013472813894777929]">9</container>
+            <unittitle>Migrant Health Promotion</unittitle><unitdate type="inclusive" normal="1993/2000">1993-2000</unitdate><physdesc>
               <physfacet>photograph album</physfacet>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2870542716483555808466]">9</container>
-            <unittitle>Migrant Health Promotion Texas <unitdate type="inclusive" normal="2007">2007</unitdate></unittitle>
-            <physdesc>
+            <container type="box" label="Box [622013472813894777929]">9</container>
+            <unittitle>Migrant Health Promotion Texas</unittitle><unitdate type="inclusive" normal="2007">2007</unitdate><physdesc>
               <physfacet>photograph album</physfacet>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2870542716483555808466]">9</container>
+            <container type="box" label="Box [622013472813894777929]">9</container>
             <unittitle>Staff</unittitle>
           </did>
         </c02>
@@ -2117,69 +1827,55 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2870542716483555808466]">9</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="2006">2006</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [622013472813894777929]">9</container>
+              <unitdate type="inclusive" normal="2006">2006</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2870542716483555808466]">9</container>
-              <unittitle>Nutrition CHAP <unitdate type="inclusive" normal="2007">2007</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [622013472813894777929]">9</container>
+              <unittitle>Nutrition CHAP</unittitle><unitdate type="inclusive" normal="2007">2007</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2870542716483555808466]">9</container>
-              <unittitle>Teen Aides <unitdate type="inclusive" normal="1998/2001">1998-2001</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [622013472813894777929]">9</container>
+              <unittitle>Teen Aides</unittitle><unitdate type="inclusive" normal="1998/2001">1998-2001</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [79557276043918409299]">10</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1986/1989">1986-1989</unitdate>
-              </unittitle>
-              <physdesc>
+              <container type="box" label="Box [30481636548085676711411]">10</container>
+              <unitdate type="inclusive" normal="1986/1989">1986-1989</unitdate><physdesc>
                 <physfacet>photograph album</physfacet>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [79557276043918409299]">10</container>
-              <unittitle>Shelby CHAP <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-              <physdesc>
+              <container type="box" label="Box [30481636548085676711411]">10</container>
+              <unittitle>Shelby CHAP</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate><physdesc>
                 <physfacet>photograph album</physfacet>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [79557276043918409299]">10</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1999/2001">1999-2001</unitdate>
-              </unittitle>
-              <physdesc>
+              <container type="box" label="Box [30481636548085676711411]">10</container>
+              <unitdate type="inclusive" normal="1999/2001">1999-2001</unitdate><physdesc>
                 <physfacet>photograph album</physfacet>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [79557276043918409299]">10</container>
-              <unittitle>Indiana CHA <unitdate type="inclusive">undated</unitdate></unittitle>
-              <physdesc>
+              <container type="box" label="Box [30481636548085676711411]">10</container>
+              <unittitle>Indiana CHA</unittitle><unitdate type="inclusive">undated</unitdate><physdesc>
                 <physfacet>photograph album</physfacet>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [79557276043918409299]">10</container>
-              <unittitle>Wild Rose Clinic (Wild Rose, WI) <unitdate type="inclusive" normal="1989/1991">1989-1991</unitdate></unittitle>
-              <physdesc>
+              <container type="box" label="Box [30481636548085676711411]">10</container>
+              <unittitle>Wild Rose Clinic (Wild Rose, WI)</unittitle><unitdate type="inclusive" normal="1989/1991">1989-1991</unitdate><physdesc>
                 <physfacet>2 photograph albums</physfacet>
               </physdesc>
             </did>
@@ -2190,22 +1886,19 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [79557276043918409299]">10</container>
-                <unittitle>Illinois Camp Health Aide Program <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [30481636548085676711411]">10</container>
+                <unittitle>Illinois Camp Health Aide Program</unittitle><unitdate type="inclusive" normal="1997">1997</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [79557276043918409299]">10</container>
-                <unittitle>The National Migrant Worker Council <unitdate type="inclusive" normal="1979/1982">1979-1982</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [30481636548085676711411]">10</container>
+                <unittitle>The National Migrant Worker Council</unittitle><unitdate type="inclusive" normal="1979/1982">1979-1982</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [26028929466820985351042]">11</container>
-              <unittitle>Photovoice project <unitdate type="inclusive" normal="2009">2009</unitdate></unittitle>
-              <physdesc>
+              <container type="box" label="Box [726542478886493679939]">11</container>
+              <unittitle>Photovoice project</unittitle><unitdate type="inclusive" normal="2009">2009</unitdate><physdesc>
                 <physfacet>32 mounted photographs</physfacet>
               </physdesc>
             </did>
@@ -2213,21 +1906,18 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [73174182942193195317]">14</container>
-            <unittitle>Contact sheets <unitdate type="inclusive" normal="1993/2008">1993, 2008</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [65794814397976278]">14</container>
+            <unittitle>Contact sheets</unittitle><unitdate type="inclusive" normal="1993/2008">1993, 2008</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [73174182942193195317]">14</container>
-            <unittitle>Miscellaneous <unitdate type="inclusive" normal="1985/2008">late 1980s-2008</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [65794814397976278]">14</container>
+            <unittitle>Miscellaneous</unittitle><unitdate type="inclusive" normal="1985/2008">late 1980s-2008</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [73174182942193195317]">14</container>
-            <unittitle>Negatives <unitdate type="inclusive" normal="1994">1994</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [65794814397976278]">14</container>
+            <unittitle>Negatives</unittitle><unitdate type="inclusive" normal="1994">1994</unitdate><unitdate type="inclusive">undated</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -2245,15 +1935,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7825529549985684049062]">12</container>
-              <unittitle>Harvest of Hope; The Camp Health Aide Program <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [7718654659242022926]">12</container>
+              <unittitle>Harvest of Hope; The Camp Health Aide Program</unittitle><unitdate type="inclusive" normal="1989">1989</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7825529549985684049062]">12</container>
-              <unittitle>The Camp Health Aide Program; A Personal Perspective <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [7718654659242022926]">12</container>
+              <unittitle>The Camp Health Aide Program; A Personal Perspective</unittitle><unitdate type="inclusive" normal="1990">1990</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -2269,16 +1957,15 @@
               </did>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [7825529549985684049062]">12</container>
-                  <unittitle>Tour of Home of Marie Inez Perez (a camp health aide) <unitdate type="inclusive" normal="1989-04-18">April 18, 1989</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [7718654659242022926]">12</container>
+                  <unittitle>Tour of Home of Marie Inez Perez (a camp health aide)</unittitle><unitdate type="inclusive" normal="1989-04-18">April 18, 1989</unitdate></did>
                 <odd>
                   <p>(tape nos. 1-5)</p>
                 </odd>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [7825529549985684049062]">12</container>
+                  <container type="box" label="Box [7718654659242022926]">12</container>
                   <unittitle>Outside Perez home in Texas, preparing lunch, doing laundry</unittitle>
                 </did>
                 <odd>
@@ -2287,7 +1974,7 @@
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [7825529549985684049062]">12</container>
+                  <container type="box" label="Box [7718654659242022926]">12</container>
                   <unittitle>Daughter Ruby comes home and talks</unittitle>
                 </did>
                 <odd>
@@ -2296,7 +1983,7 @@
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [7825529549985684049062]">12</container>
+                  <container type="box" label="Box [7718654659242022926]">12</container>
                   <unittitle>Ruby in her room</unittitle>
                 </did>
                 <odd>
@@ -2305,7 +1992,7 @@
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [7825529549985684049062]">12</container>
+                  <container type="box" label="Box [7718654659242022926]">12</container>
                   <unittitle>Daughter Esmeralda talking in her room</unittitle>
                 </did>
                 <odd>
@@ -2314,7 +2001,7 @@
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [7825529549985684049062]">12</container>
+                  <container type="box" label="Box [7718654659242022926]">12</container>
                   <unittitle>Church service</unittitle>
                 </did>
                 <odd>
@@ -2323,7 +2010,7 @@
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [7825529549985684049062]">12</container>
+                  <container type="box" label="Box [7718654659242022926]">12</container>
                   <unittitle>Interview with young couple talking about migrant life and her work as camp health aide</unittitle>
                 </did>
                 <odd>
@@ -2341,7 +2028,7 @@
               </did>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [7825529549985684049062]">12</container>
+                  <container type="box" label="Box [7718654659242022926]">12</container>
                   <unittitle>Discussion of Migrant Camp Health Aide program with doctor at community heath center in Sparta, Michigan</unittitle>
                 </did>
                 <odd>
@@ -2350,7 +2037,7 @@
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [7825529549985684049062]">12</container>
+                  <container type="box" label="Box [7718654659242022926]">12</container>
                   <unittitle>Interview of Migrant Health Care Aide at the Sparta migrant camp</unittitle>
                 </did>
                 <odd>
@@ -2359,7 +2046,7 @@
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [7825529549985684049062]">12</container>
+                  <container type="box" label="Box [7718654659242022926]">12</container>
                   <unittitle>Interview with another aide</unittitle>
                 </did>
                 <odd>
@@ -2368,7 +2055,7 @@
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [7825529549985684049062]">12</container>
+                  <container type="box" label="Box [7718654659242022926]">12</container>
                   <unittitle>Children playing in camp, exterior views of camp life; interview with Inez Perez about proposed day-care facility in Oceana County.</unittitle>
                 </did>
                 <odd>
@@ -2377,7 +2064,7 @@
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [7825529549985684049062]">12</container>
+                  <container type="box" label="Box [7718654659242022926]">12</container>
                   <unittitle>Migrants in fields; interview with them about the camp health aide program</unittitle>
                 </did>
                 <odd>
@@ -2401,7 +2088,7 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [21542803409113997084]">13</container>
+              <container type="box" label="Box [522326758240810645220]">13</container>
               <unittitle>Migrant Health Promotion</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">4 tapes</extent>
@@ -2413,16 +2100,15 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [21542803409113997084]">13</container>
-              <unittitle>Somewhere to Turn: Community and Migrant Health Centers Story <unitdate type="inclusive" normal="1990/1999" certainty="approximate">1990s</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [522326758240810645220]">13</container>
+              <unittitle>Somewhere to Turn: Community and Migrant Health Centers Story</unittitle><unitdate type="inclusive" normal="1990/1999" certainty="approximate">1990s</unitdate></did>
             <odd>
               <p>(tape no. 5)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [21542803409113997084]">13</container>
+              <container type="box" label="Box [522326758240810645220]">13</container>
               <unittitle>Migrant Lay Health Programs: Their Role and Impact, 199?</unittitle>
             </did>
             <odd>
@@ -2431,7 +2117,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [21542803409113997084]">13</container>
+              <container type="box" label="Box [522326758240810645220]">13</container>
               <unittitle>Nuestra Salud</unittitle>
             </did>
             <odd>
@@ -2440,7 +2126,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [21542803409113997084]">13</container>
+              <container type="box" label="Box [522326758240810645220]">13</container>
               <unittitle>Nuestra Salud La Menopausia</unittitle>
             </did>
             <odd>
@@ -2449,7 +2135,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [21542803409113997084]">13</container>
+              <container type="box" label="Box [522326758240810645220]">13</container>
               <unittitle>Nuestra Salud El Examen Annual</unittitle>
               <physdesc>
                 <physfacet>DVD-RW</physfacet>
@@ -2458,7 +2144,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [21542803409113997084]">13</container>
+              <container type="box" label="Box [522326758240810645220]">13</container>
               <unittitle>Maria Irma's Educational Session Cambria, Pre-Natal</unittitle>
             </did>
             <odd>
@@ -2467,7 +2153,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [21542803409113997084]">13</container>
+              <container type="box" label="Box [522326758240810645220]">13</container>
               <unittitle>Interview with Sr. Maurita</unittitle>
             </did>
             <odd>
@@ -2476,7 +2162,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [21542803409113997084]">13</container>
+              <container type="box" label="Box [522326758240810645220]">13</container>
               <unittitle>Bianca's Education Session Cameria, Part 1; L.P.C. Training with June</unittitle>
             </did>
             <odd>
@@ -2485,7 +2171,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [21542803409113997084]">13</container>
+              <container type="box" label="Box [522326758240810645220]">13</container>
               <unittitle>Bianca's Educational Session Cameria, Part 2; Personal Hygiene, Part II</unittitle>
             </did>
             <odd>
@@ -2494,16 +2180,15 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [21542803409113997084]">13</container>
-              <unittitle>Group Educational Sessions, Wisconsin <unitdate type="inclusive" normal="1992-08">8/1992</unitdate> MMH10 10th Year Celebration, Texas, <unitdate type="inclusive" normal="1993-02">2/1993</unitdate> labeled 7, <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [522326758240810645220]">13</container>
+              <unittitle>Group Educational Sessions, Wisconsin 8/1992 MMH10 10th Year Celebration, Texas, 2/1993 labeled 7, 1992-1993</unittitle><unitdate type="inclusive" normal="1992-08">8/1992</unitdate><unitdate type="inclusive" normal="1993-02">2/1993</unitdate><unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate></did>
             <odd>
               <p>(tape no. 13)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [21542803409113997084]">13</container>
+              <container type="box" label="Box [522326758240810645220]">13</container>
               <unittitle>Bureau of Primary Health Care Video featuring MHP CHAP in Mercedes, TX</unittitle>
             </did>
             <odd>
@@ -2512,18 +2197,16 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [21542803409113997084]">13</container>
-              <unittitle>Models That Work <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [522326758240810645220]">13</container>
+              <unittitle>Models That Work</unittitle><unitdate type="inclusive" normal="1996">1996</unitdate></did>
             <odd>
               <p>(tape no. 15)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [21542803409113997084]">13</container>
-              <unittitle>Promotora Talk Show <unitdate type="inclusive" normal="2004-01-31">January 31, 2004</unitdate></unittitle>
-              <physdesc>
+              <container type="box" label="Box [522326758240810645220]">13</container>
+              <unittitle>Promotora Talk Show</unittitle><unitdate type="inclusive" normal="2004-01-31">January 31, 2004</unitdate><physdesc>
                 <physfacet>Mini Digital Video Cassette</physfacet>
               </physdesc>
             </did>
@@ -2544,9 +2227,8 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [21542803409113997084]">13</container>
-            <unittitle>Radio Interview with Alejandra Gonzales (NPR-All Things Considered CHAP-Farmworkers-Mental Health) <unitdate type="inclusive" normal="2001-08">8/2001</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [522326758240810645220]">13</container>
+            <unittitle>Radio Interview with Alejandra Gonzales (NPR-All Things Considered CHAP-Farmworkers-Mental Health)</unittitle><unitdate type="inclusive" normal="2001-08">8/2001</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">1 audiocassettes</extent>
             </physdesc>
           </did>

@@ -12,7 +12,7 @@ from aspace_migration.find_missing_refs import find_missing_refs
 def run_aspace_preliminary_postings(aspace_ead_dir, subjects_agents_dir, digital_objects_dir, json_dir, resources_dir, migration_stats_dir, dspace_mets_dir, aspace_url, username, password):
 	post_subjects(aspace_ead_dir, subjects_agents_dir, aspace_url, username, password)
 	update_posted_subjects(aspace_ead_dir, subjects_agents_dir)
-	post_digital_objects(aspace_ead_dir, digital_objects_dir, dspace_mets_dir, aspace_url, username, password)
+	post_digital_objects(aspace_ead_dir, digital_objects_dir, dspace_mets_dir, aspace_url, username, password,delete_csvs=True)
 	update_posted_digital_objects(aspace_ead_dir, digital_objects_dir)
 	add_compound_agent_terms(aspace_ead_dir, subjects_agents_dir)
 	missing_refs = find_missing_refs(aspace_ead_dir)

@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,10 +40,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Alawan, Charles Khalil.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/3697">Alawan, Charles Khalil.</persname>
       </origination>
-      <unittitle encodinganalog="245">Charles Khalil Alawan papers <unitdate type="inclusive" encodinganalog="245$f" normal="1940/2001">1940-2001</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">07112 Aa 2; UAm</unitid>
+      <unittitle encodinganalog="245">Charles Khalil Alawan papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1940/2001">1940-2001</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">07112 Aa 2; UAm</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language> and <language langcode="ara" encodinganalog="041">Arabic</language></langmaterial>
       <abstract>Charles Khalil Alawan is a leader in the Arab American and American Muslim community of Southeastern Michigan, as well as a leader of the Michigan Republican Party. The collection documents the development of the Islamic Center of America, Dearborn, Michigan, of which Alawan is a founding member, as well as other community activities.</abstract>
       <physdesc altrender="part">
@@ -87,30 +87,30 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Alawan, Charles Khalil.</persname>
-        <subject source="lcsh" encodinganalog="650">Arab Americans--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n97064753">Elahi, Mohammad Ali.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Islamic Center of America (Dearborn, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Islamic House of Wisdom (Dearborn Heights, Mich.)</corpname>
-        <subject source="lcsh" encodinganalog="650">Muslims--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.). Republican State Nationalities Council.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3697">Alawan, Charles Khalil.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5728">Arab Americans--Michigan.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n97064753" ref="/agents/people/7222">Elahi, Mohammad Ali.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5584">Islamic Center of America (Dearborn, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1004">Islamic House of Wisdom (Dearborn Heights, Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5731">Muslims--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2750">Republican Party (Mich.). Republican State Nationalities Council.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600">Alawan, Charles Khalil.</persname>
-        <subject source="lcsh" encodinganalog="650">Arab Americans--Egypt.</subject>
-        <subject source="lcsh" encodinganalog="650">Arab Americans--Michigan.</subject>
-        <geogname source="lcsh" encodinganalog="651">Egypt.</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80093577">Nasser, Gamal Abdel, 1918-1970.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n83154867">Thomas, Danny.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3697">Alawan, Charles Khalil.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5774">Arab Americans--Egypt.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5728">Arab Americans--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/888">Egypt.</geogname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80093577" ref="/agents/people/3905">Nasser, Gamal Abdel, 1918-1970.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n83154867" ref="/agents/people/5455">Thomas, Danny.</persname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80093577">Nasser, Gamal Abdel, 1918-1970.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80093577" ref="/agents/people/3905">Nasser, Gamal Abdel, 1918-1970.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -123,113 +123,73 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [184516434575773220484]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1959">1959</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [8146194577478919291993665]">1</container>
+            <unitdate type="inclusive" normal="1959">1959</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [184516434575773220484]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1961">1961</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [8146194577478919291993665]">1</container>
+            <unitdate type="inclusive" normal="1961">1961</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [184516434575773220484]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1966">1966</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [8146194577478919291993665]">1</container>
+            <unitdate type="inclusive" normal="1966">1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [184516434575773220484]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1967">1967</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [8146194577478919291993665]">1</container>
+            <unitdate type="inclusive" normal="1967">1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [184516434575773220484]">1</container>
-            <unittitle><unitdate type="inclusive" normal="1967">1967</unitdate> regarding Middle East war</unittitle>
-          </did>
+            <container type="box" label="Box [8146194577478919291993665]">1</container>
+            <unittitle>Regarding Middle East war</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [184516434575773220484]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1968">1968</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [8146194577478919291993665]">1</container>
+            <unitdate type="inclusive" normal="1968">1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [184516434575773220484]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1969">1969</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [8146194577478919291993665]">1</container>
+            <unitdate type="inclusive" normal="1969">1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [184516434575773220484]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1970">1970</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [8146194577478919291993665]">1</container>
+            <unitdate type="inclusive" normal="1970">1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [184516434575773220484]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1971">1971</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [8146194577478919291993665]">1</container>
+            <unitdate type="inclusive" normal="1971">1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [184516434575773220484]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1992">1992</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [8146194577478919291993665]">1</container>
+            <unitdate type="inclusive" normal="1992">1992</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [184516434575773220484]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1994">1994</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [8146194577478919291993665]">1</container>
+            <unitdate type="inclusive" normal="1994">1994</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [184516434575773220484]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1996">1996</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [8146194577478919291993665]">1</container>
+            <unitdate type="inclusive" normal="1996">1996</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [184516434575773220484]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1997">1997</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [8146194577478919291993665]">1</container>
+            <unitdate type="inclusive" normal="1997">1997</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [184516434575773220484]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1998">1998</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [8146194577478919291993665]">1</container>
+            <unitdate type="inclusive" normal="1998">1998</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -241,102 +201,90 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [184516434575773220484]">1</container>
+            <container type="box" label="Box [8146194577478919291993665]">1</container>
             <unittitle>Biographical</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [184516434575773220484]">1</container>
+            <container type="box" label="Box [8146194577478919291993665]">1</container>
             <unittitle>Boy Scouts</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [184516434575773220484]">1</container>
-            <unittitle>Detroit Free Press and News <unitdate type="inclusive" normal="1994/1997">1994-1997</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [8146194577478919291993665]">1</container>
+            <unittitle>Detroit Free Press and News</unittitle><unitdate type="inclusive" normal="1994/1997">1994-1997</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [184516434575773220484]">1</container>
-            <unittitle>Detroit Historical Museums Arab American Advisory Committee <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [8146194577478919291993665]">1</container>
+            <unittitle>Detroit Historical Museums Arab American Advisory Committee</unittitle><unitdate type="inclusive" normal="1997">1997</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [184516434575773220484]">1</container>
-            <unittitle>Dr. Martin Luther King Award <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [8146194577478919291993665]">1</container>
+            <unittitle>Dr. Martin Luther King Award</unittitle><unitdate type="inclusive" normal="1997">1997</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [184516434575773220484]">1</container>
+            <container type="box" label="Box [8146194577478919291993665]">1</container>
             <unittitle>Guido, Michael, campaign literature</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [184516434575773220484]">1</container>
-            <unittitle>Islamic Center Foundation Society <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [8146194577478919291993665]">1</container>
+            <unittitle>Islamic Center Foundation Society</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [184516434575773220484]">1</container>
-            <unittitle>Islamic Center of America <unitdate type="inclusive" normal="1989/1999">1989-1999</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [8146194577478919291993665]">1</container>
+            <unittitle>Islamic Center of America</unittitle><unitdate type="inclusive" normal="1989/1999">1989-1999</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [184516434575773220484]">1</container>
-            <unittitle>Islamic Center of America--Mohammad Ali Elahi <unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [8146194577478919291993665]">1</container>
+            <unittitle>Islamic Center of America--Mohammad Ali Elahi</unittitle><unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [53962439731767109]">2</container>
-            <unittitle>Islamic Hospice Services <unitdate type="inclusive" normal="1998/1999">1998-1999</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [81339643590901807107]">2</container>
+            <unittitle>Islamic Hospice Services</unittitle><unitdate type="inclusive" normal="1998/1999">1998-1999</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [53962439731767109]">2</container>
-            <unittitle>Islamic House of Wisdom <unitdate type="inclusive" normal="1995/1998">1995-1998</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [81339643590901807107]">2</container>
+            <unittitle>Islamic House of Wisdom</unittitle><unitdate type="inclusive" normal="1995/1998">1995-1998</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [53962439731767109]">2</container>
+            <container type="box" label="Box [81339643590901807107]">2</container>
             <unittitle>Military intelligence</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [53962439731767109]">2</container>
-            <unittitle><title render="italic">Muslim-American Perspective</title>, <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [81339643590901807107]">2</container>
+            <unittitle><title render="italic">Muslim-American Perspective</title></unittitle><unitdate type="inclusive" normal="1995">1995</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [53962439731767109]">2</container>
-            <unittitle>Progressive Arabian Hashmie Society <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [81339643590901807107]">2</container>
+            <unittitle>Progressive Arabian Hashmie Society</unittitle><unitdate type="inclusive" normal="1940">1940</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [53962439731767109]">2</container>
-            <unittitle>Republican State Nationalities Council <unitdate type="inclusive" normal="1965/1969">1965-1969</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [81339643590901807107]">2</container>
+            <unittitle>Republican State Nationalities Council</unittitle><unitdate type="inclusive" normal="1965/1969">1965-1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [53962439731767109]">2</container>
-            <unittitle>Zogby American Muslim poll <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [81339643590901807107]">2</container>
+            <unittitle>Zogby American Muslim poll</unittitle><unitdate type="inclusive" normal="2001">2001</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -350,48 +298,47 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <unittitle>Trip to Egypt and Middle East <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-          </did>
+            <unittitle>Trip to Egypt and Middle East</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [53962439731767109]">2</container>
+              <container type="box" label="Box [81339643590901807107]">2</container>
               <unittitle>Al Azhar University</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [53962439731767109]">2</container>
+              <container type="box" label="Box [81339643590901807107]">2</container>
               <unittitle>Banquets</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [53962439731767109]">2</container>
+              <container type="box" label="Box [81339643590901807107]">2</container>
               <unittitle>Damascus and Gaza</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [53962439731767109]">2</container>
+              <container type="box" label="Box [81339643590901807107]">2</container>
               <unittitle>Nasser, Gamal Abdel</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [53962439731767109]">2</container>
+              <container type="box" label="Box [81339643590901807107]">2</container>
               <unittitle>Miscellaneous</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [53962439731767109]">2</container>
+            <container type="box" label="Box [81339643590901807107]">2</container>
             <unittitle>Miscellaneous photos</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Oversize Folder [79641166497499311878]">UAm</container>
+            <container type="folder" label="Oversize Folder [8375696645911418090934]">UAm</container>
             <unittitle>Miscellaneous</unittitle>
           </did>
         </c02>

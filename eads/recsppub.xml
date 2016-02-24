@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Department of Recreational Sports</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/4110">University of Michigan. Department of Recreational Sports</corpname>
       </origination>
-      <unittitle encodinganalog="245">Department of Recreational Sports (University of Michigan) publications <unitdate type="inclusive" encodinganalog="245$f" normal="1976/2000">1976-2000</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">97144 Bimu 2</unitid>
+      <unittitle encodinganalog="245">Department of Recreational Sports (University of Michigan) publications</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1976/2000">1976-2000</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">97144 Bimu 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Publications of the Department of Recreational Sports at the University of Michigan, includes annual reports, pamphlets and brochures, calendars, manuals such as the Recreational Sports Program and Policy Guide, and schedules such as the Recreational Drop-In Schedule. Also contains manuals from the intramural sports program.</abstract>
       <physdesc altrender="whole">
@@ -81,20 +81,20 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Recreational Sports.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Sports.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Athletic Dept.</corpname>
-        <subject source="lcsh" encodinganalog="650">Intramural sports--Michigan--Ann Arbor.</subject>
-        <title source="aacr2" encodinganalog="740">Recreational drop-in schedule.</title>
-        <title source="aacr2" encodinganalog="740">Recreational sports program and policy guide.</title>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2220">University of Michigan. Dept. of Recreational Sports.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Sports.<term type="topical">Sports.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4452">University of Michigan. Athletic Dept.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9870">Intramural sports--Michigan--Ann Arbor.</subject>
+        <title source="aacr2" encodinganalog="740" ref="/subjects/110">Recreational drop-in schedule.</title>
+        <title source="aacr2" encodinganalog="740" ref="/subjects/111">Recreational sports program and policy guide.</title>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Annual reports.</genreform>
-        <genreform source="aat" encodinganalog="655">Pamphlets.</genreform>
-        <genreform source="aat" encodinganalog="655">Calendars.</genreform>
-        <genreform source="aat" encodinganalog="655">Manuals.</genreform>
-        <genreform source="aat" encodinganalog="655">Schedules (time plans)</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3191">Annual reports.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3147">Pamphlets.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3173">Calendars.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3153">Manuals.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3272">Schedules (time plans)</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -111,19 +111,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6987374895702321825]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [3457434765764190069]">1</container>
+              <unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6987374895702321825]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1985/1991">1985-1991</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [3457434765764190069]">1</container>
+              <unitdate type="inclusive" normal="1985/1991">1985-1991</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">6 folders</extent>
               </physdesc>
             </did>
@@ -131,9 +125,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6987374895702321825]">1</container>
-            <unittitle>Brochures <unitdate type="inclusive" normal="1974/1979">1974-1979</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3457434765764190069]">1</container>
+            <unittitle>Brochures</unittitle><unitdate type="inclusive" normal="1974/1979">1974-1979</unitdate><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -141,9 +134,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6987374895702321825]">1</container>
-              <unittitle><title render="italic">Recreational Sports Activities Calendar</title>, <unitdate type="inclusive" normal="1979/1980">1979-1980</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3457434765764190069]">1</container>
+              <unittitle><title render="italic">Recreational Sports Activities Calendar</title></unittitle><unitdate type="inclusive" normal="1979/1980">1979-1980</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -152,24 +144,19 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6987374895702321825]">1</container>
+              <container type="box" label="Box [3457434765764190069]">1</container>
               <unittitle>
-                <title render="italic">Intramural and Recreational Sports for Men and Women</title>
-                <unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate>
-              </unittitle>
-            </did>
+                <title render="italic">Intramural and Recreational Sports for Men and Women</title></unittitle><unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6987374895702321825]">1</container>
-              <unittitle><title render="italic">Intramural and Recreational Sports Handbook</title>, <unitdate type="inclusive" normal="1975/1975">1975-1975</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3457434765764190069]">1</container>
+              <unittitle><title render="italic">Intramural and Recreational Sports Handbook</title></unittitle><unitdate type="inclusive" normal="1975/1975">1975-1975</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6987374895702321825]">1</container>
-              <unittitle><title render="italic">Recreational Sports Handbook</title>, <unitdate type="inclusive" normal="1978/1979">1978-1979</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3457434765764190069]">1</container>
+              <unittitle><title render="italic">Recreational Sports Handbook</title></unittitle><unitdate type="inclusive" normal="1978/1979">1978-1979</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -179,42 +166,29 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6987374895702321825]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1980/1981">1980-1981</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [3457434765764190069]">1</container>
+                <unitdate type="inclusive" normal="1980/1981">1980-1981</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6987374895702321825]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1984/1985">1984-1985</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [3457434765764190069]">1</container>
+                <unitdate type="inclusive" normal="1984/1985">1984-1985</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6987374895702321825]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [3457434765764190069]">1</container>
+                <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6987374895702321825]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1990/1992">1990-1992</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [3457434765764190069]">1</container>
+                <unitdate type="inclusive" normal="1990/1992">1990-1992</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6987374895702321825]">1</container>
-              <unittitle><title render="italic">Self-Directed Fitness</title>, <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3457434765764190069]">1</container>
+              <unittitle><title render="italic">Self-Directed Fitness</title></unittitle><unitdate type="inclusive" normal="1979">1979</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -223,9 +197,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6987374895702321825]">1</container>
-              <unittitle><title render="italic">Recreational Drop-In Schedule</title>, <unitdate type="inclusive" normal="1977/1995">1977-1995</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3457434765764190069]">1</container>
+              <unittitle><title render="italic">Recreational Drop-In Schedule</title></unittitle><unitdate type="inclusive" normal="1977/1995">1977-1995</unitdate></did>
           </c03>
         </c02>
       </c01>
@@ -246,9 +219,8 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6987374895702321825]">1</container>
-                <unittitle><title render="italic">Challenge</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [3457434765764190069]">1</container>
+                <unittitle><title render="italic">Challenge</title></unittitle><unitdate type="inclusive">undated</unitdate></did>
             </c04>
           </c03>
         </c02>
@@ -262,9 +234,8 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6987374895702321825]">1</container>
-                <unittitle><title render="italic">Intramural Calendar of Events</title>, <unitdate type="inclusive" normal="1978/1979">1978-1979</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [3457434765764190069]">1</container>
+                <unittitle><title render="italic">Intramural Calendar of Events</title></unittitle><unitdate type="inclusive" normal="1978/1979">1978-1979</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -273,15 +244,13 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6987374895702321825]">1</container>
-                <unittitle><title render="italic">Intramural Sports Handbook</title>, 1932/1933 1963/1964 1965/1966-1968/1969 and <unitdate type="inclusive">undated</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [3457434765764190069]">1</container>
+                <unittitle><title render="italic">Intramural Sports Handbook</title>, 1932/1933 1963/1964 1965/1966-1968/1969</unittitle><unitdate type="inclusive">undated</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6987374895702321825]">1</container>
-                <unittitle><title render="italic">Intramural Sports Manager's Manual</title>, <unitdate type="inclusive" normal="1983/1984">1983-1984</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [3457434765764190069]">1</container>
+                <unittitle><title render="italic">Intramural Sports Manager's Manual</title></unittitle><unitdate type="inclusive" normal="1983/1984">1983-1984</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -290,9 +259,8 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6987374895702321825]">1</container>
-                <unittitle><title render="italic">The IM newsletter</title>, <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [3457434765764190069]">1</container>
+                <unittitle><title render="italic">The IM newsletter</title></unittitle><unitdate type="inclusive" normal="1977">1977</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -301,9 +269,8 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6987374895702321825]">1</container>
-                <unittitle>Hockey <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [3457434765764190069]">1</container>
+                <unittitle>Hockey</unittitle><unitdate type="inclusive" normal="2000">2000</unitdate></did>
             </c04>
           </c03>
         </c02>
@@ -313,9 +280,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6987374895702321825]">1</container>
-              <unittitle>Brochures <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3457434765764190069]">1</container>
+              <unittitle>Brochures</unittitle><unitdate type="inclusive">undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -323,9 +289,8 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6987374895702321825]">1</container>
-                <unittitle><title render="italic">Outdoor Recreation Schedule of Events</title>, <unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [3457434765764190069]">1</container>
+                <unittitle><title render="italic">Outdoor Recreation Schedule of Events</title></unittitle><unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -334,9 +299,8 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6987374895702321825]">1</container>
-                <unittitle><title render="italic">Canoeing and Camping: Guide to Southeastern Michigan</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [3457434765764190069]">1</container>
+                <unittitle><title render="italic">Canoeing and Camping: Guide to Southeastern Michigan</title></unittitle><unitdate type="inclusive">undated</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -345,19 +309,14 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6987374895702321825]">1</container>
+                <container type="box" label="Box [3457434765764190069]">1</container>
                 <unittitle>
-                  <title render="italic">Rentals</title>
-                  <unitdate type="inclusive" normal="1985">1985</unitdate>
-                  <unitdate type="inclusive" normal="1987/1991">1987-1991</unitdate>
-                </unittitle>
-              </did>
+                  <title render="italic">Rentals</title></unittitle><unitdate type="inclusive" normal="1985">1985</unitdate><unitdate type="inclusive" normal="1987/1991">1987-1991</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6987374895702321825]">1</container>
-                <unittitle><title render="italic">Schedule of Events</title>, <unitdate type="inclusive" normal="1991/1996">1991-1996</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [3457434765764190069]">1</container>
+                <unittitle><title render="italic">Schedule of Events</title></unittitle><unitdate type="inclusive" normal="1991/1996">1991-1996</unitdate></did>
             </c04>
           </c03>
         </c02>

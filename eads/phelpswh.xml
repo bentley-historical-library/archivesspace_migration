@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Phelps, William Henry, 1872-1939.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/1101">Phelps, William Henry, 1872-1939.</persname>
       </origination>
-      <unittitle encodinganalog="245">William Henry Phelps papers <unitdate type="inclusive" encodinganalog="245$f" normal="1872/1939">1872-1939</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">852038 Aa 2</unitid>
+      <unittitle encodinganalog="245">William Henry Phelps papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1872/1939">1872-1939</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">852038 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Methodist Episcopal clergyman and editor of Michigan Christian Advocate. Correspondence relating to his editorial work and his interest in economic and labor problems, including the Flint, Michigan, Sit-Down Strike of 1937; also sermons, student paper, notebooks of classes at Albion College, and record of weddings performed in 1913 at the First Methodist Church of Battle Creek, Michigan; and photographs.</abstract>
       <physdesc altrender="whole">
@@ -75,28 +75,28 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86812068">Albion College.</corpname>
-        <geogname source="lcsh" encodinganalog="651">Battle Creek (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Clergy--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Depressions--1929--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">First Methodist Church (Battle Creek, Mich.)</corpname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82166396">Flint (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">General Motors Corporation Sit-Down Strike, 1936-1937.</subject>
-        <subject source="lcsh" encodinganalog="650">Journalists--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Labor movement--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80021644">Methodist Episcopal Church--Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80021644">Methodist Episcopal Church--Michigan--Battle Creek.</corpname>
-        <subject source="lcsh" encodinganalog="630">Michigan Christian advocate.</subject>
-        <persname source="lcnaf" encodinganalog="600">Phelps, William Henry, 1872-1939.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86812068" ref="/agents/corporate_entities/5221">Albion College.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/930">Battle Creek (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5685">Clergy--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5946">Depressions--1929--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3197">First Methodist Church (Battle Creek, Mich.)</corpname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82166396" ref="/subjects/889">Flint (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7049">General Motors Corporation Sit-Down Strike, 1936-1937.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6964">Journalists--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9748">Labor movement--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80021644" ref="/agents/corporate_entities/1935">Methodist Episcopal Church--Michigan.<term type="geographic">Michigan.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80021644" ref="/agents/corporate_entities/1935">Methodist Episcopal Church--Michigan--Battle Creek.<term type="geographic">Michigan</term><term type="geographic">Battle Creek.</term></corpname>
+        <subject source="lcsh" encodinganalog="630" ref="/subjects/9749">Michigan Christian advocate.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1101">Phelps, William Henry, 1872-1939.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600">Phelps, William Henry, 1872-1939.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1101">Phelps, William Henry, 1872-1939.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="aat" encodinganalog="655">Sermons.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3185">Sermons.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -106,21 +106,16 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [179654197042518655337]">1</container>
-            <unittitle>
-              <unitdate type="inclusive">Undated</unitdate>
-              <unitdate type="inclusive" normal="1872/1939">1872-1939</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [79774465251854652]">1</container>
+            <unitdate type="inclusive">Undated</unitdate><unitdate type="inclusive" normal="1872/1939">1872-1939</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">7 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [179654197042518655337]">1</container>
-            <unittitle>Regarding questionnaire on the Flint Sit-Down Strike <unitdate type="inclusive" normal="1937">1937</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [79774465251854652]">1</container>
+            <unittitle>Regarding questionnaire on the Flint Sit-Down Strike</unittitle><unitdate type="inclusive" normal="1937">1937</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -131,31 +126,21 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [179654197042518655337]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1895/1897">1895-1897</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [79774465251854652]">1</container>
+            <unitdate type="inclusive" normal="1895/1897">1895-1897</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [179654197042518655337]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1900/1911">1900-1911</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [79774465251854652]">1</container>
+            <unitdate type="inclusive" normal="1900/1911">1900-1911</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">25 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [44234420832502966087]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1912/1915">1912-1915</unitdate>
-              <unitdate type="inclusive">undated</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [47752847429933276700]">2</container>
+            <unitdate type="inclusive" normal="1912/1915">1912-1915</unitdate><unitdate type="inclusive">undated</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">17 folders</extent>
             </physdesc>
           </did>
@@ -167,55 +152,50 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [44234420832502966087]">2</container>
-            <unittitle>Manuscripts of stories sent to Phelps by M.H. Jack Wallis <unitdate type="inclusive" normal="1934">1934</unitdate>, <unitdate type="inclusive" normal="1936">1936</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [47752847429933276700]">2</container>
+            <unittitle>Manuscripts of stories sent to Phelps by M.H. Jack Wallis</unittitle><unitdate type="inclusive" normal="1934">1934</unitdate><unitdate type="inclusive" normal="1936">1936</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [44234420832502966087]">2</container>
-            <unittitle>Student paper <unitdate type="inclusive" normal="1895">1895</unitdate> entitled, "The Relations of Queen Elizabeth to the Netherlands, 1558 to 1584"</unittitle>
-          </did>
+            <container type="box" label="Box [47752847429933276700]">2</container>
+            <unittitle>Student paper entitled, "The Relations of Queen Elizabeth to the Netherlands, 1558 to 1584"</unittitle><unitdate type="inclusive" normal="1895">1895</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [44234420832502966087]">2</container>
+            <container type="box" label="Box [47752847429933276700]">2</container>
             <unittitle>Miscellaneous notes and writings</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [44234420832502966087]">2</container>
+            <container type="box" label="Box [47752847429933276700]">2</container>
             <unittitle>Army papers and church appointments of Oliver H. Perry</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [44234420832502966087]">2</container>
+            <container type="box" label="Box [47752847429933276700]">2</container>
             <unittitle>Miscellanea concerning Edwin J. Phelps</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [44234420832502966087]">2</container>
-            <unittitle>Student notebook of chemistry lectures at Albion College <unitdate type="inclusive" normal="1890">1890</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [47752847429933276700]">2</container>
+            <unittitle>Student notebook of chemistry lectures at Albion College</unittitle><unitdate type="inclusive" normal="1890">1890</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [44234420832502966087]">2</container>
-            <unittitle>Student notebook of botany lectures at Albion College <unitdate type="inclusive" normal="1890">1890</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [47752847429933276700]">2</container>
+            <unittitle>Student notebook of botany lectures at Albion College</unittitle><unitdate type="inclusive" normal="1890">1890</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [44234420832502966087]">2</container>
-            <unittitle>Record book of weddings, and lists of Sunday School teachers, First Methodist Church, Battle Creek, Michigan <unitdate type="inclusive" normal="1913">1913</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [47752847429933276700]">2</container>
+            <unittitle>Record book of weddings, and lists of Sunday School teachers, First Methodist Church, Battle Creek, Michigan</unittitle><unitdate type="inclusive" normal="1913">1913</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [44234420832502966087]">2</container>
+            <container type="box" label="Box [47752847429933276700]">2</container>
             <unittitle>
               <genreform normal="Photographs">Photographs</genreform>
             </unittitle>

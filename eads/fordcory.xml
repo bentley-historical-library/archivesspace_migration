@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n86840036">Ford, Corydon L. (Corydon La), 1813-1894.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n86840036" ref="/agents/people/8032">Ford, Corydon L. (Corydon La), 1813-1894.</persname>
       </origination>
-      <unittitle encodinganalog="245">Corydon L. Ford papers <unitdate type="inclusive" encodinganalog="245$f" normal="1841/1900">1841-1900</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1873/1900">1873-1900</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851249 Aa 2</unitid>
+      <unittitle encodinganalog="245">Corydon L. Ford papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1841/1900">1841-1900</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1873/1900">1873-1900</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851249 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Dr. Corydon L. Ford was a professor of anatomy and physiology at the University of Michigan Department of Medicine and Surgery (now the Medical School), He taught from 1854 to 1894. The collection contains reports on his faculty activities, scattered correspondence, lecture notes, syllabi, plates, and other papers relating largely to his work in the Medical School; also visual materials.</abstract>
       <physdesc altrender="whole">
@@ -79,23 +79,23 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Anatomy.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n86840036">Ford, Corydon L. (Corydon La), 1813-1894.</persname>
-        <subject source="lcsh" encodinganalog="650">Physicians--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85250563">University of Michigan. Dept. of Medicine and Surgery.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6034">Anatomy.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n86840036" ref="/agents/people/8032">Ford, Corydon L. (Corydon La), 1813-1894.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6036">Physicians--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85250563" ref="/agents/corporate_entities/3804">University of Michigan. Dept. of Medicine and Surgery.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <subject source="lctgm" encodinganalog="650">Anatomy.</subject>
-        <geogname source="lctgm" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)--Tombs and sepulchral monuments.</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n86840036">Ford, Corydon L. (Corydon La), 1813-1894.</persname>
-        <subject source="lctgm" encodinganalog="650">Tombs and sepulchral monuments--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4123">Anatomy.</subject>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/291">Ann Arbor (Mich.)--Tombs and sepulchral monuments.</geogname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n86840036" ref="/agents/people/8032">Ford, Corydon L. (Corydon La), 1813-1894.</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4331">Tombs and sepulchral monuments--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="gmgpc" encodinganalog="655">Prints.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3459">Prints.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -108,15 +108,14 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [065303148146669118]">1</container>
+            <container type="box" label="Box [946434844799968290402]">1</container>
             <unittitle>Anatomy and Physiology</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [065303148146669118]">1</container>
-            <unittitle>Castleton Medical College Memoranda <unitdate type="inclusive" normal="1849">1849</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [946434844799968290402]">1</container>
+            <unittitle>Castleton Medical College Memoranda</unittitle><unitdate type="inclusive" normal="1849">1849</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -124,46 +123,42 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [065303148146669118]">1</container>
-              <unittitle>Class Lists <unitdate type="inclusive" normal="1845/1849">1845-1849</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [946434844799968290402]">1</container>
+              <unittitle>Class Lists</unittitle><unitdate type="inclusive" normal="1845/1849">1845-1849</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [065303148146669118]">1</container>
+              <container type="box" label="Box [946434844799968290402]">1</container>
               <unittitle>Synopsis of Lectures</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [065303148146669118]">1</container>
-            <unittitle>Long Island College Hospital Lecture <unitdate type="inclusive" normal="1877">1877</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [946434844799968290402]">1</container>
+            <unittitle>Long Island College Hospital Lecture</unittitle><unitdate type="inclusive" normal="1877">1877</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [065303148146669118]">1</container>
+            <container type="box" label="Box [946434844799968290402]">1</container>
             <unittitle>Physiological Notes for Dental Students</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [065303148146669118]">1</container>
+            <container type="box" label="Box [946434844799968290402]">1</container>
             <unittitle>Questions in Anatomy</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [065303148146669118]">1</container>
-            <unittitle>"Some Questions on Odontogeny," <unitdate type="inclusive" normal="1890">1890</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [946434844799968290402]">1</container>
+            <unittitle>"Some Questions on Odontogeny,"</unittitle><unitdate type="inclusive" normal="1890">1890</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [065303148146669118]">1</container>
-            <unittitle>University of Buffalo <unitdate type="inclusive" normal="1847">1847</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [946434844799968290402]">1</container>
+            <unittitle>University of Buffalo</unittitle><unitdate type="inclusive" normal="1847">1847</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -171,39 +166,36 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [065303148146669118]">1</container>
+              <container type="box" label="Box [946434844799968290402]">1</container>
               <unittitle>Lecture Notes</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [065303148146669118]">1</container>
+              <container type="box" label="Box [946434844799968290402]">1</container>
               <unittitle>List of Lectures</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [065303148146669118]">1</container>
-              <unittitle>"Questions on Anatomy -- For the Use of Students," <unitdate type="inclusive" normal="1873">1873</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [946434844799968290402]">1</container>
+              <unittitle>"Questions on Anatomy -- For the Use of Students,"</unittitle><unitdate type="inclusive" normal="1873">1873</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [065303148146669118]">1</container>
-              <unittitle>Regents Meeting <unitdate type="inclusive" normal="1891">1891</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [946434844799968290402]">1</container>
+              <unittitle>Regents Meeting</unittitle><unitdate type="inclusive" normal="1891">1891</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [065303148146669118]">1</container>
+              <container type="box" label="Box [946434844799968290402]">1</container>
               <unittitle>Series "H" Dentistry</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [065303148146669118]">1</container>
-              <unittitle>Student Records <unitdate type="inclusive" normal="1861/1862">1861-1862</unitdate></unittitle>
-              <physdesc>
+              <container type="box" label="Box [946434844799968290402]">1</container>
+              <unittitle>Student Records</unittitle><unitdate type="inclusive" normal="1861/1862">1861-1862</unitdate><physdesc>
                 <physfacet>4 volumes</physfacet>
               </physdesc>
             </did>
@@ -215,19 +207,18 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [065303148146669118]">1</container>
+              <container type="box" label="Box [946434844799968290402]">1</container>
               <unittitle>Anatomy Topics</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [065303148146669118]">1</container>
-              <unittitle>Notes on Lectures on Physiology <unitdate type="inclusive" normal="1867">1867</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [946434844799968290402]">1</container>
+              <unittitle>Notes on Lectures on Physiology</unittitle><unitdate type="inclusive" normal="1867">1867</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [065303148146669118]">1</container>
+              <container type="box" label="Box [946434844799968290402]">1</container>
               <unittitle>Lecture Notes</unittitle>
               <physdesc>
                 <physfacet>10 volumes</physfacet>
@@ -236,7 +227,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [065303148146669118]">1</container>
+              <container type="box" label="Box [946434844799968290402]">1</container>
               <unittitle>Synopses of Lectures of Osteology</unittitle>
             </did>
           </c03>
@@ -251,175 +242,174 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [065303148146669118]">1</container>
+            <container type="box" label="Box [946434844799968290402]">1</container>
             <unittitle>Air and Health</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [065303148146669118]">1</container>
+            <container type="box" label="Box [946434844799968290402]">1</container>
             <unittitle>Blood</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [065303148146669118]">1</container>
+            <container type="box" label="Box [946434844799968290402]">1</container>
             <unittitle>Cartilage</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [065303148146669118]">1</container>
+            <container type="box" label="Box [946434844799968290402]">1</container>
             <unittitle>Circulation</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [065303148146669118]">1</container>
+            <container type="box" label="Box [946434844799968290402]">1</container>
             <unittitle>Comparative Osteology, etc.</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [065303148146669118]">1</container>
+            <container type="box" label="Box [946434844799968290402]">1</container>
             <unittitle>Dental</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [065303148146669118]">1</container>
+            <container type="box" label="Box [946434844799968290402]">1</container>
             <unittitle>Dental Matters</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [065303148146669118]">1</container>
+            <container type="box" label="Box [946434844799968290402]">1</container>
             <unittitle>Diet</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [065303148146669118]">1</container>
+            <container type="box" label="Box [946434844799968290402]">1</container>
             <unittitle>Domestic Hygiene</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [065303148146669118]">1</container>
+            <container type="box" label="Box [946434844799968290402]">1</container>
             <unittitle>Eye, etc.</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [065303148146669118]">1</container>
+            <container type="box" label="Box [946434844799968290402]">1</container>
             <unittitle>Eyes, Sleep</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [065303148146669118]">1</container>
+            <container type="box" label="Box [946434844799968290402]">1</container>
             <unittitle>Hygiene</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [065303148146669118]">1</container>
+            <container type="box" label="Box [946434844799968290402]">1</container>
             <unittitle>Ligaments</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [065303148146669118]">1</container>
+            <container type="box" label="Box [946434844799968290402]">1</container>
             <unittitle>Liquor</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [065303148146669118]">1</container>
+            <container type="box" label="Box [946434844799968290402]">1</container>
             <unittitle>Matters pertaining to Joints, etc</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [065303148146669118]">1</container>
+            <container type="box" label="Box [946434844799968290402]">1</container>
             <unittitle>Mental Hygiene</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [065303148146669118]">1</container>
+            <container type="box" label="Box [946434844799968290402]">1</container>
             <unittitle>Muscles</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [065303148146669118]">1</container>
+            <container type="box" label="Box [946434844799968290402]">1</container>
             <unittitle>Nervous System</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [065303148146669118]">1</container>
+            <container type="box" label="Box [946434844799968290402]">1</container>
             <unittitle>Public Hygiene</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [065303148146669118]">1</container>
+            <container type="box" label="Box [946434844799968290402]">1</container>
             <unittitle>Respiration</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [065303148146669118]">1</container>
-            <unittitle>Skin Bathing <unitdate type="inclusive" normal="1871">1871</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [946434844799968290402]">1</container>
+            <unittitle>Skin Bathing</unittitle><unitdate type="inclusive" normal="1871">1871</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [065303148146669118]">1</container>
+            <container type="box" label="Box [946434844799968290402]">1</container>
             <unittitle>Skin, Mucous membranes, Secretion, and Absorption</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [065303148146669118]">1</container>
+            <container type="box" label="Box [946434844799968290402]">1</container>
             <unittitle>Structure of Teeth</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [065303148146669118]">1</container>
+            <container type="box" label="Box [946434844799968290402]">1</container>
             <unittitle>Surgical Anatomy</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3866004486719765]">2</container>
+            <container type="box" label="Box [5184203723469760020586714]">2</container>
             <unittitle>Sympathetic Nerve</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3866004486719765]">2</container>
+            <container type="box" label="Box [5184203723469760020586714]">2</container>
             <unittitle>Teeth</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3866004486719765]">2</container>
+            <container type="box" label="Box [5184203723469760020586714]">2</container>
             <unittitle>Tobacco</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3866004486719765]">2</container>
+            <container type="box" label="Box [5184203723469760020586714]">2</container>
             <unittitle>Ventilation</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3866004486719765]">2</container>
+            <container type="box" label="Box [5184203723469760020586714]">2</container>
             <unittitle>Vitality</unittitle>
           </did>
         </c02>
@@ -433,61 +423,57 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3866004486719765]">2</container>
+            <container type="box" label="Box [5184203723469760020586714]">2</container>
             <unittitle>Anatomical illustrations</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3866004486719765]">2</container>
-            <unittitle>A Record of Important Cases <unitdate type="inclusive" normal="1841">1841</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [5184203723469760020586714]">2</container>
+            <unittitle>A Record of Important Cases</unittitle><unitdate type="inclusive" normal="1841">1841</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3866004486719765]">2</container>
+            <container type="box" label="Box [5184203723469760020586714]">2</container>
             <unittitle>Book of Expenses</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3866004486719765]">2</container>
+            <container type="box" label="Box [5184203723469760020586714]">2</container>
             <unittitle>Charts</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3866004486719765]">2</container>
+            <container type="box" label="Box [5184203723469760020586714]">2</container>
             <unittitle>Clothing Exercise Study</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3866004486719765]">2</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1883">1883</unitdate>, <unitdate type="inclusive" normal="1892">1892</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [5184203723469760020586714]">2</container>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1883">1883</unitdate><unitdate type="inclusive" normal="1892">1892</unitdate><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3866004486719765]">2</container>
-            <unittitle>Invitation to capitol cornerstone laying <unitdate type="inclusive" normal="1873-08-01">August 1, 1873</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [5184203723469760020586714]">2</container>
+            <unittitle>Invitation to capitol cornerstone laying</unittitle><unitdate type="inclusive" normal="1873-08-01">August 1, 1873</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3866004486719765]">2</container>
-            <unittitle>Letter regarding Ford's cane <unitdate type="inclusive" normal="1884">1884</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [5184203723469760020586714]">2</container>
+            <unittitle>Letter regarding Ford's cane</unittitle><unitdate type="inclusive" normal="1884">1884</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3866004486719765]">2</container>
+            <container type="box" label="Box [5184203723469760020586714]">2</container>
             <unittitle>List of articles belonging to C. L. Ford</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3866004486719765]">2</container>
+            <container type="box" label="Box [5184203723469760020586714]">2</container>
             <unittitle>Miscellaneous notes</unittitle>
             <physdesc>
               <physfacet>1 folder, 3 volumes, and 3 bundles</physfacet>
@@ -496,19 +482,18 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3866004486719765]">2</container>
-            <unittitle><title render="italic">Mutter's Syllabus</title>, <unitdate type="inclusive" normal="1853">1853</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [5184203723469760020586714]">2</container>
+            <unittitle><title render="italic">Mutter's Syllabus</title></unittitle><unitdate type="inclusive" normal="1853">1853</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3866004486719765]">2</container>
+            <container type="box" label="Box [5184203723469760020586714]">2</container>
             <unittitle>Note paper</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3866004486719765]">2</container>
+            <container type="box" label="Box [5184203723469760020586714]">2</container>
             <unittitle>
               <genreform normal="Photographs">Photographs</genreform>
             </unittitle>
@@ -516,21 +501,20 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3866004486719765]">2</container>
+            <container type="box" label="Box [5184203723469760020586714]">2</container>
             <unittitle>Professor Cheever lecture notes</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3866004486719765]">2</container>
+            <container type="box" label="Box [5184203723469760020586714]">2</container>
             <unittitle>Reference posters</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3866004486719765]">2</container>
-            <unittitle>Report of the faculty activities of C. L. Ford <unitdate type="inclusive" normal="1875/1877">1875-1877</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [5184203723469760020586714]">2</container>
+            <unittitle>Report of the faculty activities of C. L. Ford</unittitle><unitdate type="inclusive" normal="1875/1877">1875-1877</unitdate></did>
         </c02>
       </c01>
     </dsc>

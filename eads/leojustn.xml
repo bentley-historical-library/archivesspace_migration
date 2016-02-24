@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,10 +43,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Leonard, Justin W., 1909-1975.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/3048">Leonard, Justin W., 1909-1975.</persname>
       </origination>
-      <unittitle encodinganalog="245">Justin W. Leonard Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1937/1975">1937-1975</unitdate></unittitle>
-      <abstract>Conservationist, professor of natural resources at the University of Michigan. Professional files, including correspondence, speeches, and newspaper clippings; letters to his wife, 1943-1946, while in military service stationed in the Solomon Islands during World War II; and photographs.</abstract>
+      <unittitle encodinganalog="245">Justin W. Leonard Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1937/1975">1937-1975</unitdate><abstract>Conservationist, professor of natural resources at the University of Michigan. Professional files, including correspondence, speeches, and newspaper clippings; letters to his wife, 1943-1946, while in military service stationed in the Solomon Islands during World War II; and photographs.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">85253 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physloc>offsite storage; prior notification required for access</physloc>
@@ -91,22 +91,22 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Conservation of natural resources--United States.</subject>
-        <persname source="lcnaf" encodinganalog="600">Leonard, Justin W., 1909-1975.</persname>
-        <subject source="lcsh" encodinganalog="650">Natural resources--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81003782">University of Michigan. School of Natural Resources.</corpname>
-        <subject source="lcsh" encodinganalog="650">World War, 1939-1945.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5816">Conservation of natural resources--United States.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3048">Leonard, Justin W., 1909-1975.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7972">Natural resources--United States.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81003782" ref="/agents/corporate_entities/1961">University of Michigan. School of Natural Resources.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5684">World War, 1939-1945.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Leonard, Justin W., 1909-1975.</persname>
-        <subject source="lctgm" encodinganalog="650">Conservation of natural resources--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81003782">University of Michigan. School of Natural Resources.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3048">Leonard, Justin W., 1909-1975.</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4105">Conservation of natural resources--United States.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81003782" ref="/agents/corporate_entities/1961">University of Michigan. School of Natural Resources.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -119,28 +119,27 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [053241486452618431785]">1</container>
-            <unittitle>Letters to his wife and others from the Pacific Theater <unitdate type="inclusive" normal="1943/1946-05">1943-May 1946</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [61058987476850688364]">1</container>
+            <unittitle>Letters to his wife and others from the Pacific Theater</unittitle><unitdate type="inclusive" normal="1943/1946-05">1943-May 1946</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">26 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [053241486452618431785]">1</container>
+            <container type="box" label="Box [61058987476850688364]">1</container>
             <unittitle>History of the Solomon Islands</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [053241486452618431785]">1</container>
+            <container type="box" label="Box [61058987476850688364]">1</container>
             <unittitle>Malaria Control, Solomon Islands</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [053241486452618431785]">1</container>
+            <container type="box" label="Box [61058987476850688364]">1</container>
             <unittitle>Army (various)</unittitle>
           </did>
         </c02>
@@ -154,23 +153,16 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [053241486452618431785]">1</container>
-            <unittitle>
-              <unitdate>Undated</unitdate>
-              <unitdate type="inclusive" normal="1930/1962" certainty="approximate">1930s-1962</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [61058987476850688364]">1</container>
+            <unitdate>Undated</unitdate><unitdate type="inclusive" normal="1930/1962" certainty="approximate">1930s-1962</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">17 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0450836541975810296463]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1963/1975">1963-1975</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [084774241780363013]">2</container>
+            <unitdate type="inclusive" normal="1963/1975">1963-1975</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">13 folders</extent>
             </physdesc>
           </did>
@@ -188,81 +180,74 @@
         </odd>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0450836541975810296463]">2</container>
+            <container type="box" label="Box [084774241780363013]">2</container>
             <unittitle>Clippings of colleagues</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0450836541975810296463]">2</container>
-            <unittitle>Clippings <unitdate>undated</unitdate>, <unitdate type="inclusive" normal="1930/1979" certainty="approximate">1930s-1970s</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [084774241780363013]">2</container>
+            <unittitle>Clippings</unittitle><unitdate>undated</unitdate><unitdate type="inclusive" normal="1930/1979" certainty="approximate">1930s-1970s</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">6 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0450836541975810296463]">2</container>
-            <unittitle>Drummond Hunt (humorous description) <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [084774241780363013]">2</container>
+            <unittitle>Drummond Hunt (humorous description)</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0450836541975810296463]">2</container>
-            <unittitle>Huron Mountain Wildlife Foundation printed materials <unitdate type="inclusive" normal="1971/1975">1971-1975</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [084774241780363013]">2</container>
+            <unittitle>Huron Mountain Wildlife Foundation printed materials</unittitle><unitdate type="inclusive" normal="1971/1975">1971-1975</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0450836541975810296463]">2</container>
+            <container type="box" label="Box [084774241780363013]">2</container>
             <unittitle>Leonard, Jay and Edna-biographical information</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0450836541975810296463]">2</container>
+            <container type="box" label="Box [084774241780363013]">2</container>
             <unittitle>Lovejoy, Parish S.-Biographical material, clippings, writings</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0450836541975810296463]">2</container>
-            <unittitle>Michigan Hunters and Anglers Association-speech of Cassell Pursell <unitdate type="inclusive" normal="1952-05">May 1952</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [084774241780363013]">2</container>
+            <unittitle>Michigan Hunters and Anglers Association-speech of Cassell Pursell</unittitle><unitdate type="inclusive" normal="1952-05">May 1952</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0450836541975810296463]">2</container>
+            <container type="box" label="Box [084774241780363013]">2</container>
             <unittitle>Research report notes</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0450836541975810296463]">2</container>
+            <container type="box" label="Box [084774241780363013]">2</container>
             <unittitle>Scrapbook</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0450836541975810296463]">2</container>
-            <unittitle>Speeches <unitdate>undated</unitdate>, <unitdate type="inclusive" normal="1940/1979" certainty="approximate">1940s-1970s</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [084774241780363013]">2</container>
+            <unittitle>Speeches</unittitle><unitdate>undated</unitdate><unitdate type="inclusive" normal="1940/1979" certainty="approximate">1940s-1970s</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0450836541975810296463]">2</container>
-            <unittitle>Trip <unitdate type="inclusive" normal="1971">1971</unitdate> to Tahiti, Australia, S.E. Asia, India, Europe-description</unittitle>
-          </did>
+            <container type="box" label="Box [084774241780363013]">2</container>
+            <unittitle>Trip to Tahiti, Australia, S.E. Asia, India, Europe-description</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0450836541975810296463]">2</container>
-            <unittitle>TV appearance--account in UM News <unitdate type="inclusive" normal="1970-10-15">October 15, 1970</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [084774241780363013]">2</container>
+            <unittitle>TV appearance--account in UM News</unittitle><unitdate type="inclusive" normal="1970-10-15">October 15, 1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -270,25 +255,25 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0450836541975810296463]">2</container>
+              <container type="box" label="Box [084774241780363013]">2</container>
               <unittitle>Miscellaneous writings</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0450836541975810296463]">2</container>
+              <container type="box" label="Box [084774241780363013]">2</container>
               <unittitle>Leonard, Justin and Fannie-Mayflies of Michigan Trout Streams book reviews</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0450836541975810296463]">2</container>
+              <container type="box" label="Box [084774241780363013]">2</container>
               <unittitle>Scrapbook</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0450836541975810296463]">2</container>
+              <container type="box" label="Box [084774241780363013]">2</container>
               <unittitle>Reprints of articles</unittitle>
             </did>
           </c03>
@@ -299,15 +284,14 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0450836541975810296463]">2</container>
+              <container type="box" label="Box [084774241780363013]">2</container>
               <unittitle>Biological Station-humorous writings</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0450836541975810296463]">2</container>
-              <unittitle>Department of Biology- <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate> Annual Report</unittitle>
-            </did>
+              <container type="box" label="Box [084774241780363013]">2</container>
+              <unittitle>Department of Biology- Annual Report</unittitle><unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -315,45 +299,41 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [0450836541975810296463]">2</container>
-                <unittitle><unitdate type="inclusive" normal="1964">1964</unitdate> Dean selection committee and merger of Fisheries and Wildlife-notes and printed material</unittitle>
-              </did>
+                <container type="box" label="Box [084774241780363013]">2</container>
+                <unittitle>Dean selection committee and merger of Fisheries and Wildlife-notes and printed material</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [0450836541975810296463]">2</container>
-                <unittitle><unitdate type="inclusive" normal="1965">1965</unitdate> Department of Wildlife and Fisheries-printed material</unittitle>
-              </did>
+                <container type="box" label="Box [084774241780363013]">2</container>
+                <unittitle>Department of Wildlife and Fisheries-printed material</unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [0450836541975810296463]">2</container>
-                <unittitle><unitdate type="inclusive" normal="1967">1967</unitdate> Department of Conservation-printed material</unittitle>
-              </did>
+                <container type="box" label="Box [084774241780363013]">2</container>
+                <unittitle>Department of Conservation-printed material</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [0450836541975810296463]">2</container>
-                <unittitle><unitdate type="inclusive" normal="1973">1973</unitdate> Leonard as substitute Dean-notes and printed material</unittitle>
-              </did>
+                <container type="box" label="Box [084774241780363013]">2</container>
+                <unittitle>Leonard as substitute Dean-notes and printed material</unittitle><unitdate type="inclusive" normal="1973">1973</unitdate></did>
             </c04>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0450836541975810296463]">2</container>
+            <container type="box" label="Box [084774241780363013]">2</container>
             <unittitle>Vitae of students</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0450836541975810296463]">2</container>
+            <container type="box" label="Box [084774241780363013]">2</container>
             <unittitle>Whitlock, Stanley C. (former assistant chief of the Game Division of the Michigan Department of Conservation)-eulogy by Leonard</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0450836541975810296463]">2</container>
+            <container type="box" label="Box [084774241780363013]">2</container>
             <unittitle>Wilkinson, John (great-grandfather of Edna Wilkinson Leonard, Justin's mother)-his story</unittitle>
           </did>
         </c02>
@@ -367,73 +347,73 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0837781448598626702672]">3</container>
+            <container type="box" label="Box [280190546759850619387]">3</container>
             <unittitle>American Fisheries Society</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0837781448598626702672]">3</container>
+            <container type="box" label="Box [280190546759850619387]">3</container>
             <unittitle>American Society of Ichthyologists and Herpetologists</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0837781448598626702672]">3</container>
+            <container type="box" label="Box [280190546759850619387]">3</container>
             <unittitle>Bibliographies and biographical sketch</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0837781448598626702672]">3</container>
+            <container type="box" label="Box [280190546759850619387]">3</container>
             <unittitle>Assistant and Associate Deans Committee</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0837781448598626702672]">3</container>
+            <container type="box" label="Box [280190546759850619387]">3</container>
             <unittitle>Awards</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0837781448598626702672]">3</container>
+            <container type="box" label="Box [280190546759850619387]">3</container>
             <unittitle>Committee: University Land Committee</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0837781448598626702672]">3</container>
+            <container type="box" label="Box [280190546759850619387]">3</container>
             <unittitle>Community Leaders Conference</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0837781448598626702672]">3</container>
+            <container type="box" label="Box [280190546759850619387]">3</container>
             <unittitle>Conservation Education Association</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7223469604587828479]">4</container>
+            <container type="box" label="Box [91920912747324656190]">4</container>
             <unittitle>Conferences</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7223469604587828479]">4</container>
+            <container type="box" label="Box [91920912747324656190]">4</container>
             <unittitle>International Association of Game, Fish and Conservation Commissioners</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7223469604587828479]">4</container>
+            <container type="box" label="Box [91920912747324656190]">4</container>
             <unittitle>Landscape Design Study Course</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7223469604587828479]">4</container>
+            <container type="box" label="Box [91920912747324656190]">4</container>
             <unittitle>Michigan Academy of Science</unittitle>
           </did>
         </c02>
@@ -443,56 +423,56 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7223469604587828479]">4</container>
+              <container type="box" label="Box [91920912747324656190]">4</container>
               <unittitle>Biology and Renewable Resources panel</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7223469604587828479]">4</container>
+              <container type="box" label="Box [91920912747324656190]">4</container>
               <unittitle>Committee on the Imported Fire Ant</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0144506544808785816]">5</container>
+            <container type="box" label="Box [1701740484829343647624]">5</container>
             <unittitle>News clippings</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0144506544808785816]">5</container>
+            <container type="box" label="Box [1701740484829343647624]">5</container>
             <unittitle>Pond Sites memo</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0144506544808785816]">5</container>
+            <container type="box" label="Box [1701740484829343647624]">5</container>
             <unittitle>Sigma Xi</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0144506544808785816]">5</container>
+            <container type="box" label="Box [1701740484829343647624]">5</container>
             <unittitle>Speeches and Lectures</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0144506544808785816]">5</container>
+            <container type="box" label="Box [1701740484829343647624]">5</container>
             <unittitle>TV Lecture Series</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0144506544808785816]">5</container>
+            <container type="box" label="Box [1701740484829343647624]">5</container>
             <unittitle>Trip to Japan</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0144506544808785816]">5</container>
+            <container type="box" label="Box [1701740484829343647624]">5</container>
             <unittitle>Xi Sigma Pi</unittitle>
           </did>
         </c02>
@@ -509,193 +489,192 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5874515402072647185]">6</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [504466348639734743767]">6</container>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5874515402072647185]">6</container>
+            <container type="box" label="Box [504466348639734743767]">6</container>
             <unittitle>American Fisheries Society</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5874515402072647185]">6</container>
+            <container type="box" label="Box [504466348639734743767]">6</container>
             <unittitle>American Institute of Biological Sciences</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5874515402072647185]">6</container>
+            <container type="box" label="Box [504466348639734743767]">6</container>
             <unittitle>American Institute of Fishery Research Biologists</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [81362432445294701393730]">7</container>
+            <container type="box" label="Box [6966204757974630642]">7</container>
             <unittitle>Bureau of Commercial Fisheries</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [81362432445294701393730]">7</container>
+            <container type="box" label="Box [6966204757974630642]">7</container>
             <unittitle>Conservation Foundation</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [81362432445294701393730]">7</container>
+            <container type="box" label="Box [6966204757974630642]">7</container>
             <unittitle>Ecology</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [81362432445294701393730]">7</container>
+            <container type="box" label="Box [6966204757974630642]">7</container>
             <unittitle>Eastern Michigan Nature Association</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3040777429267388464]">8</container>
+            <container type="box" label="Box [8536114202170906]">8</container>
             <unittitle>Ecological Society of America</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3040777429267388464]">8</container>
+            <container type="box" label="Box [8536114202170906]">8</container>
             <unittitle>Entomological Society of America</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3040777429267388464]">8</container>
+            <container type="box" label="Box [8536114202170906]">8</container>
             <unittitle>Environment</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3040777429267388464]">8</container>
+            <container type="box" label="Box [8536114202170906]">8</container>
             <unittitle>Great Lakes Basin Commission</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3040777429267388464]">8</container>
+            <container type="box" label="Box [8536114202170906]">8</container>
             <unittitle>Great Lakes Research Conference</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3040777429267388464]">8</container>
+            <container type="box" label="Box [8536114202170906]">8</container>
             <unittitle>Huron River Watershed Council</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6765354795401954779419]">9</container>
+            <container type="box" label="Box [9643488534253851080605887]">9</container>
             <unittitle>Hunter Attitudes</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6765354795401954779419]">9</container>
+            <container type="box" label="Box [9643488534253851080605887]">9</container>
             <unittitle>International Biological Program</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6765354795401954779419]">9</container>
+            <container type="box" label="Box [9643488534253851080605887]">9</container>
             <unittitle>International Fisheries</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6765354795401954779419]">9</container>
+            <container type="box" label="Box [9643488534253851080605887]">9</container>
             <unittitle>Lagler, Karl F</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6765354795401954779419]">9</container>
+            <container type="box" label="Box [9643488534253851080605887]">9</container>
             <unittitle>Michigan Association of Conservation Ecologists</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [54526494989133002]">10</container>
+            <container type="box" label="Box [5204431814399497999860]">10</container>
             <unittitle>Michigan Academy of Arts, Sciences, and Letters</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [54526494989133002]">10</container>
+            <container type="box" label="Box [5204431814399497999860]">10</container>
             <unittitle>Michigan Conservation Commission</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [54526494989133002]">10</container>
+            <container type="box" label="Box [5204431814399497999860]">10</container>
             <unittitle>Michigan Department of Natural Resources</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [54526494989133002]">10</container>
+            <container type="box" label="Box [5204431814399497999860]">10</container>
             <unittitle>Michigan Natural Resources Council</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [54526494989133002]">10</container>
+            <container type="box" label="Box [5204431814399497999860]">10</container>
             <unittitle>Michigan United Conservation Clubs</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [54526494989133002]">10</container>
+            <container type="box" label="Box [5204431814399497999860]">10</container>
             <unittitle>Michigan Water Resources Commission</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5023878545281910236067]">11</container>
+            <container type="box" label="Box [87388748405002664]">11</container>
             <unittitle>National Research Council</unittitle>
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5023878545281910236067]">11</container>
+              <container type="box" label="Box [87388748405002664]">11</container>
               <unittitle>Committee on Pest Biology</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5023878545281910236067]">11</container>
+            <container type="box" label="Box [87388748405002664]">11</container>
             <unittitle>National Academy of Science</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5023878545281910236067]">11</container>
+            <container type="box" label="Box [87388748405002664]">11</container>
             <unittitle>National Wildlife Federation</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5023878545281910236067]">11</container>
+            <container type="box" label="Box [87388748405002664]">11</container>
             <unittitle>North American Wildlife and Natural Resources Conference</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5023878545281910236067]">11</container>
+            <container type="box" label="Box [87388748405002664]">11</container>
             <unittitle>Organization for Tropical Studies</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [70649291522725415]">12</container>
+            <container type="box" label="Box [3901636067474878851360]">12</container>
             <unittitle>River Ecology Symposium</unittitle>
           </did>
         </c02>
@@ -705,62 +684,62 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [70649291522725415]">12</container>
+              <container type="box" label="Box [3901636067474878851360]">12</container>
               <unittitle>Committee on Outdoor Recreation</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [70649291522725415]">12</container>
+            <container type="box" label="Box [3901636067474878851360]">12</container>
             <unittitle>Sport Fishing Institute</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [70649291522725415]">12</container>
+            <container type="box" label="Box [3901636067474878851360]">12</container>
             <unittitle>Spurr, Stephen</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [70649291522725415]">12</container>
+            <container type="box" label="Box [3901636067474878851360]">12</container>
             <unittitle>Trout Unlimited</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [451702410469533025112626]">13</container>
+            <container type="box" label="Box [542546545269516014169796]">13</container>
             <unittitle>Van Coevering, Jack</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [451702410469533025112626]">13</container>
+            <container type="box" label="Box [542546545269516014169796]">13</container>
             <unittitle>Water Resources Commission</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [451702410469533025112626]">13</container>
+            <container type="box" label="Box [542546545269516014169796]">13</container>
             <unittitle>Wildlife Management Institute</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [451702410469533025112626]">13</container>
+            <container type="box" label="Box [542546545269516014169796]">13</container>
             <unittitle>Wildlife Society</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [451702410469533025112626]">13</container>
+            <container type="box" label="Box [542546545269516014169796]">13</container>
             <unittitle>Administration of National Parks and Equivalent Reserves</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [451702410469533025112626]">13</container>
+            <container type="box" label="Box [542546545269516014169796]">13</container>
             <unittitle>American Fisheries Society</unittitle>
           </did>
         </c02>
@@ -776,37 +755,37 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [451702410469533025112626]">13</container>
+            <container type="box" label="Box [542546545269516014169796]">13</container>
             <unittitle>Field work, including animals</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [451702410469533025112626]">13</container>
+            <container type="box" label="Box [542546545269516014169796]">13</container>
             <unittitle>Groups, formal</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [451702410469533025112626]">13</container>
+            <container type="box" label="Box [542546545269516014169796]">13</container>
             <unittitle>Groups, informal</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [451702410469533025112626]">13</container>
+            <container type="box" label="Box [542546545269516014169796]">13</container>
             <unittitle>Staff</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [451702410469533025112626]">13</container>
+            <container type="box" label="Box [542546545269516014169796]">13</container>
             <unittitle>Self and family</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [451702410469533025112626]">13</container>
+            <container type="box" label="Box [542546545269516014169796]">13</container>
             <unittitle>"Ecology: Man and the Environment"</unittitle>
           </did>
           <odd>

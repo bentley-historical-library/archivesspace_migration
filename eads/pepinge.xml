@@ -28,7 +28,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,10 +40,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Pepin, George E.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/3652">Pepin, George E.</persname>
       </origination>
-      <unittitle encodinganalog="245">George E. Pepin Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1919">1918-1919</unitdate></unittitle>
-      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">2008031 Aa 1</unitid>
+      <unittitle encodinganalog="245">George E. Pepin Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1918/1919">1918-1919</unitdate><unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">2008031 Aa 1</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Typescript of diary of Pepin's military service.</abstract>
       <physdesc altrender="whole">
@@ -82,11 +82,11 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname encodinganalog="610" source="lcnaf">United States. Army. Engineer Regiment, 310th.</corpname>
-        <persname encodinganalog="600" source="lcnaf">Pepin, George E.</persname>
-        <geogname encodinganalog="651" source="lcsh">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <subject source="lcsh">World War, 1914-1918.</subject>
-        <subject source="local" encodinganalog="690">Polar Bear Expedition.</subject>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/1507">United States. Army. Engineer Regiment, 310th.</corpname>
+        <persname encodinganalog="600" source="lcnaf" ref="/agents/people/3652">Pepin, George E.</persname>
+        <geogname encodinganalog="651" source="lcsh" ref="/subjects/879">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <subject source="lcsh" ref="/subjects/5715">World War, 1914-1918.</subject>
+        <subject source="local" encodinganalog="690" ref="/subjects/3516">Polar Bear Expedition.</subject>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -96,12 +96,11 @@
         </did>
         <c02 level="file">
           <did>
-            <container label="Folder [3419127074172930953942]" type="folder">1</container>
-            <unittitle>Transcript of diary, <unitdate normal="1918/1919" type="inclusive">1918-1919</unitdate> and military papers</unittitle>
-            <physdesc altrender="whole">
+            <container label="Folder [70306084160786534]" type="folder">1</container>
+            <unittitle>Transcript of diary, and military papers</unittitle><unitdate normal="1918/1919" type="inclusive">1918-1919</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 items</extent>
             </physdesc>
-            <dao href="pepin0001" show="new" actuate="onRequest">
+            <dao href="pepin0001" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/14949">
               <daodesc>
                 <p>[view items]</p>
               </daodesc>
@@ -110,12 +109,12 @@
         </c02>
         <c02 level="file">
           <did>
-            <container label="Folder [829663417893654369635]" type="folder">2</container>
+            <container label="Folder [0239910314687998242777]" type="folder">2</container>
             <unittitle>Photographs, postcards, and a letter, 1918 and undated</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">7 items</extent>
             </physdesc>
-            <dao href="pepin0002" show="new" actuate="onRequest">
+            <dao href="pepin0002" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/14950">
               <daodesc>
                 <p>[view items]</p>
               </daodesc>

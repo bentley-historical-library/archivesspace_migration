@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Stewart family</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/143">Stewart family</famname>
       </origination>
-      <unittitle encodinganalog="245">Stewart, Van Akin and Seymour Family papers <unitdate type="inclusive" encodinganalog="245$f" normal="1829/2003">1829-2003</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1860/1964">1860-1964</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2010078 Aa 2</unitid>
+      <unittitle encodinganalog="245">Stewart, Van Akin and Seymour Family papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1829/2003">1829-2003</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1860/1964">1860-1964</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2010078 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Papers of the Stewart, Van Akin, and Seymour families, of Flint, Michigan. Includes correspondence, genealogies, newspaper clippings, family memorabilia and photographs.</abstract>
       <physdesc altrender="whole">
@@ -82,28 +82,28 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Armenians.</subject>
-        <subject source="lcsh" encodinganalog="650">Missionaries--Turkey.</subject>
-        <subject source="lcsh" encodinganalog="650">Missionaries--United States.</subject>
-        <famname source="lcnaf" encodinganalog="600">Seymour family.</famname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091881">Shiawassee County (Mich.)</geogname>
-        <famname source="lcnaf" encodinganalog="600">Stuart family.</famname>
-        <geogname source="lcsh" encodinganalog="651">Turkey.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Michigan Infantry Regiment, 23rd (1862-1865). Company C.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Michigan Infantry Regiment, 23rd (1862-1865). Company F.</corpname>
-        <geogname source="lcsh" encodinganalog="651">United States--History--Civil War, 1861-1865.</geogname>
-        <famname source="lcnaf" encodinganalog="600">Van Aken family.</famname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10259">Armenians.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10260">Missionaries--Turkey.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7845">Missionaries--United States.</subject>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/141">Seymour family.</famname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091881" ref="/subjects/1935">Shiawassee County (Mich.)</geogname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/336">Stuart family.</famname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/927">Turkey.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3023">United States. Army. Michigan Infantry Regiment, 23rd (1862-1865). Company C.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5659">United States. Army. Michigan Infantry Regiment, 23rd (1862-1865). Company F.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/905">United States--History--Civil War, 1861-1865.</geogname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/112">Van Aken family.</famname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Armstrong, Harriet Seymour.</persname>
-        <persname source="lcnaf" encodinganalog="700">Seymour, James.</persname>
-        <persname source="lcnaf" encodinganalog="700">Stewart, Charles, 1839-1864.</persname>
-        <persname source="lcnaf" encodinganalog="700">Stewart, Damon, 1834-1867.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/4890">Armstrong, Harriet Seymour.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/5312">Seymour, James.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/1849">Stewart, Charles, 1839-1864.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/4431">Stewart, Damon, 1834-1867.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -116,13 +116,12 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [764474825135046]">1</container>
-            <unittitle>"Index to Individuals and Families Named Van Auken and Van Aken," by Robert A. Van Auken, Glorya E. Welch, and Florence L. Van Aken <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9521418618456951071193105075]">1</container>
+            <unittitle>"Index to Individuals and Families Named Van Auken and Van Aken," by Robert A. Van Auken, Glorya E. Welch, and Florence L. Van Aken</unittitle><unitdate type="inclusive" normal="1990">1990</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [764474825135046]">1</container>
+            <container type="box" label="Box [9521418618456951071193105075]">1</container>
             <unittitle>Genealogies</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
@@ -131,7 +130,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [764474825135046]">1</container>
+            <container type="box" label="Box [9521418618456951071193105075]">1</container>
             <unittitle>Jennings Newspaper Clippings</unittitle>
           </did>
         </c02>
@@ -141,43 +140,37 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [764474825135046]">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1930">1930</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9521418618456951071193105075]">1</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1930">1930</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [764474825135046]">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1990/1999" certainty="approximate">circa 1990s</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9521418618456951071193105075]">1</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1990/1999" certainty="approximate">circa 1990s</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [764474825135046]">1</container>
-              <unittitle>"Not a Hero: Recollections of My Military Duty on Okinawa, 1945" <unitdate type="inclusive" normal="2003">2003</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9521418618456951071193105075]">1</container>
+              <unittitle>"Not a Hero: Recollections of My Military Duty on Okinawa, 1945"</unittitle><unitdate type="inclusive" normal="2003">2003</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [764474825135046]">1</container>
-              <unittitle><title render="italic">Vital Records of Colrain, Massachusetts to the end of the year 1849</title>, with notes by V. A. Burd, <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9521418618456951071193105075]">1</container>
+              <unittitle><title render="italic">Vital Records of Colrain, Massachusetts to the end of the year 1849</title>, with notes by V. A. Burd</unittitle><unitdate type="inclusive">undated</unitdate></did>
             <odd>
               <p>(photocopied material from 1908)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [764474825135046]">1</container>
-              <unittitle>Genealogical Research, Newberry Library <unitdate type="inclusive" normal="1976">1976</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9521418618456951071193105075]">1</container>
+              <unittitle>Genealogical Research, Newberry Library</unittitle><unitdate type="inclusive" normal="1976">1976</unitdate><unitdate type="inclusive">undated</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [764474825135046]">1</container>
-            <unittitle>Van Aken/Van Auken Newsletter <unitdate type="inclusive" normal="1995/2004">1995-2004 (scattered)</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9521418618456951071193105075]">1</container>
+            <unittitle>Van Aken/Van Auken Newsletter</unittitle><unitdate type="inclusive" normal="1995/2004">1995-2004 (scattered)</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -189,7 +182,7 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [764474825135046]">1</container>
+            <container type="box" label="Box [9521418618456951071193105075]">1</container>
             <unittitle>Tilden-Stewart Genealogies</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
@@ -198,7 +191,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [764474825135046]">1</container>
+            <container type="box" label="Box [9521418618456951071193105075]">1</container>
             <unittitle>Miscellaneous Newspaper Clippings</unittitle>
           </did>
         </c02>
@@ -208,15 +201,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [764474825135046]">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1861/1876">1861-1876 (scattered)</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9521418618456951071193105075]">1</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1861/1876">1861-1876 (scattered)</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [764474825135046]">1</container>
-              <unittitle>Obituaries <unitdate type="inclusive" normal="1884">1884</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9521418618456951071193105075]">1</container>
+              <unittitle>Obituaries</unittitle><unitdate type="inclusive" normal="1884">1884</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -225,9 +216,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [764474825135046]">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1861/1864">1861-1864</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9521418618456951071193105075]">1</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1861/1864">1861-1864</unitdate></did>
             <odd>
               <p>(includes letters written while Stewart was a soldier in the 23rd Michigan Volunteer Infantry, Company F)</p>
             </odd>
@@ -239,15 +229,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [764474825135046]">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1859/1860">1859-1860</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9521418618456951071193105075]">1</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1859/1860">1859-1860</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [764474825135046]">1</container>
-              <unittitle>Correspondence from Harpoot, Turkey <unitdate type="inclusive" normal="1886/1903">1886-1903 (scattered)</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9521418618456951071193105075]">1</container>
+              <unittitle>Correspondence from Harpoot, Turkey</unittitle><unitdate type="inclusive" normal="1886/1903">1886-1903 (scattered)</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -256,15 +244,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [764474825135046]">1</container>
-              <unittitle>Genealogy <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9521418618456951071193105075]">1</container>
+              <unittitle>Genealogy</unittitle><unitdate type="inclusive">undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [764474825135046]">1</container>
-              <unittitle>Memorabilia <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9521418618456951071193105075]">1</container>
+              <unittitle>Memorabilia</unittitle><unitdate type="inclusive">undated</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -273,24 +259,21 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [764474825135046]">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1861/1862">1861-1862</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9521418618456951071193105075]">1</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1861/1862">1861-1862</unitdate></did>
             <odd>
               <p>(includes letters written while Stewart was a soldier in 23rd Michigan Volunteer Infantry, Company C)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [764474825135046]">1</container>
-              <unittitle>Estate of <unitdate type="inclusive" normal="1865">1865</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9521418618456951071193105075]">1</container>
+              <unittitle>Estate of</unittitle><unitdate type="inclusive" normal="1865">1865</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [764474825135046]">1</container>
-              <unittitle>Newspaper clippings of death notice <unitdate type="inclusive" normal="1860/1869" certainty="approximate">circa 1860s</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9521418618456951071193105075]">1</container>
+              <unittitle>Newspaper clippings of death notice</unittitle><unitdate type="inclusive" normal="1860/1869" certainty="approximate">circa 1860s</unitdate></did>
           </c03>
         </c02>
       </c01>
@@ -307,9 +290,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [764474825135046]">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1895/1897">1895-1897</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9521418618456951071193105075]">1</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1895/1897">1895-1897</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -318,15 +300,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [764474825135046]">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1913/1964">1913-1964 (scattered)</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9521418618456951071193105075]">1</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1913/1964">1913-1964 (scattered)</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [764474825135046]">1</container>
-              <unittitle>Memoirs and Genealogy <unitdate type="inclusive" normal="1902/1923">1902-1923 (scattered)</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9521418618456951071193105075]">1</container>
+              <unittitle>Memoirs and Genealogy</unittitle><unitdate type="inclusive" normal="1902/1923">1902-1923 (scattered)</unitdate><unitdate type="inclusive">undated</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -335,9 +315,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [764474825135046]">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1893/1904">1893-1904</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9521418618456951071193105075]">1</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1893/1904">1893-1904</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -346,21 +325,18 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [764474825135046]">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1861/1897">1861-1897 (scattered)</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9521418618456951071193105075]">1</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1861/1897">1861-1897 (scattered)</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [764474825135046]">1</container>
-              <unittitle>Land Grants <unitdate type="inclusive" normal="1866/1867">1866-1867</unitdate>, <unitdate type="inclusive" normal="1869">1869</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9521418618456951071193105075]">1</container>
+              <unittitle>Land Grants</unittitle><unitdate type="inclusive" normal="1866/1867">1866-1867</unitdate><unitdate type="inclusive" normal="1869">1869</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [764474825135046]">1</container>
-              <unittitle>Miscellaneous <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9521418618456951071193105075]">1</container>
+              <unittitle>Miscellaneous</unittitle><unitdate type="inclusive">undated</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -369,21 +345,18 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [764474825135046]">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1884/1916">1884-1916</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9521418618456951071193105075]">1</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1884/1916">1884-1916</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [764474825135046]">1</container>
-              <unittitle><genreform normal="Diaries">Diaries</genreform>, <unitdate type="inclusive" normal="1896">1896</unitdate>, <unitdate type="inclusive" normal="1899">1899</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9521418618456951071193105075]">1</container>
+              <unittitle><genreform normal="Diaries">Diaries</genreform></unittitle><unitdate type="inclusive" normal="1896">1896</unitdate><unitdate type="inclusive" normal="1899">1899</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [764474825135046]">1</container>
-              <unittitle>Miscellaneous <unitdate type="inclusive" normal="1910/1943">1910-1943</unitdate>, <unitdate type="inclusive">undated (scattered)</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [9521418618456951071193105075]">1</container>
+              <unittitle>Miscellaneous</unittitle><unitdate type="inclusive" normal="1910/1943">1910-1943</unitdate><unitdate type="inclusive">undated (scattered)</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -395,9 +368,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [764474825135046]">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1886/1904">1886-1904 (scattered)</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9521418618456951071193105075]">1</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1886/1904">1886-1904 (scattered)</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -406,46 +378,40 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [764474825135046]">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1961">1961</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9521418618456951071193105075]">1</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate><unitdate type="inclusive">undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [764474825135046]">1</container>
-              <unittitle>Miscellaneous <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9521418618456951071193105075]">1</container>
+              <unittitle>Miscellaneous</unittitle><unitdate type="inclusive">undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [764474825135046]">1</container>
-              <unittitle>Obituaries <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9521418618456951071193105075]">1</container>
+              <unittitle>Obituaries</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [764474825135046]">1</container>
-            <unittitle>Miscellaneous <unitdate type="inclusive" normal="1888">1888</unitdate>, <unitdate type="inclusive" normal="1930">1930</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9521418618456951071193105075]">1</container>
+            <unittitle>Miscellaneous</unittitle><unitdate type="inclusive" normal="1888">1888</unitdate><unitdate type="inclusive" normal="1930">1930</unitdate><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [764474825135046]">1</container>
-            <unittitle>Genealogies <unitdate type="inclusive" normal="1902">1902</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [9521418618456951071193105075]">1</container>
+            <unittitle>Genealogies</unittitle><unitdate type="inclusive" normal="1902">1902</unitdate><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [54485266594191688393]">2</container>
+            <container type="box" label="Box [0308558469465546763]">2</container>
             <unittitle>Miscellaneous Genealogies</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [54485266594191688393]">2</container>
-            <unittitle>Seymour Land Grants <unitdate type="inclusive" normal="1836/1837">1836-1837</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0308558469465546763]">2</container>
+            <unittitle>Seymour Land Grants</unittitle><unitdate type="inclusive" normal="1836/1837">1836-1837</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -457,7 +423,7 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [54485266594191688393]">2</container>
+            <container type="box" label="Box [0308558469465546763]">2</container>
             <unittitle>Seymour Family Coat of Arms</unittitle>
           </did>
         </c02>
@@ -469,7 +435,7 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [54485266594191688393]">2</container>
+              <container type="box" label="Box [0308558469465546763]">2</container>
               <unittitle>Miscellaneous Unidentified Family Members</unittitle>
             </did>
           </c03>
@@ -479,55 +445,55 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [54485266594191688393]">2</container>
+                <container type="box" label="Box [0308558469465546763]">2</container>
                 <unittitle>Elizabeth Graves Gilmore (Mrs. James Seymour)</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [54485266594191688393]">2</container>
+                <container type="box" label="Box [0308558469465546763]">2</container>
                 <unittitle>Elizabeth Harriet Graves Seymour (daughter of James and Elizabeth Graves Seymour)</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [54485266594191688393]">2</container>
+                <container type="box" label="Box [0308558469465546763]">2</container>
                 <unittitle>Emily Seymour (daughter of Henry and Laura Stewart Seymour)</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [54485266594191688393]">2</container>
+                <container type="box" label="Box [0308558469465546763]">2</container>
                 <unittitle>Henry and Laura Seymour and children</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [54485266594191688393]">2</container>
+                <container type="box" label="Box [0308558469465546763]">2</container>
                 <unittitle>James Seymour (son of Henry and Laura Stewart Seymour)</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [54485266594191688393]">2</container>
+                <container type="box" label="Box [0308558469465546763]">2</container>
                 <unittitle>Laura Stewart Seymour (daughter of Addison Stewart and Lucy Tilden Stewart)</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [54485266594191688393]">2</container>
+                <container type="box" label="Box [0308558469465546763]">2</container>
                 <unittitle>Mary Seymour (daughter of Henry and Laura Stewart Seymour)</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [54485266594191688393]">2</container>
+                <container type="box" label="Box [0308558469465546763]">2</container>
                 <unittitle>Newbelia Elizabeth Graves Gilmore (mother of Elizabeth Graves Seymour)</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [54485266594191688393]">2</container>
+                <container type="box" label="Box [0308558469465546763]">2</container>
                 <unittitle>Will Seymour (son of Henry and Laura Stewart Seymour)</unittitle>
               </did>
             </c04>
@@ -538,15 +504,14 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [54485266594191688393]">2</container>
+                <container type="box" label="Box [0308558469465546763]">2</container>
                 <unittitle>Frances McQuigg Stewart</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [54485266594191688393]">2</container>
-                <unittitle>Stewart Relics <unitdate type="inclusive" normal="1931">1931</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [0308558469465546763]">2</container>
+                <unittitle>Stewart Relics</unittitle><unitdate type="inclusive" normal="1931">1931</unitdate></did>
             </c04>
           </c03>
         </c02>
@@ -556,15 +521,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [54485266594191688393]">2</container>
-              <unittitle>"Home" by Elizabeth G. Seymour <unitdate type="inclusive" normal="1858">1858</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [0308558469465546763]">2</container>
+              <unittitle>"Home" by Elizabeth G. Seymour</unittitle><unitdate type="inclusive" normal="1858">1858</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [54485266594191688393]">2</container>
-              <unittitle>"The Flushing Home," by H. L. Brent and an unidentified drawing of a house <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [0308558469465546763]">2</container>
+              <unittitle>"The Flushing Home," by H. L. Brent and an unidentified drawing of a house</unittitle><unitdate type="inclusive">undated</unitdate></did>
           </c03>
         </c02>
       </c01>

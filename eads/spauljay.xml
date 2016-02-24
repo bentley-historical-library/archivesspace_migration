@@ -28,7 +28,8 @@
         <item>Edited to reflect migration of content from CD-ROM to Deep Blue JMBG</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,10 +40,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Spaulding, Jay Earle, b.1894.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/316">Spaulding, Jay Earle, b.1894.</persname>
       </origination>
-      <unittitle encodinganalog="245">Jay Earle Spaulding papers <unitdate type="inclusive" encodinganalog="245$f" normal="1917/1920">1917-1920</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="1940">1940</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009083 Aa 2</unitid>
+      <unittitle encodinganalog="245">Jay Earle Spaulding papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1917/1920">1917-1920</unitdate><unitdate type="inclusive" encodinganalog="245$f" normal="1940">1940</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009083 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Papers of a soldier with the 310th Engineers in the Allied intervention in Russia, 1918-1919, the "Polar Bear Expedition."</abstract>
       <physdesc altrender="whole">
@@ -85,11 +85,11 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Spaulding, Jay Earle, b.1894.</persname>
-        <geogname source="lcnaf" encodinganalog="651.">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Engineer Regiment, 310th.</corpname>
-        <corpname encodinganalog="690" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n2008059426">Polar Bear Expedition (1918-1919)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/316">Spaulding, Jay Earle, b.1894.</persname>
+        <geogname source="lcnaf" encodinganalog="651." ref="/subjects/756">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5715">World War, 1914-1918.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1507">United States. Army. Engineer Regiment, 310th.</corpname>
+        <corpname encodinganalog="690" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n2008059426" ref="/agents/corporate_entities/4142">Polar Bear Expedition (1918-1919)</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -99,12 +99,12 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [496497942903707441920]">1</container>
+            <container type="folder" label="Folder [43879795749785439941592]">1</container>
             <unittitle>Diary and reminiscence</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">1 digital files</extent>
             </physdesc>
-            <dao show="new" actuate="onRequest" href="spaulding0001">
+            <dao show="new" actuate="onRequest" href="spaulding0001" ref="/repositories/2/digital_objects/15671">
               <daodesc>
                 <p>[view items]</p>
               </daodesc>

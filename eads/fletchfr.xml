@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Fletcher, Frank Ward, 1853-1922.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/1182">Fletcher, Frank Ward, 1853-1922.</persname>
       </origination>
-      <unittitle encodinganalog="245">Frank Ward Fletcher papers <unitdate type="inclusive" encodinganalog="245$f" normal="1875/1922">1875-1922</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">88306 Aa 2</unitid>
+      <unittitle encodinganalog="245">Frank Ward Fletcher papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1875/1922">1875-1922</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">88306 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Alpena, Michigan, lumberman and Republican member of the Board of Regents of the University of Michigan; business and personal correspondence, University of Michigan Board of Regents correspondence, financial materials, and photographs.</abstract>
       <physdesc altrender="whole">
@@ -78,30 +78,30 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651">Alpena (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1896.</subject>
-        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1898.</subject>
-        <subject source="lcsh" encodinganalog="650">Logging--Michigan--Alpena.</subject>
-        <subject source="lcsh" encodinganalog="650">Lumbering--Michigan--Alpena.</subject>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1877-1898.</geogname>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1899-1916.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998">University of Michigan. Board of Regents.</corpname>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Politics and government--1837-1950.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1029">Alpena (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6198">Elections--Michigan--1896.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7787">Elections--Michigan--1898.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7783">Logging--Michigan--Alpena.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7784">Lumbering--Michigan--Alpena.</subject>
+        <geogname source="local" encodinganalog="691" ref="/subjects/801">Michigan--Politics and government--1877-1898.</geogname>
+        <geogname source="local" encodinganalog="691" ref="/subjects/802">Michigan--Politics and government--1899-1916.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4055">Republican Party (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998" ref="/agents/corporate_entities/858">University of Michigan. Board of Regents.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/880">Michigan--Politics and government--1837-1950.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <famname source="lcnaf" encodinganalog="600">Fletcher family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/48">Fletcher family.</famname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Fletcher, George N., b. 1813.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50082280">Hanna, Marcus Alonzo, 1837-1904.</persname>
-        <persname source="lcnaf" encodinganalog="700">Osborn, Chase S. (Chase Salmon), b. 1860.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/6710">Fletcher, George N., b. 1813.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50082280" ref="/agents/people/895">Hanna, Marcus Alonzo, 1837-1904.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/2456">Osborn, Chase S. (Chase Salmon), b. 1860.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -111,12 +111,8 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [463032454579583568871]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1880/1899">1880-1899</unitdate>
-              <unitdate type="inclusive" normal="1913">1913</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [045076545832624949217]">1</container>
+            <unitdate type="inclusive" normal="1880/1899">1880-1899</unitdate><unitdate type="inclusive" normal="1913">1913</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">26 folders</extent>
             </physdesc>
           </did>
@@ -131,11 +127,8 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [463032454579583568871]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1895/1899">1895-1899</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [045076545832624949217]">1</container>
+            <unitdate type="inclusive" normal="1895/1899">1895-1899</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">10 folders</extent>
             </physdesc>
           </did>
@@ -147,37 +140,33 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [463032454579583568871]">1</container>
-            <unittitle>Letterpress book <unitdate type="inclusive" normal="1885/1899">1885-1899</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [045076545832624949217]">1</container>
+            <unittitle>Letterpress book</unittitle><unitdate type="inclusive" normal="1885/1899">1885-1899</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [463032454579583568871]">1</container>
-            <unittitle>Personal bills and receipts <unitdate type="inclusive" normal="1909/1917">1909-1917</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [045076545832624949217]">1</container>
+            <unittitle>Personal bills and receipts</unittitle><unitdate type="inclusive" normal="1909/1917">1909-1917</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">10 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [463032454579583568871]">1</container>
-            <unittitle>Pages from check book <unitdate type="inclusive" normal="1922">1922</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [045076545832624949217]">1</container>
+            <unittitle>Pages from check book</unittitle><unitdate type="inclusive" normal="1922">1922</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [463032454579583568871]">1</container>
-            <unittitle>Check book stubs <unitdate type="inclusive" normal="1913/1922">1913-1922</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [045076545832624949217]">1</container>
+            <unittitle>Check book stubs</unittitle><unitdate type="inclusive" normal="1913/1922">1913-1922</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [463032454579583568871]">1</container>
+            <container type="box" label="Box [045076545832624949217]">1</container>
             <unittitle>
               <genreform normal="Photographs">Photographs</genreform>
             </unittitle>
@@ -185,9 +174,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [634468543446287756963404]">2</container>
-            <unittitle>Miscellaneous pocket diaries, notebooks, etc. <unitdate type="inclusive" normal="1875/1922">1875-1922</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [873889644509502693214350]">2</container>
+            <unittitle>Miscellaneous pocket diaries, notebooks, etc.</unittitle><unitdate type="inclusive" normal="1875/1922">1875-1922</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">32 volumes</extent>
             </physdesc>
           </did>

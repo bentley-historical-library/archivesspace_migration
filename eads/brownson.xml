@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Brownson, William T.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/4341">Brownson, William T.</persname>
       </origination>
-      <unittitle encodinganalog="245">William T. Brownson papers <unitdate type="inclusive" encodinganalog="245$f" normal="1949/1975">1949-1975</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">8549 Aa 2</unitid>
+      <unittitle encodinganalog="245">William T. Brownson papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1949/1975">1949-1975</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">8549 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Labor relations specialist for the Lamar Pipe Company and the Michigan Concrete Pipe Association. Materials relating to his dealings with the Teamster's union; also papers concerning his work with an Ann Arbor, Michigan, citizens group formed to oppose proposed building on Stadium Blvd.</abstract>
       <physdesc altrender="whole">
@@ -81,217 +81,166 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600">Brownson, William T.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79058450">International Brotherhood of Teamsters, Chauffeurs, Warehousemen, and Helpers of America.</corpname>
-        <subject source="lcsh" encodinganalog="650">Industrial relations--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Land use--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Concrete Pipe Association.</corpname>
-        <subject source="lcsh" encodinganalog="650">Citizens' associations--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219" ref="/subjects/856">Ann Arbor (Mich.)</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4341">Brownson, William T.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79058450" ref="/agents/corporate_entities/5551">International Brotherhood of Teamsters, Chauffeurs, Warehousemen, and Helpers of America.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6509">Industrial relations--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6510">Land use--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2113">Michigan Concrete Pipe Association.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6511">Citizens' associations--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <geogname source="lctgm" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)--Business enterprises.</geogname>
-        <geogname source="lctgm" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)--Streets.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Arborland (Shopping mall : Ann Arbor, Mich.)</corpname>
-        <persname source="lcnaf" encodinganalog="600">Brownson, William T.</persname>
-        <subject source="lcsh" encodinganalog="650">Shopping malls--Michigan--Ann Arbor.</subject>
-        <geogname source="lcsh" encodinganalog="651">Stadium Boulevard (Ann Arbor, Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Streets--Michigan--Ann Arbor.</subject>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/206">Ann Arbor (Mich.)--Business enterprises.</geogname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/205">Ann Arbor (Mich.)--Streets.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4878">Arborland (Shopping mall : Ann Arbor, Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4341">Brownson, William T.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6512">Shopping malls--Michigan--Ann Arbor.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1371">Stadium Boulevard (Ann Arbor, Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3843">Streets--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Labor and Union <unitdate type="inclusive" normal="1949/1975">1949-1975</unitdate></unittitle>
-        </did>
+          <unittitle>Labor and Union</unittitle><unitdate type="inclusive" normal="1949/1975">1949-1975</unitdate></did>
         <scopecontent>
           <p>The Labor and Union series documents Brownson's work as a labor specialist and union negotiator on behalf of the concrete pipe industry. The papers are arranged chronologically by year, although not every year is represented as contracts were renegotiated every three years. Within each folder, the papers are also arranged chronologically, with undated material at the end of each folder. In this series, there are mainly printed copies of contracts and correspondence. Much of the correspondence is not from or to Brownson, but nevertheless documents the process of contract negotiation and thus, his activities, if only indirectly. This series, therefore, is most valuable if seen as a contribution to the history of labor-management relations, as collected by Brownson, rather than a documentation of Brownson's career. Photographs of an unidentified Lamar Pipe and Tile Company plant can be found at the end of the 1960 folder.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [26440985434289847203]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1949">1949</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2216955462915691147]">1</container>
+            <unitdate type="inclusive" normal="1949">1949</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [26440985434289847203]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2216955462915691147]">1</container>
+            <unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [26440985434289847203]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1953">1953</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2216955462915691147]">1</container>
+            <unitdate type="inclusive" normal="1953">1953</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [26440985434289847203]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1954">1954</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2216955462915691147]">1</container>
+            <unitdate type="inclusive" normal="1954">1954</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [26440985434289847203]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1955">1955</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2216955462915691147]">1</container>
+            <unitdate type="inclusive" normal="1955">1955</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [26440985434289847203]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1957">1957</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2216955462915691147]">1</container>
+            <unitdate type="inclusive" normal="1957">1957</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [26440985434289847203]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1958">1958</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2216955462915691147]">1</container>
+            <unitdate type="inclusive" normal="1958">1958</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [26440985434289847203]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1960">1960</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2216955462915691147]">1</container>
+            <unitdate type="inclusive" normal="1960">1960</unitdate></did>
           <odd>
             <p>(includes <genreform normal="Photographs">photographs</genreform>)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [26440985434289847203]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1961">1961</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2216955462915691147]">1</container>
+            <unitdate type="inclusive" normal="1961">1961</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [26440985434289847203]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1962">1962</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2216955462915691147]">1</container>
+            <unitdate type="inclusive" normal="1962">1962</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [26440985434289847203]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1963">1963</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2216955462915691147]">1</container>
+            <unitdate type="inclusive" normal="1963">1963</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [26440985434289847203]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1965">1965</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2216955462915691147]">1</container>
+            <unitdate type="inclusive" normal="1965">1965</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [26440985434289847203]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2216955462915691147]">1</container>
+            <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [26440985434289847203]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1971">1971</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2216955462915691147]">1</container>
+            <unitdate type="inclusive" normal="1971">1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [26440985434289847203]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1972">1972</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2216955462915691147]">1</container>
+            <unitdate type="inclusive" normal="1972">1972</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [26440985434289847203]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1974/1975">1974-1975</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2216955462915691147]">1</container>
+            <unitdate type="inclusive" normal="1974/1975">1974-1975</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>New Southeast Property Owners Committee <unitdate type="inclusive" normal="1957/1959">1957-1959</unitdate></unittitle>
-        </did>
+          <unittitle>New Southeast Property Owners Committee</unittitle><unitdate type="inclusive" normal="1957/1959">1957-1959</unitdate></did>
         <scopecontent>
           <p>The New Southeast Property Owners Committee (NSPOC) series documents the efforts of a grassroots organization to prevent commercial development of a shopping center in a formerly residential neighborhood. The series is divided by categories of documents (e.g. reports, clippings, etc.) but not arranged in any particular order therein, except for the correspondence, which is in chronological order. The Reports file contains three different types of reports: 1) those written by the NSPOC, 2) a consulting firm's report which the NSPOC commissioned, and 3) a report by the Ann Arbor Planning Commission, an advisory arm of the City Council. The reports the NSPOC generated to send out are the most informative in terms of why they formed a group in the first place, how they functioned, and how they presented their case to the public. The Hearings and Petitions file is also helpful in understanding exactly what the group's concerns were. In terms of visual materials, there are blueprints of Arborland and one of an unnamed shopping center as well as photographs of the initial groundwork of Arborland (ca. 1957).</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [26440985434289847203]">1</container>
+            <container type="box" label="Box [2216955462915691147]">1</container>
             <unittitle>Reports</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [26440985434289847203]">1</container>
+            <container type="box" label="Box [2216955462915691147]">1</container>
             <unittitle>Hearings and Petitions</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [26440985434289847203]">1</container>
+            <container type="box" label="Box [2216955462915691147]">1</container>
             <unittitle>Correspondence</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [26440985434289847203]">1</container>
+            <container type="box" label="Box [2216955462915691147]">1</container>
             <unittitle>Legal Documents</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [26440985434289847203]">1</container>
+            <container type="box" label="Box [2216955462915691147]">1</container>
             <unittitle>Clippings</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [26440985434289847203]">1</container>
+            <container type="box" label="Box [2216955462915691147]">1</container>
             <unittitle>Blueprints and Map (Arborland and unnamed shopping center)</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [26440985434289847203]">1</container>
-            <unittitle><genreform normal="Photographs">Photographs</genreform> (construction of Arborland), <unitdate type="inclusive" normal="1957" certainty="approximate">circa 1957</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [2216955462915691147]">1</container>
+            <unittitle><genreform normal="Photographs">Photographs</genreform> (construction of Arborland)</unittitle><unitdate type="inclusive" normal="1957" certainty="approximate">circa 1957</unitdate></did>
         </c02>
       </c01>
     </dsc>

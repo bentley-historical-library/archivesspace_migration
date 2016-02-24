@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2010 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n91105665">Anderson, Susan, 1870-1960.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n91105665" ref="/agents/people/4428">Anderson, Susan, 1870-1960.</persname>
       </origination>
-      <unittitle encodinganalog="245">Susan Anderson papers <unitdate type="inclusive" encodinganalog="245$f" normal="1874/1955">1874-1955</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2014152 Aa 2</unitid>
+      <unittitle encodinganalog="245">Susan Anderson papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1874/1955">1874-1955</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2014152 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Graduate of the University of Michigan Medical School (attended from 1893 to 1897) and country physician in the Colorado Rockies from 1898 to 1960. Papers include correspondence from Dr. Anderson's family and friends, her medical licenses, pharmaceutical advertisements, ephemera from the University of Michigan, and family photographs.</abstract>
       <physdesc altrender="whole">
@@ -85,13 +85,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n91105665">Anderson, Susan, 1870-1960.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151">University of Michigan. Medical School--Alumni and alumnae.</corpname>
-        <subject source="lcsh" encodinganalog="650">Women physicians--Colorado.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n91105665" ref="/agents/people/4428">Anderson, Susan, 1870-1960.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151" ref="/agents/corporate_entities/3042">University of Michigan. Medical School--Alumni and alumnae.<term type="topical">Alumni and alumnae.</term></corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5906">Women physicians--Colorado.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -104,11 +104,8 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [630575452199270579]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1890/1955">1890-1955</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [80950204149344146529]">1</container>
+            <unitdate type="inclusive" normal="1890/1955">1890-1955</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">8 folders</extent>
             </physdesc>
           </did>
@@ -123,11 +120,8 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [785240141926894451301]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1898/1951">1898-1951</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [25820577546866956201]">2</container>
+            <unitdate type="inclusive" normal="1898/1951">1898-1951</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -142,11 +136,8 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [785240141926894451301]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1879/1952">1879-1952</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [25820577546866956201]">2</container>
+            <unitdate type="inclusive" normal="1879/1952">1879-1952</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
@@ -161,11 +152,8 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [785240141926894451301]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1875/1950">1875-1950</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [25820577546866956201]">2</container>
+            <unitdate type="inclusive" normal="1875/1950">1875-1950</unitdate></did>
         </c02>
       </c01>
     </dsc>

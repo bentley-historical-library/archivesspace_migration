@@ -39,7 +39,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -50,10 +51,9 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Dept. of Geological Sciences.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/4261">University of Michigan. Dept. of Geological Sciences.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Dept. of Geological Sciences (University of Michigan.) publications <unitdate type="inclusive" encodinganalog="245$f" normal="1933/2006">1933-2006</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1945/2006">1945-2006</unitdate></unittitle>
-      <abstract>The University of Michigan. Department of Geological Sciences Publications (.8 linear ft.) include bibliographies, brochures, directories, flyers and newsletters dating from 1933 to the present. These publications primarily document the activities of the department, faculty, staff, students and alumni. In addition, there is information on the summer geology program run by the University of Michigan at Camp Davis in Jackson, Wyoming and Mill Springs, Kentucky.</abstract>
+      <unittitle encodinganalog="245">Dept. of Geological Sciences (University of Michigan.) publications</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1933/2006">1933-2006</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1945/2006">1945-2006</unitdate><abstract>The University of Michigan. Department of Geological Sciences Publications (.8 linear ft.) include bibliographies, brochures, directories, flyers and newsletters dating from 1933 to the present. These publications primarily document the activities of the department, faculty, staff, students and alumni. In addition, there is information on the summer geology program run by the University of Michigan at Camp Davis in Jackson, Wyoming and Mill Springs, Kentucky.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">0370, Bimu, C26, 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -93,23 +93,23 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Geological Sciences.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Geology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Geology and Mineralogy.</corpname>
-        <subject source="lcsh" encodinganalog="650">Geology--Study and teaching (Higher)--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Dept. of Geology.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Dept. of Geology and Mineralogy.</corpname>
-        <title source="aacr2" encodinganalog="740">Geoalumni news.</title>
-        <title source="aacr2" encodinganalog="740">Geoscience news.</title>
-        <title source="aacr2" encodinganalog="740">Contributions to mineralogical sciences from the Department of Geology and Mineralogy from the time of the organization of the department.</title>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4261">University of Michigan. Dept. of Geological Sciences.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1889">University of Michigan. Dept. of Geology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/338">University of Michigan. Dept. of Geology and Mineralogy.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7937">Geology--Study and teaching (Higher)--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/1889">University of Michigan. Dept. of Geology.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/338">University of Michigan. Dept. of Geology and Mineralogy.</corpname>
+        <title source="aacr2" encodinganalog="740" ref="/subjects/57">Geoalumni news.</title>
+        <title source="aacr2" encodinganalog="740" ref="/subjects/58">Geoscience news.</title>
+        <title source="aacr2" encodinganalog="740" ref="/subjects/59">Contributions to mineralogical sciences from the Department of Geology and Mineralogy from the time of the organization of the department.</title>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Bibliographies.</genreform>
-        <genreform source="aat" encodinganalog="655">Pamhlets.</genreform>
-        <genreform source="aat" encodinganalog="655">Bulletins.</genreform>
-        <genreform source="aat" encodinganalog="655">Directories.</genreform>
-        <genreform source="aat" encodinganalog="655">Newsletters.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3192">Bibliographies.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3280">Pamhlets.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3148">Bulletins.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3195">Directories.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3152">Newsletters.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -123,14 +123,13 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4082704499897854316086]">1</container>
+            <container type="box" label="Box [80488357491058274094188]">1</container>
             <unittitle>Bibliographies</unittitle>
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4082704499897854316086]">1</container>
-              <unittitle><title render="italic">Contributions to Mineralogical Sciences from the Department of Geology and Mineralogy from the Time of the Organization of the Department</title>, <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [80488357491058274094188]">1</container>
+              <unittitle><title render="italic">Contributions to Mineralogical Sciences from the Department of Geology and Mineralogy from the Time of the Organization of the Department</title></unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -139,27 +138,23 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4082704499897854316086]">1</container>
-              <unittitle><title render="italic">Geological Sciences</title>, <unitdate type="inclusive" normal="1982/1989">1982-1989</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [80488357491058274094188]">1</container>
+              <unittitle><title render="italic">Geological Sciences</title></unittitle><unitdate type="inclusive" normal="1982/1989">1982-1989</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4082704499897854316086]">1</container>
-              <unittitle><title render="italic">Geology and Mineralogy</title>, <unitdate type="inclusive" normal="1973/1975">1973-1975</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [80488357491058274094188]">1</container>
+              <unittitle><title render="italic">Geology and Mineralogy</title></unittitle><unitdate type="inclusive" normal="1973/1975">1973-1975</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4082704499897854316086]">1</container>
-              <unittitle><title render="italic">Graduate Studies in Geological Sciences</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [80488357491058274094188]">1</container>
+              <unittitle><title render="italic">Graduate Studies in Geological Sciences</title></unittitle><unitdate type="inclusive">undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4082704499897854316086]">1</container>
-              <unittitle><title render="italic">A Tradition of Leadership</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [80488357491058274094188]">1</container>
+              <unittitle><title render="italic">A Tradition of Leadership</title></unittitle><unitdate type="inclusive">undated</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -174,51 +169,35 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [4082704499897854316086]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1947">1947</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [80488357491058274094188]">1</container>
+                <unitdate type="inclusive" normal="1947">1947</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [4082704499897854316086]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1957">1957</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [80488357491058274094188]">1</container>
+                <unitdate type="inclusive" normal="1957">1957</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [4082704499897854316086]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1960">1960</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [80488357491058274094188]">1</container>
+                <unitdate type="inclusive" normal="1960">1960</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [4082704499897854316086]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1968">1968</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [80488357491058274094188]">1</container>
+                <unitdate type="inclusive" normal="1968">1968</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [4082704499897854316086]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1977">1977</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [80488357491058274094188]">1</container>
+                <unitdate type="inclusive" normal="1977">1977</unitdate></did>
             </c04>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4082704499897854316086]">1</container>
-            <unittitle>Flyers <unitdate type="inclusive" normal="1980/2006">1980-2006</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [80488357491058274094188]">1</container>
+            <unittitle>Flyers</unittitle><unitdate type="inclusive" normal="1980/2006">1980-2006</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -226,9 +205,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4082704499897854316086]">1</container>
-              <unittitle>Miscellaneous <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [80488357491058274094188]">1</container>
+              <unittitle>Miscellaneous</unittitle><unitdate type="inclusive" normal="2002">2002</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -237,9 +215,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4082704499897854316086]">1</container>
-              <unittitle><title render="italic">Department of Geology and Mineralogy</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [80488357491058274094188]">1</container>
+              <unittitle><title render="italic">Department of Geology and Mineralogy</title></unittitle><unitdate type="inclusive">undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -247,57 +224,39 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [4082704499897854316086]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1937/1943">1937-1943</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [80488357491058274094188]">1</container>
+                <unitdate type="inclusive" normal="1937/1943">1937-1943</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [4082704499897854316086]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1945/1957">1945-1957</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [80488357491058274094188]">1</container>
+                <unitdate type="inclusive" normal="1945/1957">1945-1957</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">12 folders</extent>
                 </physdesc>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [4082704499897854316086]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1962">1962</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [80488357491058274094188]">1</container>
+                <unitdate type="inclusive" normal="1962">1962</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [4082704499897854316086]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1967">1967</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [80488357491058274094188]">1</container>
+                <unitdate type="inclusive" normal="1967">1967</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [4082704499897854316086]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1974/1976">1974-1976</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [80488357491058274094188]">1</container>
+                <unitdate type="inclusive" normal="1974/1976">1974-1976</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [4082704499897854316086]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1981">1981</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [80488357491058274094188]">1</container>
+                <unitdate type="inclusive" normal="1981">1981</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -308,22 +267,16 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [4082704499897854316086]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1983/1990">1983-1990</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [80488357491058274094188]">1</container>
+                <unitdate type="inclusive" normal="1983/1990">1983-1990</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">5 folders</extent>
                 </physdesc>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [4082704499897854316086]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1994/2006">1994-2006</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [80488357491058274094188]">1</container>
+                <unitdate type="inclusive" normal="1994/2006">1994-2006</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">6 folders</extent>
                 </physdesc>
               </did>
@@ -331,9 +284,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4082704499897854316086]">1</container>
-              <unittitle><title render="italic">The Newsletter</title>, <unitdate type="inclusive" normal="1977/1982">1977-1982</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [80488357491058274094188]">1</container>
+              <unittitle><title render="italic">The Newsletter</title></unittitle><unitdate type="inclusive" normal="1977/1982">1977-1982</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -357,15 +309,13 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [4082704499897854316086]">1</container>
-                <unittitle><title render="italic">Camp Davis</title>, <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [80488357491058274094188]">1</container>
+                <unittitle><title render="italic">Camp Davis</title></unittitle><unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [4082704499897854316086]">1</container>
-                <unittitle><title render="italic">Geology and Geography Field Courses in Kentucky</title>, <unitdate type="inclusive" normal="1933">1933</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [80488357491058274094188]">1</container>
+                <unittitle><title render="italic">Geology and Geography Field Courses in Kentucky</title></unittitle><unitdate type="inclusive" normal="1933">1933</unitdate></did>
             </c04>
           </c03>
         </c02>

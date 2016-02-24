@@ -23,7 +23,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,10 +35,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Austin, Judson L.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/1088">Austin, Judson L.</persname>
       </origination>
-      <unittitle encodinganalog="245">Judson L. Austin Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1862/1865">1862-1865</unitdate></unittitle>
-      <abstract>Resident of Chesire, Allegan County, Mich., who served in Company B, 19th Michigan Infantry, during the Civil War. Extensive and detailed letters, chiefly to his wife, describing his military experiences, including the battle of Thompson's Station, where his regiment surrendered, the siege of Atlanta, and Sherman's campaigns in Georgia and South and North Carolina.</abstract>
+      <unittitle encodinganalog="245">Judson L. Austin Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1862/1865">1862-1865</unitdate><abstract>Resident of Chesire, Allegan County, Mich., who served in Company B, 19th Michigan Infantry, during the Civil War. Extensive and detailed letters, chiefly to his wife, describing his military experiences, including the battle of Thompson's Station, where his regiment surrendered, the siege of Atlanta, and Sherman's campaigns in Georgia and South and North Carolina.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">004; mf357c,mf358c</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -78,21 +78,21 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Austin, Judson L.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2009095233">United States. Army. Michigan Infantry Regiment, 19th (1862-1865). Company B.</corpname>
-        <geogname source="lcsh" encodinganalog="651">United States--History--Civil War, 1861-1865.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Kentucky--History--Civil War, 1861-1865.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Tennessee--History--Civil War, 1861-1865.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Maryland--History--Civil War, 1861-1865.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Ohio--History--Civil War, 1861-1865.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Georgia--History--Civil War, 1861-1865.</geogname>
-        <geogname source="lcsh" encodinganalog="651">South Carolina--History--Civil War, 1861-1865.</geogname>
-        <geogname source="lcsh" encodinganalog="651">North Carolina--History--Civil War, 1861-1865.</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1088">Austin, Judson L.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2009095233" ref="/agents/corporate_entities/4421">United States. Army. Michigan Infantry Regiment, 19th (1862-1865). Company B.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/905">United States--History--Civil War, 1861-1865.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/954">Kentucky--History--Civil War, 1861-1865.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/955">Tennessee--History--Civil War, 1861-1865.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/956">Maryland--History--Civil War, 1861-1865.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/957">Ohio--History--Civil War, 1861-1865.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/958">Georgia--History--Civil War, 1861-1865.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/959">South Carolina--History--Civil War, 1861-1865.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/960">North Carolina--History--Civil War, 1861-1865.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf">Holquist, David J.</persname>
-        <persname source="lcnaf" encodinganalog="700">Ness, Nina L.</persname>
+        <persname source="lcnaf" ref="/agents/people/2011">Holquist, David J.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/1773">Ness, Nina L.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -102,7 +102,7 @@
         </did>
         <c02 level="file">
           <did>
-            <container label="Roll [7926415566145986536140]" type="reel">1</container>
+            <container label="Roll [63868942338274219255]" type="reel">1</container>
             <unittitle>Topical Index</unittitle>
           </did>
           <odd>
@@ -111,155 +111,105 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [7926415566145986536140]" id="0a7cebed-b3fd-4d59-8a31-49988dc362db">1</container>
-            <container label="Folder" type="folder" parent="0a7cebed-b3fd-4d59-8a31-49988dc362db">1</container>
-            <unittitle><unitdate>Undated</unitdate> and fragments</unittitle>
-          </did>
+            <container type="reel" label="Roll [63868942338274219255]" id="709c987c-a96e-479b-9f8f-78a048c4fd3d">1</container>
+            <container label="Folder" type="folder" parent="709c987c-a96e-479b-9f8f-78a048c4fd3d">1</container>
+            <unittitle>And fragments</unittitle><unitdate>Undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1862">1862</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1862">1862</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [7926415566145986536140]" id="324c0bcc-c1ca-4e59-ac4f-11d964819d50">1</container>
-              <container label="Folder" type="folder" parent="324c0bcc-c1ca-4e59-ac4f-11d964819d50">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1862-01/1862-09">January-September and undated 1862</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [63868942338274219255]" id="b9f682a7-b1f6-46ac-b882-6d7d6cf7cbad">1</container>
+              <container label="Folder" type="folder" parent="b9f682a7-b1f6-46ac-b882-6d7d6cf7cbad">2</container>
+              <unitdate type="inclusive" normal="1862-01/1862-09">January-September and undated 1862</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [7926415566145986536140]" id="470c0ddb-49cb-4d81-aac3-ae3ffdeafcc2">1</container>
-              <container label="Folder" type="folder" parent="470c0ddb-49cb-4d81-aac3-ae3ffdeafcc2">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1862-10/1862-12">October-December 1862</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [63868942338274219255]" id="b73c14f1-069f-4d91-af5e-9e26419f0bd3">1</container>
+              <container label="Folder" type="folder" parent="b73c14f1-069f-4d91-af5e-9e26419f0bd3">3</container>
+              <unitdate type="inclusive" normal="1862-10/1862-12">October-December 1862</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1863">1863</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1863">1863</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [7926415566145986536140]" id="aa8aa383-9791-49fd-87be-b6879e44d356">1</container>
-              <container label="Folder" type="folder" parent="aa8aa383-9791-49fd-87be-b6879e44d356">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1863-01/1863-02">January-February 1863</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [63868942338274219255]" id="f1ebc905-3dd7-40eb-9233-4033c98ad0bb">1</container>
+              <container label="Folder" type="folder" parent="f1ebc905-3dd7-40eb-9233-4033c98ad0bb">4</container>
+              <unitdate type="inclusive" normal="1863-01/1863-02">January-February 1863</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [7926415566145986536140]" id="86ce8196-89c5-487d-8061-f4d127899338">1</container>
-              <container label="Folder" type="folder" parent="86ce8196-89c5-487d-8061-f4d127899338">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1863-03/1863-06">March-June 1863</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [63868942338274219255]" id="07efe269-17cc-42b9-abea-d4cbdcf67af0">1</container>
+              <container label="Folder" type="folder" parent="07efe269-17cc-42b9-abea-d4cbdcf67af0">5</container>
+              <unitdate type="inclusive" normal="1863-03/1863-06">March-June 1863</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [7926415566145986536140]" id="1c38bf31-8897-4dd2-9363-05a25245eb48">1</container>
-              <container label="Folder" type="folder" parent="1c38bf31-8897-4dd2-9363-05a25245eb48">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1863-07/1863-08">July-August 1863</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [63868942338274219255]" id="6f4f341d-0030-4430-8bc7-135374139686">1</container>
+              <container label="Folder" type="folder" parent="6f4f341d-0030-4430-8bc7-135374139686">6</container>
+              <unitdate type="inclusive" normal="1863-07/1863-08">July-August 1863</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [7926415566145986536140]" id="4fcbc18e-4d79-4109-a086-d63f4cd15ff4">1</container>
-              <container label="Folder" type="folder" parent="4fcbc18e-4d79-4109-a086-d63f4cd15ff4">7</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1863-09/1863-10">September-October 1863</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [63868942338274219255]" id="64539fed-3193-4abb-a369-762d4d10c637">1</container>
+              <container label="Folder" type="folder" parent="64539fed-3193-4abb-a369-762d4d10c637">7</container>
+              <unitdate type="inclusive" normal="1863-09/1863-10">September-October 1863</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [7926415566145986536140]" id="a8966197-a514-45e1-9a69-75347a8d5625">1</container>
-              <container label="Folder" type="folder" parent="a8966197-a514-45e1-9a69-75347a8d5625">8</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1863-11/1863-12">November-December 1863</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [63868942338274219255]" id="029e7831-683c-42ea-ba60-3d08d200fa61">1</container>
+              <container label="Folder" type="folder" parent="029e7831-683c-42ea-ba60-3d08d200fa61">8</container>
+              <unitdate type="inclusive" normal="1863-11/1863-12">November-December 1863</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [7926415566145986536140]" id="e811da13-96f0-49ac-87da-09500f5bfd02">1</container>
-              <container label="Folder" type="folder" parent="e811da13-96f0-49ac-87da-09500f5bfd02">9</container>
-              <unittitle><unitdate>Undated</unitdate> and fragments</unittitle>
-            </did>
+              <container type="reel" label="Roll [63868942338274219255]" id="1a3237a0-718f-4fc6-9488-a9f2549c2842">1</container>
+              <container label="Folder" type="folder" parent="1a3237a0-718f-4fc6-9488-a9f2549c2842">9</container>
+              <unittitle>And fragments</unittitle><unitdate>Undated</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1864">1864</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1864">1864</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [7926415566145986536140]" id="e4bab05f-87d0-4303-80e1-f05eb5c634e4">1</container>
-              <container label="Folder" type="folder" parent="e4bab05f-87d0-4303-80e1-f05eb5c634e4">10</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1864-01/1864-02">January-February and undated 1864</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [63868942338274219255]" id="67aecf60-48d0-421b-a068-cee4ffb270d2">1</container>
+              <container label="Folder" type="folder" parent="67aecf60-48d0-421b-a068-cee4ffb270d2">10</container>
+              <unitdate type="inclusive" normal="1864-01/1864-02">January-February and undated 1864</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [7926415566145986536140]" id="85945f66-ece0-46f9-9663-41803de581f8">1</container>
-              <container label="Folder" type="folder" parent="85945f66-ece0-46f9-9663-41803de581f8">11</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1864-03/1864-04">March-April 1864</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [63868942338274219255]" id="879f7129-2d8c-44dd-a5d1-d9aece2488cf">1</container>
+              <container label="Folder" type="folder" parent="879f7129-2d8c-44dd-a5d1-d9aece2488cf">11</container>
+              <unitdate type="inclusive" normal="1864-03/1864-04">March-April 1864</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [7926415566145986536140]" id="8def72f0-cf68-42e0-8687-af4e79259c99">1</container>
-              <container label="Folder" type="folder" parent="8def72f0-cf68-42e0-8687-af4e79259c99">12</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1864-05/1864-06">May-June 1864</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [63868942338274219255]" id="55b4624b-a984-4616-8bf2-e9775ea6aeeb">1</container>
+              <container label="Folder" type="folder" parent="55b4624b-a984-4616-8bf2-e9775ea6aeeb">12</container>
+              <unitdate type="inclusive" normal="1864-05/1864-06">May-June 1864</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [7926415566145986536140]" id="e2aeb1a7-70a9-4135-aaf1-9a1899e4eb25">1</container>
-              <container label="Folder" type="folder" parent="e2aeb1a7-70a9-4135-aaf1-9a1899e4eb25">13</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1864-07/1864-08">July-August 1864</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [63868942338274219255]" id="30ae3787-f54d-426c-bc38-0347f0b30ebd">1</container>
+              <container label="Folder" type="folder" parent="30ae3787-f54d-426c-bc38-0347f0b30ebd">13</container>
+              <unitdate type="inclusive" normal="1864-07/1864-08">July-August 1864</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [7926415566145986536140]" id="f61ab488-c319-4b2f-8d5d-a2f2e90db66b">1</container>
-              <container label="Folder" type="folder" parent="f61ab488-c319-4b2f-8d5d-a2f2e90db66b">14</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1864-09/1864-12">September-December 1864</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [63868942338274219255]" id="94123913-a0f3-4c7b-b58a-10ba93893f2b">1</container>
+              <container label="Folder" type="folder" parent="94123913-a0f3-4c7b-b58a-10ba93893f2b">14</container>
+              <unitdate type="inclusive" normal="1864-09/1864-12">September-December 1864</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Roll [3025195476555545643]" type="reel" id="c8f90cfb-b412-4f22-9127-b68f4ca27d97">2</container>
-            <container label="Folder" type="folder" parent="c8f90cfb-b412-4f22-9127-b68f4ca27d97">15</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1865-01/1865-05">January-May 1865</unitdate>
-            </unittitle>
-          </did>
+            <container label="Roll [74808583432489073777765]" type="reel" id="0f393881-950f-42dc-a45b-7b60edb18e4e">2</container>
+            <container label="Folder" type="folder" parent="0f393881-950f-42dc-a45b-7b60edb18e4e">15</container>
+            <unitdate type="inclusive" normal="1865-01/1865-05">January-May 1865</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -268,13 +218,13 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [3025195476555545643]">2</container>
+            <container type="reel" label="Roll [74808583432489073777765]">2</container>
             <unittitle>Full transcripts prepared by Prof. David J. Holquist</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [3025195476555545643]">2</container>
+            <container type="reel" label="Roll [74808583432489073777765]">2</container>
             <unittitle>Partial transcripts prepared primarily by Nina L. Ness</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>

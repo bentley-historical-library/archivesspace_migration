@@ -3,7 +3,8 @@ import os
 from os.path import join
 
 def note_to_odd(ead_dir):
-	for filename in os.listdir(ead_dir):
+	filenames = [filename for filename in os.listdir(ead_dir) if filename.endswith('.xml')]
+	for filename in filenames:
 		print "Changing note to odd in {0}".format(filename)
 		tree = etree.parse(join(ead_dir,filename))
 		notes = tree.xpath("//dsc//*[starts-with(local-name(), 'c0')]//note")

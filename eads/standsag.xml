@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">St. Andrew’s Church (Saginaw, Mich.).</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/1779">St. Andrew’s Church (Saginaw, Mich.).</corpname>
       </origination>
-      <unittitle encodinganalog="245">St. Andrew’s Church (Saginaw, Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1862/1956">1862-1956</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">86936 mf 537c, mf 538c</unitid>
+      <unittitle encodinganalog="245">St. Andrew’s Church (Saginaw, Mich.) records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1862/1956">1862-1956</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">86936 mf 537c, mf 538c</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Baptismal, marriage, death, and communion and confirmation records.</abstract>
       <physdesc altrender="whole">
@@ -78,9 +78,9 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651">Saginaw (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Catholic Church--Michigan--Saginaw.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. Andrew's Church (Saginaw, Mich.)</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1213">Saginaw (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3597">Catholic Church--Michigan--Saginaw.<term type="geographic">Saginaw.</term><term type="geographic">Michigan</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3226">St. Andrew's Church (Saginaw, Mich.)</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -90,41 +90,30 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [726139147008868520876]">1</container>
+            <container type="reel" label="Roll [499767449933051983833]">1</container>
             <unittitle>Index to Baptismal Records</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Baptismal Records <unitdate type="inclusive" normal="1862/1935">1862-1935</unitdate></unittitle>
-          </did>
+            <unittitle>Baptismal Records</unittitle><unitdate type="inclusive" normal="1862/1935">1862-1935</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [726139147008868520876]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1862-09-07/1894-05-13">September 7, 1862-May 13, 1894</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [499767449933051983833]">1</container>
+              <unitdate type="inclusive" normal="1862-09-07/1894-05-13">September 7, 1862-May 13, 1894</unitdate></did>
             <odd>
               <p>(also includes records of first communion and confirmation, 1874-1878 pp.718-711)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [726139147008868520876]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1894-05-27/1908-04-26">May 27, 1894-April 26 1908</unitdate>
-                <unitdate type="inclusive" normal="1921-05-21/1921-08-21">May 21-August 21, 1921</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [499767449933051983833]">1</container>
+              <unitdate type="inclusive" normal="1894-05-27/1908-04-26">May 27, 1894-April 26 1908</unitdate><unitdate type="inclusive" normal="1921-05-21/1921-08-21">May 21-August 21, 1921</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [726139147008868520876]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1908-05-10/1935-06-30">May 10, 1908-June 30, 1935</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [499767449933051983833]">1</container>
+              <unitdate type="inclusive" normal="1908-05-10/1935-06-30">May 10, 1908-June 30, 1935</unitdate></did>
             <odd>
               <p>(does not include May 21-August 21, 1921)</p>
             </odd>
@@ -132,55 +121,38 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Registrum Matrimonii <unitdate type="inclusive" normal="1862/1949">1862-1949</unitdate></unittitle>
-          </did>
+            <unittitle>Registrum Matrimonii</unittitle><unitdate type="inclusive" normal="1862/1949">1862-1949</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [726139147008868520876]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1862-11-21/1901-12-24">November 21, 1862-December 24, 1901</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [499767449933051983833]">1</container>
+              <unitdate type="inclusive" normal="1862-11-21/1901-12-24">November 21, 1862-December 24, 1901</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [726139147008868520876]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1902-01-15/1908-02-26">January 15, 1902-February 26, 1908</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [499767449933051983833]">1</container>
+              <unitdate type="inclusive" normal="1902-01-15/1908-02-26">January 15, 1902-February 26, 1908</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [030599738426257055491]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1908-06-23/1949-01-22">June 23, 1908-January 22, 1949</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [52110549922399583121]">2</container>
+              <unitdate type="inclusive" normal="1908-06-23/1949-01-22">June 23, 1908-January 22, 1949</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Registrum Defunctor <unitdate type="inclusive" normal="1862/1956">1862-1956</unitdate></unittitle>
-          </did>
+            <unittitle>Registrum Defunctor</unittitle><unitdate type="inclusive" normal="1862/1956">1862-1956</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [030599738426257055491]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1862-11-25/1902-01-17">November 25, 1862-January 17, 1902</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [52110549922399583121]">2</container>
+              <unitdate type="inclusive" normal="1862-11-25/1902-01-17">November 25, 1862-January 17, 1902</unitdate></did>
             <odd>
               <p>(also includes record of first communion and confirmation, 1880 and April 24, 1887-June 21, 1901)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [030599738426257055491]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1902-06-12/1956-11-12">June 12, 1902-November 12, 1956</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [52110549922399583121]">2</container>
+              <unitdate type="inclusive" normal="1902-06-12/1956-11-12">June 12, 1902-November 12, 1956</unitdate></did>
           </c03>
         </c02>
       </c01>

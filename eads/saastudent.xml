@@ -24,7 +24,8 @@
         <item>Original encoding from Word 10.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Society of American Archivists. University of Michigan Student Chapter.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/1406">Society of American Archivists. University of Michigan Student Chapter.</corpname>
       </origination>
-      <unittitle encodinganalog="245"> Society of American Archivists Student Chapter (University of Michigan) records. <unitdate type="inclusive" encodinganalog="245$f" normal="1993/1996"> 1993-1996 </unitdate></unittitle>
-      <physdesc altrender="part">
+      <unittitle encodinganalog="245">Society of American Archivists Student Chapter (University of Michigan) records.</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1993/1996"> 1993-1996 </unitdate><physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">1.13 MB</extent>
         <physfacet>online</physfacet>
       </physdesc>
@@ -90,15 +90,15 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Archivists--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Society of American Archivists. University of Michigan Student Chapter.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Students--Societies, etc.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9959">Archivists--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1406">Society of American Archivists. University of Michigan Student Chapter.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Students--Societies, etc.<term type="topical">Students</term><term type="topical">Societies, etc.</term></corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Administrative records.</genreform>
-        <genreform source="aat" encodinganalog="655">Digital file formats.</genreform>
-        <genreform source="aat" encodinganalog="655">Electronic mail.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3287">Administrative records.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3187">Digital file formats.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3357">Electronic mail.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -111,11 +111,8 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [72532599544285498287477]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1993/1995">1993-1995</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [54829499107523789]">1</container>
+            <unitdate type="inclusive" normal="1993/1995">1993-1995</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
@@ -131,13 +128,10 @@
         <c02 level="file">
           <did>
             <physloc>Online </physloc>
-            <unittitle>
-              <unitdate type="inclusive" normal="1995/1996">1995-1996</unitdate>
-            </unittitle>
-            <physdesc>
+            <unitdate type="inclusive" normal="1995/1996">1995-1996</unitdate><physdesc>
               <physfacet> (.ZIP file) </physfacet>
             </physdesc>
-            <dao href="http://hdl.handle.net/2027.42/115467" show="new" actuate="onRequest">
+            <dao href="http://hdl.handle.net/2027.42/115467" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15314">
               <daodesc>
                 <p>[download item]</p>
               </daodesc>

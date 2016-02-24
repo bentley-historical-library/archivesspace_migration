@@ -24,7 +24,8 @@
         <item>Original encoding.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Elope. Mapping Section.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/4516">Elope. Mapping Section.</corpname>
       </origination>
-      <unittitle encodinganalog="245">[Maps of Archangel District, Russia] <unitdate type="inclusive" encodinganalog="245$f" normal="1918">1918</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">M7063.A7 1918 M3 (2010007)</unitid>
+      <unittitle encodinganalog="245">[Maps of Archangel District, Russia]</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1918">1918</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">M7063.A7 1918 M3 (2010007)</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Maps created for the Allied intervention in Russia, 1918-1919, the "Polar Bear Expedition."</abstract>
       <physdesc altrender="whole">
@@ -75,15 +75,15 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcnaf" encodinganalog="651">Arkhangel'skaia oblast' (Russia)--Maps.</geogname>
-        <geogname source="lcnaf" encodinganalog="651.">Soviet Union--History--Allied intervention, 1918-1920--Maps.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Elope. Mapping Section.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">North Russia Expeditionary Force. Mapping Section.</corpname>
-        <corpname encodinganalog="611" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n2008059426">Polar Bear Expedition (1918-1919)--Maps.</corpname>
+        <geogname source="lcnaf" encodinganalog="651" ref="/subjects/762">Arkhangel'skaia oblast' (Russia)--Maps.</geogname>
+        <geogname source="lcnaf" encodinganalog="651." ref="/subjects/763">Soviet Union--History--Allied intervention, 1918-1920--Maps.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4516">Elope. Mapping Section.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/55">North Russia Expeditionary Force. Mapping Section.</corpname>
+        <corpname encodinganalog="611" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n2008059426" ref="/agents/corporate_entities/4142">Polar Bear Expedition (1918-1919)--Maps.<term type="genre_form">Maps.</term></corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Maps.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3136">Maps.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -93,7 +93,7 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [2257483545642936140]">1</container>
+            <container type="folder" label="Folder [16325771341990494949]">1</container>
             <unittitle>Maps</unittitle>
           </did>
         </c02>

@@ -22,7 +22,8 @@
         <item>Original encoding from MARC record using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -33,10 +34,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Wells, William Palmer, 1831-1891.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/2098">Wells, William Palmer, 1831-1891.</persname>
       </origination>
-      <unittitle encodinganalog="245">William Palmer Wells papers <unitdate type="inclusive" encodinganalog="245$f" normal="1879">1879</unitdate>, <unitdate type="inclusive" encodinganalog="245$f">undated</unitdate></unittitle>
-      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">86234 Aa/2</unitid>
+      <unittitle encodinganalog="245">William Palmer Wells papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1879">1879</unitdate><unitdate type="inclusive" encodinganalog="245$f">undated</unitdate><unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">86234 Aa/2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Professor of Law at University of Michigan. Papers consist of a communication to University of Michigan Board of Regents requesting leave of absence; doctor's report on his health; and four volumes of notes for his law lectures.</abstract>
       <physdesc altrender="whole">
@@ -74,9 +74,9 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Lawyers--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Law.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6482">Lawyers--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1404">University of Michigan. Dept. of Law.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -86,9 +86,8 @@
         </did>
         <c02 level="file">
           <did>
-            <container label="Box [5677994988895003]" type="box">1</container>
-            <unittitle>Correspondence re. health <unitdate type="inclusive" normal="1879">1879</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container label="Box [4579904497353046032892]" type="box">1</container>
+            <unittitle>Correspondence re. health</unittitle><unitdate type="inclusive" normal="1879">1879</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 items</extent>
             </physdesc>
           </did>
@@ -99,25 +98,25 @@
           </did>
           <c03 level="item">
             <did>
-              <container label="Box [5677994988895003]" type="box">1</container>
+              <container label="Box [4579904497353046032892]" type="box">1</container>
               <unittitle>Lectures on Notes and Bills, vol. 1</unittitle>
             </did>
           </c03>
           <c03 level="item">
             <did>
-              <container label="Box [5677994988895003]" type="box">1</container>
+              <container label="Box [4579904497353046032892]" type="box">1</container>
               <unittitle>Lectures on Notes and Bills, vol. 2</unittitle>
             </did>
           </c03>
           <c03 level="item">
             <did>
-              <container label="Box [5677994988895003]" type="box">1</container>
+              <container label="Box [4579904497353046032892]" type="box">1</container>
               <unittitle>Lectures on Partnerships</unittitle>
             </did>
           </c03>
           <c03 level="item">
             <did>
-              <container label="Box [5677994988895003]" type="box">1</container>
+              <container label="Box [4579904497353046032892]" type="box">1</container>
               <unittitle>Lectures on Agency</unittitle>
             </did>
           </c03>

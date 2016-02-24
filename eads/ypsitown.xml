@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Ypsilanti (Mich. : Township)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/2570">Ypsilanti (Mich. : Township)</corpname>
       </origination>
-      <unittitle encodinganalog="245">Ypsilanti (Mich. : Township) records <unitdate type="inclusive" encodinganalog="245$f" normal="1827/1923">1827-1923</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85862 Cb 2; Cb Outsize; Cb Microcopy</unitid>
+      <unittitle encodinganalog="245">Ypsilanti (Mich. : Township) records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1827/1923">1827-1923</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85862 Cb 2; Cb Outsize; Cb Microcopy</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Township meeting minutes; highway commissioners, 1827-1831; assessment rolls, 1832-1838; also miscellaneous school records, districts 1 and 5; and election record books, 1827-1860.</abstract>
       <physdesc altrender="part">
@@ -88,9 +88,9 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Roads--Michigan--Ypsilanti (Township)</subject>
-        <subject source="lcsh" encodinganalog="650">Schools--Michigan--Ypsilanti (Township)</subject>
-        <geogname source="lcsh" encodinganalog="651">Ypsilanti (Mich. : Township)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10862">Roads--Michigan--Ypsilanti (Township)</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10863">Schools--Michigan--Ypsilanti (Township)</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1675">Ypsilanti (Mich. : Township)</geogname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -100,45 +100,40 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1294380746847969132464]">1</container>
-            <unittitle>Township meetings <unitdate type="inclusive" normal="1828/1833">1828-1833</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [69299167740736383036]">1</container>
+            <unittitle>Township meetings</unittitle><unitdate type="inclusive" normal="1828/1833">1828-1833</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">1 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1294380746847969132464]">1</container>
-            <unittitle>Inspectors of elections <unitdate type="inclusive" normal="1827/1833">1827-1833</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [69299167740736383036]">1</container>
+            <unittitle>Inspectors of elections</unittitle><unitdate type="inclusive" normal="1827/1833">1827-1833</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">1 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1294380746847969132464]">1</container>
-            <unittitle>Highway Commission <unitdate type="inclusive" normal="1827/1831">1827-1831</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [69299167740736383036]">1</container>
+            <unittitle>Highway Commission</unittitle><unitdate type="inclusive" normal="1827/1831">1827-1831</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">1 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1294380746847969132464]">1</container>
-            <unittitle>Assessment rolls <unitdate type="inclusive" normal="1832">1832</unitdate>, <unitdate type="inclusive" normal="1834/1838">1834-1838</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [69299167740736383036]">1</container>
+            <unittitle>Assessment rolls</unittitle><unitdate type="inclusive" normal="1832">1832</unitdate><unitdate type="inclusive" normal="1834/1838">1834-1838</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">6 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1294380746847969132464]">1</container>
-            <unittitle>Agreement re: discontinuance of road <unitdate type="inclusive" normal="1831">1831</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [69299167740736383036]">1</container>
+            <unittitle>Agreement re: discontinuance of road</unittitle><unitdate type="inclusive" normal="1831">1831</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -146,18 +141,16 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1294380746847969132464]">1</container>
-              <unittitle>District No. 1 records <unitdate type="inclusive" normal="1834/1905">1834-1905</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [69299167740736383036]">1</container>
+              <unittitle>District No. 1 records</unittitle><unitdate type="inclusive" normal="1834/1905">1834-1905</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 volumes</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1294380746847969132464]">1</container>
-              <unittitle>District No. 5 records <unitdate type="inclusive" normal="1837">1837</unitdate>, <unitdate type="inclusive" normal="1876">1876</unitdate>, <unitdate type="inclusive" normal="1878/1923">1878-1923</unitdate></unittitle>
-              <physdesc altrender="part">
+              <container type="box" label="Box [69299167740736383036]">1</container>
+              <unittitle>District No. 5 records</unittitle><unitdate type="inclusive" normal="1837">1837</unitdate><unitdate type="inclusive" normal="1876">1876</unitdate><unitdate type="inclusive" normal="1878/1923">1878-1923</unitdate><physdesc altrender="part">
                 <extent altrender="materialtype spaceoccupied">1 volumes</extent>
               </physdesc>
               <physdesc altrender="part">
@@ -170,9 +163,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="folder" label="Oversize Folder [7541940992657276793434]">Cb</container>
-              <unittitle>District No. 8 records <unitdate type="inclusive" normal="1837">1837</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="folder" label="Oversize Folder [0465154797370845]">Cb</container>
+              <unittitle>District No. 8 records</unittitle><unitdate type="inclusive" normal="1837">1837</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">1 items</extent>
                 <extent altrender="carrier">in oversize folder</extent>
               </physdesc>
@@ -181,9 +173,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="reel" label="Microfilm [615318477823964]">1</container>
-            <unittitle>Election book <unitdate type="inclusive" normal="1827/1860">1827-1860</unitdate></unittitle>
-          </did>
+            <container type="reel" label="Microfilm [08096419048586813115545]">1</container>
+            <unittitle>Election book</unittitle><unitdate type="inclusive" normal="1827/1860">1827-1860</unitdate></did>
           <odd>
             <p>(1 reel of positive microfilm: CB Micro)</p>
           </odd>

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Washtenaw County Medical Society (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/2754">Washtenaw County Medical Society (Mich.)</corpname>
       </origination>
-      <unittitle encodinganalog="245">Washtenaw County Medical Society records <unitdate type="inclusive" encodinganalog="245$f" normal="1866/1966">1866-1966</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85546 Bf 2</unitid>
+      <unittitle encodinganalog="245">Washtenaw County Medical Society records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1866/1966">1866-1966</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85546 Bf 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Component county medical society of the Michigan State Medical Society; organizational files and minutes of meetings.</abstract>
       <physdesc altrender="whole">
@@ -78,8 +78,8 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Medicine--Michigan--Washtenaw County--Societies, etc.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Washtenaw County Medical Society (Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10627">Medicine--Michigan--Washtenaw County--Societies, etc.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2754">Washtenaw County Medical Society (Mich.)</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -89,34 +89,24 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2396321184450381936291]">1</container>
-            <unittitle>
-              <unitdate type="inclusive">Undated</unitdate>
-              <unitdate type="inclusive" normal="1924/1946">1924-1946</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [605578478775967029181]">1</container>
+            <unitdate type="inclusive">Undated</unitdate><unitdate type="inclusive" normal="1924/1946">1924-1946</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">23 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [12891134297358954]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1947/1956">1947-1956</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [25654594202406526021]">2</container>
+            <unitdate type="inclusive" normal="1947/1956">1947-1956</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">10 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [87763447479694451]">3</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1957/1966">1957-1966</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [341564678887099]">3</container>
+            <unitdate type="inclusive" normal="1957/1966">1957-1966</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">10 folders</extent>
             </physdesc>
           </did>
@@ -128,84 +118,69 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [87763447479694451]">3</container>
+            <container type="box" label="Box [341564678887099]">3</container>
             <unittitle>Ann Arbor Association of Physicians -- Ethics</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [87763447479694451]">3</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1907/1921">1907-1921</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [341564678887099]">3</container>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1907/1921">1907-1921</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [87763447479694451]">3</container>
-            <unittitle>Fee bills <unitdate type="inclusive" normal="1867">1867</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [341564678887099]">3</container>
+            <unittitle>Fee bills</unittitle><unitdate type="inclusive" normal="1867">1867</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [87763447479694451]">3</container>
+            <container type="box" label="Box [341564678887099]">3</container>
             <unittitle>Miscellaneous case reports</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [87763447479694451]">3</container>
-            <unittitle>University of Michigan Hygiene Laboratory reports on water <unitdate type="inclusive" normal="1907/1910">1907-1910</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [341564678887099]">3</container>
+            <unittitle>University of Michigan Hygiene Laboratory reports on water</unittitle><unitdate type="inclusive" normal="1907/1910">1907-1910</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [87763447479694451]">3</container>
-            <unittitle>Miscellaneous reports and receipts <unitdate type="inclusive" normal="1890/1912">1890-1912</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [341564678887099]">3</container>
+            <unittitle>Miscellaneous reports and receipts</unittitle><unitdate type="inclusive" normal="1890/1912">1890-1912</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [41830479434091220525]">4</container>
-            <unittitle>Minutes of meetings <unitdate type="inclusive" normal="1866/1931">1866-1931</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [65229687474737313948]">4</container>
+            <unittitle>Minutes of meetings</unittitle><unitdate type="inclusive" normal="1866/1931">1866-1931</unitdate></did>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1866/1883">1866-1883</unitdate>
-              </unittitle>
-            </did>
+              <unitdate type="inclusive" normal="1866/1883">1866-1883</unitdate></did>
             <odd>
               <p>(include constitution and by-laws)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [41830479434091220525]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1911/1931">1911-1931</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [65229687474737313948]">4</container>
+              <unitdate type="inclusive" normal="1911/1931">1911-1931</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [41830479434091220525]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1937/1940">1937-1940</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [65229687474737313948]">4</container>
+              <unitdate type="inclusive" normal="1937/1940">1937-1940</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [41830479434091220525]">4</container>
-            <unittitle>Board of Directors record book <unitdate type="inclusive" normal="1903/1926">1903-1926</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [65229687474737313948]">4</container>
+            <unittitle>Board of Directors record book</unittitle><unitdate type="inclusive" normal="1903/1926">1903-1926</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [41830479434091220525]">4</container>
+            <container type="box" label="Box [65229687474737313948]">4</container>
             <unittitle>Published material</unittitle>
           </did>
         </c02>

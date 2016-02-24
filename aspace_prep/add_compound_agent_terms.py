@@ -28,7 +28,7 @@ def add_compound_agent_terms(ead_dir, subjects_agents_dir):
         tree = etree.parse(join(ead_dir,filename))
         for agent in tree.xpath('//controlaccess/*'):
             if agent.tag in tags:
-                agent_text = agent.text
+                agent_text = agent.text.strip().encode('utf-8')
                 if '---' in agent_text:
                     agent_text = agent_text.replace('---','- --')
                 if agent_text in term_type_dict:

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 10.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library<lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100"> Hallock, Archibald R. </persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/3773"> Hallock, Archibald R. </persname>
       </origination>
-      <unittitle encodinganalog="245"> Archibald R. Hallock sound recording. <unitdate type="inclusive" encodinganalog="245$f"> [195-?] </unitdate> </unittitle>
-      <physdesc altrender="whole">
+      <unittitle encodinganalog="245">Archibald R. Hallock sound recording.</unittitle><unitdate type="inclusive" encodinganalog="245$f"> [195-?] </unitdate><physdesc altrender="whole">
         <extent altrender="materialtype spaceoccupied">766 MB</extent>
       </physdesc>
       <physdesc altrender="whole">
@@ -84,13 +84,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Hallock, Archibald R.</persname>
-        <geogname source="lcsh" encodinganalog="651">Thumb District (Mich.)--History.</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3773">Hallock, Archibald R.</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1983">Thumb District (Mich.)--History.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Oral histories.</genreform>
-        <genreform source="aat" encodinganalog="655">Sound recordings.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3156">Oral histories.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3137">Sound recordings.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -103,8 +103,7 @@
         </accessrestrict>
         <c02 level="otherlevel" otherlevel="item-main">
           <did>
-            <unittitle>Interview concerning life in Michigan's thumb area in the period 1869-1900., <unitdate type="inclusive">[Undated]</unitdate></unittitle>
-            <physdesc>
+            <unittitle>Interview concerning life in Michigan's thumb area in the period 1869-1900.</unittitle><unitdate type="inclusive">[Undated]</unitdate><physdesc>
               <physfacet>Audio Reel-to-Reel, 7 inch, 3.75</physfacet>
             </physdesc>
           </did>
@@ -116,7 +115,7 @@
               <physdesc>
                 <physfacet>mp3 file</physfacet>
               </physdesc>
-              <dao href="9588-SR-1-1" show="new" actuate="onRequest">
+              <dao href="9588-SR-1-1" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/9326">
                 <daodesc>
                   <p>[access item]</p>
                 </daodesc>

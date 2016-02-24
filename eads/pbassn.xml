@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,10 +43,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Polar Bear Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/1596">Polar Bear Association.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Polar Bear Association photograph collection <unitdate type="inclusive" encodinganalog="245$f" normal="1930">1930</unitdate></unittitle>
-      <abstract>Photographs of memorial ceremonies at the Polar Bear Memorial in White Chapel Memorial Park Cemetery, Troy, Michigan.</abstract>
+      <unittitle encodinganalog="245">Polar Bear Association photograph collection</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1930">1930</unitdate><abstract>Photographs of memorial ceremonies at the Polar Bear Memorial in White Chapel Memorial Park Cemetery, Troy, Michigan.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">92758 UBE.2s</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -76,21 +76,21 @@
       </p>
       <controlaccess>
         <head>Subjects</head>
-        <geogname source="lcsh" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
-        <subject source="local" encodinganalog="690">Polar Bear Expedition.</subject>
-        <subject source="lctgm" encodinganalog="650">Cemeteries--Michigan--Troy.</subject>
-        <subject source="lctgm" encodinganalog="650">Funeral rites and ceremonies.</subject>
-        <subject source="lctgm" encodinganalog="650">Lying in state.</subject>
-        <subject source="lctgm" encodinganalog="650">Military personnel.</subject>
-        <subject source="lctgm" encodinganalog="650">Monuments and memorials--Michigan--Troy.</subject>
-        <geogname source="lctgm" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79078639">Troy (Mich.)--Cemeteries.</geogname>
-        <geogname source="lctgm" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79078639">Troy (Mich.)--Monuments and memorials.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">White Chapel Memorial Park Cemetery (Troy, Mich.)</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/879">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5715">World War, 1914-1918.</subject>
+        <subject source="local" encodinganalog="690" ref="/subjects/3516">Polar Bear Expedition.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5123">Cemeteries--Michigan--Troy.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3697">Funeral rites and ceremonies.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5011">Lying in state.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5124">Military personnel.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5125">Monuments and memorials--Michigan--Troy.</subject>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/632">Troy (Mich.)--Cemeteries.</geogname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/633">Troy (Mich.)--Monuments and memorials.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3908">White Chapel Memorial Park Cemetery (Troy, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -100,11 +100,8 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [91493340955691764307]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1930">1930</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="folder" label="Folder [5476549540964988723]">1</container>
+            <unitdate type="inclusive" normal="1930">1930</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">7 items</extent>
             </physdesc>
           </did>

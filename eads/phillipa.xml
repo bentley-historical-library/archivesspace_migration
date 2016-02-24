@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Phillips, Albert James, 1899-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/232">Phillips, Albert James, 1899-</persname>
       </origination>
-      <unittitle encodinganalog="245">Albert James Phillips papers <unitdate type="inclusive" encodinganalog="245$f" normal="1925/1962">1925-1962</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">852037 Aa 2</unitid>
+      <unittitle encodinganalog="245">Albert James Phillips papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1925/1962">1925-1962</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">852037 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Lansing, Michigan, educator, executive secretary of Michigan Education Association, 1936-1958, and member of Michigan State Tax Study Commission. Correspondence, speeches, articles, and newspaper clippings concerning his interest in education, and his work for the M.E.A. and tax study commission.</abstract>
       <physdesc altrender="whole">
@@ -79,41 +79,33 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Education--Michigan.</subject>
-        <geogname source="lcsh" encodinganalog="651">Lansing (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50069813">Michigan Education Association.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. Tax Study Commission.</corpname>
-        <subject source="lcsh" encodinganalog="650">Taxation--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Teachers--Michigan--Lansing.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5734">Education--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1136">Lansing (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50069813" ref="/agents/corporate_entities/2685">Michigan Education Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4843">Michigan. Tax Study Commission.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6194">Taxation--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9750">Teachers--Michigan--Lansing.</subject>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Papers <unitdate type="inclusive" normal="1925/1962">1925-1962</unitdate></unittitle>
-        </did>
+          <unittitle>Papers</unittitle><unitdate type="inclusive" normal="1925/1962">1925-1962</unitdate></did>
         <odd>
           <p>(arranged chronologically, include correspondence, reports, newsletters, speeches, articles, etc.)</p>
         </odd>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [652186844102827618799]">1</container>
-            <unittitle>
-              <unitdate type="inclusive">Undated</unitdate>
-              <unitdate type="inclusive" normal="1925/1960">1925-1960</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [06445548288994721218]">1</container>
+            <unitdate type="inclusive">Undated</unitdate><unitdate type="inclusive" normal="1925/1960">1925-1960</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">30 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [646945694693113296411811]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1960/1962">1960-1962</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [762366699455852830407]">2</container>
+            <unitdate type="inclusive" normal="1960/1962">1960-1962</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">9 folders</extent>
             </physdesc>
           </did>
@@ -125,11 +117,8 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [646945694693113296411811]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1935/1962">1935-1962</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [762366699455852830407]">2</container>
+            <unitdate type="inclusive" normal="1935/1962">1935-1962</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">14 folders</extent>
             </physdesc>
           </did>

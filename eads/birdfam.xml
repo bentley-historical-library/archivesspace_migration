@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,10 +35,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Bird family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/100">Bird family.</famname>
       </origination>
-      <unittitle encodinganalog="245">Bird Family Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1835/1914">1835-1914</unitdate></unittitle>
-      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">85497 Aa 2</unitid>
+      <unittitle encodinganalog="245">Bird Family Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1835/1914">1835-1914</unitdate><unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">85497 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Bird family of Truago (now Trenton) in Wayne County, Michigan, later founders of Clayton in Lenawee County, Michigan. Papers, 1837-1857, of Chauncey Bird, including account of flight in 1811 from Litchfield, Connecticut, to escape persecution by Masons; papers, 1835-1873, of Reuben E. Bird, largely concerning operation of Clayton general store; and diary, scrapbook, and other papers of John E. Bird, state attorney general and supreme court justice.</abstract>
       <physdesc altrender="whole">
@@ -68,23 +68,23 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Bird General Store (Clayton, Mich.)</corpname>
-        <geogname source="lcsh" encodinganalog="651">Clayton (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Freemasonry--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">General stores--Michigan--Clayton.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81018695">Lenawee County (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81074440">Trenton (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2533">Bird General Store (Clayton, Mich.)</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1306">Clayton (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6066">Freemasonry--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6339">General stores--Michigan--Clayton.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81018695" ref="/subjects/1307">Lenawee County (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81074440" ref="/subjects/1240">Trenton (Mich.)</geogname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Bird, Chauncey.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2009002467">Bird, John E. (John Everett), 1862-1928.</persname>
-        <persname source="lcnaf" encodinganalog="700">Bird, Reuben E. (Reuben Everett), 1811-1885.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/4984">Bird, Chauncey.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2009002467" ref="/agents/people/3968">Bird, John E. (John Everett), 1862-1928.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/1322">Bird, Reuben E. (Reuben Everett), 1811-1885.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Scrapbooks.</genreform>
-        <genreform source="aat" encodinganalog="655">Diaries.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3133">Scrapbooks.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3145">Diaries.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -94,9 +94,8 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [243924898489243916728]">1</container>
-            <unittitle>Papers <unitdate type="inclusive" normal="1837/1857">1837-1857</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7283356814086141073469]">1</container>
+            <unittitle>Papers</unittitle><unitdate type="inclusive" normal="1837/1857">1837-1857</unitdate></did>
           <odd>
             <p>(including letters from relatives about farm life in Michigan; and account of flight in 1811 from Litchfield, Conn. to escape persecution by Masons)</p>
           </odd>
@@ -112,59 +111,44 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [243924898489243916728]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1835/1853">1835-1853</unitdate>
-                <unitdate type="inclusive" normal="1861">1861</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [7283356814086141073469]">1</container>
+              <unitdate type="inclusive" normal="1835/1853">1835-1853</unitdate><unitdate type="inclusive" normal="1861">1861</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [243924898489243916728]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1872/1874">1872-1874</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [7283356814086141073469]">1</container>
+              <unitdate type="inclusive" normal="1872/1874">1872-1874</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [243924898489243916728]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1875/1880">1875-1880</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [7283356814086141073469]">1</container>
+              <unitdate type="inclusive" normal="1875/1880">1875-1880</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [243924898489243916728]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1881/1882">1881-1882</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [7283356814086141073469]">1</container>
+              <unitdate type="inclusive" normal="1881/1882">1881-1882</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [243924898489243916728]">1</container>
-            <unittitle>Legal materials concerning seizure of a horse owned by Bird <unitdate type="inclusive" normal="1872">1872</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7283356814086141073469]">1</container>
+            <unittitle>Legal materials concerning seizure of a horse owned by Bird</unittitle><unitdate type="inclusive" normal="1872">1872</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [243924898489243916728]">1</container>
-            <unittitle>Account book <unitdate type="inclusive" normal="1870/1873">1870-1873</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7283356814086141073469]">1</container>
+            <unittitle>Account book</unittitle><unitdate type="inclusive" normal="1870/1873">1870-1873</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [243924898489243916728]">1</container>
+            <container type="box" label="Box [7283356814086141073469]">1</container>
             <unittitle>Business cards and advertisements</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [243924898489243916728]">1</container>
+            <container type="box" label="Box [7283356814086141073469]">1</container>
             <unittitle>Miscellaneous (including newspaper obituary)</unittitle>
           </did>
         </c02>
@@ -178,65 +162,47 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [243924898489243916728]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1836/1843">1836-1843</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [7283356814086141073469]">1</container>
+                <unitdate type="inclusive" normal="1836/1843">1836-1843</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [243924898489243916728]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1844/1845">1844-1845</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [7283356814086141073469]">1</container>
+                <unitdate type="inclusive" normal="1844/1845">1844-1845</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [243924898489243916728]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1848/1853">1848-1853</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [7283356814086141073469]">1</container>
+                <unitdate type="inclusive" normal="1848/1853">1848-1853</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [243924898489243916728]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1850/1860">1850-1860</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [7283356814086141073469]">1</container>
+                <unitdate type="inclusive" normal="1850/1860">1850-1860</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [243924898489243916728]">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1869/1873">1869-1873</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [7283356814086141073469]">1</container>
+                <unitdate type="inclusive" normal="1869/1873">1869-1873</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [243924898489243916728]">1</container>
-              <unittitle>Cash book <unitdate type="inclusive" normal="1866/1870">1866-1870</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [7283356814086141073469]">1</container>
+              <unittitle>Cash book</unittitle><unitdate type="inclusive" normal="1866/1870">1866-1870</unitdate></did>
             <odd>
               <p>(volume later used as book of quotations)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [243924898489243916728]">1</container>
-              <unittitle>Plats for Clayton, Mich., ca. <unitdate type="inclusive" normal="1838">1838</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [7283356814086141073469]">1</container>
+              <unittitle>Plats for Clayton, Mich., ca.</unittitle><unitdate type="inclusive" normal="1838">1838</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [243924898489243916728]">1</container>
-              <unittitle>Tax assessment roll for Hudson Township, Lenawee County <unitdate type="inclusive" normal="1840">1840</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [7283356814086141073469]">1</container>
+              <unittitle>Tax assessment roll for Hudson Township, Lenawee County</unittitle><unitdate type="inclusive" normal="1840">1840</unitdate></did>
           </c03>
         </c02>
       </c01>
@@ -246,15 +212,13 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [243924898489243916728]">1</container>
-            <unittitle><genreform normal="Diaries">Diary</genreform>, <unitdate type="inclusive" normal="1872-01/1872-02">January-February 1872</unitdate> and account book, <unitdate type="inclusive" normal="1874/1877">1874-1877</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7283356814086141073469]">1</container>
+            <unittitle><genreform normal="Diaries">Diary</genreform>, January-February 1872 and account book, 1874-1877</unittitle><unitdate type="inclusive" normal="1872-01/1872-02">January-February 1872</unitdate><unitdate type="inclusive" normal="1874/1877">1874-1877</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [243924898489243916728]">1</container>
-            <unittitle><genreform normal="Scrapbooks">Scrapbook</genreform> containing obituaries of family and friends, ca. <unitdate type="inclusive" normal="1876/1914">1876-1914</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7283356814086141073469]">1</container>
+            <unittitle><genreform normal="Scrapbooks">Scrapbook</genreform> containing obituaries of family and friends, ca.</unittitle><unitdate type="inclusive" normal="1876/1914">1876-1914</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -263,7 +227,7 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [243924898489243916728]">1</container>
+            <container type="box" label="Box [7283356814086141073469]">1</container>
             <unittitle>Receipts, mortgages, notes, etc.</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
@@ -272,7 +236,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [243924898489243916728]">1</container>
+            <container type="box" label="Box [7283356814086141073469]">1</container>
             <unittitle>Anti-Masonic printed material</unittitle>
           </did>
         </c02>

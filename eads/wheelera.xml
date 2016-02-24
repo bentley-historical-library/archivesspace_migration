@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,10 +43,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Wheeler, Albert Harold, 1915-1994.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/8889">Wheeler, Albert Harold, 1915-1994.</persname>
       </origination>
-      <unittitle encodinganalog="245">Albert H. and Emma M. Wheeler papers <unitdate type="inclusive" encodinganalog="245$f" normal="1938/1994">1938-1994</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1960/1977">1960-1977</unitdate></unittitle>
-      <abstract>Albert and Emma Wheeler were community and civil rights leaders from Ann Arbor, Michigan. Albert Wheeler was also professor of microbiology and dermatology at the University of Michigan. In addition, he and his wife helped to establish the local chapter of the NAACP. Albert Wheeler served as mayor of Ann Arbor, 1975 to 1978. The series in the collection are Personal/Biographical; NAACP/Civil Rights Activities; Mayoralty Files; University of Michigan; and Photographs. The collection documents the Wheelers' devotion to the cause of civil rights and their involvement with numerous civil rights and community organizations. The collection also includes Albert Wheeler's mayoralty files.</abstract>
+      <unittitle encodinganalog="245">Albert H. and Emma M. Wheeler papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1938/1994">1938-1994</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1960/1977">1960-1977</unitdate><abstract>Albert and Emma Wheeler were community and civil rights leaders from Ann Arbor, Michigan. Albert Wheeler was also professor of microbiology and dermatology at the University of Michigan. In addition, he and his wife helped to establish the local chapter of the NAACP. Albert Wheeler served as mayor of Ann Arbor, 1975 to 1978. The series in the collection are Personal/Biographical; NAACP/Civil Rights Activities; Mayoralty Files; University of Michigan; and Photographs. The collection documents the Wheelers' devotion to the cause of civil rights and their involvement with numerous civil rights and community organizations. The collection also includes Albert Wheeler's mayoralty files.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">9428 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -93,76 +93,69 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Afro-Americans--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Afro-Americans--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Mayors--Michigan--Ann Arbor.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)--Politics and government.</geogname>
-        <subject source="lcsh" encodinganalog="650">Civil rights--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Democratic Party (Ann Arbor, Mich.)</corpname>
-        <subject source="lcsh" encodinganalog="650">Discrimination in housing--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. Civil Rights Commission.</corpname>
-        <subject source="lcsh" encodinganalog="650">Municipal government--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">National Association for the Advancement of Colored People. Michigan Branch.</corpname>
-        <subject source="lcsh" encodinganalog="650">Schools--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Washtenaw County Citizen's Committee for Economic Opportunity.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Wheeler, Albert Harold, 1915-1994.</persname>
-        <persname source="lcnaf" encodinganalog="700">Wheeler, Emma M.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5910">Afro-Americans--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8260">Afro-Americans--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6247">Mayors--Michigan--Ann Arbor.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/853">Ann Arbor (Mich.)--Politics and government.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6578">Civil rights--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1814">Democratic Party (Ann Arbor, Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5681">Discrimination in housing--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1399">Michigan. Civil Rights Commission.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5664">Municipal government--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/5649">National Association for the Advancement of Colored People. Michigan Branch.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5701">Schools--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3495">Washtenaw County Citizen's Committee for Economic Opportunity.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/8889">Wheeler, Albert Harold, 1915-1994.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/1635">Wheeler, Emma M.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Biographical/Personal <unitdate type="inclusive" normal="1958/1993">1958-1993</unitdate></unittitle>
-        </did>
+          <unittitle>Biographical/Personal</unittitle><unitdate type="inclusive" normal="1958/1993">1958-1993</unitdate></did>
         <scopecontent>
           <p>The Personal/Biographical series (1958-1993; 4 inches) contains several vita of Albert Wheeler, biographical commentaries written by him, editorial articles he wrote for the Ann Arbor News, as well as a folder of newspaper clippings written in the late 1980s and early 1990s, often as tributes to the Wheelers and their work. A folder of Ann Arbor Democratic Party materials dating from 1958 to 1990 documents the Wheelers' activity in this organization. Of interest are three folders of speeches given by Albert Wheeler, which provide insight into his convictions and beliefs. Many of the speeches complement materials in other parts of the collection. The researcher will also find Wheeler speeches under various topical headings throughout the collection. This series is organized alphabetically.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [8112214439764281]">1</container>
-            <unittitle>Ann Arbor News Articles <unitdate type="inclusive" normal="1960/1990">1960-1990</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [49887469422861289343]">1</container>
+            <unittitle>Ann Arbor News Articles</unittitle><unitdate type="inclusive" normal="1960/1990">1960-1990</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [8112214439764281]">1</container>
-            <unittitle>Ann Arbor Democratic Party <unitdate type="inclusive" normal="1958/1990">1958-1990</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [49887469422861289343]">1</container>
+            <unittitle>Ann Arbor Democratic Party</unittitle><unitdate type="inclusive" normal="1958/1990">1958-1990</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [8112214439764281]">1</container>
+            <container type="box" label="Box [49887469422861289343]">1</container>
             <unittitle>Biographical Information</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [8112214439764281]">1</container>
-            <unittitle>Clippings <unitdate type="inclusive" normal="1980/1993">1980-1993</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [49887469422861289343]">1</container>
+            <unittitle>Clippings</unittitle><unitdate type="inclusive" normal="1980/1993">1980-1993</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [8112214439764281]">1</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [49887469422861289343]">1</container>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1989">1989</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [8112214439764281]">1</container>
-            <unittitle>Honors and Awards <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [49887469422861289343]">1</container>
+            <unittitle>Honors and Awards</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [8112214439764281]">1</container>
-            <unittitle>Obituaries, Albert H. Wheeler <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [49887469422861289343]">1</container>
+            <unittitle>Obituaries, Albert H. Wheeler</unittitle><unitdate type="inclusive" normal="1994">1994</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -170,19 +163,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8112214439764281]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1963/1967">1963-1967</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [49887469422861289343]">1</container>
+              <unitdate type="inclusive" normal="1963/1967">1963-1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8112214439764281]">1</container>
-              <unittitle>
-                <unitdate>Undated</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [49887469422861289343]">1</container>
+              <unitdate>Undated</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -191,8 +178,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>NAACP/Civil Rights Issues <unitdate type="inclusive" normal="1947/1989">1947-1989</unitdate></unittitle>
-        </did>
+          <unittitle>NAACP/Civil Rights Issues</unittitle><unitdate type="inclusive" normal="1947/1989">1947-1989</unitdate></did>
         <scopecontent>
           <p>The NAACP/Civil Rights Issues series (1947-1989; 3 linear feet) is the largest in the collection, and consists of materials relating to civil rights and to the Wheelers' involvement in civil rights organizations, especially the NAACP, the Ann Arbor Human Relations Commission, and the Washtenaw County Citizens for Economic Opportunity. This series is divided into five subseries: NAACP Files, Ann Arbor Concerns, Washtenaw County Concerns, Topical Files and Presidential Files. The first four of these subseries document the civil rights movement and the NAACP in Ann Arbor and the immediate area. Much of what is contained in these files is supporting material, such as organizational reports used by the NAACP in their decision making processes. The Presidential Files subseries document Wheeler's tenure as president of the Michigan Conference of NAACP Branches. The folder headings are, for the most part, those designated by the Wheelers. The series is arranged alphabetically.</p>
         </scopecontent>
@@ -205,21 +191,18 @@
           </scopecontent>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8112214439764281]">1</container>
-              <unittitle>Black Forum Organization <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [49887469422861289343]">1</container>
+              <unittitle>Black Forum Organization</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8112214439764281]">1</container>
-              <unittitle>Brotherhood Eye Newsletter <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [49887469422861289343]">1</container>
+              <unittitle>Brotherhood Eye Newsletter</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8112214439764281]">1</container>
-              <unittitle>Community Information Series, Judge Crockett <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [49887469422861289343]">1</container>
+              <unittitle>Community Information Series, Judge Crockett</unittitle><unitdate type="inclusive" normal="1974">1974</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -231,58 +214,49 @@
               </did>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [8112214439764281]">1</container>
-                  <unittitle>Director of Branches <unitdate type="inclusive" normal="1960/1968">1960-1968</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [49887469422861289343]">1</container>
+                  <unittitle>Director of Branches</unittitle><unitdate type="inclusive" normal="1960/1968">1960-1968</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [8112214439764281]">1</container>
-                  <unittitle>Executive Secretary (Roy Wilkins) <unitdate type="inclusive" normal="1960/1971">1960-1971</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [49887469422861289343]">1</container>
+                  <unittitle>Executive Secretary (Roy Wilkins)</unittitle><unitdate type="inclusive" normal="1960/1971">1960-1971</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [8112214439764281]">1</container>
-                  <unittitle>Field Director <unitdate type="inclusive" normal="1960/1970">1960-1970</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [49887469422861289343]">1</container>
+                  <unittitle>Field Director</unittitle><unitdate type="inclusive" normal="1960/1970">1960-1970</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [8112214439764281]">1</container>
-                  <unittitle>General Counsel <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [49887469422861289343]">1</container>
+                  <unittitle>General Counsel</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [8112214439764281]">1</container>
-                  <unittitle>Legal Defense and Education Fund <unitdate type="inclusive" normal="1960/1967">1960-1967</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [49887469422861289343]">1</container>
+                  <unittitle>Legal Defense and Education Fund</unittitle><unitdate type="inclusive" normal="1960/1967">1960-1967</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [8112214439764281]">1</container>
-                  <unittitle>Membership Office <unitdate type="inclusive" normal="1960/1970">1960-1970</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [49887469422861289343]">1</container>
+                  <unittitle>Membership Office</unittitle><unitdate type="inclusive" normal="1960/1970">1960-1970</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [8112214439764281]">1</container>
-                  <unittitle>Treasurer <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [49887469422861289343]">1</container>
+                  <unittitle>Treasurer</unittitle><unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [8112214439764281]">1</container>
-                  <unittitle>Washington Bureau <unitdate type="inclusive" normal="1959/1971">1959-1971</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [49887469422861289343]">1</container>
+                  <unittitle>Washington Bureau</unittitle><unitdate type="inclusive" normal="1959/1971">1959-1971</unitdate></did>
               </c05>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [8112214439764281]">1</container>
-                <unittitle>Miscellaneous <unitdate type="inclusive" normal="1961/1990">1961-1990</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [49887469422861289343]">1</container>
+                <unittitle>Miscellaneous</unittitle><unitdate type="inclusive" normal="1961/1990">1961-1990</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">3 folders</extent>
                 </physdesc>
               </did>
@@ -290,78 +264,66 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8112214439764281]">1</container>
-              <unittitle>Education Committee <unitdate type="inclusive" normal="1958/1969">1958-1969</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [49887469422861289343]">1</container>
+              <unittitle>Education Committee</unittitle><unitdate type="inclusive" normal="1958/1969">1958-1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8112214439764281]">1</container>
-              <unittitle>Hill, Mr. and Mrs. Jesse, Grievances <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [49887469422861289343]">1</container>
+              <unittitle>Hill, Mr. and Mrs. Jesse, Grievances</unittitle><unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8112214439764281]">1</container>
-              <unittitle>Incoming Democratic Party <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [49887469422861289343]">1</container>
+              <unittitle>Incoming Democratic Party</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8112214439764281]">1</container>
-              <unittitle>Minutes and Agendas <unitdate type="inclusive" normal="1963/1973">1963-1973</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [49887469422861289343]">1</container>
+              <unittitle>Minutes and Agendas</unittitle><unitdate type="inclusive" normal="1963/1973">1963-1973</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8112214439764281]">1</container>
-              <unittitle>Mississippi Emergency Relief Fund <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [49887469422861289343]">1</container>
+              <unittitle>Mississippi Emergency Relief Fund</unittitle><unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8112214439764281]">1</container>
-              <unittitle>NAACP Newsletter <unitdate type="inclusive" normal="1958">1958</unitdate>, <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [49887469422861289343]">1</container>
+              <unittitle>NAACP Newsletter</unittitle><unitdate type="inclusive" normal="1958">1958</unitdate><unitdate type="inclusive" normal="1964">1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8112214439764281]">1</container>
-              <unittitle>Organizational Information, Statements, Policies <unitdate type="inclusive" normal="1962/1972">1962-1972</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [49887469422861289343]">1</container>
+              <unittitle>Organizational Information, Statements, Policies</unittitle><unitdate type="inclusive" normal="1962/1972">1962-1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8112214439764281]">1</container>
-              <unittitle>Resolutions, Statements, and Reactions <unitdate type="inclusive" normal="1958/1969">1958-1969</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [49887469422861289343]">1</container>
+              <unittitle>Resolutions, Statements, and Reactions</unittitle><unitdate type="inclusive" normal="1958/1969">1958-1969</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8112214439764281]">1</container>
-              <unittitle>State Conferences <unitdate type="inclusive" normal="1968">1968</unitdate>, <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [49887469422861289343]">1</container>
+              <unittitle>State Conferences</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate><unitdate type="inclusive" normal="1989">1989</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8112214439764281]">1</container>
-              <unittitle>Treasurer's Reports <unitdate type="inclusive" normal="1958/1972">1958-1972</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [49887469422861289343]">1</container>
+              <unittitle>Treasurer's Reports</unittitle><unitdate type="inclusive" normal="1958/1972">1958-1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8112214439764281]">1</container>
-              <unittitle>Youth Authority Legislation <unitdate>undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [49887469422861289343]">1</container>
+              <unittitle>Youth Authority Legislation</unittitle><unitdate>undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8112214439764281]">1</container>
-              <unittitle>Youth Council <unitdate type="inclusive" normal="1966/1973">1966-1973</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [49887469422861289343]">1</container>
+              <unittitle>Youth Council</unittitle><unitdate type="inclusive" normal="1966/1973">1966-1973</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -374,69 +336,58 @@
           </scopecontent>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8112214439764281]">1</container>
-              <unittitle>Civic Forum <unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [49887469422861289343]">1</container>
+              <unittitle>Civic Forum</unittitle><unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8112214439764281]">1</container>
-              <unittitle>Community Center <unitdate type="inclusive" normal="1938/1964">1938-1964</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [49887469422861289343]">1</container>
+              <unittitle>Community Center</unittitle><unitdate type="inclusive" normal="1938/1964">1938-1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8112214439764281]">1</container>
-              <unittitle>Economic Opportunities Act <unitdate>undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [49887469422861289343]">1</container>
+              <unittitle>Economic Opportunities Act</unittitle><unitdate>undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8112214439764281]">1</container>
-              <unittitle>Enablers Anonymous <unitdate>undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [49887469422861289343]">1</container>
+              <unittitle>Enablers Anonymous</unittitle><unitdate>undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8112214439764281]">1</container>
-              <unittitle>Fair Housing Cases <unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [49887469422861289343]">1</container>
+              <unittitle>Fair Housing Cases</unittitle><unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [8112214439764281]">1</container>
-              <unittitle>Fair Housing Association/CORE <unitdate type="inclusive" normal="1962/1968">1962-1968</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [49887469422861289343]">1</container>
+              <unittitle>Fair Housing Association/CORE</unittitle><unitdate type="inclusive" normal="1962/1968">1962-1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [70782446298204801544]">2</container>
-              <unittitle>Housing Commission <unitdate type="inclusive" normal="1965/1969">1965-1969</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [53932061437468831269]">2</container>
+              <unittitle>Housing Commission</unittitle><unitdate type="inclusive" normal="1965/1969">1965-1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [70782446298204801544]">2</container>
-              <unittitle>Housing, Miscellaneous <unitdate type="inclusive" normal="1963/1968">1963-1968</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [53932061437468831269]">2</container>
+              <unittitle>Housing, Miscellaneous</unittitle><unitdate type="inclusive" normal="1963/1968">1963-1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [70782446298204801544]">2</container>
-              <unittitle>Housing Ordinance <unitdate type="inclusive" normal="1963/1965">1963-1965</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [53932061437468831269]">2</container>
+              <unittitle>Housing Ordinance</unittitle><unitdate type="inclusive" normal="1963/1965">1963-1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [70782446298204801544]">2</container>
-              <unittitle>Housing Rule 9 <unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [53932061437468831269]">2</container>
+              <unittitle>Housing Rule 9</unittitle><unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [70782446298204801544]">2</container>
-              <unittitle>Housing Study <unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [53932061437468831269]">2</container>
+              <unittitle>Housing Study</unittitle><unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -444,85 +395,72 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [70782446298204801544]">2</container>
-                <unittitle>Cooperative Occupational Training Program <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [53932061437468831269]">2</container>
+                <unittitle>Cooperative Occupational Training Program</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [70782446298204801544]">2</container>
-                <unittitle>Correspondence <unitdate type="inclusive" normal="1954/1969">1954-1969</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [53932061437468831269]">2</container>
+                <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1954/1969">1954-1969</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [70782446298204801544]">2</container>
-                <unittitle>Housing <unitdate type="inclusive" normal="1947/1966">1947-1966</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [53932061437468831269]">2</container>
+                <unittitle>Housing</unittitle><unitdate type="inclusive" normal="1947/1966">1947-1966</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [70782446298204801544]">2</container>
-                <unittitle>Minutes <unitdate type="inclusive" normal="1957/1963">1957-1963</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [53932061437468831269]">2</container>
+                <unittitle>Minutes</unittitle><unitdate type="inclusive" normal="1957/1963">1957-1963</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [70782446298204801544]">2</container>
-                <unittitle>Reports <unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [53932061437468831269]">2</container>
+                <unittitle>Reports</unittitle><unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [70782446298204801544]">2</container>
-                <unittitle>Reports <unitdate>undated</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [53932061437468831269]">2</container>
+                <unittitle>Reports</unittitle><unitdate>undated</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [70782446298204801544]">2</container>
-                <unittitle>Statements/Reports <unitdate type="inclusive" normal="1960/1967">1960-1967</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [53932061437468831269]">2</container>
+                <unittitle>Statements/Reports</unittitle><unitdate type="inclusive" normal="1960/1967">1960-1967</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [70782446298204801544]">2</container>
-              <unittitle>Model Cities <unitdate type="inclusive" normal="1969/1975">1969-1975</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [53932061437468831269]">2</container>
+              <unittitle>Model Cities</unittitle><unitdate type="inclusive" normal="1969/1975">1969-1975</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [70782446298204801544]">2</container>
-              <unittitle>Model Cities Health Clinic Board <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [53932061437468831269]">2</container>
+              <unittitle>Model Cities Health Clinic Board</unittitle><unitdate type="inclusive" normal="1972">1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [70782446298204801544]">2</container>
-              <unittitle>Neighborhood Rehabilitation Improvement Committee <unitdate type="inclusive" normal="1959/1967">1959-1967</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [53932061437468831269]">2</container>
+              <unittitle>Neighborhood Rehabilitation Improvement Committee</unittitle><unitdate type="inclusive" normal="1959/1967">1959-1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [70782446298204801544]">2</container>
-              <unittitle>North Central Property Owners Association <unitdate type="inclusive" normal="1971/1975">1971-1975</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [53932061437468831269]">2</container>
+              <unittitle>North Central Property Owners Association</unittitle><unitdate type="inclusive" normal="1971/1975">1971-1975</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [70782446298204801544]">2</container>
-              <unittitle>Planning Commission <unitdate type="inclusive" normal="1962/1969">1962-1969</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [53932061437468831269]">2</container>
+              <unittitle>Planning Commission</unittitle><unitdate type="inclusive" normal="1962/1969">1962-1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [70782446298204801544]">2</container>
-              <unittitle>Pre-Housing Commission <unitdate type="inclusive" normal="1959/1965">1959-1965</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [53932061437468831269]">2</container>
+              <unittitle>Pre-Housing Commission</unittitle><unitdate type="inclusive" normal="1959/1965">1959-1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -530,64 +468,54 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [70782446298204801544]">2</container>
-                <unittitle>Combating Racism <unitdate type="inclusive" normal="1965/1971">1965-1971</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [53932061437468831269]">2</container>
+                <unittitle>Combating Racism</unittitle><unitdate type="inclusive" normal="1965/1971">1965-1971</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [70782446298204801544]">2</container>
-                <unittitle>Discipline Policy <unitdate type="inclusive" normal="1968/1972">1968-1972</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [53932061437468831269]">2</container>
+                <unittitle>Discipline Policy</unittitle><unitdate type="inclusive" normal="1968/1972">1968-1972</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [70782446298204801544]">2</container>
-                <unittitle>Drop Out Study <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [53932061437468831269]">2</container>
+                <unittitle>Drop Out Study</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [70782446298204801544]">2</container>
-                <unittitle>Graduation Study <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [53932061437468831269]">2</container>
+                <unittitle>Graduation Study</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [70782446298204801544]">2</container>
-                <unittitle>Integration <unitdate type="inclusive" normal="1963/1969">1963-1969</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [53932061437468831269]">2</container>
+                <unittitle>Integration</unittitle><unitdate type="inclusive" normal="1963/1969">1963-1969</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [70782446298204801544]">2</container>
-                <unittitle>Minority Curriculum Inclusion <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [53932061437468831269]">2</container>
+                <unittitle>Minority Curriculum Inclusion</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [70782446298204801544]">2</container>
-                <unittitle>Miscellaneous Statements, Memos, Correspondence <unitdate type="inclusive" normal="1966/1971">1966-1971</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [53932061437468831269]">2</container>
+                <unittitle>Miscellaneous Statements, Memos, Correspondence</unittitle><unitdate type="inclusive" normal="1966/1971">1966-1971</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [70782446298204801544]">2</container>
-                <unittitle>New Schools Construction <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [53932061437468831269]">2</container>
+                <unittitle>New Schools Construction</unittitle><unitdate type="inclusive" normal="1972">1972</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [70782446298204801544]">2</container>
-                <unittitle>Pioneer/Huron High Student Demands and Statements <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [53932061437468831269]">2</container>
+                <unittitle>Pioneer/Huron High Student Demands and Statements</unittitle><unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [70782446298204801544]">2</container>
-              <unittitle>Transportation System <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [53932061437468831269]">2</container>
+              <unittitle>Transportation System</unittitle><unitdate type="inclusive" normal="1973">1973</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -595,21 +523,18 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [70782446298204801544]">2</container>
-                <unittitle>Correspondence, Resolutions, Proposals <unitdate type="inclusive" normal="1956/1959">1956-1959</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [53932061437468831269]">2</container>
+                <unittitle>Correspondence, Resolutions, Proposals</unittitle><unitdate type="inclusive" normal="1956/1959">1956-1959</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [70782446298204801544]">2</container>
-                <unittitle>General Information, Maps <unitdate type="inclusive" normal="1956/1969">1956-1969</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [53932061437468831269]">2</container>
+                <unittitle>General Information, Maps</unittitle><unitdate type="inclusive" normal="1956/1969">1956-1969</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [70782446298204801544]">2</container>
-                <unittitle>Standards Plan Committee, Minutes <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [53932061437468831269]">2</container>
+                <unittitle>Standards Plan Committee, Minutes</unittitle><unitdate type="inclusive" normal="1958">1958</unitdate></did>
             </c04>
           </c03>
         </c02>
@@ -626,52 +551,46 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [70782446298204801544]">2</container>
-                <unittitle>Correspondence <unitdate type="inclusive" normal="1964/1968">1964-1968</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [53932061437468831269]">2</container>
+                <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1964/1968">1964-1968</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [55294341777905262]">3</container>
-                <unittitle>Legal Aid <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [32492486329124857]">3</container>
+                <unittitle>Legal Aid</unittitle><unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [55294341777905262]">3</container>
-                <unittitle>Minutes <unitdate type="inclusive" normal="1965/1967">1965-1967</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [32492486329124857]">3</container>
+                <unittitle>Minutes</unittitle><unitdate type="inclusive" normal="1965/1967">1965-1967</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [55294341777905262]">3</container>
+                <container type="box" label="Box [32492486329124857]">3</container>
                 <unittitle>Statements and Reports</unittitle>
               </did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [55294341777905262]">3</container>
-              <unittitle>Prisoner Treatment <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [32492486329124857]">3</container>
+              <unittitle>Prisoner Treatment</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [55294341777905262]">3</container>
-              <unittitle>Social Welfare <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [32492486329124857]">3</container>
+              <unittitle>Social Welfare</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [55294341777905262]">3</container>
-              <unittitle>Willow Run Association for Neighborhood Development (WRAND) <unitdate type="inclusive" normal="1963/1967">1963-1967</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [32492486329124857]">3</container>
+              <unittitle>Willow Run Association for Neighborhood Development (WRAND)</unittitle><unitdate type="inclusive" normal="1963/1967">1963-1967</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -687,21 +606,18 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [55294341777905262]">3</container>
-                <unittitle>Ann Arbor Police <unitdate type="inclusive" normal="1964/1970">1964-1970</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [32492486329124857]">3</container>
+                <unittitle>Ann Arbor Police</unittitle><unitdate type="inclusive" normal="1964/1970">1964-1970</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [55294341777905262]">3</container>
-                <unittitle>State and Local Courts <unitdate type="inclusive" normal="1964/1968">1964-1968</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [32492486329124857]">3</container>
+                <unittitle>State and Local Courts</unittitle><unitdate type="inclusive" normal="1964/1968">1964-1968</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [55294341777905262]">3</container>
-                <unittitle>State Police, Sheriff <unitdate type="inclusive" normal="1964/1968">1964-1968</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [32492486329124857]">3</container>
+                <unittitle>State Police, Sheriff</unittitle><unitdate type="inclusive" normal="1964/1968">1964-1968</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -710,33 +626,28 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [55294341777905262]">3</container>
-                <unittitle>Ann Arbor <unitdate type="inclusive" normal="1957/1972">1957-1972</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [32492486329124857]">3</container>
+                <unittitle>Ann Arbor</unittitle><unitdate type="inclusive" normal="1957/1972">1957-1972</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [55294341777905262]">3</container>
-                <unittitle>Annapolis Hospital Case <unitdate type="inclusive" normal="1963/1965">1963-1965</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [32492486329124857]">3</container>
+                <unittitle>Annapolis Hospital Case</unittitle><unitdate type="inclusive" normal="1963/1965">1963-1965</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [55294341777905262]">3</container>
-                <unittitle>Michigan Fair Employment Practices Commission <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [32492486329124857]">3</container>
+                <unittitle>Michigan Fair Employment Practices Commission</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [55294341777905262]">3</container>
-                <unittitle>Michigan Highway Department <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [32492486329124857]">3</container>
+                <unittitle>Michigan Highway Department</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [55294341777905262]">3</container>
-                <unittitle>University of Michigan <unitdate type="inclusive" normal="1964/1972">1964-1972</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [32492486329124857]">3</container>
+                <unittitle>University of Michigan</unittitle><unitdate type="inclusive" normal="1964/1972">1964-1972</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -745,21 +656,18 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [55294341777905262]">3</container>
-                <unittitle>Community Coordinated Child Care <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [32492486329124857]">3</container>
+                <unittitle>Community Coordinated Child Care</unittitle><unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [55294341777905262]">3</container>
-                <unittitle>Experimental Nursery School <unitdate>undated</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [32492486329124857]">3</container>
+                <unittitle>Experimental Nursery School</unittitle><unitdate>undated</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [55294341777905262]">3</container>
-                <unittitle>Wrand Day Care Center <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [32492486329124857]">3</container>
+                <unittitle>Wrand Day Care Center</unittitle><unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -768,33 +676,28 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [55294341777905262]">3</container>
-                <unittitle>Bethel AME Church <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [32492486329124857]">3</container>
+                <unittitle>Bethel AME Church</unittitle><unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [55294341777905262]">3</container>
-                <unittitle>Black/Jewish Celebration <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [32492486329124857]">3</container>
+                <unittitle>Black/Jewish Celebration</unittitle><unitdate type="inclusive" normal="1989">1989</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [55294341777905262]">3</container>
-                <unittitle>Civil Rights Coordinating Council <unitdate type="inclusive" normal="1964/1967">1964-1967</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [32492486329124857]">3</container>
+                <unittitle>Civil Rights Coordinating Council</unittitle><unitdate type="inclusive" normal="1964/1967">1964-1967</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [55294341777905262]">3</container>
-                <unittitle>Conference on Race and Religion <unitdate type="inclusive" normal="1956/1964">1956-1964</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [32492486329124857]">3</container>
+                <unittitle>Conference on Race and Religion</unittitle><unitdate type="inclusive" normal="1956/1964">1956-1964</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [55294341777905262]">3</container>
-                <unittitle>YMCA <unitdate>undated</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [32492486329124857]">3</container>
+                <unittitle>YMCA</unittitle><unitdate>undated</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -803,9 +706,8 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [55294341777905262]">3</container>
-                <unittitle>Black Urban Affairs Conference <unitdate>undated</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [32492486329124857]">3</container>
+                <unittitle>Black Urban Affairs Conference</unittitle><unitdate>undated</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
@@ -817,86 +719,70 @@
                 </did>
                 <c06 level="file">
                   <did>
-                    <container type="box" label="Box [55294341777905262]">3</container>
-                    <unittitle>
-                      <unitdate type="inclusive" normal="1961/1963">1961-1963</unitdate>
-                    </unittitle>
-                  </did>
+                    <container type="box" label="Box [32492486329124857]">3</container>
+                    <unitdate type="inclusive" normal="1961/1963">1961-1963</unitdate></did>
                 </c06>
                 <c06 level="file">
                   <did>
-                    <container type="box" label="Box [55294341777905262]">3</container>
-                    <unittitle>
-                      <unitdate type="inclusive" normal="1965/1968">1965-1968</unitdate>
-                    </unittitle>
-                  </did>
+                    <container type="box" label="Box [32492486329124857]">3</container>
+                    <unitdate type="inclusive" normal="1965/1968">1965-1968</unitdate></did>
                 </c06>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [55294341777905262]">3</container>
-                  <unittitle>Statements, Proposals <unitdate type="inclusive" normal="1961/1967">1961-1967</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [32492486329124857]">3</container>
+                  <unittitle>Statements, Proposals</unittitle><unitdate type="inclusive" normal="1961/1967">1961-1967</unitdate></did>
               </c05>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [55294341777905262]">3</container>
-                <unittitle>Education <unitdate type="inclusive" normal="1954/1971">1954-1971</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [32492486329124857]">3</container>
+                <unittitle>Education</unittitle><unitdate type="inclusive" normal="1954/1971">1954-1971</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [55294341777905262]">3</container>
-                <unittitle>Ferris College Incident <unitdate>undated</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [32492486329124857]">3</container>
+                <unittitle>Ferris College Incident</unittitle><unitdate>undated</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [55294341777905262]">3</container>
-                <unittitle>Jobs For Youth <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [32492486329124857]">3</container>
+                <unittitle>Jobs For Youth</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [55294341777905262]">3</container>
-                <unittitle>Juvenile Delinquency <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [32492486329124857]">3</container>
+                <unittitle>Juvenile Delinquency</unittitle><unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [55294341777905262]">3</container>
-                <unittitle>Michigan Catholic Conference <unitdate type="inclusive" normal="1961/1974">1961-1974</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [32492486329124857]">3</container>
+                <unittitle>Michigan Catholic Conference</unittitle><unitdate type="inclusive" normal="1961/1974">1961-1974</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [55294341777905262]">3</container>
-                <unittitle>Michigan Conference of NAACP Branches <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [32492486329124857]">3</container>
+                <unittitle>Michigan Conference of NAACP Branches</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [55294341777905262]">3</container>
-                <unittitle>Michigan Welfare League <unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [32492486329124857]">3</container>
+                <unittitle>Michigan Welfare League</unittitle><unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [55294341777905262]">3</container>
-                <unittitle>Statewide Housing Conference <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [32492486329124857]">3</container>
+                <unittitle>Statewide Housing Conference</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [55294341777905262]">3</container>
-              <unittitle>Race Relations Issues <unitdate type="inclusive" normal="1963/1970">1963-1970</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [32492486329124857]">3</container>
+              <unittitle>Race Relations Issues</unittitle><unitdate type="inclusive" normal="1963/1970">1963-1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [55294341777905262]">3</container>
+              <container type="box" label="Box [32492486329124857]">3</container>
               <unittitle>Clippings</unittitle>
             </did>
           </c03>
@@ -910,7 +796,7 @@
           </scopecontent>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [55294341777905262]">3</container>
+              <container type="box" label="Box [32492486329124857]">3</container>
               <unittitle>Correspondence, Alphabetical</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
@@ -919,7 +805,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [55294341777905262]">3</container>
+              <container type="box" label="Box [32492486329124857]">3</container>
               <unittitle>Branches, Alphabetical</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
@@ -928,96 +814,81 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [55294341777905262]">3</container>
-              <unittitle>Constitution <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [32492486329124857]">3</container>
+              <unittitle>Constitution</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [55294341777905262]">3</container>
-              <unittitle>Directives to Branches <unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [32492486329124857]">3</container>
+              <unittitle>Directives to Branches</unittitle><unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [55294341777905262]">3</container>
-              <unittitle>Education <unitdate type="inclusive" normal="1966/1969">1966-1969</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [32492486329124857]">3</container>
+              <unittitle>Education</unittitle><unitdate type="inclusive" normal="1966/1969">1966-1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [142692749495940534893]">4</container>
-              <unittitle>Employment <unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [91691451796673]">4</container>
+              <unittitle>Employment</unittitle><unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [142692749495940534893]">4</container>
-              <unittitle>Freedom Fund Dance <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [91691451796673]">4</container>
+              <unittitle>Freedom Fund Dance</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [142692749495940534893]">4</container>
-              <unittitle>Housing <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [91691451796673]">4</container>
+              <unittitle>Housing</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [142692749495940534893]">4</container>
-              <unittitle>Police-Community Relations <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [91691451796673]">4</container>
+              <unittitle>Police-Community Relations</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [142692749495940534893]">4</container>
-              <unittitle>Police Recruitment Project <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [91691451796673]">4</container>
+              <unittitle>Police Recruitment Project</unittitle><unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [142692749495940534893]">4</container>
-              <unittitle>Political Action <unitdate type="inclusive" normal="1964/1967">1964-1967</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [91691451796673]">4</container>
+              <unittitle>Political Action</unittitle><unitdate type="inclusive" normal="1964/1967">1964-1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [142692749495940534893]">4</container>
-              <unittitle>Resolutions <unitdate type="inclusive" normal="1965/1968">1965-1968</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [91691451796673]">4</container>
+              <unittitle>Resolutions</unittitle><unitdate type="inclusive" normal="1965/1968">1965-1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>State Conference <unitdate type="inclusive" normal="1960/1968">1960-1968</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <unittitle>State Conference</unittitle><unitdate type="inclusive" normal="1960/1968">1960-1968</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [142692749495940534893]">4</container>
-                <unittitle>Minutes <unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [91691451796673]">4</container>
+                <unittitle>Minutes</unittitle><unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [142692749495940534893]">4</container>
-              <unittitle>Treasurer's Reports <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [91691451796673]">4</container>
+              <unittitle>Treasurer's Reports</unittitle><unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [142692749495940534893]">4</container>
-              <unittitle>Youth Councils <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [91691451796673]">4</container>
+              <unittitle>Youth Councils</unittitle><unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></did>
           </c03>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Mayoral Files <unitdate type="inclusive" normal="1975/1978">1975-1978</unitdate></unittitle>
-        </did>
+          <unittitle>Mayoral Files</unittitle><unitdate type="inclusive" normal="1975/1978">1975-1978</unitdate></did>
         <scopecontent>
           <p>The Mayoral Files series (1975-1978; 1.75 linear feet) includes those items unique to Albert Wheeler's tenure as mayor of Ann Arbor. Materials of a routine nature, such as committee reports, minutes, and memoranda have generally not been retained in this collection, as these items would be maintained by the city of Ann Arbor. The mayoral elections in which Albert Wheeler ran in 1975 and 1977, both of which were decided in a manner out of the ordinary, and not without controversy, are documented through court documents, reports and correspondence. Proclamations, resolutions, press releases and vetoes of Mayor Wheeler are included, as are a folder of speeches and remarks made in his capacity as mayor.</p>
           <p>The Correspondence files contain a large amount of correspondence received by Mayor Wheeler, reflecting citizen concerns and those issues that tended to provoke citizens to write to the mayor. Federal funding in the Community Development Revenue Sharing (CDRS) program brought about large numbers of organizations seeking mayoral approval for their programs. The complaints received by Mayor Wheeler range anywhere from parking, to senior citizen housing, to the dog leash law. By far the greater bulk of correspondence of this nature was received in 1975 after Wheeler took office. The complaints tend not to be aimed directly at Wheeler, but rather at city policies and ordinances.</p>
@@ -1036,67 +907,52 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [142692749495940534893]">4</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1975">1975</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [91691451796673]">4</container>
+                <unitdate type="inclusive" normal="1975">1975</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [142692749495940534893]">4</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1977">1977</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [91691451796673]">4</container>
+                <unitdate type="inclusive" normal="1977">1977</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [142692749495940534893]">4</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1978">1978</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [91691451796673]">4</container>
+                <unitdate type="inclusive" normal="1978">1978</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [142692749495940534893]">4</container>
-              <unittitle>Mayor's Vetoes <unitdate type="inclusive" normal="1975/1978">1975-1978</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [91691451796673]">4</container>
+              <unittitle>Mayor's Vetoes</unittitle><unitdate type="inclusive" normal="1975/1978">1975-1978</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [142692749495940534893]">4</container>
-              <unittitle>Proclamations <unitdate type="inclusive" normal="1975/1978">1975-1978</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [91691451796673]">4</container>
+              <unittitle>Proclamations</unittitle><unitdate type="inclusive" normal="1975/1978">1975-1978</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [142692749495940534893]">4</container>
-              <unittitle>Press Releases <unitdate type="inclusive" normal="1975/1978">1975-1978</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [91691451796673]">4</container>
+              <unittitle>Press Releases</unittitle><unitdate type="inclusive" normal="1975/1978">1975-1978</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [142692749495940534893]">4</container>
-              <unittitle>Reports and Communications to Council <unitdate type="inclusive" normal="1975/1978">1975-1978</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [91691451796673]">4</container>
+              <unittitle>Reports and Communications to Council</unittitle><unitdate type="inclusive" normal="1975/1978">1975-1978</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [142692749495940534893]">4</container>
-              <unittitle>Resolutions <unitdate type="inclusive" normal="1975/1978">1975-1978</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [91691451796673]">4</container>
+              <unittitle>Resolutions</unittitle><unitdate type="inclusive" normal="1975/1978">1975-1978</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [142692749495940534893]">4</container>
-              <unittitle>Speeches and Remarks <unitdate type="inclusive" normal="1976/1978">1976-1978</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [91691451796673]">4</container>
+              <unittitle>Speeches and Remarks</unittitle><unitdate type="inclusive" normal="1976/1978">1976-1978</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -1105,78 +961,67 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [142692749495940534893]">4</container>
-              <unittitle>Citizen Requests, Community Development Revenue Sharing (CDRS) <unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [91691451796673]">4</container>
+              <unittitle>Citizen Requests, Community Development Revenue Sharing (CDRS)</unittitle><unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [142692749495940534893]">4</container>
-              <unittitle>Complaints <unitdate type="inclusive" normal="1975/1978">1975-1978</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [91691451796673]">4</container>
+              <unittitle>Complaints</unittitle><unitdate type="inclusive" normal="1975/1978">1975-1978</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [142692749495940534893]">4</container>
-              <unittitle>Congratulatory <unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [91691451796673]">4</container>
+              <unittitle>Congratulatory</unittitle><unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [142692749495940534893]">4</container>
-              <unittitle>Federal Legislation <unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [91691451796673]">4</container>
+              <unittitle>Federal Legislation</unittitle><unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [142692749495940534893]">4</container>
-              <unittitle>General <unitdate type="inclusive" normal="1975/1978">1975-1978</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [91691451796673]">4</container>
+              <unittitle>General</unittitle><unitdate type="inclusive" normal="1975/1978">1975-1978</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [142692749495940534893]">4</container>
-              <unittitle>Memos <unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [91691451796673]">4</container>
+              <unittitle>Memos</unittitle><unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [142692749495940534893]">4</container>
-              <unittitle>National League of Cities <unitdate type="inclusive" normal="1977/1978">1977-1978</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [91691451796673]">4</container>
+              <unittitle>National League of Cities</unittitle><unitdate type="inclusive" normal="1977/1978">1977-1978</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [142692749495940534893]">4</container>
-              <unittitle>Outgoing <unitdate type="inclusive" normal="1975/1978">1975-1978</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [91691451796673]">4</container>
+              <unittitle>Outgoing</unittitle><unitdate type="inclusive" normal="1975/1978">1975-1978</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [142692749495940534893]">4</container>
-              <unittitle>State Legislation <unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [91691451796673]">4</container>
+              <unittitle>State Legislation</unittitle><unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [142692749495940534893]">4</container>
-              <unittitle>Thank You <unitdate type="inclusive" normal="1975/1978">1975-1978</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [91691451796673]">4</container>
+              <unittitle>Thank You</unittitle><unitdate type="inclusive" normal="1975/1978">1975-1978</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [142692749495940534893]">4</container>
-              <unittitle>White House <unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [91691451796673]">4</container>
+              <unittitle>White House</unittitle><unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -1185,432 +1030,361 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [142692749495940534893]">4</container>
-              <unittitle>Airport <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [91691451796673]">4</container>
+              <unittitle>Airport</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [142692749495940534893]">4</container>
-              <unittitle>Airport Advisory Commission <unitdate type="inclusive" normal="1975/1976">1975-1976</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [91691451796673]">4</container>
+              <unittitle>Airport Advisory Commission</unittitle><unitdate type="inclusive" normal="1975/1976">1975-1976</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [142692749495940534893]">4</container>
-              <unittitle>Ann Arbor/Pittsfield Drain and Flooding <unitdate type="inclusive" normal="1975/1976">1975-1976</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [91691451796673]">4</container>
+              <unittitle>Ann Arbor/Pittsfield Drain and Flooding</unittitle><unitdate type="inclusive" normal="1975/1976">1975-1976</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Ann Arbor Railroad <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Ann Arbor Railroad</unittitle><unitdate type="inclusive" normal="1975">1975</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Ann Arbor Street Art Fair <unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Ann Arbor Street Art Fair</unittitle><unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Ann Arbor Transportation Authority, (aatA) <unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Ann Arbor Transportation Authority, (aatA)</unittitle><unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Anti-Rape Advisory Board <unitdate type="inclusive" normal="1974/1976">1974-1976</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Anti-Rape Advisory Board</unittitle><unitdate type="inclusive" normal="1974/1976">1974-1976</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Assessor <unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Assessor</unittitle><unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Assistant City Administrator <unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Assistant City Administrator</unittitle><unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Attorney <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Attorney</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Bicentennial Commission <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Bicentennial Commission</unittitle><unitdate type="inclusive" normal="1976">1976</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>"Blue Magic" Incident <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>"Blue Magic" Incident</unittitle><unitdate type="inclusive" normal="1975">1975</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Boards and Commissions <unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Boards and Commissions</unittitle><unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Budget <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Budget</unittitle><unitdate type="inclusive" normal="1975">1975</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Cablecasting Commission <unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Cablecasting Commission</unittitle><unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Campaign Literature <unitdate>undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Campaign Literature</unittitle><unitdate>undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Citizen's Recreation Advisory Commission <unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Citizen's Recreation Advisory Commission</unittitle><unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>City Administrator <unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>City Administrator</unittitle><unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>City Council <unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>City Council</unittitle><unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>City-University <unitdate type="inclusive" normal="1975/1976">1975-1976</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>City-University</unittitle><unitdate type="inclusive" normal="1975/1976">1975-1976</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Community Development <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Community Development</unittitle><unitdate type="inclusive" normal="1975">1975</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Community Development Block Grant (CDBG) and Community Development Resource Sharing (CDRS) <unitdate type="inclusive" normal="1975/1980">1975-1980</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Community Development Block Grant (CDBG) and Community Development Resource Sharing (CDRS)</unittitle><unitdate type="inclusive" normal="1975/1980">1975-1980</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Community Planning and Management <unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Community Planning and Management</unittitle><unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Compensation Commission <unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Compensation Commission</unittitle><unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Comprehensive Employment Training Act (CETA) <unitdate type="inclusive" normal="1975/1978">1975-1978</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Comprehensive Employment Training Act (CETA)</unittitle><unitdate type="inclusive" normal="1975/1978">1975-1978</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Controller Investment Crisis <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Controller Investment Crisis</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Democratic Budget Proposal <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Democratic Budget Proposal</unittitle><unitdate type="inclusive" normal="1975">1975</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>DNA Research <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>DNA Research</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Dean, Elizabeth Fund <unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Dean, Elizabeth Fund</unittitle><unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Employees Retirement System <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Employees Retirement System</unittitle><unitdate type="inclusive" normal="1976">1976</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Fair Rental Practices Commission <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Fair Rental Practices Commission</unittitle><unitdate type="inclusive" normal="1975">1975</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Fire Department <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Fire Department</unittitle><unitdate type="inclusive" normal="1976">1976</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Historic District Commission <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Historic District Commission</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>House Bill No. 6010, <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>House Bill No. 6010</unittitle><unitdate type="inclusive" normal="1976">1976</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Housing Commission <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Housing Commission</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Human Rights Commission <unitdate type="inclusive" normal="1975/1976">1975-1976</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Human Rights Commission</unittitle><unitdate type="inclusive" normal="1975/1976">1975-1976</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Human Rights Department <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Human Rights Department</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Human Services Department <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Human Services Department</unittitle><unitdate type="inclusive" normal="1975">1975</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Huron View Heights Development <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Huron View Heights Development</unittitle><unitdate type="inclusive" normal="1975">1975</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>International Exchange/Sister Cities <unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>International Exchange/Sister Cities</unittitle><unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Investment Committee <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Investment Committee</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Michigan Municipal League <unitdate type="inclusive" normal="1975/1976">1975-1976</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Michigan Municipal League</unittitle><unitdate type="inclusive" normal="1975/1976">1975-1976</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Model Cities <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Model Cities</unittitle><unitdate type="inclusive" normal="1975">1975</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>National Institute for Occupational Safety and Health Facility (NIOSHA) <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>National Institute for Occupational Safety and Health Facility (NIOSHA)</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>911 Emergency System <unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>911 Emergency System</unittitle><unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Old West Side Historic District Commission <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Old West Side Historic District Commission</unittitle><unitdate type="inclusive" normal="1976">1976</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Ozone House <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Ozone House</unittitle><unitdate type="inclusive" normal="1975">1975</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Parks Concerts (Summers) <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Parks Concerts (Summers)</unittitle><unitdate type="inclusive" normal="1975">1975</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Parking Facilities Commission <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Parking Facilities Commission</unittitle><unitdate type="inclusive" normal="1976">1976</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Parks and Open Spaces <unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Parks and Open Spaces</unittitle><unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Parks and Recreation <unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Parks and Recreation</unittitle><unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Pet Control Commission <unitdate type="inclusive" normal="1975/1976">1975-1976</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Pet Control Commission</unittitle><unitdate type="inclusive" normal="1975/1976">1975-1976</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Planning Commission <unitdate type="inclusive" normal="1975/1976">1975-1976</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Planning Commission</unittitle><unitdate type="inclusive" normal="1975/1976">1975-1976</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Planning Department <unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Planning Department</unittitle><unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Police Department <unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Police Department</unittitle><unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Post Office Purchase <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Post Office Purchase</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Preferential Voting <unitdate type="inclusive" normal="1975/1976">1975-1976</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Preferential Voting</unittitle><unitdate type="inclusive" normal="1975/1976">1975-1976</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Problems of the Handicapped Committee <unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Problems of the Handicapped Committee</unittitle><unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Public Works <unitdate type="inclusive" normal="1975/1976">1975-1976</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Public Works</unittitle><unitdate type="inclusive" normal="1975/1976">1975-1976</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Public Works Department <unitdate type="inclusive" normal="1976/1978">1976-1978</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Public Works Department</unittitle><unitdate type="inclusive" normal="1976/1978">1976-1978</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Pump-N-Pantry Incident <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Pump-N-Pantry Incident</unittitle><unitdate type="inclusive" normal="1976">1976</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Sign Ordinance <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Sign Ordinance</unittitle><unitdate type="inclusive" normal="1975">1975</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Southeast Michigan Council of Governments (SEMCOG) <unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Southeast Michigan Council of Governments (SEMCOG)</unittitle><unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Streets, Traffic, and Parking <unitdate type="inclusive" normal="1975/1978">1975-1978</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Streets, Traffic, and Parking</unittitle><unitdate type="inclusive" normal="1975/1978">1975-1978</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Super Sewer A-95 Review <unitdate type="inclusive" normal="1975/1976">1975-1976</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Super Sewer A-95 Review</unittitle><unitdate type="inclusive" normal="1975/1976">1975-1976</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>University of Michigan / AFSCME Strike <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>University of Michigan / AFSCME Strike</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Utilities <unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Utilities</unittitle><unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Voter Registration (door to door) <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Voter Registration (door to door)</unittitle><unitdate type="inclusive" normal="1975">1975</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Want Squad-Drug Raid <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Want Squad-Drug Raid</unittitle><unitdate type="inclusive" normal="1975">1975</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Weapons Policy <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Weapons Policy</unittitle><unitdate type="inclusive" normal="1976">1976</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Zoning Board of Appeals <unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Zoning Board of Appeals</unittitle><unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -1619,18 +1393,16 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>General <unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>General</unittitle><unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [056831054973929008194843]">5</container>
-              <unittitle>Election <unitdate type="inclusive" normal="1977/1978">1977-1978</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [436984538857690345263]">5</container>
+              <unittitle>Election</unittitle><unitdate type="inclusive" normal="1977/1978">1977-1978</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -1639,64 +1411,54 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>University of Michigan <unitdate type="inclusive" normal="1962/1990">1962-1990</unitdate></unittitle>
-        </did>
+          <unittitle>University of Michigan</unittitle><unitdate type="inclusive" normal="1962/1990">1962-1990</unitdate></did>
         <scopecontent>
           <p>The University of Michigan series (1962-1990; 3 inches) is quite small, often focusing on Wheeler's unique role as the first African-American tenured faculty member. His perspective on issues involving race and university policy was often sought.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [08678549327889579]">6</container>
-            <unittitle>Black Action Movement Conference <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [557997489987891071948]">6</container>
+            <unittitle>Black Action Movement Conference</unittitle><unitdate type="inclusive" normal="1990">1990</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [08678549327889579]">6</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1964/1990">1964-1990</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [557997489987891071948]">6</container>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1964/1990">1964-1990</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [08678549327889579]">6</container>
-            <unittitle>Diversity Day <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [557997489987891071948]">6</container>
+            <unittitle>Diversity Day</unittitle><unitdate type="inclusive" normal="1989">1989</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [08678549327889579]">6</container>
-            <unittitle>Faculty/Staff Committee <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [557997489987891071948]">6</container>
+            <unittitle>Faculty/Staff Committee</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [08678549327889579]">6</container>
-            <unittitle>Medical School <unitdate type="inclusive" normal="1962/1970">1962-1970</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [557997489987891071948]">6</container>
+            <unittitle>Medical School</unittitle><unitdate type="inclusive" normal="1962/1970">1962-1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [08678549327889579]">6</container>
-            <unittitle>Medical School Admissions Policy <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [557997489987891071948]">6</container>
+            <unittitle>Medical School Admissions Policy</unittitle><unitdate type="inclusive" normal="1986">1986</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [08678549327889579]">6</container>
-            <unittitle>Opportunity Awards Committee <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [557997489987891071948]">6</container>
+            <unittitle>Opportunity Awards Committee</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [08678549327889579]">6</container>
-            <unittitle>Steering Committee on Academic Opportunities <unitdate type="inclusive" normal="1965/1967">1965-1967</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [557997489987891071948]">6</container>
+            <unittitle>Steering Committee on Academic Opportunities</unittitle><unitdate type="inclusive" normal="1965/1967">1965-1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [08678549327889579]">6</container>
-            <unittitle>Tuskegee Institute <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [557997489987891071948]">6</container>
+            <unittitle>Tuskegee Institute</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -1710,44 +1472,39 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [08678549327889579]">6</container>
+            <container type="box" label="Box [557997489987891071948]">6</container>
             <unittitle>Mayoral, NAACP and march from St. Joseph to Benton Harbor</unittitle>
           </did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Medical <unitdate type="inclusive" normal="1957/1980">1957-1980</unitdate></unittitle>
-        </did>
+          <unittitle>Medical</unittitle><unitdate type="inclusive" normal="1957/1980">1957-1980</unitdate></did>
         <scopecontent>
           <p>The Medical series (1957-1980; .5 linear feet) consists of material Wheeler collected and created while he was a professor of microbiology in the Medical School of the University of Michigan. Most of this pertains to his teaching responsibilities at the university and includes lectures, slides, and lab assignments. The remainder is a miscellanea of other medically-related material such as correspondence, reports of experiments, and writings.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [08678549327889579]">6</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1966/1969">1966-1969</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [557997489987891071948]">6</container>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1966/1969">1966-1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [08678549327889579]">6</container>
-            <unittitle>Lectures, audio cassette and slides <unitdate>undated</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [557997489987891071948]">6</container>
+            <unittitle>Lectures, audio cassette and slides</unittitle><unitdate>undated</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [08678549327889579]">6</container>
-            <unittitle>Notes <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [557997489987891071948]">6</container>
+            <unittitle>Notes</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [08678549327889579]">6</container>
-            <unittitle>Records of Experiments <unitdate type="inclusive" normal="1957/1968">1957-1968</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [557997489987891071948]">6</container>
+            <unittitle>Records of Experiments</unittitle><unitdate type="inclusive" normal="1957/1968">1957-1968</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -1758,24 +1515,21 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [08678549327889579]">6</container>
-              <unittitle>Clinical Medicine 600 <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [557997489987891071948]">6</container>
+              <unittitle>Clinical Medicine 600</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [08678549327889579]">6</container>
-              <unittitle>Fundamentals of Immunology <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [557997489987891071948]">6</container>
+              <unittitle>Fundamentals of Immunology</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [08678549327889579]">6</container>
-              <unittitle>Medical Technology <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [557997489987891071948]">6</container>
+              <unittitle>Medical Technology</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1783,24 +1537,21 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [08678549327889579]">6</container>
-                <unittitle>424 <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [557997489987891071948]">6</container>
+                <unittitle>424</unittitle><unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [08678549327889579]">6</container>
-                <unittitle>620 <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [557997489987891071948]">6</container>
+                <unittitle>620</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [08678549327889579]">6</container>
-                <unittitle>620 <unitdate type="inclusive" normal="1980">1980</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [557997489987891071948]">6</container>
+                <unittitle>620</unittitle><unitdate type="inclusive" normal="1980">1980</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
@@ -1812,23 +1563,20 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [08678549327889579]">6</container>
-                <unittitle>500 <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [557997489987891071948]">6</container>
+                <unittitle>500</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [08678549327889579]">6</container>
-                <unittitle>501 <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [557997489987891071948]">6</container>
+                <unittitle>501</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
             </c04>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [08678549327889579]">6</container>
-            <unittitle>Writings <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [557997489987891071948]">6</container>
+            <unittitle>Writings</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
         </c02>
       </c01>
     </dsc>

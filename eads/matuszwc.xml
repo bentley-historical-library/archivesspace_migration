@@ -27,7 +27,8 @@
         <item>Edited to reflect migration of content from CD-ROM to Deep Blue JMBG</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Matuszewski, Walter C.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/1563">Matuszewski, Walter C.</persname>
       </origination>
-      <unittitle encodinganalog="245">Walter C. Matuszewski photograph collection <unitdate type="inclusive" encodinganalog="245$f" normal="1919">1919</unitdate></unittitle>
-      <abstract>Walter C. Matuszewski served as a private in Company G, 339th Infantry, during the American intervention at Archangel, Russia, the "Polar Bear Expedition." Group portrait of Company G, 339th U.S. Infantry taken at Brest, France, June 1919.</abstract>
+      <unittitle encodinganalog="245">Walter C. Matuszewski photograph collection</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1919">1919</unitdate><abstract>Walter C. Matuszewski served as a private in Company G, 339th Infantry, during the American intervention at Archangel, Russia, the "Polar Bear Expedition." Group portrait of Company G, 339th U.S. Infantry taken at Brest, France, June 1919.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">2011071 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -81,15 +81,15 @@
       </p>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Matuszewski, Walter C.</persname>
-        <geogname source="lcnaf" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Infantry, 339th. Company G.</corpname>
-        <subject source="local" encodinganalog="690">Polar Bear Expedition.</subject>
-        <subject source="lctgm" encodinganalog="650">Soldiers--American--France.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1563">Matuszewski, Walter C.</persname>
+        <geogname source="lcnaf" encodinganalog="651" ref="/subjects/756">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4633">United States. Army. Infantry, 339th. Company G.</corpname>
+        <subject source="local" encodinganalog="690" ref="/subjects/3516">Polar Bear Expedition.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4746">Soldiers--American--France.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -100,12 +100,12 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [256461745744528595]">1</container>
+            <container type="folder" label="Folder [783730861432467832144]">1</container>
             <unittitle>Photographs</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 digital files</extent>
             </physdesc>
-            <dao show="new" actuate="onRequest" href="matuszewski0001">
+            <dao show="new" actuate="onRequest" href="matuszewski0001" ref="/repositories/2/digital_objects/10237">
               <daodesc>
                 <p>[view items]</p>
               </daodesc>

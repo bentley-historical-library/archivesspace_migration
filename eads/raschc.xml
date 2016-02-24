@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,10 +40,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no92008579">Rasch, Charles.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no92008579" ref="/agents/people/1582">Rasch, Charles.</persname>
       </origination>
-      <unittitle encodinganalog="245">Charles Rasch Collection <unitdate type="inclusive" encodinganalog="245$f" normal="1890/2011">1890-2011</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1953/2005">1953-2005</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2011157 Aa 2; UAm</unitid>
+      <unittitle encodinganalog="245">Charles Rasch Collection</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1890/2011">1890-2011</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1953/2005">1953-2005</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2011157 Aa 2; UAm</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Charles ("Charlie") Rasch was a professional pianist, talented photographer, and graduate of the University of Michigan. The collection contains scrapbooks, photographs, and negatives documenting his life in Michigan. The majority of photographs and negatives are labeled with the date and location.</abstract>
       <physdesc altrender="part">
@@ -90,23 +90,23 @@
       </p>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no92008579">Rasch, Charles.</persname>
-        <subject source="lctgm" encodinganalog="650">Musicians--Michigan.</subject>
-        <subject source="lctgm" encodinganalog="650">Nature--Michigan.</subject>
-        <subject source="lctgm" encodinganalog="650">Rivers--Michigan.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219">Ann Arbor (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Bald Mountain Recreation Area (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81104604">Birmingham (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Harsen's Island (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Huron River (Oakland County-Monroe County, Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Island Lake State Recreation Area (Mich.)</geogname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no92008579" ref="/agents/people/1582">Rasch, Charles.</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5192">Musicians--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4467">Nature--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5193">Rivers--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219" ref="/subjects/856">Ann Arbor (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2731">Bald Mountain Recreation Area (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81104604" ref="/subjects/1040">Birmingham (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2618">Harsen's Island (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/849">Huron River (Oakland County-Monroe County, Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2732">Island Lake State Recreation Area (Mich.)</geogname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Black-and-white negatives.</genreform>
-        <genreform source="aat" encodinganalog="655">Color negatives.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="aat" encodinganalog="655">Scrapbooks.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3142">Black-and-white negatives.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3296">Color negatives.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3133">Scrapbooks.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -119,209 +119,140 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <unittitle>Blue Water District <unitdate type="inclusive" normal="1953/2008">1953-2008</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>Blue Water District</unittitle><unitdate type="inclusive" normal="1953/2008">1953-2008</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">23 volumes</extent>
             </physdesc>
           </did>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [612547641551060525510]">1</container>
-              <unittitle>Blue Water District <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [716403924882273854103]">1</container>
+              <unittitle>Blue Water District</unittitle><unitdate type="inclusive" normal="1953">1953</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [98507924598077379418]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1954">1954</unitdate>
-              </unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [531817425817443643]">2</container>
+              <unitdate type="inclusive" normal="1954">1954</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [677248624800405569]">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1955">1955</unitdate>
-              </unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [82553866640589349037]">3</container>
+              <unitdate type="inclusive" normal="1955">1955</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [13709222044078892943986]">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1956">1956</unitdate>
-              </unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [52907443468698872283669]">4</container>
+              <unitdate type="inclusive" normal="1956">1956</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [866707454392110068]">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1957">1957</unitdate>
-              </unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [82057044123665773]">5</container>
+              <unitdate type="inclusive" normal="1957">1957</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [5502924684344496027]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1958">1958</unitdate>
-              </unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [98222852490796648829776]">6</container>
+              <unitdate type="inclusive" normal="1958">1958</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [6470484408078472039]">7</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1960">1960</unitdate>
-              </unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [822722564964947505092]">7</container>
+              <unitdate type="inclusive" normal="1960">1960</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [199183140984142336]">8</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1964">1964</unitdate>
-              </unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [041383427682970080]">8</container>
+              <unitdate type="inclusive" normal="1964">1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [8294854100499]">9</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1965">1965</unitdate>
-              </unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [87578555349187220391]">9</container>
+              <unitdate type="inclusive" normal="1965">1965</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [29133873438280377394]">24</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1966">1966</unitdate>
-              </unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [619397840318520216809]">24</container>
+              <unitdate type="inclusive" normal="1966">1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [543764771304938265476024]">10</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1968">1968</unitdate>
-              </unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [61232431407295024520243]">10</container>
+              <unitdate type="inclusive" normal="1968">1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [53784835431165177920]">11</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1975/1979">1975-1979</unitdate>
-              </unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [496587498694190830]">11</container>
+              <unitdate type="inclusive" normal="1975/1979">1975-1979</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [454173440484147331420307]">12</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1980/1984">1980-1984</unitdate>
-              </unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [89651077447997399504]">12</container>
+              <unitdate type="inclusive" normal="1980/1984">1980-1984</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [00477241458849022326674]">13</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1985/1989">1985-1989</unitdate>
-              </unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [684053761447376574]">13</container>
+              <unitdate type="inclusive" normal="1985/1989">1985-1989</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [3945844829411274186091]">14</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate>
-              </unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [9301746740131455375]">14</container>
+              <unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [6651924843113264614]">15</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate>
-              </unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [500685918448737136684]">15</container>
+              <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [89547241695429724611]">16</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate>
-              </unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [014830541588683766696041]">16</container>
+              <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [5454965146804075447776]">17</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1996/1997">1996-1997</unitdate>
-              </unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [860512441279497797872]">17</container>
+              <unitdate type="inclusive" normal="1996/1997">1996-1997</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [408455749818803922592]">18</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1998/1999">1998-1999</unitdate>
-              </unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [871898494930017274041]">18</container>
+              <unitdate type="inclusive" normal="1998/1999">1998-1999</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [2245036044549755628981]">19</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="2000/2003">2000-2003</unitdate>
-              </unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [2184133047037172508255]">19</container>
+              <unitdate type="inclusive" normal="2000/2003">2000-2003</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [563722872248140019002559]">20</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="2004/2005">2004-2005</unitdate>
-              </unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [7729518474110655980644879]">20</container>
+              <unitdate type="inclusive" normal="2004/2005">2004-2005</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [742903402209821937]">21</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="2006/2007">2006-2007</unitdate>
-              </unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [865212030492199215027]">21</container>
+              <unitdate type="inclusive" normal="2006/2007">2006-2007</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [4643755468644488]">22</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="2008">2008</unitdate>
-              </unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [0528049262629226]">22</container>
+              <unitdate type="inclusive" normal="2008">2008</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume [123104057839124537]">23</container>
+              <container type="volume" label="Oversize Volume [6437719646783176784]">23</container>
               <unittitle>Cabin</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Family Photograph Album <unitdate type="inclusive" normal="1890" certainty="approximate">circa 1890</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Family Photograph Album</unittitle><unitdate type="inclusive" normal="1890" certainty="approximate">circa 1890</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
+            <container type="box" label="Box [842097243808239794]">1</container>
             <unittitle>Passenger Ferry Album</unittitle>
           </did>
         </c02>
@@ -335,69 +266,60 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>An Alphabet of Nature <unitdate type="inclusive" normal="2010">2010</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>An Alphabet of Nature</unittitle><unitdate type="inclusive" normal="2010">2010</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Ann Arbor Federation of Musicians <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Ann Arbor Federation of Musicians</unittitle><unitdate type="inclusive" normal="1994">1994</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Ann Arbor Postcard <unitdate type="inclusive" normal="1914">1914</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Ann Arbor Postcard</unittitle><unitdate type="inclusive" normal="1914">1914</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Christmas Card <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Christmas Card</unittitle><unitdate type="inclusive" normal="1987">1987</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Commission to Colonelcy <unitdate type="inclusive" normal="1928">1928</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Commission to Colonelcy</unittitle><unitdate type="inclusive" normal="1928">1928</unitdate></did>
           <odd>
             <p>(see oversized folder)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Descendants of Florian Rasch I <unitdate type="inclusive" normal="2003">2003</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Descendants of Florian Rasch I</unittitle><unitdate type="inclusive" normal="2003">2003</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Frog Sketch <unitdate type="inclusive" normal="1975" certainty="approximate">circa 1975</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Frog Sketch</unittitle><unitdate type="inclusive" normal="1975" certainty="approximate">circa 1975</unitdate></did>
           <odd>
             <p>(see oversized folder)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Obituary <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Obituary</unittitle><unitdate type="inclusive" normal="2011">2011</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
+            <container type="box" label="Box [842097243808239794]">1</container>
             <unittitle>Ragtime Down the Trail</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Soft Turtles Print <unitdate type="inclusive" normal="1898">1898</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Soft Turtles Print</unittitle><unitdate type="inclusive" normal="1898">1898</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -412,542 +334,456 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <unittitle>Family Portraits <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <unittitle>Family Portraits</unittitle><unitdate type="inclusive">undated</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4890534993333839]">1</container>
+              <container type="box" label="Box [842097243808239794]">1</container>
               <unittitle>Allen Arthur Rasch</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4890534993333839]">1</container>
+              <container type="box" label="Box [842097243808239794]">1</container>
               <unittitle>Charles Andrew Rasch</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
+            <container type="box" label="Box [842097243808239794]">1</container>
             <unittitle>Robert William Rasch</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>View of Harsen's Island <unitdate type="inclusive" normal="1898">1898</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>View of Harsen's Is</unittitle><unitdate type="inclusive" normal="1898">1898</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Allen Rich Rasch on Harsen's Island, MI <unitdate type="inclusive" normal="1925" certainty="approximate">circa 1925</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Allen Rich Rasch on Harsen's Island, MI</unittitle><unitdate type="inclusive" normal="1925" certainty="approximate">circa 1925</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Petoskey Street (Harsen's Island, MI) <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Petoskey Street (Harsen's Island, MI)</unittitle><unitdate type="inclusive" normal="1957">1957</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Steward Road Bridge (Harsen's Island, MI) <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Steward Road Bridge (Harsen's Island, MI)</unittitle><unitdate type="inclusive" normal="1958">1958</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Frank Rasch Cottage <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Frank Rasch Cottage</unittitle><unitdate type="inclusive" normal="1959">1959</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Ann Arbor Canoe Livery <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Ann Arbor Canoe Livery</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Ken and Carole on the Huron River <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Ken and Carole on the Huron River</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Kate and Me <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Kate and Me</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Theodore Vernon Stein II <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Theodore Vernon Stein II</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Whoopee Bridge Over Snooks Highway (Harsen's Island, MI) <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Whoopee Bridge Over Snooks Highway (Harsen's Island, MI)</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Joe Foder's Riverboat Shufflers at the Anchor Inn (Portage, MI) <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Joe Foder's Riverboat Shufflers at the Anchor Inn (Portage, MI)</unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Kate and Me at the Ann Arbor Moose Club <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Kate and Me at the Ann Arbor Moose Club</unittitle><unitdate type="inclusive" normal="1972">1972</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Huron River Across from the Poison Ivy Camp <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Huron River Across from the Poison Ivy Camp</unittitle><unitdate type="inclusive" normal="1973">1973</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Huron River North of Dexter at the Rock Dam <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Huron River North of Dexter at the Rock Dam</unittitle><unitdate type="inclusive" normal="1973">1973</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Canoeing at the Arch <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Canoeing at the Arch</unittitle><unitdate type="inclusive" normal="1974">1974</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Huron River (Island Lake Recreation Area) <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Huron River (Island Lake Recreation Area)</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Gossamer by the Road to Trout Lake <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Gossamer by the Road to Trout Lake</unittitle><unitdate type="inclusive" normal="1989">1989</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Footbridge (Bald Mountain Recreation Area) <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Footbridge (Bald Mountain Recreation Area)</unittitle><unitdate type="inclusive" normal="1990">1990</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Footbridge on the Orange Trail (Bald Mountain Recreation Area) <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Footbridge on the Orange Trail (Bald Mountain Recreation Area)</unittitle><unitdate type="inclusive" normal="1990">1990</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Trout Lake (Island Lake Recreation Area) <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Trout Lake (Island Lake Recreation Area)</unittitle><unitdate type="inclusive" normal="1990">1990</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Blue Trail (Bald Mountain Recreation Area) <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Blue Trail (Bald Mountain Recreation Area)</unittitle><unitdate type="inclusive" normal="1991">1991</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Blazing Star Near Trout Lake <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Blazing Star Near Trout Lake</unittitle><unitdate type="inclusive" normal="1992">1992</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Huron River (Island Lake Recreation Area) <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Huron River (Island Lake Recreation Area)</unittitle><unitdate type="inclusive" normal="1992">1992</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>The Big Oak by the Trail (Island Lake Recreation Area) <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>The Big Oak by the Trail (Island Lake Recreation Area)</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Blue Trail (Bald Mountain Recreation Area) <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Blue Trail (Bald Mountain Recreation Area)</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Footbridge (Island Lake Recreation Area) <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Footbridge (Island Lake Recreation Area)</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Huron River (Island Lake Recreation Area) <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Huron River (Island Lake Recreation Area)</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Mullein-Rosette (Island Lake Recreation Area) <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Mullein-Rosette (Island Lake Recreation Area)</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>October Blue and Gold (Island Lake Recreation Area) <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>October Blue and Gold (Island Lake Recreation Area)</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Trout Lake (Island Lake Recreation Area) <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Trout Lake (Island Lake Recreation Area)</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>White Trail (Bald Mountain Recreation Area) <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>White Trail (Bald Mountain Recreation Area)</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Ant Hills (Bald Mountain Recreation Area) <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Ant Hills (Bald Mountain Recreation Area)</unittitle><unitdate type="inclusive" normal="1994">1994</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Coffee Rock (Bald Mountain Recreation Area) <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Coffee Rock (Bald Mountain Recreation Area)</unittitle><unitdate type="inclusive" normal="1994">1994</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>East Graham Lake Footbridge <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>East Graham Lake Footbridge</unittitle><unitdate type="inclusive" normal="1994">1994</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Prairie Dock <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Prairie Dock</unittitle><unitdate type="inclusive" normal="1994">1994</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Queen Anne's Lace (Island Lake Recreation Area) <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Queen Anne's Lace (Island Lake Recreation Area)</unittitle><unitdate type="inclusive" normal="1994">1994</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Footbridge (Bald Mountain Recreation Area) <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Footbridge (Bald Mountain Recreation Area)</unittitle><unitdate type="inclusive" normal="1995">1995</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>New Footbridge (Bald Mountain Recreation Area) <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>New Footbridge (Bald Mountain Recreation Area)</unittitle><unitdate type="inclusive" normal="1995">1995</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Chief Pontiac Trail Footbridge (Proud Lake Recreation Area) <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Chief Pontiac Trail Footbridge (Proud Lake Recreation Area)</unittitle><unitdate type="inclusive" normal="1996">1996</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Lunaria Seed Discs <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Lunaria Seed Discs</unittitle><unitdate type="inclusive" normal="1997">1997</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Mayapples (Kensington Metropark) <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Mayapples (Kensington Metropark)</unittitle><unitdate type="inclusive" normal="1997">1997</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Rivulet flowing under the Red Trail (Bald Mountain Recreation Area) <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Rivulet flowing under the Red Trail (Bald Mountain Recreation Area)</unittitle><unitdate type="inclusive" normal="1997">1997</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Trillium by the Red Trail (Bald Mountain Recreation Area) <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Trillium by the Red Trail (Bald Mountain Recreation Area)</unittitle><unitdate type="inclusive" normal="1997">1997</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Milkweed (Island Lake Recreation Area) <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Milkweed (Island Lake Recreation Area)</unittitle><unitdate type="inclusive" normal="1998">1998</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Milkweed (Island Lake Recreation Area) <unitdate type="inclusive" normal="2003">2003</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Milkweed (Island Lake Recreation Area)</unittitle><unitdate type="inclusive" normal="2003">2003</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>Linda's Backyard (Birmingham, MI) <unitdate type="inclusive" normal="2005">2005</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>Linda's Backyard (Birmingham, MI)</unittitle><unitdate type="inclusive" normal="2005">2005</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4890534993333839]">1</container>
-            <unittitle>White Oak on the Hill (Kensington Metropark) <unitdate type="inclusive" normal="2005">2005</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [842097243808239794]">1</container>
+            <unittitle>White Oak on the Hill (Kensington Metropark)</unittitle><unitdate type="inclusive" normal="2005">2005</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [91708400197678344185]">2</container>
-            <unittitle>At the Canada Club (St. Clair River) <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [02201547612601278]">2</container>
+            <unittitle>At the Canada Club (St. Clair River)</unittitle><unitdate type="inclusive" normal="1953">1953</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [91708400197678344185]">2</container>
-            <unittitle>Tashmoo Dock <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [02201547612601278]">2</container>
+            <unittitle>Tashmoo Dock</unittitle><unitdate type="inclusive" normal="1953">1953</unitdate></did>
           <odd>
             <p>see oversized folder</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [91708400197678344185]">2</container>
-            <unittitle>The Lady S. on the Canadian March (Harsen's Island, MI) <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [02201547612601278]">2</container>
+            <unittitle>The Lady S. on the Canadian March (Harsen's Island, MI)</unittitle><unitdate type="inclusive" normal="1956">1956</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [91708400197678344185]">2</container>
-            <unittitle>The Lady S. at Uphalls (Harsen's Island, MI) <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [02201547612601278]">2</container>
+            <unittitle>The Lady S. at Uphalls (Harsen's Island, MI)</unittitle><unitdate type="inclusive" normal="1959">1959</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [91708400197678344185]">2</container>
-            <unittitle>Canal on Green Drive (Harsen's Island, MI) <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [02201547612601278]">2</container>
+            <unittitle>Canal on Green Drive (Harsen's Island, MI)</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [91708400197678344185]">2</container>
-            <unittitle>Huron River Just Below Barton Dam <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [02201547612601278]">2</container>
+            <unittitle>Huron River Just Below Barton Dam</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [91708400197678344185]">2</container>
-            <unittitle>Camp on Norton Creek <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [02201547612601278]">2</container>
+            <unittitle>Camp on Norton Creek</unittitle><unitdate type="inclusive" normal="1973">1973</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [91708400197678344185]">2</container>
-            <unittitle>Huron River Across from the Poison Ivy Camp <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [02201547612601278]">2</container>
+            <unittitle>Huron River Across from the Poison Ivy Camp</unittitle><unitdate type="inclusive" normal="1973">1973</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [91708400197678344185]">2</container>
-            <unittitle>Huron River Below McCabe Road Bridge <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [02201547612601278]">2</container>
+            <unittitle>Huron River Below McCabe Road Bridge</unittitle><unitdate type="inclusive" normal="1973">1973</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [91708400197678344185]">2</container>
-            <unittitle>Huron River <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [02201547612601278]">2</container>
+            <unittitle>Huron River</unittitle><unitdate type="inclusive" normal="1974">1974</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [91708400197678344185]">2</container>
-            <unittitle>Huron River Near Dexter <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [02201547612601278]">2</container>
+            <unittitle>Huron River Near Dexter</unittitle><unitdate type="inclusive" normal="1974">1974</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [91708400197678344185]">2</container>
-            <unittitle>Huron River (Island Lake Recreation Area) <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [02201547612601278]">2</container>
+            <unittitle>Huron River (Island Lake Recreation Area)</unittitle><unitdate type="inclusive" normal="1979">1979</unitdate></did>
           <odd>
             <p>(see oversized folder)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [91708400197678344185]">2</container>
-            <unittitle>John Hester on the middle Branch River (Osceola County, MI) <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [02201547612601278]">2</container>
+            <unittitle>John Hester on the middle Branch River (Osceola County, MI)</unittitle><unitdate type="inclusive" normal="1984">1984</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [91708400197678344185]">2</container>
-            <unittitle>Hornet's Nest (Bald Mountain Recreation Area) <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [02201547612601278]">2</container>
+            <unittitle>Hornet's Nest (Bald Mountain Recreation Area)</unittitle><unitdate type="inclusive" normal="1989">1989</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [91708400197678344185]">2</container>
-            <unittitle>Huron River (Island Lake Recreation Area) <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [02201547612601278]">2</container>
+            <unittitle>Huron River (Island Lake Recreation Area)</unittitle><unitdate type="inclusive" normal="1990">1990</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [91708400197678344185]">2</container>
-            <unittitle>Footbridge Over Mann Creek (Island Lake Recreation Area) <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [02201547612601278]">2</container>
+            <unittitle>Footbridge Over Mann Creek (Island Lake Recreation Area)</unittitle><unitdate type="inclusive" normal="1991">1991</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [91708400197678344185]">2</container>
-            <unittitle>On the Loop Trail Near Placeway Road (Island Lake Recreation Area) <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [02201547612601278]">2</container>
+            <unittitle>On the Loop Trail Near Placeway Road (Island Lake Recreation Area)</unittitle><unitdate type="inclusive" normal="1991">1991</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [91708400197678344185]">2</container>
-            <unittitle>Trout Lake Northeast End (Island Lake Recreation Area) <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [02201547612601278]">2</container>
+            <unittitle>Trout Lake Northeast End (Island Lake Recreation Area)</unittitle><unitdate type="inclusive" normal="1991">1991</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [91708400197678344185]">2</container>
-            <unittitle>Footbridge Over the Creek (Bald Mountain Recreation Area) <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [02201547612601278]">2</container>
+            <unittitle>Footbridge Over the Creek (Bald Mountain Recreation Area)</unittitle><unitdate type="inclusive" normal="1992">1992</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [91708400197678344185]">2</container>
-            <unittitle>Trout Lake (Island Lake Recreation Area) <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [02201547612601278]">2</container>
+            <unittitle>Trout Lake (Island Lake Recreation Area)</unittitle><unitdate type="inclusive" normal="1992">1992</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [91708400197678344185]">2</container>
-            <unittitle>Huron River (Island Lake Recreation Area) <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [02201547612601278]">2</container>
+            <unittitle>Huron River (Island Lake Recreation Area)</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [91708400197678344185]">2</container>
-            <unittitle>Trail North of the Huron (Island Lake Recreation Area) <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [02201547612601278]">2</container>
+            <unittitle>Trail North of the Huron (Island Lake Recreation Area)</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [91708400197678344185]">2</container>
-            <unittitle>Trout Lake (Island Lake Recreation Area) <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [02201547612601278]">2</container>
+            <unittitle>Trout Lake (Island Lake Recreation Area)</unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39716824683881088716]">3</container>
-            <unittitle>Huron River (Island Lake Recreation Area) <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [048548297148585770853096]">3</container>
+            <unittitle>Huron River (Island Lake Recreation Area)</unittitle><unitdate type="inclusive" normal="1994">1994</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39716824683881088716]">3</container>
-            <unittitle>Trout Lake (Island Lake Recreation Area) <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [048548297148585770853096]">3</container>
+            <unittitle>Trout Lake (Island Lake Recreation Area)</unittitle><unitdate type="inclusive" normal="1994">1994</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39716824683881088716]">3</container>
-            <unittitle>Huron River Just Below the Kent Lake Dam (Island Lake Recreation Area) <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [048548297148585770853096]">3</container>
+            <unittitle>Huron River Just Below the Kent Lake Dam (Island Lake Recreation Area)</unittitle><unitdate type="inclusive" normal="1995">1995</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39716824683881088716]">3</container>
-            <unittitle>Looking Down the Huron by Mann Creek (Island Lake Recreation Area) <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [048548297148585770853096]">3</container>
+            <unittitle>Looking Down the Huron by Mann Creek (Island Lake Recreation Area)</unittitle><unitdate type="inclusive" normal="1995">1995</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39716824683881088716]">3</container>
-            <unittitle>River Trip -- Looking Down the Huron River (Island Lake Recreation Area) <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [048548297148585770853096]">3</container>
+            <unittitle>River Trip -- Looking Down the Huron River (Island Lake Recreation Area)</unittitle><unitdate type="inclusive" normal="1995">1995</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39716824683881088716]">3</container>
-            <unittitle>Road to Trout Lake (Island Lake Recreation Area) <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [048548297148585770853096]">3</container>
+            <unittitle>Road to Trout Lake (Island Lake Recreation Area)</unittitle><unitdate type="inclusive" normal="1996">1996</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39716824683881088716]">3</container>
-            <unittitle>Trout Lake (Island Lake Recreation Area) <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [048548297148585770853096]">3</container>
+            <unittitle>Trout Lake (Island Lake Recreation Area)</unittitle><unitdate type="inclusive" normal="1996">1996</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39716824683881088716]">3</container>
-            <unittitle>Looking North on the Red Trail (Bald Mountain Recreation Area) <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [048548297148585770853096]">3</container>
+            <unittitle>Looking North on the Red Trail (Bald Mountain Recreation Area)</unittitle><unitdate type="inclusive" normal="1997">1997</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39716824683881088716]">3</container>
-            <unittitle>Looking Up the Huron (Island Lake Recreation Area) <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [048548297148585770853096]">3</container>
+            <unittitle>Looking Up the Huron (Island Lake Recreation Area)</unittitle><unitdate type="inclusive" normal="1997">1997</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39716824683881088716]">3</container>
-            <unittitle>Sunset by the Road to Trout Lake (Island Lake Recreation Area) <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [048548297148585770853096]">3</container>
+            <unittitle>Sunset by the Road to Trout Lake (Island Lake Recreation Area)</unittitle><unitdate type="inclusive" normal="1997">1997</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39716824683881088716]">3</container>
-            <unittitle>Blue Trail Near Point Five (Bald Mountain Recreation Area) <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [048548297148585770853096]">3</container>
+            <unittitle>Blue Trail Near Point Five (Bald Mountain Recreation Area)</unittitle><unitdate type="inclusive" normal="1998">1998</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39716824683881088716]">3</container>
-            <unittitle>Looking Down the Blue Line Trail (Bald Mountain Recreation Area) <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [048548297148585770853096]">3</container>
+            <unittitle>Looking Down the Blue Line Trail (Bald Mountain Recreation Area)</unittitle><unitdate type="inclusive" normal="1999">1999</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39716824683881088716]">3</container>
-            <unittitle>Looking West on the Trail South of the Huron (Island Lake Recreation Area <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [048548297148585770853096]">3</container>
+            <unittitle>Looking West on the Trail South of the Huron (Island Lake Recreation Area</unittitle><unitdate type="inclusive" normal="1999">1999</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39716824683881088716]">3</container>
-            <unittitle>Trout Lake (Island Lake Recreation Area) <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [048548297148585770853096]">3</container>
+            <unittitle>Trout Lake (Island Lake Recreation Area)</unittitle><unitdate type="inclusive" normal="2000">2000</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39716824683881088716]">3</container>
-            <unittitle>Huron River Trip (Island Lake Recreation Area) <unitdate type="inclusive" normal="2003">2003</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [048548297148585770853096]">3</container>
+            <unittitle>Huron River Trip (Island Lake Recreation Area)</unittitle><unitdate type="inclusive" normal="2003">2003</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -959,204 +795,147 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39716824683881088716]">3</container>
-            <unittitle>Family Photographs <unitdate type="inclusive" normal="1937/1942" certainty="approximate">circa 1937-1942</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [048548297148585770853096]">3</container>
+            <unittitle>Family Photographs</unittitle><unitdate type="inclusive" normal="1937/1942" certainty="approximate">circa 1937-1942</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39716824683881088716]">3</container>
+            <container type="box" label="Box [048548297148585770853096]">3</container>
             <unittitle>Miscellaneous</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39716824683881088716]">3</container>
-            <unittitle>Portraits <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [048548297148585770853096]">3</container>
+            <unittitle>Portraits</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [078109480775973454]">4</container>
-            <unittitle>Photograph Wallets (Milford Area) <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [228911312148781284324397]">4</container>
+            <unittitle>Photograph Wallets (Milford Area)</unittitle><unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [078109480775973454]">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1988">1988</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [228911312148781284324397]">4</container>
+            <unitdate type="inclusive" normal="1988">1988</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [078109480775973454]">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1989">1989</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [228911312148781284324397]">4</container>
+            <unitdate type="inclusive" normal="1989">1989</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [078109480775973454]">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1990">1990</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [228911312148781284324397]">4</container>
+            <unitdate type="inclusive" normal="1990">1990</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [078109480775973454]">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1991">1991</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [228911312148781284324397]">4</container>
+            <unitdate type="inclusive" normal="1991">1991</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 envelopes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [078109480775973454]">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1992">1992</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [228911312148781284324397]">4</container>
+            <unitdate type="inclusive" normal="1992">1992</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 envelopes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [078109480775973454]">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1993">1993</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [228911312148781284324397]">4</container>
+            <unitdate type="inclusive" normal="1993">1993</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 envelopes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [078109480775973454]">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1994">1994</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [228911312148781284324397]">4</container>
+            <unitdate type="inclusive" normal="1994">1994</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 envelopes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [078109480775973454]">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1995">1995</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [228911312148781284324397]">4</container>
+            <unitdate type="inclusive" normal="1995">1995</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 envelopes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [078109480775973454]">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1996">1996</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [228911312148781284324397]">4</container>
+            <unitdate type="inclusive" normal="1996">1996</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 envelopes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [078109480775973454]">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1997">1997</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [228911312148781284324397]">4</container>
+            <unitdate type="inclusive" normal="1997">1997</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 envelopes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [078109480775973454]">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1998">1998</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [228911312148781284324397]">4</container>
+            <unitdate type="inclusive" normal="1998">1998</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [078109480775973454]">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1999">1999</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [228911312148781284324397]">4</container>
+            <unitdate type="inclusive" normal="1999">1999</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 envelopes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [078109480775973454]">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2000">2000</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [228911312148781284324397]">4</container>
+            <unitdate type="inclusive" normal="2000">2000</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [078109480775973454]">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2000/2001">2000-2001</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [228911312148781284324397]">4</container>
+            <unitdate type="inclusive" normal="2000/2001">2000-2001</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 envelopes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [078109480775973454]">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2002">2002</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [228911312148781284324397]">4</container>
+            <unitdate type="inclusive" normal="2002">2002</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [078109480775973454]">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2003">2003</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [228911312148781284324397]">4</container>
+            <unitdate type="inclusive" normal="2003">2003</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 envelopes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [078109480775973454]">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2004">2004</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [228911312148781284324397]">4</container>
+            <unitdate type="inclusive" normal="2004">2004</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 envelopes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [078109480775973454]">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="2005">2005</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [228911312148781284324397]">4</container>
+            <unitdate type="inclusive" normal="2005">2005</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 envelopes</extent>
             </physdesc>
           </did>
@@ -1171,9 +950,8 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [078109480775973454]">4</container>
-            <unittitle>Mill's Pharmacy Candy Counter <unitdate type="inclusive" normal="1955/1956">1955-1956</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [228911312148781284324397]">4</container>
+            <unittitle>Mill's Pharmacy Candy Counter</unittitle><unitdate type="inclusive" normal="1955/1956">1955-1956</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -1181,153 +959,144 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
-              <unittitle>Allen R. Rasch Family Christmas <unitdate type="inclusive" normal="1937">1937</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [1613456578489165]">5</container>
+              <unittitle>Allen R. Rasch Family Christmas</unittitle><unitdate type="inclusive" normal="1937">1937</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Birmingham</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Birmingham (color)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Charles A. Rasch Bus Station Photo</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
-              <unittitle>Detroit <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [1613456578489165]">5</container>
+              <unittitle>Detroit</unittitle><unitdate type="inclusive" normal="1953">1953</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Large Size Negatives</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
-              <unittitle>Neighborhood Views <unitdate type="inclusive" normal="1953">1953</unitdate>, <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [1613456578489165]">5</container>
+              <unittitle>Neighborhood Views</unittitle><unitdate type="inclusive" normal="1953">1953</unitdate><unitdate type="inclusive" normal="1983">1983</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Standard and Small Size Negatives</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1953">1953</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1953">1953</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Algonac</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Along the Road</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Anchor Bay Area</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Canada</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Harsen's Island</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Marine City</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>New Baltimore</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Port Huron</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>River Boat</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>St. Clair</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>St. Clair Flats</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1954">1954</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1954">1954</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Algonac</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Along the Road</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Anchor Bay</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Birmingham and Area</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 envelopes</extent>
@@ -1336,68 +1105,65 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Birmingham and Area (color)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Christmas</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Detroit and Area</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Harsen's Island</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Marine City</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>River Boat</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>St. Clair</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Miscellaneous</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1955">1955</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1955">1955</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Along the Road</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Birmingham and Area</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 envelopes</extent>
@@ -1406,7 +1172,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Birmingham High School Washington Trip</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 envelopes</extent>
@@ -1415,99 +1181,90 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Christmas</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>College Days</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Colored Photographs</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Detroit and Area</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Harsen' Island</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
-              <unittitle>Senior Skip Day -- Camp Ohiyesa Fish Lake (Holly, MI) <unitdate type="inclusive" normal="1955-07-06">July 6, 1955</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [1613456578489165]">5</container>
+              <unittitle>Senior Skip Day -- Camp Ohiyesa Fish Lake (Holly, MI)</unittitle><unitdate type="inclusive" normal="1955-07-06">July 6, 1955</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
-              <unittitle>Sue Allen's Party -- Fenton Lake <unitdate type="inclusive" normal="1955-07-17">July 17, 1955</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [1613456578489165]">5</container>
+              <unittitle>Sue Allen's Party -- Fenton Lake</unittitle><unitdate type="inclusive" normal="1955-07-17">July 17, 1955</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1956">1956</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1956">1956</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Along the Road</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Birmingham and Area</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>College Days</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Detroit and Area</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Harsen's Island</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
-              <unittitle>Railroad Excursion (Greenville, MI) <unitdate type="inclusive" normal="1956-09">September 1956</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [1613456578489165]">5</container>
+              <unittitle>Railroad Excursion (Greenville, MI)</unittitle><unitdate type="inclusive" normal="1956-09">September 1956</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1957">1957</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1957">1957</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Along the Road</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 envelopes</extent>
@@ -1516,110 +1273,106 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Birmingham and Area (Color and Black and White)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Birmingham and Area</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>College Days (color)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>College Days</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Detroit and Area</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>End of the Semester</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Harsen's Island</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
-              <unittitle>Railroad Excursion (Stratford Ontario) <unitdate type="inclusive" normal="1957-09">September 1957</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [1613456578489165]">5</container>
+              <unittitle>Railroad Excursion (Stratford Ontario)</unittitle><unitdate type="inclusive" normal="1957-09">September 1957</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Trip to New Hampshire and Dartmouth College</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Trip to New Hampshire and Dartmouth College (color)</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1958">1958</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1958">1958</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Along the Road</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Birmingham and Area</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Chicago</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>College Days</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Color Negatives</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Harsen's Island</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Merrill Palmer Camp</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -1628,7 +1381,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Railroad Excursion (Pigeon, MI)</unittitle>
             </did>
           </c03>
@@ -1638,13 +1391,13 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [349834404842411900172]">5</container>
+                <container type="box" label="Box [1613456578489165]">5</container>
                 <unittitle>College Days</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [349834404842411900172]">5</container>
+                <container type="box" label="Box [1613456578489165]">5</container>
                 <unittitle>Along the Road</unittitle>
               </did>
             </c04>
@@ -1652,461 +1405,412 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1959">1959</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1959">1959</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Along the Road</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Birmingham and Area</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>College Days</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Harsen's Island</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Merrill Palmer Camp</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Small photograph negatives</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Term Paper House Negatives</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>The Three Graces at Home (Ann Arbor)</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1960">1960</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1960">1960</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Along the Road</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Birmingham and Area</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>College Days</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Colored Photograph Negatives</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Harsens Island</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Gravestones</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1961">1961</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1961">1961</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Along the Road</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Birmingham and Area</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Harsen's Island</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1964">1964</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1964">1964</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Along the Road</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Ann Arbor</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Birmingham and Area</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Black and White Small Negatives</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Harsen's Island</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [349834404842411900172]">5</container>
+              <container type="box" label="Box [1613456578489165]">5</container>
               <unittitle>Ragtime Charlie and Sister Kate</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1965">1965</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1965">1965</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
+              <container type="box" label="Box [83992649797059594267981]">6</container>
               <unittitle>Along the Road</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
+              <container type="box" label="Box [83992649797059594267981]">6</container>
               <unittitle>Ann Arbor</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
+              <container type="box" label="Box [83992649797059594267981]">6</container>
               <unittitle>Birmingham and Area</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
+              <container type="box" label="Box [83992649797059594267981]">6</container>
               <unittitle>Harsen's Island</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1966">1966</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1966">1966</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
+              <container type="box" label="Box [83992649797059594267981]">6</container>
               <unittitle>Along the Road</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
+              <container type="box" label="Box [83992649797059594267981]">6</container>
               <unittitle>Ann Arbor</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
+              <container type="box" label="Box [83992649797059594267981]">6</container>
               <unittitle>Birmingham and Area</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
+              <container type="box" label="Box [83992649797059594267981]">6</container>
               <unittitle>Harsen's Island</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1967">1967</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1967">1967</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
+              <container type="box" label="Box [83992649797059594267981]">6</container>
               <unittitle>Along the Road</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
+              <container type="box" label="Box [83992649797059594267981]">6</container>
               <unittitle>Ann Arbor</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
+              <container type="box" label="Box [83992649797059594267981]">6</container>
               <unittitle>Birmingham and Area</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
+              <container type="box" label="Box [83992649797059594267981]">6</container>
               <unittitle>Harsen's Island</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
-              <unittitle>Panorama of Harsen's Island <unitdate type="inclusive" normal="1967-10-12">October 12, 1967</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [83992649797059594267981]">6</container>
+              <unittitle>Panorama of Harsen's Is</unittitle><unitdate type="inclusive" normal="1967-10-12">October 12, 1967</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1968">1968</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1968">1968</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
+              <container type="box" label="Box [83992649797059594267981]">6</container>
               <unittitle>4th of July</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
+              <container type="box" label="Box [83992649797059594267981]">6</container>
               <unittitle>10 Years Later</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
+              <container type="box" label="Box [83992649797059594267981]">6</container>
               <unittitle>Along the Road</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
+              <container type="box" label="Box [83992649797059594267981]">6</container>
               <unittitle>Ann Arbor</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
+              <container type="box" label="Box [83992649797059594267981]">6</container>
               <unittitle>Ann Arbor (People)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
+              <container type="box" label="Box [83992649797059594267981]">6</container>
               <unittitle>Birmingham and Area</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
+              <container type="box" label="Box [83992649797059594267981]">6</container>
               <unittitle>Harsen's Island</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
-              <unittitle>Joe and Sandie Knollenberg's Party <unitdate type="inclusive" normal="1968-07">July 1968</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [83992649797059594267981]">6</container>
+              <unittitle>Joe and Sandie Knollenberg's Party</unittitle><unitdate type="inclusive" normal="1968-07">July 1968</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
+              <container type="box" label="Box [83992649797059594267981]">6</container>
               <unittitle>Labor Day Weekend (Bay City)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
-              <unittitle>Visit with Wilbur and Loretta Jacobs (Torch Lake) <unitdate type="inclusive" normal="1968-08">August 1968</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [83992649797059594267981]">6</container>
+              <unittitle>Visit with Wilbur and Loretta Jacobs (Torch Lake)</unittitle><unitdate type="inclusive" normal="1968-08">August 1968</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1973/1989">1973-1989</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1973/1989">1973-1989</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
-              <unittitle>Along the Road and River <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [83992649797059594267981]">6</container>
+              <unittitle>Along the Road and River</unittitle><unitdate type="inclusive" normal="1973">1973</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Old Bridges <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
-            </did>
+              <unittitle>Old Bridges</unittitle><unitdate type="inclusive" normal="1976">1976</unitdate></did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [33307674569037996739]">6</container>
+                <container type="box" label="Box [83992649797059594267981]">6</container>
                 <unittitle>Belle River</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [33307674569037996739]">6</container>
+                <container type="box" label="Box [83992649797059594267981]">6</container>
                 <unittitle>Huron River</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [33307674569037996739]">6</container>
+                <container type="box" label="Box [83992649797059594267981]">6</container>
                 <unittitle>Saline River</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [33307674569037996739]">6</container>
+                <container type="box" label="Box [83992649797059594267981]">6</container>
                 <unittitle>River Raisin</unittitle>
               </did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
-              <unittitle>Hester's Cabin <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [83992649797059594267981]">6</container>
+              <unittitle>Hester's Cabin</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
-              <unittitle>Huron River Camping Trip and New Huron Street Bridge <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [83992649797059594267981]">6</container>
+              <unittitle>Huron River Camping Trip and New Huron Street Bridge</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
-              <unittitle>Rouge River, Linden Park, Birmingham and Camp Boxes <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [83992649797059594267981]">6</container>
+              <unittitle>Rouge River, Linden Park, Birmingham and Camp Boxes</unittitle><unitdate type="inclusive" normal="1978">1978</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
-              <unittitle>Hester's Cabin and Huron River <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [83992649797059594267981]">6</container>
+              <unittitle>Hester's Cabin and Huron River</unittitle><unitdate type="inclusive" normal="1979">1979</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1983">1983</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [83992649797059594267981]">6</container>
+              <unitdate type="inclusive" normal="1983">1983</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1984">1984</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [83992649797059594267981]">6</container>
+              <unitdate type="inclusive" normal="1984">1984</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
-              <unittitle>Bray's Cabin <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [83992649797059594267981]">6</container>
+              <unittitle>Bray's Cabin</unittitle><unitdate type="inclusive" normal="1985">1985</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
-              <unittitle>Miscellaneous <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [83992649797059594267981]">6</container>
+              <unittitle>Miscellaneous</unittitle><unitdate type="inclusive" normal="1988">1988</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 envelopes</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
-              <unittitle>Bald Mountain and Island Lake State Recreation Areas <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [83992649797059594267981]">6</container>
+              <unittitle>Bald Mountain and Island Lake State Recreation Areas</unittitle><unitdate type="inclusive" normal="1988">1988</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
-              <unittitle>Views of Garden (7) <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [83992649797059594267981]">6</container>
+              <unittitle>Views of Garden (7)</unittitle><unitdate type="inclusive" normal="1989">1989</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
-              <unittitle>Bald Mountain State Recreation Area <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [83992649797059594267981]">6</container>
+              <unittitle>Bald Mountain State Recreation Area</unittitle><unitdate type="inclusive" normal="1989">1989</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
-              <unittitle>My Wildflower Garden <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [83992649797059594267981]">6</container>
+              <unittitle>My Wildflower Garden</unittitle><unitdate type="inclusive" normal="1989">1989</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
-              <unittitle>Trout Lake and Miscellaneous <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [83992649797059594267981]">6</container>
+              <unittitle>Trout Lake and Miscellaneous</unittitle><unitdate type="inclusive" normal="1989">1989</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">4 envelopes</extent>
               </physdesc>
             </did>
@@ -2114,182 +1818,131 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1990/2005">1990-2005</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1990/2005">1990-2005</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1990">1990</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [83992649797059594267981]">6</container>
+              <unitdate type="inclusive" normal="1990">1990</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">11 envelopes</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1991">1991</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [83992649797059594267981]">6</container>
+              <unitdate type="inclusive" normal="1991">1991</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">13 envelopes</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1992">1992</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [83992649797059594267981]">6</container>
+              <unitdate type="inclusive" normal="1992">1992</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">14 envelopes</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1993">1993</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [83992649797059594267981]">6</container>
+              <unitdate type="inclusive" normal="1993">1993</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">17 envelopes</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1994">1994</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [83992649797059594267981]">6</container>
+              <unitdate type="inclusive" normal="1994">1994</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">16 envelopes</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1995">1995</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [83992649797059594267981]">6</container>
+              <unitdate type="inclusive" normal="1995">1995</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">10 envelopes</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1996">1996</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [83992649797059594267981]">6</container>
+              <unitdate type="inclusive" normal="1996">1996</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">10 envelopes</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1997">1997</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [83992649797059594267981]">6</container>
+              <unitdate type="inclusive" normal="1997">1997</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">13 envelopes</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1998">1998</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [83992649797059594267981]">6</container>
+              <unitdate type="inclusive" normal="1998">1998</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">8 envelopes</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1999">1999</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [83992649797059594267981]">6</container>
+              <unitdate type="inclusive" normal="1999">1999</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">12 envelopes</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="2000">2000</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [83992649797059594267981]">6</container>
+              <unitdate type="inclusive" normal="2000">2000</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">8 envelopes</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="2001">2001</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [83992649797059594267981]">6</container>
+              <unitdate type="inclusive" normal="2001">2001</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">8 envelopes</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="2002">2002</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [83992649797059594267981]">6</container>
+              <unitdate type="inclusive" normal="2002">2002</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">8 envelopes</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="2003">2003</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [83992649797059594267981]">6</container>
+              <unitdate type="inclusive" normal="2003">2003</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">12 envelopes</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="2004">2004</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [83992649797059594267981]">6</container>
+              <unitdate type="inclusive" normal="2004">2004</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">12 envelopes</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="2005">2005</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [83992649797059594267981]">6</container>
+              <unitdate type="inclusive" normal="2005">2005</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">14 envelopes</extent>
               </physdesc>
             </did>
@@ -2301,19 +1954,18 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
-              <unittitle>Tombstone Negatives <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [83992649797059594267981]">6</container>
+              <unittitle>Tombstone Negatives</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
+              <container type="box" label="Box [83992649797059594267981]">6</container>
               <unittitle>Harsen's Island Historical Photographs and Negatives</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
+              <container type="box" label="Box [83992649797059594267981]">6</container>
               <unittitle>Postcards</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 envelopes</extent>
@@ -2322,15 +1974,13 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
-              <unittitle>Sister Kate in her Flapper Costumes <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [83992649797059594267981]">6</container>
+              <unittitle>Sister Kate in her Flapper Costumes</unittitle><unitdate type="inclusive" normal="1971">1971</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [33307674569037996739]">6</container>
-              <unittitle>Mill's Pharmacy Candy Counter <unitdate type="inclusive" normal="1955/1956">1955-1956</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [83992649797059594267981]">6</container>
+              <unittitle>Mill's Pharmacy Candy Counter</unittitle><unitdate type="inclusive" normal="1955/1956">1955-1956</unitdate></did>
           </c03>
         </c02>
       </c01>

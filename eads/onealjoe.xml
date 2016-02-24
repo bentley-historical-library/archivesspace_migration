@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">O’Neal, Joe</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/3433">O’Neal, Joe</persname>
       </origination>
-      <unittitle encodinganalog="245">Joe O’Neal papers <unitdate type="inclusive" encodinganalog="245$f" normal="1912/1918">1912-1918</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="1969/1972">1969-1972</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009183 Aa 2</unitid>
+      <unittitle encodinganalog="245">Joe O’Neal papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1912/1918">1912-1918</unitdate><unitdate type="inclusive" encodinganalog="245$f" normal="1969/1972">1969-1972</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009183 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <physdesc altrender="whole">
         <extent altrender="materialtype spaceoccupied">1 linear feet</extent>
@@ -78,26 +78,26 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Dams--Michigan--Ann Arbor.</subject>
-        <geogname source="lcsh" encodinganalog="651">Huron River (Oakland County-Monroe County, Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600">O'Neal, Joe.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Power Center for the Performing Arts.</corpname>
-        <subject source="lcsh" encodinganalog="650">Theaters--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Buildings.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9606">Dams--Michigan--Ann Arbor.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/849">Huron River (Oakland County-Monroe County, Mich.)</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2741">O'Neal, Joe.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1169">Power Center for the Performing Arts.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8258">Theaters--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Buildings.<term type="topical">Buildings.</term></corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <subject source="lctgm" encodinganalog="650">Construction--Michigan--Ann Arbor.</subject>
-        <subject source="lctgm" encodinganalog="650">Dam construction--Michigan--Ann Arbor.</subject>
-        <geogname source="lcsh" encodinganalog="651">Huron River (Oakland County-Monroe County, Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600">O'Neal, Joe.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Power Center of the Performing Arts.</corpname>
-        <subject source="lctgm" encodinganalog="650">Theaters--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Buildings.</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3713">Construction--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5088">Dam construction--Michigan--Ann Arbor.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/849">Huron River (Oakland County-Monroe County, Mich.)</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2741">O'Neal, Joe.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/454">Power Center of the Performing Arts.</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4520">Theaters--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/1346">University of Michigan--Buildings.<term type="topical">Buildings.</term></corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -110,164 +110,162 @@
         </odd>
         <c02 level="file">
           <did>
-            <unittitle>Power Center for the Performing Arts <unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate></unittitle>
-          </did>
+            <unittitle>Power Center for the Performing Arts</unittitle><unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate></did>
           <odd>
             <p>(include some later publicity and retrospective articles)</p>
           </odd>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6850338420877076188270]">1</container>
+              <container type="box" label="Box [909587914998095520444796]">1</container>
               <unittitle>Project Sign (photograph)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6850338420877076188270]">1</container>
+              <container type="box" label="Box [909587914998095520444796]">1</container>
               <unittitle>Notification of Award to O'Neal Construction</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6850338420877076188270]">1</container>
+              <container type="box" label="Box [909587914998095520444796]">1</container>
               <unittitle>Site before Construction</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6850338420877076188270]">1</container>
+              <container type="box" label="Box [909587914998095520444796]">1</container>
               <unittitle>Dale Fisher Aerial Photographs-From Start to Finish</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6850338420877076188270]">1</container>
+              <container type="box" label="Box [909587914998095520444796]">1</container>
               <unittitle>Early Foundation Work-Stage Area</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6850338420877076188270]">1</container>
+              <container type="box" label="Box [909587914998095520444796]">1</container>
               <unittitle>Main Front Concrete Columns</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6850338420877076188270]">1</container>
+              <container type="box" label="Box [909587914998095520444796]">1</container>
               <unittitle>Proscenium Beam</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6850338420877076188270]">1</container>
+              <container type="box" label="Box [909587914998095520444796]">1</container>
               <unittitle>Structural Steel Erection</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6850338420877076188270]">1</container>
+              <container type="box" label="Box [909587914998095520444796]">1</container>
               <unittitle>Balthazar Korab Structural Steel Photographs</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6850338420877076188270]">1</container>
+              <container type="box" label="Box [909587914998095520444796]">1</container>
               <unittitle>Auditorium and Balcony</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6850338420877076188270]">1</container>
+              <container type="box" label="Box [909587914998095520444796]">1</container>
               <unittitle>Final Concrete Placement on Stage Tower</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6850338420877076188270]">1</container>
+              <container type="box" label="Box [909587914998095520444796]">1</container>
               <unittitle>Temporary Access to Stage Tower Wall Forming Equipment and Permanent Spiral Stairway to Access Fly Gallery At Top of Stage</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6850338420877076188270]">1</container>
+              <container type="box" label="Box [909587914998095520444796]">1</container>
               <unittitle>Concrete Spiral Stairs</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6850338420877076188270]">1</container>
+              <container type="box" label="Box [909587914998095520444796]">1</container>
               <unittitle>Plaster Sound Clouds at Ceiling of Auditorium</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6850338420877076188270]">1</container>
+              <container type="box" label="Box [909587914998095520444796]">1</container>
               <unittitle>Faces of the People That Built Power Center</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6850338420877076188270]">1</container>
+              <container type="box" label="Box [909587914998095520444796]">1</container>
               <unittitle>Miscellaneous Construction Photographs</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6850338420877076188270]">1</container>
+              <container type="box" label="Box [909587914998095520444796]">1</container>
               <unittitle>Grand Opening</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6850338420877076188270]">1</container>
+              <container type="box" label="Box [909587914998095520444796]">1</container>
               <unittitle>Exterior Photographs-Project Complete</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6850338420877076188270]">1</container>
+              <container type="box" label="Box [909587914998095520444796]">1</container>
               <unittitle>Miscellaneous Clippings</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6850338420877076188270]">1</container>
+              <container type="box" label="Box [909587914998095520444796]">1</container>
               <unittitle>"University Record" Articles</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6850338420877076188270]">1</container>
+              <container type="box" label="Box [909587914998095520444796]">1</container>
               <unittitle>Miscellaneous Publications</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6850338420877076188270]">1</container>
+              <container type="box" label="Box [909587914998095520444796]">1</container>
               <unittitle>Miscellaneous Documents</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6850338420877076188270]">1</container>
+              <container type="box" label="Box [909587914998095520444796]">1</container>
               <unittitle>O'Neal Construction; U.W. Stoll Marketing Pieces</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6850338420877076188270]">1</container>
+              <container type="box" label="Box [909587914998095520444796]">1</container>
               <unittitle>"Scaffolding Wasn't Part of the Set"</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6850338420877076188270]">1</container>
-              <unittitle>OSU Football Program <unitdate type="inclusive" normal="1972-11-25">November 25, 1972</unitdate> Labeling the Power Center for the Performing Arts as the Power Plant</unittitle>
-            </did>
+              <container type="box" label="Box [909587914998095520444796]">1</container>
+              <unittitle>OSU Football Program Labeling the Power Center for the Performing Arts as the Power Plant</unittitle><unitdate type="inclusive" normal="1972-11-25">November 25, 1972</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6850338420877076188270]">1</container>
+              <container type="box" label="Box [909587914998095520444796]">1</container>
               <unittitle>UM Acceptance of Power Center; Miscellaneous Communications</unittitle>
             </did>
           </c03>
@@ -278,99 +276,93 @@
           </did>
           <c03 level="file">
             <did>
-              <unittitle>Working files <unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate></unittitle>
-            </did>
+              <unittitle>Working files</unittitle><unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate></did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6850338420877076188270]">1</container>
+                <container type="box" label="Box [909587914998095520444796]">1</container>
                 <unittitle>Prior to Dam Project (1)</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6850338420877076188270]">1</container>
+                <container type="box" label="Box [909587914998095520444796]">1</container>
                 <unittitle>Barton Dam (2)</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6850338420877076188270]">1</container>
+                <container type="box" label="Box [909587914998095520444796]">1</container>
                 <unittitle>Argo Dam (3)</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6850338420877076188270]">1</container>
+                <container type="box" label="Box [909587914998095520444796]">1</container>
                 <unittitle>Geddes Dam (4)</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6850338420877076188270]">1</container>
+                <container type="box" label="Box [909587914998095520444796]">1</container>
                 <unittitle>Superior Dam (5)</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6850338420877076188270]">1</container>
+                <container type="box" label="Box [909587914998095520444796]">1</container>
                 <unittitle>Photos Taken at Time Project was Bid -- Before any Construction (6)</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6850338420877076188270]">1</container>
+                <container type="box" label="Box [909587914998095520444796]">1</container>
                 <unittitle>Dedication (7)</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6850338420877076188270]">1</container>
+                <container type="box" label="Box [909587914998095520444796]">1</container>
                 <unittitle>Progress Reports (8)</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6850338420877076188270]">1</container>
+                <container type="box" label="Box [909587914998095520444796]">1</container>
                 <unittitle>Newspaper Articles (9)</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6850338420877076188270]">1</container>
+                <container type="box" label="Box [909587914998095520444796]">1</container>
                 <unittitle>Gallup Park (10)</unittitle>
               </did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Original maps and plans <unitdate type="inclusive" normal="1912/1918">1912-1918</unitdate></unittitle>
-              <physdesc>
+              <unittitle>Original maps and plans</unittitle><unitdate type="inclusive" normal="1912/1918">1912-1918</unitdate><physdesc>
                 <physfacet>photocopies</physfacet>
               </physdesc>
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [38473149397236767]">2</container>
-                <unittitle>Map of the Argo Power Plant of the Eastern Michigan Edison Co. prepared by Gardner S. Williams, consulting engineer <unitdate type="inclusive" normal="1912">1912</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [54155408176122239]">2</container>
+                <unittitle>Map of the Argo Power Plant of the Eastern Michigan Edison Co. prepared by Gardner S. Williams, consulting engineer</unittitle><unitdate type="inclusive" normal="1912">1912</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [38473149397236767]">2</container>
-                <unittitle>Plans for the Barton Plant of the Huron River Development designed for the Eastern Michigan Edison Company by Gardner S. Williams, consulting engineer <unitdate type="inclusive" normal="1912">1912</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [54155408176122239]">2</container>
+                <unittitle>Plans for the Barton Plant of the Huron River Development designed for the Eastern Michigan Edison Company by Gardner S. Williams, consulting engineer</unittitle><unitdate type="inclusive" normal="1912">1912</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [38473149397236767]">2</container>
-                <unittitle>Plans for the Geddes Plant of the Huron River Development designed for the Detroit Edison Company by Gardner S. Williams, consulting engineer <unitdate type="inclusive" normal="1917">1917</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [54155408176122239]">2</container>
+                <unittitle>Plans for the Geddes Plant of the Huron River Development designed for the Detroit Edison Company by Gardner S. Williams, consulting engineer</unittitle><unitdate type="inclusive" normal="1917">1917</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [38473149397236767]">2</container>
-                <unittitle>Plans for the Superior Plant of the Huron River Development designed for the Detroit Edison Company by Gardner S. Williams, consulting engineer <unitdate type="inclusive" normal="1918">1918</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [54155408176122239]">2</container>
+                <unittitle>Plans for the Superior Plant of the Huron River Development designed for the Detroit Edison Company by Gardner S. Williams, consulting engineer</unittitle><unitdate type="inclusive" normal="1918">1918</unitdate></did>
             </c04>
           </c03>
         </c02>

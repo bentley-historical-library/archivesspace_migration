@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,10 +43,9 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Fox, George R., 1880-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/7914">Fox, George R., 1880-</persname>
       </origination>
-      <unittitle encodinganalog="245">George R. Fox papers <unitdate type="inclusive" encodinganalog="245$f" normal="1915/1973">1915-1973</unitdate>, <unitdate type="inclusive" encodinganalog="245$f">undated</unitdate></unittitle>
-      <abstract>George R. Fox was an amateur Michigan archaeologist and author. His papers include writings about Cass County, Michigan, manuscripts related to archaeology and history, a small amount of correspondence, and photographs.</abstract>
+      <unittitle encodinganalog="245">George R. Fox papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1915/1973">1915-1973</unitdate><unitdate type="inclusive" encodinganalog="245$f">undated</unitdate><abstract>George R. Fox was an amateur Michigan archaeologist and author. His papers include writings about Cass County, Michigan, manuscripts related to archaeology and history, a small amount of correspondence, and photographs.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">0383 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <note>
@@ -88,324 +88,279 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Fox, George R., 1880-</persname>
-        <subject source="lcsh" encodinganalog="650">Archaeology.</subject>
-        <geogname source="lcsh" encodinganalog="651">Cass County (Mich.)--History.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Antiquities.</geogname>
-        <subject source="lcsh" encodinganalog="650">Mounds--Wisconsin.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/7914">Fox, George R., 1880-</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6611">Archaeology.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1871">Cass County (Mich.)--History.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1872">Michigan--Antiquities.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7838">Mounds--Wisconsin.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Fox, George R., 1880-</persname>
-        <subject source="lctgm" encodinganalog="650">Archaeology.</subject>
-        <geogname source="lcsh" encodinganalog="651">Mexico.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Antiquities.</geogname>
-        <subject source="lctgm" encodinganalog="650">Mounds (Burials)--Wisconsin.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/7914">Fox, George R., 1880-</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3924">Archaeology.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/974">Mexico.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1872">Michigan--Antiquities.</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4336">Mounds (Burials)--Wisconsin.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Cass County <unitdate type="inclusive" normal="1941/1973">1941-1973</unitdate></unittitle>
-        </did>
+          <unittitle>Cass County</unittitle><unitdate type="inclusive" normal="1941/1973">1941-1973</unitdate></did>
         <scopecontent>
           <p>The Cass County series, 1941-1973 and undated (0.5 linear feet), contains notes and manuscripts Fox wrote on various topics related to Cass County history and archaeology. The "Cass County Archaeology" folders are the largest in the series, and include maps, drawings, and correspondence, in addition to Fox's writing. The "Cass County Historical Society" folder includes meeting minutes (some added after Fox's death by the holder of the papers) as well as a brief historical sketch of the society.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [006599859459509345515]">1</container>
-            <unittitle>"A Man" (biography of Chief Leopold Pokagon) <unitdate type="inclusive" normal="1950" certainty="approximate">circa 1950</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [54961524971960719893208]">1</container>
+            <unittitle>"A Man" (biography of Chief Leopold Pokagon)</unittitle><unitdate type="inclusive" normal="1950" certainty="approximate">circa 1950</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [006599859459509345515]">1</container>
-            <unittitle>"An Audit of the Scenic Historical and Recreational Facilities of Cass County and Dowagiac, Michigan," <unitdate type="inclusive" normal="1941">1941</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [54961524971960719893208]">1</container>
+            <unittitle>"An Audit of the Scenic Historical and Recreational Facilities of Cass County and Dowagiac, Michigan,"</unittitle><unitdate type="inclusive" normal="1941">1941</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [006599859459509345515]">1</container>
-            <unittitle>Cass County Archaeology <unitdate type="inclusive" normal="1954/1955" certainty="approximate">circa 1954-1955</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [54961524971960719893208]">1</container>
+            <unittitle>Cass County Archaeology</unittitle><unitdate type="inclusive" normal="1954/1955" certainty="approximate">circa 1954-1955</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [006599859459509345515]">1</container>
-            <unittitle>"Cass County Courthouse," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [54961524971960719893208]">1</container>
+            <unittitle>"Cass County Courthouse,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [006599859459509345515]">1</container>
-            <unittitle>Cass County Historical Society <unitdate type="inclusive" normal="1954/1973">1954-1973</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [54961524971960719893208]">1</container>
+            <unittitle>Cass County Historical Society</unittitle><unitdate type="inclusive" normal="1954/1973">1954-1973</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [006599859459509345515]">1</container>
-            <unittitle>"Exploring," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [54961524971960719893208]">1</container>
+            <unittitle>"Exploring,"</unittitle><unitdate>undated</unitdate></did>
           <odd>
             <p>(includes photos)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [006599859459509345515]">1</container>
-            <unittitle>"Indians in Cass County," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [54961524971960719893208]">1</container>
+            <unittitle>"Indians in Cass County,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [006599859459509345515]">1</container>
-            <unittitle>Manuscript on Ladies Library Association of Dowagiac <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [54961524971960719893208]">1</container>
+            <unittitle>Manuscript on Ladies Library Association of Dowagiac</unittitle><unitdate type="inclusive" normal="1950">1950</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [006599859459509345515]">1</container>
-            <unittitle>"Post Offices of Cass County," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [54961524971960719893208]">1</container>
+            <unittitle>"Post Offices of Cass County,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [006599859459509345515]">1</container>
-            <unittitle>"Resorts in Cass County," <unitdate type="inclusive" normal="1950" certainty="approximate">circa 1950</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [54961524971960719893208]">1</container>
+            <unittitle>"Resorts in Cass County,"</unittitle><unitdate type="inclusive" normal="1950" certainty="approximate">circa 1950</unitdate></did>
           <odd>
             <p>(includes photos)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [006599859459509345515]">1</container>
-            <unittitle>"The Lost Grave" (re: location of Chief Leopold Pokagon's grave) <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [54961524971960719893208]">1</container>
+            <unittitle>"The Lost Grave" (re: location of Chief Leopold Pokagon's grave)</unittitle><unitdate>undated</unitdate></did>
           <odd>
             <p>(includes photo)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [006599859459509345515]">1</container>
-            <unittitle>"The Magic That Is Cass County," <unitdate type="inclusive" normal="1958" certainty="approximate">circa 1958</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [54961524971960719893208]">1</container>
+            <unittitle>"The Magic That Is Cass County,"</unittitle><unitdate type="inclusive" normal="1958" certainty="approximate">circa 1958</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [006599859459509345515]">1</container>
-            <unittitle>"The Postal System in Cass County," <unitdate type="inclusive" normal="1954" certainty="approximate">circa 1954</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [54961524971960719893208]">1</container>
+            <unittitle>"The Postal System in Cass County,"</unittitle><unitdate type="inclusive" normal="1954" certainty="approximate">circa 1954</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [006599859459509345515]">1</container>
-            <unittitle>"Too Much Water," <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [54961524971960719893208]">1</container>
+            <unittitle>"Too Much Water,"</unittitle><unitdate type="inclusive" normal="1954">1954</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Archaeology and History Manuscripts <unitdate type="inclusive">undated</unitdate>, <unitdate type="inclusive" normal="1928/1955">1928-1955</unitdate></unittitle>
-        </did>
+          <unittitle>Archaeology and History Manuscripts</unittitle><unitdate type="inclusive">undated</unitdate><unitdate type="inclusive" normal="1928/1955">1928-1955</unitdate></did>
         <scopecontent>
           <p>The Archaeology and History Manuscripts series, 1928-1955 and undated (0.5 linear feet), contains a number of manuscripts Fox wrote on various topics related to archaeology and Michigan history (other than Cass County). Several concern the Griffin, a European ship that was lost on the Great Lakes in 1679.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [006599859459509345515]">1</container>
-            <unittitle>"A New American Wonderland" (re: Berrien County, Michigan) <unitdate>undated</unitdate> (includes photos)</unittitle>
-          </did>
+            <container type="box" label="Box [54961524971960719893208]">1</container>
+            <unittitle>"A New American Wonderland" (re: Berrien County, Michigan) (includes photos)</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [006599859459509345515]">1</container>
-            <unittitle>American Archaeology <unitdate type="inclusive" normal="1930/1939" certainty="approximate">1930s</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [54961524971960719893208]">1</container>
+            <unittitle>American Archaeology</unittitle><unitdate type="inclusive" normal="1930/1939" certainty="approximate">1930s</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [006599859459509345515]">1</container>
-            <unittitle>"Archaeological Work on La Cloche Island," <unitdate type="inclusive" normal="1930">1930</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [54961524971960719893208]">1</container>
+            <unittitle>"Archaeological Work on La Cloche Island,"</unittitle><unitdate type="inclusive" normal="1930">1930</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [006599859459509345515]">1</container>
-            <unittitle>"Discovery of a Skull in Jack County," <unitdate type="inclusive" normal="1938" certainty="approximate">circa 1938</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [54961524971960719893208]">1</container>
+            <unittitle>"Discovery of a Skull in Jack County,"</unittitle><unitdate type="inclusive" normal="1938" certainty="approximate">circa 1938</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [006599859459509345515]">1</container>
-            <unittitle>"Have the Remains of the <title render="italic">Griffin</title> Been Found?," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [54961524971960719893208]">1</container>
+            <unittitle>"Have the Remains of the <title render="italic">Griffin</title> Been Found?,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [006599859459509345515]">1</container>
-            <unittitle>"La Salle's Ship, the <title render="italic">Griffin</title> and Its Pilot," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [54961524971960719893208]">1</container>
+            <unittitle>"La Salle's Ship, the <title render="italic">Griffin</title> and Its Pilot,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [006599859459509345515]">1</container>
-            <unittitle>"Mammoth and Mastodon Remains in Berrien County," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [54961524971960719893208]">1</container>
+            <unittitle>"Mammoth and Mastodon Remains in Berrien County,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [006599859459509345515]">1</container>
-            <unittitle>Manuscript on Isle Royale Archaeology <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [54961524971960719893208]">1</container>
+            <unittitle>Manuscript on Isle Royale Archaeology</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [006599859459509345515]">1</container>
-            <unittitle>Manuscript on James J. Strang <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [54961524971960719893208]">1</container>
+            <unittitle>Manuscript on James J. Strang</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [006599859459509345515]">1</container>
-            <unittitle>"Michigan's First Man," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [54961524971960719893208]">1</container>
+            <unittitle>"Michigan's First Man,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [006599859459509345515]">1</container>
-            <unittitle>"The First Great American Mystery," <unitdate type="inclusive" normal="1955" certainty="approximate">circa 1955</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [54961524971960719893208]">1</container>
+            <unittitle>"The First Great American Mystery,"</unittitle><unitdate type="inclusive" normal="1955" certainty="approximate">circa 1955</unitdate></did>
           <odd>
             <p>(includes photos)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [006599859459509345515]">1</container>
-            <unittitle>"The Gulch Excavation" (Texas) <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [54961524971960719893208]">1</container>
+            <unittitle>"The Gulch Excavation" (Texas)</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [006599859459509345515]">1</container>
-            <unittitle>"The March That Began Chicago," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [54961524971960719893208]">1</container>
+            <unittitle>"The March That Began Chicago,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [006599859459509345515]">1</container>
-            <unittitle>"The Mystery of the Effigy," <unitdate type="inclusive" normal="1928">1928</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [54961524971960719893208]">1</container>
+            <unittitle>"The Mystery of the Effigy,"</unittitle><unitdate type="inclusive" normal="1928">1928</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [006599859459509345515]">1</container>
-            <unittitle>"The Mystery of the <title render="italic">Griffin</title>," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [54961524971960719893208]">1</container>
+            <unittitle>"The Mystery of the <title render="italic">Griffin</title>,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [006599859459509345515]">1</container>
-            <unittitle>"The Recession Area of Southern Michigan," <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [54961524971960719893208]">1</container>
+            <unittitle>"The Recession Area of Southern Michigan,"</unittitle><unitdate>undated</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Correspondence <unitdate type="inclusive" normal="1915/1962">1915-1962</unitdate></unittitle>
-        </did>
+          <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1915/1962">1915-1962</unitdate></did>
         <scopecontent>
           <p>The Correspondence series, 1915-1962 (5 folders), contains a small number of letters written by and to Fox. While its subjects include archaeology and publishing, the actual content is quite brief and sparse.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [006599859459509345515]">1</container>
-            <unittitle>Allen, Durward <unitdate type="inclusive" normal="1951/1954">1951-1954</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [54961524971960719893208]">1</container>
+            <unittitle>Allen, Durward</unittitle><unitdate type="inclusive" normal="1951/1954">1951-1954</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [006599859459509345515]">1</container>
-            <unittitle>Archaeology <unitdate type="inclusive" normal="1952/1959">1952-1959</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [54961524971960719893208]">1</container>
+            <unittitle>Archaeology</unittitle><unitdate type="inclusive" normal="1952/1959">1952-1959</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [006599859459509345515]">1</container>
-            <unittitle>Fiction and Publishers <unitdate type="inclusive" normal="1915/1941">1915-1941</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [54961524971960719893208]">1</container>
+            <unittitle>Fiction and Publishers</unittitle><unitdate type="inclusive" normal="1915/1941">1915-1941</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [006599859459509345515]">1</container>
-            <unittitle>Mexico and Revillagigedo Islands <unitdate type="inclusive" normal="1923/1926">1923-1926</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [54961524971960719893208]">1</container>
+            <unittitle>Mexico and Revillagigedo Islands</unittitle><unitdate type="inclusive" normal="1923/1926">1923-1926</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [006599859459509345515]">1</container>
-            <unittitle>Miscellaneous <unitdate type="inclusive" normal="1929/1962">1929-1962</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [54961524971960719893208]">1</container>
+            <unittitle>Miscellaneous</unittitle><unitdate type="inclusive" normal="1929/1962">1929-1962</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <container type="box" label="Box [7463601443944551517061]">2</container>
-          <unittitle><genreform normal="Photographs">Photographs</genreform>, <unitdate type="inclusive" normal="1925/1928">1925-1928</unitdate></unittitle>
-        </did>
+          <container type="box" label="Box [120884371401]">2</container>
+          <unittitle><genreform normal="Photographs">Photographs</genreform></unittitle><unitdate type="inclusive" normal="1925/1928">1925-1928</unitdate></did>
         <scopecontent>
           <p>The Photographs series, 1925-1928 and undated (0.5 linear feet), includes photographs of archaeological sites and artifacts, personal photographs of Fox and members of his family, and a photo album related to the Wisconsin Effigy Mounds. Most of the photos are unidentified as to subject and date.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7463601443944551517061]">2</container>
-            <unittitle>Archaeology <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [120884371401]">2</container>
+            <unittitle>Archaeology</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7463601443944551517061]">2</container>
-            <unittitle>Mexico <unitdate type="inclusive" normal="1925">1925</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [120884371401]">2</container>
+            <unittitle>Mexico</unittitle><unitdate type="inclusive" normal="1925">1925</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7463601443944551517061]">2</container>
-            <unittitle>Personal <unitdate>undated</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [120884371401]">2</container>
+            <unittitle>Personal</unittitle><unitdate>undated</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7463601443944551517061]">2</container>
-            <unittitle>Summerville Mound <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [120884371401]">2</container>
+            <unittitle>Summerville Mound</unittitle><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7463601443944551517061]">2</container>
-            <unittitle>Wisconsin Effigy Mounds <unitdate type="inclusive" normal="1928">1928</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [120884371401]">2</container>
+            <unittitle>Wisconsin Effigy Mounds</unittitle><unitdate type="inclusive" normal="1928">1928</unitdate></did>
           <odd>
             <p>(photo album)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7463601443944551517061]">2</container>
-            <unittitle>Miscellaneous <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [120884371401]">2</container>
+            <unittitle>Miscellaneous</unittitle><unitdate>undated</unitdate></did>
         </c02>
       </c01>
     </dsc>

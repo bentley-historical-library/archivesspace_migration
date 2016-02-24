@@ -28,7 +28,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,10 +40,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Riordan, C. E.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/7176">Riordan, C. E.</persname>
       </origination>
-      <unittitle encodinganalog="245">C. E. Riordan Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1919">1919</unitdate></unittitle>
-      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">07125 Aa 1</unitid>
+      <unittitle encodinganalog="245">C. E. Riordan Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1919">1919</unitdate><unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">07125 Aa 1</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Papers of a soldier in the Allied intervention in Russia, 1918-1920, the "Polar Bear Expedition."</abstract>
       <physdesc altrender="whole">
@@ -79,11 +79,11 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname encodinganalog="600" source="lcnaf">Riordan, C. E.</persname>
-        <geogname encodinganalog="651" source="lcsh">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <corpname encodinganalog="610" source="lcnaf">United States. Army. Judge Advocate General's Dept.</corpname>
-        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
-        <subject source="local" encodinganalog="690">Polar Bear Expedition.</subject>
+        <persname encodinganalog="600" source="lcnaf" ref="/agents/people/7176">Riordan, C. E.</persname>
+        <geogname encodinganalog="651" source="lcsh" ref="/subjects/879">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/4897">United States. Army. Judge Advocate General's Dept.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5715">World War, 1914-1918.</subject>
+        <subject source="local" encodinganalog="690" ref="/subjects/3516">Polar Bear Expedition.</subject>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -93,12 +93,12 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [1511442427809234]">1</container>
+            <container type="folder" label="Folder [6008450282447139950064]">1</container>
             <unittitle>Correspondence</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 items</extent>
             </physdesc>
-            <dao href="riordan0001" show="new" actuate="onRequest">
+            <dao href="riordan0001" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/15306">
               <daodesc>
                 <p>[view items]</p>
               </daodesc>

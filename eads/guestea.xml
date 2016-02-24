@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,10 +39,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n86137853">Guest, Edgar A. (Edgar Albert), 1881-1959.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n86137853" ref="/agents/people/6177">Guest, Edgar A. (Edgar Albert), 1881-1959.</persname>
       </origination>
-      <unittitle encodinganalog="245">Edgar A. Guest Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1898/1950">1898-1950</unitdate></unittitle>
-      <abstract>Special writer for the Detroit Free Press, poet, and lyricist. Scrapbooks containing copies of poetry published in newspapers, manuscripts of radio talks, fan mail, newspaper clippings of poems, greeting cards containing Guest verses, and miscellanea.</abstract>
+      <unittitle encodinganalog="245">Edgar A. Guest Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1898/1950">1898-1950</unitdate><abstract>Special writer for the Detroit Free Press, poet, and lyricist. Scrapbooks containing copies of poetry published in newspapers, manuscripts of radio talks, fan mail, newspaper clippings of poems, greeting cards containing Guest verses, and miscellanea.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">851393 Aa 2; UAs; Ac</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="part">
@@ -85,12 +85,12 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Authors, American--Michigan--Detroit.</subject>
-        <subject source="lcsh" encodinganalog="611">Detroit Free Press.</subject>
-        <persname authfilenumber="http://id.loc.gov/authorities/names/n86137853" source="lcnaf">Guest, Edgar A. (Edgar Albert), 1881-1959.</persname>
-        <subject source="lcsh" encodinganalog="650">Poets--Michigan--Detroit.</subject>
-        <subject source="lcsh" encodinganalog="650">Music--Michigan--Detroit.</subject>
-        <subject source="lcsh" encodinganalog="650">Poetry.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8082">Authors, American--Michigan--Detroit.</subject>
+        <subject source="lcsh" encodinganalog="611" ref="/subjects/5911">Detroit Free Press.</subject>
+        <persname authfilenumber="http://id.loc.gov/authorities/names/n86137853" source="lcnaf" ref="/agents/people/6177">Guest, Edgar A. (Edgar Albert), 1881-1959.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8083">Poets--Michigan--Detroit.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7050">Music--Michigan--Detroit.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5896">Poetry.</subject>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -100,7 +100,7 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [65493517477480644061]">1</container>
+            <container type="box" label="Box [31582759843874691756705]">1</container>
             <unittitle>Clippings about EAG</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -112,7 +112,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [65493517477480644061]">1</container>
+            <container type="box" label="Box [31582759843874691756705]">1</container>
             <unittitle>Texts of talks given over the radio</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -121,7 +121,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [65493517477480644061]">1</container>
+            <container type="box" label="Box [31582759843874691756705]">1</container>
             <unittitle>Congratulatory telegrams received in response to radio talk</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
@@ -130,13 +130,13 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [65493517477480644061]">1</container>
+            <container type="box" label="Box [31582759843874691756705]">1</container>
             <unittitle>Book covers to EAG books</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [65493517477480644061]">1</container>
+            <container type="box" label="Box [31582759843874691756705]">1</container>
             <unittitle>Edited galley proofs to poetry appearing in newspaper</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">8 folders</extent>
@@ -145,7 +145,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [65493517477480644061]">1</container>
+            <container type="box" label="Box [31582759843874691756705]">1</container>
             <unittitle>Greeting cards containing EAG poetry</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
@@ -154,7 +154,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [65493517477480644061]">1</container>
+            <container type="box" label="Box [31582759843874691756705]">1</container>
             <unittitle>Miscellaneous printed poems</unittitle>
           </did>
           <odd>
@@ -163,7 +163,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [65493517477480644061]">1</container>
+            <container type="box" label="Box [31582759843874691756705]">1</container>
             <unittitle>Songs and other musical compositions containing lyrics by EAG or based upon his poetry</unittitle>
           </did>
           <odd>
@@ -172,19 +172,17 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [65493517477480644061]">1</container>
-            <unittitle>Volume of tributary letters to be published in a Detroit newspaper at the time of the publication of his latest volume of verse <unitdate type="inclusive" normal="1926">1926</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31582759843874691756705]">1</container>
+            <unittitle>Volume of tributary letters to be published in a Detroit newspaper at the time of the publication of his latest volume of verse</unittitle><unitdate type="inclusive" normal="1926">1926</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [65493517477480644061]">1</container>
-            <unittitle>Cartoon depicting a lost wager by the artist with EAG on a Michigan-Minnesota football game <unitdate type="inclusive" normal="1925">1925</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [31582759843874691756705]">1</container>
+            <unittitle>Cartoon depicting a lost wager by the artist with EAG on a Michigan-Minnesota football game</unittitle><unitdate type="inclusive" normal="1925">1925</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [65493517477480644061]">1</container>
+            <container type="box" label="Box [31582759843874691756705]">1</container>
             <unittitle>Miscellaneous</unittitle>
           </did>
         </c02>
@@ -198,63 +196,42 @@
         </odd>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [20293711054200055903451]">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1898/1907">1898-1907</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [48249189586052791]">2</container>
+            <unitdate type="inclusive" normal="1898/1907">1898-1907</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [10513695541596904485956491]">3</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1907/1911">1907-1911</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [316759934119160893026]">3</container>
+            <unitdate type="inclusive" normal="1907/1911">1907-1911</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [05616924499648781196376]">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1911/1917">1911-1917</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [4806236104008295897395382]">4</container>
+            <unitdate type="inclusive" normal="1911/1917">1911-1917</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [694460724846611691261]">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1917/1923">1917-1923</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [00492648298871432916]">5</container>
+            <unitdate type="inclusive" normal="1917/1923">1917-1923</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [5180964140688713118749]">6</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1923/1931">1923-1931</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [966129828474004122342]">6</container>
+            <unitdate type="inclusive" normal="1923/1931">1923-1931</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume [95278970048897407194]">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1932/1936">1932-1936</unitdate>
-            </unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [53626087643189536597]">1</container>
+            <unitdate type="inclusive" normal="1932/1936">1932-1936</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [66070961741393303853749]">7</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1937/1950">1937-1950</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [90965215144821915672]">7</container>
+            <unitdate type="inclusive" normal="1937/1950">1937-1950</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [66070961741393303853749]">7</container>
+            <container type="box" label="Box [90965215144821915672]">7</container>
             <unittitle>Loose clippings</unittitle>
           </did>
         </c02>

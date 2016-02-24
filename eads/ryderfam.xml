@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,10 +43,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Ryder family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/17">Ryder family.</famname>
       </origination>
-      <unittitle encodinganalog="245">Ryder Family Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1861/1969">1861-1969</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1861/1863">1861-1863</unitdate></unittitle>
-      <abstract>Livonia, Michigan family; Civil War correspondence and diary of Alfred G. Ryder, Co. H, First Michigan Cavalry, and correspondence of John E. Ryder, Co. C, Twenty-forth Michigan Infantry, including mention of the battle of Gettysburg. Collection includes originals, some transcripts, and photocopies of documents still in family possession.</abstract>
+      <unittitle encodinganalog="245">Ryder Family Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1861/1969">1861-1969</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1861/1863">1861-1863</unitdate><abstract>Livonia, Michigan family; Civil War correspondence and diary of Alfred G. Ryder, Co. H, First Michigan Cavalry, and correspondence of John E. Ryder, Co. C, Twenty-forth Michigan Infantry, including mention of the battle of Gettysburg. Collection includes originals, some transcripts, and photocopies of documents still in family possession.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">mf364c</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -95,23 +95,23 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Gettysburg (Pa.), Battle of, 1863.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82268584">Livonia (Mich.)</geogname>
-        <famname source="lcnaf" encodinganalog="600">Ryder family.</famname>
-        <persname source="lcnaf" encodinganalog="600">Ryder, Alfred G., 1841-1863.</persname>
-        <persname source="lcnaf" encodinganalog="600">Ryder, John E., 1843-1863.</persname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Michigan Cavalry Regiment, 1st (1861-1866). Company H.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Michigan Infantry Regiment, 24th (1862-1865). Company C.</corpname>
-        <geogname source="lcsh" encodinganalog="651">United States--History--Civil War, 1861-1865.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6543">Gettysburg (Pa.), Battle of, 1863.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82268584" ref="/subjects/1815">Livonia (Mich.)</geogname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/17">Ryder family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/7570">Ryder, Alfred G., 1841-1863.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2966">Ryder, John E., 1843-1863.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/4210">United States. Army. Michigan Cavalry Regiment, 1st (1861-1866). Company H.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3447">United States. Army. Michigan Infantry Regiment, 24th (1862-1865). Company C.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/905">United States--History--Civil War, 1861-1865.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Ryder, Alfred G., 1841-1863.</persname>
-        <persname source="lcnaf" encodinganalog="700">Ryder, John E., 1843-1863.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/7570">Ryder, Alfred G., 1841-1863.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/2966">Ryder, John E., 1843-1863.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Diaries.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3145">Diaries.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -121,7 +121,7 @@
         </did>
         <c02 level="file">
           <did>
-            <container label="Roll [7670321442496047683]" type="reel">1</container>
+            <container label="Roll [7539468204775630017]" type="reel">1</container>
             <unittitle>Introductory Materials</unittitle>
           </did>
           <scopecontent>
@@ -130,18 +130,16 @@
         </c02>
         <c02 level="file">
           <did>
-            <container label="Roll [7670321442496047683]" type="reel">1</container>
-            <unittitle><title render="italic">The Ryder Family</title> by Leonard Servetter, <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-          </did>
+            <container label="Roll [7539468204775630017]" type="reel">1</container>
+            <unittitle><title render="italic">The Ryder Family</title> by Leonard Servetter</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate></did>
           <scopecontent>
             <p>The Ryder Family is a short published history written for use in local elementary schools to teach Michigan history. It covers the family history from the 1810s through the 1950s, mostly focusing on the 19th century.</p>
           </scopecontent>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Roll [7670321442496047683]" type="reel">1</container>
-            <unittitle>Diary of Alfred G. Ryder <unitdate type="inclusive" normal="1861-09/1863-07">September 1861-July 1863</unitdate></unittitle>
-          </did>
+            <container label="Roll [7539468204775630017]" type="reel">1</container>
+            <unittitle>Diary of Alfred G. Ryder</unittitle><unitdate type="inclusive" normal="1861-09/1863-07">September 1861-July 1863</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -157,35 +155,23 @@
             </did>
             <c04 level="file">
               <did>
-                <container label="Roll [7670321442496047683]" type="reel">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1861-09/1861-12">September-December 1861</unitdate>
-                </unittitle>
-              </did>
+                <container label="Roll [7539468204775630017]" type="reel">1</container>
+                <unitdate type="inclusive" normal="1861-09/1861-12">September-December 1861</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container label="Roll [7670321442496047683]" type="reel">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1862-01/1862-06">January-June 1862</unitdate>
-                </unittitle>
-              </did>
+                <container label="Roll [7539468204775630017]" type="reel">1</container>
+                <unitdate type="inclusive" normal="1862-01/1862-06">January-June 1862</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container label="Roll [7670321442496047683]" type="reel">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1862-07/1862-12">July-December 1862</unitdate>
-                </unittitle>
-              </did>
+                <container label="Roll [7539468204775630017]" type="reel">1</container>
+                <unitdate type="inclusive" normal="1862-07/1862-12">July-December 1862</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container label="Roll [7670321442496047683]" type="reel">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1863-01/1863-07">January-July 1863</unitdate>
-                </unittitle>
-              </did>
+                <container label="Roll [7539468204775630017]" type="reel">1</container>
+                <unitdate type="inclusive" normal="1863-01/1863-07">January-July 1863</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -194,61 +180,45 @@
             </did>
             <c04 level="file">
               <did>
-                <container label="Roll [7670321442496047683]" type="reel">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1861-11/1862-03">November 1861-March 1862</unitdate>
-                </unittitle>
-              </did>
+                <container label="Roll [7539468204775630017]" type="reel">1</container>
+                <unitdate type="inclusive" normal="1861-11/1862-03">November 1861-March 1862</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container label="Roll [7670321442496047683]" type="reel">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1862-08/1862-12">August-December 1862</unitdate>
-                </unittitle>
-              </did>
+                <container label="Roll [7539468204775630017]" type="reel">1</container>
+                <unitdate type="inclusive" normal="1862-08/1862-12">August-December 1862</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container label="Roll [7670321442496047683]" type="reel">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1863-01/1863-03">January-March 1863</unitdate>
-                </unittitle>
-              </did>
+                <container label="Roll [7539468204775630017]" type="reel">1</container>
+                <unitdate type="inclusive" normal="1863-01/1863-03">January-March 1863</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container label="Roll [7670321442496047683]" type="reel">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1863-04/1863-07">April-July 1863</unitdate>
-                </unittitle>
-              </did>
+                <container label="Roll [7539468204775630017]" type="reel">1</container>
+                <unitdate type="inclusive" normal="1863-04/1863-07">April-July 1863</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container label="Roll [7670321442496047683]" type="reel">1</container>
-              <unittitle>Miscellaneous <unitdate type="inclusive" normal="1861/1864">1861-1864</unitdate>, <unitdate type="inclusive" normal="1905">1905</unitdate>, <unitdate type="inclusive" normal="1948">1948</unitdate></unittitle>
-            </did>
+              <container label="Roll [7539468204775630017]" type="reel">1</container>
+              <unittitle>Miscellaneous</unittitle><unitdate type="inclusive" normal="1861/1864">1861-1864</unitdate><unitdate type="inclusive" normal="1905">1905</unitdate><unitdate type="inclusive" normal="1948">1948</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Roll [7670321442496047683]" type="reel">1</container>
-            <unittitle>Civil War Memorial Programs <unitdate type="inclusive" normal="1948">1948</unitdate>, <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container label="Roll [7539468204775630017]" type="reel">1</container>
+            <unittitle>Civil War Memorial Programs</unittitle><unitdate type="inclusive" normal="1948">1948</unitdate><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Roll [7670321442496047683]" type="reel">1</container>
-            <unittitle>Newspaper Clippings <unitdate type="inclusive" normal="1905/1965">1905-1965</unitdate>, <unitdate>undated</unitdate></unittitle>
-          </did>
+            <container label="Roll [7539468204775630017]" type="reel">1</container>
+            <unittitle>Newspaper Clippings</unittitle><unitdate type="inclusive" normal="1905/1965">1905-1965</unitdate><unitdate>undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container label="Roll [7670321442496047683]" type="reel">1</container>
-            <unittitle>Letterbooks of Ryder Civil War letters, accumulated and compiled by Raymond A. Ryder, Sr. <unitdate type="inclusive" normal="1861/1863">1861-1863</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container label="Roll [7539468204775630017]" type="reel">1</container>
+            <unittitle>Letterbooks of Ryder Civil War letters, accumulated and compiled by Raymond A. Ryder, Sr.</unittitle><unitdate type="inclusive" normal="1861/1863">1861-1863</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 volumes</extent>
             </physdesc>
           </did>
@@ -258,7 +228,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container label="Roll [7670321442496047683]" type="reel">1</container>
+            <container label="Roll [7539468204775630017]" type="reel">1</container>
             <unittitle>
               <genreform source="aat" normal="Photographs">Photographs</genreform>
             </unittitle>
@@ -269,7 +239,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container label="Roll [7670321442496047683]" type="reel">1</container>
+            <container label="Roll [7539468204775630017]" type="reel">1</container>
             <unittitle>Transcripts of Civil War letters</unittitle>
             <physdesc>
               <physfacet>photocopies</physfacet>
@@ -277,21 +247,18 @@
           </did>
           <c03 level="file">
             <did>
-              <container label="Roll [7670321442496047683]" type="reel">1</container>
-              <unittitle>Alfred G. Ryder letters <unitdate type="inclusive" normal="1861/1864">1861-1864</unitdate></unittitle>
-            </did>
+              <container label="Roll [7539468204775630017]" type="reel">1</container>
+              <unittitle>Alfred G. Ryder letters</unittitle><unitdate type="inclusive" normal="1861/1864">1861-1864</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container label="Roll [7670321442496047683]" type="reel">1</container>
-              <unittitle>John E. Ryder letters <unitdate type="inclusive" normal="1861/1864">1861-1864</unitdate></unittitle>
-            </did>
+              <container label="Roll [7539468204775630017]" type="reel">1</container>
+              <unittitle>John E. Ryder letters</unittitle><unitdate type="inclusive" normal="1861/1864">1861-1864</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container label="Roll [7670321442496047683]" type="reel">1</container>
-              <unittitle>Miscellaneous Ryder letters <unitdate type="inclusive" normal="1862/1863">1862-1863</unitdate></unittitle>
-            </did>
+              <container label="Roll [7539468204775630017]" type="reel">1</container>
+              <unittitle>Miscellaneous Ryder letters</unittitle><unitdate type="inclusive" normal="1862/1863">1862-1863</unitdate></did>
           </c03>
         </c02>
       </c01>

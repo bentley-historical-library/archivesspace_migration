@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Bailey, Franklin H., 1845-1914.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/1390">Bailey, Franklin H., 1845-1914.</persname>
       </origination>
-      <unittitle encodinganalog="245">Franklin H. Bailey papers [microform] <unitdate type="inclusive" encodinganalog="245$f" normal="1861/1912">1861-1912</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85694 mf 284c-285c</unitid>
+      <unittitle encodinganalog="245">Franklin H. Bailey papers [microform]</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1861/1912">1861-1912</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85694 mf 284c-285c</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <physdesc altrender="whole">
         <extent altrender="materialtype spaceoccupied">2 microfilms</extent>
@@ -80,30 +80,30 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Bailey, Franklin H., 1845-1914.</persname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83163898">Adrian (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Astronomy.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85137476">Hillsdale College.</corpname>
-        <subject source="lcsh" encodinganalog="650">Inventions.</subject>
-        <subject source="lcsh" encodinganalog="650">Shiloh, Battle of, Tenn., 1862.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2011086460">United States. Army. Michigan Cavalry Regiment, 4th (1862-1865). Company C.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Michigan Infantry Regiment, 18th (1862-1865). Company C.</corpname>
-        <geogname source="lcsh" encodinganalog="651">United States--History--Civil War, 1861-1865.</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1390">Bailey, Franklin H., 1845-1914.</persname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83163898" ref="/subjects/973">Adrian (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6026">Astronomy.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85137476" ref="/agents/corporate_entities/1144">Hillsdale College.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6027">Inventions.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6028">Shiloh, Battle of, Tenn., 1862.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2011086460" ref="/agents/corporate_entities/274">United States. Army. Michigan Cavalry Regiment, 4th (1862-1865). Company C.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12">United States. Army. Michigan Infantry Regiment, 18th (1862-1865). Company C.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/905">United States--History--Civil War, 1861-1865.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600">Bailey, Franklin H., 1845-1914.</persname>
-        <subject source="lctgm" encodinganalog="650">Planetaria.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1390">Bailey, Franklin H., 1845-1914.</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3755">Planetaria.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Greenfield, Levi, 1836-1865.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/1094">Greenfield, Levi, 1836-1865.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Diaries.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="aat" encodinganalog="655">Scrapbooks.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3145">Diaries.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3133">Scrapbooks.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -113,7 +113,7 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [9523809946096840968]">1</container>
+            <container type="reel" label="Roll [6852981458953714740713]">1</container>
             <unittitle>Biographical information</unittitle>
           </did>
         </c02>
@@ -123,134 +123,97 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [9523809946096840968]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1861-11/1861-12">November-December 1861</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [6852981458953714740713]">1</container>
+              <unitdate type="inclusive" normal="1861-11/1861-12">November-December 1861</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [9523809946096840968]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1862-01/1862-02">January-February 1862</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [6852981458953714740713]">1</container>
+              <unitdate type="inclusive" normal="1862-01/1862-02">January-February 1862</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [9523809946096840968]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1862-03/1862-04">March-April 1862</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [6852981458953714740713]">1</container>
+              <unitdate type="inclusive" normal="1862-03/1862-04">March-April 1862</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [9523809946096840968]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1863-09/1863-12">September-December 1863</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [6852981458953714740713]">1</container>
+              <unitdate type="inclusive" normal="1863-09/1863-12">September-December 1863</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [9523809946096840968]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1864-01/1864-03">January-March 1864</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [6852981458953714740713]">1</container>
+              <unitdate type="inclusive" normal="1864-01/1864-03">January-March 1864</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [9523809946096840968]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1864-04/1864-06">April-June 1864</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [6852981458953714740713]">1</container>
+              <unitdate type="inclusive" normal="1864-04/1864-06">April-June 1864</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [9523809946096840968]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1864-08/1864-10">August-October 1864</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [6852981458953714740713]">1</container>
+              <unitdate type="inclusive" normal="1864-08/1864-10">August-October 1864</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [9523809946096840968]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1864-11/1864-12">November-December 1864</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [6852981458953714740713]">1</container>
+              <unitdate type="inclusive" normal="1864-11/1864-12">November-December 1864</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [9523809946096840968]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1865-01/1865-06">January-June 1865</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [6852981458953714740713]">1</container>
+              <unitdate type="inclusive" normal="1865-01/1865-06">January-June 1865</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [9523809946096840968]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1865-07/1865-08">July-August 1865</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [6852981458953714740713]">1</container>
+              <unitdate type="inclusive" normal="1865-07/1865-08">July-August 1865</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [9523809946096840968]">1</container>
-              <unittitle><unitdate type="inclusive" normal="1865-04/1865-07">April-July 1865</unitdate> (official communications)</unittitle>
-            </did>
+              <container type="reel" label="Roll [6852981458953714740713]">1</container>
+              <unittitle>(official communications)</unittitle><unitdate type="inclusive" normal="1865-04/1865-07">April-July 1865</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [9523809946096840968]">1</container>
-              <unittitle><unitdate type="inclusive">Undated</unitdate> letter from Levi Greenfield to wife, Minerva, who later married F. H. Bailey</unittitle>
-            </did>
+              <container type="reel" label="Roll [6852981458953714740713]">1</container>
+              <unittitle>Letter from Levi Greenfield to wife, Minerva, who later married F. H. Bailey</unittitle><unitdate type="inclusive">Undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [9523809946096840968]">1</container>
-              <unittitle><unitdate type="inclusive" normal="1873-05/1873-07">May-July 1873</unitdate>, <unitdate type="inclusive" normal="1879-07">July 1879</unitdate> letters from abroad to wife, Minerva</unittitle>
-            </did>
+              <container type="reel" label="Roll [6852981458953714740713]">1</container>
+              <unittitle>May-July 1873, July 1879 letters from abroad to wife, Minerva</unittitle><unitdate type="inclusive" normal="1873-05/1873-07">May-July 1873</unitdate><unitdate type="inclusive" normal="1879-07">July 1879</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [9523809946096840968]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1880/1901">1880-1901</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [6852981458953714740713]">1</container>
+              <unitdate type="inclusive" normal="1880/1901">1880-1901</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [9523809946096840968]">1</container>
+            <container type="reel" label="Roll [6852981458953714740713]">1</container>
             <unittitle>Poem about the Civil War</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [9523809946096840968]">1</container>
+            <container type="reel" label="Roll [6852981458953714740713]">1</container>
             <unittitle>Certificates: enlistment and discharge papers</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [9523809946096840968]">1</container>
+            <container type="reel" label="Roll [6852981458953714740713]">1</container>
             <unittitle>Miscellanea: Civil War songbook and two soldiers' hymnbooks</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [9523809946096840968]">1</container>
-            <unittitle>Receipts for courses at Hillsdale College <unitdate type="inclusive" normal="1871/1873">1871-1873</unitdate></unittitle>
-          </did>
+            <container type="reel" label="Roll [6852981458953714740713]">1</container>
+            <unittitle>Receipts for courses at Hillsdale College</unittitle><unitdate type="inclusive" normal="1871/1873">1871-1873</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -260,38 +223,29 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [9523809946096840968]">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1865/1870">1865-1870</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [6852981458953714740713]">1</container>
+              <unitdate type="inclusive" normal="1865/1870">1865-1870</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [37413308441839382603758]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1871/1880">1871-1880</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [07686988334566104560368310]">2</container>
+              <unitdate type="inclusive" normal="1871/1880">1871-1880</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [37413308441839382603758]">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1882/1883">1882-1883</unitdate>
-              </unittitle>
-            </did>
+              <container type="reel" label="Roll [07686988334566104560368310]">2</container>
+              <unitdate type="inclusive" normal="1882/1883">1882-1883</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [37413308441839382603758]">2</container>
+            <container type="reel" label="Roll [07686988334566104560368310]">2</container>
             <unittitle>Miscellanea regarding invention, Bailey's Astral Lantern</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="reel" label="Roll [37413308441839382603758]">2</container>
+            <container type="reel" label="Roll [07686988334566104560368310]">2</container>
             <unittitle>
               <genreform normal="Scrapbooks">Scrapbook</genreform>
             </unittitle>
@@ -305,13 +259,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [37413308441839382603758]">2</container>
+              <container type="reel" label="Roll [07686988334566104560368310]">2</container>
               <unittitle>F.H. Bailey</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Roll [37413308441839382603758]">2</container>
+              <container type="reel" label="Roll [07686988334566104560368310]">2</container>
               <unittitle>Grace Bailey Inman (his daughter) with her father's school-size cosmosphere</unittitle>
             </did>
           </c03>
