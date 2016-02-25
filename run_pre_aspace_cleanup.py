@@ -33,7 +33,7 @@ def main():
 	vandura_real_masters_all = join(vandura_base_dir, 'Real_Masters_all')
 	local_ead_dir = 'eads'
 	dspace_mets_dir = 'C:/Users/djpillen/GitHub/dspace_mets'
-	run_pre_aspace_cleanup(local_ead_dir, dspace_mets_dir)
+	run_pre_aspace_cleanup(vandura_real_masters_all, dspace_mets_dir)
 
 if __name__ == "__main__":
 	main()

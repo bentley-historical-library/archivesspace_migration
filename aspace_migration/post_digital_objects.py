@@ -95,7 +95,7 @@ def post_digital_objects(ead_dir, digital_objects_dir, dspace_mets_dir, aspace_u
                     digital_object['publish'] = True
                     digital_object['file_versions'] = [{'file_uri':href,'xlink_show_attribute':show,'xlink_actuate_attribute':xlink_actuate}]
                     if digital_object_note:
-                        digital_object['notes'] = [{'type':'note','content':[digital_object_note],'jsonmodel_type':'note_digital_object'}]
+                        digital_object['notes'] = [{'type':'note','publish':True,'content':[digital_object_note],'jsonmodel_type':'note_digital_object'}]
                     digital_object_post = requests.post(aspace_url+'/repositories/2/digital_objects',headers=headers,data=json.dumps(digital_object)).json()
 
                     print digital_object_post
@@ -165,7 +165,7 @@ def post_digital_objects(ead_dir, digital_objects_dir, dspace_mets_dir, aspace_u
                 digital_object['publish'] = True
                 digital_object['file_versions'] = [{'file_uri':href,'xlink_show_attribute':show,'xlink_actuate_attribute':xlink_actuate}]
                 if digital_object_note:
-                    digital_object['notes'] = [{'type':'note','content':[digital_object_note],'jsonmodel_type':'note_digital_object'}]
+                    digital_object['notes'] = [{'type':'note','publish':True,'content':[digital_object_note],'jsonmodel_type':'note_digital_object'}]
                 digital_object_post = requests.post(aspace_url+'/repositories/2/digital_objects',headers=headers,data=json.dumps(digital_object)).json()
 
                 print digital_object_post
