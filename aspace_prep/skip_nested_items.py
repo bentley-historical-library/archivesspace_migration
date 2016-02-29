@@ -29,6 +29,7 @@ def skip_nested_items(ead_dir):
 
 def main():
 	project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+	# Replace this with the path to your eads
 	aspace_ead_dir = join(project_dir, 'eads')
 	skip_nested_items(aspace_ead_dir)
 
