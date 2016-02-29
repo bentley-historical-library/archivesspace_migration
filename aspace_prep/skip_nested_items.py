@@ -8,22 +8,18 @@ def skip_nested_items(ead_dir):
 		print "Skipping nested lists in {0}".format(filename)
 		tree = etree.parse(join(ead_dir,filename))
 		items = tree.xpath('//item')
-		lists = tree.xpath('//list')
-		rewrite = False
-		for top_list in lists:
-			if len(re.findall('list', tree.getpath(top_list))) == 1:
+		top_lists = [top_list for top_list in tree.xpath('//list') if len(re.findall(r'\/list', tree.getpath(top_list))) == 1]
+		if top_lists:
+			for top_list in top_lists:
 				sublists = top_list.xpath('.//list')
-				if sublists:
-					rewrite = True
-					for sublist in sublists:
-						sublist.tag = 'sublist'
-		for item in items:
-			subitems = item.xpath('.//item')
-			if subitems:
-				rewrite = True
-				for subitem in subitems:
-					subitem.tag = 'subitem'
-		if rewrite:
+				for sublist in sublists:
+					sublist.tag = 'sublist'
+				top_items = top_list.xpath('./item')
+				for top_item in top_items:
+					subitems = top_item.xpath('.//item')
+					for subitem in subitems:
+						subitem.tag = 'subitem'
+
 			with open(join(ead_dir,filename),'w') as ead_out:
 				ead_out.write(etree.tostring(tree,encoding='utf-8',xml_declaration=True,pretty_print=True))
 
