@@ -66,13 +66,14 @@ def post_defaults(aspace_url, headers):
 
 	mhc_classification = {'title':'Michigan Historical Collections','identifier':'MHC'}
 	uarp_classification = {'title':'University Archives and Records Program','identifier':'UARP'}
+	faculty_classification = {'title':'Faculty Papers', 'identifier':'Faculty'}
 	rcs_classification = {'title':'Records Center Storage','identifier':'RCS'}
 
-	for classification in [mhc_classification, uarp_classification, rcs_classification]:
+	for classification in [mhc_classification, uarp_classification, rcs_classification, faculty_classification]:
 		classification_post = requests.post(aspace_url + '/repositories/2/classifications',headers=headers,data=json.dumps(classification)).json()
 		print classification_post
 		
-	add_enum_values(aspace_url, headers, 23, ['lcnaf', 'lctgm', 'aacr2'])  # subject sources
+	add_enum_values(aspace_url, headers, 23, ['lcnaf', 'lctgm', 'aacr2', 'lcgft', 'ftamc'])  # subject sources
 	add_enum_values(aspace_url, headers, 4, ['lcnaf'])  # name sources
 	add_enum_values(aspace_url, headers, 55, ["on file", "pending", "sent", "n/a", "other"])  # user defined enum 1 values (gift agreement status)
 
